@@ -7,7 +7,11 @@ Orchestrator entrypoint — runs one full collection cycle:
   4. Persist to SQLite
   5. Export static JSON files
   6. Publish (git commit + push) unless DRY_RUN=true
-  7. Optionally send SMTP digest
+
+Secrets are loaded exclusively from environment variables.
+NEVER put real credentials in config.yaml or any committed file.
+For local runs: copy .env.example → .env and fill in values.
+For GitHub Actions: add secrets via Settings → Secrets → Actions.
 """
 from __future__ import annotations
 
@@ -20,9 +24,36 @@ from pathlib import Path
 import yaml
 from dotenv import load_dotenv
 
-# ── Load .env ──────────────────────────────────────────────────────────────
-load_dotenv(Path(__file__).parent / ".env")
-load_dotenv(Path(__file__).parent.parent / ".env")  # repo root fallback
+# ── Load .env (local dev only — never committed) ──────────────────────────
+# Loads .env from worker/ or repo root if present.
+# In GitHub Actions / CI, secrets come from the environment directly.
+load_dotenv(Path(__file__).parent / ".env", override=False)
+load_dotenv(Path(__file__).parent.parent / ".env", override=False)
+
+
+# ── Secrets validation ─────────────────────────────────────────────────────
+def _check_secrets() -> None:
+    """
+    Validate that required secrets are present as environment variables.
+    Fails fast with a clear message rather than silently misbehaving.
+    NEVER reads secrets from config.yaml or any committed file.
+    """
+    missing = []
+    if not os.getenv("OPENROUTER_API_KEY"):
+        missing.append(
+            "OPENROUTER_API_KEY  (set via GitHub Actions secret or local .env)"
+        )
+    if missing:
+        msg = (
+            "\n\n"
+            "ERROR: The following required secrets are missing:\n"
+            + "\n".join(f"  - {m}" for m in missing)
+            + "\n\n"
+            "For local runs:  copy .env.example to .env and fill in real values.\n"
+            "For GitHub Actions: add secrets at Settings → Secrets → Actions.\n"
+            "NEVER commit .env or any file containing real API keys.\n"
+        )
+        sys.exit(msg)
 
 # ── Logging ────────────────────────────────────────────────────────────────
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
@@ -125,6 +156,7 @@ def git_publish(repo_root: Path) -> None:
 
 # ── Main pipeline ──────────────────────────────────────────────────────────
 def run() -> None:
+    _check_secrets()
     cfg           = load_config()
     retention     = cfg.get("retention_days", 30)
     llm_cfg       = cfg.get("llm", {})
