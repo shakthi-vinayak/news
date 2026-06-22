@@ -1,0 +1,46 @@
+# docker-compose.yml
+# Option B: Run the worker locally / on a VM.
+# The container runs main.py once and exits.
+# Pair with host cron (e.g. every 2h) or a cron-sidecar.
+#
+# Quick start:
+#   1. cp .env.example .env && edit .env
+#   2. docker compose up --build worker
+#
+# To run on a schedule without GitHub Actions:
+#   crontab -e  →  0 */2 * * * cd /path/to/repo && docker compose up --build worker
+
+services:
+  worker:
+    build:
+      context: ./worker
+      dockerfile: Dockerfile
+    image: devops-news-worker:latest
+    container_name: devops-news-worker
+    # Run once and exit (scheduling is external)
+    restart: "no"
+    env_file:
+      - .env
+    volumes:
+      # Persist SQLite DB across runs
+      - ./worker/db:/app/db
+      # Mount docs/data so the container writes JSON directly into the repo tree
+      - ./docs/data:/app/../docs/data
+    environment:
+      # Override LOG_LEVEL here if desired
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+    # Optional: cron sidecar approach — uncomment if you prefer in-compose scheduling
+    # command: >
+    #   sh -c "while true; do python main.py; sleep 7200; done"
+
+  # ── Optional: static file server for local preview ────────────────────
+  preview:
+    image: nginx:alpine
+    container_name: devops-news-preview
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./docs:/usr/share/nginx/html:ro
+    profiles:
+      - preview   # start with: docker compose --profile preview up preview

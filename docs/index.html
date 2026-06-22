@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps &amp; AI Hub</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon">⚙️</span>
+        <span class="brand-name">DevOps &amp; AI Hub</span>
+      </div>
+      <div class="header-controls">
+        <span id="last-updated" class="last-updated" aria-live="polite">Loading…</span>
+        <button id="theme-toggle" class="btn-icon" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+    <div id="stale-banner" class="stale-banner hidden" role="alert">
+      ⚠️ Data may be stale — last refresh was more than 6 hours ago.
+    </div>
+  </header>
+
+  <nav class="tab-nav" role="tablist">
+    <button class="tab-btn active" role="tab" aria-selected="true"  data-tab="news"  id="tab-news">📰 News Feed</button>
+    <button class="tab-btn"        role="tab" aria-selected="false" data-tab="jobs"  id="tab-jobs">💼 Job Openings</button>
+  </nav>
+
+  <!-- =========================================================
+       NEWS TAB
+  ========================================================== -->
+  <section id="panel-news" class="tab-panel" role="tabpanel" aria-labelledby="tab-news">
+    <div class="filters-bar">
+      <input type="search" id="news-search" placeholder="Search news…" class="filter-input" aria-label="Search news" />
+      <select id="news-tag-filter"    class="filter-select" aria-label="Filter by tag"><option value="">All tags</option></select>
+      <select id="news-source-filter" class="filter-select" aria-label="Filter by source"><option value="">All sources</option></select>
+      <select id="news-date-filter"   class="filter-select" aria-label="Filter by date">
+        <option value="">All time</option>
+        <option value="1">Last 24 h</option>
+        <option value="7">Last 7 days</option>
+        <option value="30">Last 30 days</option>
+      </select>
+      <button id="news-reset" class="btn-secondary">Reset</button>
+    </div>
+
+    <div id="news-stats" class="results-stats"></div>
+    <div id="news-list"  class="card-grid" role="list"></div>
+    <div id="news-empty" class="empty-state hidden">No articles match your filters.</div>
+    <div id="news-error" class="error-state hidden"></div>
+    <nav class="pagination" id="news-pagination" aria-label="News pagination"></nav>
+  </section>
+
+  <!-- =========================================================
+       JOBS TAB
+  ========================================================== -->
+  <section id="panel-jobs" class="tab-panel hidden" role="tabpanel" aria-labelledby="tab-jobs">
+    <div class="filters-bar">
+      <input type="search" id="jobs-search" placeholder="Search jobs…" class="filter-input" aria-label="Search jobs" />
+      <select id="jobs-category-filter" class="filter-select" aria-label="Filter by category"><option value="">All categories</option></select>
+      <select id="jobs-source-filter"   class="filter-select" aria-label="Filter by source"><option value="">All sources</option></select>
+      <select id="jobs-date-filter"     class="filter-select" aria-label="Filter by date">
+        <option value="">All time</option>
+        <option value="1">Last 24 h</option>
+        <option value="7">Last 7 days</option>
+        <option value="30">Last 30 days</option>
+      </select>
+      <button id="jobs-reset" class="btn-secondary">Reset</button>
+    </div>
+
+    <div id="jobs-stats" class="results-stats"></div>
+    <div id="jobs-list"  class="card-grid" role="list"></div>
+    <div id="jobs-empty" class="empty-state hidden">No jobs match your filters.</div>
+    <div id="jobs-error" class="error-state hidden"></div>
+    <nav class="pagination" id="jobs-pagination" aria-label="Jobs pagination"></nav>
+  </section>
+
+  <footer class="site-footer">
+    <span>DevOps &amp; AI Hub — data refreshed by a scheduled worker</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

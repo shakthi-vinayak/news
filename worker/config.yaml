@@ -1,0 +1,243 @@
+# ============================================================
+# DevOps & AI Hub — Worker Configuration
+# Edit sources/keywords here; no code changes needed.
+# ============================================================
+
+# ── Retention ────────────────────────────────────────────────
+retention_days: 30        # keep items for this many days in SQLite / JSON output
+
+# ── LLM (OpenRouter) ─────────────────────────────────────────
+llm:
+  model: "openai/gpt-4o-mini"   # override with env OPENROUTER_MODEL
+  base_url: "https://openrouter.ai/api/v1"
+  batch_size: 10          # items per OpenRouter request
+  max_tokens: 256
+  temperature: 0.1
+  # Pre-filter: only call LLM on items that contain at least one of these
+  # keywords (case-insensitive). Empty list → call LLM for every item.
+  prefilter_keywords: []  # rely on keyword_filter below for pre-filtering
+
+# ── Keyword filter (pre-LLM relevance gate) ──────────────────
+# An item must contain at least one keyword to be processed.
+keyword_filter:
+  - kubernetes
+  - k8s
+  - devops
+  - sre
+  - site reliability
+  - observability
+  - prometheus
+  - grafana
+  - opentelemetry
+  - terraform
+  - pulumi
+  - helm
+  - argocd
+  - flux
+  - gitops
+  - ci/cd
+  - github actions
+  - jenkins
+  - tekton
+  - docker
+  - podman
+  - containerd
+  - platform engineering
+  - internal developer platform
+  - idp
+  - workflow automation
+  - n8n
+  - airflow
+  - dagster
+  - prefect
+  - llm
+  - llmops
+  - mlops
+  - ai agents
+  - agent
+  - openai
+  - anthropic
+  - claude
+  - gemini
+  - ollama
+  - langchain
+  - langgraph
+  - vector database
+  - rag
+  - cloud native
+  - aws
+  - gcp
+  - azure
+  - service mesh
+  - istio
+  - envoy
+  - ebpf
+  - wasm
+
+# ── News sources ─────────────────────────────────────────────
+news:
+  hacker_news:
+    enabled: true
+    tags:
+      - kubernetes
+      - devops
+      - sre
+      - observability
+      - terraform
+      - llm
+      - ai agents
+      - platform engineering
+    min_points: 5
+    max_items: 50
+
+  devto:
+    enabled: true
+    tags:
+      - devops
+      - sre
+      - kubernetes
+      - ai
+      - llmops
+      - platformengineering
+    max_items: 30
+
+  reddit:
+    enabled: true
+    subreddits:
+      - devops
+      - kubernetes
+      - sre
+      - MachineLearning
+      - LocalLLaMA
+      - selfhosted
+    max_items_per_sub: 25
+    # Reddit public JSON; no auth. Respect 1 req/2 s.
+    delay_seconds: 2.0
+
+  rss_feeds:
+    enabled: true
+    feeds:
+      - name: "AWS Blog"
+        url: "https://aws.amazon.com/blogs/devops/feed/"
+      - name: "AWS Blog (Containers)"
+        url: "https://aws.amazon.com/blogs/containers/feed/"
+      - name: "GCP Blog"
+        url: "https://cloud.google.com/feeds/gcp-release-notes.xml"
+      - name: "Azure DevOps Blog"
+        url: "https://devblogs.microsoft.com/devops/feed/"
+      - name: "CNCF Blog"
+        url: "https://www.cncf.io/feed/"
+      - name: "Kubernetes Blog"
+        url: "https://kubernetes.io/feed.xml"
+      - name: "HashiCorp Blog"
+        url: "https://www.hashicorp.com/blog/feed.xml"
+      - name: "Docker Blog"
+        url: "https://www.docker.com/blog/feed/"
+      - name: "The New Stack"
+        url: "https://thenewstack.io/feed/"
+      - name: "DevOps.com"
+        url: "https://devops.com/feed/"
+      - name: "InfoQ DevOps"
+        url: "https://feed.infoq.com/devops"
+      - name: "Anthropic News"
+        url: "https://www.anthropic.com/news/rss.xml"
+      - name: "OpenAI Blog"
+        url: "https://openai.com/news/rss/"
+      - name: "Google AI Blog"
+        url: "https://blog.google/technology/ai/rss/"
+    max_items_per_feed: 20
+
+  github_releases:
+    enabled: true
+    repos:
+      - kubernetes/kubernetes
+      - hashicorp/terraform
+      - hashicorp/vault
+      - argoproj/argo-cd
+      - argoproj/argo-workflows
+      - grafana/grafana
+      - prometheus/prometheus
+      - open-telemetry/opentelemetry-collector
+      - istio/istio
+      - cilium/cilium
+      - ollama/ollama
+      - langchain-ai/langchain
+      - langchain-ai/langgraph
+      - n8n-io/n8n
+      - apache/airflow
+    max_items_per_repo: 5
+
+# ── Job sources ───────────────────────────────────────────────
+jobs:
+  keywords:
+    - devops
+    - sre
+    - site reliability
+    - platform engineer
+    - cloud engineer
+    - kubernetes
+    - observability
+    - workflow automation
+    - mlops
+    - llmops
+
+  remoteok:
+    enabled: true
+    tags:
+      - devops
+      - sre
+      - kubernetes
+      - cloud
+      - platform
+
+  remotive:
+    enabled: true
+    categories:
+      - devops
+      - software-dev
+
+  weworkremotely:
+    enabled: true
+    # RSS feed for DevOps category
+    feed_url: "https://weworkremotely.com/categories/remote-devops-sysadmin-jobs.rss"
+
+  arbeitnow:
+    enabled: true
+    tags:
+      - devops
+      - sre
+      - kubernetes
+
+  hn_whoishiring:
+    enabled: true
+    # Fetches latest "Who is Hiring" thread via Algolia
+    keywords:
+      - devops
+      - sre
+      - platform engineer
+      - kubernetes
+      - cloud
+
+  greenhouse:
+    enabled: true
+    # Company board slugs — add/remove without code changes
+    boards:
+      - datadog
+      - hashicorp
+      - grafana
+      - cockroachdb
+      - temporal
+      - snyk
+      - lacework
+      - teleport
+
+  lever:
+    enabled: true
+    # Company slugs from lever.co/company-slug/jobs
+    boards:
+      - datadoghq
+      - cloudflare
+      - stripe
+      - figma
+      - linear
+      - notion
