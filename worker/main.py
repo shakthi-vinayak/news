@@ -276,15 +276,6 @@ def run() -> None:
     else:
         log.info("DRY_RUN=true — skipping git publish")
 
-    # ── 12. SMTP digest ────────────────────────────────────────────────────
-    smtp_enabled = os.getenv("SMTP_ENABLED", "false").lower() == "true"
-    if smtp_enabled and not dry_run:
-        try:
-            from notify.smtp_alert import send_digest
-            send_digest(new_news, new_jobs)
-        except Exception as exc:
-            log.error("SMTP digest failed: %s", exc)
-
     log.info(
         "Run %s complete. News: %d total / %d new. Jobs: %d total / %d new. Errors: %d",
         run_id, counts["news"], news_inserted,
