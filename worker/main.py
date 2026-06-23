@@ -148,7 +148,7 @@ def git_publish(repo_root: Path) -> None:
 def run() -> None:
     _check_secrets()
     cfg           = load_config()
-    retention     = cfg.get("retention_days", 30)
+    retention     = cfg.get("retention_days", 7)
     llm_cfg       = cfg.get("llm", {})
     batch_size    = llm_cfg.get("batch_size", 10)
     kw_filter     = cfg.get("keyword_filter", [])
@@ -292,11 +292,16 @@ def run() -> None:
         errors=errors,
     )
 
-    # ── 11. Publish ────────────────────────────────────────────────────────
+    # -- 11. Publish --------------------------------------------------------
     if not dry_run:
-        git_publish(repo_root)
+        # In GitHub Actions (CI), the workflow handles git commit+push itself.
+        # git_publish() is only for Option B (self-hosted Docker).
+        if os.getenv("GITHUB_ACTIONS"):
+            log.info("Running in GitHub Actions -- skipping git_publish (workflow handles commit)")
+        else:
+            git_publish(repo_root)
     else:
-        log.info("DRY_RUN=true — skipping git publish")
+        log.info("DRY_RUN=true -- skipping git publish")
 
     log.info(
         "Run %s complete. News: %d total / %d new. Jobs: %d total / %d new. Errors: %d",

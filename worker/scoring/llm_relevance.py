@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import time
 from typing import Any
 
 import httpx
@@ -61,6 +62,10 @@ def _client() -> httpx.Client:
     )
 
 
+MAX_RETRIES = 3
+RETRY_BASE_DELAY = 10  # seconds
+
+
 def _chat(system: str, user_content: str, model: str) -> str:
     payload = {
         "model": model,
@@ -76,12 +81,27 @@ def _chat(system: str, user_content: str, model: str) -> str:
             "allow_fallbacks": False,
         },
     }
-    with _client() as client:
-        resp = client.post("/chat/completions", json=payload)
-        if resp.status_code == 429 or resp.status_code == 503:
-            raise RuntimeError(f"Free model unavailable (HTTP {resp.status_code}) — skipping batch to avoid paid fallback")
-        resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"].strip()
+    last_err = None
+    for attempt in range(MAX_RETRIES):
+        with _client() as client:
+            resp = client.post("/chat/completions", json=payload)
+            if resp.status_code == 429 or resp.status_code == 503:
+                delay = RETRY_BASE_DELAY * (2 ** attempt)
+                log.warning(
+                    "Free model rate-limited (HTTP %d), retry %d/%d in %ds",
+                    resp.status_code, attempt + 1, MAX_RETRIES, delay,
+                )
+                time.sleep(delay)
+                continue
+            if resp.status_code >= 400:
+                raise RuntimeError(
+                    f"OpenRouter error (HTTP {resp.status_code}) -- skipping batch to avoid paid fallback"
+                )
+            resp.raise_for_status()
+            return resp.json()["choices"][0]["message"]["content"].strip()
+    raise RuntimeError(
+        f"Free model unavailable after {MAX_RETRIES} retries -- skipping batch"
+    )
 
 
 def _safe_parse(raw: str) -> list[dict]:

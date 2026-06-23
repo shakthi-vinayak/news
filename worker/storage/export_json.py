@@ -1,6 +1,13 @@
 """
 worker/storage/export_json.py
-Reads from SQLite and writes docs/data/news.json, jobs.json, meta.json.
+Reads from SQLite AND existing JSON files, merges, and writes
+docs/data/news.json, jobs.json, meta.json.
+
+Key behaviour:
+- New items from the current run are merged with existing items from
+  the previously committed JSON files.
+- For duplicate IDs the newer item wins (latest data retained).
+- Items older than ``retention_days`` are dropped.
 """
 from __future__ import annotations
 
@@ -29,15 +36,92 @@ def _write_json(path: Path, data: Any) -> None:
     log.info("Wrote %s (%d bytes)", path.name, path.stat().st_size)
 
 
+def _read_existing(path: Path) -> list[dict]:
+    """Read existing JSON items list, return [] if file missing or corrupt."""
+    if not path.exists():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return data.get("items") or []
+    except Exception as exc:
+        log.warning("Could not read existing %s: %s", path.name, exc)
+        return []
+
+
+def _is_expired(item: dict, retention_days: int) -> bool:
+    """Return True if the item is older than retention_days."""
+    date_str = item.get("published_at") or item.get("posted_at") or ""
+    if not date_str:
+        return False  # keep if no date
+    try:
+        # Strip timezone offset for simple parsing
+        cleaned = date_str.replace("+00:00", "").replace("Z", "")
+        dt = datetime.fromisoformat(cleaned)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        age_days = (datetime.now(timezone.utc) - dt).total_seconds() / 86400
+        return age_days > retention_days
+    except Exception:
+        return False  # keep if date unparseable
+
+
+def _merge_items(
+    existing: list[dict],
+    fresh: list[dict],
+    retention_days: int,
+) -> list[dict]:
+    """Merge existing + fresh items. For duplicate IDs, fresh wins.
+    Drop items older than retention_days."""
+    by_id: dict[str, dict] = {}
+
+    # Add existing first
+    for item in existing:
+        item_id = item.get("id")
+        if item_id:
+            by_id[item_id] = item
+
+    # Fresh items overwrite existing (same ID = keep latest)
+    for item in fresh:
+        item_id = item.get("id")
+        if item_id:
+            by_id[item_id] = item
+        else:
+            # Items without ID: keep anyway
+            by_id[f"_no_id_{len(by_id)}"] = item
+
+    # Expire old items
+    kept = []
+    expired = 0
+    for item in by_id.values():
+        if _is_expired(item, retention_days):
+            expired += 1
+            continue
+        kept.append(item)
+
+    if expired:
+        log.info("Retired %d expired items (older than %d days)", expired, retention_days)
+
+    return kept
+
+
+def _clean_item(item: dict) -> dict:
+    """Remove internal DB fields that shouldn't appear in JSON."""
+    item.pop("first_seen_at", None)
+    item.pop("last_seen_at", None)
+    if not isinstance(item.get("tags"), list):
+        item["tags"] = []
+    return item
+
+
 def export_all(
     conn: sqlite3.Connection,
     *,
     output_dir: Path | None = None,
-    retention_days: int = 30,
+    retention_days: int = 7,
     source_health: dict[str, str] | None = None,
 ) -> dict[str, int]:
     """
-    Export news + jobs to static JSON files.
+    Export news + jobs to static JSON files, merging with existing data.
 
     Returns a dict with counts: {"news": N, "jobs": M}.
     """
@@ -47,46 +131,46 @@ def export_all(
     generated_at = _now_iso()
 
     # ── News ──────────────────────────────────────────────────────────
-    news_items = get_news(conn, days=retention_days)
-    # Ensure tags is always a list (just in case)
-    for item in news_items:
-        if not isinstance(item.get("tags"), list):
-            item["tags"] = []
-        # Remove internal DB fields that shouldn't appear in JSON
-        item.pop("first_seen_at", None)
-        item.pop("last_seen_at", None)
+    fresh_news = get_news(conn, days=retention_days)
+    for item in fresh_news:
+        _clean_item(item)
+
+    existing_news = _read_existing(out / "news.json")
+    merged_news = _merge_items(existing_news, fresh_news, retention_days)
 
     news_payload = {
         "generated_at": generated_at,
-        "items": news_items,
+        "items": merged_news,
     }
     _write_json(out / "news.json", news_payload)
 
     # ── Jobs ──────────────────────────────────────────────────────────
-    job_items = get_jobs(conn, days=retention_days)
-    for item in job_items:
-        item.pop("first_seen_at", None)
-        item.pop("last_seen_at", None)
+    fresh_jobs = get_jobs(conn, days=retention_days)
+    for item in fresh_jobs:
+        _clean_item(item)
+
+    existing_jobs = _read_existing(out / "jobs.json")
+    merged_jobs = _merge_items(existing_jobs, fresh_jobs, retention_days)
 
     jobs_payload = {
         "generated_at": generated_at,
-        "items": job_items,
+        "items": merged_jobs,
     }
     _write_json(out / "jobs.json", jobs_payload)
 
     # ── Meta ──────────────────────────────────────────────────────────
     meta_payload = {
         "generated_at": generated_at,
-        "news_count": len(news_items),
-        "jobs_count": len(job_items),
+        "news_count": len(merged_news),
+        "jobs_count": len(merged_jobs),
         "source_health": source_health or {},
     }
     _write_json(out / "meta.json", meta_payload)
 
     log.info(
-        "Export complete: %d news, %d jobs -> %s",
-        len(news_items),
-        len(job_items),
+        "Export complete: %d news (%d fresh), %d jobs (%d fresh) -> %s",
+        len(merged_news), len(fresh_news),
+        len(merged_jobs), len(fresh_jobs),
         out,
     )
-    return {"news": len(news_items), "jobs": len(job_items)}
+    return {"news": len(merged_news), "jobs": len(merged_jobs)}

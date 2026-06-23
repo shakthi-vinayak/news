@@ -4,7 +4,7 @@
 # ============================================================
 
 # ── Retention ────────────────────────────────────────────────
-retention_days: 30        # keep items for this many days in SQLite / JSON output
+retention_days: 7        # keep items for this many days in SQLite / JSON output
 
 # ── LLM (OpenRouter) ─────────────────────────────────────────
 llm:
@@ -139,10 +139,7 @@ news:
         url: "https://devops.com/feed/"
       - name: "InfoQ DevOps"
         url: "https://feed.infoq.com/devops"
-      - name: "Anthropic News"
-        url: "https://www.anthropic.com/news/rss.xml"
-      - name: "OpenAI Blog"
-        url: "https://openai.com/news/rss/"
+      # Anthropic and OpenAI RSS feeds are broken (HTML/malformed XML), removed
       - name: "Google AI Blog"
         url: "https://blog.google/technology/ai/rss/"
     max_items_per_feed: 20
@@ -223,22 +220,21 @@ jobs:
     # Company board slugs — add/remove without code changes
     boards:
       - datadog
-      - hashicorp
-      - grafana
-      - cockroachdb
-      - temporal
-      - snyk
-      - lacework
-      - teleport
+      - gitlab
+      - shopify
+      - robinhood
+      - plaid
+      - notion
+      - canva
 
   lever:
     enabled: true
     # Company slugs from lever.co/company-slug/jobs
     boards:
       - datadoghq
-      - cloudflare
-      - stripe
-      - figma
-      - linear
-      - notion
+      - shopify
+      - plaid
+      - affinidi
+      - hebbia
+      - klarna
 
