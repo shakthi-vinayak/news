@@ -70,9 +70,16 @@ def _chat(system: str, user_content: str, model: str) -> str:
         ],
         "max_tokens": 2048,
         "temperature": 0.1,
+        # Prevent OpenRouter from falling back to paid models if free model is unavailable
+        "route": "fallback",
+        "provider": {
+            "allow_fallbacks": False,
+        },
     }
     with _client() as client:
         resp = client.post("/chat/completions", json=payload)
+        if resp.status_code == 429 or resp.status_code == 503:
+            raise RuntimeError(f"Free model unavailable (HTTP {resp.status_code}) — skipping batch to avoid paid fallback")
         resp.raise_for_status()
     return resp.json()["choices"][0]["message"]["content"].strip()
 
