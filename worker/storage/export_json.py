@@ -49,8 +49,11 @@ def _read_existing(path: Path) -> list[dict]:
 
 
 def _is_expired(item: dict, retention_days: int) -> bool:
-    """Return True if the item is older than retention_days."""
-    date_str = item.get("published_at") or item.get("posted_at") or ""
+    """Return True if the item is older than retention_days.
+    Uses first_seen_at if available (from DB), falls back to published_at/posted_at.
+    This avoids expiring jobs that were posted long ago but recently discovered."""
+    # Prefer first_seen_at (when we first collected it) over published_at/posted_at
+    date_str = item.get("first_seen_at") or item.get("published_at") or item.get("posted_at") or ""
     if not date_str:
         return False  # keep if no date
     try:
@@ -71,7 +74,7 @@ def _merge_items(
     retention_days: int,
 ) -> list[dict]:
     """Merge existing + fresh items. For duplicate IDs, fresh wins.
-    Drop items older than retention_days."""
+    Drop items older than retention_days (based on first_seen_at)."""
     by_id: dict[str, dict] = {}
 
     # Add existing first
@@ -106,7 +109,7 @@ def _merge_items(
 
 def _clean_item(item: dict) -> dict:
     """Remove internal DB fields that shouldn't appear in JSON."""
-    item.pop("first_seen_at", None)
+    # NOTE: keep first_seen_at for retention checking in _is_expired!
     item.pop("last_seen_at", None)
     if not isinstance(item.get("tags"), list):
         item["tags"] = []
@@ -118,6 +121,7 @@ def export_all(
     *,
     output_dir: Path | None = None,
     retention_days: int = 7,
+    jobs_retention_days: int = 60,
     source_health: dict[str, str] | None = None,
 ) -> dict[str, int]:
     """
@@ -137,6 +141,9 @@ def export_all(
 
     existing_news = _read_existing(out / "news.json")
     merged_news = _merge_items(existing_news, fresh_news, retention_days)
+    # Remove first_seen_at from final JSON output (was kept for merge/expiry logic)
+    for item in merged_news:
+        item.pop("first_seen_at", None)
 
     news_payload = {
         "generated_at": generated_at,
@@ -145,12 +152,15 @@ def export_all(
     _write_json(out / "news.json", news_payload)
 
     # ── Jobs ──────────────────────────────────────────────────────────
-    fresh_jobs = get_jobs(conn, days=retention_days)
+    fresh_jobs = get_jobs(conn, days=jobs_retention_days)
     for item in fresh_jobs:
         _clean_item(item)
 
     existing_jobs = _read_existing(out / "jobs.json")
-    merged_jobs = _merge_items(existing_jobs, fresh_jobs, retention_days)
+    merged_jobs = _merge_items(existing_jobs, fresh_jobs, jobs_retention_days)
+    # Remove first_seen_at from final JSON output
+    for item in merged_jobs:
+        item.pop("first_seen_at", None)
 
     jobs_payload = {
         "generated_at": generated_at,

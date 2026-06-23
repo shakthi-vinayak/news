@@ -4,7 +4,8 @@
 # ============================================================
 
 # ── Retention ────────────────────────────────────────────────
-retention_days: 7        # keep items for this many days in SQLite / JSON output
+retention_days: 7        # keep news items for this many days
+jobs_retention_days: 60  # keep job listings for this many days (jobs stay relevant longer)
 
 # ── LLM (OpenRouter) ─────────────────────────────────────────
 llm:

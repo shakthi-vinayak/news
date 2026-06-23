@@ -149,6 +149,7 @@ def run() -> None:
     _check_secrets()
     cfg           = load_config()
     retention     = cfg.get("retention_days", 7)
+    jobs_retention = cfg.get("jobs_retention_days", 60)
     llm_cfg       = cfg.get("llm", {})
     batch_size    = llm_cfg.get("batch_size", 10)
     kw_filter     = cfg.get("keyword_filter", [])
@@ -280,6 +281,7 @@ def run() -> None:
         conn,
         output_dir=output_dir,
         retention_days=retention,
+        jobs_retention_days=jobs_retention,
         source_health=source_health,
     )
 
