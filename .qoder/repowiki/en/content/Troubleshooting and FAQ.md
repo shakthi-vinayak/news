@@ -8,7 +8,6 @@
 - [export_json.py](file://worker/storage/export_json.py)
 - [dedupe.py](file://worker/scoring/dedupe.py)
 - [llm_relevance.py](file://worker/scoring/llm_relevance.py)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 - [devto.py](file://worker/collectors/news/devto.py)
 - [hn_algolia.py](file://worker/collectors/news/hn_algolia.py)
 - [lever.py](file://worker/collectors/jobs/lever.py)
@@ -16,7 +15,18 @@
 - [docker-compose.yml](file://docker-compose.yml)
 - [.gitignore](file://.gitignore)
 - [.dockerignore](file://worker/.dockerignore)
+- [worker-schedule.yml](file://.github/workflows/worker-schedule.yml)
+- [pages-deploy.yml](file://.github/workflows/pages-deploy.yml)
+- [test_schema.py](file://tests/test_schema.py)
 </cite>
+
+## Update Summary
+**Changes Made**
+- Removed SMTP digest functionality references throughout the document as it was completely removed from the codebase
+- Updated troubleshooting section to reflect current Git-based deployment workflow without email notifications
+- Removed all references to smtp_alert.py and SMTP-related configurations
+- Updated deployment workflow documentation to reflect GitHub Actions-based Git publishing
+- Revised FAQ section to remove SMTP-related questions and answers
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -36,7 +46,7 @@
 15. [Conclusion](#conclusion)
 
 ## Introduction
-This document provides comprehensive troubleshooting guidance for the worker pipeline that collects news and jobs, deduplicates, scores, persists to SQLite, exports JSON, optionally publishes via Git, and sends SMTP digests. It covers common collection failures, processing errors, deployment issues, performance bottlenecks, logging interpretation, debugging techniques, monitoring/alerting strategies, system health checks, preventive maintenance, security, rate limiting, and environment/configuration FAQs.
+This document provides comprehensive troubleshooting guidance for the worker pipeline that collects news and jobs, deduplicates, scores, persists to SQLite, exports JSON, and publishes via Git. It covers common collection failures, processing errors, deployment issues, performance bottlenecks, logging interpretation, debugging techniques, monitoring/alerting strategies, system health checks, preventive maintenance, security, rate limiting, and environment/configuration FAQs.
 
 ## Project Structure
 The worker orchestrates a multi-stage pipeline:
@@ -44,7 +54,7 @@ The worker orchestrates a multi-stage pipeline:
 - Deduplication and keyword pre-filtering
 - LLM-based scoring and tagging
 - SQLite persistence and JSON export
-- Optional Git publishing and SMTP digest
+- Git publishing workflow
 
 ```mermaid
 graph TB
@@ -54,8 +64,7 @@ A --> D["scoring/dedupe.py<br/>dedupe + keyword filter"]
 A --> E["scoring/llm_relevance.py<br/>OpenRouter scoring"]
 A --> F["storage/db.py<br/>SQLite schema + CRUD"]
 A --> G["storage/export_json.py<br/>JSON export"]
-A --> H["Git publish<br/>git_commit/push"]
-A --> I["notify/smtp_alert.py<br/>digest email"]
+A --> H["Git publish<br/>git_commit/push via GitHub Actions"]
 ```
 
 **Diagram sources**
@@ -64,7 +73,6 @@ A --> I["notify/smtp_alert.py<br/>digest email"]
 - [export_json.py](file://worker/storage/export_json.py)
 - [dedupe.py](file://worker/scoring/dedupe.py)
 - [llm_relevance.py](file://worker/scoring/llm_relevance.py)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 - [devto.py](file://worker/collectors/news/devto.py)
 - [hn_algolia.py](file://worker/collectors/news/hn_algolia.py)
 - [lever.py](file://worker/collectors/jobs/lever.py)
@@ -74,11 +82,11 @@ A --> I["notify/smtp_alert.py<br/>digest email"]
 - [config.yaml](file://worker/config.yaml)
 
 ## Core Components
-- Orchestrator: loads config, initializes DB, runs collection, dedupe, scoring, persistence, export, optional Git publish, optional SMTP digest.
+- Orchestrator: loads config, initializes DB, runs collection, dedupe, scoring, persistence, export, and Git publishing.
 - Storage: SQLite schema, transactions, run logs, and helpers for news/jobs.
 - Scoring: fuzzy dedupe, keyword pre-filter, OpenRouter-based relevance scoring.
 - Export: reads from DB and writes JSON files under docs/data.
-- Notifications: SMTP digest with threshold filtering.
+- Git Publishing: automated publishing via GitHub Actions workflow.
 - Collectors: news and jobs sources with per-source error handling.
 
 **Section sources**
@@ -87,13 +95,12 @@ A --> I["notify/smtp_alert.py<br/>digest email"]
 - [export_json.py](file://worker/storage/export_json.py)
 - [dedupe.py](file://worker/scoring/dedupe.py)
 - [llm_relevance.py](file://worker/scoring/llm_relevance.py)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 - [devto.py](file://worker/collectors/news/devto.py)
 - [hn_algolia.py](file://worker/collectors/news/hn_algolia.py)
 - [lever.py](file://worker/collectors/jobs/lever.py)
 
 ## Architecture Overview
-End-to-end pipeline flow with error handling and optional steps.
+End-to-end pipeline flow with error handling and Git publishing workflow.
 
 ```mermaid
 sequenceDiagram
@@ -104,8 +111,7 @@ participant DD as "Deduper + Filters"
 participant LLM as "LLM Scorer"
 participant DB as "SQLite (db.py)"
 participant EX as "Exporter (export_json.py)"
-participant GIT as "Git Publisher"
-participant SMTP as "SMTP Digest"
+participant GIT as "Git Publisher (GitHub Actions)"
 W->>CN : "collect() per enabled news source"
 CN-->>W : "raw_news[] or error logged"
 W->>DD : "dedupe_batch() + keyword filter"
@@ -122,7 +128,6 @@ LLM-->>W : "jobs with relevance/category"
 W->>DB : "upsert_job() in transaction"
 W->>EX : "export_all() -> news.json/jobs.json/meta.json"
 W->>GIT : "git_publish() unless DRY_RUN"
-W->>SMTP : "send_digest() if enabled"
 ```
 
 **Diagram sources**
@@ -131,7 +136,6 @@ W->>SMTP : "send_digest() if enabled"
 - [export_json.py](file://worker/storage/export_json.py)
 - [dedupe.py](file://worker/scoring/dedupe.py)
 - [llm_relevance.py](file://worker/scoring/llm_relevance.py)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 
 ## Detailed Component Analysis
 
@@ -145,7 +149,6 @@ Key stages and error handling:
 - Transactions wrap DB inserts; run logs record counts and errors.
 - JSON export writes three files and attaches source health.
 - Optional Git publish pushes only if credentials are provided.
-- Optional SMTP digest filters by threshold and sends HTML email.
 
 ```mermaid
 flowchart TD
@@ -164,11 +167,8 @@ Export --> FinishRun["finish_run() with counts + errors"]
 FinishRun --> Publish{"DRY_RUN?"}
 Publish --> |No| GitPush["git_publish()"]
 Publish --> |Yes| SkipGit["Skip Git publish"]
-GitPush --> SMTP{"SMTP enabled?"}
-SkipGit --> SMTP
-SMTP --> |Yes| SendDigest["send_digest()"]
-SMTP --> |No| End(["Done"])
-SendDigest --> End
+SkipGit --> End(["Done"])
+GitPush --> End
 ```
 
 **Diagram sources**
@@ -176,7 +176,6 @@ SendDigest --> End
 - [db.py](file://worker/storage/db.py)
 - [export_json.py](file://worker/storage/export_json.py)
 - [llm_relevance.py](file://worker/scoring/llm_relevance.py)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 
 **Section sources**
 - [main.py](file://worker/main.py)
@@ -282,7 +281,7 @@ LR-->>M : "items with scores/tags or categories"
 
 ### Export and Git Publishing
 - Export reads from DB, normalizes fields, and writes JSON files.
-- Git publish commits and pushes only if credentials are provided; otherwise logs local commit intent.
+- Git publish commits and pushes via GitHub Actions workflow when changes are detected.
 
 ```mermaid
 flowchart TD
@@ -290,6 +289,8 @@ A["export_all()"] --> B["Read news/jobs from DB"]
 B --> C["Normalize items"]
 C --> D["Write news.json/jobs.json/meta.json"]
 D --> E["Log written sizes"]
+E --> F["GitHub Actions validates JSON"]
+F --> G["Commit and push changes"]
 ```
 
 **Diagram sources**
@@ -297,13 +298,6 @@ D --> E["Log written sizes"]
 
 **Section sources**
 - [export_json.py](file://worker/storage/export_json.py)
-- [main.py](file://worker/main.py)
-
-### SMTP Digest
-- Sends HTML digest only when enabled and fully configured; filters by relevance threshold.
-
-**Section sources**
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 - [main.py](file://worker/main.py)
 
 ## Dependency Analysis
@@ -338,8 +332,6 @@ APP --> VDATA["/app/../docs/data (volume mount)"]
 - SQLite: WAL mode improves concurrency; ensure adequate disk I/O and indexing.
 - Network timeouts: collectors and LLM client have explicit timeouts to avoid hangs.
 - Export size: retention window controls dataset size and export time.
-
-[No sources needed since this section provides general guidance]
 
 ## Troubleshooting Guide
 
@@ -388,26 +380,35 @@ Diagnostic steps:
 - [llm_relevance.py](file://worker/scoring/llm_relevance.py)
 - [db.py](file://worker/storage/db.py)
 
-### Deployment Issues (Docker, Compose)
+### Deployment Issues (Docker, Compose, GitHub Actions)
 Symptoms:
 - Container fails to start.
 - JSON files not written to docs/data.
 - DB not persisting across runs.
+- Git publishing fails in GitHub Actions.
 
 Common causes and fixes:
 - Volume mounts: ensure ./docs/data and ./worker/db are mounted correctly.
 - Permissions: container runs as non-root; verify directory ownership and permissions.
 - Entrypoint: container runs once and exits; schedule externally.
+- GitHub Actions secrets: ensure OPENROUTER_API_KEY is set in GitHub Secrets.
+- Git authentication: verify GITHUB_TOKEN permissions for repository access.
+- JSON validation: test_schema.py validates generated JSON structure.
 
 Diagnostic steps:
 - Confirm compose profile and environment variables.
 - Check container logs for permission or path errors.
 - Validate .env presence and required variables.
+- Review GitHub Actions workflow logs for authentication failures.
+- Run pytest tests/test_schema.py locally to validate JSON structure.
 
 **Section sources**
 - [docker-compose.yml](file://docker-compose.yml)
 - [Dockerfile](file://worker/Dockerfile)
 - [main.py](file://worker/main.py)
+- [worker-schedule.yml](file://.github/workflows/worker-schedule.yml)
+- [pages-deploy.yml](file://.github/workflows/pages-deploy.yml)
+- [test_schema.py](file://tests/test_schema.py)
 
 ### Performance Bottlenecks
 Symptoms:
@@ -432,13 +433,12 @@ Diagnostic steps:
 
 ### Logging Interpretation
 Typical log categories:
-- Source collection: “collected X items” and “failed: …”.
+- Source collection: "collected X items" and "failed: …".
 - Deduplication: fuzzy dedup removal count.
 - LLM scoring: batch number and error messages.
 - DB operations: upsert counts and timestamps.
 - Export: file sizes and counts.
 - Git publish: commit/push outcomes or local commit notice.
-- SMTP digest: sent counts or skip reasons.
 
 Actions:
 - Use LOG_LEVEL to increase verbosity during diagnostics.
@@ -449,10 +449,9 @@ Actions:
 - [db.py](file://worker/storage/db.py)
 - [export_json.py](file://worker/storage/export_json.py)
 - [llm_relevance.py](file://worker/scoring/llm_relevance.py)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 
 ### Debugging Techniques
-- Dry-run mode: set DRY_RUN=true to skip Git publish and SMTP while validating pipeline.
+- Dry-run mode: set DRY_RUN=true to skip Git publish while validating pipeline.
 - Environment isolation: run inside container to match production runtime.
 - Incremental testing: enable one source at a time to pinpoint failures.
 - Temporary config overrides: adjust batch size, keywords, and limits.
@@ -463,22 +462,18 @@ Actions:
 
 ## Monitoring and Alerting
 - Built-in run log captures counts and errors per run.
-- Optional SMTP digest provides high-relevance summaries.
+- GitHub Actions workflow automatically validates JSON structure.
 - Consider external monitoring to track:
   - Run duration and success rates.
   - Source health indicators.
   - Disk usage and DB file sizes.
   - Git push success/failure.
 
-[No sources needed since this section provides general guidance]
-
 ## System Health Checks
 - DB connectivity and schema readiness.
 - Exported JSON sizes and timestamps.
-- Git repository status and remote push capability.
-- SMTP delivery status.
-
-[No sources needed since this section provides general guidance]
+- GitHub Actions workflow execution status.
+- JSON validation test results.
 
 ## Preventive Maintenance
 - Regularly prune old items using retention_days.
@@ -493,14 +488,14 @@ Actions:
 
 ## Security Considerations
 - Secrets management: store credentials in environment variables, not code.
-- SMTP credentials: ensure secure transport and minimal scope.
 - OpenRouter API key: restrict usage and monitor consumption.
+- GitHub Actions secrets: ensure proper access control and rotation.
 - Container hardening: non-root user and minimal privileges.
 
 **Section sources**
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 - [llm_relevance.py](file://worker/scoring/llm_relevance.py)
 - [Dockerfile](file://worker/Dockerfile)
+- [worker-schedule.yml](file://.github/workflows/worker-schedule.yml)
 
 ## Rate Limiting and Resource Optimization
 - Collector delays: some sources specify delays; respect them.
@@ -516,7 +511,7 @@ Actions:
 ## FAQ
 
 Q1: How do I enable/disable a news or job source?
-- Set the respective “enabled” flag in config.yaml for the desired source.
+- Set the respective "enabled" flag in config.yaml for the desired source.
 
 Q2: Why are my items not being scored by the LLM?
 - Ensure OPENROUTER_API_KEY is set; otherwise scoring is skipped.
@@ -531,10 +526,10 @@ Q5: How do I prevent Git publishing in dry runs?
 - Set DRY_RUN=true to skip Git publish while keeping other steps.
 
 Q6: How often should I run the worker?
-- Schedule via cron or a cron-sidecar; adjust interval based on source rate limits.
+- GitHub Actions workflow runs every 2 hours; adjust via cron schedule in worker-schedule.yml.
 
-Q7: How do I troubleshoot SMTP digest issues?
-- Confirm SMTP_* variables are set and SMTP_ENABLED=true; check logs for send failures.
+Q7: How do I troubleshoot GitHub Actions deployment issues?
+- Check workflow logs for authentication failures, JSON validation errors, or Git push permissions.
 
 Q8: How do I inspect the database state?
 - Connect to the SQLite file under worker/db/app.db; review run_log and recent items.
@@ -551,7 +546,7 @@ Q10: How do I reset or prune data?
 - [db.py](file://worker/storage/db.py)
 - [docker-compose.yml](file://docker-compose.yml)
 - [Dockerfile](file://worker/Dockerfile)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
+- [worker-schedule.yml](file://.github/workflows/worker-schedule.yml)
 - [.gitignore](file://.gitignore)
 - [.dockerignore](file://worker/.dockerignore)
 

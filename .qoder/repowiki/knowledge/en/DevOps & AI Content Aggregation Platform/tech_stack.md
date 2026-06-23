@@ -1,0 +1,1 @@
+GitHub Actions workflows coordinate the cross-module data flow, using Git as the transport mechanism for generated JSON artifacts between the worker pipeline and the static site host.

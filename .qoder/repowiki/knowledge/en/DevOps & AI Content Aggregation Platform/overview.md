@@ -1,0 +1,1 @@
+Orchestrates a scheduled data pipeline that aggregates, scores, and publishes DevOps news and job listings to a static documentation site.

@@ -1,0 +1,47 @@
+schema_version: 1
+module_path: ""
+title: DevOps & AI Content Aggregation Platform
+scope:
+    - .gitignore
+    - docker-compose.yml
+    - .env.example
+    - .github\workflows\pages-deploy.yml
+    - .github\workflows\worker-schedule.yml
+    - docs\assets\app.js
+    - docs\assets\style.css
+    - docs\data\jobs.json
+    - docs\data\meta.json
+    - docs\data\news.json
+    - docs\index.html
+    - tests\test_schema.py
+    - worker\.dockerignore
+    - worker\Dockerfile
+    - worker\collectors\__init__.py
+    - worker\collectors\jobs\__init__.py
+    - worker\collectors\jobs\arbeitnow.py
+    - worker\collectors\jobs\greenhouse.py
+    - worker\collectors\jobs\hn_whoishiring.py
+    - worker\collectors\jobs\lever.py
+    - worker\collectors\jobs\remoteok.py
+    - worker\collectors\jobs\remotive.py
+    - worker\collectors\jobs\weworkremotely_rss.py
+    - worker\collectors\news\__init__.py
+    - worker\collectors\news\devto.py
+    - worker\collectors\news\github_releases.py
+    - worker\collectors\news\hn_algolia.py
+    - worker\collectors\news\reddit.py
+    - worker\collectors\news\rss_feeds.py
+    - worker\config.yaml
+    - worker\main.py
+    - worker\notify\__init__.py
+    - worker\notify\smtp_alert.py
+    - worker\requirements.txt
+    - worker\scoring\__init__.py
+    - worker\scoring\dedupe.py
+    - worker\scoring\llm_relevance.py
+    - worker\storage\__init__.py
+    - worker\storage\db.py
+    - worker\storage\export_json.py
+source_files: []
+depends_on: []
+related_to: []

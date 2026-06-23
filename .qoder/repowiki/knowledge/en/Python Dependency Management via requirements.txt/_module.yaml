@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: dependency_management
+title: Python Dependency Management via requirements.txt
+scope: []
+source_files:
+    - worker/requirements.txt
+    - worker/Dockerfile
+    - .github/workflows/worker-schedule.yml
+depends_on: []
+related_to: []

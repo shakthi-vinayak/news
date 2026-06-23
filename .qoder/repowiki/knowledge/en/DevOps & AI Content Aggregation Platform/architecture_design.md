@@ -1,0 +1,4 @@
+- The root module defines the operational boundary between the `worker` (data producer) and `docs` (static consumer) via a shared `docs/data/` directory.
+- Orchestration is handled by GitHub Actions (`worker-schedule.yml`) which triggers the worker, validates output schema, and commits updated JSON artifacts to the repository.
+- A secondary workflow (`pages-deploy.yml`) detects these content changes and triggers a GitHub Pages deployment, creating a decoupled CI/CD chain for content updates.
+- Local development and execution are unified via `docker-compose.yml`, which mounts the shared `docs/data` volume to allow the containerized worker to directly update the static site assets.

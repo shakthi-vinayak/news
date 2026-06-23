@@ -1,0 +1,3 @@
+- **LLM Integration**: Uses `openai` SDK compatible client (`httpx`) to interact with OpenRouter API for relevance scoring.
+- **Fuzzy Matching**: Employs `rapidfuzz` for in-batch title deduplication.
+- **Git Operations**: Uses `gitpython` for committing and pushing updated JSON data to a remote repository.

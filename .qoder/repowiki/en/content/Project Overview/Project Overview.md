@@ -2,6 +2,7 @@
 
 <cite>
 **Referenced Files in This Document**
+- [README.md](file://README.md)
 - [worker/main.py](file://worker/main.py)
 - [worker/config.yaml](file://worker/config.yaml)
 - [worker/Dockerfile](file://worker/Dockerfile)
@@ -23,59 +24,70 @@
 - [tests/test_schema.py](file://tests/test_schema.py)
 </cite>
 
+## Update Summary
+**Changes Made**
+- Added comprehensive README.md with detailed architecture and deployment documentation
+- Enhanced system architecture visualization with containerized worker and GitHub Pages frontend
+- Updated configuration management documentation with YAML examples and environment variables
+- Improved deployment workflow documentation for both GitHub Actions and self-hosted options
+- Added detailed component analysis with enhanced technical specifications
+
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Project Structure](#project-structure)
-3. [Core Components](#core-components)
-4. [Architecture Overview](#architecture-overview)
-5. [Detailed Component Analysis](#detailed-component-analysis)
-6. [Dependency Analysis](#dependency-analysis)
-7. [Performance Considerations](#performance-considerations)
-8. [Troubleshooting Guide](#troubleshooting-guide)
-9. [Conclusion](#conclusion)
+2. [System Architecture](#system-architecture)
+3. [Project Structure](#project-structure)
+4. [Core Components](#core-components)
+5. [Configuration Management](#configuration-management)
+6. [Deployment Options](#deployment-options)
+7. [Data Flow and Processing Pipeline](#data-flow-and-processing-pipeline)
+8. [Frontend Features](#frontend-features)
+9. [Testing and Validation](#testing-and-validation)
+10. [Operational Guarantees](#operational-guarantees)
+11. [Troubleshooting Guide](#troubleshooting-guide)
+12. [Conclusion](#conclusion)
 
 ## Introduction
-DevOps & AI Hub is an automated content aggregation platform designed for DevOps, Site Reliability Engineering (SRE), and AI/ML engineering professionals. It continuously collects, deduplicates, scores, and publishes curated content including technical news and job postings into a static, browsable website. The system emphasizes configurability, reproducibility, and low operational overhead, enabling teams to stay informed about industry trends, tools, and opportunities without manual curation.
+DevOps & AI Hub is a sophisticated two-part system designed to aggregate and present DevOps, Site Reliability Engineering (SRE), Cloud, and AI/LLM content into a fast, static web application hosted on GitHub Pages. The platform serves as an automated content aggregation solution for technical professionals, continuously collecting, processing, and publishing curated content including technical news articles and job openings.
 
-Key benefits:
-- Centralized, real-time discovery of relevant DevOps, SRE, and AI/ML content
-- Intelligent filtering and scoring to reduce noise
-- Fully static frontend for fast delivery and easy hosting
-- Automated deployment pipeline with validation and publishing
-- Open-source, configurable for diverse ecosystems and preferences
+**Key Principle**: No API keys ever reach the frontend. All authenticated calls happen inside the container. The frontend only reads static JSON, ensuring security and performance optimization.
 
-Target audience:
+**Target Audience**:
 - DevOps/SRE practitioners seeking curated insights and updates
 - AI/ML engineers interested in infrastructure, MLOps, and platform engineering
 - Hiring managers and recruiters scanning for specialized roles
 - Organizations wanting a lightweight, transparent content hub
 
-## Project Structure
-The repository is organized into two primary areas:
-- worker/: Python-based orchestration and processing pipeline
-- docs/: Static HTML/JavaScript frontend and generated JSON datasets
+**Core Benefits**:
+- Centralized, real-time discovery of relevant technical content
+- Intelligent filtering and scoring to reduce information noise
+- Fully static frontend for optimal performance and easy hosting
+- Automated deployment pipeline with validation and publishing
+- Open-source, highly configurable for diverse technical ecosystems
+
+## System Architecture
+The system follows a clean separation of concerns with a containerized backend worker and a static frontend:
 
 ```mermaid
 graph TB
-subgraph "Worker Pipeline"
-WMain["worker/main.py"]
+subgraph "Container Worker (Docker)"
+WMain["worker/main.py<br/>run()"]
 WCfg["worker/config.yaml"]
 WDocker["worker/Dockerfile"]
 WReq["worker/requirements.txt"]
-WScoring["worker/scoring/"]
-WStorage["worker/storage/"]
-WCollectors["worker/collectors/"]
+WScoring["worker/scoring/<br/>dedupe.py<br/>llm_relevance.py"]
+WStorage["worker/storage/<br/>db.py<br/>export_json.py"]
+WCollectors["worker/collectors/<br/>news/*<br/>jobs/*"]
 end
-subgraph "Docs Frontend"
+subgraph "GitHub Pages Frontend"
 DIndex["docs/index.html"]
 DJS["docs/assets/app.js"]
 DCSS["docs/assets/style.css"]
-DData["docs/data/"]
+DData["docs/data/<br/>news.json<br/>jobs.json<br/>meta.json"]
 end
-subgraph "Automation"
-GA1[".github/workflows/worker-schedule.yml"]
-GA2[".github/workflows/pages-deploy.yml"]
-DCmp["docker-compose.yml"]
+subgraph "Automation Layer"
+GA1[".github/workflows/worker-schedule.yml<br/>Scheduled Worker"]
+GA2[".github/workflows/pages-deploy.yml<br/>GitHub Pages Deploy"]
+DCmp["docker-compose.yml<br/>Local Development"]
 end
 WMain --> WScoring
 WMain --> WStorage
@@ -87,333 +99,333 @@ GA2 --> DData
 DCmp --> WMain
 DIndex --> DJS
 DJS --> DData
+WStorage --> DData
 ```
 
-**Diagram sources**
-- [worker/main.py:127-292](file://worker/main.py#L127-L292)
+**Diagram Sources**
+- [README.md:7-27](file://README.md#L7-L27)
+- [worker/main.py:158-320](file://worker/main.py#L158-L320)
 - [worker/config.yaml:1-244](file://worker/config.yaml#L1-L244)
 - [worker/Dockerfile:1-24](file://worker/Dockerfile#L1-L24)
 - [docker-compose.yml:1-47](file://docker-compose.yml#L1-L47)
-- [.github/workflows/worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70)
+- [.github/workflows/worker-schedule.yml:1-137](file://.github/workflows/worker-schedule.yml#L1-L137)
 - [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
 - [docs/index.html:1-86](file://docs/index.html#L1-L86)
-- [docs/assets/app.js:1-200](file://docs/assets/app.js#L1-L200)
+- [docs/assets/app.js:1-405](file://docs/assets/app.js#L1-L405)
 
-**Section sources**
-- [worker/main.py:127-292](file://worker/main.py#L127-L292)
-- [worker/config.yaml:1-244](file://worker/config.yaml#L1-L244)
-- [worker/Dockerfile:1-24](file://worker/Dockerfile#L1-L24)
-- [docker-compose.yml:1-47](file://docker-compose.yml#L1-L47)
-- [.github/workflows/worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70)
-- [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
-- [docs/index.html:1-86](file://docs/index.html#L1-L86)
-- [docs/assets/app.js:1-200](file://docs/assets/app.js#L1-L200)
-
-## Core Components
-- Orchestrator and pipeline runner
-  - Coordinates collection, deduplication, scoring, persistence, export, and publication
-  - Supports dry-run, SMTP digest notifications, and Git-based publishing
-  - See [worker/main.py:127-292](file://worker/main.py#L127-L292)
-
-- Configuration-driven content sources
-  - News sources: Hacker News, Dev.to, Reddit, RSS feeds, GitHub releases
-  - Jobs sources: RemoteOK, Remotive, We Work Remotely, ArbeitenNOW, Who Is Hiring, Greenhouse, Lever
-  - See [worker/config.yaml:77-244](file://worker/config.yaml#L77-L244)
-
-- Intelligent processing pipeline
-  - Deduplication: hash-based and fuzzy-title deduplication
-  - Keyword pre-filter to reduce LLM calls
-  - LLM scoring via OpenRouter for relevance, summaries, and categorization
-  - See [worker/scoring/dedupe.py:1-90](file://worker/scoring/dedupe.py#L1-L90), [worker/scoring/llm_relevance.py:1-178](file://worker/scoring/llm_relevance.py#L1-L178)
-
-- Persistent storage and export
-  - SQLite-backed ingestion and run logs
-  - Static JSON export for news, jobs, and metadata
-  - See [worker/storage/export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
-
-- Static frontend presentation
-  - Single-page app rendering news and jobs with filtering, pagination, and theme support
-  - Loads data from docs/data/*.json
-  - See [docs/index.html:1-86](file://docs/index.html#L1-L86), [docs/assets/app.js:1-200](file://docs/assets/app.js#L1-L200)
-
-- Automated deployment workflow
-  - Scheduled worker runs in GitHub Actions, validates JSON, and pushes updates
-  - GitHub Pages deployment triggered by changes to docs/**
-  - See [.github/workflows/worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70), [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
-
-**Section sources**
-- [worker/main.py:127-292](file://worker/main.py#L127-L292)
-- [worker/config.yaml:77-244](file://worker/config.yaml#L77-L244)
-- [worker/scoring/dedupe.py:1-90](file://worker/scoring/dedupe.py#L1-L90)
-- [worker/scoring/llm_relevance.py:1-178](file://worker/scoring/llm_relevance.py#L1-L178)
-- [worker/storage/export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
-- [docs/index.html:1-86](file://docs/index.html#L1-L86)
-- [docs/assets/app.js:1-200](file://docs/assets/app.js#L1-L200)
-- [.github/workflows/worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70)
-- [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
-
-## Architecture Overview
-The system follows a clear separation of concerns:
-- Backend (worker): Python orchestrator, collectors, scoring, persistence, and export
-- Frontend (docs): Static HTML/JS app consuming JSON datasets
-- Automation: GitHub Actions for scheduling and publishing; optional Docker Compose for local/VM runs
+## Project Structure
+The repository is organized into distinct, well-defined components:
 
 ```mermaid
 graph TB
-subgraph "Automation"
-A1["GitHub Actions<br/>Schedule Worker"]
-A2["GitHub Actions<br/>Deploy to Pages"]
-end
-subgraph "Worker"
-M["main.py<br/>run()"]
-C["Collectors<br/>news/jobs"]
-S["Scoring<br/>dedupe + LLM"]
-P["Persistence<br/>SQLite"]
-E["Export<br/>JSON files"]
-G["Publish<br/>Git commit/push"]
+subgraph "Backend Worker"
+Worker["worker/<br/>• main.py<br/>• config.yaml<br/>• Dockerfile<br/>• requirements.txt"]
+Collectors["collectors/<br/>• news/<br/>• jobs/"]
+Scoring["scoring/<br/>• dedupe.py<br/>• llm_relevance.py"]
+Storage["storage/<br/>• db.py<br/>• export_json.py"]
 end
 subgraph "Frontend"
-I["index.html"]
-J["assets/app.js"]
-K["assets/style.css"]
-D["docs/data/*.json"]
+Docs["docs/<br/>• index.html<br/>• assets/<br/>• data/"]
 end
-A1 --> M
-M --> C --> S --> P --> E --> D
-M --> G
-A2 --> D
-I --> J --> D
-K -.-> I
+subgraph "Infrastructure"
+Tests["tests/<br/>• test_schema.py"]
+Workflows[".github/workflows/<br/>• worker-schedule.yml<br/>• pages-deploy.yml"]
+Compose["docker-compose.yml"]
+Env[".env.example"]
+end
+Worker --> Collectors
+Worker --> Scoring
+Worker --> Storage
+Storage --> Docs
+Docs --> Tests
+Workflows --> Docs
+Compose --> Worker
 ```
 
-**Diagram sources**
-- [.github/workflows/worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70)
-- [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
-- [worker/main.py:127-292](file://worker/main.py#L127-L292)
-- [worker/scoring/dedupe.py:1-90](file://worker/scoring/dedupe.py#L1-L90)
-- [worker/scoring/llm_relevance.py:1-178](file://worker/scoring/llm_relevance.py#L1-L178)
-- [worker/storage/export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
+**Diagram Sources**
+- [README.md:35-72](file://README.md#L35-L72)
+- [worker/main.py:73-98](file://worker/main.py#L73-L98)
 - [docs/index.html:1-86](file://docs/index.html#L1-L86)
-- [docs/assets/app.js:1-200](file://docs/assets/app.js#L1-L200)
+- [tests/test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
 
-## Detailed Component Analysis
+**Section Sources**
+- [README.md:35-72](file://README.md#L35-L72)
+- [worker/main.py:73-98](file://worker/main.py#L73-L98)
+- [docs/index.html:1-86](file://docs/index.html#L1-L86)
+- [tests/test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
 
-### Backend Orchestration and Multi-Source Collection
-The orchestrator coordinates a full cycle:
-1. Load configuration and initialize runtime state
-2. Collect news and jobs from enabled sources
-3. Deduplicate and pre-filter items
-4. Score items using LLM (OpenRouter)
-5. Persist to SQLite
-6. Export static JSON
-7. Publish changes and optionally send SMTP digest
+## Core Components
 
-```mermaid
-sequenceDiagram
-participant GA as "GitHub Actions"
-participant W as "worker/main.py"
-participant NC as "News Collectors"
-participant JC as "Jobs Collectors"
-participant SC as "Scoring (LLM)"
-participant DB as "SQLite"
-participant EX as "Export JSON"
-participant GH as "Git Publisher"
-GA->>W : Trigger run()
-W->>NC : Collect news from enabled sources
-W->>JC : Collect jobs from enabled sources
-W->>W : Dedupe + keyword pre-filter
-W->>SC : Score news + jobs (batched)
-W->>DB : Upsert items and run logs
-W->>EX : Export docs/data/*.json
-W->>GH : Commit + push if not dry-run
-W-->>GA : Report counts and errors
-```
+### Backend Orchestrator
+The central orchestrator coordinates the complete content aggregation pipeline:
 
-**Diagram sources**
-- [.github/workflows/worker-schedule.yml:44-57](file://.github/workflows/worker-schedule.yml#L44-L57)
-- [worker/main.py:127-292](file://worker/main.py#L127-L292)
-- [worker/scoring/llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
-- [worker/storage/export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
+- **Multi-source Collection**: News from Hacker News, Dev.to, Reddit, RSS feeds, and GitHub releases; Jobs from RemoteOK, Remotive, WeWorkRemotely, ArbeitenNOW, HN Who is Hiring, Greenhouse, and Lever
+- **Intelligent Processing**: Deduplication, keyword pre-filtering, and LLM scoring via OpenRouter
+- **Persistent Storage**: SQLite-backed ingestion with run logging and history tracking
+- **Static Export**: Generates JSON files for frontend consumption
+- **Automated Publishing**: Git commit/push for GitHub Pages deployment
 
-**Section sources**
-- [worker/main.py:127-292](file://worker/main.py#L127-L292)
+**Section Sources**
+- [worker/main.py:158-320](file://worker/main.py#L158-L320)
 - [worker/config.yaml:77-244](file://worker/config.yaml#L77-L244)
 
 ### Intelligent Processing Pipeline
-- Deduplication
-  - Stable deterministic IDs for news and jobs
-  - DB-backed seen checks and fuzzy-title deduplication within batches
-- Keyword pre-filter
-  - Reduces LLM calls by filtering items that do not match configured keywords
-- LLM scoring
-  - Batched scoring for news and jobs via OpenRouter
-  - Structured outputs for relevance, summaries, tags, and categories
+The pipeline implements sophisticated content processing:
 
-```mermaid
-flowchart TD
-Start(["Start Processing"]) --> LoadCfg["Load config and runtime"]
-LoadCfg --> CollectNews["Collect news from sources"]
-LoadCfg --> CollectJobs["Collect jobs from sources"]
-CollectNews --> DedupNews["Deduplicate + keyword pre-filter"]
-CollectJobs --> DedupJobs["Deduplicate"]
-DedupNews --> ScoreNews["Batch LLM scoring (news)"]
-DedupJobs --> ScoreJobs["Batch LLM scoring (jobs)"]
-ScoreNews --> Persist["Upsert to SQLite"]
-ScoreJobs --> Persist
-Persist --> Export["Export JSON (news/jobs/meta)"]
-Export --> Publish{"Dry-run?"}
-Publish --> |No| GitPush["Commit + push"]
-Publish --> |Yes| Skip["Skip publish"]
-GitPush --> Done(["Complete"])
-Skip --> Done
+- **Deduplication Strategy**: Hash-based stable IDs combined with fuzzy-title matching for near-duplicates
+- **Keyword Pre-filter**: Reduces LLM calls by filtering items that match configured keywords
+- **LLM Scoring**: Batched OpenRouter integration for relevance scoring, summaries, and categorization
+- **Error Resilience**: Individual source failures don't crash the entire pipeline
+
+**Section Sources**
+- [worker/scoring/dedupe.py:1-90](file://worker/scoring/dedupe.py#L1-L90)
+- [worker/scoring/llm_relevance.py:1-178](file://worker/scoring/llm_relevance.py#L1-L178)
+
+### Static Frontend Presentation
+The frontend provides a modern, responsive user experience:
+
+- **Single-Page Application**: Vanilla JavaScript with no build step
+- **Dual-Tab Interface**: Separate tabs for News Feed and Job Openings
+- **Advanced Filtering**: Search, tag/category, source, and date range filters
+- **Responsive Design**: Mobile-first approach with pagination
+- **Theme Support**: Light/dark mode with persistent preferences
+
+**Section Sources**
+- [docs/index.html:1-86](file://docs/index.html#L1-L86)
+- [docs/assets/app.js:1-405](file://docs/assets/app.js#L1-L405)
+
+## Configuration Management
+The system uses a comprehensive YAML-based configuration approach:
+
+### Key Configuration Areas
+- **Retention Policy**: Days of data to keep in SQLite and exported JSON
+- **LLM Settings**: Model selection, batch size, and OpenRouter integration
+- **Keyword Filters**: Pre-LLM relevance gates for both news and jobs
+- **Source Management**: Enable/disable individual sources with custom settings
+
+### Configuration Examples
+The system supports dynamic source addition without code changes:
+
+**Adding RSS Feeds**:
+```yaml
+news:
+  rss_feeds:
+    enabled: true
+    feeds:
+      - name: "My Blog"
+        url: "https://example.com/feed.xml"
 ```
 
-**Diagram sources**
-- [worker/main.py:127-292](file://worker/main.py#L127-L292)
-- [worker/scoring/dedupe.py:19-90](file://worker/scoring/dedupe.py#L19-L90)
+**Adding Job Boards**:
+```yaml
+jobs:
+  greenhouse:
+    enabled: true
+    boards:
+      - your-company-slug
+  lever:
+    enabled: true
+    boards:
+      - your-company-slug
+```
+
+**Section Sources**
+- [worker/config.yaml:1-244](file://worker/config.yaml#L1-L244)
+- [README.md:133-151](file://README.md#L133-L151)
+
+## Deployment Options
+
+### GitHub Actions (Recommended)
+Zero-infrastructure deployment using GitHub's managed runners:
+
+1. **Scheduled Execution**: Every 2 hours via cron
+2. **Automatic Validation**: JSON schema validation with pytest
+3. **Seamless Publishing**: Git commit/push triggers GitHub Pages deployment
+4. **Secret Management**: API keys stored as GitHub Secrets
+
+### Self-Hosted Deployment
+For organizations preferring on-premises control:
+
+- **Docker Container**: Run worker as a scheduled container
+- **External Scheduling**: Use host cron or Kubernetes CronJob
+- **Git Integration**: Configure GitHub Personal Access Token for auto-push
+- **Environment Variables**: Complete configuration via .env file
+
+**Section Sources**
+- [.github/workflows/worker-schedule.yml:1-137](file://.github/workflows/worker-schedule.yml#L1-L137)
+- [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
+- [docker-compose.yml:1-47](file://docker-compose.yml#L1-L47)
+
+## Data Flow and Processing Pipeline
+
+### End-to-End Content Aggregation
+```mermaid
+sequenceDiagram
+participant Scheduler as "GitHub Actions/Cron"
+participant Worker as "Container Worker"
+participant Collectors as "News/Jobs Collectors"
+participant Scoring as "LLM Scoring"
+participant Storage as "SQLite Database"
+participant Export as "JSON Export"
+participant Pages as "GitHub Pages"
+Scheduler->>Worker : Trigger collection cycle
+Worker->>Collectors : Fetch news and jobs from enabled sources
+Collectors-->>Worker : Raw content with metadata
+Worker->>Worker : Deduplicate and keyword pre-filter
+Worker->>Scoring : Batch LLM scoring via OpenRouter
+Scoring-->>Worker : Relevance scores, summaries, tags
+Worker->>Storage : Upsert items and run logs
+Worker->>Export : Generate news.json, jobs.json, meta.json
+Export->>Pages : Commit and push to docs/data/
+Pages-->>Users : Serve updated static content
+```
+
+**Diagram Sources**
+- [.github/workflows/worker-schedule.yml:44-124](file://.github/workflows/worker-schedule.yml#L44-L124)
+- [worker/main.py:158-320](file://worker/main.py#L158-L320)
 - [worker/scoring/llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
 - [worker/storage/export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 
-**Section sources**
-- [worker/scoring/dedupe.py:1-90](file://worker/scoring/dedupe.py#L1-L90)
-- [worker/scoring/llm_relevance.py:1-178](file://worker/scoring/llm_relevance.py#L1-L178)
-- [worker/storage/export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
+### Processing Pipeline Details
+The system implements a robust, multi-stage processing pipeline:
 
-### Static Frontend Presentation
-The frontend is a vanilla JavaScript SPA that:
-- Loads meta, news, and jobs JSON
-- Renders tabbed views for news and jobs
-- Provides filtering by search term, tag/source/date, and pagination
-- Displays last-updated timestamp and stale banner
-- Supports light/dark theme with persistent preference
+1. **Collection Phase**: Multiple sources with individual error handling
+2. **Pre-processing**: Deduplication and keyword filtering
+3. **Scoring Phase**: LLM-powered relevance assessment
+4. **Persistence Phase**: SQLite storage with run tracking
+5. **Export Phase**: Static JSON generation for frontend consumption
+6. **Publication Phase**: Git commit/push for deployment
 
-```mermaid
-sequenceDiagram
-participant Browser as "Browser"
-participant Index as "index.html"
-participant App as "assets/app.js"
-participant Data as "docs/data/*.json"
-Browser->>Index : Load page
-Index->>App : Initialize UI and theme
-App->>Data : Fetch meta.json
-App->>App : Apply last-updated and stale banner
-App->>Data : Fetch news.json and jobs.json
-App->>App : Populate filters and render cards
-App->>Browser : Render paginated results and stats
-```
+**Section Sources**
+- [worker/main.py:179-304](file://worker/main.py#L179-L304)
+- [worker/scoring/dedupe.py:48-77](file://worker/scoring/dedupe.py#L48-L77)
+- [worker/scoring/llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
 
-**Diagram sources**
-- [docs/index.html:1-86](file://docs/index.html#L1-L86)
-- [docs/assets/app.js:108-200](file://docs/assets/app.js#L108-L200)
-- [docs/assets/app.js:132-190](file://docs/assets/app.js#L132-L190)
+## Frontend Features
+The static frontend provides a comprehensive user experience:
 
-**Section sources**
-- [docs/index.html:1-86](file://docs/index.html#L1-L86)
-- [docs/assets/app.js:1-200](file://docs/assets/app.js#L1-L200)
+### User Interface Components
+- **Dual-Tab Navigation**: Separate sections for news and job listings
+- **Advanced Filtering System**: Multi-dimensional filtering with search capabilities
+- **Responsive Layout**: Optimized for mobile, tablet, and desktop devices
+- **Theme Support**: Dynamic light/dark mode with persistent user preferences
+- **Performance Optimization**: Static content delivery with minimal JavaScript
 
-### Automated Deployment Workflow
-- Scheduled worker run
-  - Runs inside a Docker-built container
-  - Validates exported JSON schema
-  - Commits and pushes updated docs/data/*.json
-- Pages deployment
-  - Automatically deploys docs/** to GitHub Pages on push
+### Filtering Capabilities
+- **Text Search**: Real-time search across titles and summaries
+- **Category/Tag Filtering**: Hierarchical organization by technology domains
+- **Source Filtering**: Filter by content source for provenance tracking
+- **Time Range Selection**: Last 24h, 7 days, or 30 days filtering
+- **Pagination**: Efficient navigation through large datasets
 
-```mermaid
-sequenceDiagram
-participant Cron as "Scheduler"
-participant GA as "Actions Runner"
-participant W as "worker/main.py"
-participant V as "Schema Validator"
-participant GH as "GitHub Repo"
-participant Pages as "GitHub Pages"
-Cron->>GA : Trigger workflow
-GA->>W : Run worker
-W->>V : Validate docs/data/*.json
-W->>GH : Commit + push updated JSON
-GH->>Pages : Artifact upload and deploy
-Pages-->>Users : Serve updated site
-```
+### Technical Implementation
+The frontend uses vanilla JavaScript with no build tools:
+- **No Dependencies**: Pure ES6 with modern browser APIs
+- **Graceful Degradation**: Handles missing or malformed JSON gracefully
+- **Accessibility**: Proper ARIA labels and keyboard navigation support
+- **Performance**: Minimal bundle size with efficient DOM manipulation
 
-**Diagram sources**
-- [.github/workflows/worker-schedule.yml:14-17](file://.github/workflows/worker-schedule.yml#L14-L17)
-- [.github/workflows/worker-schedule.yml:44-70](file://.github/workflows/worker-schedule.yml#L44-L70)
-- [.github/workflows/pages-deploy.yml:20-42](file://.github/workflows/pages-deploy.yml#L20-L42)
+**Section Sources**
+- [docs/index.html:26-77](file://docs/index.html#L26-L77)
+- [docs/assets/app.js:108-405](file://docs/assets/app.js#L108-L405)
 
-**Section sources**
-- [.github/workflows/worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70)
-- [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
+## Testing and Validation
+The system includes comprehensive testing and validation mechanisms:
 
-## Dependency Analysis
-- Runtime dependencies
-  - HTTP clients, YAML parsing, environment loading, Git operations, and LLM client libraries
-- Internal module dependencies
-  - main.py depends on collectors, scoring, storage, and notification modules
-  - Collectors depend on shared dedup ID helpers
-  - Export module depends on storage queries
+### Schema Validation
+- **PyTest Integration**: Automated validation of generated JSON structure
+- **Required Fields**: Ensures all critical fields exist in news and jobs data
+- **Type Safety**: Validates data types and ranges for numeric fields
+- **Uniqueness Checks**: Prevents duplicate IDs in generated datasets
 
+### Test Coverage
 ```mermaid
 graph LR
-Main["worker/main.py"] --> CNews["collectors.news.*"]
-Main --> CJobs["collectors.jobs.*"]
-Main --> Dedup["scoring.dedupe"]
-Main --> LLM["scoring.llm_relevance"]
-Main --> Export["storage.export_json"]
-Main --> GitPub["Git publish"]
-CNews --> Dedup
-CJobs --> Dedup
-LLM --> Export
-Export --> Data["docs/data/*.json"]
+TestRunner["pytest tests/test_schema.py"]
+MetaTest["Meta JSON Validation"]
+NewsTest["News JSON Validation"]
+JobsTest["Jobs JSON Validation"]
+TestRunner --> MetaTest
+TestRunner --> NewsTest
+TestRunner --> JobsTest
+MetaTest --> SchemaOK["Schema Valid"]
+NewsTest --> SchemaOK
+JobsTest --> SchemaOK
 ```
 
-**Diagram sources**
-- [worker/main.py:42-66](file://worker/main.py#L42-L66)
-- [worker/requirements.txt:1-11](file://worker/requirements.txt#L1-L11)
+**Diagram Sources**
+- [tests/test_schema.py:28-136](file://tests/test_schema.py#L28-L136)
 
-**Section sources**
-- [worker/main.py:42-66](file://worker/main.py#L42-L66)
-- [worker/requirements.txt:1-11](file://worker/requirements.txt#L1-L11)
+**Section Sources**
+- [tests/test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
+- [.github/workflows/worker-schedule.yml:52-56](file://.github/workflows/worker-schedule.yml#L52-L56)
 
-## Performance Considerations
-- Batched LLM scoring reduces API costs and latency
-- Keyword pre-filter minimizes unnecessary LLM calls
-- Fuzzy deduplication reduces redundant items early
-- Static JSON export eliminates server-side rendering overhead
-- Lightweight container and minimal dependencies optimize startup and memory footprint
+## Operational Guarantees
+The system provides several operational guarantees:
+
+### Security Guarantees
+- **No Secrets in Frontend**: API keys and sensitive data never leave the container
+- **Environment-Based Configuration**: All secrets loaded from environment variables
+- **Container Isolation**: Complete separation between backend processing and frontend serving
+
+### Reliability Guarantees
+- **Idempotent Operations**: Re-running the worker doesn't create duplicate entries
+- **Source Resilience**: Individual source failures don't affect overall pipeline
+- **Rate Limit Compliance**: Configurable delays for Reddit and GitHub API usage
+- **Error Tracking**: Comprehensive logging and health monitoring
+
+### Performance Guarantees
+- **Static Delivery**: Zero server-side rendering overhead
+- **Efficient Caching**: Browser and CDN caching for optimal performance
+- **Minimal Dependencies**: Lightweight container with focused functionality
+
+**Section Sources**
+- [README.md:235-241](file://README.md#L235-L241)
+- [worker/main.py:183-192](file://worker/main.py#L183-L192)
 
 ## Troubleshooting Guide
-Common issues and resolutions:
-- LLM scoring disabled or failing
-  - Ensure OPENROUTER_API_KEY is set in environment
-  - Verify OPENROUTER_MODEL and base URL configuration
-  - Review logs for batch failures; unscored items are preserved
-  - See [worker/scoring/llm_relevance.py:105-131](file://worker/scoring/llm_relevance.py#L105-L131)
 
-- Source collection errors
-  - Check individual source health reported in meta.json and logs
-  - Confirm network connectivity and rate limits
-  - See [worker/main.py:151-160](file://worker/main.py#L151-L160)
+### Common Issues and Solutions
 
-- JSON schema validation failures
-  - Validate docs/data/*.json against required fields and types
-  - Duplicate IDs or missing required keys will cause tests to fail
-  - See [tests/test_schema.py:28-136](file://tests/test_schema.py#L28-L136)
+#### LLM Scoring Configuration
+- **Problem**: LLM scoring disabled or failing
+- **Solution**: Ensure `OPENROUTER_API_KEY` is set in environment variables
+- **Validation**: Check OpenRouter model configuration and API quota status
 
-- Dry-run mode
-  - Set DRY_RUN=true to skip Git publishing and SMTP digest
-  - Useful for testing without affecting production data
-  - See [worker/main.py:136](file://worker/main.py#L136)
+#### Source Collection Failures
+- **Problem**: Individual source collection errors
+- **Solution**: Monitor `meta.json.source_health` for detailed error reporting
+- **Prevention**: Implement rate limiting and retry logic for external APIs
 
-- Local development and preview
-  - Use docker-compose to run the worker and preview with nginx
-  - Mount docs/data for live updates during development
-  - See [docker-compose.yml:13-47](file://docker-compose.yml#L13-L47)
+#### JSON Validation Failures
+- **Problem**: Schema validation errors in CI/CD pipeline
+- **Solution**: Validate generated JSON against required fields and types
+- **Debugging**: Use pytest locally to reproduce and fix validation issues
 
-**Section sources**
+#### Deployment Issues
+- **Problem**: GitHub Pages not updating after successful worker run
+- **Solution**: Verify GitHub Actions secrets and permissions
+- **Monitoring**: Check workflow logs for commit/push failures
+
+#### Local Development Problems
+- **Problem**: Docker container fails to start or process data
+- **Solution**: Verify `.env` file configuration and volume mounts
+- **Preview**: Use `docker compose --profile preview` for local testing
+
+**Section Sources**
 - [worker/scoring/llm_relevance.py:105-131](file://worker/scoring/llm_relevance.py#L105-L131)
-- [worker/main.py:151-160](file://worker/main.py#L151-L160)
+- [worker/main.py:183-192](file://worker/main.py#L183-L192)
 - [tests/test_schema.py:28-136](file://tests/test_schema.py#L28-L136)
 - [docker-compose.yml:13-47](file://docker-compose.yml#L13-L47)
 
 ## Conclusion
-DevOps & AI Hub delivers a robust, automated pipeline that aggregates and presents relevant content for DevOps, SRE, and AI/ML engineering audiences. Its modular design, configurable sources, intelligent processing, and static frontend make it easy to operate and extend. The GitHub Actions-driven deployment ensures fresh content with minimal maintenance, while the schema validation guarantees data quality. Whether you are curating resources for your team or building a community hub, the project offers a solid foundation to scale and customize.
+DevOps & AI Hub represents a mature, production-ready solution for automated content aggregation in technical domains. The comprehensive README.md documentation, combined with the clean separation of concerns between backend processing and frontend presentation, creates a robust foundation for continuous content curation.
+
+**Key Strengths**:
+- **Security-First Design**: Complete separation of authentication and presentation layers
+- **Configurable Architecture**: Extensive customization through YAML configuration
+- **Reliable Operations**: Multiple deployment options with comprehensive monitoring
+- **Developer Experience**: Clear documentation and straightforward contribution guidelines
+- **Community Focus**: Open-source approach encouraging community contributions
+
+The system successfully addresses the challenges of content discovery in rapidly evolving technical fields while maintaining operational simplicity and security best practices. Whether deployed as a community resource or customized for organizational use, DevOps & AI Hub provides a solid foundation for automated content curation.

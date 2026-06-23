@@ -1,0 +1,2 @@
+- `docker compose up --build worker`: Executes a single collection cycle of the aggregation pipeline.
+- `docker compose --profile preview up preview`: Boots a local Nginx server to view the generated static site.

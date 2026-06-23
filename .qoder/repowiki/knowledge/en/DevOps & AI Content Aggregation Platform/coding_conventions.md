@@ -1,0 +1,2 @@
+- Configuration-driven extensibility: All collector sources, keywords, and LLM parameters are defined in `worker/config.yaml` rather than hardcoded in Python modules.
+- Schema validation gate: Generated JSON artifacts are validated against `tests/test_schema.py` in the CI pipeline before being committed to the repository.
