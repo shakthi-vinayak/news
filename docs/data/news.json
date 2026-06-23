@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T20:22:52Z",
+  "generated_at": "2026-06-23T23:20:11Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -1132,21 +1132,6 @@
         "devops",
         "networking",
         "debugging"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b1ac8b2c108bf7ceb6d67dc91a76fa70",
-      "title": "Deploying Label Studio Open-Source Data Labeling Platform on Ubuntu 24.04",
-      "url": "https://dev.to/vultr/deploying-label-studio-open-source-data-labeling-platform-on-ubuntu-2404-5bd0",
-      "source": "Dev.to",
-      "published_at": "2026-06-16T20:57:20Z",
-      "summary": "Label Studio is an open-source data labeling platform that supports annotation across text, images,...",
-      "tags": [
-        "ai",
-        "docker",
-        "devops",
-        "datascience"
       ],
       "relevance_score": 0.0
     },
@@ -2647,6 +2632,66 @@
         "cicd",
         "devops",
         "tooling"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3f9400d672826d55590b3e1e0d4b7d0b",
+      "title": "Kure Monitor Troubleshoot",
+      "url": "https://www.reddit.com/r/devops/comments/1udw6mu/kure_monitor_troubleshoot/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-23T22:51:50+00:00",
+      "summary": "Thanks to LLM, I created the tool to troubleshoot the Kubernetes cluster + to help DevOps to implement best security practices. &amp;#x200B; It auto detects failing pods, suggests the solution, and also allows you to create a temporary pod with &quot;fix&quot;. It also gives you suggestions on what ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3d55d84d81d783c142df8bf708d9720f",
+      "title": "Fixing “Git Divergent Branches” on a Production Server (Real DevOps Debugging Walkthrough)",
+      "url": "https://dev.to/saint_vandora/fixing-git-divergent-branches-on-a-production-server-real-devops-debugging-walkthrough-48np",
+      "source": "Dev.to",
+      "published_at": "2026-06-23T21:48:29Z",
+      "summary": "One of the most confusing errors you can face while deploying a Node.js or Docker-based application...",
+      "tags": [
+        "ai",
+        "devops",
+        "tutorial",
+        "programming"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e3e3f11093f0d0f2dcd8b26c1f17b077",
+      "title": "Kubernetes teams trust automation to ship code but not to touch CPU, and AI is raising the stakes",
+      "url": "https://thenewstack.io/kubernetes-teams-trust-automation/",
+      "source": "The New Stack",
+      "published_at": "2026-06-23T20:56:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f8209619903c104de1b01599503b5c7a",
+      "title": "Microsoft Brings the Azure SDK for Rust to General Availability",
+      "url": "https://devops.com/microsoft-brings-the-azure-sdk-for-rust-to-general-availability/",
+      "source": "DevOps.com",
+      "published_at": "2026-06-23T20:51:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f536956543bebe630ceeff38eaf5fdc0",
+      "title": "Too cheap to be good? Think again.",
+      "url": "https://dev.to/pascal_cescato_692b7a8a20/too-cheap-to-be-good-think-again-4nj0",
+      "source": "Dev.to",
+      "published_at": "2026-06-23T20:38:37Z",
+      "summary": "I replaced aaPanel/OpenLiteSpeed with Caddy and shell scripts and turned the process into a benchmark. Two phases (architecture then code), one external code review. The winning model? Not the one you'd expect.",
+      "tags": [
+        "ai",
+        "benchmark",
+        "devops",
+        "webdev"
       ],
       "relevance_score": 0.0
     }
