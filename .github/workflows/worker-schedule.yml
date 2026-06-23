@@ -1,23 +1,12 @@
 name: Refresh Data (Worker Schedule)
 
-# Option A: GitHub Actions handles the schedule.
-# Runs worker/main.py on a cron, commits updated docs/data/*.json, and pushes —
-# which then triggers pages-deploy.yml to re-publish the site.
-#
-# Required GitHub Secrets (Settings → Secrets → Actions):
-#   OPENROUTER_API_KEY  — OpenRouter API key
-#
-# Optional GitHub Variables (Settings → Variables → Actions):
-#   OPENROUTER_MODEL    — override the LLM model (default: openai/gpt-4o-mini)
-
 on:
   schedule:
-    # Run every 2 hours
     - cron: "0 */2 * * *"
-  workflow_dispatch:      # allow manual trigger from the Actions UI
+  workflow_dispatch:
 
 permissions:
-  contents: write         # needed to commit + push updated JSON files
+  contents: write
 
 jobs:
   refresh:
@@ -43,9 +32,9 @@ jobs:
       - name: Run worker
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL:   ${{ vars.OPENROUTER_MODEL || 'openai/gpt-4o-mini' }}
-          LOG_LEVEL:          INFO
-          DRY_RUN:            "false"
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'openai/gpt-4o-mini' }}
+          LOG_LEVEL: INFO
+          DRY_RUN: "false"
         working-directory: worker
         run: python main.py
 
@@ -56,7 +45,7 @@ jobs:
 
       - name: Commit and push updated data
         run: |
-          git config user.name  "devops-news-bot"
+          git config user.name "devops-news-bot"
           git config user.email "bot@github-actions"
           git add docs/data/news.json docs/data/jobs.json docs/data/meta.json
           if git diff --cached --quiet; then
@@ -65,139 +54,3 @@ jobs:
             git commit -m "chore: refresh news/jobs data [skip ci]"
             git push
           fi
-name: Refresh Data (Worker Schedule)
-
-# Option A: GitHub Actions handles the schedule.
-# Runs worker/main.py on a cron, commits updated docs/data/*.json, and pushes —
-# which then triggers pages-deploy.yml to re-publish the site.
-#
-# Required GitHub Secrets (Settings → Secrets → Actions):
-#   OPENROUTER_API_KEY  — OpenRouter API key
-#
-# Optional GitHub Variables (Settings → Variables → Actions):
-#   OPENROUTER_MODEL    — override the LLM model (default: openai/gpt-4o-mini)
-
-on:
-  schedule:
-    # Run every 2 hours
-    - cron: "0 */2 * * *"
-  workflow_dispatch:      # allow manual trigger from the Actions UI
-
-permissions:
-  contents: write         # needed to commit + push updated JSON files
-
-jobs:
-  refresh:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4.2.2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 1
-
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5.3.0
-        with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: worker/requirements.txt
-
-      - name: Install dependencies
-        run: pip install -r worker/requirements.txt
-
-      - name: Run worker
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL:   ${{ vars.OPENROUTER_MODEL || 'openai/gpt-4o-mini' }}
-          LOG_LEVEL:          INFO
-          DRY_RUN:            "false"
-        working-directory: worker
-        run: python main.py
-
-      - name: Validate generated JSON
-        run: |
-          pip install pytest --quiet
-          python -m pytest tests/test_schema.py -v
-
-      - name: Commit and push updated data
-        run: |
-          git config user.name  "devops-news-bot"
-          git config user.email "bot@github-actions"
-          git add docs/data/news.json docs/data/jobs.json docs/data/meta.json
-          if git diff --cached --quiet; then
-            echo "No data changes to commit"
-          else
-            git commit -m "chore: refresh news/jobs data [skip ci]"
-            git push
-          fi
-name: Refresh Data (Worker Schedule)
-
-# Option A: GitHub Actions handles the schedule.
-# The worker runs inside the Docker container built from worker/Dockerfile.
-# On success it commits updated docs/data/*.json and pushes — which then
-# triggers pages-deploy.yml to publish the fresh data.
-#
-# Required GitHub Secrets (Settings → Secrets → Actions):
-#   OPENROUTER_API_KEY  — OpenRouter API key
-#   SMTP_*              — optional, for email digest
-#   SMTP_ENABLED        — set to "true" to enable
-
-on:
-  schedule:
-    # Run every 2 hours
-    - cron: "0 */2 * * *"
-  workflow_dispatch:      # allow manual trigger from the Actions UI
-
-permissions:
-  contents: write         # needed to commit + push updated JSON files
-
-jobs:
-  refresh:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          # Use the default GITHUB_TOKEN (has write permissions via the job permission above)
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 1
-
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: worker/requirements.txt
-
-      - name: Install dependencies
-        run: pip install -r worker/requirements.txt
-
-      - name: Run worker
-        env:
-          OPENROUTER_API_KEY:  ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL:    ${{ vars.OPENROUTER_MODEL || 'openai/gpt-4o-mini' }}
-          SMTP_ENABLED:        ${{ vars.SMTP_ENABLED || 'false' }}
-          SMTP_HOST:           ${{ secrets.SMTP_HOST }}
-          SMTP_PORT:           ${{ secrets.SMTP_PORT }}
-          SMTP_USER:           ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD:       ${{ secrets.SMTP_PASSWORD }}
-          SMTP_TO:             ${{ secrets.SMTP_TO }}
-          LOG_LEVEL:           INFO
-          DRY_RUN:             "false"
-        working-directory: worker
-        run: python main.py
-
-      - name: Validate generated JSON
-        run: python -m pytest tests/test_schema.py -v
-        continue-on-error: false
-
-      - name: Commit and push updated data
-        run: |
-          git config user.name  "devops-news-bot"
-          git config user.email "bot@github-actions"
-          git add docs/data/news.json docs/data/jobs.json docs/data/meta.json
-          git diff --cached --quiet && echo "No changes to commit" || \
-            git commit -m "chore: refresh news/jobs data [skip ci]" && git push
