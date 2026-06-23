@@ -15,7 +15,7 @@ log = logging.getLogger(__name__)
 
 OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
 OPENROUTER_API_KEY  = os.getenv("OPENROUTER_API_KEY", "")
-OPENROUTER_MODEL    = os.getenv("OPENROUTER_MODEL",    "openai/gpt-4o-mini")
+OPENROUTER_MODEL    = os.getenv("OPENROUTER_MODEL",    "nvidia/nemotron-3-ultra-550b-a55b:free")
 
 NEWS_TAGS = [
     "AI", "DevOps", "Kubernetes", "Cloud", "SRE", "Observability",

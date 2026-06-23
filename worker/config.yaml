@@ -8,7 +8,7 @@ retention_days: 30        # keep items for this many days in SQLite / JSON outpu
 
 # ── LLM (OpenRouter) ─────────────────────────────────────────
 llm:
-  model: "openai/gpt-4o-mini"   # override with env OPENROUTER_MODEL
+  model: "nvidia/nemotron-3-ultra-550b-a55b:free"   # override with env OPENROUTER_MODEL
   base_url: "https://openrouter.ai/api/v1"
   batch_size: 10          # items per OpenRouter request
   max_tokens: 256

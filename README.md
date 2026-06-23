@@ -125,7 +125,7 @@ All source lists and settings live in [`worker/config.yaml`](worker/config.yaml)
 |---------|-----------------|
 | `retention_days` | How many days of data to keep in SQLite / export |
 | `keyword_filter` | Pre-LLM gate — item must contain at least one keyword |
-| `llm.model` | OpenRouter model (default: `openai/gpt-4o-mini`) |
+| `llm.model` | OpenRouter model (default: `nvidia/nemotron-3-ultra-550b-a55b:free`) |
 | `llm.batch_size` | Items per OpenRouter request (controls cost) |
 | `news.*` | Enable/disable each news source, configure tags/feeds |
 | `jobs.*` | Enable/disable each job source, add Greenhouse/Lever slugs |
@@ -198,7 +198,7 @@ Set `GH_PAT` and `GIT_REPO_URL` in `.env` so the container can push the updated 
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `OPENROUTER_API_KEY` | Yes | OpenRouter API key for LLM scoring |
-| `OPENROUTER_MODEL` | No | Model override (default: `openai/gpt-4o-mini`) |
+| `OPENROUTER_MODEL` | No | Model override (default: `nvidia/nemotron-3-ultra-550b-a55b:free`) |
 | `GH_PAT` | Option B only | GitHub PAT with `repo` scope for auto-push |
 | `GIT_REPO_URL` | Option B only | Full HTTPS clone URL of the repo |
 | `GIT_BRANCH` | No | Branch to push to (default: `main`) |
