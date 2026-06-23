@@ -78,12 +78,14 @@ def dedup_batch(items: list[dict[str, Any]], *, title_key: str = "title") -> lis
 
 # ── Keyword pre-filter ────────────────────────────────────────────────────────
 def passes_keyword_filter(item: dict, keywords: list[str]) -> bool:
-    """Return True if item title/summary contains at least one keyword."""
+    """Return True if item title/summary/tags contains at least one keyword."""
     if not keywords:
         return True
+    tags_str = " ".join(item.get("tags") or []) if isinstance(item.get("tags"), list) else ""
     text = " ".join(filter(None, [
         item.get("title", ""),
         item.get("summary", ""),
         item.get("company", ""),
+        tags_str,
     ])).lower()
     return any(kw.lower() in text for kw in keywords)

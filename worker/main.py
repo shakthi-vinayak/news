@@ -34,26 +34,16 @@ load_dotenv(Path(__file__).parent.parent / ".env", override=False)
 # ── Secrets validation ─────────────────────────────────────────────────────
 def _check_secrets() -> None:
     """
-    Validate that required secrets are present as environment variables.
-    Fails fast with a clear message rather than silently misbehaving.
+    Warn if OPENROUTER_API_KEY is missing — collection still runs, LLM scoring
+    is skipped gracefully. Items will appear unscored (relevance_score=0.0).
     NEVER reads secrets from config.yaml or any committed file.
     """
-    missing = []
     if not os.getenv("OPENROUTER_API_KEY"):
-        missing.append(
-            "OPENROUTER_API_KEY  (set via GitHub Actions secret or local .env)"
+        log.warning(
+            "OPENROUTER_API_KEY is not set — LLM scoring/summarisation will be "
+            "skipped. Items will still be collected and published. "
+            "Set the secret at Settings → Secrets → Actions to enable scoring."
         )
-    if missing:
-        msg = (
-            "\n\n"
-            "ERROR: The following required secrets are missing:\n"
-            + "\n".join(f"  - {m}" for m in missing)
-            + "\n\n"
-            "For local runs:  copy .env.example to .env and fill in real values.\n"
-            "For GitHub Actions: add secrets at Settings → Secrets → Actions.\n"
-            "NEVER commit .env or any file containing real API keys.\n"
-        )
-        sys.exit(msg)
 
 # ── Logging ────────────────────────────────────────────────────────────────
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
