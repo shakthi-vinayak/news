@@ -1,4 +1,0 @@
-- Collectors implement a uniform `collect(cfg: dict) -> list[dict]` function signature, allowing dynamic invocation in the main loop.
-- Deterministic IDs are generated using SHA-256 hashes of normalized content keys (URL, title, source) to ensure stable deduplication across runs.
-- Database writes are batched within explicit `transaction(conn)` context managers to ensure atomicity for news and job upserts.
-- LLM scoring is performed in configurable batches (default 10) to optimize API usage and handle rate limits, with fallback to unscored items on failure.

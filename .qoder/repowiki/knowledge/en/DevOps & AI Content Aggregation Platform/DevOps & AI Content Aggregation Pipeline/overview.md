@@ -1,1 +1,0 @@
-Orchestrates the collection, deduplication, LLM-based scoring, and persistence of DevOps news and job listings from multiple external sources.

@@ -3,60 +3,22 @@ schema_version: 1
 locale: en-US
 branch: main
 nodes_managed: true
-exported_at: "2026-06-23T04:27:49Z"
+exported_at: "2026-06-23T06:46:36Z"
 modules:
     "":
-        dir_name: DevOps & AI Content Aggregation Platform
-        title: DevOps & AI Content Aggregation Platform
+        dir_name: DevOps & AI Content Aggregation Pipeline
+        title: DevOps & AI Content Aggregation Pipeline
         scope:
-            - .gitignore
-            - docker-compose.yml
-            - .env.example
-            - .github\workflows\pages-deploy.yml
-            - .github\workflows\worker-schedule.yml
-            - docs\assets\app.js
-            - docs\assets\style.css
-            - docs\data\jobs.json
-            - docs\data\meta.json
-            - docs\data\news.json
-            - docs\index.html
-            - tests\test_schema.py
-            - worker\.dockerignore
-            - worker\Dockerfile
-            - worker\collectors\__init__.py
-            - worker\collectors\jobs\__init__.py
-            - worker\collectors\jobs\arbeitnow.py
-            - worker\collectors\jobs\greenhouse.py
-            - worker\collectors\jobs\hn_whoishiring.py
-            - worker\collectors\jobs\lever.py
-            - worker\collectors\jobs\remoteok.py
-            - worker\collectors\jobs\remotive.py
-            - worker\collectors\jobs\weworkremotely_rss.py
-            - worker\collectors\news\__init__.py
-            - worker\collectors\news\devto.py
-            - worker\collectors\news\github_releases.py
-            - worker\collectors\news\hn_algolia.py
-            - worker\collectors\news\reddit.py
-            - worker\collectors\news\rss_feeds.py
-            - worker\config.yaml
-            - worker\main.py
-            - worker\notify\__init__.py
-            - worker\notify\smtp_alert.py
-            - worker\requirements.txt
-            - worker\scoring\__init__.py
-            - worker\scoring\dedupe.py
-            - worker\scoring\llm_relevance.py
-            - worker\storage\__init__.py
-            - worker\storage\db.py
-            - worker\storage\export_json.py
-        source_files: []
-        children:
-            - docs
-            - worker
+            - '**'
+        source_files:
+            - worker/requirements.txt
+            - worker/Dockerfile
+            - .github/workflows/worker-schedule.yml
+        children: []
         depends_on: []
         related_to: []
     build_system:
-        dir_name: Containerized CI_CD Pipeline with GitHub Actions and Docker
+        dir_name: Containerized CI_CD Pipeline with GitHub Actions and Docker_2
         title: Containerized CI/CD Pipeline with GitHub Actions and Docker
         scope: []
         source_files:
@@ -65,22 +27,19 @@ modules:
             - .github/workflows/worker-schedule.yml
             - .github/workflows/pages-deploy.yml
             - worker/requirements.txt
-            - worker/config.yaml
-            - tests/test_schema.py
         children: []
         depends_on: []
         related_to: []
     configuration_system:
-        dir_name: Two-Layer Configuration System YAML for Application Settings, Environment Variab
-        title: 'Two-Layer Configuration System: YAML for Application Settings, Environment Variables for Secrets'
+        dir_name: Two-Layer Configuration YAML for Settings, Env Vars for Secrets
+        title: 'Two-Layer Configuration: YAML for Settings, Env Vars for Secrets'
         scope: []
         source_files:
             - worker/config.yaml
             - .env.example
             - worker/main.py
             - docker-compose.yml
-            - worker/scoring/llm_relevance.py
-            - worker/notify/smtp_alert.py
+            - .qoder/repowiki/knowledge/en/Two-Layer Configuration System YAML for Application Settings, Environment Variab/configuration_system.md
         children: []
         depends_on: []
         related_to: []
@@ -92,12 +51,13 @@ modules:
             - worker/requirements.txt
             - worker/Dockerfile
             - .github/workflows/worker-schedule.yml
+            - docker-compose.yml
         children: []
         depends_on: []
         related_to: []
     docs:
-        dir_name: Documentation Site
-        title: Documentation Site
+        dir_name: Static Documentation & Aggregation Site
+        title: Static Documentation & Aggregation Site
         scope:
             - docs/
         source_files: []
@@ -106,21 +66,20 @@ modules:
         related_to:
             - path: worker
     error_handling:
-        dir_name: Error Handling — Logging-Based Resilience with Graceful Degradation
-        title: Error Handling — Logging-Based Resilience with Graceful Degradation
+        dir_name: Logging-Based Resilience with Graceful Degradation
+        title: Logging-Based Resilience with Graceful Degradation
         scope: []
         source_files:
             - worker/main.py
             - worker/storage/db.py
             - worker/scoring/llm_relevance.py
-            - worker/notify/smtp_alert.py
+            - worker/collectors/news/devto.py
             - worker/collectors/jobs/remoteok.py
-            - worker/collectors/news/hn_algolia.py
         children: []
         depends_on: []
         related_to: []
     frontend_style:
-        dir_name: CSS Custom Properties with Light_Dark Theme System
+        dir_name: CSS Custom Properties with Light_Dark Theme System_2
         title: CSS Custom Properties with Light/Dark Theme System
         scope: []
         source_files:
@@ -131,25 +90,20 @@ modules:
         depends_on: []
         related_to: []
     logging_system:
-        dir_name: Python Standard Library Logging with Environment-Configured Levels
+        dir_name: Python Standard Library Logging with Environment-Configured Levels_2
         title: Python Standard Library Logging with Environment-Configured Levels
         scope: []
         source_files:
             - worker/main.py
-            - worker/collectors/news/hn_algolia.py
-            - worker/collectors/jobs/remoteok.py
+            - worker/collectors/news/devto.py
             - worker/scoring/llm_relevance.py
-            - worker/scoring/dedupe.py
-            - worker/storage/db.py
-            - worker/notify/smtp_alert.py
-            - docker-compose.yml
-            - .github/workflows/worker-schedule.yml
+            - .env.example
         children: []
         depends_on: []
         related_to: []
     worker:
-        dir_name: DevOps & AI Content Aggregation Pipeline
-        title: DevOps & AI Content Aggregation Pipeline
+        dir_name: DevOps Content Aggregation & Scoring Pipeline
+        title: DevOps Content Aggregation & Scoring Pipeline
         scope:
             - worker/
         source_files: []

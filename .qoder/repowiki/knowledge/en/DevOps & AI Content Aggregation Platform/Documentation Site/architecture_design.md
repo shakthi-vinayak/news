@@ -1,3 +1,0 @@
-- Entry point is `docs/index.html`, which serves as the main landing page.
-- Static assets (`docs/assets/app.js`, `docs/assets/style.css`) handle client-side interactivity and styling.
-- Data-driven content is sourced from JSON files in `docs/data/` (`jobs.json`, `meta.json`, `news.json`), likely consumed by `app.js` for dynamic rendering.

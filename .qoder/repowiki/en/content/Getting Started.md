@@ -13,15 +13,15 @@
 - [.dockerignore](file://worker/.dockerignore)
 - [db.py](file://worker/storage/db.py)
 - [test_schema.py](file://tests/test_schema.py)
+- [llm_relevance.py](file://worker/scoring/llm_relevance.py)
 </cite>
 
 ## Update Summary
 **Changes Made**
-- Enhanced Docker Compose setup documentation with comprehensive volume mounting and environment configuration
-- Expanded GitHub Actions integration details with SMTP digest support and workflow optimization
-- Added detailed manual deployment options with environment variable management
-- Improved environment variable configuration guidance with practical examples
-- Updated troubleshooting section with Docker-specific and GitHub Actions-specific issues
+- Updated default LLM model reference from previous model to "nvidia/nemotron-3-ultra-550b-a55b:free" across all configuration contexts
+- Enhanced environment variable documentation to reflect the new default model
+- Updated configuration examples to demonstrate the new default model setting
+- Revised troubleshooting section to address model-related configuration issues
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -63,7 +63,7 @@ This method automates scheduling, execution, publishing, and deployment with ful
 - Supports both OpenRouter API key and optional SMTP digest configuration
 
 **Section sources**
-- [worker-schedule.yml:1-137](file://.github/workflows/worker-schedule.yml#L1-L137)
+- [worker-schedule.yml:1-61](file://.github/workflows/worker-schedule.yml#L1-L61)
 - [pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
 
 ### Option B: Docker Compose (Local/VM)
@@ -114,7 +114,7 @@ Set these in your environment or `.env` file. The worker loads `.env` from both 
   - LOG_LEVEL: Controls verbosity (default: INFO)
 - LLM and Scoring
   - OPENROUTER_API_KEY: Required for LLM relevance scoring
-  - OPENROUTER_MODEL: Optional override for the model used
+  - OPENROUTER_MODEL: Optional override for the model used (default: nvidia/nemotron-3-ultra-550b-a55b:free)
 - Git Publishing
   - GH_PAT: Personal Access Token for pushing to the repository
   - GIT_REPO_URL: Remote repository URL
@@ -127,17 +127,19 @@ Set these in your environment or `.env` file. The worker loads `.env` from both 
   - SMTP_ENABLED: Set to true to enable email digest
   - SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, SMTP_TO: SMTP server credentials
 
-**Updated** Enhanced with comprehensive SMTP digest configuration and improved environment variable management
+**Updated** Enhanced with comprehensive SMTP digest configuration and improved environment variable management, including the new default LLM model reference
 
 Notes:
 - When using GitHub Actions, secrets and variables are passed via the workflow
 - When using Docker or manual setup, define these in your environment or `.env`
 - For Docker Compose, environment variables are loaded from the `.env` file and can be overridden in the compose file
+- The default LLM model is now nvidia/nemotron-3-ultra-550b-a55b:free, which is a free tier model available through OpenRouter
 
 **Section sources**
 - [main.py:27-32](file://worker/main.py#L27-L32)
 - [main.py:108-155](file://worker/main.py#L108-L155)
-- [worker-schedule.yml:44-57](file://.github/workflows/worker-schedule.yml#L44-L57)
+- [worker-schedule.yml:40-41](file://.github/workflows/worker-schedule.yml#L40-L41)
+- [llm_relevance.py:16-18](file://worker/scoring/llm_relevance.py#L16-L18)
 
 ### Configuration File (config.yaml)
 Located at `worker/config.yaml`. Adjust sources, filters, and retention.
@@ -155,8 +157,10 @@ Examples of commonly adjusted settings:
 - Toggle news and jobs source enabled flags
 - Adjust max_items and similar caps per source
 
+**Updated** Enhanced with the new default LLM model configuration and improved model selection guidance
+
 **Section sources**
-- [config.yaml:1-244](file://worker/config.yaml#L1-L244)
+- [config.yaml:1-245](file://worker/config.yaml#L1-L245)
 
 ## First Run and Verification
 
@@ -177,11 +181,11 @@ Start(["Start"]) --> LoadCfg["Load config.yaml and .env"]
 LoadCfg --> InitDB["Initialize SQLite DB<br/>and run log"]
 InitDB --> CollectNews["Collect news from enabled sources"]
 CollectNews --> DedupNews["Deduplicate + keyword filter"]
-DedupNews --> ScoreNews["Score news via LLM"]
+DedupNews --> ScoreNews["Score news via LLM<br/>(nvidia/nemotron-3-ultra-550b-a55b:free)"]
 ScoreNews --> PersistNews["Persist news to DB"]
 PersistNews --> CollectJobs["Collect jobs from enabled sources"]
 CollectJobs --> DedupJobs["Deduplicate jobs"]
-DedupJobs --> ScoreJobs["Score jobs via LLM"]
+DedupJobs --> ScoreJobs["Score jobs via LLM<br/>(nvidia/nemotron-3-ultra-550b-a55b:free)"]
 ScoreJobs --> PersistJobs["Persist jobs to DB"]
 PersistJobs --> ExportJSON["Export docs/data/*.json"]
 ExportJSON --> Publish{"DRY_RUN?"}
@@ -259,7 +263,7 @@ participant Worker as "Worker Script"
 participant Tests as "Schema Tests"
 participant Repo as "Repository"
 Cron->>GH_Actions : "Trigger schedule"
-GH_Actions->>Worker : "Run python main.py"
+GH_Actions->>Worker : "Run python main.py<br/>(using nvidia/nemotron-3-ultra-550b-a55b : free)"
 Worker->>Repo : "Write docs/data/*.json"
 Worker->>Tests : "Validate JSON schema"
 Tests-->>GH_Actions : "Pass/Fail"
@@ -267,7 +271,7 @@ GH_Actions->>Repo : "Commit + push updated data"
 ```
 
 **Diagram sources**
-- [worker-schedule.yml:13-137](file://.github/workflows/worker-schedule.yml#L13-L137)
+- [worker-schedule.yml:13-61](file://.github/workflows/worker-schedule.yml#L13-L61)
 - [pages-deploy.yml:3-42](file://.github/workflows/pages-deploy.yml#L3-L42)
 
 ### Required Secrets and Variables
@@ -275,12 +279,14 @@ GH_Actions->>Repo : "Commit + push updated data"
   - OPENROUTER_API_KEY: LLM API key
   - SMTP_*: Optional SMTP credentials for digest emails
 - Variables
-  - OPENROUTER_MODEL: LLM model override (optional)
+  - OPENROUTER_MODEL: LLM model override (default: nvidia/nemotron-3-ultra-550b-a55b:free)
   - SMTP_ENABLED: Enable SMTP digest (optional)
+
+**Updated** Enhanced with the new default LLM model reference and improved model configuration guidance
 
 **Section sources**
 - [worker-schedule.yml:7-11](file://.github/workflows/worker-schedule.yml#L7-L11)
-- [worker-schedule.yml:112-123](file://.github/workflows/worker-schedule.yml#L112-L123)
+- [worker-schedule.yml:40-41](file://.github/workflows/worker-schedule.yml#L40-L41)
 
 ## Basic Usage Patterns
 
@@ -307,7 +313,7 @@ GH_Actions->>Repo : "Commit + push updated data"
 - Wait for scheduled runs to populate docs/data/ and deploy to GitHub Pages
 
 **Section sources**
-- [worker-schedule.yml:13-137](file://.github/workflows/worker-schedule.yml#L13-L137)
+- [worker-schedule.yml:13-61](file://.github/workflows/worker-schedule.yml#L13-L61)
 - [pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
 
 ### Scenario B: Local Docker with External Cron
@@ -354,12 +360,18 @@ GH_Actions->>Repo : "Commit + push updated data"
 - Environment variable loading problems
   - Symptom: Variables not recognized in Docker or manual setup
   - Fix: Ensure .env file is properly formatted; verify load order in main.py
+- LLM model configuration issues
+  - Symptom: Unexpected model behavior or API errors
+  - Fix: Verify OPENROUTER_MODEL is set correctly; ensure model name matches available OpenRouter models; check rate limits for the selected model
+
+**Updated** Enhanced with LLM model configuration troubleshooting guidance
 
 **Section sources**
 - [worker-schedule.yml:59-61](file://.github/workflows/worker-schedule.yml#L59-L61)
 - [test_schema.py:28-136](file://tests/test_schema.py#L28-L136)
 - [main.py:35-56](file://worker/main.py#L35-L56)
 - [docker-compose.yml:24-28](file://docker-compose.yml#L24-L28)
+- [llm_relevance.py:16-18](file://worker/scoring/llm_relevance.py#L16-L18)
 
 ## Conclusion
 You now have multiple paths to deploy and operate DevOps & AI Hub:
@@ -367,4 +379,4 @@ You now have multiple paths to deploy and operate DevOps & AI Hub:
 - Docker Compose for local/VM orchestration with external scheduling and comprehensive volume management
 - Manual setup for development and experimentation with full environment variable control
 
-Start with GitHub Actions for simplicity, Docker Compose for deeper control over local deployments, or manual setup for development. Always validate outputs with the schema tests and monitor logs for any failures. The enhanced Docker Compose setup provides the most flexibility for local development with persistent storage and preview capabilities.
+The default LLM model is now nvidia/nemotron-3-ultra-550b-a55b:free, a free tier model available through OpenRouter that provides robust performance for DevOps and AI infrastructure content. Start with GitHub Actions for simplicity, Docker Compose for deeper control over local deployments, or manual setup for development. Always validate outputs with the schema tests and monitor logs for any failures. The enhanced Docker Compose setup provides the most flexibility for local development with persistent storage and preview capabilities.

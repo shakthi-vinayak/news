@@ -1,8 +1,0 @@
-- **Entry Point**: `main.py` serves as the procedural orchestrator, executing a linear pipeline: collect -> dedupe -> score -> persist -> export -> publish.
-- **Sub-packages**:
-  - `collectors/`: Contains modular scrapers for news (Hacker News, Reddit, RSS) and jobs (RemoteOK, Greenhouse, etc.), each exposing a standard `collect(cfg)` interface.
-  - `scoring/`: Handles data quality via `dedupe.py` (SHA-256 hashing + RapidFuzz fuzzy matching) and `llm_relevance.py` (batched OpenRouter API calls for relevance scoring and tagging).
-  - `storage/`: Manages SQLite persistence (`db.py`) with WAL mode and static JSON export (`export_json.py`).
-  - `notify/`: Provides optional SMTP digest alerts.
-- **Dependency Direction**: The orchestrator depends on all sub-packages; collectors are independent of each other but depend on `scoring.dedupe` for ID generation.
-- **Configuration**: Driven by `config.yaml` for source enablement and keyword filtering, with secrets managed via `.env`.

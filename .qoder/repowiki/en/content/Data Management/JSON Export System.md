@@ -16,6 +16,13 @@
 - [test_schema.py](file://tests/test_schema.py)
 </cite>
 
+## Update Summary
+**Changes Made**
+- Enhanced error messaging and logging consistency throughout the export pipeline
+- Improved file writing with detailed logging including file size information
+- Strengthened GitHub Actions integration with better structured error reporting
+- Added comprehensive source health tracking for better monitoring and debugging
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
@@ -29,6 +36,8 @@
 
 ## Introduction
 This document describes the JSON export system that generates static files for frontend consumption. It explains the export workflow, data transformation from database records to JSON, and file generation patterns. It documents the exported data structures for news and jobs content, including field mappings, data types, and formatting rules. It also covers the static site generation process, file naming conventions, directory structure, frontend consumption patterns, caching strategies, performance considerations, export scheduling, incremental updates, and error handling.
+
+**Updated** Enhanced error messaging and logging consistency for improved GitHub Actions integration, with detailed file size reporting and structured error handling throughout the pipeline.
 
 ## Project Structure
 The JSON export system spans three primary areas:
@@ -88,15 +97,18 @@ DKF --> MAIN
 - [app.js:101-118](file://docs/assets/app.js#L101-L118)
 
 ## Core Components
-- Export orchestrator: reads from SQLite and writes static JSON files under docs/data/.
+- Export orchestrator: reads from SQLite and writes static JSON files under docs/data/ with enhanced logging and error reporting.
 - Database layer: defines schema, connection helpers, transactions, and retrieval functions.
 - Frontend consumer: loads JSON files, applies filtering and pagination, and renders cards.
 - Scheduling and publishing: GitHub Actions runs the worker on a schedule and deploys to GitHub Pages.
 
 Key responsibilities:
-- Export: transform database rows to JSON payload with metadata and lists of items.
+- Export: transform database rows to JSON payload with metadata and lists of items, including detailed file size logging.
 - Persistence: maintain normalized SQLite tables and enforce constraints.
 - Consumption: parse JSON, compute staleness, and render UI.
+- Monitoring: track source health and provide structured error reporting for debugging.
+
+**Updated** Enhanced error handling with structured logging and source health tracking for better monitoring and debugging capabilities.
 
 **Section sources**
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
@@ -105,13 +117,14 @@ Key responsibilities:
 - [worker-schedule.yml:1-70](file://github/workflows/worker-schedule.yml#L1-L70)
 
 ## Architecture Overview
-The export system follows a pipeline:
-1. Collect news and jobs from enabled sources.
+The export system follows a pipeline with enhanced error handling and monitoring:
+1. Collect news and jobs from enabled sources with structured error reporting.
 2. Deduplicate and pre-filter items.
 3. Score items via LLM (optional pre-filter).
 4. Upsert items into SQLite.
-5. Export static JSON files (news.json, jobs.json, meta.json).
-6. Optionally publish changes and send SMTP digest.
+5. Export static JSON files (news.json, jobs.json, meta.json) with detailed logging.
+6. Track source health and provide structured error reporting.
+7. Optionally publish changes and send SMTP digest.
 
 ```mermaid
 sequenceDiagram
@@ -124,12 +137,14 @@ participant Pages as "GitHub Pages"
 Scheduler->>Worker : "Trigger run"
 Worker->>DB : "init_db()"
 Worker->>DB : "start_run(run_id)"
-Worker->>Worker : "Collect news + jobs"
+Worker->>Worker : "Collect news + jobs (structured error handling)"
 Worker->>DB : "Persist items (upsert)"
 Worker->>Export : "export_all(conn, retention, health)"
 Export->>DB : "get_news(days, limit)"
 Export->>DB : "get_jobs(days, limit)"
-Export->>FS : "Write news.json, jobs.json, meta.json"
+Export->>FS : "Write news.json (with size logging)"
+Export->>FS : "Write jobs.json (with size logging)"
+Export->>FS : "Write meta.json (with health tracking)"
 Worker->>DB : "finish_run(run_id, counts, errors)"
 Worker->>Pages : "Commit + push (optional)"
 ```
@@ -144,7 +159,7 @@ Worker->>Pages : "Commit + push (optional)"
 ## Detailed Component Analysis
 
 ### Export Pipeline and Data Transformation
-The export process transforms database records into JSON payloads with the following characteristics:
+The export process transforms database records into JSON payloads with enhanced error handling and logging:
 - Output directory: docs/data/ (created if missing).
 - Generated timestamp: UTC ISO string included in each payload.
 - News payload: {"generated_at": "...", "items": [...]}.
@@ -156,6 +171,9 @@ Transformation rules:
 - Internal fields removal: remove first_seen_at and last_seen_at from items before writing.
 - Date filtering: queries restrict items to the configured retention window.
 - Limits: queries limit returned items to prevent oversized payloads.
+- File size logging: detailed logging includes file names and byte sizes for monitoring.
+
+**Updated** Enhanced with structured logging that reports file names and sizes, improving monitoring and debugging capabilities.
 
 ```mermaid
 flowchart TD
@@ -165,13 +183,13 @@ GenTime --> FetchNews["Fetch news (days retention, limit)"]
 FetchNews --> NormalizeTags["Normalize tags to list"]
 NormalizeTags --> StripFieldsN["Strip internal fields"]
 StripFieldsN --> BuildNews["Build news payload"]
-BuildNews --> WriteNews["Write news.json"]
+BuildNews --> WriteNews["Write news.json (with size logging)"]
 WriteNews --> FetchJobs["Fetch jobs (days retention, limit)"]
 FetchJobs --> StripFieldsJ["Strip internal fields"]
 StripFieldsJ --> BuildJobs["Build jobs payload"]
-BuildJobs --> WriteJobs["Write jobs.json"]
-WriteJobs --> BuildMeta["Build meta payload"]
-BuildMeta --> WriteMeta["Write meta.json"]
+BuildJobs --> WriteJobs["Write jobs.json (with size logging)"]
+WriteJobs --> BuildMeta["Build meta payload with source health"]
+BuildMeta --> WriteMeta["Write meta.json (with health tracking)"]
 WriteMeta --> Done(["Return counts"])
 ```
 
@@ -298,6 +316,8 @@ Top-level keys:
 - jobs_count: integer, number of jobs items.
 - source_health: object mapping source name to status string.
 
+**Updated** Enhanced with structured source health tracking that provides detailed status information for each data source.
+
 **Section sources**
 - [export_json.py:77-84](file://worker/storage/export_json.py#L77-L84)
 - [meta.json:1-7](file://docs/data/meta.json#L1-L7)
@@ -309,6 +329,9 @@ Top-level keys:
   - jobs.json
   - meta.json
 - Directory layout is fixed; the worker ensures the directory exists before writing.
+- File size logging: detailed logging reports file names and byte sizes for monitoring.
+
+**Updated** Enhanced with file size reporting in logs, improving monitoring and debugging capabilities.
 
 **Section sources**
 - [export_json.py:18-45](file://worker/storage/export_json.py#L18-L45)
@@ -347,7 +370,7 @@ participant Git as "Commit/Push"
 participant Pages as "pages-deploy.yml"
 Cron->>GA : "Trigger workflow"
 GA->>Worker : "Run python main.py"
-Worker-->>GA : "Export JSON files"
+Worker-->>GA : "Export JSON files (with enhanced logging)"
 GA->>Tests : "Validate JSON schema"
 Tests-->>GA : "Pass/Fail"
 GA->>Git : "Commit + push docs/data/*.json"
@@ -375,24 +398,31 @@ Pages-->>Pages : "Deploy docs/"
 - [db.py:163-242](file://worker/storage/db.py#L163-L242)
 - [main.py:174-181](file://worker/main.py#L174-L181)
 
-### Error Handling During Export
-- Source failures: individual news/job collectors report errors and mark source health.
-- Export errors: logged; the pipeline continues to completion to produce meta.json with counts.
-- Git publish failures: caught and logged; does not block export.
+### Enhanced Error Handling During Export
+- Source failures: individual news/job collectors report errors with structured logging and mark source health.
+- Export errors: logged with detailed file information including sizes; the pipeline continues to completion to produce meta.json with counts.
+- Git publish failures: caught and logged with descriptive messages; does not block export.
 - SMTP digest failures: caught and logged; does not block export.
+- Logging consistency: uniform timestamp format and structured message patterns throughout the pipeline.
+
+**Updated** Enhanced error handling with structured logging, detailed file size reporting, and comprehensive source health tracking for improved monitoring and debugging.
 
 **Section sources**
 - [main.py:151-160](file://worker/main.py#L151-L160)
 - [main.py:202-213](file://worker/main.py#L202-L213)
 - [main.py:273-278](file://worker/main.py#L273-L278)
 - [main.py:281-287](file://worker/main.py#L281-L287)
+- [export_json.py:25-29](file://worker/storage/export_json.py#L25-L29)
 
 ## Dependency Analysis
-The export system exhibits clear separation of concerns:
+The export system exhibits clear separation of concerns with enhanced monitoring:
 - main.py orchestrates the pipeline and depends on db.py and export_json.py.
-- export_json.py depends on db.py for data retrieval and writes to docs/data/.
+- export_json.py depends on db.py for data retrieval and writes to docs/data/ with detailed logging.
 - Frontend app.js depends on docs/data/*.json.
 - GitHub Actions workflows depend on main.py and the exported artifacts.
+- Source health tracking provides monitoring capabilities across all components.
+
+**Updated** Enhanced dependency tracking with source health monitoring and structured logging integration.
 
 ```mermaid
 graph LR
@@ -402,6 +432,8 @@ EXP --> DB
 APP["app.js"] --> DATA["docs/data/*.json"]
 SCHED["worker-schedule.yml"] --> MAIN
 PAGES["pages-deploy.yml"] --> APP
+MAIN -.-> HEALTH["Source Health Tracking"]
+EXP -.-> LOGGING["Enhanced Logging"]
 ```
 
 **Diagram sources**
@@ -426,8 +458,9 @@ PAGES["pages-deploy.yml"] --> APP
 - Staleness detection: avoids unnecessary reloads and informs users about data freshness.
 - Batched LLM scoring: pre-filtering reduces cost and latency by limiting LLM calls.
 - SQLite WAL mode and indexes: improve concurrency and query performance.
+- Enhanced logging: provides monitoring insights without significant performance impact.
 
-[No sources needed since this section provides general guidance]
+**Updated** Enhanced logging provides monitoring capabilities with minimal performance overhead.
 
 ## Troubleshooting Guide
 Common issues and remedies:
@@ -436,6 +469,10 @@ Common issues and remedies:
 - Export errors: check logs for source failures and review source_health in meta.json.
 - Git publish failures: verify credentials and repository URL; otherwise, changes remain local.
 - Frontend fetch errors: confirm docs/data/*.json are present and accessible; inspect browser network tab.
+- Logging issues: check enhanced logs for file size information and structured error messages.
+- Source health problems: monitor source_health dictionary for detailed status information.
+
+**Updated** Enhanced troubleshooting with structured logging and source health monitoring for better debugging capabilities.
 
 **Section sources**
 - [test_schema.py:28-51](file://tests/test_schema.py#L28-L51)
@@ -445,4 +482,4 @@ Common issues and remedies:
 - [main.py:273-278](file://worker/main.py#L273-L278)
 
 ## Conclusion
-The JSON export system provides a robust, incremental pipeline that transforms collected data into static JSON files for efficient frontend consumption. It enforces schema compliance, manages retention and limits, and integrates with GitHub Actions for automated scheduling and deployment. The frontend benefits from strong caching, client-side filtering, and pagination, delivering a responsive user experience. Error handling and validation ensure reliable operation across the entire stack.
+The JSON export system provides a robust, incremental pipeline that transforms collected data into static JSON files for efficient frontend consumption. It enforces schema compliance, manages retention and limits, and integrates with GitHub Actions for automated scheduling and deployment. The enhanced error handling and logging system provides detailed monitoring and debugging capabilities, while the source health tracking offers comprehensive visibility into data source reliability. The frontend benefits from strong caching, client-side filtering, and pagination, delivering a responsive user experience. The improved logging and structured error reporting ensure reliable operation across the entire stack with better observability and debugging support.

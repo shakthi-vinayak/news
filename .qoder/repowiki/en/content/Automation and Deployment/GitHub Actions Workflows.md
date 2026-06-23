@@ -8,10 +8,17 @@
 - [config.yaml](file://worker/config.yaml)
 - [export_json.py](file://worker/storage/export_json.py)
 - [test_schema.py](file://tests/test_schema.py)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 - [devto.py](file://worker/collectors/news/devto.py)
 - [remoteok.py](file://worker/collectors/jobs/remoteok.py)
 </cite>
+
+## Update Summary
+**Changes Made**
+- Updated worker-schedule.yml documentation to reflect enhanced push-trigger functionality
+- Added documentation for improved error handling and source health tracking
+- Updated action versions and environment variable management
+- Removed deprecated SMTP configuration references
+- Enhanced troubleshooting guidance for error handling improvements
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -44,7 +51,6 @@ subgraph "Content Pipeline"
 MAIN["worker/main.py"]
 CFG["worker/config.yaml"]
 EX["worker/storage/export_json.py"]
-SMTP["worker/notify/smtp_alert.py"]
 end
 subgraph "Static Site"
 DOCS["docs/"]
@@ -59,25 +65,22 @@ WS --> MAIN
 MAIN --> EX
 EX --> DATA
 WS --> TESTS
-WS --> SMTP
 ```
 
 **Diagram sources**
 - [pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
-- [worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70)
-- [main.py:1-297](file://worker/main.py#L1-L297)
+- [worker-schedule.yml:1-61](file://.github/workflows/worker-schedule.yml#L1-L61)
+- [main.py:1-320](file://worker/main.py#L1-L320)
 - [export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
 - [test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
-- [smtp_alert.py:1-105](file://worker/notify/smtp_alert.py#L1-L105)
 
 **Section sources**
 - [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
-- [.github/workflows/worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70)
-- [worker/main.py:1-297](file://worker/main.py#L1-L297)
-- [worker/config.yaml:1-244](file://worker/config.yaml#L1-L244)
+- [.github/workflows/worker-schedule.yml:1-61](file://.github/workflows/worker-schedule.yml#L1-L61)
+- [worker/main.py:1-320](file://worker/main.py#L1-L320)
+- [worker/config.yaml:1-245](file://worker/config.yaml#L1-L245)
 - [worker/storage/export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
 - [tests/test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
-- [worker/notify/smtp_alert.py:1-105](file://worker/notify/smtp_alert.py#L1-L105)
 
 ## Core Components
 - pages-deploy.yml: Deploys the static site content located under docs to GitHub Pages upon push to main or manual dispatch. It manages concurrency, permissions, artifact upload, and deployment.
@@ -86,13 +89,15 @@ WS --> SMTP
 Key capabilities:
 - Branch-triggered deployment for static content
 - Scheduled execution with cron
-- Environment variable-driven configuration and optional SMTP notifications
+- Enhanced push-trigger functionality for immediate updates
+- Environment variable-driven configuration
 - Automated JSON schema validation
 - Git-based publishing of generated content
+- Comprehensive error handling and source health tracking
 
 **Section sources**
 - [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
-- [.github/workflows/worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70)
+- [.github/workflows/worker-schedule.yml:1-61](file://.github/workflows/worker-schedule.yml#L1-L61)
 
 ## Architecture Overview
 The system operates as two coordinated workflows:
@@ -123,8 +128,8 @@ Pages-->>PD : "Deployment URL"
 ```
 
 **Diagram sources**
-- [worker-schedule.yml:13-70](file://.github/workflows/worker-schedule.yml#L13-L70)
-- [main.py:127-297](file://worker/main.py#L127-L297)
+- [worker-schedule.yml:13-61](file://.github/workflows/worker-schedule.yml#L13-L61)
+- [main.py:158-320](file://worker/main.py#L158-L320)
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
 - [pages-deploy.yml:3-42](file://.github/workflows/pages-deploy.yml#L3-L42)
@@ -160,7 +165,8 @@ Operational notes:
 
 ### worker-schedule.yml: Automated Content Collection and Publication
 - Triggers:
-  - Scheduled execution using cron
+  - Scheduled execution using cron (every 2 hours)
+  - Push to main branch affecting worker/** and .github/workflows/worker-schedule.yml paths
   - Manual dispatch via workflow_dispatch
 - Permissions:
   - Write access to repository contents for committing and pushing updated JSON files
@@ -168,38 +174,44 @@ Operational notes:
   - Checkout repository with GITHUB_TOKEN and shallow clone
   - Set up Python 3.12 with pip caching
   - Install dependencies from worker/requirements.txt
-  - Run worker/main.py with environment variables for API keys and SMTP settings
+  - Run worker/main.py with environment variables for API keys
   - Validate generated JSON using pytest
   - Commit and push docs/data/*.json if changes exist
 
+**Enhanced** The workflow now includes push-trigger functionality that allows immediate updates when changes are made to worker code or workflow configuration itself.
+
 Environment variables:
 - OPENROUTER_API_KEY: Required for LLM relevance scoring
-- OPENROUTER_MODEL: Optional override for the model used
-- SMTP_ENABLED: Enable optional SMTP digest
-- SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, SMTP_TO: SMTP credentials and recipient
-- LOG_LEVEL: Logging verbosity
-- DRY_RUN: Set to true to skip publishing and git operations
+- OPENROUTER_MODEL: Optional override for the model used (configured via GitHub Actions variables)
+- LOG_LEVEL: Logging verbosity (set to INFO)
+- DRY_RUN: Set to "false" to enable publishing and git operations
 
 Secrets and variables:
-- Secrets: OPENROUTER_API_KEY, GITHUB_TOKEN (implicit via checkout), SMTP_* credentials
-- Variables: OPENROUTER_MODEL, SMTP_ENABLED
+- Secrets: OPENROUTER_API_KEY, GITHUB_TOKEN (implicit via checkout)
+- Variables: OPENROUTER_MODEL (uses fallback value if not set)
 
 Workflow orchestration:
 - The worker pipeline exports docs/data/*.json, which when committed and pushed, triggers pages-deploy.yml to publish the updated site.
 
 **Section sources**
-- [.github/workflows/worker-schedule.yml:1-70](file://.github/workflows/worker-schedule.yml#L1-L70)
+- [.github/workflows/worker-schedule.yml:1-61](file://.github/workflows/worker-schedule.yml#L1-L61)
 
 ### Worker Pipeline Orchestration (worker/main.py)
-The worker orchestrates the end-to-end pipeline:
+The worker orchestrates the end-to-end pipeline with enhanced error handling:
 - Loads configuration from worker/config.yaml
-- Collects news and jobs from enabled sources
+- Collects news and jobs from enabled sources with individual error handling
+- Tracks source health and aggregates errors for monitoring
 - Deduplicates and applies keyword filters
 - Scores items via OpenRouter LLM
 - Persists to SQLite
 - Exports static JSON to docs/data/
 - Commits and pushes changes unless DRY_RUN is enabled
-- Optionally sends an SMTP digest
+
+**Enhanced** Error handling improvements include:
+- Individual source failure tracking with health status
+- Error aggregation for comprehensive reporting
+- Graceful degradation when individual sources fail
+- Detailed logging for debugging and monitoring
 
 Key behaviors:
 - Source health tracking and error aggregation
@@ -208,8 +220,8 @@ Key behaviors:
 - Git publishing with optional PAT and repository URL overrides
 
 **Section sources**
-- [worker/main.py:127-297](file://worker/main.py#L127-L297)
-- [worker/config.yaml:1-244](file://worker/config.yaml#L1-L244)
+- [worker/main.py:158-320](file://worker/main.py#L158-L320)
+- [worker/config.yaml:1-245](file://worker/config.yaml#L1-L245)
 
 ### Data Export and Validation (export_json.py and test_schema.py)
 - export_json.py reads from SQLite and writes docs/data/news.json, jobs.json, and meta.json with timestamps and counts.
@@ -222,13 +234,6 @@ Validation coverage:
 **Section sources**
 - [worker/storage/export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
 - [tests/test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
-
-### Optional SMTP Digest (smtp_alert.py)
-- Sends an HTML digest of high-relevance news and jobs via SMTP when enabled.
-- Requires SMTP credentials and recipient; otherwise logs a warning and skips sending.
-
-**Section sources**
-- [worker/notify/smtp_alert.py:1-105](file://worker/notify/smtp_alert.py#L1-L105)
 
 ### Example Collector Modules
 - devto.py: Collects articles from Dev.to filtered by tags and limits per page and total items.
@@ -250,24 +255,21 @@ MAIN --> EX["worker/storage/export_json.py"]
 EX --> DATA["docs/data/*.json"]
 DATA --> PD[".github/workflows/pages-deploy.yml"]
 WS --> TESTS["tests/test_schema.py"]
-WS --> SMTP["worker/notify/smtp_alert.py"]
 ```
 
 **Diagram sources**
-- [worker-schedule.yml:13-70](file://.github/workflows/worker-schedule.yml#L13-L70)
-- [main.py:127-297](file://worker/main.py#L127-L297)
+- [worker-schedule.yml:13-61](file://.github/workflows/worker-schedule.yml#L13-L61)
+- [main.py:158-320](file://worker/main.py#L158-L320)
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [pages-deploy.yml:3-42](file://.github/workflows/pages-deploy.yml#L3-L42)
 - [test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
-- [smtp_alert.py:1-105](file://worker/notify/smtp_alert.py#L1-L105)
 
 **Section sources**
-- [.github/workflows/worker-schedule.yml:13-70](file://.github/workflows/worker-schedule.yml#L13-L70)
+- [.github/workflows/worker-schedule.yml:13-61](file://.github/workflows/worker-schedule.yml#L13-L61)
 - [.github/workflows/pages-deploy.yml:3-42](file://.github/workflows/pages-deploy.yml#L3-L42)
-- [worker/main.py:127-297](file://worker/main.py#L127-L297)
+- [worker/main.py:158-320](file://worker/main.py#L158-L320)
 - [worker/storage/export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [tests/test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
-- [worker/notify/smtp_alert.py:1-105](file://worker/notify/smtp_alert.py#L1-L105)
 
 ## Performance Considerations
 - Concurrency control: pages-deploy.yml uses a concurrency group to prevent overlapping deployments.
@@ -276,8 +278,7 @@ WS --> SMTP["worker/notify/smtp_alert.py"]
 - Batch processing: LLM scoring uses configurable batch sizes to balance throughput and cost.
 - Pre-filtering: Keyword filters reduce unnecessary LLM calls.
 - Dry-run mode: Allows testing without network or disk changes.
-
-[No sources needed since this section provides general guidance]
+- Enhanced error handling: Individual source failures don't block the entire pipeline.
 
 ## Troubleshooting Guide
 Common issues and resolutions:
@@ -289,30 +290,36 @@ Common issues and resolutions:
   - Check that the validation step passes; failures will abort the workflow.
 - Authentication failures:
   - Ensure OPENROUTER_API_KEY is set in repository secrets.
-  - For SMTP, confirm SMTP_* variables/secrets are configured when SMTP_ENABLED is true.
+  - For SMTP-related issues, note that SMTP configuration has been removed in favor of GitHub Actions notifications.
 - Git publishing issues:
   - If GH_PAT and GIT_REPO_URL are not set, the worker will commit locally without pushing.
   - When running locally, configure Git credentials and remote URL accordingly.
 - Debugging:
   - Increase LOG_LEVEL to capture more verbose logs during worker execution.
   - Use DRY_RUN=true to test the pipeline without publishing.
+- **Enhanced** Error handling:
+  - Check the source health tracking in meta.json for individual source failures.
+  - Review error messages in workflow logs for specific collector failures.
+  - Monitor the error aggregation in the final run summary.
 
 Monitoring and verification:
-- Review workflow run logs for each step’s success/failure.
+- Review workflow run logs for each step's success/failure.
 - Inspect the exported JSON files in docs/data/ to confirm schema compliance.
 - Validate that the GitHub Pages environment URL is populated after deployment.
+- **Enhanced** Monitor source health indicators in meta.json for ongoing system health.
 
 **Section sources**
 - [.github/workflows/pages-deploy.yml:10-18](file://.github/workflows/pages-deploy.yml#L10-L18)
-- [.github/workflows/worker-schedule.yml:44-57](file://.github/workflows/worker-schedule.yml#L44-L57)
-- [worker/main.py:77-124](file://worker/main.py#L77-L124)
+- [.github/workflows/worker-schedule.yml:46-61](file://.github/workflows/worker-schedule.yml#L46-L61)
+- [worker/main.py:173-191](file://worker/main.py#L173-L191)
 - [tests/test_schema.py:28-136](file://tests/test_schema.py#L28-L136)
 
 ## Conclusion
 The workflows provide a robust CI/CD pipeline for automated content refresh and static site publishing:
-- worker-schedule.yml coordinates data collection, validation, and publication
+- worker-schedule.yml coordinates data collection, validation, and publication with enhanced push-trigger functionality
 - pages-deploy.yml ensures timely deployment of updated content to GitHub Pages
 - Configuration and environment variables enable flexible customization
-- Built-in validation and optional SMTP notifications improve quality and observability
+- Built-in validation and comprehensive error handling improve quality and observability
+- Simplified environment management reduces complexity while maintaining security
 
-By leveraging these workflows and their documented customization points, teams can maintain a reliable, automated system for content distribution.
+By leveraging these workflows and their documented customization points, teams can maintain a reliable, automated system for content distribution with improved error handling and operational visibility.

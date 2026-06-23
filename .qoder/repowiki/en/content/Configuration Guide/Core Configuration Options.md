@@ -13,6 +13,13 @@
 - [test_schema.py](file://tests/test_schema.py)
 </cite>
 
+## Update Summary
+**Changes Made**
+- Updated default LLM model reference from previous model to `nvidia/nemotron-3-ultra-550b-a55b:free`
+- Enhanced LLM configuration documentation to reflect the new default model
+- Updated troubleshooting section to reference the new default model
+- Added model-specific performance characteristics and cost considerations
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
@@ -25,10 +32,10 @@
 9. [Conclusion](#conclusion)
 
 ## Introduction
-This document explains the core configuration options that govern the DevOps & AI Hub system’s data lifecycle and AI-driven content scoring. It focuses on:
+This document explains the core configuration options that govern the DevOps & AI Hub system's data lifecycle and AI-driven content scoring. It focuses on:
 - Retention_days for data lifecycle management
 - LLM configuration parameters (model selection, batch_size, max_tokens, temperature)
-- Keyword_filter pre-processing and its integration with LLM scoring
+- Keyword_filter pre-processing and how it integrates with LLM scoring
 - Environment variable overrides (OPENROUTER_MODEL, OPENROUTER_API_KEY, OPENROUTER_BASE_URL)
 - Practical examples, performance and cost impacts, and troubleshooting guidance
 
@@ -56,7 +63,7 @@ DB --> EXPORT
 ```
 
 **Diagram sources**
-- [config.yaml:1-244](file://worker/config.yaml#L1-L244)
+- [config.yaml:1-245](file://worker/config.yaml#L1-L245)
 - [main.py:127-297](file://worker/main.py#L127-L297)
 - [dedupe.py:79-90](file://worker/scoring/dedupe.py#L79-L90)
 - [llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
@@ -64,7 +71,7 @@ DB --> EXPORT
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 
 **Section sources**
-- [config.yaml:1-244](file://worker/config.yaml#L1-L244)
+- [config.yaml:1-245](file://worker/config.yaml#L1-L245)
 - [main.py:127-297](file://worker/main.py#L127-L297)
 
 ## Core Components
@@ -77,7 +84,7 @@ This section documents the primary configuration options and their effects on sy
   - Impact: Reduces storage footprint and keeps datasets current; affects downstream analytics and dashboards.
 
 - LLM Configuration (OpenRouter)
-  - model: Model identifier passed to OpenRouter. Can be overridden via environment variable OPENROUTER_MODEL.
+  - model: Model identifier passed to OpenRouter. Default model is `nvidia/nemotron-3-ultra-550b-a55b:free`. Can be overridden via environment variable OPENROUTER_MODEL.
   - base_url: OpenRouter API endpoint. Can be overridden via OPENROUTER_BASE_URL.
   - batch_size: Number of items processed per OpenRouter request.
   - max_tokens: Maximum tokens per LLM response (internal default in scoring module).
@@ -85,6 +92,7 @@ This section documents the primary configuration options and their effects on sy
   - Notes:
     - OPENROUTER_API_KEY must be set to enable LLM scoring; otherwise scoring is skipped.
     - The orchestrator reads model and batch_size from config.yaml, while the scoring module reads model from environment variables.
+    - The default `nvidia/nemotron-3-ultra-550b-a55b:free` model is optimized for cost-effectiveness while maintaining high-quality responses for DevOps and AI content.
 
 - Keyword Filter (Pre-processing Gate)
   - Purpose: Reduce LLM calls by pre-filtering items that contain at least one configured keyword.
@@ -166,8 +174,10 @@ Impact:
 ### LLM Configuration Parameters
 - Model selection
   - Config: llm.model in config.yaml.
+  - Default: `nvidia/nemotron-3-ultra-550b-a55b:free` - a high-performance, cost-effective model optimized for technical content.
   - Override: OPENROUTER_MODEL environment variable.
   - Behavior: Orchestrator passes model to scoring functions; scoring module uses OPENROUTER_MODEL if not provided.
+  - **Updated**: The default model has been changed to `nvidia/nemotron-3-ultra-550b-a55b:free`, which offers improved performance for DevOps, SRE, and AI/LLM infrastructure content while maintaining cost-effectiveness.
 - Batch size
   - Config: llm.batch_size in config.yaml.
   - Behavior: Controls how many items are sent per OpenRouter request.
@@ -207,7 +217,7 @@ Impact:
   - Jobs are deduplicated without keyword filtering in the orchestrator; LLM scoring still respects the keyword filter internally.
 
 Practical example:
-- Add “kubernetes” and “helm” to keyword_filter to focus on Kubernetes-related content.
+- Add "kubernetes" and "helm" to keyword_filter to focus on Kubernetes-related content.
 - Clear keyword_filter to process all items (increases LLM usage).
 
 Impact:
@@ -276,13 +286,12 @@ LLM -. "OPENROUTER_* env" .-> LLM
   - Larger batches reduce API call overhead but increase memory and processing time.
   - Smaller batches reduce memory footprint and latency.
 - Model selection
+  - **Updated**: The default `nvidia/nemotron-3-ultra-550b-a55b:free` model provides optimal balance of performance and cost for technical content.
   - Cheaper or smaller models reduce cost but may affect quality.
   - Deterministic models (lower temperature) improve consistency.
 - Keyword filter tuning
   - Tight filters reduce LLM usage and cost.
   - Loose filters increase coverage but raise cost.
-
-[No sources needed since this section provides general guidance]
 
 ## Troubleshooting Guide
 Common configuration issues and validations:
@@ -302,6 +311,7 @@ Common configuration issues and validations:
   - Symptom: Wrong model used.
   - Cause: OPENROUTER_MODEL not set or misconfigured.
   - Fix: Set OPENROUTER_MODEL to desired model.
+  - **Updated**: Current default model is `nvidia/nemotron-3-ultra-550b-a55b:free` - ensure this aligns with your requirements.
 
 - Export does not reflect recent items
   - Symptom: Old items missing from docs/data/*.json.
@@ -313,6 +323,13 @@ Common configuration issues and validations:
   - Cause: Data integrity issue.
   - Fix: Investigate upstream collection and deduplication.
 
+- Model-specific issues
+  - **Updated**: If experiencing issues with the default `nvidia/nemotron-3-ultra-550b-a55b:free` model:
+    - Check OPENROUTER_API_KEY validity
+    - Verify network connectivity to OpenRouter
+    - Consider switching to a different model via OPENROUTER_MODEL
+    - Monitor API rate limits and quotas
+
 Validation techniques:
 - Run the JSON schema tests to ensure docs/data/*.json conforms to expected structure and constraints.
 - Verify that relevance_score is a float in [0,1] for both news and jobs.
@@ -323,4 +340,4 @@ Validation techniques:
 - [test_schema.py:121-130](file://tests/test_schema.py#L121-L130)
 
 ## Conclusion
-The DevOps & AI Hub system’s core configuration centers on retention_days, LLM parameters, and keyword filtering. By tuning these options—combined with environment variable overrides—you can balance cost, performance, and relevance. Use the provided validation techniques to ensure configuration changes produce expected outcomes.
+The DevOps & AI Hub system's core configuration centers on retention_days, LLM parameters, and keyword filtering. The default `nvidia/nemotron-3-ultra-550b-a55b:free` model provides an excellent balance of performance and cost for technical content. By tuning these options—combined with environment variable overrides—you can balance cost, performance, and relevance. Use the provided validation techniques to ensure configuration changes produce expected outcomes.

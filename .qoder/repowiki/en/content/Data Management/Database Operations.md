@@ -13,6 +13,13 @@
 - [test_schema.py](file://tests/test_schema.py)
 </cite>
 
+## Update Summary
+**Changes Made**
+- Updated retention filtering section to reflect the switch from published_at/posted_at to first_seen_at for consistent date filtering
+- Modified query patterns section to explain the new SQLite comparison approach using timezone-aware timestamps
+- Updated troubleshooting guide to address timezone offset handling in SQLite comparisons
+- Enhanced performance considerations to highlight the benefits of using first_seen_at for retention filtering
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
@@ -106,7 +113,7 @@ Orchestrator->>RunLog : start_run(run_id)
 Orchestrator->>Storage : upsert_news(...) in transaction
 Orchestrator->>Storage : upsert_job(...) in transaction
 Orchestrator->>Export : export_all(conn, retention_days)
-Export->>DB : SELECT ... WHERE published_at/posted_at >= now - retention
+Export->>DB : SELECT ... WHERE first_seen_at >= now - retention
 DB-->>Export : rows
 Export-->>Orchestrator : counts
 Orchestrator->>RunLog : finish_run(run_id, counts, errors)
@@ -208,16 +215,16 @@ E --> G["Return True"]
 - [db.py:183-230](file://worker/storage/db.py#L183-L230)
 
 #### Queries for Export
-- get_news filters by published_at within retention window and orders by descending publication time.
-- get_jobs mirrors the same pattern for jobs.
+- **Updated**: get_news filters by first_seen_at within retention window and orders by descending publication time.
+- **Updated**: get_jobs mirrors the same pattern for jobs using first_seen_at for consistent date filtering.
 
 ```mermaid
 sequenceDiagram
 participant Export as "export_all"
 participant DB as "SQLite"
-Export->>DB : SELECT * FROM news WHERE published_at >= now - retention ORDER BY published_at DESC LIMIT ?
+Export->>DB : SELECT * FROM news WHERE first_seen_at >= datetime('now', ?) ORDER BY published_at DESC LIMIT ?
 DB-->>Export : rows
-Export->>DB : SELECT * FROM jobs WHERE posted_at >= now - retention ORDER BY posted_at DESC LIMIT ?
+Export->>DB : SELECT * FROM jobs WHERE first_seen_at >= datetime('now', ?) ORDER BY posted_at DESC LIMIT ?
 DB-->>Export : rows
 ```
 
@@ -273,7 +280,7 @@ D --> |No| F["Include for scoring/persistence"]
 
 ## Dependency Analysis
 - The main pipeline depends on the storage module for database operations and on the export module for JSON generation.
-- The export module depends on the storage module’s query functions.
+- The export module depends on the storage module's query functions.
 - The deduplication module depends on the storage module for seen checks.
 
 ```mermaid
@@ -297,7 +304,7 @@ DEDUPE --> DB
 
 ## Performance Considerations
 - Indexes: The schema defines indexes on published_at/source for news and posted_at/source for jobs to accelerate filtering and sorting.
-- Retention windows: Export queries restrict to recent data via date arithmetic, reducing scan cost.
+- **Updated**: Retention windows: Export queries now use first_seen_at for consistent date filtering across different timestamp formats, improving reliability and eliminating timezone offset issues in SQLite comparisons.
 - JSON fields: Tags and errors are stored as JSON strings; conversion helpers handle parsing and serialization.
 - WAL mode: Enabled for improved concurrency and durability.
 - Transaction batching: Bulk inserts are wrapped in a single transaction to minimize overhead and ensure atomicity.
@@ -317,7 +324,7 @@ Common issues and resolutions:
 - Connection errors: Verify the database path and permissions. The container ensures the db directory exists and is writable.
 - Schema mismatches: Re-run initialization to apply schema changes.
 - Transaction failures: Inspect exceptions raised by the transaction context manager; the worker logs errors and continues to update run_log with error lists.
-- Export anomalies: Confirm retention_days and that timestamps are present and correctly formatted.
+- **Updated**: Export anomalies: Confirm retention_days and that timestamps are present and correctly formatted. The system now uses first_seen_at for consistent date filtering, eliminating timezone offset issues in SQLite comparisons.
 
 Operational checks:
 - Validate that the SQLite file exists at the mounted path.
@@ -331,7 +338,7 @@ Operational checks:
 - [db.py:246-278](file://worker/storage/db.py#L246-L278)
 
 ## Conclusion
-The database layer is designed for simplicity, reliability, and performance within a scheduled worker pipeline. It leverages SQLite with WAL mode, explicit indexes, and transactional batches to persist curated news and jobs items. The schema and operations support efficient querying for JSON exports and robust run lifecycle tracking.
+The database layer is designed for simplicity, reliability, and performance within a scheduled worker pipeline. It leverages SQLite with WAL mode, explicit indexes, and transactional batches to persist curated news and jobs items. The schema and operations support efficient querying for JSON exports and robust run lifecycle tracking. **The recent update to use first_seen_at for retention filtering ensures consistent date comparisons across different timestamp formats and eliminates timezone offset issues in SQLite comparisons.**
 
 ## Appendices
 
@@ -389,8 +396,6 @@ text errors
 - Restore: Stop the worker, replace the database file, then restart.
 - Migration: Apply schema changes via a new init_db call; ensure backward compatibility of JSON fields and timestamps. After applying schema changes, re-run the pipeline to repopulate or reprocess data as needed.
 
-[No sources needed since this section provides general guidance]
-
 ### Appendix D: Validation of Exported JSON Schemas
 - The test suite validates that exported JSON files conform to required structures and constraints, including presence of keys, types, and ranges for relevance scores.
 
@@ -398,3 +403,18 @@ text errors
 - [test_schema.py:28-51](file://tests/test_schema.py#L28-L51)
 - [test_schema.py:53-96](file://tests/test_schema.py#L53-L96)
 - [test_schema.py:99-136](file://tests/test_schema.py#L99-L136)
+
+### Appendix E: Timezone Handling and Retention Filtering
+**Updated**: The database now uses first_seen_at for consistent retention filtering across different timestamp formats. This approach eliminates timezone offset issues in SQLite comparisons by using a single, standardized timestamp field that captures when items are first encountered in the system.
+
+Key benefits:
+- **Consistent filtering**: Uses a single timestamp field (first_seen_at) for all retention calculations
+- **Timezone independence**: Eliminates issues with timezone offsets in SQLite comparisons
+- **Cross-source compatibility**: Works uniformly across different data sources with varying timestamp formats
+- **Reliable date arithmetic**: SQLite's datetime function operates consistently with the stored ISO-format timestamps
+
+**Section sources**
+- [db.py:163-173](file://worker/storage/db.py#L163-L173)
+- [db.py:232-242](file://worker/storage/db.py#L232-L242)
+- [export_json.py:50](file://worker/storage/export_json.py#L50)
+- [export_json.py:66](file://worker/storage/export_json.py#L66)

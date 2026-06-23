@@ -1,1 +1,0 @@
-A static documentation site providing project information, job listings, and news updates.

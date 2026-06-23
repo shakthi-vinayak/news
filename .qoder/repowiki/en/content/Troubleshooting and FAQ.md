@@ -22,11 +22,10 @@
 
 ## Update Summary
 **Changes Made**
-- Removed SMTP digest functionality references throughout the document as it was completely removed from the codebase
-- Updated troubleshooting section to reflect current Git-based deployment workflow without email notifications
-- Removed all references to smtp_alert.py and SMTP-related configurations
-- Updated deployment workflow documentation to reflect GitHub Actions-based Git publishing
-- Revised FAQ section to remove SMTP-related questions and answers
+- Updated LLM scoring behavior section to reflect graceful API key handling
+- Added troubleshooting guidance for unscored items when OPENROUTER_API_KEY is missing
+- Updated FAQ section to address new behavior where application continues despite missing API key
+- Enhanced logging interpretation section to explain warning messages for missing API key
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -116,15 +115,15 @@ W->>CN : "collect() per enabled news source"
 CN-->>W : "raw_news[] or error logged"
 W->>DD : "dedupe_batch() + keyword filter"
 DD-->>W : "new_news[]"
-W->>LLM : "score_news_batch()"
-LLM-->>W : "news with relevance/tags"
+W->>LLM : "score_news_batch() (skipped if API key missing)"
+LLM-->>W : "news with relevance/tags or original items"
 W->>DB : "upsert_news() in transaction"
 W->>CJ : "collect() per enabled jobs source"
 CJ-->>W : "raw_jobs[] or error logged"
 W->>DD : "dedupe_batch() for jobs"
 DD-->>W : "new_jobs[]"
-W->>LLM : "score_jobs_batch()"
-LLM-->>W : "jobs with relevance/category"
+W->>LLM : "score_jobs_batch() (skipped if API key missing)"
+LLM-->>W : "jobs with relevance/category or original items"
 W->>DB : "upsert_job() in transaction"
 W->>EX : "export_all() -> news.json/jobs.json/meta.json"
 W->>GIT : "git_publish() unless DRY_RUN"
@@ -145,7 +144,7 @@ Key stages and error handling:
 - Initializes DB and starts run logging.
 - Iterates over enabled news and job collectors; each logs errors and marks source health.
 - Deduplication and keyword filtering reduce LLM workload.
-- LLM scoring is skipped if API key is missing; otherwise batches are processed with safe parsing.
+- LLM scoring is gracefully skipped if API key is missing; otherwise batches are processed with safe parsing.
 - Transactions wrap DB inserts; run logs record counts and errors.
 - JSON export writes three files and attaches source health.
 - Optional Git publish pushes only if credentials are provided.
@@ -154,13 +153,14 @@ Key stages and error handling:
 flowchart TD
 Start(["Start run"]) --> LoadCfg["Load config.yaml + env"]
 LoadCfg --> InitDB["Init DB + start_run"]
-InitDB --> CollectNews["Collect news from enabled sources"]
+InitDB --> CheckSecrets["Check OPENROUTER_API_KEY"]
+CheckSecrets --> CollectNews["Collect news from enabled sources"]
 CollectNews --> DedupNews["Deduplicate + keyword filter"]
-DedupNews --> ScoreNews["LLM score news (if API key)"]
+DedupNews --> ScoreNews["LLM score news (if API key present)"]
 ScoreNews --> UpsertNews["Upsert news in transaction"]
 UpsertNews --> CollectJobs["Collect jobs from enabled sources"]
 CollectJobs --> DedupJobs["Deduplicate"]
-DedupJobs --> ScoreJobs["LLM score jobs (if API key)"]
+DedupJobs --> ScoreJobs["LLM score jobs (if API key present)"]
 ScoreJobs --> UpsertJobs["Upsert jobs in transaction"]
 UpsertJobs --> Export["Export JSON (news/jobs/meta)"]
 Export --> FinishRun["finish_run() with counts + errors"]
@@ -256,6 +256,7 @@ Keep2 --> Out["Unique items"]
 
 ### LLM Relevance Scoring
 - Uses OpenRouter chat completions with environment overrides.
+- Graceful API key handling: if OPENROUTER_API_KEY is missing, scoring is skipped and items remain unchanged.
 - Batch processing with safe JSON parsing; on error, keeps original items to avoid data loss.
 - Separate prompts for news and jobs; tags/categories constrained to predefined sets.
 
@@ -265,11 +266,16 @@ participant M as "main.py"
 participant LR as "llm_relevance.py"
 participant OR as "OpenRouter API"
 M->>LR : "score_news_batch()/score_jobs_batch()"
+LR->>LR : "check OPENROUTER_API_KEY"
+alt API Key Present
 LR->>LR : "build payload (batch)"
 LR->>OR : "POST /chat/completions"
 OR-->>LR : "JSON array"
 LR->>LR : "safe parse + merge"
 LR-->>M : "items with scores/tags or categories"
+else API Key Missing
+LR-->>M : "return original items unchanged"
+end
 ```
 
 **Diagram sources**
@@ -360,18 +366,21 @@ Diagnostic steps:
 ### Processing Errors (Dedup, LLM, Persistence)
 Symptoms:
 - Items not appearing after dedup.
-- LLM scoring skipped or failing.
-- DB insert/update errors.
+- LLM scoring appears to be skipped.
+- Items remain unscored with relevance_score=0.0.
+- Warning messages about missing OPENROUTER_API_KEY.
 
 Common causes and fixes:
 - Missing LLM API key: set OPENROUTER_API_KEY to enable scoring.
+- **Updated**: Graceful handling: when API key is missing, the application continues but logs a warning and skips LLM scoring.
 - JSON parsing failures: LLM responses sanitized; if malformed, scorer falls back to original items.
 - DB constraint violations: ensure item IDs are deterministic and unique.
 - Transaction failures: check for concurrent access or disk space issues.
 
 Diagnostic steps:
-- Review run log entries for error lists.
+- Review run log entries for error lists and warning messages.
 - Inspect DB state and recent run entries.
+- Check for OPENROUTER_API_KEY warning in logs.
 - Temporarily disable LLM scoring to isolate DB issues.
 
 **Section sources**
@@ -435,14 +444,18 @@ Diagnostic steps:
 Typical log categories:
 - Source collection: "collected X items" and "failed: …".
 - Deduplication: fuzzy dedup removal count.
-- LLM scoring: batch number and error messages.
+- LLM scoring: batch number and warning messages about missing API key.
 - DB operations: upsert counts and timestamps.
 - Export: file sizes and counts.
 - Git publish: commit/push outcomes or local commit notice.
 
+**Updated**: Warning messages about OPENROUTER_API_KEY:
+- "OPENROUTER_API_KEY is not set — LLM scoring/summarisation will be skipped. Items will still be collected and published."
+
 Actions:
 - Use LOG_LEVEL to increase verbosity during diagnostics.
 - Correlate timestamps with run log entries.
+- Look for warning messages indicating missing API key.
 
 **Section sources**
 - [main.py](file://worker/main.py)
@@ -514,7 +527,7 @@ Q1: How do I enable/disable a news or job source?
 - Set the respective "enabled" flag in config.yaml for the desired source.
 
 Q2: Why are my items not being scored by the LLM?
-- Ensure OPENROUTER_API_KEY is set; otherwise scoring is skipped.
+- **Updated**: Ensure OPENROUTER_API_KEY is set; otherwise the application will log a warning and continue running, but LLM scoring will be skipped. Items will still be collected and published but will appear unscored (relevance_score=0.0).
 
 Q3: How can I reduce LLM costs?
 - Increase keyword_filter and/or reduce llm.batch_size.
@@ -540,6 +553,12 @@ Q9: How do I increase logging verbosity?
 Q10: How do I reset or prune data?
 - Lower retention_days to prune older items; DB schema supports pruning via queries.
 
+Q11: What happens if I don't set OPENROUTER_API_KEY?
+- **New**: The application will log a warning message but continue running normally. Items will still be collected and published, but they will remain unscored with relevance_score=0.0. The LLM scoring phase will be gracefully skipped.
+
+Q12: How can I tell if LLM scoring is working?
+- **New**: Check the logs for successful scoring messages. If OPENROUTER_API_KEY is missing, you'll see a warning about skipped LLM scoring. Items will still be processed and stored, but without relevance scores.
+
 **Section sources**
 - [config.yaml](file://worker/config.yaml)
 - [main.py](file://worker/main.py)
@@ -551,4 +570,4 @@ Q10: How do I reset or prune data?
 - [.dockerignore](file://worker/.dockerignore)
 
 ## Conclusion
-This guide consolidates actionable steps to diagnose and resolve common issues across collection, processing, deployment, and performance. By leveraging structured logging, run logs, and incremental testing, most problems can be isolated quickly. Adopt the recommended monitoring, maintenance, and security practices to sustain reliable operations.
+This guide consolidates actionable steps to diagnose and resolve common issues across collection, processing, deployment, and performance. The recent update to graceful API key handling means the system continues operating even without LLM scoring capabilities, providing flexibility while maintaining data integrity. By leveraging structured logging, run logs, and incremental testing, most problems can be isolated quickly. Adopt the recommended monitoring, maintenance, and security practices to sustain reliable operations.

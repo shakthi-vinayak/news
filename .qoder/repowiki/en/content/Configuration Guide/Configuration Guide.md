@@ -8,11 +8,17 @@
 - [dedupe.py](file://worker/scoring/dedupe.py)
 - [db.py](file://worker/storage/db.py)
 - [export_json.py](file://worker/storage/export_json.py)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 - [docker-compose.yml](file://docker-compose.yml)
 - [.gitignore](file://.gitignore)
 - [requirements.txt](file://worker/requirements.txt)
 </cite>
+
+## Update Summary
+**Changes Made**
+- Updated API key handling behavior from fail-fast to graceful warning for OPENROUTER_API_KEY
+- Enhanced keyword filtering documentation to reflect expanded tags field support
+- Updated troubleshooting guidance to reflect new graceful degradation behavior
+- Revised security considerations for API key management
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -35,7 +41,6 @@ The configuration is primarily defined in a single YAML file and consumed by the
 - LLM integration settings and environment overrides
 - Keyword filtering and deduplication logic
 - Persistence and export behavior
-- Optional SMTP digest delivery
 - Container orchestration and environment loading
 
 ```mermaid
@@ -46,14 +51,12 @@ LLM["worker/scoring/llm_relevance.py"]
 DEDUP["worker/scoring/dedupe.py"]
 DB["worker/storage/db.py"]
 EXPORT["worker/storage/export_json.py"]
-SMTP["worker/notify/smtp_alert.py"]
 DC["docker-compose.yml"]
 CFG --> MAIN
 MAIN --> DEDUP
 MAIN --> LLM
 MAIN --> DB
 MAIN --> EXPORT
-MAIN --> SMTP
 DC --> MAIN
 ```
 
@@ -64,7 +67,6 @@ DC --> MAIN
 - [dedupe.py](file://worker/scoring/dedupe.py)
 - [db.py](file://worker/storage/db.py)
 - [export_json.py](file://worker/storage/export_json.py)
-- [smtp_alert.py](file://worker/notify/smtp_alert.py)
 - [docker-compose.yml](file://docker-compose.yml)
 
 **Section sources**
@@ -76,12 +78,12 @@ DC --> MAIN
 This section explains the central configuration file and how it is loaded and used at runtime.
 
 - Central configuration file: [config.yaml](file://worker/config.yaml)
-- Configuration loader: [load_config():70-73](file://worker/main.py#L70-L73)
-- Runtime consumption: [run():127-292](file://worker/main.py#L127-L292)
+- Configuration loader: [load_config():91-95](file://worker/main.py#L91-L95)
+- Runtime consumption: [run():148-305](file://worker/main.py#L148-L305)
 
 Key behaviors:
 - The orchestrator loads the YAML configuration and reads top-level keys such as retention_days, llm, keyword_filter, news, and jobs.
-- Environment variables override specific LLM settings and global flags (e.g., OPENROUTER_API_KEY, OPENROUTER_MODEL, OPENROUTER_BASE_URL, DRY_RUN, SMTP_ENABLED, LOG_LEVEL).
+- Environment variables override specific LLM settings and global flags (e.g., OPENROUTER_API_KEY, OPENROUTER_MODEL, OPENROUTER_BASE_URL, DRY_RUN, LOG_LEVEL).
 - The configuration controls which sources are enabled, how many items are fetched per source, and how LLM scoring is applied.
 
 Practical examples:
@@ -96,8 +98,8 @@ Impact on system behavior:
 
 **Section sources**
 - [config.yaml](file://worker/config.yaml)
-- [main.py:70-73](file://worker/main.py#L70-L73)
-- [main.py:127-292](file://worker/main.py#L127-L292)
+- [main.py:91-95](file://worker/main.py#L91-L95)
+- [main.py:148-305](file://worker/main.py#L148-L305)
 
 ## Architecture Overview
 The configuration-driven pipeline orchestrates collection, deduplication, LLM scoring, persistence, export, and optional publishing.
@@ -111,8 +113,6 @@ participant Dedup as "dedupe.py"
 participant LLM as "llm_relevance.py"
 participant DB as "db.py"
 participant Export as "export_json.py"
-participant Git as "git_publish()"
-participant SMTP as "smtp_alert.py"
 Orchestrator->>Config : load_config()
 Orchestrator->>News : collect enabled sources
 News-->>Orchestrator : raw items
@@ -124,16 +124,14 @@ Orchestrator->>DB : upsert_news/upsert_job
 Orchestrator->>Export : export_all(retention_days)
 Export-->>Orchestrator : counts
 Orchestrator->>Git : git_publish() (optional)
-Orchestrator->>SMTP : send_digest() (optional)
 ```
 
 **Diagram sources**
-- [main.py:127-292](file://worker/main.py#L127-L292)
-- [dedupe.py:48-90](file://worker/scoring/dedupe.py#L48-L90)
-- [llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
-- [db.py:116-242](file://worker/storage/db.py#L116-L242)
-- [export_json.py:32-92](file://worker/storage/export_json.py#L32-L92)
-- [smtp_alert.py:64-105](file://worker/notify/smtp_alert.py#L64-L105)
+- [main.py:148-305](file://worker/main.py#L148-L305)
+- [dedupe.py:48-92](file://worker/scoring/dedupe.py#L48-L92)
+- [llm_relevance.py:102-185](file://worker/scoring/llm_relevance.py#L102-L185)
+- [db.py:116-278](file://worker/storage/db.py#L116-L278)
+- [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 
 ## Detailed Component Analysis
 
@@ -147,7 +145,7 @@ The configuration file defines:
 
 Configuration sections and defaults:
 - Retention: retention_days defaults to 30 days.
-- LLM: model defaults to a specific OpenRouter model; base_url defaults to OpenRouter’s API endpoint; batch_size defaults to 10; max_tokens and temperature are configurable; prefilter_keywords defaults to empty list.
+- LLM: model defaults to `nvidia/nemotron-3-ultra-550b-a55b:free`; base_url defaults to OpenRouter's API endpoint; batch_size defaults to 10; max_tokens and temperature are configurable; prefilter_keywords defaults to empty list.
 - Keyword filter: a curated list of DevOps/AI/Platform topics; items must match at least one keyword to proceed to LLM scoring.
 - News sources: each source has an enabled flag and source-specific parameters (e.g., tags, min_points, max_items, subreddits, feeds, repos).
 - Jobs sources: each source has an enabled flag and source-specific parameters (e.g., tags, categories, feed_url, boards).
@@ -155,9 +153,8 @@ Configuration sections and defaults:
 Environment variable overrides:
 - OPENROUTER_MODEL overrides the LLM model setting.
 - OPENROUTER_BASE_URL overrides the LLM base URL.
-- OPENROUTER_API_KEY is required for LLM scoring; if unset, LLM scoring is skipped.
+- OPENROUTER_API_KEY enables LLM scoring; if unset, system continues with graceful degradation.
 - DRY_RUN disables Git publishing and SMTP digest sending.
-- SMTP_ENABLED enables SMTP digest sending.
 - LOG_LEVEL sets the logging verbosity.
 
 Practical examples:
@@ -172,9 +169,11 @@ Impact on system behavior:
 - Keyword filters reduce downstream processing and API usage.
 - Source enablement and limits control ingestion volume and resource usage.
 
+**Updated** API key handling now uses graceful warning instead of fail-fast behavior, allowing system to continue operation even without LLM scoring capabilities.
+
 **Section sources**
 - [config.yaml](file://worker/config.yaml)
-- [main.py:127-136](file://worker/main.py#L127-L136)
+- [main.py:148-155](file://worker/main.py#L148-L155)
 - [llm_relevance.py:16-18](file://worker/scoring/llm_relevance.py#L16-L18)
 
 ### LLM Integration Settings and Overrides
@@ -183,12 +182,12 @@ LLM integration is powered by OpenRouter and controlled by both configuration an
 Key settings:
 - Model selection: configured in YAML; overridden by OPENROUTER_MODEL.
 - Base URL: configured in YAML; overridden by OPENROUTER_BASE_URL.
-- API key: required; configured via OPENROUTER_API_KEY.
+- API key: enables LLM scoring; if unset, system continues with graceful degradation.
 - Batch size: configured in YAML; influences throughput and cost.
 - Temperature and max tokens: configured in YAML; affect determinism and output length.
 
 Behavior:
-- If OPENROUTER_API_KEY is not set, LLM scoring is skipped for both news and jobs.
+- If OPENROUTER_API_KEY is not set, LLM scoring is skipped gracefully for both news and jobs.
 - The orchestrator passes the model and batch_size to scoring functions.
 - Scoring functions validate presence of the API key and handle failures gracefully by keeping unscored items.
 
@@ -202,18 +201,20 @@ Best practices:
 - Keep temperature low for deterministic outputs.
 - Monitor rate limits and adjust batch_size accordingly.
 
+**Updated** API key validation now uses graceful warning behavior instead of immediate failure, allowing continued system operation with reduced functionality.
+
 **Section sources**
 - [config.yaml:10-18](file://worker/config.yaml#L10-L18)
 - [llm_relevance.py:16-18](file://worker/scoring/llm_relevance.py#L16-L18)
-- [llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
-- [main.py:184-189](file://worker/main.py#L184-L189)
+- [llm_relevance.py:102-185](file://worker/scoring/llm_relevance.py#L102-L185)
+- [main.py:35-47](file://worker/main.py#L35-L47)
 
 ### Keyword Filtering Rules
 Keyword filtering acts as a pre-filter to reduce LLM calls.
 
 Rules:
 - Items must contain at least one keyword from the configured list to proceed to LLM scoring.
-- The filter checks title, summary, and company fields depending on item type.
+- The filter checks title, summary, company, and tags fields depending on item type.
 - If the keyword list is empty, all items pass the filter.
 
 Impact:
@@ -221,10 +222,12 @@ Impact:
 - Improves throughput by limiting scoring scope.
 - Can be tuned to focus on specific domains (e.g., DevOps, SRE, Kubernetes, AI/LLM).
 
+**Updated** Expanded keyword filtering now includes support for tags field in items, enhancing filtering capabilities across multiple data sources.
+
 **Section sources**
 - [config.yaml:20-76](file://worker/config.yaml#L20-L76)
-- [dedupe.py:80-90](file://worker/scoring/dedupe.py#L80-L90)
-- [main.py:179-181](file://worker/main.py#L179-L181)
+- [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
+- [main.py:196-203](file://worker/main.py#L196-L203)
 
 ### Retention Policies
 Retention controls how long items remain in the database and are included in exported JSON.
@@ -240,7 +243,7 @@ Behavior:
 
 **Section sources**
 - [config.yaml:6-7](file://worker/config.yaml#L6-L7)
-- [export_json.py:32-92](file://worker/storage/export_json.py#L32-L92)
+- [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [db.py:163-174](file://worker/storage/db.py#L163-L174)
 
 ### Environment Variable Overrides and Flags
@@ -249,26 +252,25 @@ Runtime flags and overrides are read from environment variables.
 Key variables:
 - OPENROUTER_MODEL: overrides the LLM model.
 - OPENROUTER_BASE_URL: overrides the LLM base URL.
-- OPENROUTER_API_KEY: required for LLM scoring.
+- OPENROUTER_API_KEY: enables LLM scoring with graceful degradation.
 - DRY_RUN: disables Git publishing and SMTP digest sending.
-- SMTP_ENABLED: enables SMTP digest sending.
 - LOG_LEVEL: sets logging verbosity.
 - GH_PAT, GIT_REPO_URL, GIT_BRANCH, GIT_USER_NAME, GIT_USER_EMAIL: configure Git publishing.
-- SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, SMTP_TO, SMTP_FROM: configure SMTP digest.
 
 Behavior:
 - The orchestrator loads .env files from worker and repo root.
 - Variables override configuration values where applicable.
 - Missing required variables cause graceful skipping of optional features.
 
+**Updated** API key handling now uses graceful warning behavior, allowing system continuation even without LLM scoring capabilities.
+
 **Section sources**
-- [main.py:23-25](file://worker/main.py#L23-L25)
-- [main.py:28-35](file://worker/main.py#L28-L35)
-- [main.py:82-86](file://worker/main.py#L82-L86)
-- [main.py:136-136](file://worker/main.py#L136-L136)
-- [main.py:280-286](file://worker/main.py#L280-L286)
+- [main.py:27-31](file://worker/main.py#L27-L31)
+- [main.py:34-56](file://worker/main.py#L34-L56)
+- [main.py:91-95](file://worker/main.py#L91-L95)
+- [main.py:148-155](file://worker/main.py#L148-L155)
+- [main.py:296-300](file://worker/main.py#L296-L300)
 - [llm_relevance.py:16-18](file://worker/scoring/llm_relevance.py#L16-L18)
-- [smtp_alert.py:69-74](file://worker/notify/smtp_alert.py#L69-L74)
 
 ### News Sources Configuration
 Each news source has an enabled flag and source-specific parameters.
@@ -305,25 +307,19 @@ Examples:
 - ArbeitenNOW, Who Is Hiring (Hacker News), Greenhouse, Lever: enable/disable and configure boards/tags.
 
 **Section sources**
-- [config.yaml:170-244](file://worker/config.yaml#L170-L244)
+- [config.yaml:170-245](file://worker/config.yaml#L170-L245)
 
-### Publishing and SMTP Digest
-Publishing and SMTP digest are optional features controlled by environment variables.
+### Publishing and Git Integration
+Git publishing is an optional feature controlled by environment variables.
 
 Git publishing:
 - Enabled when GH_PAT and GIT_REPO_URL are set.
 - Commits and pushes docs/data updates to the configured repository and branch.
 - DRY_RUN disables publishing.
 
-SMTP digest:
-- Enabled when SMTP_ENABLED is true and credentials are provided.
-- Sends an HTML digest of high-relevance items (threshold-based filtering).
-- DRY_RUN disables sending.
-
 **Section sources**
-- [main.py:77-124](file://worker/main.py#L77-L124)
-- [main.py:274-287](file://worker/main.py#L274-L287)
-- [smtp_alert.py:64-105](file://worker/notify/smtp_alert.py#L64-L105)
+- [main.py:97-145](file://worker/main.py#L97-L145)
+- [main.py:296-300](file://worker/main.py#L296-L300)
 
 ## Dependency Analysis
 Configuration dependencies and runtime interactions:
@@ -336,33 +332,29 @@ DEDUP["dedupe.py"]
 LLM["llm_relevance.py"]
 DB["db.py"]
 EXPORT["export_json.py"]
-SMTP["smtp_alert.py"]
 DC["docker-compose.yml"]
 CFG --> MAIN
 MAIN --> DEDUP
 MAIN --> LLM
 MAIN --> DB
 MAIN --> EXPORT
-MAIN --> SMTP
 DC --> MAIN
 ```
 
 **Diagram sources**
 - [config.yaml](file://worker/config.yaml)
-- [main.py:127-292](file://worker/main.py#L127-L292)
-- [dedupe.py:48-90](file://worker/scoring/dedupe.py#L48-L90)
-- [llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
-- [db.py:116-242](file://worker/storage/db.py#L116-L242)
-- [export_json.py:32-92](file://worker/storage/export_json.py#L32-L92)
-- [smtp_alert.py:64-105](file://worker/notify/smtp_alert.py#L64-L105)
+- [main.py:148-305](file://worker/main.py#L148-L305)
+- [dedupe.py:48-92](file://worker/scoring/dedupe.py#L48-L92)
+- [llm_relevance.py:102-185](file://worker/scoring/llm_relevance.py#L102-L185)
+- [db.py:116-278](file://worker/storage/db.py#L116-L278)
+- [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [docker-compose.yml](file://docker-compose.yml)
 
 **Section sources**
-- [main.py:127-292](file://worker/main.py#L127-L292)
-- [llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
-- [db.py:116-242](file://worker/storage/db.py#L116-L242)
-- [export_json.py:32-92](file://worker/storage/export_json.py#L32-L92)
-- [smtp_alert.py:64-105](file://worker/notify/smtp_alert.py#L64-L105)
+- [main.py:148-305](file://worker/main.py#L148-L305)
+- [llm_relevance.py:102-185](file://worker/scoring/llm_relevance.py#L102-L185)
+- [db.py:116-278](file://worker/storage/db.py#L116-L278)
+- [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 
 ## Performance Considerations
 - Reduce LLM API costs and latency by tuning keyword filters and prefilter_keywords.
@@ -372,7 +364,7 @@ DC --> MAIN
 - Respect external rate limits (e.g., Reddit) by configuring delays and limits.
 - Monitor logs via LOG_LEVEL to detect bottlenecks and errors early.
 
-[No sources needed since this section provides general guidance]
+**Updated** Enhanced API key handling allows graceful operation without LLM scoring, maintaining system performance while reducing costs when API keys are unavailable.
 
 ## Troubleshooting Guide
 Common configuration issues and resolutions:
@@ -380,17 +372,12 @@ Common configuration issues and resolutions:
 - LLM scoring not applied:
   - Cause: OPENROUTER_API_KEY not set.
   - Resolution: Set OPENROUTER_API_KEY in environment variables.
-  - Impact: Items skip LLM scoring; relevance_score remains unset.
+  - Impact: Items skip LLM scoring but system continues with graceful degradation; relevance_score remains unset.
 
 - No Git publishing:
   - Cause: Missing GH_PAT or GIT_REPO_URL.
   - Resolution: Provide both variables; optionally set GIT_BRANCH, GIT_USER_NAME, GIT_USER_EMAIL.
   - Impact: Changes remain local; DRY_RUN also disables publishing.
-
-- SMTP digest not sent:
-  - Cause: Missing SMTP_ENABLED or incomplete SMTP credentials.
-  - Resolution: Set SMTP_ENABLED=true and provide SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, SMTP_TO; optionally set SMTP_FROM.
-  - Impact: No digest emails; DRY_RUN also disables sending.
 
 - Excessive LLM usage:
   - Cause: Empty keyword_filter or prefilter_keywords.
@@ -407,42 +394,46 @@ Common configuration issues and resolutions:
   - Resolution: Increase delay_seconds for Reddit and tune max_items_per_*.
   - Impact: Temporary failures or IP bans.
 
+- API key validation issues:
+  - Cause: Missing or invalid OPENROUTER_API_KEY.
+  - Resolution: Set OPENROUTER_API_KEY environment variable; system will warn but continue.
+  - Impact: Graceful degradation with LLM scoring disabled.
+
+**Updated** API key handling now uses graceful warning behavior, allowing system continuation even without LLM scoring capabilities.
+
 Validation techniques:
 - Verify environment variables are loaded by checking LOG_LEVEL and startup logs.
 - Confirm source enablement flags and limits in config.yaml.
-- Review run logs for error messages indicating configuration issues.
-- Test with DRY_RUN=true to validate pipeline without publishing or SMTP.
+- Review run logs for warning messages about missing API keys.
+- Test with DRY_RUN=true to validate pipeline without publishing.
 
 **Section sources**
-- [llm_relevance.py:105-107](file://worker/scoring/llm_relevance.py#L105-L107)
-- [main.py:106-120](file://worker/main.py#L106-L120)
-- [smtp_alert.py:76-78](file://worker/notify/smtp_alert.py#L76-L78)
-- [main.py:136-136](file://worker/main.py#L136-L136)
+- [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114)
+- [main.py:148-155](file://worker/main.py#L148-L155)
+- [main.py:296-300](file://worker/main.py#L296-L300)
 
 ## Conclusion
 The DevOps & AI Hub configuration system centers on a single YAML file augmented by environment variables. By carefully tuning keyword filters, LLM settings, source limits, and retention policies, operators can balance cost, performance, and coverage. Security best practices—especially around API key management—ensure safe production deployments. The provided troubleshooting guidance helps diagnose and resolve common configuration pitfalls quickly.
 
-[No sources needed since this section summarizes without analyzing specific files]
+**Updated** Enhanced API key handling provides graceful degradation behavior, improving system resilience and operational continuity while maintaining backward compatibility through environment variable overrides.
 
 ## Appendices
 
 ### Appendix A: Environment Variables Reference
-- OPENROUTER_MODEL: Overrides the LLM model.
+- OPENROUTER_MODEL: Overrides the LLM model (defaults to `nvidia/nemotron-3-ultra-550b-a55b:free`).
 - OPENROUTER_BASE_URL: Overrides the LLM base URL.
-- OPENROUTER_API_KEY: Required for LLM scoring.
-- DRY_RUN: Disables Git publishing and SMTP digest.
-- SMTP_ENABLED: Enables SMTP digest.
+- OPENROUTER_API_KEY: Enables LLM scoring with graceful degradation.
+- DRY_RUN: Disables Git publishing.
 - LOG_LEVEL: Sets logging verbosity.
 - GH_PAT, GIT_REPO_URL, GIT_BRANCH, GIT_USER_NAME, GIT_USER_EMAIL: Configure Git publishing.
-- SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, SMTP_TO, SMTP_FROM: Configure SMTP digest.
 
 **Section sources**
-- [main.py:28-35](file://worker/main.py#L28-L35)
-- [main.py:82-86](file://worker/main.py#L82-L86)
-- [main.py:136-136](file://worker/main.py#L136-L136)
-- [main.py:280-286](file://worker/main.py#L280-L286)
+- [main.py:27-31](file://worker/main.py#L27-L31)
+- [main.py:34-56](file://worker/main.py#L34-L56)
+- [main.py:91-95](file://worker/main.py#L91-L95)
+- [main.py:148-155](file://worker/main.py#L148-L155)
+- [main.py:296-300](file://worker/main.py#L296-L300)
 - [llm_relevance.py:16-18](file://worker/scoring/llm_relevance.py#L16-L18)
-- [smtp_alert.py:69-74](file://worker/notify/smtp_alert.py#L69-L74)
 
 ### Appendix B: Security Best Practices
 - Never commit secrets to version control; use environment files and CI secret managers.
@@ -454,3 +445,27 @@ The DevOps & AI Hub configuration system centers on a single YAML file augmented
 **Section sources**
 - [.gitignore:13-15](file://.gitignore#L13-L15)
 - [requirements.txt:1-11](file://worker/requirements.txt#L1-L11)
+
+### Appendix C: API Key Handling Behavior
+Enhanced API key validation provides graceful degradation:
+
+- **Graceful Warning**: OPENROUTER_API_KEY missing → system warns but continues operation.
+- **Reduced Functionality**: LLM scoring is skipped; items still collected and published.
+- **Backward Compatibility**: Maintains existing behavior patterns while improving resilience.
+- **Logging**: Clear warning messages indicate missing API key status.
+
+**Section sources**
+- [main.py:35-47](file://worker/main.py#L35-L47)
+- [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114)
+
+### Appendix D: Keyword Filtering Enhancements
+Expanded filtering capabilities:
+
+- **Multi-field Support**: Filters now check title, summary, company, and tags fields.
+- **Tags Field Integration**: Supports both string and list-based tags for enhanced filtering.
+- **Flexible Data Types**: Handles various tag formats gracefully.
+- **Performance Optimization**: Efficient text processing across multiple fields.
+
+**Section sources**
+- [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
+- [config.yaml:20-76](file://worker/config.yaml#L20-L76)
