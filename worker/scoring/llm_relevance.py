@@ -16,14 +16,19 @@ log = logging.getLogger(__name__)
 
 OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
 OPENROUTER_API_KEY  = os.getenv("OPENROUTER_API_KEY", "")
-OPENROUTER_MODEL    = os.getenv("OPENROUTER_MODEL",    "nvidia/nemotron-3-ultra-550b-a55b:free")
+OPENROUTER_MODEL    = os.getenv("OPENROUTER_MODEL",    "nvidia/nemotron-3-nano-30b-a3b:free")
 
-# Fallback chain: if the primary model is rate-limited, try these free models in order.
-# Only free models are used -- paid models are never triggered.
-FREE_MODEL_FALLBACKS = [
+# Free model pool — tried in parallel; first success wins.
+# Ordered roughly by capability (best first). Only free models.
+FREE_MODEL_POOL = [
+    "nvidia/nemotron-3-nano-30b-a3b:free",
+    "google/gemma-4-31b-it:free",
+    "qwen/qwen3-next-80b-a3b-instruct:free",
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "cohere/north-mini-code:free",
+    "liquid/lfm-2.5-1.2b-instruct:free",
     "nvidia/nemotron-3-ultra-550b-a55b:free",
     "nvidia/nemotron-3-super-120b-a12b:free",
-    "openai/gpt-oss-120b:free",
 ]
 
 NEWS_TAGS = [
@@ -70,13 +75,12 @@ def _client() -> httpx.Client:
     )
 
 
-MAX_RETRIES_PER_MODEL = 3
-FALLBACK_RETRY_BASE_DELAY = 10  # seconds
+MAX_RETRIES_PER_MODEL = 1  # keep low — parallel fan-out handles availability
+RETRY_BASE_DELAY = 5  # seconds
 
 
-def _chat_single(system: str, user_content: str, model: str) -> str:
-    """Try a single model with retries. Returns response text or raises."""
-    payload = {
+def _make_payload(model: str, system: str, user_content: str) -> dict:
+    return {
         "model": model,
         "messages": [
             {"role": "system", "content": system},
@@ -84,52 +88,84 @@ def _chat_single(system: str, user_content: str, model: str) -> str:
         ],
         "max_tokens": 2048,
         "temperature": 0.1,
-        # Prevent OpenRouter from falling back to paid models
         "provider": {
             "allow_fallbacks": False,
         },
     }
-    for attempt in range(MAX_RETRIES_PER_MODEL):
-        with _client() as client:
-            resp = client.post("/chat/completions", json=payload)
-            if resp.status_code == 429 or resp.status_code == 503:
-                delay = FALLBACK_RETRY_BASE_DELAY * (2 ** attempt)
-                log.warning(
-                    "Model %s rate-limited (HTTP %d), retry %d/%d in %ds",
-                    model, resp.status_code, attempt + 1, MAX_RETRIES_PER_MODEL, delay,
-                )
-                time.sleep(delay)
-                continue
-            if resp.status_code >= 400:
-                raise RuntimeError(
-                    f"OpenRouter error with {model} (HTTP {resp.status_code}) -- will try next model"
-                )
-            resp.raise_for_status()
-            return resp.json()["choices"][0]["message"]["content"].strip()
-    raise RuntimeError(f"Model {model} rate-limited after {MAX_RETRIES_PER_MODEL} retries")
+
+
+def _try_model(client: httpx.Client, model: str, payload: dict) -> tuple[str, str | None]:
+    """Send one request. Returns (model, response_text) on success,
+    or (model, None) on rate-limit/error."""
+    try:
+        resp = client.post("/chat/completions", json=payload)
+        if resp.status_code in (429, 503):
+            log.debug("Model %s rate-limited (HTTP %d)", model, resp.status_code)
+            return (model, None)
+        if resp.status_code >= 400:
+            log.debug("Model %s error (HTTP %d)", model, resp.status_code)
+            return (model, None)
+        resp.raise_for_status()
+        return (model, resp.json()["choices"][0]["message"]["content"].strip())
+    except Exception as exc:
+        log.debug("Model %s exception: %s", model, exc)
+        return (model, None)
 
 
 def _chat(system: str, user_content: str, model: str) -> str:
-    """Try the requested model, then fall back through free model chain."""
-    # Build ordered list: requested model first, then remaining fallbacks
-    models_to_try = [model]
-    for m in FREE_MODEL_FALLBACKS:
-        if m != model:
-            models_to_try.append(m)
+    """Fan-out to all free models in parallel; first success wins.
+    Falls back to sequential retries if all fail in the first wave."""
+    # Build model list: primary first, then the rest of the pool
+    models = [model] + [m for m in FREE_MODEL_POOL if m != model]
 
-    last_err = None
-    for m in models_to_try:
-        try:
-            result = _chat_single(system, user_content, m)
-            if m != model:
-                log.info("Succeeded with fallback model %s", m)
-            return result
-        except RuntimeError as exc:
-            last_err = exc
-            log.warning("Model %s failed: %s -- trying next free model", m, exc)
+    # ── Wave 1: parallel fan-out ────────────────────────────────────────
+    with _client() as client:
+        payloads = {m: _make_payload(m, system, user_content) for m in models}
+        # Use httpx's connection pool to send all requests concurrently
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+
+        with ThreadPoolExecutor(max_workers=len(models)) as pool:
+            futures = {
+                pool.submit(_try_model, client, m, payloads[m]): m
+                for m in models
+            }
+            for future in as_completed(futures):
+                m, text = future.result()
+                if text is not None:
+                    if m != model:
+                        log.info("Primary model unavailable, used %s instead", m)
+                    else:
+                        log.debug("Succeeded with primary model %s", m)
+                    # Cancel remaining futures
+                    for f in futures:
+                        f.cancel()
+                    return text
+
+    # ── Wave 2: sequential retry with backoff ───────────────────────────
+    log.warning("All models rate-limited in parallel wave, retrying sequentially...")
+    for attempt in range(MAX_RETRIES_PER_MODEL):
+        for m in models:
+            try:
+                with _client() as client:
+                    payload = _make_payload(m, system, user_content)
+                    resp = client.post("/chat/completions", json=payload)
+                    if resp.status_code in (429, 503):
+                        continue
+                    if resp.status_code >= 400:
+                        continue
+                    resp.raise_for_status()
+                    text = resp.json()["choices"][0]["message"]["content"].strip()
+                    log.info("Succeeded with %s on sequential retry (attempt %d)", m, attempt + 1)
+                    return text
+            except Exception:
+                continue
+        delay = RETRY_BASE_DELAY * (2 ** attempt)
+        log.warning("All models still rate-limited, waiting %ds before retry...", delay)
+        time.sleep(delay)
 
     raise RuntimeError(
-        f"All free models exhausted (tried {', '.join(models_to_try)}). Last error: {last_err}"
+        f"All free models exhausted after parallel + sequential retries "
+        f"(tried {', '.join(models)})"
     )
 
 
