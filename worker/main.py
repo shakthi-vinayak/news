@@ -40,9 +40,9 @@ def _check_secrets() -> None:
     """
     if not os.getenv("OPENROUTER_API_KEY"):
         log.warning(
-            "OPENROUTER_API_KEY is not set — LLM scoring/summarisation will be "
+            "OPENROUTER_API_KEY is not set -- LLM scoring/summarisation will be "
             "skipped. Items will still be collected and published. "
-            "Set the secret at Settings → Secrets → Actions to enable scoring."
+            "Set the secret at Settings -> Secrets -> Actions to enable scoring."
         )
 
 # ── Logging ────────────────────────────────────────────────────────────────

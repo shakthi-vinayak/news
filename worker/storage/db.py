@@ -165,7 +165,7 @@ def get_news(
 ) -> list[dict]:
     rows = conn.execute(
         """SELECT * FROM news
-           WHERE published_at >= datetime('now', ?)
+           WHERE first_seen_at >= datetime('now', ?)
            ORDER BY published_at DESC
            LIMIT ?""",
         (f"-{days} days", limit),
@@ -234,7 +234,7 @@ def get_jobs(
 ) -> list[dict]:
     rows = conn.execute(
         """SELECT * FROM jobs
-           WHERE posted_at >= datetime('now', ?)
+           WHERE first_seen_at >= datetime('now', ?)
            ORDER BY posted_at DESC
            LIMIT ?""",
         (f"-{days} days", limit),

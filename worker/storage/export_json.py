@@ -84,7 +84,7 @@ def export_all(
     _write_json(out / "meta.json", meta_payload)
 
     log.info(
-        "Export complete: %d news, %d jobs → %s",
+        "Export complete: %d news, %d jobs -> %s",
         len(news_items),
         len(job_items),
         out,
