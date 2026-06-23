@@ -18,6 +18,14 @@ OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/ap
 OPENROUTER_API_KEY  = os.getenv("OPENROUTER_API_KEY", "")
 OPENROUTER_MODEL    = os.getenv("OPENROUTER_MODEL",    "nvidia/nemotron-3-ultra-550b-a55b:free")
 
+# Fallback chain: if the primary model is rate-limited, try these free models in order.
+# Only free models are used -- paid models are never triggered.
+FREE_MODEL_FALLBACKS = [
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
+    "openai/gpt-oss-120b:free",
+]
+
 NEWS_TAGS = [
     "AI", "DevOps", "Kubernetes", "Cloud", "SRE", "Observability",
     "Platform Engineering", "Security", "Terraform", "CI/CD",
@@ -62,11 +70,12 @@ def _client() -> httpx.Client:
     )
 
 
-MAX_RETRIES = 3
-RETRY_BASE_DELAY = 10  # seconds
+MAX_RETRIES_PER_MODEL = 3
+FALLBACK_RETRY_BASE_DELAY = 10  # seconds
 
 
-def _chat(system: str, user_content: str, model: str) -> str:
+def _chat_single(system: str, user_content: str, model: str) -> str:
+    """Try a single model with retries. Returns response text or raises."""
     payload = {
         "model": model,
         "messages": [
@@ -75,32 +84,52 @@ def _chat(system: str, user_content: str, model: str) -> str:
         ],
         "max_tokens": 2048,
         "temperature": 0.1,
-        # Prevent OpenRouter from falling back to paid models if free model is unavailable
-        "route": "fallback",
+        # Prevent OpenRouter from falling back to paid models
         "provider": {
             "allow_fallbacks": False,
         },
     }
-    last_err = None
-    for attempt in range(MAX_RETRIES):
+    for attempt in range(MAX_RETRIES_PER_MODEL):
         with _client() as client:
             resp = client.post("/chat/completions", json=payload)
             if resp.status_code == 429 or resp.status_code == 503:
-                delay = RETRY_BASE_DELAY * (2 ** attempt)
+                delay = FALLBACK_RETRY_BASE_DELAY * (2 ** attempt)
                 log.warning(
-                    "Free model rate-limited (HTTP %d), retry %d/%d in %ds",
-                    resp.status_code, attempt + 1, MAX_RETRIES, delay,
+                    "Model %s rate-limited (HTTP %d), retry %d/%d in %ds",
+                    model, resp.status_code, attempt + 1, MAX_RETRIES_PER_MODEL, delay,
                 )
                 time.sleep(delay)
                 continue
             if resp.status_code >= 400:
                 raise RuntimeError(
-                    f"OpenRouter error (HTTP {resp.status_code}) -- skipping batch to avoid paid fallback"
+                    f"OpenRouter error with {model} (HTTP {resp.status_code}) -- will try next model"
                 )
             resp.raise_for_status()
             return resp.json()["choices"][0]["message"]["content"].strip()
+    raise RuntimeError(f"Model {model} rate-limited after {MAX_RETRIES_PER_MODEL} retries")
+
+
+def _chat(system: str, user_content: str, model: str) -> str:
+    """Try the requested model, then fall back through free model chain."""
+    # Build ordered list: requested model first, then remaining fallbacks
+    models_to_try = [model]
+    for m in FREE_MODEL_FALLBACKS:
+        if m != model:
+            models_to_try.append(m)
+
+    last_err = None
+    for m in models_to_try:
+        try:
+            result = _chat_single(system, user_content, m)
+            if m != model:
+                log.info("Succeeded with fallback model %s", m)
+            return result
+        except RuntimeError as exc:
+            last_err = exc
+            log.warning("Model %s failed: %s -- trying next free model", m, exc)
+
     raise RuntimeError(
-        f"Free model unavailable after {MAX_RETRIES} retries -- skipping batch"
+        f"All free models exhausted (tried {', '.join(models_to_try)}). Last error: {last_err}"
     )
 
 
