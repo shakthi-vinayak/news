@@ -172,12 +172,33 @@ jobs:
     - sre
     - site reliability
     - platform engineer
+    - platform engineering
     - cloud engineer
+    - cloud engineering
     - kubernetes
     - observability
     - workflow automation
     - mlops
     - llmops
+    - cicd
+    - ci/cd
+    - infrastructure
+    - infrastructure as code
+    - terraform
+    - ansible
+    - finops
+    - kafka
+    - automation engineer
+    - release engineer
+    - production engineer
+    - systems engineer
+    - reliability engineer
+    - devsecops
+    - containers
+    - docker
+    - helm
+    - argocd
+    - gitops
 
   remoteok:
     enabled: true
@@ -238,4 +259,9 @@ jobs:
       - affinidi
       - hebbia
       - klarna
+
+  jobsurface:
+    enabled: true
+    # Scrapes the latest weekly post from jobsurface.com
+    max_items: 200
 

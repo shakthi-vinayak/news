@@ -71,6 +71,7 @@ from collectors.jobs import (
     arbeitnow,
     greenhouse,
     hn_whoishiring,
+    jobsurface,
     lever,
     remoteok,
     remotive,
@@ -248,6 +249,8 @@ def run() -> None:
         _collect_jobs("greenhouse", greenhouse, jobs_cfg["greenhouse"])
     if jobs_cfg.get("lever", {}).get("enabled", True):
         _collect_jobs("lever", lever, jobs_cfg["lever"])
+    if jobs_cfg.get("jobsurface", {}).get("enabled", True):
+        _collect_jobs("jobsurface", jobsurface, jobs_cfg["jobsurface"])
 
     log.info("Total raw job items: %d", len(raw_jobs))
 
@@ -256,8 +259,9 @@ def run() -> None:
     new_jobs = [
         item for item in raw_jobs
         if not is_job_seen(conn, item["id"])
+        and passes_keyword_filter(item, job_keywords)
     ]
-    log.info("New job items (after dedupe): %d", len(new_jobs))
+    log.info("New job items (after dedupe + keyword filter): %d", len(new_jobs))
 
     # ── 7. Score jobs ──────────────────────────────────────────────────────
     if new_jobs:
