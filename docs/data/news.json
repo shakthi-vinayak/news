@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T12:28:41Z",
+  "generated_at": "2026-06-24T16:33:23Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -197,9 +197,14 @@
       "url": "https://thenewstack.io/agentjacking-sentry-mcp-attack/",
       "source": "The New Stack",
       "published_at": "2026-06-21T17:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Critical vulnerability allows hijacking AI coding assistants (Claude Code, Cursor, Codex) via exposed Sentry DSN keys, emphasizing supply-chain security.",
+      "tags": [
+        "Security",
+        "AI",
+        "DevOps",
+        "Observability"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "5a8cce74483032f08cba061740e0023b",
@@ -207,9 +212,12 @@
       "url": "https://thenewstack.io/search-like-2010-quant/",
       "source": "The New Stack",
       "published_at": "2026-06-21T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Discusses equipping AI agents with quantitative search capabilities reminiscent of 2010-era financial modeling for improved data retrieval.",
+      "tags": [
+        "AI",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "6f183ceb2f933f7164db808136fb963c",
@@ -217,9 +225,13 @@
       "url": "https://thenewstack.io/nvidia-openclaw-agent-blueprints/",
       "source": "The New Stack",
       "published_at": "2026-06-21T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Nvidia's perspective on OpenClaw frames agents as LLMs plus harnesses, offering a blueprint for enterprise agent deployment and governance.",
+      "tags": [
+        "AI",
+        "LLMOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "633be15068561dedc440d480026c672b",
@@ -227,9 +239,13 @@
       "url": "https://thenewstack.io/gemini-cli-antigravity-replacement/",
       "source": "The New Stack",
       "published_at": "2026-06-20T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Hands-on comparison of Gemini CLI and Antigravity AI coding tools, evaluating real-world utility over specifications for developer workflows.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "07b17e85807ed66d00bfa1604b9aaf6c",
@@ -267,9 +283,14 @@
       "url": "https://thenewstack.io/checkmarx-ai-llm-sast-security/",
       "source": "The New Stack",
       "published_at": "2026-06-19T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Checkmarx launches AI-enhanced SAST engine focusing on post-detection remediation workflows, bridging AppSec and AI-assisted development.",
+      "tags": [
+        "Security",
+        "AI",
+        "DevOps",
+        "CI/CD"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "2293f47ef0b22316b8adeb661504c44b",
@@ -417,16 +438,6 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.5.4",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-06-17T15:14:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "691d51390ee2788c6b6d969b68b55e96",
-      "title": "hashicorp/terraform: v1.16.0-alpha20260617",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260617",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-06-17T14:07:50+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -687,14 +698,14 @@
       "url": "https://dev.to/brucemcpherson/from-kubernetes-to-a-self-healing-low-cost-infrastructure-1da4",
       "source": "Dev.to",
       "published_at": "2026-06-22T12:20:53Z",
-      "summary": "Promotes DevOps community updates and events.",
+      "summary": "I've been running a background project on Kubernetes for a while now. It's not a project that needs...",
       "tags": [
-        "DevOps",
-        "Community",
-        "SRE",
-        "Cloud"
+        "devops",
+        "infrastructure",
+        "kubernetes",
+        "sre"
       ],
-      "relevance_score": 0.88
+      "relevance_score": 0.0
     },
     {
       "id": "c3dab52754c6fe12a054e47820770b31",
@@ -1047,51 +1058,6 @@
         "devops",
         "agents",
         "branch"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9cbc5b37416717b88e4461be056ad6a7",
-      "title": "Spring Boot Actuator: qué exponer, qué ocultar y qué mirar antes de agregar endpoints",
-      "url": "https://dev.to/jtorchia/spring-boot-actuator-que-exponer-que-ocultar-y-que-mirar-antes-de-agregar-endpoints-ib6",
-      "source": "Dev.to",
-      "published_at": "2026-06-17T14:31:22Z",
-      "summary": "Actuator no es el problema. El problema es habilitarlo sin una política clara de exposición. Una guía prudente para usarlo como herramienta operativa sin convertirlo en superficie pública innecesaria.",
-      "tags": [
-        "spanish",
-        "espanol",
-        "devops",
-        "backend"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7cfdba9e2fd7564511e733b052b7342",
-      "title": "GitHub's AI Agent Crisis: What Happens When Coding Agents Have No Compute Limits",
-      "url": "https://dev.to/waxell/githubs-ai-agent-crisis-what-happens-when-coding-agents-have-no-compute-limits-91f",
-      "source": "Dev.to",
-      "published_at": "2026-06-17T14:31:17Z",
-      "summary": "Business Insider reported on June 16, 2026 — citing two people with direct knowledge of the...",
-      "tags": [
-        "ai",
-        "devops",
-        "github",
-        "microsoft"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3a978fd2bee96a84384e49a7b7ae575d",
-      "title": "I Gave Claude Code the Keys. So Did a Worm.",
-      "url": "https://dev.to/kkierii/i-gave-claude-code-the-keys-so-did-a-worm-34a4",
-      "source": "Dev.to",
-      "published_at": "2026-06-17T14:16:53Z",
-      "summary": "Three vulnerabilities from the last few months, three different layers of the AI-coding-agent stack,...",
-      "tags": [
-        "ai",
-        "programming",
-        "devops",
-        "security"
       ],
       "relevance_score": 0.0
     },
@@ -2311,9 +2277,14 @@
       "url": "https://thenewstack.io/can-dns-become-the-basis-for-ai-agent-identity/",
       "source": "The New Stack",
       "published_at": "2026-06-23T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores using DNS as an identity layer for AI agents, intersecting networking, security, and agent authentication in cloud-native environments.",
+      "tags": [
+        "AI",
+        "Security",
+        "Cloud",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "430e274d3cfec3d2bd6f875c487e09df",
@@ -2346,9 +2317,13 @@
       "url": "https://thenewstack.io/anthropic-claude-tag-slack/",
       "source": "The New Stack",
       "published_at": "2026-06-23T18:50:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Anthropic integrates Claude AI directly into Slack channels, enabling team collaboration with LLMs in a DevOps-centric communication platform.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "ff6621667174c363e5ddb1396e6e9b72",
@@ -2501,9 +2476,13 @@
       "url": "https://thenewstack.io/openclaw-hermes-agent-harness/",
       "source": "The New Stack",
       "published_at": "2026-06-23T17:56:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "OpenClaw and Hermes frameworks align on AI agent definitions but diverge on control mechanisms, highlighting standardization challenges in agent orchestration.",
+      "tags": [
+        "AI",
+        "LLMOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "5f28f74fe216efdadc0996cb5652f782",
@@ -2561,9 +2540,14 @@
       "url": "https://thenewstack.io/nx-polygraph-synthetic-monorepo-agents/",
       "source": "The New Stack",
       "published_at": "2026-06-23T16:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Nx releases Polygraph to address bottlenecks in AI coding agents within monorepos, targeting developer productivity and CI/CD integration.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "3b405d2249a9adbceb35e816dabaa550",
@@ -2863,6 +2847,97 @@
         "automation",
         "infrastructureascode",
         "programming"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7b4d3a6140cadd84769afccdf9081e11",
+      "title": "What does your Cloud infra review process look like before merging IaC into production?",
+      "url": "https://www.reddit.com/r/devops/comments/1ueh9n7/what_does_your_cloud_infra_review_process_look/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-24T15:49:04+00:00",
+      "summary": "I’m asking because I’m building a product (full disclosure: I'm the tech founder) in this space and trying to understand the real workflows. In most teams I’ve seen, the context is scattered: - PR has Terraform/ARM/Bicep/AWS cloud formation templates - Cloud has live state - Cost impact is separate ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "acd6a65fb16e7300dd7966457ce13c09",
+      "title": "How to start the whole team transition to practice devops?",
+      "url": "https://www.reddit.com/r/devops/comments/1ueh05l/how_to_start_the_whole_team_transition_to/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-24T15:39:28+00:00",
+      "summary": "I was recently hired to help start a DevOps team, but I only have almost 2 years of hands-on DevOps experience. Most of my experience has been improving existing processes, not leading a full DevOps transition from the ground up. For context, dev and staging for multiple interconnected Laravel + Nod",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b16e79d1fffd913d63b8c8b2b5661ced",
+      "title": "hashicorp/terraform: v1.16.0-alpha20260624",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260624",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-06-24T14:07:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "12670b37fd8834afa5d3b1fe5ea15d2a",
+      "title": "Undo Enables AI Agents to Diagnose Root Cause of Application Issues",
+      "url": "https://devops.com/undo-enables-ai-agents-to-diagnose-root-cause-of-application-issues/",
+      "source": "DevOps.com",
+      "published_at": "2026-06-24T13:00:19+00:00",
+      "summary": "Undo's AI agents automate root-cause diagnosis for application failures, directly targeting SRE observability and incident response automation.",
+      "tags": [
+        "AI",
+        "Observability",
+        "SRE",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
+    },
+    {
+      "id": "742bf0f9d1eb566ab59c0da748e631f6",
+      "title": "Auto-verifying your AI-SRE's fixes (Part II): HolmesGPT end-to-end on a real cluster",
+      "url": "https://dev.to/metalbear/auto-verifying-your-ai-sres-fixes-part-ii-holmesgpt-end-to-end-on-a-real-cluster-594p",
+      "source": "Dev.to",
+      "published_at": "2026-06-24T12:18:12Z",
+      "summary": "We ran HolmesGPT against two planted bugs in a real GKE cluster; mirrord exec verified the patches. One fix passed, one was correctly rejected.",
+      "tags": [
+        "ai",
+        "sre",
+        "kubernetes",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2a5aea0f27ae0732fbf4895b7d3987b8",
+      "title": "Finding the Root Cause of Production Incidents in Seconds with GitLab Orbit & AI",
+      "url": "https://dev.to/arek_h/finding-the-root-cause-of-production-incidents-in-seconds-with-gitlab-orbit-ai-244i",
+      "source": "Dev.to",
+      "published_at": "2026-06-24T08:03:06Z",
+      "summary": "It’s 2:00 AM. Your phone buzzes. Production is down, the checkout service is throwing 500 errors, and...",
+      "tags": [
+        "gitlab",
+        "hackathon",
+        "devops",
+        "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ceb9877f628e0616f54017b4b18f0740",
+      "title": "Everyone Is Building AI Agents: Nobody Is Talking About the Technical Debt",
+      "url": "https://dev.to/reetain_raina/everyone-is-building-ai-agents-nobody-is-talking-about-the-technical-debt-3ljm",
+      "source": "Dev.to",
+      "published_at": "2026-06-23T19:33:14Z",
+      "summary": "Most developers are familiar with technical debt. It's the shortcut that helps you move faster today...",
+      "tags": [
+        "ai",
+        "machinelearning",
+        "devops",
+        "softwareengineering"
       ],
       "relevance_score": 0.0
     }
