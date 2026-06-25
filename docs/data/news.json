@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T10:01:33Z",
+  "generated_at": "2026-06-25T12:33:05Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -382,16 +382,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ea8c37fee9293d77ba2813eba8646a6e",
-      "title": "CNCF and Linux Foundation Education Partner with Udemy to Provide a Unified Cloud Native Training & Certification Opportunity",
-      "url": "https://www.cncf.io/announcements/2026/06/17/cncf-and-linux-foundation-education-partner-with-udemy-to-provide-a-unified-cloud-native-training-certification-opportunity/",
-      "source": "CNCF Blog",
-      "published_at": "2026-06-18T03:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "96ebc266120e6c4147bf62c4cdf65b81",
       "title": "prometheus/prometheus: 3.5.4 / 2026-06-17",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.5.4",
@@ -466,7 +456,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-06-23T12:19:14+00:00",
+      "published_at": "2026-06-25T10:22:27+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -918,36 +908,6 @@
         "ai",
         "devops",
         "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0492bba5a8c1c1e5b38c3c8a1e56df82",
-      "title": "PayCore v2: I Removed My Own High Availability, Added a Ledger, and Finally Added Monitoring",
-      "url": "https://dev.to/escanut/paycore-v2-i-removed-my-own-high-availability-added-a-ledger-and-finally-added-monitoring-5gn6",
-      "source": "Dev.to",
-      "published_at": "2026-06-18T11:49:39Z",
-      "summary": "What was wrong with v1?   Three things.  The networking was over-engineered. I built a...",
-      "tags": [
-        "aws",
-        "python",
-        "devops",
-        "cloud"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "35858e122e41df94a8cd9ae898fe7aad",
-      "title": "The Winner of the AI-Pocalypse? The Full-Stack Generalist (But Probably Later Instead of Sooner)",
-      "url": "https://dev.to/linkbenjamin/the-winner-of-the-ai-pocalypse-the-full-stack-generalist-but-probably-later-instead-of-sooner-12n3",
-      "source": "Dev.to",
-      "published_at": "2026-06-18T11:10:00Z",
-      "summary": "We've been told since late 2022 that \"within 6 months, we won't need software engineers anymore\". I...",
-      "tags": [
-        "careerdevelopment",
-        "beginners",
-        "devops",
-        "ai"
       ],
       "relevance_score": 0.0
     },
@@ -2998,13 +2958,14 @@
       "url": "https://dev.to/ojo_ilesanmi/deploying-a-multi-module-spring-boot-app-to-render-with-postgresql-redis-docker-and-flyway-4leb",
       "source": "Dev.to",
       "published_at": "2026-06-23T09:57:35Z",
-      "summary": "Tutorial for deploying a multi-module Spring Boot application to Render with PostgreSQL, Redis, Docker, and Flyway migrations, covering cloud deployment and CI/CD configuration.",
+      "summary": "Deploying a Spring Boot backend should be simple in theory. Build the JAR, set the environment...",
       "tags": [
-        "Cloud",
-        "CI/CD",
-        "Containers"
+        "springboot",
+        "java",
+        "postgres",
+        "devops"
       ],
-      "relevance_score": 0.6
+      "relevance_score": 0.0
     },
     {
       "id": "996b833b803372f9c884bb4dce497e87",
@@ -3092,6 +3053,71 @@
         "cloud",
         "devops",
         "digitalocean"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9ba970afbe5728f8506252905a894de7",
+      "title": "Terraform / OpenTofu vs Pulumi",
+      "url": "https://www.reddit.com/r/devops/comments/1uf8774/terraform_opentofu_vs_pulumi/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-25T12:09:33+00:00",
+      "summary": "You have a chance to plan and implement IaC on a project from scratch  In what case you will choose Pulumi over Terraform/OpenTofu? My thoughts about this: 1. Pulumi gives possibility to manage more complex logic in infra, conditions, loops, reusable 2. More human readable (compare to HCL), good for",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6b3e3132645b2a10f5e59b25205bae41",
+      "title": "Building a Cluster-Aware AI Agent with Kubernetes, Argo CD, and GitOps",
+      "url": "https://www.cncf.io/blog/2026/06/25/building-a-cluster-aware-ai-agent-with-kubernetes-argo-cd-and-gitops/",
+      "source": "CNCF Blog",
+      "published_at": "2026-06-25T11:25:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9264f9734affbe51c43b4f24c19c80b9",
+      "title": "Think to self-hosted Grafana OnCall but it's archived",
+      "url": "https://www.reddit.com/r/devops/comments/1uf6x04/think_to_selfhosted_grafana_oncall_but_its/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-25T11:05:22+00:00",
+      "summary": "Who's still running Grafana OnCall OSS after archive? I'm think about self-hosted Grafana OnCall, but it's archived now. It's a good idea to use Grafana OnCall?  &#32; submitted by &#32;  /u/Mark_Mew   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e131f84af76e66b08a8ac582d54cdffe",
+      "title": "n8n-io/n8n: n8n@2.28.2",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.2",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-06-25T10:31:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "30ae0a79f082964d311297230ade8cc2",
+      "title": "Certificate renewal and monitoring",
+      "url": "https://www.reddit.com/r/devops/comments/1uf5wh3/certificate_renewal_and_monitoring/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-25T10:08:46+00:00",
+      "summary": "For those who are not running in Kubernetes and have something to manage your SSL certificate renewals, what are you using? Certbot + Let's Encrypt? Windows guys, WinAcme? How are you monitoring renewal dates? I know blackbox exporter does a good job out of the box. Thanks  &#32; submitted by &#32; ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "292244fbb29a933f6eb0a102e112829d",
+      "title": "Why Your .env File Is Lying to You",
+      "url": "https://dev.to/ctrotech/why-your-env-file-is-lying-to-you-1gdh",
+      "source": "Dev.to",
+      "published_at": "2026-06-25T08:23:47Z",
+      "summary": "process.env gives you string | undefined and calls it a day. Here's why that's dangerous and how to fix it.",
+      "tags": [
+        "typescript",
+        "node",
+        "tutorial",
+        "devops"
       ],
       "relevance_score": 0.0
     }
