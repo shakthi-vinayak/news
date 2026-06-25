@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T12:33:05Z",
+  "generated_at": "2026-06-25T16:35:39Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -327,26 +327,6 @@
       "url": "https://thenewstack.io/gusto-cofounder-small-business-ai/",
       "source": "The New Stack",
       "published_at": "2026-06-18T20:40:59+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3aedcc3953bb8bfc47f471f571a578c7",
-      "title": "The database storage problem is solved. Here’s what comes next.",
-      "url": "https://thenewstack.io/postgres-data-movement-interoperability/",
-      "source": "The New Stack",
-      "published_at": "2026-06-18T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5fa9cbafe8e26ae36df87a4f614ddb33",
-      "title": "Fable 5 ban: 4 open models responded before Anthropic could restore access",
-      "url": "https://thenewstack.io/fable-ban-open-weights/",
-      "source": "The New Stack",
-      "published_at": "2026-06-18T13:34:01+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -867,51 +847,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7b36325723e21a3ea8bdabeeba0af634",
-      "title": "Securing AI-Generated Bash Scripts Before You Run Them",
-      "url": "https://dev.to/devopsaitoolkit/securing-ai-generated-bash-scripts-before-you-run-them-401m",
-      "source": "Dev.to",
-      "published_at": "2026-06-18T15:51:56Z",
-      "summary": "Bash is the easiest language for AI to write and the easiest language to get devastating output from....",
-      "tags": [
-        "devops",
-        "bash",
-        "security",
-        "ai"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e3df60622d51456353ea1680daf2faae",
-      "title": "A Unicode space killed my cron for 2.5 hours",
-      "url": "https://dev.to/lainagent_ai/a-unicode-space-killed-my-cron-for-25-hours-4ebb",
-      "source": "Dev.to",
-      "published_at": "2026-06-18T14:17:50Z",
-      "summary": "A single U+202F character silently crashed my IMAP poller for two and a half hours. Tests didn't catch it. Another cron did.",
-      "tags": [
-        "agents",
-        "ai",
-        "devops",
-        "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ee29a7c18277c59d74856560f0c86c9d",
-      "title": "An API key in a React bundle: 33 days to compromise",
-      "url": "https://dev.to/lainagent_ai/an-api-key-in-a-react-bundle-33-days-to-compromise-2mi6",
-      "source": "Dev.to",
-      "published_at": "2026-06-18T13:22:19Z",
-      "summary": "Brevo emailed me about an Amsterdam VPS using my API key. It had been sitting in a public React bundle for 33 days. Here is the audit that followed.",
-      "tags": [
-        "agents",
-        "ai",
-        "devops",
-        "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7cfd732f8833d307ce126034be610c78",
       "title": "Docker joins the Athena coalition: a cross-industry collaboration for supply chain security",
       "url": "https://www.docker.com/blog/docker-joins-the-athena-coalition-a-cross-industry-collaboration-for-supply-chain-security/",
@@ -1087,16 +1022,6 @@
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
       "source": "Google AI Blog",
       "published_at": "2026-06-01T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2487afa24e0af8e2272d7f199f8a95d0",
-      "title": "Coding Agent Horror Stories: The rm -rf ~/ Incident",
-      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-rm-rf-incident/",
-      "source": "Docker Blog",
-      "published_at": "2026-06-01T13:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2883,14 +2808,14 @@
       "url": "https://dev.to/udep/building-a-deployment-platform-on-self-managed-infrastructure-with-k3s-1hk4",
       "source": "Dev.to",
       "published_at": "2026-06-24T19:49:17Z",
-      "summary": "Guide to building an internal deployment platform on bare-metal using k3s, covering GitOps, multi-tenancy, and self-service workflows for platform engineering teams.",
+      "summary": "At the beginning of this year, our production workloads were spread across AWS, Contabo and...",
       "tags": [
-        "Platform Engineering",
-        "Kubernetes",
-        "DevOps",
-        "Cloud"
+        "kubernetes",
+        "devops",
+        "go",
+        "infrastructure"
       ],
-      "relevance_score": 0.95
+      "relevance_score": 0.0
     },
     {
       "id": "cb61bd32173345f3ac3d3cb4ae25eaab",
@@ -3118,6 +3043,146 @@
         "node",
         "tutorial",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8902890c282aafc89716051d02fba9e2",
+      "title": "Nona isn't your open source project #151,523",
+      "url": "https://dev.to/misha130/nona-isnt-your-open-source-project-151523-4bjd",
+      "source": "Dev.to",
+      "published_at": "2026-06-25T15:06:33Z",
+      "summary": "TL;DR    What: Nona is an open-source, self-hosted remote config and feature flag service - a...",
+      "tags": [
+        "opensource",
+        "devops",
+        "dotnet",
+        "docker"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4385c67224fac2147bdceddffb0269d7",
+      "title": "Containers and Internal Certificate Authorities",
+      "url": "https://www.reddit.com/r/devops/comments/1ufccn4/containers_and_internal_certificate_authorities/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-25T14:54:52+00:00",
+      "summary": "Hi, We are in the process of deploying an internal PKI, and as such issuing our in house Certificate Authority. One problem which have arisen is how to handle this inside of containers and I'm curious to see how the folks in this subreddit handled it. I've asked this question to a couple of LLMs but",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c2aa7db7c18f6ddcda988f2f7a096e94",
+      "title": "Humanizing Artificial Intelligence for SRE Teams: Reducing Alert Fatigue With Smarter AI Guidance",
+      "url": "https://dev.to/jjoyneriv/humanizing-artificial-intelligence-for-sre-teams-reducing-alert-fatigue-with-smarter-ai-guidance-3411",
+      "source": "Dev.to",
+      "published_at": "2026-06-25T14:27:13Z",
+      "summary": "The pager goes off at 3:11 a.m. It's the fifth time tonight, and it's the same alert: HighMemoryUsage...",
+      "tags": [
+        "sre",
+        "devops",
+        "ai",
+        "observability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c91922de319683230c190c0a39a5dec5",
+      "title": "Transitioning from 6.5 years in IT Infra to DevOps. I built an end-to-end GitOps pipeline on Azure & some Python automation. Looking for architectural roasts.",
+      "url": "https://www.reddit.com/r/devops/comments/1ufbbux/transitioning_from_65_years_in_it_infra_to_devops/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-25T14:17:09+00:00",
+      "summary": "​Hey everyone, ​I’ve spent the last 6.5+ years deep in traditional IT infrastructure—managing servers, troubleshooting production environments, and obsessing over strict uptime. Over the last several months, I’ve been pivoting into Cloud/DevOps to learn how to build and automate from scratch. ​Inste",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8a8c9d409bee612bcf56597ddf11b56d",
+      "title": "Who's responsible for Fastlane, DevOps or the mobile devs",
+      "url": "https://www.reddit.com/r/devops/comments/1ufb53e/whos_responsible_for_fastlane_devops_or_the/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-25T14:10:11+00:00",
+      "summary": "I've played a bit with Fastlane solo, but I'm wondering how it normally plays out at larger companies. Do the mobile devs handle the Fastlane scripts, or does it become a DevOps responsibility? Got to love writing Ruby just for releases...  &#32; submitted by &#32;  /u/ZMech   [link] &#32; [comments",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d44bc7f918cb025d8f04ab3a42585bed",
+      "title": "Agent Toolkit for AWS includes 20+ agent skills, but your agent might not load them without this one file",
+      "url": "https://thenewstack.io/aws-agent-toolkit-rules-file/",
+      "source": "The New Stack",
+      "published_at": "2026-06-25T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "969b3967e367ecb4dc5ce9769542c57d",
+      "title": "DataDog alert(monitors) grouping",
+      "url": "https://www.reddit.com/r/devops/comments/1ufaina/datadog_alertmonitors_grouping/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-25T13:46:37+00:00",
+      "summary": "Hello! I've moved to company that is using DataDog for storing logs, monitoring etc. Its not really that used in my team, so i tasked myself with some edits and showing possibilities. I'm coming from company where i have used Grafana for monitoring and alerting, so i'm used to the system that grafan",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "be490639aa45248e5af751aac64a6b40",
+      "title": "\"AI Gateway vs API Gateway: They Solve Different Problems",
+      "url": "https://dev.to/sahajmeet_kaur_/ai-gateway-vs-api-gateway-they-solve-different-problems-we-confused-them-for-six-months-56fe",
+      "source": "Dev.to",
+      "published_at": "2026-06-25T06:30:00Z",
+      "summary": "We already had Kong running. Adding AI workloads on top of it made sense - until it didn't. Here's the precise difference between an API gateway and an AI gateway, and the moment we realised we needed both.",
+      "tags": [
+        "ai",
+        "devops",
+        "llm",
+        "mlops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ad99deb6120e6df54d5d5dcde5bf019b",
+      "title": "Multi-Agent Observability: See Everything Your AI Agents Do",
+      "url": "https://dev.to/bredmond1019/multi-agent-observability-see-everything-your-ai-agents-do-16e2",
+      "source": "Dev.to",
+      "published_at": "2026-06-23T18:38:11Z",
+      "summary": "Build a real-time observability system for your Claude Code agents. Learn how to monitor multiple agents simultaneously, track their activities, and scale your AI engineering impact with complete visibility.",
+      "tags": [
+        "ai",
+        "claudecode",
+        "devops",
+        "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "08146f731b9eee618af65ac1f6c47cb6",
+      "title": "How to stop an AI agent from burning $47,000 in a loop nobody noticed.",
+      "url": "https://dev.to/brianrhall/how-to-stop-an-ai-agent-from-burning-47000-in-a-loop-nobody-noticed-3pc9",
+      "source": "Dev.to",
+      "published_at": "2026-06-23T15:21:56Z",
+      "summary": "A multi-agent research system sat in production for eleven days doing exactly what it was built to...",
+      "tags": [
+        "ai",
+        "agents",
+        "devops",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7b45dcc9d609fe774d2cd2f846637785",
+      "title": "Go HTTP middleware explained: what it is, how it works, and how to build your own",
+      "url": "https://dev.to/ferztyle/go-http-middleware-explained-what-it-is-how-it-works-and-how-to-build-your-own-1ma7",
+      "source": "Dev.to",
+      "published_at": "2026-06-22T14:31:52Z",
+      "summary": "This is part 2 of 2 in the series Go HTTP middleware from scratch. If you're new to Go types, → read...",
+      "tags": [
+        "go",
+        "devops",
+        "webdev",
+        "backend"
       ],
       "relevance_score": 0.0
     }
