@@ -42,6 +42,19 @@ JOB_CATEGORIES = [
     "Cloud Engineering", "Workflow Automation", "MLOps", "Security",
 ]
 
+# Local keyword-based categorization (no AI required)
+# Maps category names to keywords that should appear in job titles
+CATEGORY_KEYWORDS = {
+    "DevOps": ["devops", "dev ops", "ci/cd", "cicd", "jenkins", "gitlab", "github actions", "ansible", "terraform"],
+    "SRE": ["sre", "site reliability", "reliability engineer", "production engineer"],
+    "Platform Engineering": ["platform engineer", "platform engineering", "internal developer", "idp", "platform ops"],
+    "Cloud Engineering": ["cloud engineer", "cloud engineering", "cloud operations", "aws", "gcp", "azure", "cloud infra"],
+    "Observability": ["observability", "monitoring", "grafana", "prometheus", "datadog", "opentelemetry", "logging", "metrics"],
+    "MLOps": ["mlops", "llmops", "ml engineer", "machine learning ops", "ai infrastructure", "ai platform"],
+    "Security": ["security engineer", "devsecops", "security operations", "cloud security", "infrastructure security"],
+    "Workflow Automation": ["workflow automation", "n8n", "airflow", "dagster", "prefect", "automation engineer"],
+}
+
 NEWS_SYSTEM = """\
 You are a technical editor specialising in DevOps, SRE, Cloud, and AI/LLM infrastructure.
 For each article provided, return a JSON array with one object per article in the same order.
@@ -184,6 +197,27 @@ def _safe_parse(raw: str) -> list[dict]:
 
 
 # ── Public API ───────────────────────────────────────────────────────────────
+def categorize_job_locally(item: dict[str, Any]) -> str:
+    """
+    Assign a category to a job based on keyword matching in title.
+    This works without AI and ensures jobs always have categories.
+    """
+    title = (item.get("title") or "").lower()
+    
+    # Score each category by how many keywords match
+    scores = {}
+    for category, keywords in CATEGORY_KEYWORDS.items():
+        score = sum(1 for kw in keywords if kw in title)
+        if score > 0:
+            scores[category] = score
+    
+    if not scores:
+        return ""  # No match found
+    
+    # Return the category with highest score
+    return max(scores, key=scores.get)
+
+
 def score_news_batch(
     items: list[dict[str, Any]],
     *,
@@ -234,9 +268,18 @@ def score_jobs_batch(
     """
     Score a list of job items in batches.
     Returns the same list with 'relevance_score' and 'category' populated.
+    
+    Strategy:
+    1. Always apply local categorization first (no AI required)
+    2. Then try LLM scoring if API key is available (can improve categories)
     """
+    # Step 1: Always apply local categorization first
+    for item in items:
+        if not item.get("category"):  # Only if not already set
+            item["category"] = categorize_job_locally(item)
+    
     if not OPENROUTER_API_KEY:
-        log.warning("OPENROUTER_API_KEY not set — skipping LLM scoring for jobs")
+        log.info("OPENROUTER_API_KEY not set — using local keyword-based categorization")
         return items
 
     model = model or OPENROUTER_MODEL

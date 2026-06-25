@@ -1,0 +1,3 @@
+- **Environment**: Requires `OPENROUTER_API_KEY` for scoring and `GH_PAT`/`GIT_REPO_URL` for auto-publishing.
+- **Execution**: Run via `python main.py` or Docker container `worker:latest`.
+- **Dry Run**: Supports `DRY_RUN=true` to skip git publishing and SMTP notifications.

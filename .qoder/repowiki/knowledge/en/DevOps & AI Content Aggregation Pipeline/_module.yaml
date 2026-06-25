@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: ""
+title: DevOps & AI Content Aggregation Pipeline
+scope:
+    - '**'
+source_files:
+    - worker/requirements.txt
+    - worker/Dockerfile
+    - .github/workflows/worker-schedule.yml
+depends_on: []
+related_to: []

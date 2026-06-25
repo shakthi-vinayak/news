@@ -1,0 +1,9 @@
+schema_version: 1
+module_path: worker
+title: DevOps News & Job Aggregation Pipeline
+scope:
+    - worker/
+source_files: []
+depends_on: []
+related_to:
+    - path: docs

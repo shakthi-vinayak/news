@@ -1,0 +1,1 @@
+Vanilla JavaScript (ES6+) with no build step or framework dependencies, relying on native `fetch` API for data loading and `localStorage` for theme persistence.

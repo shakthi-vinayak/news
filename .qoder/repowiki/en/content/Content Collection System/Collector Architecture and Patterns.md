@@ -13,12 +13,20 @@
 - [collectors/jobs/lever.py](file://worker/collectors/jobs/lever.py)
 - [collectors/jobs/greenhouse.py](file://worker/collectors/jobs/greenhouse.py)
 - [collectors/jobs/weworkremotely_rss.py](file://worker/collectors/jobs/weworkremotely_rss.py)
+- [collectors/jobs/jobsurface.py](file://worker/collectors/jobs/jobsurface.py)
 - [scoring/dedupe.py](file://worker/scoring/dedupe.py)
 - [scoring/llm_relevance.py](file://worker/scoring/llm_relevance.py)
 - [storage/db.py](file://worker/storage/db.py)
 - [storage/export_json.py](file://worker/storage/export_json.py)
 - [tests/test_schema.py](file://tests/test_schema.py)
 </cite>
+
+## Update Summary
+**Changes Made**
+- Added documentation for the new Job Surface collector architecture
+- Updated collector implementations section to include sitemap-based scraping approach
+- Enhanced HTML parsing patterns for job postings
+- Added new collector integration patterns and configuration examples
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -46,7 +54,7 @@ This document explains the collector architecture and design patterns used to ga
 The worker orchestrates a pipeline that:
 - Loads configuration
 - Dynamically selects enabled collectors from two domains: news and jobs
-- Executes each collector’s collect function with a configuration dictionary
+- Executes each collector's collect function with a configuration dictionary
 - Applies deduplication and keyword filtering
 - Scores items via an LLM service (optional)
 - Persists to SQLite
@@ -66,16 +74,16 @@ Orchestrator --> SMTP["notify.smtp_alert.send_digest()"]
 ```
 
 **Diagram sources**
-- [main.py:127-297](file://worker/main.py#L127-L297)
-- [config.yaml:1-244](file://worker/config.yaml#L1-L244)
+- [main.py:148-321](file://worker/main.py#L148-L321)
+- [config.yaml:1-268](file://worker/config.yaml#L1-L268)
 - [scoring/dedupe.py:1-90](file://worker/scoring/dedupe.py#L1-L90)
 - [scoring/llm_relevance.py:1-178](file://worker/scoring/llm_relevance.py#L1-L178)
 - [storage/db.py:1-278](file://worker/storage/db.py#L1-L278)
 - [storage/export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
 
 **Section sources**
-- [main.py:127-297](file://worker/main.py#L127-L297)
-- [config.yaml:1-244](file://worker/config.yaml#L1-L244)
+- [main.py:148-321](file://worker/main.py#L148-L321)
+- [config.yaml:1-268](file://worker/config.yaml#L1-L268)
 
 ## Core Components
 - Base collector interface: Every collector exposes a function named collect(cfg: dict) -> list[dict]. This uniform signature enables dynamic discovery and invocation from the orchestrator.
@@ -92,7 +100,7 @@ Orchestrator --> SMTP["notify.smtp_alert.send_digest()"]
   - Optional SMTP digest: Sends a summary email after successful runs.
 
 **Section sources**
-- [main.py:151-227](file://worker/main.py#L151-L227)
+- [main.py:175-280](file://worker/main.py#L175-L280)
 - [scoring/dedupe.py:48-90](file://worker/scoring/dedupe.py#L48-L90)
 - [scoring/llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
 - [storage/db.py:116-278](file://worker/storage/db.py#L116-L278)
@@ -137,7 +145,7 @@ E-->>O : counts
 ```
 
 **Diagram sources**
-- [main.py:147-262](file://worker/main.py#L147-L262)
+- [main.py:148-321](file://worker/main.py#L148-L321)
 - [scoring/dedupe.py:48-90](file://worker/scoring/dedupe.py#L48-L90)
 - [scoring/llm_relevance.py:95-178](file://worker/scoring/llm_relevance.py#L95-L178)
 - [storage/db.py:116-242](file://worker/storage/db.py#L116-L242)
@@ -161,12 +169,12 @@ ForEachSrc --> |Done| ReturnList["Return list of items"]
 ```
 
 **Diagram sources**
-- [main.py:42-57](file://worker/main.py#L42-L57)
-- [main.py:151-227](file://worker/main.py#L151-L227)
+- [main.py:70-79](file://worker/main.py#L70-L79)
+- [main.py:175-280](file://worker/main.py#L175-L280)
 
 **Section sources**
-- [main.py:42-57](file://worker/main.py#L42-L57)
-- [main.py:151-227](file://worker/main.py#L151-L227)
+- [main.py:70-79](file://worker/main.py#L70-L79)
+- [main.py:175-280](file://worker/main.py#L175-L280)
 
 ### Collector Implementations
 - News collectors:
@@ -176,6 +184,9 @@ ForEachSrc --> |Done| ReturnList["Return list of items"]
 - Jobs collectors:
   - Lever and Greenhouse: iterate company board slugs, apply keyword filtering, and normalize fields.
   - WeWorkRemotely RSS: parses RSS entries, infers company from title, and normalizes dates.
+  - **Job Surface**: sitemap-based scraping approach with HTML parsing for job postings.
+
+**Updated** Added Job Surface collector with sitemap-based scraping and HTML parsing capabilities.
 
 ```mermaid
 classDiagram
@@ -197,12 +208,18 @@ class Greenhouse {
 class WWRSS {
 +collect(cfg) list[dict]
 }
+class JobSurface {
++collect(cfg) list[dict]
++_get_latest_post_url() str|None
++_parse_post_jobs(html, max_items) list[dict]
+}
 Devto ..> Deduper : "uses make_news_id()"
 HNAlgolia ..> Deduper : "uses make_news_id()"
 Reddit ..> Deduper : "uses make_news_id()"
 Lever ..> Deduper : "uses make_job_id()"
 Greenhouse ..> Deduper : "uses make_job_id()"
 WWRSS ..> Deduper : "uses make_job_id()"
+JobSurface ..> Deduper : "uses make_job_id()"
 ```
 
 **Diagram sources**
@@ -212,6 +229,7 @@ WWRSS ..> Deduper : "uses make_job_id()"
 - [collectors/jobs/lever.py:22-85](file://worker/collectors/jobs/lever.py#L22-L85)
 - [collectors/jobs/greenhouse.py:22-77](file://worker/collectors/jobs/greenhouse.py#L22-L77)
 - [collectors/jobs/weworkremotely_rss.py:22-85](file://worker/collectors/jobs/weworkremotely_rss.py#L22-L85)
+- [collectors/jobs/jobsurface.py:108-141](file://worker/collectors/jobs/jobsurface.py#L108-L141)
 - [scoring/dedupe.py:20-29](file://worker/scoring/dedupe.py#L20-L29)
 
 **Section sources**
@@ -221,6 +239,35 @@ WWRSS ..> Deduper : "uses make_job_id()"
 - [collectors/jobs/lever.py:22-85](file://worker/collectors/jobs/lever.py#L22-L85)
 - [collectors/jobs/greenhouse.py:22-77](file://worker/collectors/jobs/greenhouse.py#L22-L77)
 - [collectors/jobs/weworkremotely_rss.py:22-85](file://worker/collectors/jobs/weworkremotely_rss.py#L22-L85)
+- [collectors/jobs/jobsurface.py:108-141](file://worker/collectors/jobs/jobsurface.py#L108-L141)
+
+### Job Surface Collector Architecture
+The Job Surface collector implements a sophisticated sitemap-based scraping approach with HTML parsing for job postings:
+
+- **Sitemap-based Discovery**: Fetches sitemap.xml from jobsurface.com to discover the latest weekly job posting
+- **Pattern Matching**: Uses regex to extract job posting URLs from the sitemap XML
+- **HTML Parsing**: Employs BeautifulSoup to parse job listings embedded as HTML list items
+- **Structured Data Extraction**: Extracts company, title, location, and application URLs from job posting text
+- **Fallback Mechanism**: Handles cases where HTML parsing fails by detecting Airtable links
+
+```mermaid
+flowchart TD
+A["Job Surface Collector"] --> B["Fetch sitemap.xml"]
+B --> C["Parse XML and extract URLs"]
+C --> D["Sort by post number (newest first)"]
+D --> E["Fetch latest post HTML"]
+E --> F["Parse HTML with BeautifulSoup"]
+F --> G["Extract job listings via regex pattern"]
+G --> H["Extract company, title, location"]
+H --> I["Find apply URLs"]
+I --> J["Generate normalized job items"]
+```
+
+**Diagram sources**
+- [collectors/jobs/jobsurface.py:27-105](file://worker/collectors/jobs/jobsurface.py#L27-L105)
+
+**Section sources**
+- [collectors/jobs/jobsurface.py:1-141](file://worker/collectors/jobs/jobsurface.py#L1-L141)
 
 ### Deduplication and Keyword Filtering
 - Stable deterministic IDs are computed using hashing of normalized fields.
@@ -238,13 +285,13 @@ D --> E["Final unique items"]
 
 **Diagram sources**
 - [scoring/dedupe.py:48-90](file://worker/scoring/dedupe.py#L48-L90)
-- [main.py:174-181](file://worker/main.py#L174-L181)
-- [main.py:231-237](file://worker/main.py#L231-L237)
+- [main.py:200-205](file://worker/main.py#L200-L205)
+- [main.py:259-264](file://worker/main.py#L259-L264)
 
 **Section sources**
 - [scoring/dedupe.py:19-90](file://worker/scoring/dedupe.py#L19-L90)
-- [main.py:174-181](file://worker/main.py#L174-L181)
-- [main.py:231-237](file://worker/main.py#L231-L237)
+- [main.py:200-205](file://worker/main.py#L200-L205)
+- [main.py:259-264](file://worker/main.py#L259-L264)
 
 ### LLM Relevance Scoring and Graceful Degradation
 - Batched scoring with configurable batch size and model.
@@ -341,12 +388,12 @@ O->>DB : finish_run(run_id, counts, errors)
 ```
 
 **Diagram sources**
-- [main.py:255-271](file://worker/main.py#L255-L271)
+- [main.py:282-321](file://worker/main.py#L282-L321)
 - [storage/export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [storage/db.py:254-278](file://worker/storage/db.py#L254-L278)
 
 **Section sources**
-- [main.py:255-271](file://worker/main.py#L255-L271)
+- [main.py:282-321](file://worker/main.py#L282-L321)
 - [storage/export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [storage/db.py:254-278](file://worker/storage/db.py#L254-L278)
 
@@ -373,12 +420,12 @@ CJobs --> Dedup
 ```
 
 **Diagram sources**
-- [main.py:42-66](file://worker/main.py#L42-L66)
+- [main.py:63-89](file://worker/main.py#L63-L89)
 - [collectors/news/devto.py:13](file://worker/collectors/news/devto.py#L13)
 - [collectors/jobs/lever.py:14](file://worker/collectors/jobs/lever.py#L14)
 
 **Section sources**
-- [main.py:42-66](file://worker/main.py#L42-L66)
+- [main.py:63-89](file://worker/main.py#L63-L89)
 
 ## Performance Considerations
 - Network timeouts: HTTP calls specify timeouts to avoid hanging on slow endpoints.
@@ -388,12 +435,11 @@ CJobs --> Dedup
 - Deduplication cost: Fuzzy matching is O(n^2) in worst case; keep batch sizes reasonable.
 - SQLite WAL mode: Improves concurrency and write throughput.
 - Memory: Items are processed incrementally; avoid holding entire datasets in memory beyond necessary.
-
-[No sources needed since this section provides general guidance]
+- **Sitemap caching**: Job Surface collector could benefit from caching sitemap responses to reduce network overhead.
 
 ## Troubleshooting Guide
 - Collector failures:
-  - Each collector’s collect is wrapped with try/except; errors are logged and recorded in the run log.
+  - Each collector's collect is wrapped with try/except; errors are logged and recorded in the run log.
   - Per-source health status is tracked and exported in meta.json.
 - LLM scoring failures:
   - On error, items remain unmodified rather than being dropped; check OPENROUTER_API_KEY and network connectivity.
@@ -403,16 +449,19 @@ CJobs --> Dedup
   - Increase LOG_LEVEL to DEBUG for verbose logs.
   - Temporarily disable LLM scoring to isolate network issues.
   - Verify configuration keys for enabled sources and keyword filters.
+- **Job Surface specific issues**:
+  - Sitemap parsing failures: Check network connectivity to jobsurface.com
+  - HTML parsing errors: Verify regex patterns match current job posting format
+  - Missing job listings: Confirm Airtable fallback mechanism is working
 
 **Section sources**
-- [main.py:151-227](file://worker/main.py#L151-L227)
+- [main.py:175-280](file://worker/main.py#L175-L280)
 - [scoring/llm_relevance.py:105-107](file://worker/scoring/llm_relevance.py#L105-L107)
 - [tests/test_schema.py:28-136](file://tests/test_schema.py#L28-L136)
+- [collectors/jobs/jobsurface.py:27-46](file://worker/collectors/jobs/jobsurface.py#L27-L46)
 
 ## Conclusion
-The collector system is designed around a simple, extensible pattern: a uniform collect(cfg) interface, configuration-driven selection, and a shared pipeline for deduplication, scoring, persistence, and export. This architecture supports easy addition of new sources, robust error handling, and maintainable quality gates through tests and health reporting.
-
-[No sources needed since this section summarizes without analyzing specific files]
+The collector system is designed around a simple, extensible pattern: a uniform collect(cfg) interface, configuration-driven selection, and a shared pipeline for deduplication, scoring, persistence, and export. This architecture supports easy addition of new sources, robust error handling, and maintainable quality gates through tests and health reporting. The new Job Surface collector demonstrates advanced scraping patterns including sitemap-based discovery and HTML parsing for extracting structured job data.
 
 ## Appendices
 
@@ -422,12 +471,13 @@ The collector system is designed around a simple, extensible pattern: a uniform 
 - Register the module in the orchestrator imports and enable it in config.yaml.
 - If applicable, integrate keyword filtering for jobs collectors.
 - Keep error handling inside collect with appropriate logging.
+- **Consider sitemap-based approaches** for sources with structured content discovery.
 
 **Section sources**
 - [collectors/news/devto.py:21-72](file://worker/collectors/news/devto.py#L21-L72)
 - [collectors/jobs/lever.py:22-85](file://worker/collectors/jobs/lever.py#L22-L85)
-- [main.py:42-57](file://worker/main.py#L42-L57)
-- [config.yaml:77-244](file://worker/config.yaml#L77-L244)
+- [main.py:70-79](file://worker/main.py#L70-L79)
+- [config.yaml:263-267](file://worker/config.yaml#L263-L267)
 
 ### Maintaining Consistency Across Implementations
 - Use make_news_id or make_job_id to compute deterministic IDs.
@@ -435,16 +485,36 @@ The collector system is designed around a simple, extensible pattern: a uniform 
 - Include source name and URL; avoid empty or malformed records.
 - Preserve relevance_score and summary/tags for news; category for jobs.
 - Apply keyword pre-filter consistently for jobs.
+- **Follow sitemap-based discovery patterns** for sources with structured content.
 
 **Section sources**
 - [scoring/dedupe.py:20-29](file://worker/scoring/dedupe.py#L20-L29)
 - [collectors/news/hn_algolia.py:54-69](file://worker/collectors/news/hn_algolia.py#L54-L69)
 - [collectors/jobs/greenhouse.py:55-69](file://worker/collectors/jobs/greenhouse.py#L55-L69)
+- [collectors/jobs/jobsurface.py:27-46](file://worker/collectors/jobs/jobsurface.py#L27-L46)
 
 ### Testing Patterns for Collectors
 - Validate exported JSON schema and required fields.
 - Assert non-negative counts and presence of source_health.
 - Ensure no duplicate IDs in news.json and jobs.json.
+- **Test sitemap parsing and HTML extraction** for Job Surface collector.
+- Verify regex patterns handle various job posting formats.
 
 **Section sources**
 - [tests/test_schema.py:28-136](file://tests/test_schema.py#L28-L136)
+- [collectors/jobs/jobsurface.py:59-105](file://worker/collectors/jobs/jobsurface.py#L59-L105)
+
+### Job Surface Collector Configuration
+The Job Surface collector is configured through the jobs.jobsurface section in config.yaml:
+
+```yaml
+jobs:
+  jobsurface:
+    enabled: true
+    # Scrapes the latest weekly post from jobsurface.com
+    max_items: 200
+```
+
+**Section sources**
+- [config.yaml:263-267](file://worker/config.yaml#L263-L267)
+- [collectors/jobs/jobsurface.py:108-141](file://worker/collectors/jobs/jobsurface.py#L108-L141)

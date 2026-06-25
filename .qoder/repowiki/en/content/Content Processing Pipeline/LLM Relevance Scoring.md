@@ -8,15 +8,16 @@
 - [config.yaml](file://worker/config.yaml)
 - [db.py](file://worker/storage/db.py)
 - [export_json.py](file://worker/storage/export_json.py)
-- [requirements.txt](file://worker/requirements.txt)
 </cite>
 
 ## Update Summary
 **Changes Made**
-- Enhanced API key handling behavior with graceful degradation when OPENROUTER_API_KEY is missing
-- Improved error management with preserved original items during LLM failures
-- Updated error handling strategy to warn instead of hard-fail for missing API keys
-- Strengthened resilience through graceful degradation patterns
+- **Major Architectural Enhancement**: Transitioned from single-model to parallel fan-out system with 8-model FREE_MODEL_POOL
+- **Two-Wave Strategy**: Implemented parallel fan-out followed by sequential retry with exponential backoff
+- **Enhanced Reliability**: Improved error handling for rate limits and service unavailability with better metrics
+- **Optimized Retry Logic**: Reduced MAX_RETRIES_PER_MODEL to 1 with sequential retry handling
+- **Improved Cost-Effectiveness**: Better utilization of free model pool with intelligent fallback strategies
+- **Enhanced Resilience**: Comprehensive retry mechanisms with graceful degradation patterns
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -31,14 +32,14 @@
 10. [Appendices](#appendices)
 
 ## Introduction
-This document explains the LLM-based relevance scoring system that integrates with OpenRouter to evaluate and enrich content for news and job postings. It covers the OpenRouter integration, prompt engineering strategies, scoring methodology, batch processing, error handling, and operational patterns within the broader processing pipeline. The system now features enhanced API key handling with graceful degradation and improved error management that preserves data integrity even when LLM services are unavailable.
+This document explains the LLM-based relevance scoring system that integrates with OpenRouter to evaluate and enrich content for news and job postings. The system has undergone a major architectural transformation from a single-model approach to a sophisticated parallel fan-out system with 8-model FREE_MODEL_POOL, implementing a two-wave strategy (parallel + sequential) for enhanced reliability and cost-effectiveness. It covers the OpenRouter integration, advanced prompt engineering strategies, scoring methodology, batch processing, comprehensive error handling with graceful degradation, and operational patterns within the broader processing pipeline.
 
 ## Project Structure
-The relevance scoring system resides in the worker module and participates in a multi-stage pipeline:
+The relevance scoring system resides in the worker module and participates in a multi-stage pipeline with enhanced reliability:
 - Collection: News and jobs are collected from various sources.
 - Deduplication: Duplicate items are removed using deterministic IDs and fuzzy matching.
 - Keyword pre-filter: Items are filtered to reduce unnecessary LLM calls.
-- LLM scoring: OpenRouter is used to compute relevance scores and extract metadata with enhanced error handling.
+- LLM scoring: Advanced parallel fan-out system with 8-model FREE_MODEL_POOL and two-wave retry strategy.
 - Persistence: Results are stored in SQLite and exported to static JSON.
 - Publication: Optional Git publishing and SMTP notifications.
 
@@ -46,7 +47,7 @@ The relevance scoring system resides in the worker module and participates in a 
 graph TB
 subgraph "Worker Pipeline"
 A["main.py<br/>orchestrates stages with API key validation"]
-B["scoring/llm_relevance.py<br/>OpenRouter LLM scoring with graceful degradation"]
+B["scoring/llm_relevance.py<br/>Parallel fan-out with 8-model FREE_MODEL_POOL<br/>Two-wave retry strategy"]
 C["scoring/dedupe.py<br/>keyword pre-filter + dedupe"]
 D["storage/db.py<br/>SQLite persistence"]
 E["storage/export_json.py<br/>JSON export"]
@@ -59,7 +60,7 @@ A --> E
 
 **Diagram sources**
 - [main.py:148-306](file://worker/main.py#L148-L306)
-- [llm_relevance.py:102-185](file://worker/scoring/llm_relevance.py#L102-L185)
+- [llm_relevance.py:115-170](file://worker/scoring/llm_relevance.py#L115-L170)
 - [dedupe.py:48-92](file://worker/scoring/dedupe.py#L48-L92)
 - [db.py:116-278](file://worker/storage/db.py#L116-L278)
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
@@ -69,30 +70,33 @@ A --> E
 - [config.yaml:1-245](file://worker/config.yaml#L1-L245)
 
 ## Core Components
-- **OpenRouter integration**: HTTP client configured with base URL, API key, and request parameters with enhanced error handling and graceful degradation.
-- **Prompt engineering**: Specialized system prompts for news and jobs with strict JSON output requirements.
-- **Batch processing**: Chunking items into batches to minimize API calls while respecting rate limits.
-- **Enhanced error handling**: Graceful degradation by preserving original items when LLM calls fail, with explicit HTTP 429/503 handling.
-- **API key validation**: Graceful handling of missing OPENROUTER_API_KEY with warnings instead of hard failures.
-- **Security protections**: Prevention of paid model fallbacks through route configuration and provider settings.
-- **Output enrichment**: Adds relevance_score, summary/tags for news; relevance_score, category for jobs.
+- **Parallel Fan-out System**: 8-model FREE_MODEL_POOL with intelligent parallel request distribution and first-success-wins strategy.
+- **Two-Wave Retry Strategy**: Wave 1 (parallel fan-out) followed by Wave 2 (sequential retry with exponential backoff).
+- **Enhanced OpenRouter Integration**: HTTP client configured with base URL, API key, and request parameters with comprehensive error handling.
+- **Advanced Prompt Engineering**: Specialized system prompts for news and jobs with strict JSON output requirements.
+- **Intelligent Model Selection**: Primary model plus 7 backup models ordered by capability, with automatic fallback detection.
+- **Comprehensive Error Handling**: Graceful degradation by preserving original items when LLM calls fail, with explicit HTTP 429/503 handling.
+- **Optimized Retry Logic**: MAX_RETRIES_PER_MODEL=1 with sequential retry handling, reducing API call waste.
+- **Security Protections**: Prevention of paid model fallbacks through route configuration and provider settings.
+- **Output Enrichment**: Adds relevance_score, summary/tags for news; relevance_score, category for jobs.
+- **Reliability Metrics**: Enhanced logging and monitoring for model performance and fallback events.
 
 Key implementation references:
-- OpenRouter client and chat endpoint: [llm_relevance.py:52-84](file://worker/scoring/llm_relevance.py#L52-L84)
-- News scoring with API key guard: [llm_relevance.py:112-140](file://worker/scoring/llm_relevance.py#L112-L140)
-- Jobs scoring with API key guard: [llm_relevance.py:153-184](file://worker/scoring/llm_relevance.py#L153-L184)
-- Keyword pre-filter: [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
-- Pipeline orchestration with API key validation: [main.py:35-47](file://worker/main.py#L35-L47)
+- 8-model FREE_MODEL_POOL: [llm_relevance.py:21-32](file://worker/scoring/llm_relevance.py#L21-L32)
+- Two-wave retry strategy: [llm_relevance.py:115-170](file://worker/scoring/llm_relevance.py#L115-L170)
+- Parallel fan-out implementation: [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
+- Sequential retry with backoff: [llm_relevance.py:144-169](file://worker/scoring/llm_relevance.py#L144-L169)
+- Enhanced error handling: [llm_relevance.py:97-113](file://worker/scoring/llm_relevance.py#L97-L113)
+- API key validation: [main.py:35-47](file://worker/main.py#L35-L47)
 
 **Section sources**
-- [llm_relevance.py:16-18](file://worker/scoring/llm_relevance.py#L16-L18)
-- [llm_relevance.py:31-48](file://worker/scoring/llm_relevance.py#L31-L48)
-- [llm_relevance.py:112-184](file://worker/scoring/llm_relevance.py#L112-L184)
-- [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
+- [llm_relevance.py:21-32](file://worker/scoring/llm_relevance.py#L21-L32)
+- [llm_relevance.py:115-170](file://worker/scoring/llm_relevance.py#L115-L170)
+- [llm_relevance.py:97-113](file://worker/scoring/llm_relevance.py#L97-L113)
 - [main.py:35-47](file://worker/main.py#L35-L47)
 
 ## Architecture Overview
-The relevance scoring pipeline integrates with OpenRouter to produce structured outputs with enhanced error handling and graceful degradation. The system validates API keys early in the pipeline, uses a keyword pre-filter to reduce LLM calls, then batches items for efficient processing. When LLM services are unavailable or API keys are missing, the system preserves original items to avoid data loss and continues processing with reduced functionality.
+The relevance scoring pipeline implements a sophisticated parallel fan-out architecture with 8-model FREE_MODEL_POOL, utilizing a two-wave strategy for optimal reliability and cost-effectiveness. The system validates API keys early in the pipeline, uses a keyword pre-filter to reduce LLM calls, then employs parallel fan-out to distribute requests across multiple models. When rate limiting occurs, the system automatically falls back to sequential retry with exponential backoff. The enhanced error handling preserves original items to avoid data loss and provides comprehensive logging for monitoring and debugging.
 
 ```mermaid
 sequenceDiagram
@@ -100,6 +104,8 @@ participant Orchestrator as "main.py"
 participant SecretValidator as "_check_secrets"
 participant KeywordFilter as "passes_keyword_filter"
 participant Scorer as "score_news_batch/score_jobs_batch"
+participant FanOut as "Parallel Fan-Out"
+participant SequentialRetry as "Sequential Retry"
 participant OpenRouter as "OpenRouter API"
 participant SecurityGuard as "Security Safeguards"
 participant Parser as "_safe_parse"
@@ -110,10 +116,18 @@ SecretValidator-->>Orchestrator : "warning if missing"
 Orchestrator->>KeywordFilter : "filter items by keywords"
 KeywordFilter-->>Orchestrator : "filtered items"
 Orchestrator->>Scorer : "batch process items"
+Scorer->>FanOut : "parallel fan-out to 8 models"
+FanOut->>OpenRouter : "POST /chat/completions (wave 1)"
+OpenRouter-->>FanOut : "HTTP 200, 429, or 503"
+alt First model success
+FanOut-->>Scorer : "immediate success"
+else Rate limited/all models 429/503
+FanOut-->>SequentialRetry : "fall back to sequential retry"
+SequentialRetry->>OpenRouter : "sequential retry with backoff"
+OpenRouter-->>SequentialRetry : "success or continue retry"
+end
 Scorer->>SecurityGuard : "prevent paid model fallback"
 SecurityGuard-->>Scorer : "security validated"
-Scorer->>OpenRouter : "POST /chat/completions"
-OpenRouter-->>Scorer : "JSON array response or HTTP 429/503"
 Scorer->>Parser : "parse JSON, strip markdown fences"
 Parser-->>Scorer : "parsed results"
 Scorer-->>Orchestrator : "enriched items"
@@ -123,12 +137,51 @@ Orchestrator->>Export : "export JSON"
 
 **Diagram sources**
 - [main.py:148-306](file://worker/main.py#L148-L306)
-- [llm_relevance.py:112-184](file://worker/scoring/llm_relevance.py#L112-L184)
-- [llm_relevance.py:87-99](file://worker/scoring/llm_relevance.py#L87-L99)
+- [llm_relevance.py:115-170](file://worker/scoring/llm_relevance.py#L115-L170)
+- [llm_relevance.py:97-113](file://worker/scoring/llm_relevance.py#L97-L113)
 - [db.py:116-278](file://worker/storage/db.py#L116-L278)
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 
 ## Detailed Component Analysis
+
+### Parallel Fan-Out System with 8-Model FREE_MODEL_POOL
+- **FREE_MODEL_POOL**: 8 carefully selected free models ordered by capability, including NVIDIA Nemotron series, Google Gemma, Qwen, and others.
+- **Parallel Fan-Out**: All models are queried simultaneously using ThreadPoolExecutor with connection pooling for optimal performance.
+- **First Success Wins**: The first successful response determines the model used, with automatic cancellation of remaining requests.
+- **Fallback Detection**: Logs when primary model is unavailable and alternative model is used.
+- **Model Ordering**: Primary model first, followed by capability-ordered backup models.
+- **Connection Pooling**: Efficient reuse of HTTP connections across parallel requests.
+
+**Updated** Major architectural enhancement from single-model to parallel fan-out system with 8-model FREE_MODEL_POOL.
+
+Implementation references:
+- FREE_MODEL_POOL definition: [llm_relevance.py:21-32](file://worker/scoring/llm_relevance.py#L21-L32)
+- Parallel fan-out implementation: [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
+- Model ordering and selection: [llm_relevance.py:118-119](file://worker/scoring/llm_relevance.py#L118-L119)
+
+**Section sources**
+- [llm_relevance.py:21-32](file://worker/scoring/llm_relevance.py#L21-L32)
+- [llm_relevance.py:118-143](file://worker/scoring/llm_relevance.py#L118-L143)
+
+### Two-Wave Retry Strategy Implementation
+- **Wave 1: Parallel Fan-Out**: All 8 models queried simultaneously with immediate response handling.
+- **Wave 2: Sequential Retry**: If all models rate limit or fail, sequential retry with exponential backoff.
+- **Reduced Retry Parameters**: MAX_RETRIES_PER_MODEL=1 to minimize API call waste.
+- **Exponential Backoff**: Delays follow 2^n multiplier (5s, 10s, 20s) to reduce server load.
+- **Failure Modes**: Handles HTTP 429 (rate limit) and HTTP 503 (service unavailable) specifically.
+- **Logging**: Comprehensive logging for both waves with detailed metrics.
+- **Resource Management**: Automatic cancellation of pending requests upon first success.
+
+**Updated** Enhanced with two-wave strategy (parallel + sequential) and optimized retry logic.
+
+Implementation references:
+- Wave 1 implementation: [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
+- Wave 2 implementation: [llm_relevance.py:144-169](file://worker/scoring/llm_relevance.py#L144-L169)
+- Retry parameters: [llm_relevance.py:78-79](file://worker/scoring/llm_relevance.py#L78-L79)
+
+**Section sources**
+- [llm_relevance.py:121-169](file://worker/scoring/llm_relevance.py#L121-L169)
+- [llm_relevance.py:78-79](file://worker/scoring/llm_relevance.py#L78-L79)
 
 ### Enhanced API Key Handling and Graceful Degradation
 - **Early validation**: The orchestrator validates OPENROUTER_API_KEY at startup and issues warnings instead of hard failures.
@@ -141,35 +194,33 @@ Orchestrator->>Export : "export JSON"
 
 Implementation references:
 - API key validation in orchestrator: [main.py:35-47](file://worker/main.py#L35-L47)
-- API key guard in news scoring: [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114)
-- API key guard in jobs scoring: [llm_relevance.py:153-155](file://worker/scoring/llm_relevance.py#L153-L155)
-- Data preservation on LLM failure: [llm_relevance.py:136-138](file://worker/scoring/llm_relevance.py#L136-L138), [llm_relevance.py:180-182](file://worker/scoring/llm_relevance.py#L180-L182)
+- API key guard in news scoring: [llm_relevance.py:197-199](file://worker/scoring/llm_relevance.py#L197-L199)
+- API key guard in jobs scoring: [llm_relevance.py:238-240](file://worker/scoring/llm_relevance.py#L238-L240)
 
 **Section sources**
 - [main.py:35-47](file://worker/main.py#L35-L47)
-- [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114)
-- [llm_relevance.py:153-155](file://worker/scoring/llm_relevance.py#L153-L155)
-- [llm_relevance.py:136-138](file://worker/scoring/llm_relevance.py#L136-L138)
-- [llm_relevance.py:180-182](file://worker/scoring/llm_relevance.py#L180-L182)
+- [llm_relevance.py:197-199](file://worker/scoring/llm_relevance.py#L197-L199)
+- [llm_relevance.py:238-240](file://worker/scoring/llm_relevance.py#L238-L240)
 
-### Enhanced OpenRouter Integration
+### Enhanced OpenRouter Integration with Comprehensive Error Handling
 - **Base URL and API key** are loaded from environment variables with defaults.
 - **HTTP client** sets Authorization, Content-Type, and referer headers with 60-second timeout.
 - **Request payload** includes model, messages, max_tokens, and temperature with enhanced security configurations.
 - **Security safeguards**: Explicit prevention of paid model fallbacks through `"route": "fallback"` and `"provider": {"allow_fallbacks": False}`.
-- **Enhanced error handling**: Explicit handling of HTTP 429 (rate limit) and 503 (service unavailable) responses with RuntimeError.
+- **Enhanced error handling**: Explicit handling of HTTP 429 (rate limit) and 503 (service unavailable) responses with comprehensive logging.
+- **Retry logic**: Configurable MAX_RETRIES_PER_MODEL (1) and RETRY_BASE_DELAY (5 seconds) with exponential backoff.
 - **Chat endpoint** returns the assistant's message content or raises specific errors for security compliance.
 
-**Updated** Enhanced with graceful degradation and improved error handling for API key absence.
+**Updated** Enhanced with parallel fan-out architecture and comprehensive error handling.
 
 Implementation references:
-- Environment configuration: [llm_relevance.py:16-18](file://worker/scoring/llm_relevance.py#L16-L18)
-- HTTP client: [llm_relevance.py:52-61](file://worker/scoring/llm_relevance.py#L52-L61)
-- Chat request with security: [llm_relevance.py:64-84](file://worker/scoring/llm_relevance.py#L64-L84)
+- Environment configuration: [llm_relevance.py:17-19](file://worker/scoring/llm_relevance.py#L17-L19)
+- HTTP client: [llm_relevance.py:66-75](file://worker/scoring/llm_relevance.py#L66-L75)
+- Chat request with security: [llm_relevance.py:82-94](file://worker/scoring/llm_relevance.py#L82-L94)
 
 **Section sources**
-- [llm_relevance.py:16-18](file://worker/scoring/llm_relevance.py#L16-L18)
-- [llm_relevance.py:52-84](file://worker/scoring/llm_relevance.py#L52-L84)
+- [llm_relevance.py:17-19](file://worker/scoring/llm_relevance.py#L17-L19)
+- [llm_relevance.py:66-94](file://worker/scoring/llm_relevance.py#L66-L94)
 
 ### Prompt Engineering Strategies
 - **News prompt**: Defines a technical editor role, requires a JSON array with relevance_score, summary, and tags constrained to predefined categories.
@@ -177,13 +228,13 @@ Implementation references:
 - **Output constraints**: Strictly require JSON arrays, forbid markdown fences, and enforce field presence.
 
 Implementation references:
-- News system prompt: [llm_relevance.py:31-39](file://worker/scoring/llm_relevance.py#L31-L39)
-- Jobs system prompt: [llm_relevance.py:41-48](file://worker/scoring/llm_relevance.py#L41-L48)
-- Tags and categories lists: [llm_relevance.py:20-29](file://worker/scoring/llm_relevance.py#L20-L29)
+- News system prompt: [llm_relevance.py:45-53](file://worker/scoring/llm_relevance.py#L45-L53)
+- Jobs system prompt: [llm_relevance.py:55-62](file://worker/scoring/llm_relevance.py#L55-L62)
+- Tags and categories lists: [llm_relevance.py:34-44](file://worker/scoring/llm_relevance.py#L34-L44)
 
 **Section sources**
-- [llm_relevance.py:31-48](file://worker/scoring/llm_relevance.py#L31-L48)
-- [llm_relevance.py:20-29](file://worker/scoring/llm_relevance.py#L20-L29)
+- [llm_relevance.py:45-62](file://worker/scoring/llm_relevance.py#L45-L62)
+- [llm_relevance.py:34-44](file://worker/scoring/llm_relevance.py#L34-L44)
 
 ### Scoring Methodology
 - **Inputs**: News items include title and URL; jobs include title and company.
@@ -191,18 +242,19 @@ Implementation references:
 - **Parsing**: Robust parser strips markdown fences and parses JSON arrays.
 - **Security compliance**: All requests include explicit security configurations to prevent paid model fallbacks.
 - **Error resilience**: When LLM calls fail, original items are preserved to maintain data integrity.
+- **Retry mechanism**: Automatic exponential backoff retry for transient failures (HTTP 429/503).
 
-**Updated** Enhanced with graceful degradation and error resilience mechanisms.
+**Updated** Enhanced with parallel fan-out architecture and improved error resilience mechanisms.
 
 Implementation references:
-- News batch scoring: [llm_relevance.py:102-140](file://worker/scoring/llm_relevance.py#L102-L140)
-- Jobs batch scoring: [llm_relevance.py:143-184](file://worker/scoring/llm_relevance.py#L143-L184)
-- Safe parsing: [llm_relevance.py:87-99](file://worker/scoring/llm_relevance.py#L87-L99)
+- News batch scoring: [llm_relevance.py:187-225](file://worker/scoring/llm_relevance.py#L187-L225)
+- Jobs batch scoring: [llm_relevance.py:228-269](file://worker/scoring/llm_relevance.py#L228-L269)
+- Safe parsing: [llm_relevance.py:172-183](file://worker/scoring/llm_relevance.py#L172-L183)
 
 **Section sources**
-- [llm_relevance.py:102-140](file://worker/scoring/llm_relevance.py#L102-L140)
-- [llm_relevance.py:143-184](file://worker/scoring/llm_relevance.py#L143-L184)
-- [llm_relevance.py:87-99](file://worker/scoring/llm_relevance.py#L87-L99)
+- [llm_relevance.py:187-225](file://worker/scoring/llm_relevance.py#L187-L225)
+- [llm_relevance.py:228-269](file://worker/scoring/llm_relevance.py#L228-L269)
+- [llm_relevance.py:172-183](file://worker/scoring/llm_relevance.py#L172-L183)
 
 ### Batch Processing Capabilities
 - **Batching**: Items are processed in chunks determined by batch_size.
@@ -210,17 +262,18 @@ Implementation references:
 - **Failure handling**: On exception, the batch logs an error and preserves original items.
 - **Security enforcement**: Each batch respects security configurations to prevent unauthorized model fallbacks.
 - **API key validation**: Each batch checks for API key presence and skips processing if missing.
+- **Retry integration**: Each batch operation includes comprehensive retry logic for transient failures.
 
-**Updated** Enhanced with API key validation and improved error handling across all batch operations.
+**Updated** Enhanced with parallel fan-out architecture and comprehensive retry integration.
 
 Implementation references:
-- Batch loop and payload: [llm_relevance.py:119-124](file://worker/scoring/llm_relevance.py#L119-L124)
-- News batch handling: [llm_relevance.py:125-140](file://worker/scoring/llm_relevance.py#L125-L140)
-- Jobs batch handling: [llm_relevance.py:170-184](file://worker/scoring/llm_relevance.py#L170-L184)
+- Batch loop and payload: [llm_relevance.py:204-209](file://worker/scoring/llm_relevance.py#L204-L209)
+- News batch handling: [llm_relevance.py:210-224](file://worker/scoring/llm_relevance.py#L210-L224)
+- Jobs batch handling: [llm_relevance.py:255-268](file://worker/scoring/llm_relevance.py#L255-L268)
 
 **Section sources**
-- [llm_relevance.py:119-140](file://worker/scoring/llm_relevance.py#L119-L140)
-- [llm_relevance.py:170-184](file://worker/scoring/llm_relevance.py#L170-L184)
+- [llm_relevance.py:204-224](file://worker/scoring/llm_relevance.py#L204-L224)
+- [llm_relevance.py:255-268](file://worker/scoring/llm_relevance.py#L255-L268)
 
 ### Confidence Thresholds and Cost Optimization
 - **Temperature**: Set low to encourage deterministic outputs and reduce token usage.
@@ -229,18 +282,22 @@ Implementation references:
 - **Batch size**: Tunable to balance throughput and cost.
 - **Security optimization**: Explicit prevention of paid model fallbacks through route configuration.
 - **Graceful degradation**: System continues processing even without LLM scoring capabilities.
+- **Parallel optimization**: 8-model fan-out reduces individual model load and improves success rates.
+- **Retry optimization**: Configurable retry parameters reduce wasted API calls on transient failures.
 
-**Updated** Enhanced with graceful degradation and cost protection through reduced LLM usage.
+**Updated** Enhanced with parallel fan-out optimization and comprehensive cost protection strategies.
 
 Implementation references:
 - Configuration: [config.yaml:10-19](file://worker/config.yaml#L10-L19)
 - Keyword filter: [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
 - Batch size usage: [main.py:153](file://worker/main.py#L153)
+- Retry parameters: [llm_relevance.py:78-79](file://worker/scoring/llm_relevance.py#L78-L79)
 
 **Section sources**
 - [config.yaml:10-19](file://worker/config.yaml#L10-L19)
 - [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
 - [main.py:153](file://worker/main.py#L153)
+- [llm_relevance.py:78-79](file://worker/scoring/llm_relevance.py#L78-L79)
 
 ### Integration Patterns with the Pipeline
 - **Early API key validation**: The orchestrator validates secrets before starting processing to provide immediate feedback.
@@ -249,8 +306,9 @@ Implementation references:
 - **Results** are persisted to SQLite and exported to JSON for downstream consumption.
 - **Security compliance** is enforced at every stage of the pipeline.
 - **Graceful degradation** ensures pipeline completion even without LLM scoring capabilities.
+- **Parallel fan-out** provides optimal reliability and cost-effectiveness through intelligent model distribution.
 
-**Updated** Enhanced with early API key validation and graceful degradation patterns.
+**Updated** Enhanced with parallel fan-out integration and comprehensive reliability patterns.
 
 Implementation references:
 - Early API key validation: [main.py:148-149](file://worker/main.py#L148-L149)
@@ -267,13 +325,15 @@ Implementation references:
 
 ## Dependency Analysis
 External dependencies relevant to LLM scoring:
-- **httpx**: HTTP client for OpenRouter requests with enhanced security features.
+- **httpx**: HTTP client for OpenRouter requests with enhanced security features and parallel request capabilities.
 - **rapidfuzz**: Fuzzy matching for deduplication.
 - **pyyaml and python-dotenv**: Configuration loading and environment support.
+- **concurrent.futures**: ThreadPoolExecutor for parallel fan-out architecture.
 
 ```mermaid
 graph LR
 A["llm_relevance.py"] --> B["httpx"]
+A --> C["concurrent.futures"]
 C["dedupe.py"] --> D["rapidfuzz"]
 E["main.py"] --> F["pyyaml"]
 E --> G["python-dotenv"]
@@ -281,58 +341,65 @@ E --> G["python-dotenv"]
 
 **Diagram sources**
 - [requirements.txt:1-11](file://worker/requirements.txt#L1-L11)
-- [llm_relevance.py:12](file://worker/scoring/llm_relevance.py#L12)
-- [dedupe.py:12](file://worker/scoring/dedupe.py#L12)
+- [llm_relevance.py:13](file://worker/scoring/llm_relevance.py#L13)
+- [llm_relevance.py:125-131](file://worker/scoring/llm_relevance.py#L125-L131)
 
 **Section sources**
 - [requirements.txt:1-11](file://worker/requirements.txt#L1-L11)
 
 ## Performance Considerations
+- **Parallel Fan-out Benefits**: 8-model distribution reduces individual model load and improves success rates.
 - **Batch sizing**: Tune batch_size to balance throughput and cost; larger batches reduce API calls but increase memory and latency.
 - **Pre-filtering**: Use keyword_filter to avoid LLM calls for irrelevant items.
 - **Token limits**: Control max_tokens to cap cost and response time.
 - **Model selection**: Choose a smaller model for cost-sensitive scenarios; adjust temperature for determinism.
 - **Security overhead**: Enhanced security configurations add minimal overhead while providing critical cost protection.
 - **Graceful degradation**: System continues processing even without LLM scoring, reducing pipeline downtime.
-- **Retry/backoff**: Not implemented; consider adding retry logic for transient failures.
+- **Retry optimization**: Configurable retry parameters reduce wasted API calls on transient failures.
+- **Exponential backoff**: Reduces server load during peak usage periods and improves success rates.
+- **Connection pooling**: Efficient reuse of HTTP connections across parallel requests.
 
-**Updated** Enhanced with graceful degradation benefits and cost protection through reduced LLM usage.
+**Updated** Enhanced with parallel fan-out performance characteristics and comprehensive optimization strategies.
 
 ## Troubleshooting Guide
 Common issues and remedies:
 - **Missing API key**: If OPENROUTER_API_KEY is unset, LLM scoring is skipped with a warning. Set the environment variable to enable scoring. The system continues processing other pipeline stages.
 - **Security violations**: If free model fallback is attempted, a RuntimeError is raised to prevent paid model usage. Check model availability and configuration.
-- **Rate limiting**: HTTP 429 responses trigger RuntimeError with clear messaging to avoid paid fallbacks. Implement backoff strategies.
-- **Service unavailability**: HTTP 503 responses trigger RuntimeError with specific error handling. Monitor service health.
+- **Rate limiting**: HTTP 429 responses trigger parallel fan-out with immediate fallback to sequential retry with exponential backoff (MAX_RETRIES_PER_MODEL=1).
+- **Service unavailability**: HTTP 503 responses trigger comprehensive retry logic with exponential backoff. Monitor service health and consider increasing retry parameters.
 - **LLM API failures**: Exceptions during scoring preserve original items and log errors; investigate network connectivity and quotas.
 - **JSON parsing errors**: The parser strips markdown fences; ensure the LLM adheres to the required JSON format.
 - **Keyword pre-filter blocking items**: Verify keyword_filter configuration and adjust keywords if needed.
 - **Graceful degradation**: When API key is missing, items are processed without LLM scoring but with full pipeline functionality.
+- **Parallel fan-out failures**: When all 8 models fail, system falls back to sequential retry with exponential backoff.
+- **Model fallback detection**: System logs when primary model is unavailable and alternative model is used.
 
-**Updated** Enhanced with graceful degradation and API key handling guidance.
+**Updated** Enhanced with parallel fan-out troubleshooting, comprehensive retry logic, and fallback detection guidance.
 
 Operational references:
-- API key guard: [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114), [llm_relevance.py:153-155](file://worker/scoring/llm_relevance.py#L153-L155)
+- API key guard: [llm_relevance.py:197-199](file://worker/scoring/llm_relevance.py#L197-L199), [llm_relevance.py:238-240](file://worker/scoring/llm_relevance.py#L238-L240)
 - Early API key validation: [main.py:35-47](file://worker/main.py#L35-L47)
-- Security error handling: [llm_relevance.py:81-83](file://worker/scoring/llm_relevance.py#L81-L83)
-- Error logging and fallback: [llm_relevance.py:136-138](file://worker/scoring/llm_relevance.py#L136-L138), [llm_relevance.py:180-182](file://worker/scoring/llm_relevance.py#L180-L182)
-- Safe parsing: [llm_relevance.py:87-99](file://worker/scoring/llm_relevance.py#L87-L99)
+- Security error handling: [llm_relevance.py:105-107](file://worker/scoring/llm_relevance.py#L105-L107)
+- Error logging and fallback: [llm_relevance.py:222-223](file://worker/scoring/llm_relevance.py#L222-L223), [llm_relevance.py:266-267](file://worker/scoring/llm_relevance.py#L266-L267)
+- Safe parsing: [llm_relevance.py:172-183](file://worker/scoring/llm_relevance.py#L172-L183)
 - Keyword filter: [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
+- Parallel fan-out implementation: [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
 
 **Section sources**
-- [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114)
-- [llm_relevance.py:153-155](file://worker/scoring/llm_relevance.py#L153-L155)
+- [llm_relevance.py:197-199](file://worker/scoring/llm_relevance.py#L197-L199)
+- [llm_relevance.py:238-240](file://worker/scoring/llm_relevance.py#L238-L240)
 - [main.py:35-47](file://worker/main.py#L35-L47)
-- [llm_relevance.py:81-83](file://worker/scoring/llm_relevance.py#L81-L83)
-- [llm_relevance.py:136-138](file://worker/scoring/llm_relevance.py#L136-L138)
-- [llm_relevance.py:180-182](file://worker/scoring/llm_relevance.py#L180-L182)
-- [llm_relevance.py:87-99](file://worker/scoring/llm_relevance.py#L87-L99)
+- [llm_relevance.py:105-107](file://worker/scoring/llm_relevance.py#L105-L107)
+- [llm_relevance.py:222-223](file://worker/scoring/llm_relevance.py#L222-L223)
+- [llm_relevance.py:266-267](file://worker/scoring/llm_relevance.py#L266-L267)
+- [llm_relevance.py:172-183](file://worker/scoring/llm_relevance.py#L172-L183)
 - [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
+- [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
 
 ## Conclusion
-The LLM relevance scoring system integrates OpenRouter to produce structured, cost-conscious evaluations of news and jobs with enhanced error handling and graceful degradation. By combining early API key validation, keyword pre-filtering, batching, strict prompt engineering, and explicit security safeguards, it achieves reliable enrichment while preventing unintended paid model usage. The design emphasizes resilience through graceful error handling, security compliance, and maintains a clean separation between orchestration, scoring, persistence, and export. The system now provides robust fallback behavior when LLM services are unavailable, ensuring pipeline continuity and data integrity.
+The LLM relevance scoring system has evolved into a sophisticated parallel fan-out architecture with 8-model FREE_MODEL_POOL, implementing a two-wave strategy (parallel + sequential) for optimal reliability and cost-effectiveness. The system integrates OpenRouter to produce structured, cost-conscious evaluations of news and jobs with comprehensive error handling, graceful degradation, and robust retry logic. By combining early API key validation, keyword pre-filtering, parallel fan-out architecture, strict prompt engineering, explicit security safeguards, and exponential backoff retry mechanisms, it achieves superior reliability while preventing unintended paid model usage. The design emphasizes resilience through intelligent model distribution, comprehensive error handling, security compliance, automatic retry recovery, and maintains a clean separation between orchestration, scoring, persistence, and export. The system now provides exceptional fallback behavior when LLM services encounter transient failures or are unavailable, ensuring pipeline continuity and data integrity through its innovative parallel fan-out architecture.
 
-**Updated** Enhanced with graceful degradation and improved error management capabilities.
+**Updated** Enhanced with comprehensive parallel fan-out architecture, two-wave retry strategy, and superior reliability mechanisms.
 
 ## Appendices
 
@@ -342,72 +409,86 @@ The LLM relevance scoring system integrates OpenRouter to produce structured, co
 - Ensure the LLM returns strictly formatted JSON arrays as required.
 
 References:
-- News prompt: [llm_relevance.py:31-39](file://worker/scoring/llm_relevance.py#L31-L39)
-- Jobs prompt: [llm_relevance.py:41-48](file://worker/scoring/llm_relevance.py#L41-L48)
-- Tags and categories: [llm_relevance.py:20-29](file://worker/scoring/llm_relevance.py#L20-L29)
+- News prompt: [llm_relevance.py:45-53](file://worker/scoring/llm_relevance.py#L45-L53)
+- Jobs prompt: [llm_relevance.py:55-62](file://worker/scoring/llm_relevance.py#L55-L62)
+- Tags and categories: [llm_relevance.py:34-44](file://worker/scoring/llm_relevance.py#L34-L44)
 
 **Section sources**
-- [llm_relevance.py:31-48](file://worker/scoring/llm_relevance.py#L31-L48)
-- [llm_relevance.py:20-29](file://worker/scoring/llm_relevance.py#L20-L29)
+- [llm_relevance.py:45-62](file://worker/scoring/llm_relevance.py#L45-L62)
+- [llm_relevance.py:34-44](file://worker/scoring/llm_relevance.py#L34-L44)
 
 ### Enhanced Security Measures
 - **Route configuration**: `"route": "fallback"` ensures requests use the specified model path.
 - **Provider controls**: `"allow_fallbacks": False` prevents automatic fallback to paid models.
 - **Error handling**: Explicit RuntimeError for HTTP 429/503 responses to avoid paid model usage.
 - **Cost protection**: Security configurations prevent unexpected charges from model fallbacks.
+- **Retry safety**: Retry logic respects security constraints and prevents unauthorized fallback attempts.
 
-**New** Added comprehensive security measures and cost protection strategies.
+**New** Added comprehensive security measures, cost protection strategies, and retry safety mechanisms.
 
 References:
-- Security configuration: [llm_relevance.py:73-78](file://worker/scoring/llm_relevance.py#L73-L78)
-- Error handling: [llm_relevance.py:81-83](file://worker/scoring/llm_relevance.py#L81-L83)
+- Security configuration: [llm_relevance.py:91-94](file://worker/scoring/llm_relevance.py#L91-L94)
+- Error handling: [llm_relevance.py:105-107](file://worker/scoring/llm_relevance.py#L105-L107)
 
 **Section sources**
-- [llm_relevance.py:73-78](file://worker/scoring/llm_relevance.py#L73-L78)
-- [llm_relevance.py:81-83](file://worker/scoring/llm_relevance.py#L81-L83)
+- [llm_relevance.py:91-94](file://worker/scoring/llm_relevance.py#L91-L94)
+- [llm_relevance.py:105-107](file://worker/scoring/llm_relevance.py#L105-L107)
 
-### Handling LLM API Failures
+### Handling LLM API Failures with Parallel Fan-Out Architecture
 - The scoring functions catch exceptions and preserve original items.
-- **Enhanced error handling**: Specific handling for HTTP 429/503 responses with clear messaging.
+- **Parallel fan-out**: Immediate parallel request to 8 models with first-success-wins strategy.
+- **Sequential retry**: If all models fail, sequential retry with exponential backoff (MAX_RETRIES_PER_MODEL=1).
 - **Security compliance**: RuntimeError raised to prevent paid model fallback attempts.
 - **Graceful degradation**: When API key is missing, functions return original items with warnings.
-- Logs include batch index and error details for diagnostics.
-- Consider adding retry logic and circuit breaker patterns for production deployments.
+- **Enhanced retry mechanism**: Configurable MAX_RETRIES_PER_MODEL (1) and RETRY_BASE_DELAY (5s) with exponential backoff.
+- **Automatic recovery**: System automatically retries transient failures without manual intervention.
+- **Comprehensive logging**: Includes batch index, error details, retry information, and model fallback detection.
+- **Model fallback detection**: Logs when primary model is unavailable and alternative model is used.
 
-**Updated** Enhanced with graceful degradation and API key handling capabilities.
+**Updated** Enhanced with parallel fan-out architecture, comprehensive retry logic, and model fallback detection.
 
 References:
-- News batch exception handling: [llm_relevance.py:136-138](file://worker/scoring/llm_relevance.py#L136-L138)
-- Jobs batch exception handling: [llm_relevance.py:180-182](file://worker/scoring/llm_relevance.py#L180-L182)
-- API key guard behavior: [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114), [llm_relevance.py:153-155](file://worker/scoring/llm_relevance.py#L153-L155)
-- Security error handling: [llm_relevance.py:81-83](file://worker/scoring/llm_relevance.py#L81-L83)
+- News batch exception handling: [llm_relevance.py:222-223](file://worker/scoring/llm_relevance.py#L222-L223)
+- Jobs batch exception handling: [llm_relevance.py:266-267](file://worker/scoring/llm_relevance.py#L266-L267)
+- API key guard behavior: [llm_relevance.py:197-199](file://worker/scoring/llm_relevance.py#L197-L199), [llm_relevance.py:238-240](file://worker/scoring/llm_relevance.py#L238-L240)
+- Security error handling: [llm_relevance.py:105-107](file://worker/scoring/llm_relevance.py#L105-L107)
+- Parallel fan-out implementation: [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
+- Sequential retry implementation: [llm_relevance.py:144-169](file://worker/scoring/llm_relevance.py#L144-L169)
 
 **Section sources**
-- [llm_relevance.py:136-138](file://worker/scoring/llm_relevance.py#L136-L138)
-- [llm_relevance.py:180-182](file://worker/scoring/llm_relevance.py#L180-L182)
-- [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114)
-- [llm_relevance.py:153-155](file://worker/scoring/llm_relevance.py#L153-L155)
-- [llm_relevance.py:81-83](file://worker/scoring/llm_relevance.py#L81-L83)
+- [llm_relevance.py:222-223](file://worker/scoring/llm_relevance.py#L222-L223)
+- [llm_relevance.py:266-267](file://worker/scoring/llm_relevance.py#L266-L267)
+- [llm_relevance.py:197-199](file://worker/scoring/llm_relevance.py#L197-L199)
+- [llm_relevance.py:238-240](file://worker/scoring/llm_relevance.py#L238-L240)
+- [llm_relevance.py:105-107](file://worker/scoring/llm_relevance.py#L105-L107)
+- [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
+- [llm_relevance.py:144-169](file://worker/scoring/llm_relevance.py#L144-L169)
 
-### Optimizing Cost-Effectiveness
+### Optimizing Cost-Effectiveness with Parallel Fan-Out Architecture
+- **Parallel optimization**: Use 8-model fan-out to distribute load and improve success rates.
 - **Reduce calls**: Use keyword_filter and passes_keyword_filter to gate LLM usage.
 - **Tune parameters**: Lower temperature and max_tokens; select a smaller model.
 - **Batch efficiently**: Increase batch_size to amortize fixed costs.
 - **Security optimization**: Enhanced security configurations prevent unexpected paid model usage.
 - **Graceful degradation**: Reduced LLM usage when API key is missing, minimizing costs.
-- **Rate limiting awareness**: Built-in handling for HTTP 429 responses to avoid retries that could increase costs.
+- **Parallel cost benefits**: 8-model distribution reduces individual model load and improves success rates.
+- **Retry optimization**: Configurable retry parameters reduce wasted API calls on transient failures.
+- **Exponential backoff**: Reduces server load during peak usage periods, improving success rates.
+- **Rate limiting awareness**: Built-in handling for HTTP 429 responses with automatic retry recovery.
 
-**Updated** Enhanced with graceful degradation and rate limiting cost optimization strategies.
+**Updated** Enhanced with parallel fan-out cost optimization and comprehensive efficiency strategies.
 
 References:
 - Configuration: [config.yaml:10-19](file://worker/config.yaml#L10-L19)
 - Keyword filter: [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
 - Batch usage: [main.py:153](file://worker/main.py#L153)
+- Retry parameters: [llm_relevance.py:78-79](file://worker/scoring/llm_relevance.py#L78-L79)
 
 **Section sources**
 - [config.yaml:10-19](file://worker/config.yaml#L10-L19)
 - [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
 - [main.py:153](file://worker/main.py#L153)
+- [llm_relevance.py:78-79](file://worker/scoring/llm_relevance.py#L78-L79)
 
 ### API Key Management Best Practices
 - **Environment configuration**: Store OPENROUTER_API_KEY in environment variables, not in config.yaml.
@@ -415,17 +496,63 @@ References:
 - **Graceful handling**: Missing API keys don't halt the pipeline; processing continues without LLM scoring.
 - **Fallback behavior**: Items are processed with relevance_score=0.0 but all other pipeline stages complete successfully.
 - **Monitoring**: Clear warning messages help operators understand why LLM scoring is disabled.
+- **Graceful degradation**: When API key is missing, the system continues processing with full functionality.
 
-**New** Added comprehensive API key management guidance.
+**New** Added comprehensive API key management guidance with emphasis on graceful degradation.
 
 References:
 - API key validation: [main.py:35-47](file://worker/main.py#L35-L47)
-- API key guard in scoring: [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114), [llm_relevance.py:153-155](file://worker/scoring/llm_relevance.py#L153-L155)
-- Graceful degradation behavior: [llm_relevance.py:136-138](file://worker/scoring/llm_relevance.py#L136-L138), [llm_relevance.py:180-182](file://worker/scoring/llm_relevance.py#L180-L182)
+- API key guard in scoring: [llm_relevance.py:197-199](file://worker/scoring/llm_relevance.py#L197-L199), [llm_relevance.py:238-240](file://worker/scoring/llm_relevance.py#L238-L240)
+- Graceful degradation behavior: [llm_relevance.py:222-223](file://worker/scoring/llm_relevance.py#L222-L223), [llm_relevance.py:266-267](file://worker/scoring/llm_relevance.py#L266-L267)
 
 **Section sources**
 - [main.py:35-47](file://worker/main.py#L35-L47)
-- [llm_relevance.py:112-114](file://worker/scoring/llm_relevance.py#L112-L114)
-- [llm_relevance.py:153-155](file://worker/scoring/llm_relevance.py#L153-L155)
-- [llm_relevance.py:136-138](file://worker/scoring/llm_relevance.py#L136-L138)
-- [llm_relevance.py:180-182](file://worker/scoring/llm_relevance.py#L180-L182)
+- [llm_relevance.py:197-199](file://worker/scoring/llm_relevance.py#L197-L199)
+- [llm_relevance.py:238-240](file://worker/scoring/llm_relevance.py#L238-L240)
+- [llm_relevance.py:222-223](file://worker/scoring/llm_relevance.py#L222-L223)
+- [llm_relevance.py:266-267](file://worker/scoring/llm_relevance.py#L266-L267)
+
+### Parallel Fan-Out Architecture Configuration and Tuning
+- **FREE_MODEL_POOL**: 8 carefully selected free models ordered by capability.
+- **Parallel fan-out**: Immediate parallel request to all models with first-success-wins strategy.
+- **Model ordering**: Primary model first, followed by capability-ordered backup models.
+- **Connection pooling**: Efficient reuse of HTTP connections across parallel requests.
+- **Cancellation**: Automatic cancellation of pending requests upon first success.
+- **Fallback detection**: Logs when primary model is unavailable and alternative model is used.
+- **Wave 1 behavior**: All 8 models queried simultaneously with immediate response handling.
+- **Wave 2 behavior**: Sequential retry with exponential backoff if all models fail.
+- **Performance impact**: Parallel distribution reduces individual model load and improves success rates.
+
+**New** Added comprehensive parallel fan-out architecture configuration and tuning guidance.
+
+References:
+- FREE_MODEL_POOL: [llm_relevance.py:21-32](file://worker/scoring/llm_relevance.py#L21-L32)
+- Parallel fan-out implementation: [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
+- Sequential retry implementation: [llm_relevance.py:144-169](file://worker/scoring/llm_relevance.py#L144-L169)
+
+**Section sources**
+- [llm_relevance.py:21-32](file://worker/scoring/llm_relevance.py#L21-L32)
+- [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
+- [llm_relevance.py:144-169](file://worker/scoring/llm_relevance.py#L144-L169)
+
+### Retry Logic Configuration and Tuning
+- **Configurable parameters**: MAX_RETRIES_PER_MODEL (default: 1) and RETRY_BASE_DELAY (default: 5 seconds).
+- **Exponential backoff**: Delays follow 2^n multiplier (5s, 10s, 20s) to reduce server load.
+- **Failure modes**: Handles HTTP 429 (rate limit) and HTTP 503 (service unavailable) specifically.
+- **Safety checks**: Respects security configurations and prevents unauthorized fallback attempts.
+- **Logging**: Provides detailed retry information including attempt numbers and calculated delays.
+- **Performance impact**: Reduces wasted API calls on transient failures while maintaining system responsiveness.
+- **Wave 1 optimization**: Immediate parallel distribution across 8 models for optimal success rates.
+- **Wave 2 optimization**: Sequential retry with exponential backoff for guaranteed fallback.
+
+**New** Added comprehensive retry logic configuration and tuning guidance for the two-wave strategy.
+
+References:
+- Retry parameters: [llm_relevance.py:78-79](file://worker/scoring/llm_relevance.py#L78-L79)
+- Retry implementation: [llm_relevance.py:144-169](file://worker/scoring/llm_relevance.py#L144-L169)
+- Wave 1 implementation: [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)
+
+**Section sources**
+- [llm_relevance.py:78-79](file://worker/scoring/llm_relevance.py#L78-L79)
+- [llm_relevance.py:144-169](file://worker/scoring/llm_relevance.py#L144-L169)
+- [llm_relevance.py:121-143](file://worker/scoring/llm_relevance.py#L121-L143)

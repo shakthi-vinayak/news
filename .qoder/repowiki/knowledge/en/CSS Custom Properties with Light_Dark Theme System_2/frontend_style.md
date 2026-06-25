@@ -1,74 +1,72 @@
-## Styling Approach
+## Frontend Styling Architecture
 
-This repository uses a **vanilla CSS architecture** built on CSS custom properties (CSS variables) for theming and design tokens. No CSS preprocessor, framework (Tailwind, Bootstrap), or component library is employed. The styling system is lightweight, dependency-free, and designed for a static documentation site.
+This repository uses a **vanilla CSS custom properties (CSS variables) system** for theming and styling, with no CSS framework, preprocessor, or build step. The entire frontend is a static site served from the `docs/` directory.
 
-### Core Design Decisions
+### Design Token System
 
-1. **CSS Custom Properties as Design Tokens**: All colors, spacing, shadows, typography, and radii are defined as CSS custom properties in `:root`. This creates a single source of truth for the visual language.
+The styling system is built around CSS custom properties defined in `:root` for light mode and `[data-theme="dark"]` for dark mode. These tokens control:
 
-2. **Dual-Theme Support via Data Attribute**: Dark mode is implemented by toggling `[data-theme="dark"]` on the `<html>` element. The theme toggle button persists user preference to `localStorage`, and the CSS cascade automatically swaps all token values when the attribute changes.
+- **Color palette**: Backgrounds (`--bg`, `--surface`, `--surface-alt`), borders (`--border`), text (`--text`, `--text-muted`), accents (`--accent`, `--accent-hover`), semantic colors (`--danger`, `--warn`, `--success`), tag colors (`--tag-bg`, `--tag-text`)
+- **Layout primitives**: Border radius (`--radius: 10px`), shadows (`--shadow`, `--shadow-md`)
+- **Typography**: Font stack (`--font: system-ui, -apple-system, 'Segoe UI', sans-serif`)
 
-3. **No Build Step Required**: The CSS is authored as a single flat file (`style.css`) with no compilation, bundling, or post-processing. This aligns with the project's zero-build-step philosophy (also reflected in the vanilla JS app).
+Dark mode overrides approximately 12 of these tokens with darker values, maintaining consistent contrast ratios.
 
-4. **BEM-Inspired Naming Convention**: Class names follow a modified BEM pattern with double underscores for elements (e.g., `.news-card__title`, `.job-card__header`). This provides clear scoping without requiring a CSS-in-JS or module system.
+### Theme Toggle Implementation
 
-5. **Responsive Strategy**: A single mobile breakpoint at `600px` collapses the header layout, card grid to single column, and filter bar to vertical stacking. The card grid uses `auto-fill` with `minmax(340px, 1fr)` for fluid responsiveness above that threshold.
+Theme switching is handled via JavaScript that:
+1. Reads saved preference from `localStorage.getItem('theme')`
+2. Sets `data-theme` attribute on the `<html>` element
+3. Toggles emoji icon (🌙/☀️) on the button
+4. Persists user choice back to `localStorage`
 
-## Key Files
+The CSS transitions on `background` and `color` properties (`.2s` duration) provide smooth theme switching.
 
-- **`docs/assets/style.css`** — The sole stylesheet (~260 lines). Contains:
-  - CSS reset (box-sizing, margin/padding zeroing)
-  - `:root` design token definitions (light theme defaults)
-  - `[data-theme="dark"]` override block (dark theme tokens)
-  - Component styles organized by section comments: Header, Tabs, Filters, Card Grid, News Card, Job Card, Pagination, Empty/Error States, Footer, Responsive
-- **`docs/index.html`** — Static HTML structure referencing `style.css` and `app.js`. Uses semantic HTML5 elements (`<header>`, `<nav>`, `<section>`, `<article>`, `<footer>`) with ARIA roles for accessibility.
-- **`docs/assets/app.js`** — Vanilla JavaScript handling theme toggle persistence, tab switching, data fetching, filtering, pagination, and dynamic card rendering. The JS generates HTML strings injected into the DOM; no client-side templating engine is used.
+### Component Styling Patterns
 
-## Architecture & Conventions
+Components follow a **BEM-like naming convention** with double underscores for elements:
+- `.news-card`, `.news-card__title`, `.news-card__summary`, `.news-card__meta`, `.news-card__tags`
+- `.job-card`, `.job-card__header`, `.job-card__title-block`, `.job-card__company`
+- `.site-header`, `.header-inner`, `.brand`, `.brand-icon`, `.brand-name`
+- `.tab-nav`, `.tab-btn`, `.tab-panel`
+- `.filters-bar`, `.filter-input`, `.filter-select`, `.btn-secondary`
+- `.pagination`, `.page-btn`
 
-### Design Token Structure
+Badge components use inline styles with theme-aware dark mode overrides:
+- `.source-badge`, `.location-badge`, `.salary-badge`, `.category-badge`, `.tag`
 
-The `:root` block defines these token categories:
+### Responsive Strategy
 
-| Category | Tokens | Purpose |
-|---|---|---|
-| **Surfaces** | `--bg`, `--surface`, `--surface-alt` | Background layers |
-| **Typography** | `--text`, `--text-muted`, `--font` | Text colors and font stack |
-| **Interactive** | `--accent`, `--accent-hover` | Primary action color |
-| **Semantic** | `--danger`, `--warn`, `--success` | Status indicators |
-| **UI Elements** | `--tag-bg`, `--tag-text`, `--border` | Badge and border colors |
-| **Metrics** | `--radius`, `--shadow`, `--shadow-md` | Spacing and elevation |
+A single mobile breakpoint at `600px` handles responsive behavior:
+- Header stacks vertically (`flex-direction: column`)
+- Card grid collapses to single column (`grid-template-columns: 1fr`)
+- Filters switch from horizontal flex to vertical stacking
+- Inputs expand to full width
 
-Dark mode overrides ~12 of these tokens while inheriting the rest (e.g., `--radius`, `--font` remain unchanged).
+The card grid uses CSS Grid with `auto-fill` and `minmax(340px, 1fr)` for fluid column counts on larger screens.
 
-### Component Patterns
+### Key Architectural Decisions
 
-- **Cards** (`.news-card`, `.job-card`): Flexbox column layout with hover effects (`box-shadow` increase + `translateY(-2px)`). Titles use `-webkit-line-clamp` for multi-line truncation.
-- **Badges** (`.source-badge`, `.location-badge`, `.salary-badge`, `.category-badge`, `.tag`): Inline-block elements with distinct color pairs per badge type. Each has its own light/dark color pair defined directly in the rule (not via tokens), which is a minor inconsistency.
-- **Filters Bar**: Flex-wrap layout with consistent input/select styling. Focus states highlight with `--accent` border color.
-- **Pagination**: Centered flex row with active page highlighted via `--accent` background.
+1. **Zero dependencies**: No CSS framework, no build tool, no preprocessor
+2. **Single stylesheet**: All styles in one file (`docs/assets/style.css`, 260 lines)
+3. **CSS-only transitions**: Smooth theme switching without JavaScript animation libraries
+4. **Semantic color tokens**: Named by purpose (not by color value) for maintainability
+5. **Inline badge styling**: Some badges use hardcoded hex values with explicit `[data-theme="dark"]` overrides rather than tokens
 
-### Accessibility Considerations
+### Developer Conventions
 
-- ARIA roles (`tablist`, `tab`, `tabpanel`, `list`, `listitem`, `alert`) are applied in HTML.
-- `aria-selected`, `aria-labelledby`, and `aria-live` attributes provide screen reader context.
-- Theme toggle button includes `aria-label` and `title`.
-- Color contrast ratios appear considered (e.g., dark mode uses lighter text on darker backgrounds).
+When extending the styling system:
 
-## Rules Developers Should Follow
+1. **Use existing CSS custom properties** for colors, spacing, and effects — do not hardcode hex values unless creating a new token
+2. **Follow BEM-like naming** for new components: `.component-name__element--modifier`
+3. **Add dark mode support** by adding `[data-theme="dark"]` rules for any component with hardcoded colors
+4. **Maintain the single-breakpoint approach** — add responsive rules inside the existing `@media (max-width: 600px)` block
+5. **Keep transitions lightweight** — use the existing `.15s` / `.2s` durations for consistency
+6. **Preserve accessibility** — ensure focus states, contrast ratios, and ARIA attributes remain intact when modifying components
+7. **No CSS preprocessing** — write plain CSS; there is no Sass/Less/Tailwind compilation pipeline
 
-1. **Add new design tokens to `:root`**, not inline styles. If a new color/spacing value is needed, define it as a CSS custom property first.
+### Files
 
-2. **Mirror dark mode overrides**: When adding a new token that should change in dark mode, add the corresponding override in the `[data-theme="dark"]` block.
-
-3. **Use existing badge patterns**: New badge types should follow the established pattern of separate light/dark color pairs defined directly in the selector (e.g., `.new-badge { background: #xxx; color: #yyy; } [data-theme="dark"] .new-badge { background: #aaa; color: #bbb; }`).
-
-4. **Maintain BEM-style naming**: Use `component__element` for nested elements within cards or sections. Avoid deep nesting in selectors.
-
-5. **Keep the single-breakpoint responsive strategy**: Additional breakpoints should only be added if there is clear evidence of layout issues at intermediate widths. The current approach prioritizes simplicity.
-
-6. **No external dependencies**: Do not introduce CSS frameworks, icon libraries, or font CDNs. The project intentionally avoids build tooling and external runtime dependencies.
-
-7. **Hover/transition consistency**: Interactive elements should use `transition` properties matching existing patterns (`.15s` for most interactions, `.2s` for body background/color transitions).
-
-8. **Card hover effects**: New card components should replicate the `box-shadow` + `transform: translateY(-2px)` hover pattern for visual consistency.
+- `docs/assets/style.css` — Complete stylesheet with design tokens, component styles, and responsive rules
+- `docs/assets/app.js` — Theme toggle logic (lines 71-84) and DOM manipulation
+- `docs/index.html` — HTML structure with `data-theme="light"` default on `<html>` element

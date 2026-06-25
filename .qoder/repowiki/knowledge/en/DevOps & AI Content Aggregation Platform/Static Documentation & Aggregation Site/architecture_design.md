@@ -1,0 +1,4 @@
+- Entry point is `docs/index.html`, which defines the layout for tabbed navigation (News/Jobs) and filter controls.
+- `docs/assets/app.js` acts as the sole controller, fetching data from `docs/data/*.json` via `fetch` and managing client-side state (filtering, pagination, theme).
+- Data layer consists of static JSON files (`jobs.json`, `news.json`, `meta.json`) served directly from the `docs/data/` directory, creating a decoupled data-consumption pattern where the frontend expects a specific schema (e.g., `items` array, `generated_at` metadata).
+- Styling is handled by `docs/assets/style.css`, with dynamic theme switching implemented via CSS variables and `data-theme` attributes on the root HTML element.

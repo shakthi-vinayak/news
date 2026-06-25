@@ -1,0 +1,1 @@
+A zero-dependency static site that renders news and job listings from local JSON data with client-side filtering, pagination, and theme support.

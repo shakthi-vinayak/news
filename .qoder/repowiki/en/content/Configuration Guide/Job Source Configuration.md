@@ -18,6 +18,13 @@
 - [Dockerfile](file://worker/Dockerfile)
 </cite>
 
+## Update Summary
+**Changes Made**
+- Updated job keyword filtering section to reflect expanded FinOps and Kafka-related terms
+- Added documentation for new engineering role titles including automation engineer, release engineer, production engineer, systems engineer, and reliability engineer
+- Enhanced keyword filtering system documentation with comprehensive coverage of all new terms
+- Updated configuration examples to show the expanded keyword list
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
@@ -32,6 +39,8 @@
 
 ## Introduction
 This document explains how to configure and operate job sources in the DevOps & AI Hub system. It focuses on job-specific keyword filtering, configuring each job source (RemoteOK, Remotive, WeWorkRemotely RSS, Arbeitnow, HN Who's Hiring, Greenhouse, Lever), adding new job boards, optimizing job posting detection, and customizing filtering criteria. The system is designed to be configurable without code changes—most adjustments are made in a central YAML configuration file.
+
+**Updated** Enhanced with expanded keyword filtering system covering FinOps, Kafka, and specialized engineering roles including automation engineers, release engineers, production engineers, systems engineers, and reliability engineers.
 
 ## Project Structure
 The job collection pipeline is orchestrated from a single entry point and driven by a configuration file. Each job source is implemented as a small collector module that adheres to a consistent interface and data model.
@@ -110,7 +119,7 @@ DB-->>Orchestrator : Insert/Update result
 ## Detailed Component Analysis
 
 ### RemoteOK
-- Purpose: Fetches remote jobs from RemoteOK’s public API.
+- Purpose: Fetches remote jobs from RemoteOK's public API.
 - Configuration:
   - jobs.remoteok.enabled: toggle
   - jobs.remoteok.tags: list of tag filters applied to job tags and title/company
@@ -127,11 +136,11 @@ Implementation highlights:
 - Timestamp conversion: [remoteok.py:23-29](file://worker/collectors/jobs/remoteok.py#L23-L29)
 
 **Section sources**
-- [config.yaml:184-192](file://worker/config.yaml#L184-L192)
+- [config.yaml:204-210](file://worker/config.yaml#L204-L210)
 - [remoteok.py:32-82](file://worker/collectors/jobs/remoteok.py#L32-L82)
 
 ### Remotive
-- Purpose: Pulls remote jobs from Remotive’s public API by category.
+- Purpose: Pulls remote jobs from Remotive's public API by category.
 - Configuration:
   - jobs.remotive.enabled: toggle
   - jobs.remotive.categories: list of category slugs
@@ -146,7 +155,7 @@ Implementation highlights:
 - Batch dedup: [remotive.py:49-53](file://worker/collectors/jobs/remotive.py#L49-L53)
 
 **Section sources**
-- [config.yaml:193-198](file://worker/config.yaml#L193-L198)
+- [config.yaml:212-217](file://worker/config.yaml#L212-L217)
 - [remotive.py:21-73](file://worker/collectors/jobs/remotive.py#L21-L73)
 
 ### WeWorkRemotely RSS
@@ -166,11 +175,11 @@ Implementation highlights:
 - Date parsing: [weworkremotely_rss.py:54-64](file://worker/collectors/jobs/weworkremotely_rss.py#L54-L64)
 
 **Section sources**
-- [config.yaml:199-202](file://worker/config.yaml#L199-L202)
+- [config.yaml:218-221](file://worker/config.yaml#L218-L221)
 - [weworkremotely_rss.py:22-84](file://worker/collectors/jobs/weworkremotely_rss.py#L22-L84)
 
 ### Arbeitnow
-- Purpose: Fetches jobs from Arbeitnow’s public API.
+- Purpose: Fetches jobs from Arbeitnow's public API.
 - Configuration:
   - jobs.arbeitnow.enabled: toggle
   - jobs.arbeitnow.tags: list of tag filters
@@ -183,11 +192,11 @@ Implementation highlights:
 - Remote flag handling: [arbeitnow.py:55](file://worker/collectors/jobs/arbeitnow.py#L55)
 
 **Section sources**
-- [config.yaml:204-210](file://worker/config.yaml#L204-L210)
+- [config.yaml:223-229](file://worker/config.yaml#L223-L229)
 - [arbeitnow.py:21-73](file://worker/collectors/jobs/arbeitnow.py#L21-L73)
 
-### HN “Who is Hiring”
-- Purpose: Parses the latest Ask HN “Who is Hiring” thread and extracts job postings from comments.
+### HN "Who is Hiring"
+- Purpose: Parses the latest Ask HN "Who is Hiring" thread and extracts job postings from comments.
 - Configuration:
   - jobs.hn_whoishiring.enabled: toggle
   - jobs.hn_whoishiring.keywords: list of terms used to filter comment text
@@ -201,7 +210,7 @@ Implementation highlights:
 - Extraction heuristic: [hn_whoishiring.py:39-52](file://worker/collectors/jobs/hn_whoishiring.py#L39-L52)
 
 **Section sources**
-- [config.yaml:211-219](file://worker/config.yaml#L211-L219)
+- [config.yaml:230-238](file://worker/config.yaml#L230-L238)
 - [hn_whoishiring.py:55-111](file://worker/collectors/jobs/hn_whoishiring.py#L55-L111)
 
 ### Greenhouse
@@ -220,7 +229,7 @@ Implementation highlights:
 - Slug-to-company formatting: [greenhouse.py:61](file://worker/collectors/jobs/greenhouse.py#L61)
 
 **Section sources**
-- [config.yaml:221-233](file://worker/config.yaml#L221-L233)
+- [config.yaml:240-250](file://worker/config.yaml#L240-L250)
 - [greenhouse.py:22-76](file://worker/collectors/jobs/greenhouse.py#L22-L76)
 
 ### Lever
@@ -239,14 +248,16 @@ Implementation highlights:
 - Location handling: [lever.py:52-53](file://worker/collectors/jobs/lever.py#L52-L53)
 
 **Section sources**
-- [config.yaml:234-244](file://worker/config.yaml#L234-L244)
+- [config.yaml:252-261](file://worker/config.yaml#L252-L261)
 - [lever.py:22-84](file://worker/collectors/jobs/lever.py#L22-L84)
 
 ### Keyword Filtering and Pre-processing
-- Global job keyword filter: [config.yaml:172-182](file://worker/config.yaml#L172-L182)
-- Per-source keyword injection: [main.py:204](file://worker/main.py#L204)
+- Global job keyword filter: [config.yaml:170-201](file://worker/config.yaml#L170-L201)
+- Per-source keyword injection: [main.py:227-228](file://worker/main.py#L227-L228)
 - Keyword pre-filter logic: [dedupe.py:80-89](file://worker/scoring/dedupe.py#L80-L89)
 - In-batch fuzzy deduplication: [dedupe.py:48-76](file://worker/scoring/dedupe.py#L48-L76)
+
+**Updated** The keyword filtering system has been significantly expanded to cover FinOps, Kafka, and specialized engineering roles. The expanded keyword list now includes FinOps ('finops'), Kafka ('kafka'), automation engineers ('automation engineer'), release engineers ('release engineer'), production engineers ('production engineer'), systems engineers ('systems engineer'), reliability engineers ('reliability engineer'), DevSecOps ('devsecops'), and containers ('containers').
 
 ```mermaid
 flowchart TD
@@ -264,8 +275,8 @@ Upsert --> End(["Done"])
 - [dedupe.py:80-89](file://worker/scoring/dedupe.py#L80-L89)
 
 **Section sources**
-- [config.yaml:172-182](file://worker/config.yaml#L172-L182)
-- [main.py:202-227](file://worker/main.py#L202-L227)
+- [config.yaml:170-201](file://worker/config.yaml#L170-L201)
+- [main.py:227-228](file://worker/main.py#L227-L228)
 - [dedupe.py:48-76](file://worker/scoring/dedupe.py#L48-L76)
 - [dedupe.py:80-89](file://worker/scoring/dedupe.py#L80-L89)
 
@@ -319,8 +330,6 @@ Recommendations:
 - Adjust the fuzzy threshold if duplicates are being missed or overly filtered.
 - Monitor collector timeouts and retry logic during network issues.
 
-[No sources needed since this section provides general guidance]
-
 ## Troubleshooting Guide
 Common issues and resolutions:
 - Missing or invalid credentials: Not applicable for public APIs; ensure network connectivity.
@@ -344,7 +353,7 @@ Operational controls:
 ## Conclusion
 The DevOps & AI Hub job collection system is highly configurable and extensible. By editing the jobs section in the configuration file, you can enable/disable sources, adjust keyword filters, and add new company boards without changing code. The pipeline ensures robust filtering, deduplication, and persistence, while supporting optional publishing and notifications.
 
-[No sources needed since this section summarizes without analyzing specific files]
+**Updated** The enhanced keyword filtering system now comprehensively covers FinOps, Kafka, and specialized engineering roles, making it easier to discover relevant job postings across diverse technology domains.
 
 ## Appendices
 
@@ -353,7 +362,7 @@ Steps:
 1. Add a new collector module under workers/collectors/jobs/<newboard>.py implementing collect(cfg).
 2. Import the module in main.py and add it to the jobs collection block.
 3. Configure the new board in config.yaml under jobs.<newboard> with appropriate parameters (e.g., boards, feed_url, tags).
-4. Optionally add the board’s slug to the job-level keywords list for pre-filtering.
+4. Optionally add the board's slug to the job-level keywords list for pre-filtering.
 
 Reference points:
 - Collector interface and ID generation: [dedupe.py:26-29](file://worker/scoring/dedupe.py#L26-L29)
@@ -370,17 +379,19 @@ Reference points:
 - Keyword pre-filter: Add relevant terms to jobs.keywords to gate posts early.
 
 **Section sources**
-- [config.yaml:221-233](file://worker/config.yaml#L221-L233)
-- [config.yaml:234-244](file://worker/config.yaml#L234-L244)
-- [config.yaml:172-182](file://worker/config.yaml#L172-L182)
+- [config.yaml:240-250](file://worker/config.yaml#L240-L250)
+- [config.yaml:252-261](file://worker/config.yaml#L252-L261)
+- [config.yaml:170-201](file://worker/config.yaml#L170-L201)
 
 ### Optimizing Job Posting Detection
 - Refine jobs.keywords to include domain-specific terms (e.g., roles, tools, platforms).
 - Adjust fuzzy dedup threshold if needed to balance recall vs. precision.
 - Monitor collector logs for repeated failures and update endpoints or parameters accordingly.
 
+**Updated** The expanded keyword list now includes specialized engineering roles and modern technologies, improving job posting detection for FinOps professionals, Kafka developers, and various engineering specializations.
+
 **Section sources**
-- [config.yaml:172-182](file://worker/config.yaml#L172-L182)
+- [config.yaml:170-201](file://worker/config.yaml#L170-L201)
 - [dedupe.py:16](file://worker/scoring/dedupe.py#L16)
 
 ### Managing Job Board Integrations
@@ -389,12 +400,41 @@ Reference points:
 - Use Docker Compose to run the worker on a schedule and mount persistent volumes for DB and exported JSON.
 
 **Section sources**
-- [config.yaml:184-192](file://worker/config.yaml#L184-L192)
-- [config.yaml:193-198](file://worker/config.yaml#L193-L198)
-- [config.yaml:199-202](file://worker/config.yaml#L199-L202)
 - [config.yaml:204-210](file://worker/config.yaml#L204-L210)
-- [config.yaml:211-219](file://worker/config.yaml#L211-L219)
-- [config.yaml:221-233](file://worker/config.yaml#L221-L233)
-- [config.yaml:234-244](file://worker/config.yaml#L234-L244)
+- [config.yaml:212-217](file://worker/config.yaml#L212-L217)
+- [config.yaml:218-221](file://worker/config.yaml#L218-L221)
+- [config.yaml:223-229](file://worker/config.yaml#L223-L229)
+- [config.yaml:230-238](file://worker/config.yaml#L230-L238)
+- [config.yaml:240-250](file://worker/config.yaml#L240-L250)
+- [config.yaml:252-261](file://worker/config.yaml#L252-L261)
 - [docker-compose.yml:13-47](file://docker-compose.yml#L13-L47)
 - [Dockerfile:1-24](file://worker/Dockerfile#L1-L24)
+
+### Expanded Keyword Filtering System
+The job keyword filtering system has been enhanced with comprehensive coverage of FinOps, Kafka, and specialized engineering roles:
+
+**FinOps and Financial Operations:**
+- finops: Financial operations and financial technology roles
+
+**Kafka and Event Streaming:**
+- kafka: Apache Kafka, event streaming, message brokers, distributed systems
+
+**Engineering Specializations:**
+- automation engineer: CI/CD automation, deployment automation, infrastructure automation
+- release engineer: Release management, deployment pipelines, version control
+- production engineer: Production systems, operational excellence, system reliability
+- systems engineer: Systems architecture, system integration, enterprise systems
+- reliability engineer: System reliability, fault tolerance, resilience engineering
+- devsecops: Development security operations, security integration, compliance automation
+- containers: Containerization, Docker, Kubernetes, container orchestration
+
+**Enhanced Coverage Areas:**
+- Cloud engineering and platform engineering roles
+- Infrastructure as code and workflow automation specialists
+- Site reliability engineering and platform engineering positions
+- MLOps and AI/ML operations roles
+- Traditional DevOps and SRE positions
+
+**Section sources**
+- [config.yaml:170-201](file://worker/config.yaml#L170-L201)
+- [dedupe.py:80-89](file://worker/scoring/dedupe.py#L80-L89)

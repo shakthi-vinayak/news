@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: configuration_system
+title: 'Two-Layer Configuration System: YAML for Application Settings, Environment Variables for Secrets'
+scope: []
+source_files:
+    - worker/config.yaml
+    - .env.example
+    - worker/main.py
+    - docker-compose.yml
+    - worker/scoring/llm_relevance.py
+    - worker/notify/smtp_alert.py
+depends_on: []
+related_to: []

@@ -1,0 +1,3 @@
+- Collectors implement a standard `collect(cfg: dict) -> list[dict]` interface, returning normalized dictionaries with consistent keys like `title`, `url`, and `source`.
+- Deterministic SHA-256 hashing of source-specific keys (URL, title, company) is used to generate stable IDs for news and job items to facilitate deduplication.
+- Graceful degradation is applied during collection; individual source failures are caught, logged, and recorded in `source_health` without aborting the entire pipeline run.

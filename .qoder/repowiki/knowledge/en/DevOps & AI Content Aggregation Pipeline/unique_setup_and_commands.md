@@ -1,0 +1,2 @@
+- **Secrets Management**: Requires `OPENROUTER_API_KEY` and optional `GH_PAT` via environment variables or `.env` file; validated at startup by `_check_secrets()`.
+- **Execution Modes**: Supports `DRY_RUN=true` to skip git publishing. Can be run locally via `docker compose up --build worker` or scheduled via GitHub Actions (`.github/workflows/worker-schedule.yml`).

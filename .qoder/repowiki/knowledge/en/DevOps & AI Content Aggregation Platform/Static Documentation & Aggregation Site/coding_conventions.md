@@ -1,0 +1,4 @@
+- Uses a centralized `state` object to manage filtered and unfiltered datasets for both news and jobs, enabling consistent reset and filter operations.
+- Implements debounced input handling (200ms) for search fields to reduce redundant rendering during typing.
+- Applies HTML escaping via a dedicated `esc()` helper to all dynamic content inserted into the DOM to prevent XSS vulnerabilities.
+- Follows a consistent 'load-init-apply-render' lifecycle for each data module (news/jobs), separating data fetching, filter initialization, and DOM updates.

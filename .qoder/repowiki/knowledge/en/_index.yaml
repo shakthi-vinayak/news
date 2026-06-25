@@ -3,7 +3,7 @@ schema_version: 1
 locale: en-US
 branch: main
 nodes_managed: true
-exported_at: "2026-06-23T06:46:36Z"
+exported_at: "2026-06-24T11:51:10Z"
 modules:
     "":
         dir_name: DevOps & AI Content Aggregation Pipeline
@@ -31,15 +31,16 @@ modules:
         depends_on: []
         related_to: []
     configuration_system:
-        dir_name: Two-Layer Configuration YAML for Settings, Env Vars for Secrets
-        title: 'Two-Layer Configuration: YAML for Settings, Env Vars for Secrets'
+        dir_name: Two-Layer Configuration System YAML for Application Settings, Environment Variab
+        title: 'Two-Layer Configuration System: YAML for Application Settings, Environment Variables for Secrets'
         scope: []
         source_files:
             - worker/config.yaml
             - .env.example
             - worker/main.py
             - docker-compose.yml
-            - .qoder/repowiki/knowledge/en/Two-Layer Configuration System YAML for Application Settings, Environment Variab/configuration_system.md
+            - worker/scoring/llm_relevance.py
+            - worker/notify/smtp_alert.py
         children: []
         depends_on: []
         related_to: []
@@ -66,15 +67,16 @@ modules:
         related_to:
             - path: worker
     error_handling:
-        dir_name: Logging-Based Resilience with Graceful Degradation
-        title: Logging-Based Resilience with Graceful Degradation
+        dir_name: Error Handling — Logging-Based Resilience with Graceful Degradation
+        title: Error Handling — Logging-Based Resilience with Graceful Degradation
         scope: []
         source_files:
             - worker/main.py
             - worker/storage/db.py
             - worker/scoring/llm_relevance.py
-            - worker/collectors/news/devto.py
+            - worker/notify/smtp_alert.py
             - worker/collectors/jobs/remoteok.py
+            - worker/collectors/news/hn_algolia.py
         children: []
         depends_on: []
         related_to: []
@@ -84,8 +86,8 @@ modules:
         scope: []
         source_files:
             - docs/assets/style.css
-            - docs/index.html
             - docs/assets/app.js
+            - docs/index.html
         children: []
         depends_on: []
         related_to: []
@@ -102,8 +104,8 @@ modules:
         depends_on: []
         related_to: []
     worker:
-        dir_name: DevOps Content Aggregation & Scoring Pipeline
-        title: DevOps Content Aggregation & Scoring Pipeline
+        dir_name: DevOps News & Job Aggregation Pipeline
+        title: DevOps News & Job Aggregation Pipeline
         scope:
             - worker/
         source_files: []

@@ -14,6 +14,14 @@
 - [news.json](file://docs/data/news.json)
 </cite>
 
+## Update Summary
+**Changes Made**
+- Enhanced retention system with separate news and jobs retention periods
+- Improved export process with JSON merging and expiration logic
+- Added sophisticated data lifecycle management with first_seen_at timestamps
+- Expanded configuration options for retention policies
+- Enhanced data validation and integrity checks
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
@@ -27,12 +35,12 @@
 10. [Appendices](#appendices)
 
 ## Introduction
-This document describes the data management system that powers the DevOps & AI Hub. It covers the SQLite database schema, CRUD operations, transactions, and data lifecycle management. It also documents the static JSON export process, file generation patterns, and frontend consumption of the exported data. Practical guidance is included for database maintenance, backups, performance tuning, validation, integrity checks, migrations, scaling, restoration, and monitoring data health.
+This document describes the data management system that powers the DevOps & AI Hub. It covers the SQLite database schema, CRUD operations, transactions, and data lifecycle management. The system now features an enhanced retention system with separate policies for news and jobs, improved export processes that merge existing data with new collections, and sophisticated data lifecycle management. It also documents the static JSON export process, file generation patterns, and frontend consumption of the exported data. Practical guidance is included for database maintenance, backups, performance tuning, validation, integrity checks, migrations, scaling, restoration, and monitoring data health.
 
 ## Project Structure
 The data management stack is organized around a worker that orchestrates collection, processing, persistence, and export. The key areas are:
 - Storage: SQLite schema, connection helpers, CRUD, and run logging
-- Export: Static JSON generation for news and jobs
+- Export: Static JSON generation with intelligent merging and retention for news and jobs
 - Orchestration: End-to-end pipeline that wires collection, scoring, persistence, and export
 - Configuration: Tunable parameters for retention, LLM behavior, and source enablement
 - Packaging and deployment: Containerization and orchestration for repeatable runs
@@ -45,7 +53,7 @@ subgraph "Worker"
 MAIN["main.py<br/>orchestrator"]
 CFG["config.yaml<br/>runtime config"]
 ST_DB["storage/db.py<br/>schema + CRUD + tx"]
-ST_EXP["storage/export_json.py<br/>static JSON export"]
+ST_EXP["storage/export_json.py<br/>enhanced JSON export + merge"]
 end
 subgraph "Runtime"
 SQLITE["SQLite: app.db"]
@@ -72,7 +80,7 @@ HTML --> DOCS
 ```
 
 **Diagram sources**
-- [main.py:127-297](file://worker/main.py#L127-L297)
+- [main.py:147-297](file://worker/main.py#L147-L297)
 - [db.py:21-84](file://worker/storage/db.py#L21-L84)
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [config.yaml:1-244](file://worker/config.yaml#L1-L244)
@@ -82,7 +90,7 @@ HTML --> DOCS
 - [index.html:1-86](file://docs/index.html#L1-L86)
 
 **Section sources**
-- [main.py:127-297](file://worker/main.py#L127-L297)
+- [main.py:147-297](file://worker/main.py#L147-L297)
 - [db.py:21-84](file://worker/storage/db.py#L21-L84)
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [config.yaml:1-244](file://worker/config.yaml#L1-L244)
@@ -94,26 +102,26 @@ HTML --> DOCS
 ## Core Components
 - SQLite schema and connection helpers define the persistent store and provide CRUD operations for news and jobs, plus a run log table for operational visibility.
 - Transaction support ensures atomicity across bulk inserts.
-- Static JSON export reads from SQLite and writes three files consumed by the frontend.
+- Enhanced static JSON export reads from SQLite, merges with existing JSON files, applies retention policies, and writes three files consumed by the frontend.
 - The orchestrator coordinates the full pipeline: collect, deduplicate, score, persist, export, publish, and optional notifications.
-- Configuration controls retention windows, LLM behavior, and source enablement.
+- Configuration controls retention windows, LLM behavior, and source enablement with separate policies for news (7 days) and jobs (60 days).
 - Deployment uses Docker to run the worker and mount volumes for persistent SQLite and exported JSON.
 
 **Section sources**
 - [db.py:21-84](file://worker/storage/db.py#L21-L84)
 - [db.py:87-95](file://worker/storage/db.py#L87-L95)
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
-- [main.py:127-297](file://worker/main.py#L127-L297)
-- [config.yaml:6-76](file://worker/config.yaml#L6-L76)
+- [main.py:147-297](file://worker/main.py#L147-L297)
+- [config.yaml:6-7](file://worker/config.yaml#L6-L7)
 - [docker-compose.yml:24-28](file://docker-compose.yml#L24-L28)
 
 ## Architecture Overview
-The system follows a pipeline pattern:
+The system follows an enhanced pipeline pattern with intelligent data lifecycle management:
 - Collection: Multiple sources contribute raw items.
 - Deduplication and filtering: Items are deduplicated and filtered by keyword pre-gate.
 - Scoring: Relevance scores are computed via LLM batch calls.
 - Persistence: Upsert operations maintain a rolling window defined by retention.
-- Export: Static JSON files are generated for consumption by the frontend.
+- Export: Static JSON files are generated by merging new data with existing files, applying retention policies, and writing to docs/data/.
 - Publication: Optionally commits and pushes updated JSON to a repository.
 - Monitoring: Run logs capture start/end times, counts, and errors.
 
@@ -128,15 +136,17 @@ SRC->>ORCH : "raw news + jobs"
 ORCH->>ORCH : "dedupe + keyword filter"
 ORCH->>ORCH : "LLM scoring (batch)"
 ORCH->>DB : "persist items (transaction)"
-ORCH->>EXP : "export_all(conn, retention_days, source_health)"
+ORCH->>EXP : "export_all(conn, retention_days, jobs_retention_days, source_health)"
 EXP->>DB : "read news/jobs (with retention)"
+EXP->>FS : "read existing JSON files"
+EXP->>EXP : "merge + apply retention policies"
 EXP->>FS : "write news.json, jobs.json, meta.json"
 ORCH->>ORCH : "finish run log"
 ORCH->>ORCH : "publish (optional)"
 ```
 
 **Diagram sources**
-- [main.py:147-277](file://worker/main.py#L147-L277)
+- [main.py:147-297](file://worker/main.py#L147-L297)
 - [db.py:116-242](file://worker/storage/db.py#L116-L242)
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 
@@ -146,7 +156,7 @@ ORCH->>ORCH : "publish (optional)"
 The schema defines three primary tables and supporting indexes:
 - news: stores article metadata, timestamps, summary, tags, and relevance score
 - jobs: stores job metadata, timestamps, category, salary range, and relevance score
-- run_log: tracks each run’s lifecycle, counts, and errors
+- run_log: tracks each run's lifecycle, counts, and errors
 
 Key characteristics:
 - Primary keys are text identifiers
@@ -226,24 +236,34 @@ Insert --> Done2(["Return True"])
 - [db.py:71-113](file://worker/storage/db.py#L71-L113)
 - [db.py:116-242](file://worker/storage/db.py#L116-L242)
 
-### Static JSON Export System
-The export process:
-- Reads news and jobs from SQLite using retention-based queries
+### Enhanced Static JSON Export System
+The export process now features intelligent merging and retention:
+- Reads news and jobs from SQLite using retention-based queries with separate policies
+- Merges new items with existing JSON files, giving precedence to newer items
+- Applies sophisticated retention logic using first_seen_at timestamps
 - Normalizes tags to lists and strips internal fields
 - Writes three files:
-  - news.json: top-level generated_at and items array
-  - jobs.json: top-level generated_at and items array
+  - news.json: top-level generated_at and merged items array
+  - jobs.json: top-level generated_at and merged items array  
   - meta.json: counts, generated_at, and source_health snapshot
 - Uses UTC timestamp formatting for generated_at
+
+**Updated** Enhanced with intelligent merging that preserves historical data while applying retention policies
 
 ```mermaid
 flowchart TD
 EStart(["export_all(conn)"]) --> QNews["Query news (retention_days)"]
-QNews --> NormalizeN["Normalize tags to list<br/>drop internal timestamps"]
-NormalizeN --> WriteN["Write news.json"]
-WriteN --> QJobs["Query jobs (retention_days)"]
-QJobs --> NormalizeJ["Drop internal timestamps"]
-NormalizeJ --> WriteJ["Write jobs.json"]
+QNews --> CleanN["Clean items (remove internal fields)"]
+CleanN --> ReadN["Read existing news.json"]
+ReadN --> MergeN["Merge existing + fresh (newer wins)"]
+MergeN --> ExpN["Apply retention (first_seen_at)"]
+ExpN --> WriteN["Write news.json"]
+WriteN --> QJobs["Query jobs (jobs_retention_days)"]
+QJobs --> CleanJ["Clean items (remove internal fields)"]
+CleanJ --> ReadJ["Read existing jobs.json"]
+ReadJ --> MergeJ["Merge existing + fresh (newer wins)"]
+MergeJ --> ExpJ["Apply retention (first_seen_at)"]
+ExpJ --> WriteJ["Write jobs.json"]
 WriteJ --> Meta["Build meta.json<br/>{generated_at, counts, source_health}"]
 Meta --> WriteMeta["Write meta.json"]
 WriteMeta --> EEnd(["Return counts"])
@@ -257,11 +277,15 @@ WriteMeta --> EEnd(["Return counts"])
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [db.py:163-242](file://worker/storage/db.py#L163-L242)
 
-### Data Lifecycle Management
-- Retention policy: configured via retention_days; exports and queries filter items older than the retention window
+### Enhanced Data Lifecycle Management
+- Dual retention policy: configured via retention_days (7 days for news) and jobs_retention_days (60 days for jobs); exports and queries filter items older than the respective retention windows
+- Intelligent merging: existing JSON files are read and merged with new data, preserving historical items while applying retention logic
+- Sophisticated expiration: uses first_seen_at timestamps (when items were first collected) rather than publication dates, ensuring jobs remain in the dataset even after long posting periods
 - Run logging: start_run and finish_run track run lifecycle, counts, and errors
 - Data freshness: meta.json includes generated_at; frontend displays last-updated and can warn on staleness
 - Operational cadence: orchestrated by external scheduler (cron or sidecar); container restart disabled to ensure one-shot runs
+
+**Updated** Enhanced with dual retention policies and intelligent data merging
 
 ```mermaid
 stateDiagram-v2
@@ -275,18 +299,20 @@ CollectJobs --> DedupeJobs
 DedupeJobs --> ScoreJobs
 ScoreJobs --> PersistJobs
 PersistJobs --> ExportJSON
-ExportJSON --> FinishRun
+ExportJSON --> MergeExisting["Merge with existing JSON"]
+MergeExisting --> ApplyRetention["Apply retention policies"]
+ApplyRetention --> FinishRun
 FinishRun --> Publish
 Publish --> [*]
 ```
 
 **Diagram sources**
-- [main.py:127-297](file://worker/main.py#L127-L297)
+- [main.py:147-297](file://worker/main.py#L147-L297)
 - [db.py:246-278](file://worker/storage/db.py#L246-L278)
 
 **Section sources**
 - [config.yaml:6-7](file://worker/config.yaml#L6-L7)
-- [main.py:127-297](file://worker/main.py#L127-L297)
+- [main.py:147-297](file://worker/main.py#L147-L297)
 - [db.py:246-278](file://worker/storage/db.py#L246-L278)
 - [index.html:17-23](file://docs/index.html#L17-L23)
 
@@ -320,8 +346,8 @@ HTML->>Browser : "Display UI with live stats"
 - [news.json:1-5](file://docs/data/news.json#L1-L5)
 
 ## Dependency Analysis
-- Orchestrator depends on storage modules for DB operations and export
-- Export depends on DB read helpers
+- Orchestrator depends on storage modules for DB operations and enhanced export
+- Export depends on DB read helpers and existing JSON files
 - Tests depend on docs/data/* for validation
 - Frontend depends on docs/data/* for rendering
 - Deployment mounts volumes for persistent SQLite and exported JSON
@@ -360,18 +386,20 @@ DC["docker-compose.yml"] --> VOLS["Volumes: ./worker/db, ./docs/data"]
 - Batch operations:
   - LLM scoring uses configurable batch_size to reduce API overhead
   - Keyword pre-filter reduces unnecessary LLM calls
-- Export efficiency:
+- Enhanced export efficiency:
   - Queries restrict to retention window
+  - Intelligent merging minimizes redundant processing
   - Minimal post-processing during export
 - Containerization:
   - Persistent volume for SQLite avoids rebuild costs
   - Non-root user and minimal base image for security and portability
 
 Recommendations:
-- Monitor SQLite size growth and tune retention_days accordingly
+- Monitor SQLite size growth and tune retention_days and jobs_retention_days accordingly
 - Consider vacuuming periodically if fragmentation becomes apparent
 - Adjust batch_size and pre-filter keywords to balance quality vs. cost
 - Use external scheduling (cron or sidecar) to align with workload patterns
+- Monitor export performance as merging increases computational overhead
 
 **Section sources**
 - [db.py:22-25](file://worker/storage/db.py#L22-L25)
@@ -385,23 +413,31 @@ Common issues and remedies:
 - Missing or invalid JSON:
   - Validate with tests to ensure required keys and types
   - Confirm export succeeded and files exist in docs/data/
+  - Check for merge conflicts in existing JSON files
 - Stale data:
   - Verify generated_at timestamps in meta.json
   - Check scheduler cadence and container logs
+  - Monitor retention policy effectiveness
 - Export failures:
   - Inspect run logs captured in run_log
   - Review errors recorded during run finish
+  - Check for JSON parsing errors in existing files
 - Database connectivity:
   - Ensure DB path exists and is writable
   - Confirm WAL mode and indexes are present after init
 - Frontend rendering problems:
   - Confirm JSON files are served and accessible
   - Check browser console for network errors
+- Retention issues:
+  - Verify retention_days and jobs_retention_days configuration
+  - Check first_seen_at timestamps in database
+  - Monitor expiration logs during export
 
 Operational checks:
 - Run validation suite to assert schema compliance
 - Inspect run_log entries for errors and counts
-- Confirm retention_days aligns with expectations
+- Confirm retention_days and jobs_retention_days align with expectations
+- Monitor export performance and memory usage
 
 **Section sources**
 - [test_schema.py:28-136](file://tests/test_schema.py#L28-L136)
@@ -410,7 +446,7 @@ Operational checks:
 - [index.html:17-23](file://docs/index.html#L17-L23)
 
 ## Conclusion
-The system combines a compact SQLite schema with a robust export pipeline to deliver curated, static JSON datasets consumed by a lightweight frontend. Its design emphasizes simplicity, configurability, and operability through Docker and external scheduling. Adhering to the retention policy, validating exports, and monitoring run logs ensures reliable operation at scale.
+The system combines a compact SQLite schema with an enhanced export pipeline that intelligently merges new data with existing datasets while applying sophisticated retention policies. The dual retention system (7 days for news, 60 days for jobs) combined with intelligent merging ensures optimal data freshness while preserving historical context. Its design emphasizes simplicity, configurability, and operability through Docker and external scheduling. Adhering to the enhanced retention policy, validating exports, and monitoring run logs ensures reliable operation at scale.
 
 ## Appendices
 
@@ -424,6 +460,7 @@ The system combines a compact SQLite schema with a robust export pipeline to del
 - Integrity checks:
   - Use SQLite PRAGMAs and integrity checks in maintenance windows
   - Validate JSON exports post-restore
+  - Monitor retention policy effectiveness
 
 **Section sources**
 - [docker-compose.yml:24-28](file://docker-compose.yml#L24-L28)
@@ -436,6 +473,9 @@ The system combines a compact SQLite schema with a robust export pipeline to del
 - Data transformations:
   - Use a separate migration script to normalize historical data
   - Validate transformed data with tests before enabling
+- Retention policy updates:
+  - Monitor impact on existing datasets
+  - Consider gradual policy changes to avoid mass expiration
 
 **Section sources**
 - [db.py:22-66](file://worker/storage/db.py#L22-L66)
@@ -447,10 +487,14 @@ The system combines a compact SQLite schema with a robust export pipeline to del
   - Keep the worker single-shot to avoid contention
 - Throughput:
   - Increase batch_size cautiously and monitor LLM quotas
-  - Tune retention_days to balance dataset size and query performance
+  - Tune retention_days and jobs_retention_days to balance dataset size and query performance
+  - Monitor export performance as merging complexity increases
 - Distribution:
   - Run multiple workers behind a shared filesystem for export
   - Use a reverse proxy to serve docs/data statically
+- Memory usage:
+  - Monitor memory consumption during JSON merging operations
+  - Consider chunking large datasets if memory becomes constrained
 
 **Section sources**
 - [db.py:22-25](file://worker/storage/db.py#L22-L25)
@@ -462,9 +506,15 @@ The system combines a compact SQLite schema with a robust export pipeline to del
   - news_count and jobs_count in meta.json
   - source_health snapshots for each collector
   - run_log for duration, counts, and errors
+  - retention statistics and expiration logs
 - Alerts:
   - Configure staleness thresholds in the frontend
   - Set up external alerts on run errors and export failures
+  - Monitor retention policy effectiveness
+- Performance monitoring:
+  - Track export duration and memory usage
+  - Monitor SQLite database size growth
+  - Watch for JSON merge conflicts or parsing errors
 
 **Section sources**
 - [export_json.py:77-84](file://worker/storage/export_json.py#L77-L84)

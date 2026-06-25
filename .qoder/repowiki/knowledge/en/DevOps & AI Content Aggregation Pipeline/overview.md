@@ -1,0 +1,1 @@
+Automated ETL pipeline that collects, deduplicates, scores, and publishes DevOps/AI news and job listings to a static documentation site.

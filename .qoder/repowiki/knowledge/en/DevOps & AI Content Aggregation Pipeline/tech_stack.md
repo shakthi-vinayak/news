@@ -1,0 +1,1 @@
+Python 3.12 with `requests`/`httpx` for HTTP clients, `rapidfuzz` for fuzzy deduplication, `openai` for LLM relevance scoring via OpenRouter, and `gitpython` for automated content publishing.

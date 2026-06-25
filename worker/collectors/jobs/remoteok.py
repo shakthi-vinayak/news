@@ -37,6 +37,16 @@ def collect(cfg: dict[str, Any]) -> list[dict]:
     keywords  = cfg.get("tags", ["devops"])
     collected: list[dict] = []
 
+    # Title keywords for stricter filtering
+    DEVOPS_ROLE_KEYWORDS = {
+        "devops", "sre", "site reliability", "platform engineer", "cloud engineer",
+        "infrastructure", "kubernetes", "observability", "release engineer",
+        "production engineer", "systems engineer", "automation engineer",
+        "mlops", "llmops", "ci/cd", "cicd", "infrastructure engineer",
+        "reliability engineer", "platform operations", "cloud operations",
+        "devsecops", "security engineer",
+    }
+
     try:
         time.sleep(1)  # RemoteOK asks for 1s delay
         resp = requests.get(REMOTEOK_API, headers=HEADERS, timeout=20)
@@ -52,7 +62,12 @@ def collect(cfg: dict[str, Any]) -> list[dict]:
             if not title or not url:
                 continue
 
-            # Keyword relevance gate
+            # Stricter: job title must contain at least one DevOps role keyword
+            title_lower = title.lower()
+            if not any(kw in title_lower for kw in DEVOPS_ROLE_KEYWORDS):
+                continue
+
+            # Additional check: tags or description should also match
             searchable = " ".join([title, company, " ".join(job.get("tags") or [])]).lower()
             if keywords and not any(kw.lower() in searchable for kw in keywords):
                 continue
@@ -70,7 +85,7 @@ def collect(cfg: dict[str, Any]) -> list[dict]:
                 "source":          SOURCE_NAME,
                 "location":        location,
                 "posted_at":       posted_at,
-                "category":        "",
+                "category":        "",  # Will be assigned by local classifier
                 "relevance_score": 0.0,
                 "salary_range":    salary,
             })

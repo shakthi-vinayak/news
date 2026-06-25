@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: logging_system
+title: Python Standard Library Logging with Environment-Configured Levels
+scope: []
+source_files:
+    - worker/main.py
+    - worker/collectors/news/devto.py
+    - worker/scoring/llm_relevance.py
+    - .env.example
+depends_on: []
+related_to: []

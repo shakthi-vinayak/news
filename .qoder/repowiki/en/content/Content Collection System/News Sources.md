@@ -15,6 +15,15 @@
 - [requirements.txt](file://worker/requirements.txt)
 </cite>
 
+## Update Summary
+**Changes Made**
+- Updated Reddit section to reflect complete rewrite from JSON API to RSS feeds
+- Added new date parsing improvements with email.utils.parsedate_to_datetime
+- Enhanced error handling with bozo exception checking
+- Improved content extraction with HTML tag stripping
+- Updated configuration references to reflect new Reddit implementation
+- Revised troubleshooting guidance for Reddit RSS feed issues
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
@@ -31,7 +40,7 @@
 This document explains how the news collection sources are implemented and configured. It covers five distinct sources:
 - Hacker News via Algolia
 - Dev.to articles
-- Reddit posts
+- Reddit posts (RSS feeds)
 - RSS/Atom feeds
 - GitHub releases
 
@@ -65,14 +74,17 @@ E --> F
 ## Core Components
 - Hacker News (Algolia): Queries stories matching configured tags and filters by minimum points. Uses a stable ID generator and deduplication.
 - Dev.to: Fetches articles by tags with top timeframe filtering. Applies deduplication and transforms to normalized fields.
-- Reddit: Pulls hot posts from subreddits using the public JSON API with a configurable delay and a dedicated User-Agent header.
+- Reddit: **Updated** Pulls hot posts from subreddits using RSS feeds (.rss endpoint) via feedparser with improved date parsing and HTML content extraction.
 - RSS/Atom: Generic collector using feedparser with robust date parsing and per-feed caps.
 - GitHub Releases: Reads public Atom feeds for repositories with a small polite delay between requests.
 
 **Section sources**
 - [hn_algolia.py:21-82](file://worker/collectors/news/hn_algolia.py#L21-L82)
 - [devto.py:21-72](file://worker/collectors/news/devto.py#L21-L72)
-- [reddit.py:29-79](file://worker/collectors/news/reddit.py#L29-L79)
+- [reddit.py:19-20](file://worker/collectors/news/reddit.py#L19-L20)
+- [reddit.py:41-47](file://worker/collectors/news/reddit.py#L41-L47)
+- [reddit.py:51-71](file://worker/collectors/news/reddit.py#L51-L71)
+- [reddit.py:74-75](file://worker/collectors/news/reddit.py#L74-L75)
 - [rss_feeds.py:38-89](file://worker/collectors/news/rss_feeds.py#L38-L89)
 - [github_releases.py:23-86](file://worker/collectors/news/github_releases.py#L23-L86)
 
@@ -189,35 +201,41 @@ CallAPI --> |Exception| LogErr["log.error(tag)"] --> LoopTags
 - [devto.py:67-68](file://worker/collectors/news/devto.py#L67-L68)
 
 ### Reddit
-- Purpose: Fetch hot posts from subreddits via public JSON API.
-- Authentication: None; uses a dedicated User-Agent header.
-- Rate limits: Configurable delay between requests to avoid throttling.
+- Purpose: **Updated** Fetch hot posts from subreddits using RSS feeds (.rss endpoint) via feedparser.
+- Authentication: None; RSS feeds are public.
+- Rate limits: **Updated** No request delay required as RSS feeds are used instead of JSON API.
 - Data transformation:
-  - Builds item ID from URL/title/source.
-  - Converts created_utc to ISO timestamp.
-  - Self posts require non-empty selftext; otherwise skipped.
-- Error handling: Subreddit-scoped try/catch logs failures and continues.
+  - **Updated** Builds item ID from URL/title/source using feedparser entries.
+  - **Updated** Improved date parsing using email.utils.parsedate_to_datetime for better timezone handling.
+  - **Updated** Extracts short summaries by stripping HTML tags from content.
+  - **Updated** Uses Reddit RSS endpoint: https://www.reddit.com/r/{sub}/.rss
+- Error handling: **Updated** Enhanced with bozo exception checking and detailed error logging.
+- Reliability: **Updated** RSS-based approach is more reliable than JSON API which now blocks unauthenticated requests.
 
 ```mermaid
 flowchart TD
-Start(["collect(cfg)"]) --> ReadCfg["Read subreddits[], max_per_sub, delay"]
+Start(["collect(cfg)"]) --> ReadCfg["Read subreddits[], max_per_sub"]
 ReadCfg --> LoopSubs{"For each subreddit"}
-LoopSubs --> Sleep["time.sleep(delay)"]
-Sleep --> CallAPI["GET hot.json with limit"]
-CallAPI --> Parse["Parse children -> data"]
-Parse --> ForEach["For each post"]
-ForEach --> Validate["Validate title and url/selftext"]
-Validate --> MakeID["make_news_id(link,title,source)"]
+LoopSubs --> BuildURL["Build RSS URL: /r/{sub}.rss"]
+BuildURL --> CallRSS["feedparser.parse(url)"]
+CallRSS --> BozoCheck{"bozo and no entries?"}
+BozoCheck --> |Yes| LogWarn["log.warning() with bozo_exception"] --> NextSub["Next subreddit"]
+BozoCheck --> |No| ForEach["For each entry"]
+ForEach --> Validate["Validate title and link"]
+Validate --> DateParse["_parse_date() with parsedate_to_datetime"]
+DateParse --> ExtractSummary["Strip HTML tags from content"]
+ExtractSummary --> MakeID["make_news_id(link,title,'Reddit r/{sub}')"]
 MakeID --> Append["Append to collected"]
 Append --> Limit{"count >= max_per_sub?"}
-Limit --> |Yes| NextSub["Next subreddit"]
+Limit --> |Yes| NextSub
 Limit --> |No| ForEach
 NextSub --> LoopSubs
-CallAPI --> |Exception| LogErr["log.error(sub)"] --> LoopSubs
+CallRSS --> |Exception| LogErr["log.error()"] --> LoopSubs
 ```
 
 **Diagram sources**
-- [reddit.py:29-79](file://worker/collectors/news/reddit.py#L29-L79)
+- [reddit.py:41-95](file://worker/collectors/news/reddit.py#L41-L95)
+- [reddit.py:23-38](file://worker/collectors/news/reddit.py#L23-L38)
 - [dedupe.py:20-23](file://worker/scoring/dedupe.py#L20-L23)
 
 **Section sources**
@@ -310,6 +328,7 @@ Parse --> |Exception| LogErr["log.error(repo)"] --> ForRepo
 - Collector modules depend on:
   - requests for HTTP calls
   - feedparser for RSS/Atom parsing
+  - **Updated** email.utils.parsedate_to_datetime for improved date parsing
   - rapidfuzz for fuzzy deduplication
   - scoring.dedupe for stable IDs and dedup logic
 - The orchestrator depends on:
@@ -319,21 +338,22 @@ Parse --> |Exception| LogErr["log.error(repo)"] --> ForRepo
 ```mermaid
 graph LR
 Requests["requests"] --> Devto["devto.py"]
-Requests --> Reddit["reddit.py"]
 Requests --> HN["hn_algolia.py"]
 Feedparser["feedparser"] --> RSS["rss_feeds.py"]
 Feedparser --> GH["github_releases.py"]
+Feedparser --> Reddit["reddit.py"]
+EmailUtils["email.utils.parsedate_to_datetime"] --> Reddit
 Rapidfuzz["rapidfuzz"] --> Dedup["scoring.dedupe"]
 Dedup --> Devto
-Dedup --> Reddit
 Dedup --> HN
 Dedup --> RSS
 Dedup --> GH
+Dedup --> Reddit
 Main["main.py"] --> Devto
-Main --> Reddit
 Main --> HN
 Main --> RSS
 Main --> GH
+Main --> Reddit
 Main --> DB["storage.db"]
 Main --> Export["storage.export_json"]
 ```
@@ -341,10 +361,11 @@ Main --> Export["storage.export_json"]
 **Diagram sources**
 - [requirements.txt:1-11](file://worker/requirements.txt#L1-L11)
 - [devto.py:11](file://worker/collectors/news/devto.py#L11)
-- [reddit.py:13](file://worker/collectors/news/reddit.py#L13)
 - [hn_algolia.py:11](file://worker/collectors/news/hn_algolia.py#L11)
 - [rss_feeds.py:12](file://worker/collectors/news/rss_feeds.py#L12)
 - [github_releases.py:13](file://worker/collectors/news/github_releases.py#L13)
+- [reddit.py:11](file://worker/collectors/news/reddit.py#L11)
+- [reddit.py:9](file://worker/collectors/news/reddit.py#L9)
 - [dedupe.py:12](file://worker/scoring/dedupe.py#L12)
 - [main.py:42-48](file://worker/main.py#L42-L48)
 - [db.py:116-161](file://worker/storage/db.py#L116-L161)
@@ -357,7 +378,7 @@ Main --> Export["storage.export_json"]
 ## Performance Considerations
 - HTTP timeouts: All HTTP calls use a 15-second timeout to prevent stalls.
 - Request pacing:
-  - Reddit: Configurable delay between requests to reduce throttling risk.
+  - **Updated** Reddit: No delay required as RSS feeds are used instead of JSON API.
   - GitHub Releases: Fixed delay between requests to be respectful to the API.
 - Batch limits:
   - Dev.to: per_page capped to 30; HN Algolia: dynamic per-page based on max_items and tag count.
@@ -369,8 +390,6 @@ Main --> Export["storage.export_json"]
 - Export:
   - Single-pass export to JSON avoids redundant reads.
 
-[No sources needed since this section provides general guidance]
-
 ## Troubleshooting Guide
 - Symptom: Source fails mid-run
   - Action: Review logs around the failing source; each collector logs exceptions per tag/subreddit/feed/repo.
@@ -378,6 +397,15 @@ Main --> Export["storage.export_json"]
 - Symptom: Missing items from a feed
   - Action: Check bozo warnings; some feeds may be malformed.
   - Evidence: RSS and GitHub collectors warn on bozo conditions.
+- Symptom: **Updated** Reddit RSS feed issues
+  - Action: Check if subreddit RSS endpoint is accessible; verify bozo_exception logs for malformed XML.
+  - Evidence: Reddit collector now checks bozo flag and logs detailed exceptions.
+- Symptom: **Updated** HTML content appears in Reddit summaries
+  - Action: Ensure HTML tag stripping is working; check regex pattern in content extraction.
+  - Evidence: Reddit collector strips HTML tags using re.sub(r"<[^>]+>", "", content).
+- Symptom: **Updated** Date parsing issues with Reddit items
+  - Action: Verify timezone handling; check if parsedate_to_datetime resolves timezone offsets.
+  - Evidence: Reddit uses email.utils.parsedate_to_datetime for better timezone parsing.
 - Symptom: Too many duplicates
   - Action: Adjust fuzzy threshold or rely on stable IDs; ensure dedup_batch is active.
   - Evidence: Dedup logic uses a stable hash and fuzzy matching.
@@ -388,15 +416,14 @@ Main --> Export["storage.export_json"]
 **Section sources**
 - [devto.py:67-68](file://worker/collectors/news/devto.py#L67-L68)
 - [hn_algolia.py:74-75](file://worker/collectors/news/hn_algolia.py#L74-L75)
-- [reddit.py:74-75](file://worker/collectors/news/reddit.py#L74-L75)
+- [reddit.py:55-56](file://worker/collectors/news/reddit.py#L55-L56)
+- [reddit.py:91-92](file://worker/collectors/news/reddit.py#L91-L92)
 - [rss_feeds.py:55-56](file://worker/collectors/news/rss_feeds.py#L55-L56)
 - [github_releases.py:40-42](file://worker/collectors/news/github_releases.py#L40-L42)
 - [dedupe.py:48-76](file://worker/scoring/dedupe.py#L48-L76)
 
 ## Conclusion
-The news collection subsystem is modular, configurable, and resilient. Each source adheres to public APIs or standards, applies robust error handling, and integrates cleanly with deduplication and persistence. Configuration allows tuning for performance and reliability without code changes.
-
-[No sources needed since this section summarizes without analyzing specific files]
+The news collection subsystem is modular, configurable, and resilient. Each source adheres to public APIs or standards, applies robust error handling, and integrates cleanly with deduplication and persistence. **Updated** The Reddit collector has been completely rewritten to use RSS feeds instead of the JSON API, improving reliability and performance. Configuration allows tuning for performance and reliability without code changes.
 
 ## Appendices
 
@@ -411,16 +438,23 @@ The news collection subsystem is modular, configurable, and resilient. Each sour
     - Modify news.devto.tags to include desired tag slugs.
     - Adjust max_items to control volume.
   - Reference: [config.yaml:93-102](file://worker/config.yaml#L93-L102)
+- **Updated** Configure Reddit RSS feeds
+  - Steps:
+    - Modify news.reddit.subreddits to include desired subreddit names.
+    - Adjust max_items_per_sub to control volume per subreddit.
+    - Note: No delay_seconds needed as RSS feeds are used instead of JSON API.
+  - Reference: [config.yaml:104-115](file://worker/config.yaml#L104-L115)
 - Handle Reddit API changes
   - Steps:
-    - If Reddit changes its JSON schema, update field access in the collector.
-    - Increase delay_seconds if throttled.
-  - Reference: [reddit.py:41-47](file://worker/collectors/news/reddit.py#L41-L47), [config.yaml:104-115](file://worker/config.yaml#L104-L115)
+    - **Updated** Reddit now uses RSS feeds (.rss endpoint) instead of JSON API.
+    - If RSS feed is unavailable, check subreddit accessibility and bozo_exception logs.
+    - No delay_seconds configuration needed.
+  - Reference: [reddit.py:19-20](file://worker/collectors/news/reddit.py#L19-L20), [reddit.py:55-56](file://worker/collectors/news/reddit.py#L55-L56)
 
 ### Authentication and Rate Limits Summary
 - Hacker News (Algolia): No auth; no explicit rate limit observed.
 - Dev.to: No auth; per_page capped; timeout enforced.
-- Reddit: No auth; requires User-Agent; delay configurable.
+- **Updated** Reddit: **No auth**; RSS feeds used instead of JSON API; no delay required.
 - RSS/Atom: No auth; relies on feedparser robustness.
 - GitHub Releases: No auth; polite delay between requests.
 

@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: configuration_system
+title: 'Two-Layer Configuration: YAML for Settings, Env Vars for Secrets'
+scope: []
+source_files:
+    - worker/config.yaml
+    - .env.example
+    - worker/main.py
+    - docker-compose.yml
+    - .qoder/repowiki/knowledge/en/Two-Layer Configuration System YAML for Application Settings, Environment Variab/configuration_system.md
+depends_on: []
+related_to: []

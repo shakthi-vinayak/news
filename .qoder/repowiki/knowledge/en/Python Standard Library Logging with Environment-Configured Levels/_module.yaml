@@ -1,0 +1,16 @@
+schema_version: 1
+module_path: logging_system
+title: Python Standard Library Logging with Environment-Configured Levels
+scope: []
+source_files:
+    - worker/main.py
+    - worker/collectors/news/hn_algolia.py
+    - worker/collectors/jobs/remoteok.py
+    - worker/scoring/llm_relevance.py
+    - worker/scoring/dedupe.py
+    - worker/storage/db.py
+    - worker/notify/smtp_alert.py
+    - docker-compose.yml
+    - .github/workflows/worker-schedule.yml
+depends_on: []
+related_to: []

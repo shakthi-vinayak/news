@@ -9,12 +9,17 @@
 - [db.py](file://worker/storage/db.py)
 - [export_json.py](file://worker/storage/export_json.py)
 - [docker-compose.yml](file://docker-compose.yml)
+- [greenhouse.py](file://worker/collectors/jobs/greenhouse.py)
+- [rss_feeds.py](file://worker/collectors/news/rss_feeds.py)
 - [.gitignore](file://.gitignore)
 - [requirements.txt](file://worker/requirements.txt)
 </cite>
 
 ## Update Summary
 **Changes Made**
+- Updated retention_days from 30 to 7 days for improved data freshness and reduced storage requirements
+- Enhanced job board configurations with new company partnerships (GitLab, Shopify, Robinhood, Plaid, Notion, Canva)
+- Removed outdated RSS feed sources with malformed XML feeds (Anthropic and OpenAI RSS feeds)
 - Updated API key handling behavior from fail-fast to graceful warning for OPENROUTER_API_KEY
 - Enhanced keyword filtering documentation to reflect expanded tags field support
 - Updated troubleshooting guidance to reflect new graceful degradation behavior
@@ -144,7 +149,7 @@ The configuration file defines:
 - Job sources and their settings
 
 Configuration sections and defaults:
-- Retention: retention_days defaults to 30 days.
+- Retention: retention_days defaults to 7 days (reduced from 30 days for improved data freshness).
 - LLM: model defaults to `nvidia/nemotron-3-ultra-550b-a55b:free`; base_url defaults to OpenRouter's API endpoint; batch_size defaults to 10; max_tokens and temperature are configurable; prefilter_keywords defaults to empty list.
 - Keyword filter: a curated list of DevOps/AI/Platform topics; items must match at least one keyword to proceed to LLM scoring.
 - News sources: each source has an enabled flag and source-specific parameters (e.g., tags, min_points, max_items, subreddits, feeds, repos).
@@ -168,6 +173,8 @@ Impact on system behavior:
 - LLM settings control cost, latency, and quality of relevance scoring.
 - Keyword filters reduce downstream processing and API usage.
 - Source enablement and limits control ingestion volume and resource usage.
+
+**Updated** Retention policy reduced from 30 days to 7 days to improve data freshness and reduce storage requirements. This change affects both database growth and export size, making the system more responsive to current events while maintaining historical context for a shorter period.
 
 **Updated** API key handling now uses graceful warning instead of fail-fast behavior, allowing system to continue operation even without LLM scoring capabilities.
 
@@ -233,13 +240,15 @@ Impact:
 Retention controls how long items remain in the database and are included in exported JSON.
 
 Settings:
-- retention_days: number of days to retain items.
+- retention_days: number of days to retain items (currently 7 days).
 - Export respects retention_days when reading from the database.
 - Database schema stores timestamps for first_seen_at and last_seen_at.
 
 Behavior:
 - Older items are excluded from exports.
 - Database growth is bounded by the retention window.
+
+**Updated** Retention period reduced from 30 days to 7 days to improve data freshness and reduce storage requirements. This change affects both database growth and export size, making the system more responsive to current events.
 
 **Section sources**
 - [config.yaml:6-7](file://worker/config.yaml#L6-L7)
@@ -287,8 +296,10 @@ Examples:
 - Hacker News: requires tags and minimum points; limits items.
 - Dev.to: limits items per source.
 - Reddit: limits items per subreddit and applies a delay to respect rate limits.
-- RSS feeds: limits items per feed.
+- RSS feeds: limits items per feed and includes updated feed list with malformed XML feeds removed.
 - GitHub releases: limits items per repository.
+
+**Updated** RSS feed sources updated with malformed XML feeds removed (Anthropic and OpenAI RSS feeds). The feed list now includes AWS Blog, GCP Blog, Azure DevOps Blog, CNCF Blog, Kubernetes Blog, HashiCorp Blog, Docker Blog, The New Stack, DevOps.com, InfoQ DevOps, and Google AI Blog.
 
 **Section sources**
 - [config.yaml:77-169](file://worker/config.yaml#L77-L169)
@@ -306,8 +317,13 @@ Examples:
 - RemoteOK, Remotive, We Work Remotely: enable/disable and configure tags/categories.
 - ArbeitenNOW, Who Is Hiring (Hacker News), Greenhouse, Lever: enable/disable and configure boards/tags.
 
+**Updated** Enhanced job board configurations with new company partnerships including GitLab, Shopify, Robinhood, Plaid, Notion, and Canva. The Greenhouse board configuration now includes these companies alongside Datadog.
+
+**Updated** Removed outdated job board configurations and focused on established partnerships for better reliability and job quality.
+
 **Section sources**
 - [config.yaml:170-245](file://worker/config.yaml#L170-L245)
+- [greenhouse.py:22-77](file://worker/collectors/jobs/greenhouse.py#L22-L77)
 
 ### Publishing and Git Integration
 Git publishing is an optional feature controlled by environment variables.
@@ -360,11 +376,13 @@ DC --> MAIN
 - Reduce LLM API costs and latency by tuning keyword filters and prefilter_keywords.
 - Lower batch_size to reduce memory pressure and improve stability; increase for throughput.
 - Limit max_items per source to control ingestion volume.
-- Use retention_days to bound database size and export time.
+- Use retention_days to bound database size and export time (currently 7 days).
 - Respect external rate limits (e.g., Reddit) by configuring delays and limits.
 - Monitor logs via LOG_LEVEL to detect bottlenecks and errors early.
 
 **Updated** Enhanced API key handling allows graceful operation without LLM scoring, maintaining system performance while reducing costs when API keys are unavailable.
+
+**Updated** Reduced retention_days from 30 to 7 days improves performance by limiting database growth and export processing time.
 
 ## Troubleshooting Guide
 Common configuration issues and resolutions:
@@ -401,6 +419,10 @@ Common configuration issues and resolutions:
 
 **Updated** API key handling now uses graceful warning behavior, allowing system continuation even without LLM scoring capabilities.
 
+**Updated** RSS feed collection improvements: Malformed XML feeds (Anthropic and OpenAI) have been removed from the configuration, improving reliability and reducing processing errors.
+
+**Updated** Job board reliability: Updated company partnerships provide more reliable job sourcing with established boards.
+
 Validation techniques:
 - Verify environment variables are loaded by checking LOG_LEVEL and startup logs.
 - Confirm source enablement flags and limits in config.yaml.
@@ -416,6 +438,8 @@ Validation techniques:
 The DevOps & AI Hub configuration system centers on a single YAML file augmented by environment variables. By carefully tuning keyword filters, LLM settings, source limits, and retention policies, operators can balance cost, performance, and coverage. Security best practices—especially around API key management—ensure safe production deployments. The provided troubleshooting guidance helps diagnose and resolve common configuration pitfalls quickly.
 
 **Updated** Enhanced API key handling provides graceful degradation behavior, improving system resilience and operational continuity while maintaining backward compatibility through environment variable overrides.
+
+**Updated** Recent improvements include reduced retention period for better data freshness, enhanced job board partnerships for improved job sourcing, and removal of unreliable RSS feeds for better system stability.
 
 ## Appendices
 
@@ -469,3 +493,18 @@ Expanded filtering capabilities:
 **Section sources**
 - [dedupe.py:80-92](file://worker/scoring/dedupe.py#L80-L92)
 - [config.yaml:20-76](file://worker/config.yaml#L20-L76)
+
+### Appendix E: Configuration Changes Summary
+Recent configuration updates:
+
+- **Retention Policy**: Reduced from 30 days to 7 days for improved data freshness
+- **Job Board Partnerships**: Added GitLab, Shopify, Robinhood, Plaid, Notion, Canva
+- **RSS Feed Cleanup**: Removed malformed XML feeds (Anthropic, OpenAI)
+- **API Key Handling**: Enhanced graceful warning behavior
+- **System Reliability**: Improved by removing unreliable sources and focusing on established partnerships
+
+**Section sources**
+- [config.yaml:6-7](file://worker/config.yaml#L6-L7)
+- [config.yaml:221-228](file://worker/config.yaml#L221-L228)
+- [config.yaml:142](file://worker/config.yaml#L142)
+- [main.py:35-47](file://worker/main.py#L35-L47)

@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: error_handling
+title: Error Handling — Logging-Based Resilience with Graceful Degradation
+scope: []
+source_files:
+    - worker/main.py
+    - worker/storage/db.py
+    - worker/scoring/llm_relevance.py
+    - worker/notify/smtp_alert.py
+    - worker/collectors/jobs/remoteok.py
+    - worker/collectors/news/hn_algolia.py
+depends_on: []
+related_to: []

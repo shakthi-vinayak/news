@@ -19,14 +19,16 @@
 - [remoteok.py](file://worker/collectors/jobs/remoteok.py)
 - [remotive.py](file://worker/collectors/jobs/remotive.py)
 - [weworkremotely_rss.py](file://worker/collectors/jobs/weworkremotely_rss.py)
+- [jobsurface.py](file://worker/collectors/jobs/jobsurface.py)
 </cite>
 
 ## Update Summary
 **Changes Made**
-- Enhanced retention filtering section with improved SQLite comparison handling
-- Added timezone offset handling improvements in data collection
-- Updated performance considerations for better SQLite date comparisons
-- Enhanced troubleshooting guide with timezone-related issues
+- Added comprehensive documentation for the new Job Surface integration
+- Updated job collection pipeline to include systematic source integration patterns
+- Enhanced troubleshooting guide with Job Surface-specific considerations
+- Updated performance considerations to reflect the new collector's characteristics
+- Added Job Surface as a systematic example of the integration process
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -42,6 +44,8 @@
 
 ## Introduction
 This document describes the content collection system that aggregates news and job postings from multiple sources into a unified dataset. It covers the modular collector architecture, source-specific implementations, and integration patterns. It explains how collectors handle authentication, rate limiting, data transformation, and error handling, and provides practical guidance for adding new sources, customizing existing collectors, and troubleshooting collection failures. It also addresses performance considerations, caching strategies, and best practices for reliable data collection with enhanced retention filtering and improved timezone offset handling.
+
+**Updated** The system now includes Job Surface as a systematic example of how new job sources are integrated, demonstrating active participation in the weekly data refresh cycles and consistent integration patterns.
 
 ## Project Structure
 The system is organized around a central orchestrator that coordinates multiple specialized collectors grouped by domain (news and jobs). Configuration is externalized in YAML, enabling runtime customization without code changes. Supporting modules provide deduplication, scoring, persistence, export, and notifications with enhanced retention filtering capabilities.
@@ -148,7 +152,7 @@ InitDB --> CollectNews["Collect news from enabled sources<br/>with timezone-awar
 CollectNews --> DedupNews["Deduplicate + keyword filter"]
 DedupNews --> ScoreNews["Score news via LLM"]
 ScoreNews --> PersistNews["Upsert news to DB<br/>with enhanced retention filtering"]
-PersistNews --> CollectJobs["Collect jobs from enabled sources"]
+PersistNews --> CollectJobs["Collect jobs from enabled sources<br/>including Job Surface integration"]
 CollectJobs --> DedupJobs["Deduplicate"]
 DedupJobs --> ScoreJobs["Score jobs via LLM"]
 ScoreJobs --> PersistJobs["Upsert jobs to DB<br/>with enhanced retention filtering"]
@@ -272,6 +276,28 @@ Devto-->>Main : [{...}]
 
 ### Jobs Collectors
 
+#### Job Surface Integration
+**New Section** The Job Surface collector represents a systematic integration of a new job source into the collection pipeline, demonstrating active participation in weekly data refresh cycles.
+
+- **Purpose**: Scrape weekly DevOps & Cloud job listings from Job Surface (jobsurface.com), a beehiiv newsletter that posts weekly job opportunities.
+- **Data Source**: Weekly newsletter posts accessible via sitemap.xml, with job listings embedded as HTML list items.
+- **Authentication**: None; direct scraping of public website content.
+- **Rate limiting**: Implemented via request timeouts and conservative parsing limits.
+- **Data transformation**: Extracts company, title, location, and application URLs from structured HTML patterns with timezone-aware timestamps.
+- **Error handling**: Comprehensive error handling for sitemap fetching, post retrieval, and HTML parsing with graceful degradation.
+
+**Systematic Integration Pattern**: The Job Surface integration exemplifies the systematic approach to adding new sources:
+- **Configuration**: Added to config.yaml with default settings and enablement control
+- **Import Integration**: Added to main.py imports and collection loop
+- **Keyword Passing**: Inherits job-level keywords from configuration
+- **Health Monitoring**: Integrated into source health tracking
+- **Error Containment**: Graceful failure handling without affecting other sources
+
+**Weekly Refresh Cycle**: Job Surface participates actively in the weekly data refresh cycles, ensuring fresh job listings are consistently collected and integrated into the unified dataset.
+
+**Section sources**
+- [jobsurface.py:1-141](file://worker/collectors/jobs/jobsurface.py#L1-L141)
+
 #### Arbeitnow
 - Purpose: Public job board API with tag-based filtering.
 - Authentication: None.
@@ -386,11 +412,12 @@ DB --> Retention["Enhanced retention filtering<br/>Timezone-aware SQLite compari
 
 ## Performance Considerations
 
-**Updated** Enhanced performance considerations for improved retention filtering and timezone handling.
+**Updated** Enhanced performance considerations for improved retention filtering and the new Job Surface integration.
 
 - Rate limiting:
   - Some collectors enforce delays (Reddit, GitHub Releases, RemoteOK). Add similar delays for others if rate-limited.
   - Consider jitter and exponential backoff for resilient retries.
+  - **Job Surface**: Implements conservative request timeouts (15 seconds) and parsing limits to respect server resources.
 - Concurrency:
   - Current implementation is synchronous. Introduce bounded concurrency per source to improve throughput while respecting provider limits.
 - Caching:
@@ -398,6 +425,7 @@ DB --> Retention["Enhanced retention filtering<br/>Timezone-aware SQLite compari
   - Use ETag/Last-Modified headers when supported by APIs.
 - Network timeouts:
   - Tune timeouts per endpoint to balance responsiveness and reliability.
+  - **Job Surface**: Uses 15-second timeouts for both sitemap and post retrieval to handle varying server response times.
 - Deduplication and filtering:
   - Apply keyword pre-filtering early to reduce downstream LLM calls.
   - Enhanced fuzzy deduplication reduces false positives in retention filtering.
@@ -411,15 +439,17 @@ DB --> Retention["Enhanced retention filtering<br/>Timezone-aware SQLite compari
 **Section sources**
 - [db.py:163-242](file://worker/storage/db.py#L163-L242)
 - [export_json.py:50-75](file://worker/storage/export_json.py#L50-L75)
+- [jobsurface.py:108-141](file://worker/collectors/jobs/jobsurface.py#L108-L141)
 
 ## Troubleshooting Guide
 
-**Updated** Enhanced troubleshooting guide with timezone-related issues and retention filtering problems.
+**Updated** Enhanced troubleshooting guide with timezone-related issues, Job Surface-specific considerations, and systematic integration patterns.
 
 Common issues and remedies:
 - HTTP errors and timeouts:
   - Inspect collector logs for per-source failures. Verify network connectivity and endpoint availability.
   - Add retry with backoff for transient failures.
+  - **Job Surface**: Monitor sitemap accessibility and post URL extraction patterns.
 - Authentication problems:
   - None of the current collectors require auth; ensure credentials are not mistakenly required.
 - Rate limiting:
@@ -427,6 +457,7 @@ Common issues and remedies:
 - Parsing failures:
   - For RSS/Atom, handle malformed entries gracefully and log bozo warnings.
   - **Enhanced timezone handling**: Verify that timestamps are properly converted to UTC format.
+  - **Job Surface**: HTML parsing relies on specific pattern matching; monitor for layout changes.
 - Keyword filtering too strict:
   - Adjust keyword lists in configuration to include relevant terms.
 - Deduplication false positives:
@@ -440,6 +471,11 @@ Common issues and remedies:
   - Ensure credentials and repository URL are set when auto-publishing is desired.
 - SMTP digest:
   - Confirm SMTP environment variables and network access.
+- **Job Surface Specific Issues**:
+  - **Sitemap Access**: Verify jobsurface.com sitemap.xml accessibility and URL pattern matching.
+  - **HTML Pattern Changes**: Monitor for changes in job listing HTML structure that might affect parsing.
+  - **Airtable Fallback**: Job Surface may redirect to Airtable for job listings; verify Airtable link detection.
+  - **Weekly Refresh**: Ensure Job Surface integration participates in weekly data refresh cycles.
 
 **Section sources**
 - [main.py:151-213](file://worker/main.py#L151-L213)
@@ -448,9 +484,12 @@ Common issues and remedies:
 - [remoteok.py:42-79](file://worker/collectors/jobs/remoteok.py#L42-L79)
 - [db.py:163-242](file://worker/storage/db.py#L163-L242)
 - [export_json.py:50-75](file://worker/storage/export_json.py#L50-L75)
+- [jobsurface.py:1-141](file://worker/collectors/jobs/jobsurface.py#L1-L141)
 
 ## Conclusion
-The content collection system employs a clean, modular architecture centered on a simple collect(cfg) interface with enhanced retention filtering and improved timezone offset handling. Configuration controls enablement, filtering, and tuning, while the orchestrator coordinates collection, deduplication, scoring, persistence, export, and publication. The enhanced retention filtering system ensures consistent data lifecycle management across different timezones, while standardized error handling, enforcing rate limits, and leveraging pre-filtering and caching achieve reliability and scalability. Extending the system with new sources requires minimal boilerplate and adheres to established patterns with proper timezone handling.
+The content collection system employs a clean, modular architecture centered on a simple collect(cfg) interface with enhanced retention filtering and improved timezone offset handling. Configuration controls enablement, filtering, and tuning, while the orchestrator coordinates collection, deduplication, scoring, persistence, export, and publication. The enhanced retention filtering system ensures consistent data lifecycle management across different timezones, while standardized error handling, enforcing rate limits, and leveraging pre-filtering and caching achieve reliability and scalability. 
+
+**Updated** The Job Surface integration demonstrates the systematic approach to extending the system with new sources, showcasing active participation in weekly data refresh cycles and consistent integration patterns. Extending the system with new sources requires minimal boilerplate and adheres to established patterns with proper timezone handling.
 
 ## Appendices
 
@@ -480,15 +519,24 @@ Steps:
 4. Test with dry-run mode and review logs.
 5. **Enhanced requirement**: Ensure all timestamps are converted to UTC ISO format for consistent retention filtering.
 
+**Systematic Integration Pattern**: The Job Surface integration serves as a comprehensive example of systematic source integration:
+- **Configuration Setup**: Add source configuration with defaults and enablement flags
+- **Import Registration**: Register the collector in main.py imports and collection loop
+- **Keyword Integration**: Pass job-level keywords to maintain consistency
+- **Health Monitoring**: Integrate with source health tracking mechanisms
+- **Error Handling**: Implement comprehensive error handling and logging
+
 Example references:
 - [greenhouse.py:22-77](file://worker/collectors/jobs/greenhouse.py#L22-L77)
 - [config.yaml:170-244](file://worker/config.yaml#L170-L244)
 - [main.py:214-228](file://worker/main.py#L214-L228)
+- [jobsurface.py:1-141](file://worker/collectors/jobs/jobsurface.py#L1-L141)
 
 **Section sources**
 - [greenhouse.py:22-77](file://worker/collectors/jobs/greenhouse.py#L22-L77)
 - [config.yaml:170-244](file://worker/config.yaml#L170-L244)
 - [main.py:214-228](file://worker/main.py#L214-L228)
+- [jobsurface.py:1-141](file://worker/collectors/jobs/jobsurface.py#L1-L141)
 
 ### Customizing Existing Collectors
 - Adjust per-source limits (e.g., max_items, max_items_per_sub, max_items_per_repo).
@@ -497,14 +545,17 @@ Example references:
 - Enable/disable sources via configuration.
 - **Enhanced customization**: Configure retention_days in config.yaml for optimal data lifecycle management.
 - **Enhanced customization**: Review timezone handling settings for collectors that process timestamps.
+- **Job Surface Customization**: Adjust max_items setting to control collection volume from weekly posts.
 
 References:
 - [config.yaml:10-76](file://worker/config.yaml#L10-L76)
 - [config.yaml:77-244](file://worker/config.yaml#L77-L244)
+- [jobsurface.py:108-113](file://worker/collectors/jobs/jobsurface.py#L108-L113)
 
 **Section sources**
 - [config.yaml:10-76](file://worker/config.yaml#L10-L76)
 - [config.yaml:77-244](file://worker/config.yaml#L77-L244)
+- [jobsurface.py:108-113](file://worker/collectors/jobs/jobsurface.py#L108-L113)
 
 ### Factory Pattern and Dynamic Loading
 Observation:
@@ -527,16 +578,19 @@ References:
 ### Source Health Monitoring
 - The orchestrator tracks per-source health status ("ok" or "error") during collection and passes it to the export stage.
 - Use this to generate dashboards or alerts when sources fail consistently.
+- **Job Surface Health**: Monitored alongside other job sources with error containment and graceful degradation.
 
 References:
 - [main.py:149-159](file://worker/main.py#L149-L159)
 - [main.py:212-213](file://worker/main.py#L212-L213)
 - [main.py:255-262](file://worker/main.py#L255-L262)
+- [jobsurface.py:27-46](file://worker/collectors/jobs/jobsurface.py#L27-L46)
 
 **Section sources**
 - [main.py:149-159](file://worker/main.py#L149-L159)
 - [main.py:212-213](file://worker/main.py#L212-L213)
 - [main.py:255-262](file://worker/main.py#L255-L262)
+- [jobsurface.py:27-46](file://worker/collectors/jobs/jobsurface.py#L27-L46)
 
 ### Enhanced Retention Filtering Implementation
 **New Section** Details the enhanced retention filtering system with timezone offset handling.
@@ -573,3 +627,33 @@ JSONExport --> FrontendConsumption["Frontend consumes clean JSON"]
 **Section sources**
 - [db.py:163-242](file://worker/storage/db.py#L163-L242)
 - [export_json.py:50-75](file://worker/storage/export_json.py#L50-L75)
+
+### Job Surface Integration Pattern
+**New Section** Demonstrates the systematic approach to integrating new job sources into the collection pipeline.
+
+The Job Surface integration exemplifies best practices for adding new sources:
+
+**Integration Steps**:
+1. **Collector Development**: Create dedicated scraper with proper error handling and data transformation
+2. **Configuration Integration**: Add source configuration with sensible defaults and enablement controls
+3. **Pipeline Integration**: Register collector in main orchestrator with proper keyword passing
+4. **Health Monitoring**: Integrate with source health tracking and error containment
+5. **Weekly Participation**: Ensure integration participates in regular data refresh cycles
+
+**Technical Characteristics**:
+- **Scraping Strategy**: Uses sitemap.xml for discovery, HTML parsing for job extraction
+- **Pattern Matching**: Implements regex-based parsing for structured job listings
+- **Fallback Mechanisms**: Handles Airtable redirection gracefully
+- **Rate Limiting**: Conservative timeouts and parsing limits for server safety
+- **Timestamp Management**: UTC-based timestamps for consistent retention filtering
+
+**Operational Benefits**:
+- **Active Integration**: Participates in weekly data refresh cycles
+- **Systematic Updates**: Demonstrates consistent update patterns throughout the week
+- **Reliability**: Graceful error handling ensures pipeline stability
+- **Scalability**: Configurable limits prevent resource exhaustion
+
+**Section sources**
+- [jobsurface.py:1-141](file://worker/collectors/jobs/jobsurface.py#L1-L141)
+- [main.py:252-253](file://worker/main.py#L252-L253)
+- [config.yaml:263-267](file://worker/config.yaml#L263-L267)

@@ -10,15 +10,15 @@
 - [test_schema.py](file://tests/test_schema.py)
 - [devto.py](file://worker/collectors/news/devto.py)
 - [remoteok.py](file://worker/collectors/jobs/remoteok.py)
+- [llm_relevance.py](file://worker/scoring/llm_relevance.py)
 </cite>
 
 ## Update Summary
 **Changes Made**
-- Updated worker-schedule.yml documentation to reflect enhanced push-trigger functionality
-- Added documentation for improved error handling and source health tracking
-- Updated action versions and environment variable management
-- Removed deprecated SMTP configuration references
-- Enhanced troubleshooting guidance for error handling improvements
+- Updated worker-schedule.yml documentation to reflect explicit default OPENROUTER_MODEL configuration
+- Added documentation for the enhanced model pool and fallback mechanism
+- Updated environment variable management section to highlight the new explicit default
+- Enhanced troubleshooting guidance for model selection and fallback behavior
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -51,6 +51,7 @@ subgraph "Content Pipeline"
 MAIN["worker/main.py"]
 CFG["worker/config.yaml"]
 EX["worker/storage/export_json.py"]
+LLM["worker/scoring/llm_relevance.py"]
 end
 subgraph "Static Site"
 DOCS["docs/"]
@@ -65,6 +66,7 @@ WS --> MAIN
 MAIN --> EX
 EX --> DATA
 WS --> TESTS
+LLM --> DATA
 ```
 
 **Diagram sources**
@@ -73,6 +75,7 @@ WS --> TESTS
 - [main.py:1-320](file://worker/main.py#L1-L320)
 - [export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
 - [test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
+- [llm_relevance.py:1-270](file://worker/scoring/llm_relevance.py#L1-L270)
 
 **Section sources**
 - [.github/workflows/pages-deploy.yml:1-42](file://.github/workflows/pages-deploy.yml#L1-L42)
@@ -81,6 +84,7 @@ WS --> TESTS
 - [worker/config.yaml:1-245](file://worker/config.yaml#L1-L245)
 - [worker/storage/export_json.py:1-93](file://worker/storage/export_json.py#L1-L93)
 - [tests/test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
+- [worker/scoring/llm_relevance.py:1-270](file://worker/scoring/llm_relevance.py#L1-L270)
 
 ## Core Components
 - pages-deploy.yml: Deploys the static site content located under docs to GitHub Pages upon push to main or manual dispatch. It manages concurrency, permissions, artifact upload, and deployment.
@@ -90,7 +94,7 @@ Key capabilities:
 - Branch-triggered deployment for static content
 - Scheduled execution with cron
 - Enhanced push-trigger functionality for immediate updates
-- Environment variable-driven configuration
+- Environment variable-driven configuration with explicit model defaults
 - Automated JSON schema validation
 - Git-based publishing of generated content
 - Comprehensive error handling and source health tracking
@@ -117,7 +121,7 @@ participant PD as "pages-deploy.yml"
 participant Pages as "GitHub Pages"
 Cron->>WS : "Trigger schedule"
 WS->>Runner : "Checkout + setup Python"
-Runner->>Worker : "Run main.py"
+Runner->>Worker : "Run main.py with OPENROUTER_MODEL=nvidia/nemotron-3-nano-30b-a3b : free"
 Worker->>Export : "Export JSON to docs/data/"
 Worker->>Tests : "Validate docs/data/*.json"
 Tests-->>Worker : "Validation result"
@@ -174,7 +178,7 @@ Operational notes:
   - Checkout repository with GITHUB_TOKEN and shallow clone
   - Set up Python 3.12 with pip caching
   - Install dependencies from worker/requirements.txt
-  - Run worker/main.py with environment variables for API keys
+  - Run worker/main.py with environment variables for API keys and explicit model configuration
   - Validate generated JSON using pytest
   - Commit and push docs/data/*.json if changes exist
 
@@ -182,13 +186,15 @@ Operational notes:
 
 Environment variables:
 - OPENROUTER_API_KEY: Required for LLM relevance scoring
-- OPENROUTER_MODEL: Optional override for the model used (configured via GitHub Actions variables)
+- OPENROUTER_MODEL: Optional override for the model used (explicitly configured as "nvidia/nemotron-3-nano-30b-a3b:free" with fallback support)
 - LOG_LEVEL: Logging verbosity (set to INFO)
 - DRY_RUN: Set to "false" to enable publishing and git operations
 
+**Updated** The workflow now explicitly defines the default OPENROUTER_MODEL environment variable, ensuring consistent model selection across executions. The model defaults to "nvidia/nemotron-3-nano-30b-a3b:free" when no override is provided via GitHub Actions variables.
+
 Secrets and variables:
 - Secrets: OPENROUTER_API_KEY, GITHUB_TOKEN (implicit via checkout)
-- Variables: OPENROUTER_MODEL (uses fallback value if not set)
+- Variables: OPENROUTER_MODEL (uses explicit fallback value if not set)
 
 Workflow orchestration:
 - The worker pipeline exports docs/data/*.json, which when committed and pushed, triggers pages-deploy.yml to publish the updated site.
@@ -202,7 +208,7 @@ The worker orchestrates the end-to-end pipeline with enhanced error handling:
 - Collects news and jobs from enabled sources with individual error handling
 - Tracks source health and aggregates errors for monitoring
 - Deduplicates and applies keyword filters
-- Scores items via OpenRouter LLM
+- Scores items via OpenRouter LLM with enhanced model fallback
 - Persists to SQLite
 - Exports static JSON to docs/data/
 - Commits and pushes changes unless DRY_RUN is enabled
@@ -222,6 +228,26 @@ Key behaviors:
 **Section sources**
 - [worker/main.py:158-320](file://worker/main.py#L158-L320)
 - [worker/config.yaml:1-245](file://worker/config.yaml#L1-L245)
+
+### LLM Scoring and Model Management (llm_relevance.py)
+The LLM scoring module provides sophisticated model selection and fallback mechanisms:
+
+**Enhanced** Model configuration and fallback behavior:
+- Default model: "nvidia/nemotron-3-nano-30b-a3b:free" (explicitly set in both workflow and code)
+- Free model pool: Multiple NVIDIA Nemotron models with progressive capability levels
+- Parallel fan-out: Attempts all models concurrently for optimal performance
+- Sequential fallback: Retries with exponential backoff when parallel attempts fail
+- Automatic model switching: Uses alternative models when the primary choice is unavailable
+
+Model pool characteristics:
+- Primary model: "nvidia/nemotron-3-nano-30b-a3b:free" (highest priority)
+- Secondary models: Higher-capability NVIDIA models (ultra, super variants)
+- Alternative models: Google Gemma, Qwen, Cohere, and Liquid models
+- Ordered by capability: Best-performing models first
+
+**Section sources**
+- [worker/scoring/llm_relevance.py:17-32](file://worker/scoring/llm_relevance.py#L17-L32)
+- [worker/scoring/llm_relevance.py:115-169](file://worker/scoring/llm_relevance.py#L115-L169)
 
 ### Data Export and Validation (export_json.py and test_schema.py)
 - export_json.py reads from SQLite and writes docs/data/news.json, jobs.json, and meta.json with timestamps and counts.
@@ -255,6 +281,8 @@ MAIN --> EX["worker/storage/export_json.py"]
 EX --> DATA["docs/data/*.json"]
 DATA --> PD[".github/workflows/pages-deploy.yml"]
 WS --> TESTS["tests/test_schema.py"]
+MAIN --> LLM["worker/scoring/llm_relevance.py"]
+LLM --> DATA
 ```
 
 **Diagram sources**
@@ -263,6 +291,7 @@ WS --> TESTS["tests/test_schema.py"]
 - [export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [pages-deploy.yml:3-42](file://.github/workflows/pages-deploy.yml#L3-L42)
 - [test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
+- [llm_relevance.py:187-270](file://worker/scoring/llm_relevance.py#L187-L270)
 
 **Section sources**
 - [.github/workflows/worker-schedule.yml:13-61](file://.github/workflows/worker-schedule.yml#L13-L61)
@@ -270,6 +299,7 @@ WS --> TESTS["tests/test_schema.py"]
 - [worker/main.py:158-320](file://worker/main.py#L158-L320)
 - [worker/storage/export_json.py:32-93](file://worker/storage/export_json.py#L32-L93)
 - [tests/test_schema.py:1-136](file://tests/test_schema.py#L1-L136)
+- [worker/scoring/llm_relevance.py:187-270](file://worker/scoring/llm_relevance.py#L187-L270)
 
 ## Performance Considerations
 - Concurrency control: pages-deploy.yml uses a concurrency group to prevent overlapping deployments.
@@ -279,6 +309,7 @@ WS --> TESTS["tests/test_schema.py"]
 - Pre-filtering: Keyword filters reduce unnecessary LLM calls.
 - Dry-run mode: Allows testing without network or disk changes.
 - Enhanced error handling: Individual source failures don't block the entire pipeline.
+- **Enhanced** Model fallback optimization: Parallel fan-out with automatic model switching improves reliability and reduces latency.
 
 ## Troubleshooting Guide
 Common issues and resolutions:
@@ -294,6 +325,10 @@ Common issues and resolutions:
 - Git publishing issues:
   - If GH_PAT and GIT_REPO_URL are not set, the worker will commit locally without pushing.
   - When running locally, configure Git credentials and remote URL accordingly.
+- **Enhanced** Model selection issues:
+  - Verify OPENROUTER_MODEL environment variable is correctly set in GitHub Actions variables.
+  - Check that the model pool configuration in llm_relevance.py includes the desired model.
+  - Monitor model fallback behavior in logs when primary model is unavailable.
 - Debugging:
   - Increase LOG_LEVEL to capture more verbose logs during worker execution.
   - Use DRY_RUN=true to test the pipeline without publishing.
@@ -301,25 +336,29 @@ Common issues and resolutions:
   - Check the source health tracking in meta.json for individual source failures.
   - Review error messages in workflow logs for specific collector failures.
   - Monitor the error aggregation in the final run summary.
+  - **Enhanced** Observe model fallback logs when primary model fails.
 
 Monitoring and verification:
 - Review workflow run logs for each step's success/failure.
 - Inspect the exported JSON files in docs/data/ to confirm schema compliance.
 - Validate that the GitHub Pages environment URL is populated after deployment.
 - **Enhanced** Monitor source health indicators in meta.json for ongoing system health.
+- **Enhanced** Track model usage statistics in LLM scoring logs for performance optimization.
 
 **Section sources**
 - [.github/workflows/pages-deploy.yml:10-18](file://.github/workflows/pages-deploy.yml#L10-L18)
 - [.github/workflows/worker-schedule.yml:46-61](file://.github/workflows/worker-schedule.yml#L46-L61)
 - [worker/main.py:173-191](file://worker/main.py#L173-L191)
 - [tests/test_schema.py:28-136](file://tests/test_schema.py#L28-L136)
+- [worker/scoring/llm_relevance.py:115-169](file://worker/scoring/llm_relevance.py#L115-L169)
 
 ## Conclusion
 The workflows provide a robust CI/CD pipeline for automated content refresh and static site publishing:
-- worker-schedule.yml coordinates data collection, validation, and publication with enhanced push-trigger functionality
+- worker-schedule.yml coordinates data collection, validation, and publication with enhanced push-trigger functionality and explicit model configuration
 - pages-deploy.yml ensures timely deployment of updated content to GitHub Pages
-- Configuration and environment variables enable flexible customization
+- Configuration and environment variables enable flexible customization with explicit model defaults
 - Built-in validation and comprehensive error handling improve quality and observability
+- Enhanced model fallback mechanisms ensure reliable LLM processing even when primary models are unavailable
 - Simplified environment management reduces complexity while maintaining security
 
-By leveraging these workflows and their documented customization points, teams can maintain a reliable, automated system for content distribution with improved error handling and operational visibility.
+By leveraging these workflows and their documented customization points, teams can maintain a reliable, automated system for content distribution with improved error handling, operational visibility, and model reliability.

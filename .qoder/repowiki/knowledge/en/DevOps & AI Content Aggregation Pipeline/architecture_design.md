@@ -1,0 +1,4 @@
+- **Orchestrator Pattern**: `worker/main.py` serves as the central entry point, executing a linear ETL workflow: collection → deduplication → LLM scoring → persistence → export → git publish.
+- **Layered Structure**: The module is organized into `collectors` (data ingestion from RSS/APIs), `scoring` (fuzzy deduplication and LLM relevance), `storage` (SQLite persistence and JSON export), and `db` (schema management).
+- **Configuration-Driven Ingestion**: `config.yaml` defines all active sources (Hacker News, Reddit, Greenhouse, etc.) and keyword filters, allowing source toggling without code changes.
+- **Static Site Generation**: The pipeline outputs static JSON files to `docs/data/`, which are committed to the repository via `gitpython` to update the frontend documentation site.
