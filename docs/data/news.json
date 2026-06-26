@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T09:49:51Z",
+  "generated_at": "2026-06-26T12:23:42Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -282,26 +282,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b7cea51faabed037651b419575e38ccc",
-      "title": "Anthropic Brings Live, Shareable Artifacts to Claude Code",
-      "url": "https://devops.com/anthropic-brings-live-shareable-artifacts-to-claude-code/",
-      "source": "DevOps.com",
-      "published_at": "2026-06-19T11:38:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fbe865456b44d5694cd9537ca1b2d441",
-      "title": "Why the RAMpocalypse is the Next Frontier for DevOps, not the End of the Line",
-      "url": "https://devops.com/why-the-rampocalypse-is-the-next-frontier-for-devops-not-the-end-of-the-line/",
-      "source": "DevOps.com",
-      "published_at": "2026-06-19T10:16:33+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "52bb43a1ae59b4e2b554edfba726f55c",
       "title": "Production-Ready Autonomous Incident Resolution with AWS DevOps Agent (now GA) and Datadog MCP Server",
       "url": "https://aws.amazon.com/blogs/devops/production-ready-autonomous-incident-resolution-with-aws-devops-agent-now-ga-and-datadog-mcp-server/",
@@ -327,26 +307,6 @@
       "url": "https://www.cncf.io/announcements/2026/06/17/flipkart-wins-cncf-end-user-case-study-contest-for-kubernetes-and-chaos-engineering-scale/",
       "source": "CNCF Blog",
       "published_at": "2026-06-18T06:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4dea2cc1a5fcaaadcc8877a205bd5a95",
-      "title": "CNCF Welcomes New Silver Members as Global Demand for Cloud Native Infrastructure Grows",
-      "url": "https://www.cncf.io/announcements/2026/06/17/cncf-welcomes-new-silver-members-as-global-demand-for-cloud-native-infrastructure-grows/",
-      "source": "CNCF Blog",
-      "published_at": "2026-06-18T03:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "22cd5b201e51803c6d416b4f37fdf095",
-      "title": "CNCF and SlashData Report Confirms India as One of the Largest Cloud Native Communities with 2.25 Million Developers",
-      "url": "https://www.cncf.io/announcements/2026/06/17/cncf-and-slashdata-report-confirms-india-as-one-of-the-largest-cloud-native-communities-with-2-25-million-developers/",
-      "source": "CNCF Blog",
-      "published_at": "2026-06-18T03:30:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3283,6 +3243,66 @@
         "devops",
         "security"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a34715029ec6b401273d1d4d6d3a2b1e",
+      "title": "Security Profiles Operator v1: Stable APIs, Security Hardened, and Shaping Upstream Kubernetes",
+      "url": "https://www.cncf.io/blog/2026/06/26/security-profiles-operator-v1-stable-apis-security-hardened-and-shaping-upstream-kubernetes/",
+      "source": "CNCF Blog",
+      "published_at": "2026-06-26T11:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "55694e39aac1f92cd74af1cdea564dab",
+      "title": "How AI Is Transforming DevOps and Cloud Engineering",
+      "url": "https://devops.com/how-ai-is-transforming-devops-and-cloud-engineering/",
+      "source": "DevOps.com",
+      "published_at": "2026-06-26T11:18:40+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ee61e9d51c8a27263c320b7449fd85ee",
+      "title": "Your AI agents are sending customer data to OpenAI on every run and your DLP doesn't see it",
+      "url": "https://www.reddit.com/r/devops/comments/1ug3ull/your_ai_agents_are_sending_customer_data_to/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-26T11:12:26+00:00",
+      "summary": "Security teams control what leaves the network. Firewalls, DLP, CASB. Then a developer builds a workflow that pulls CRM records and sends them to OpenAI in a prompt. Every execution. No log. Nothing in DLP because it's HTTPS to an approved endpoint.  Your DLP sees: traffic to api.openai.com ✓ What's",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1f0912e29db58c137920a0c280162fc8",
+      "title": "Using AWS ALB + Entra ID to add SSO to apps that don't support enterprise authentication",
+      "url": "https://www.reddit.com/r/devops/comments/1ug3rvo/using_aws_alb_entra_id_to_add_sso_to_apps_that/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-26T11:08:36+00:00",
+      "summary": "I've recently been building more internal tools, and one thing I've noticed is that many self-hosted applications (or AI-generated internal tools) either have very basic authentication or none at all. Instead of implementing OIDC or SAML in every application, I tried moving authentication to the inf",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "97a9a8ebbacf525d56d09f672661a447",
+      "title": "Securing CI/CD for an open source project, part 3: Credentials, verification, and what’s next",
+      "url": "https://www.cncf.io/blog/2026/06/26/securing-ci-cd-for-an-open-source-project-part-3-credentials-verification-and-whats-next/",
+      "source": "CNCF Blog",
+      "published_at": "2026-06-26T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f2fd4ebef2c6361c65685bfb6a65f449",
+      "title": "Starting new chapter as DevOps manager",
+      "url": "https://www.reddit.com/r/devops/comments/1ug2kmd/starting_new_chapter_as_devops_manager/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-26T10:05:06+00:00",
+      "summary": "Hear me out. After 20+ years of working as senior individual contributor and technical lead, I am moving into DevOps management. I am joining new organisation, so I am at a disadvantage of not knowing absolutely anyone. It’s in banking. Team of ~10. I am both most senior DevOps manager and engineer,",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
