@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T12:23:42Z",
+  "generated_at": "2026-06-26T16:27:17Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -257,26 +257,6 @@
       "url": "https://aws.amazon.com/blogs/devops/accelerate-incident-resolution-with-pagerduty-and-aws-devops-agent/",
       "source": "AWS Blog",
       "published_at": "2026-06-19T19:21:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5ad7f81ec6a11ec19b03fb9cb0e9c46b",
-      "title": "Checkmarx’s new SAST engine isn’t about the LLM. It’s about what happens after.",
-      "url": "https://thenewstack.io/checkmarx-ai-llm-sast-security/",
-      "source": "The New Stack",
-      "published_at": "2026-06-19T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2293f47ef0b22316b8adeb661504c44b",
-      "title": "Anthropic overhauled Claude Design to fix the handoff. A designer and an engineer disagree on whether it worked.",
-      "url": "https://thenewstack.io/anthropic-claude-design-overhaul/",
-      "source": "The New Stack",
-      "published_at": "2026-06-19T13:35:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1132,16 +1112,6 @@
       "url": "https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/",
       "source": "Kubernetes Blog",
       "published_at": "2026-05-12T18:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "59dfe969a5ec5eca60ed123cd768a4bb",
-      "title": "Terraform Enterprise 2.0: Evolving infrastructure operations for scale",
-      "url": "https://www.hashicorp.com/blog/terraform-enterprise-evolving-infrastructure-operations-for-scale",
-      "source": "HashiCorp Blog",
-      "published_at": "2026-05-12T16:30:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3302,6 +3272,111 @@
       "source": "Reddit r/devops",
       "published_at": "2026-06-26T10:05:06+00:00",
       "summary": "Hear me out. After 20+ years of working as senior individual contributor and technical lead, I am moving into DevOps management. I am joining new organisation, so I am at a disadvantage of not knowing absolutely anyone. It’s in banking. Team of ~10. I am both most senior DevOps manager and engineer,",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c52c025ac06fc835063f176ba89eec57",
+      "title": "apache/airflow: providers-celery/3.21.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-celery%2F3.21.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-06-26T16:18:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fb79f3688cfff1662cb0cfad320c3c76",
+      "title": "apache/airflow: providers-cncf-kubernetes/10.18.1rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-cncf-kubernetes%2F10.18.1rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-06-26T16:18:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "815838401f48ee81fff5da3f2adeb693",
+      "title": "apache/airflow: providers-fab/3.7.1rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-fab%2F3.7.1rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-06-26T16:18:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ab5cae5ccbcbf409bd40c20255140b72",
+      "title": "apache/airflow: providers-google/22.2.1rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-google%2F22.2.1rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-06-26T16:18:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c95a097800c2d8f74b146bf3d1d8b836",
+      "title": "apache/airflow: providers-keycloak/0.8.1rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-keycloak%2F0.8.1rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-06-26T16:18:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2eeb0cb95ad0f5849d19080de14f415f",
+      "title": "Terraform MCP server: Four real-world AI infrastructure patterns",
+      "url": "https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-06-26T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "be6e04e110e1cc3a2e78916e34342faa",
+      "title": "AWS, Microsoft and Google agree the session is the new unit of compute. They disagree on how to isolate it.",
+      "url": "https://thenewstack.io/agent-session-aware-runtime/",
+      "source": "The New Stack",
+      "published_at": "2026-06-26T14:11:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "afa8b97eeb32b61bc5a8a6428a43b764",
+      "title": "DevOps Security Best Practices Every Engineering Team Should Follow",
+      "url": "https://dev.to/devopsaitoolkit/devops-security-best-practices-every-engineering-team-should-follow-18k5",
+      "source": "Dev.to",
+      "published_at": "2026-06-26T14:01:11Z",
+      "summary": "I've spent 25 years securing Linux boxes, cloud accounts, CI/CD pipelines, and production clusters....",
+      "tags": [
+        "devops",
+        "security",
+        "devsecops",
+        "hardening"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2168c03f6a17101f004954b966e3850b",
+      "title": "DevOps or SAP Basis? Feeling stuck at a career crossroads",
+      "url": "https://www.reddit.com/r/devops/comments/1ug6v6a/devops_or_sap_basis_feeling_stuck_at_a_career/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-26T13:27:50+00:00",
+      "summary": "I've been working in IT infrastructure for several years, mainly on Linux systems, databases, production support, and enterprise applications. Recently, I've been thinking seriously about where I should specialize next, but I'm genuinely torn between two paths: DevOps and SAP Basis. DevOps seems to ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c70dbfb0b32eef6836e3c4d844c19716",
+      "title": "The AI agent identity problem nobody’s talking about",
+      "url": "https://thenewstack.io/agent-workload-identity-authentication/",
+      "source": "The New Stack",
+      "published_at": "2026-06-26T13:00:00+00:00",
+      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     }
