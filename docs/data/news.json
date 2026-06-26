@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T16:27:17Z",
+  "generated_at": "2026-06-26T20:06:00Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -734,16 +734,6 @@
         "releasenotes",
         "changelogautomation"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "89a5b777d11f9728615be1e6acbe0ea3",
-      "title": "Reddit taught me why my CI pipeline was wrong. Runtime dropped from ~10 minutes to under 4 minutes",
-      "url": "https://www.reddit.com/r/devops/comments/1uaafd5/reddit_taught_me_why_my_ci_pipeline_was_wrong/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-19T18:53:01+00:00",
-      "summary": "      Yesterday i posted my GitHub Actions pipeline here asking for feedback At the time my CI looked roughly like this: Lint -&gt; E2E Tests (Playwright) -&gt; Docker Build -&gt; Kubernetes Validation -&gt; Deploy Everything was effectively running in sequence and the total runtime was around 10 mi",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3377,6 +3367,126 @@
       "source": "The New Stack",
       "published_at": "2026-06-26T13:00:00+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b8c62ddcda9f2856445a2438f07cef80",
+      "title": "Local LLM Peeps",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ughcl0/local_llm_peeps/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-06-26T20:01:23+00:00",
+      "summary": "I am 80% done with a harness that works for local and API but is local first. The harness is got some interesting logic around multiple agents which I’m holding back on until it is open source on GitHub. I have been local for 6 months and built out EVERYTHING ai could think of to make our lives easi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0f92e5b652d65296a3a7cb669bf14bbb",
+      "title": "ollama/ollama: v0.30.11",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-06-26T19:46:28+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f7362ce989f8ffdff53d68d2014c1c73",
+      "title": "After Fable 5 ban, Anthropic and 19 organizations launch open source security body",
+      "url": "https://thenewstack.io/akrites-open-source-vulnerability-coordination/",
+      "source": "The New Stack",
+      "published_at": "2026-06-26T18:36:35+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f0abbed0461e5feea6224190231b3b06",
+      "title": "The US government just told OpenAI who’s allowed to use the next GPT 5.6 model",
+      "url": "https://thenewstack.io/openai-gpt56-access-restricted/",
+      "source": "The New Stack",
+      "published_at": "2026-06-26T18:26:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8f2fea1253ac9acf0c06a594701d69c7",
+      "title": "Why do people keep investing in Intel for AI?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugcbqx/why_do_people_keep_investing_in_intel_for_ai/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-06-26T16:53:32+00:00",
+      "summary": "      If you get a good deal on some Xeons with a lot of memory bandwidth, or a cheap GPU for home inference, that's cool, no disrespect. But how in the hell are Wall Street types considering Intel part of the &quot;AI picks and shovels&quot; play? Who's buying Intel for their AI data centers?  &#32",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9b6e009bd36efb8e43cb7b816f673e82",
+      "title": "AI Coding Agents Are Pulling CI Feedback Into the Inner Loop",
+      "url": "https://devops.com/ai-coding-agents-are-pulling-ci-feedback-into-the-inner-loop/",
+      "source": "DevOps.com",
+      "published_at": "2026-06-26T16:27:25+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aafb0753f98ade1f40dd5302fdaebf6c",
+      "title": "What's one local AI workflow you wish you'd discovered sooner?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugba2x/whats_one_local_ai_workflow_you_wish_youd/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-06-26T16:15:07+00:00",
+      "summary": "There are a lot of posts about the models and benchmarks, but I am more interested in the workflows that people use. What is one workflow that really saved you time or made your local LLM more useful?  It could be anything—RAG, MCP, coding agents, organizing prompt, document indexing, automation or ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b2779933ba3f0cff64c7c5b5f3205902",
+      "title": "AWS, Microsoft, and Google agree the session is the new unit of compute. They disagree on how to isolate it.",
+      "url": "https://thenewstack.io/agent-session-aware-runtime/",
+      "source": "The New Stack",
+      "published_at": "2026-06-26T14:11:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ea7248181503adf2f4645dca6405ed79",
+      "title": "Combined RTX5080 & 4060 for inference ?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ug6c5f/combined_rtx5080_4060_for_inference/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-06-26T13:06:22+00:00",
+      "summary": "      Hey, I currently use my RTX 4060 8G for inference with Qwen 3.6-35B-A3B Q8 (q8 for everything weight,value,key) max 60k context per agent (for quality over speed, with CPU &amp;DDR4 offloading) but :  I only get ~100pp &amp; 20tg at max when context is still low on Qwen 3.6-35B-A3B Q8, so I'd ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5c7ea969187c5aaf5999152787b4586a",
+      "title": "Help optimizing llama.cpp + Qwen 27B on RTX PRO 6000 Blackwell for coding agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ug1j3i/help_optimizing_llamacpp_qwen_27b_on_rtx_pro_6000/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-06-26T09:04:55+00:00",
+      "summary": "Our company recently acquired a workstation with an RTX PRO 6000 Blackwell, and we're experimenting with local LLMs to reduce part of our Claude token usage. Right now we’re running Qwen3.6 27B MTP Q8_K_XL with llama.cpp on Windows 11. I've been using both Claude Opus and Sonnet for a while, and my ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2bf1023b936a99de64900e9e333d0b82",
+      "title": "Good YouTube channels for local LLM news and development?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uft20b/good_youtube_channels_for_local_llm_news_and/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-06-26T01:41:51+00:00",
+      "summary": "Sometimes I'd prefer chilling on the couch and learning instead of reading. I've searched on YouTube and most seem like clickbait and slop.  Thanks   &#32; submitted by &#32;  /u/6jarjar6   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a9512d17cc8cb602e421e2a2033518fc",
+      "title": "[Research] JetSpec: Speculative Decoding with Parallel Tree Drafting Enables up to 9.64x Lossless LLM Inference Speedup with more than 1000TPS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufntl5/research_jetspec_speculative_decoding_with/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-06-25T21:55:02+00:00",
+      "summary": "      We find speculative decoding can push LLM generation latency to extreme by co-optimizing drafting cost and drafting quality with causal parallel tree drafting. JetSpec reaches up to 9.64× end-to-end speedup on MATH-500 and 4.58× on open-ended chat while keeping lossless. With CUDA graph and ke",
       "tags": [],
       "relevance_score": 0.0
     }
