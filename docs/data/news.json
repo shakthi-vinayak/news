@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T14:04:50Z",
+  "generated_at": "2026-06-27T17:23:22Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -217,16 +217,6 @@
       "url": "https://thenewstack.io/nvidia-openclaw-agent-blueprints/",
       "source": "The New Stack",
       "published_at": "2026-06-21T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "633be15068561dedc440d480026c672b",
-      "title": "Gemini CLI vs. Antigravity: What works, not the spec sheet",
-      "url": "https://thenewstack.io/gemini-cli-antigravity-replacement/",
-      "source": "The New Stack",
-      "published_at": "2026-06-20T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -674,21 +664,6 @@
       "published_at": "2026-06-20T21:11:51+00:00",
       "summary": "Suppose your pipeline has several independent checks:  Lint Typecheck Unit Tests Kubernetes Manifest Validation Docker Build Security Scan E2E Tests  Would you rather: Option A: Fail Fast  As soon as one stage fails, stop everything. Faster feedback. Saves CI resources.  Option B: Fail at Completion",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "761ecb52937a267976c88c148353c65d",
-      "title": "Vibe Coding Isn't the Problem. Not Understanding the Stack Is.",
-      "url": "https://dev.to/kkierii/vibe-coding-isnt-the-problem-not-understanding-the-stack-is-4kif",
-      "source": "Dev.to",
-      "published_at": "2026-06-20T16:27:46Z",
-      "summary": "Here is a config an AI coding tool handed me, barely changed:    DATABASE_URL =...",
-      "tags": [
-        "ai",
-        "devops",
-        "security",
-        "programming"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3508,6 +3483,46 @@
         "devops",
         "testing"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "701bacfc8452d5f4afd88ed015774d0b",
+      "title": "What should I do if higher ups think in silos?",
+      "url": "https://www.reddit.com/r/devops/comments/1uh78tp/what_should_i_do_if_higher_ups_think_in_silos/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-27T16:33:45+00:00",
+      "summary": "I work in a European gov company for some years now and I really like it there. In my previous roles as DevOps engineer in different product teams I did my best to automate stuff within the boundaries of my team. 2-3 months ago I switched role to plattform engineer. During the interview for this new",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b74ea013e9804388f196a69cc030691c",
+      "title": "the state of the job market in 2026...",
+      "url": "https://www.reddit.com/r/devops/comments/1uh5qa1/the_state_of_the_job_market_in_2026/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-27T15:32:26+00:00",
+      "summary": "      If your coworker is named Claude and he codes, does it count?  &#32; submitted by &#32;  /u/Complete-Sea6655   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cf0e548a8a492b8eb8990b45855b5a08",
+      "title": "Greptile, Cursor, and Devin agree that agents should run their code. What they run it against matters.",
+      "url": "https://thenewstack.io/runtime-verification-coding-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-06-27T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b5139e2066694f3f3e395cf06bb8e840",
+      "title": "devops browser game that uses AI to argue with you on your decisions unless you are confident",
+      "url": "https://www.reddit.com/r/devops/comments/1uh4g28/devops_browser_game_that_uses_ai_to_argue_with/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-27T14:39:46+00:00",
+      "summary": "hi all I built a browser game where you argue with AI on a given challenge/scenario and it rates your responses. right now the scenarios are about devops/engineering, but I am planning to add interview kit, from 0 to hero, etc... how it is different from just using chatgpt: when you ask chatgpt for ",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
