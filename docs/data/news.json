@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T19:44:59Z",
+  "generated_at": "2026-06-27T21:17:33Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -512,12 +512,14 @@
       "url": "https://dev.to/pixel-wraith/the-stale-feature-flag-we-deleted-that-turned-a-feature-back-on-529m",
       "source": "Dev.to",
       "published_at": "2026-06-22T13:30:00Z",
-      "summary": "Describes an incident where deleting a stale feature flag unintentionally reactivated a feature, highlighting risks in feature management.",
+      "summary": "Someone on our team was cleaning up feature flags. It was good instinct...we had a pile of them, and...",
       "tags": [
-        "DevOps",
-        "CI/CD"
+        "softwareengineering",
+        "devops",
+        "programming",
+        "featureflags"
       ],
-      "relevance_score": 0.6
+      "relevance_score": 0.0
     },
     {
       "id": "00c0a6f4a14fe1e2a4cb1ed0efa0ddfe",
@@ -652,16 +654,6 @@
         "devops",
         "aws"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1af4cbb367a5c379b376c53b866663cc",
-      "title": "While redesigning my CI pipeline, I ran into an interesting tradeoff that I can't decide on.",
-      "url": "https://www.reddit.com/r/devops/comments/1ub7ocm/while_redesigning_my_ci_pipeline_i_ran_into_an/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-20T21:11:51+00:00",
-      "summary": "Suppose your pipeline has several independent checks:  Lint Typecheck Unit Tests Kubernetes Manifest Validation Docker Build Security Scan E2E Tests  Would you rather: Option A: Fail Fast  As soon as one stage fails, stop everything. Faster feedback. Saves CI resources.  Option B: Fail at Completion",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -1170,13 +1162,9 @@
       "url": "https://swizec.com/blog/the-future-of-software-engineering-is-sre/",
       "source": "Hacker News",
       "published_at": "2026-01-25T22:18:38Z",
-      "summary": "Argues that SRE will become the dominant paradigm for software engineering and operations.",
-      "tags": [
-        "SRE",
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.9
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "f7c39ae38c4130991a97d1bdd9903da9",
@@ -1184,12 +1172,9 @@
       "url": "https://www.usenix.org/publications/loginonline/evolution-sre-google",
       "source": "Hacker News",
       "published_at": "2025-01-03T11:38:49Z",
-      "summary": "Traces how Google's SRE practice evolved from early site reliability to modern practices.",
-      "tags": [
-        "SRE",
-        "DevOps"
-      ],
-      "relevance_score": 0.95
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "09a1873dbe2f2f803f27bc3e73c08a75",
@@ -1267,12 +1252,9 @@
       "url": "https://www.willett.io/posts/precepts/",
       "source": "Hacker News",
       "published_at": "2022-10-17T06:36:32Z",
-      "summary": "Explains how to adopt SRE mindset and practices when building software, focusing on reliability and automation.",
-      "tags": [
-        "SRE",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "19aeb67831474daa7428fc00d7cb2228",
@@ -1430,13 +1412,9 @@
       "url": "https://github.com/upgundecha/howtheysre",
       "source": "Hacker News",
       "published_at": "2021-02-16T03:36:06Z",
-      "summary": "Repository showcasing how various teams implement SRE principles and tooling.",
-      "tags": [
-        "SRE",
-        "DevOps",
-        "Observability"
-      ],
-      "relevance_score": 0.85
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "a8ad3eb9870964f16093df2f70a216a4",
@@ -1454,13 +1432,9 @@
       "url": "https://offensi.com/2020/08/18/how-to-contact-google-sre-dropping-a-shell-in-cloud-sql/",
       "source": "Hacker News",
       "published_at": "2020-08-19T20:32:55Z",
-      "summary": "Describes a technique to gain shell access in Google Cloud SQL to interact with SRE teams.",
-      "tags": [
-        "SRE",
-        "Cloud",
-        "Security"
-      ],
-      "relevance_score": 0.7
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "c7f0873a3298282e5b31013e88306978",
@@ -1538,12 +1512,9 @@
       "url": "https://gitlab.com/gitlab-com/www-gitlab-com/issues/5555",
       "source": "Hacker News",
       "published_at": "2019-11-03T22:56:38Z",
-      "summary": "GitLab may stop hiring SREs and support engineers in China and Russia due to geopolitical concerns.",
-      "tags": [
-        "SRE",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "df7d71615df23ee65cdf709d74449067",
@@ -1631,13 +1602,9 @@
       "url": "https://services.google.com/fh/files/misc/the-site-reliability-workbook-next18.pdf",
       "source": "Hacker News",
       "published_at": "2018-07-26T03:41:11Z",
-      "summary": "Practical guide from Google on implementing SRE principles, covering SLIs, error budgets, and incident response.",
-      "tags": [
-        "SRE",
-        "DevOps",
-        "Observability"
-      ],
-      "relevance_score": 0.95
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "9fc4cd83b53783d0d0b2e38d78f7e77d",
@@ -1645,13 +1612,9 @@
       "url": "https://cloudplatform.googleblog.com/2018/07/sre-fundamentals-slis-slas-and-slos.html",
       "source": "Hacker News",
       "published_at": "2018-07-19T16:12:21Z",
-      "summary": "Introduces core SRE concepts of service level indicators, agreements, and objectives.",
-      "tags": [
-        "SRE",
-        "Observability",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "9ee5516a00a4a5feacf515fba9f67662",
@@ -2105,11 +2068,14 @@
       "url": "https://dev.to/pascal_cescato_692b7a8a20/too-cheap-to-be-good-think-again-4nj0",
       "source": "Dev.to",
       "published_at": "2026-06-23T20:38:37Z",
-      "summary": "Discusses cost versus quality trade-offs, likely in software or cloud services.",
+      "summary": "I replaced aaPanel/OpenLiteSpeed with Caddy and shell scripts and turned the process into a benchmark. Two phases (architecture then code), one external code review. The winning model? Not the one you'd expect.",
       "tags": [
-        "Cloud"
+        "ai",
+        "benchmark",
+        "devops",
+        "webdev"
       ],
-      "relevance_score": 0.2
+      "relevance_score": 0.0
     },
     {
       "id": "98f04e4acea851ba2a6f8c44fd153deb",
