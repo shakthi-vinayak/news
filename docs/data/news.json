@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T17:23:22Z",
+  "generated_at": "2026-06-27T19:44:59Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -512,14 +512,12 @@
       "url": "https://dev.to/pixel-wraith/the-stale-feature-flag-we-deleted-that-turned-a-feature-back-on-529m",
       "source": "Dev.to",
       "published_at": "2026-06-22T13:30:00Z",
-      "summary": "Someone on our team was cleaning up feature flags. It was good instinct...we had a pile of them, and...",
+      "summary": "Describes an incident where deleting a stale feature flag unintentionally reactivated a feature, highlighting risks in feature management.",
       "tags": [
-        "softwareengineering",
-        "devops",
-        "programming",
-        "featureflags"
+        "DevOps",
+        "CI/CD"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.6
     },
     {
       "id": "00c0a6f4a14fe1e2a4cb1ed0efa0ddfe",
@@ -1172,9 +1170,13 @@
       "url": "https://swizec.com/blog/the-future-of-software-engineering-is-sre/",
       "source": "Hacker News",
       "published_at": "2026-01-25T22:18:38Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Argues that SRE will become the dominant paradigm for software engineering and operations.",
+      "tags": [
+        "SRE",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "f7c39ae38c4130991a97d1bdd9903da9",
@@ -1182,9 +1184,12 @@
       "url": "https://www.usenix.org/publications/loginonline/evolution-sre-google",
       "source": "Hacker News",
       "published_at": "2025-01-03T11:38:49Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Traces how Google's SRE practice evolved from early site reliability to modern practices.",
+      "tags": [
+        "SRE",
+        "DevOps"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "09a1873dbe2f2f803f27bc3e73c08a75",
@@ -1262,9 +1267,12 @@
       "url": "https://www.willett.io/posts/precepts/",
       "source": "Hacker News",
       "published_at": "2022-10-17T06:36:32Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explains how to adopt SRE mindset and practices when building software, focusing on reliability and automation.",
+      "tags": [
+        "SRE",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "19aeb67831474daa7428fc00d7cb2228",
@@ -1422,9 +1430,13 @@
       "url": "https://github.com/upgundecha/howtheysre",
       "source": "Hacker News",
       "published_at": "2021-02-16T03:36:06Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Repository showcasing how various teams implement SRE principles and tooling.",
+      "tags": [
+        "SRE",
+        "DevOps",
+        "Observability"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "a8ad3eb9870964f16093df2f70a216a4",
@@ -1442,9 +1454,13 @@
       "url": "https://offensi.com/2020/08/18/how-to-contact-google-sre-dropping-a-shell-in-cloud-sql/",
       "source": "Hacker News",
       "published_at": "2020-08-19T20:32:55Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Describes a technique to gain shell access in Google Cloud SQL to interact with SRE teams.",
+      "tags": [
+        "SRE",
+        "Cloud",
+        "Security"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "c7f0873a3298282e5b31013e88306978",
@@ -1522,9 +1538,12 @@
       "url": "https://gitlab.com/gitlab-com/www-gitlab-com/issues/5555",
       "source": "Hacker News",
       "published_at": "2019-11-03T22:56:38Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "GitLab may stop hiring SREs and support engineers in China and Russia due to geopolitical concerns.",
+      "tags": [
+        "SRE",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "df7d71615df23ee65cdf709d74449067",
@@ -1612,9 +1631,13 @@
       "url": "https://services.google.com/fh/files/misc/the-site-reliability-workbook-next18.pdf",
       "source": "Hacker News",
       "published_at": "2018-07-26T03:41:11Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Practical guide from Google on implementing SRE principles, covering SLIs, error budgets, and incident response.",
+      "tags": [
+        "SRE",
+        "DevOps",
+        "Observability"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "9fc4cd83b53783d0d0b2e38d78f7e77d",
@@ -1622,9 +1645,13 @@
       "url": "https://cloudplatform.googleblog.com/2018/07/sre-fundamentals-slis-slas-and-slos.html",
       "source": "Hacker News",
       "published_at": "2018-07-19T16:12:21Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Introduces core SRE concepts of service level indicators, agreements, and objectives.",
+      "tags": [
+        "SRE",
+        "Observability",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "9ee5516a00a4a5feacf515fba9f67662",
@@ -2078,14 +2105,11 @@
       "url": "https://dev.to/pascal_cescato_692b7a8a20/too-cheap-to-be-good-think-again-4nj0",
       "source": "Dev.to",
       "published_at": "2026-06-23T20:38:37Z",
-      "summary": "I replaced aaPanel/OpenLiteSpeed with Caddy and shell scripts and turned the process into a benchmark. Two phases (architecture then code), one external code review. The winning model? Not the one you'd expect.",
+      "summary": "Discusses cost versus quality trade-offs, likely in software or cloud services.",
       "tags": [
-        "ai",
-        "benchmark",
-        "devops",
-        "webdev"
+        "Cloud"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.2
     },
     {
       "id": "98f04e4acea851ba2a6f8c44fd153deb",
@@ -3501,7 +3525,7 @@
       "url": "https://www.reddit.com/r/devops/comments/1uh5qa1/the_state_of_the_job_market_in_2026/",
       "source": "Reddit r/devops",
       "published_at": "2026-06-27T15:32:26+00:00",
-      "summary": "      If your coworker is named Claude and he codes, does it count?  &#32; submitted by &#32;  /u/Complete-Sea6655   [link] &#32; [comments] ",
+      "summary": "      If your coworker is named Claude and he codes, does it count? ps. If you actually want to find a job, I think ijustvibecodedthis.com were hiring.  &#32; submitted by &#32;  /u/Complete-Sea6655   [link] &#32; [comments] ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3523,6 +3547,21 @@
       "published_at": "2026-06-27T14:39:46+00:00",
       "summary": "hi all I built a browser game where you argue with AI on a given challenge/scenario and it rates your responses. right now the scenarios are about devops/engineering, but I am planning to add interview kit, from 0 to hero, etc... how it is different from just using chatgpt: when you ask chatgpt for ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "034a6d406792739f03675332ad87c3d0",
+      "title": "Stop Relying Entirely on Uptime Kuma for Incident Response",
+      "url": "https://dev.to/irinobservability/stop-relying-entirely-on-uptime-kuma-for-incident-response-39fj",
+      "source": "Dev.to",
+      "published_at": "2026-06-25T14:32:45Z",
+      "summary": "Before I get into this, it is not a knock on Uptime Kuma. It's a genuinely amazing, easy-to-use piece...",
+      "tags": [
+        "devops",
+        "linux",
+        "monitoring",
+        "productivity"
+      ],
       "relevance_score": 0.0
     }
   ]
