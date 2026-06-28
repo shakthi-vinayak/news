@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:11:30Z",
+  "generated_at": "2026-06-28T17:25:32Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -187,36 +187,6 @@
       "url": "https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-06-22T09:35:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "717b875a83db66b4078063beba5f01dc",
-      "title": "A public Sentry key is all it takes to hijack Claude Code, Cursor, and Codex",
-      "url": "https://thenewstack.io/agentjacking-sentry-mcp-attack/",
-      "source": "The New Stack",
-      "published_at": "2026-06-21T17:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5a8cce74483032f08cba061740e0023b",
-      "title": "Your agent wants to search like a 2010 quant",
-      "url": "https://thenewstack.io/search-like-2010-quant/",
-      "source": "The New Stack",
-      "published_at": "2026-06-21T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6f183ceb2f933f7164db808136fb963c",
-      "title": "“An agent is an LLM and a harness”: What Nvidia really thinks about OpenClaw",
-      "url": "https://thenewstack.io/nvidia-openclaw-agent-blueprints/",
-      "source": "The New Stack",
-      "published_at": "2026-06-21T15:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -601,40 +571,6 @@
         "CI/CD"
       ],
       "relevance_score": 0.88
-    },
-    {
-      "id": "48c3742fd066a92b365d4daca48e5a8a",
-      "title": "Is DevOps/Infra the next job category AI actually kills?",
-      "url": "https://www.reddit.com/r/devops/comments/1ubves7/is_devopsinfra_the_next_job_category_ai_actually/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-21T17:09:49+00:00",
-      "summary": "I’ve been doing agentic development seriously for about eight months now and I keep thinking about this. Not in the clickbait “robots take our jobs” way. More like… I’m noticing something uncomfortable about my own behavior. I’m a senior engineer. I used to think senior meant you mentor juniors, del",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4d7283c79fc3358a38d000ef53405b6b",
-      "title": "Audit trails for AI agent actions; what does your setup look like?",
-      "url": "https://www.reddit.com/r/devops/comments/1ubrcbw/audit_trails_for_ai_agent_actions_what_does_your/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-21T14:22:54+00:00",
-      "summary": "Increasingly seeing agents (internal automation, Claude-based tooling) calling the same APIs our human users call. Same endpoints, same auth layer. From a compliance/audit perspective this is a problem. When something goes wrong I can't tell from logs:  Whether the caller was a human or an agent Wha",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "393955ec8ed1acd788cb3266be4e4afe",
-      "title": "DNS is weird inside k8s on AWS",
-      "url": "https://dev.to/harishteens/dns-is-weird-inside-k8s-on-aws-570c",
-      "source": "Dev.to",
-      "published_at": "2026-06-21T05:18:46Z",
-      "summary": "A ~6 minute read — just three concepts that, once you know them, change how you reason about DNS...",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "aws"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "7cfd732f8833d307ce126034be610c78",
@@ -3528,6 +3464,61 @@
       "published_at": "2026-06-28T13:49:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "64160562d47d9a0e4ff921dcf171e7b3",
+      "title": "Self-Hosting Prometheus and Grafana for Omnismith (For Now)",
+      "url": "https://dev.to/homeless-coder/self-hosting-prometheus-and-grafana-for-omnismith-for-now-pf9",
+      "source": "Dev.to",
+      "published_at": "2026-06-28T16:05:51Z",
+      "summary": "When building a data-intensive platform, real operational visibility becomes necessary quickly. A...",
+      "tags": [
+        "devops",
+        "architecture",
+        "infrastructure",
+        "programming"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d6da45bc9352cfca8f24eb7d903161d5",
+      "title": "“Bring it to our shop”: Workday’s pitch for keeping AI agents close to your most valuable data",
+      "url": "https://thenewstack.io/workday-ai-inference-guardrails/",
+      "source": "The New Stack",
+      "published_at": "2026-06-28T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aed1c51ebcd09dfeb2db8633570568fb",
+      "title": "Building Identity-Gated Refusal Tiers for AI Security Tools",
+      "url": "https://dev.to/toxsec/building-identity-gated-refusal-tiers-for-ai-security-tools-2hj7",
+      "source": "Dev.to",
+      "published_at": "2026-06-28T14:54:40Z",
+      "summary": "For thirty years the math has favored the attacker. He needs one bug. You have to cover everything,...",
+      "tags": [
+        "security",
+        "ai",
+        "devops",
+        "authentication"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7a3a10a0e67964f8c237ddd686d4f7bf",
+      "title": "Why I still use NGINX over everything else",
+      "url": "https://dev.to/mishansavy/why-i-still-use-nginx-over-everything-else-24hj",
+      "source": "Dev.to",
+      "published_at": "2026-06-27T16:10:32Z",
+      "summary": "People keep recommending Caddy. The config is cleaner, automatic HTTPS, three lines and you're done....",
+      "tags": [
+        "devops",
+        "discuss",
+        "infrastructure",
+        "performance"
+      ],
       "relevance_score": 0.0
     }
   ]
