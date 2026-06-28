@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T09:29:14Z",
+  "generated_at": "2026-06-28T11:57:23Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -619,16 +619,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-06-21T14:22:54+00:00",
       "summary": "Increasingly seeing agents (internal automation, Claude-based tooling) calling the same APIs our human users call. Same endpoints, same auth layer. From a compliance/audit perspective this is a problem. When something goes wrong I can't tell from logs:  Whether the caller was a human or an agent Wha",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e6d7ce11603c4e769cb361894d09b4de",
-      "title": "Migrating ~200 ECS Fargate tasks from Coralogix on a strict $4k budget. What are our best options?",
-      "url": "https://www.reddit.com/r/devops/comments/1ubnsth/migrating_200_ecs_fargate_tasks_from_coralogix_on/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-21T11:34:22+00:00",
-      "summary": "Hey everyone, Senior DevOps engineer at a mid-sized e-commerce company in India here. We’re currently planning a complete overhaul of our observability stack. We need to migrate away from a legacy combination of Coralogix (for logs) and standard CloudWatch, and I’m looking for suggestions on what to",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3518,6 +3508,16 @@
         "monitoring",
         "productivity"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "62106c23d11de01ece06a4d9d04d1a54",
+      "title": "How do you make sure everyone on the team uses the same AI agent setup?",
+      "url": "https://www.reddit.com/r/devops/comments/1uhva98/how_do_you_make_sure_everyone_on_the_team_uses/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-28T11:50:11+00:00",
+      "summary": "Before anything else: this is not a product pitch. I’m genuinely trying to learn how teams are approaching this today, whether through OSS projects, internal tooling, shared repos, review processes, or just good old conventions. How are you managing and aligning agent skills, rules, instructions, pr",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
