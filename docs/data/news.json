@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T17:25:32Z",
+  "generated_at": "2026-06-28T19:45:41Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -555,22 +555,6 @@
       "summary": "Hi all,currently using azure devops for my work. Currently the flows are, we have 1 main pipeline (build-obfuscate-trigger unit test pipelines, etc). I feel like i want to comparmentalize the process, and i think i want to start with the build process. Currently,whenever i want to debug some task in",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "251fab7fb4fc136fccdf2fe789b35cc8",
-      "title": "Some friends wanted to see how I use DigitalOcean. So I built them the smallest real app I could.",
-      "url": "https://dev.to/dimitrovk/some-friends-wanted-to-see-how-i-use-digitalocean-so-i-built-them-the-smallest-real-app-i-could-238l",
-      "source": "Dev.to",
-      "published_at": "2026-06-21T17:30:54Z",
-      "summary": "Shows how a minimal app was built to demonstrate practical cloud deployment and cost awareness.",
-      "tags": [
-        "DevOps",
-        "Cloud",
-        "Kubernetes",
-        "Containers",
-        "CI/CD"
-      ],
-      "relevance_score": 0.88
     },
     {
       "id": "7cfd732f8833d307ce126034be610c78",
@@ -2603,21 +2587,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "4c9a39a3f244120870005537d07e109f",
-      "title": "Some friends wanted to see how I use DigitalOcean. So I built them the smallest real app I could.",
-      "url": "https://dev.to/remdore/some-friends-wanted-to-see-how-i-use-digitalocean-so-i-built-them-the-smallest-real-app-i-could-238l",
-      "source": "Dev.to",
-      "published_at": "2026-06-21T17:30:54Z",
-      "summary": "A couple of friends know I host most of my side projects on DigitalOcean, and lately they've been...",
-      "tags": [
-        "python",
-        "cloud",
-        "devops",
-        "digitalocean"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9ba970afbe5728f8506252905a894de7",
       "title": "Terraform / OpenTofu vs Pulumi",
       "url": "https://www.reddit.com/r/devops/comments/1uf8774/terraform_opentofu_vs_pulumi/",
@@ -3518,6 +3487,31 @@
         "discuss",
         "infrastructure",
         "performance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dc35ae1662a5b40b148f3b101990e664",
+      "title": "What's your favorite AI agent harness/framework, and why?",
+      "url": "https://www.reddit.com/r/devops/comments/1ui4uyi/whats_your_favorite_ai_agent_harnessframework_and/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-28T18:31:59+00:00",
+      "summary": "Curious what everyone here is using these days. • What's your go-to harness/framework? • Why that one over the others?  &#32; submitted by &#32;  /u/Downtown_Length3457   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "434034b919749400914deb324b7973a5",
+      "title": "I Made Claude Code Ding When It's Done (And It Changed My Workflow)",
+      "url": "https://dev.to/anand_rathnas_d5b608cc3de/i-made-claude-code-ding-when-its-done-and-it-changed-my-workflow-5e35",
+      "source": "Dev.to",
+      "published_at": "2026-06-28T01:49:39Z",
+      "summary": "A 5-line config that plays a sound notification when Claude Code finishes a task or needs your input. Tiny hack, massive quality-of-life upgrade.",
+      "tags": [
+        "claudecode",
+        "ai",
+        "productivity",
+        "devops"
       ],
       "relevance_score": 0.0
     }
