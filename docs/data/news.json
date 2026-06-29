@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T16:08:41Z",
+  "generated_at": "2026-06-29T20:15:21Z",
   "items": [
     {
       "id": "aa876394274261de9461e1eec8a624be",
@@ -3404,6 +3404,116 @@
         "devops",
         "automation"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5cab1d18b8a87ecc6f2286adedb48104",
+      "title": "langchain-ai/langchain: langchain-openrouter==0.2.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.5",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-06-29T19:47:29+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "402859072fd05a800fb99818018c3594",
+      "title": "LiteLLM is becoming much more than just an LLM gateway. Has anyone actually deployed its Datadog integration in production?",
+      "url": "https://www.reddit.com/r/devops/comments/1uj1xdi/litellm_is_becoming_much_more_than_just_an_llm/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-29T19:14:38+00:00",
+      "summary": "I've been evaluating LiteLLM's Datadog integration in a test environment, and it looks much more comprehensive than I expected. Beyond basic logging, it includes distributed tracing, custom metrics, LLM observability, cost management, prompt redaction, and latency breakdowns between the gateway and ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9a2d08c5082c2c56317f8a9e60cdcfdd",
+      "title": "ollama/ollama: v0.31.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-06-29T18:50:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a5a1abf5acf014d8b872d2ced664204d",
+      "title": "Started job as azure engineer using azure DevOps, cert worth getting?",
+      "url": "https://www.reddit.com/r/devops/comments/1uj0wu5/started_job_as_azure_engineer_using_azure_devops/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-29T18:37:18+00:00",
+      "summary": "Getting good help from senior engineers. Prior to this job, only had experience with aws and gcp. Used Jenkins and GitHub actions for deployment.  But there’s lots of hands on with azure DevOps which I’ve never used before. Is it worth getting az-400? Or is will it be pretty much useless if I’m bein",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3db34b8b513cc02c31171314459dc0be",
+      "title": "Very new to DevOps with an infrastructure background help!",
+      "url": "https://www.reddit.com/r/devops/comments/1uiyr0x/very_new_to_devops_with_an_infrastructure/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-29T17:18:26+00:00",
+      "summary": "Evening all! Ive worked in IT for 15 years and have always worked on prem, the start of this year I was told to hand over all on prem and BAU work to another team abroad and get ready for my new role, ive recently found out the role is an azure dev ops role in security, its very different to anythin",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "94ef0c430c7ab5c09571e779a0623f65",
+      "title": "The eBPF Re-Platforming Thesis: An Investor’s Due Diligence Guide",
+      "url": "https://www.reddit.com/r/devops/comments/1uiymh7/the_ebpf_replatforming_thesis_an_investors_due/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-29T17:13:53+00:00",
+      "summary": "      eBPF Foundation released their investor due diligence report and there are three key parts that align with what I'm seeing in the market. First is the idea that kernel-level programmability is the strategic control point for infrastructure software and hardware. From the report &quot;The compa",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f17b6435b70f4407927c17ff35b60813",
+      "title": "How are you architecting and deploying AI agents within your company?",
+      "url": "https://www.reddit.com/r/devops/comments/1uixowe/how_are_you_architecting_and_deploying_ai_agents/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-06-29T16:40:15+00:00",
+      "summary": "Hey folks, Our leadership is making a push for the engineering teams to start building autonomous &quot;AI Agent&quot; features directly into our SaaS application. Up until now, our only real interaction with AI has been on the developer side using assistant tools (like Claude Code, Codex, etc.) to ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3a17bd49466be4ecf0fcc0e381191b65",
+      "title": "Building an Offline AI Platform with K3s, Ansible, Argo CD, vLLM, and NVIDIA GPU",
+      "url": "https://dev.to/andygolubev/building-an-offline-ai-platform-with-k3s-ansible-argo-cd-vllm-and-nvidia-gpu-2cbo",
+      "source": "Dev.to",
+      "published_at": "2026-06-28T12:03:56Z",
+      "summary": "Introduction   Running Kubernetes in the cloud is straightforward when every node can reach...",
+      "tags": [
+        "kubernetes",
+        "ansible",
+        "ai",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "512eb49e5c11e65a17fe8d4ceefb5578",
+      "title": "The token is valid, but your headless Claude Code agent just 401'd forever",
+      "url": "https://dev.to/drickon/the-token-is-valid-but-your-headless-claude-code-agent-just-401d-forever-48ip",
+      "source": "Dev.to",
+      "published_at": "2026-06-28T09:03:09Z",
+      "summary": "TL;DR: A static OAuth access token can return HTTP 200 on a raw /v1/messages call at the exact...",
+      "tags": [
+        "claudecode",
+        "llmops",
+        "devops",
+        "debugging"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "248baad3c8dfd12c1acbb979d192cf1c",
+      "title": "ollama/ollama: v0.30.11-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-06-26T06:18:47+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
