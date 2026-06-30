@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T12:23:18Z",
+  "generated_at": "2026-06-30T16:32:41Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -147,16 +147,6 @@
       "url": "https://www.hashicorp.com/blog/whats-new-with-terraform-ansible",
       "source": "HashiCorp Blog",
       "published_at": "2026-06-16T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7ad5c311cf947f6b91f860370becd70c",
-      "title": "n8n-io/n8n: n8n@2.28.0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.0",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-06-23T12:28:04+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -527,16 +517,6 @@
       "url": "https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/",
       "source": "Kubernetes Blog",
       "published_at": "2026-05-13T18:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4016e3c95d8cc3eeb39aa659ae022441",
-      "title": "New in Terraform 1.15: Dynamic sources, variable deprecation, and more",
-      "url": "https://www.hashicorp.com/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more",
-      "source": "HashiCorp Blog",
-      "published_at": "2026-05-13T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1232,16 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e59161b2bf5366158561f63eb26fcf35",
-      "title": "Career discussion, guidance",
-      "url": "https://www.reddit.com/r/devops/comments/1udilzx/career_discussion_guidance/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-23T14:25:09+00:00",
-      "summary": "Hi everyone, I'm a fresher currently in Non-Functional Engineering (NFE) training and wanted some career advice from people already working in DevOps/SRE. So far we've been trained on JMeter, NeoLoad, LoadRunner, Dynatrace basics, distributed tracing, and Grafana is starting soon. From what I've hea",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a92becffbe3a3f87267d97b3bdd35c09",
       "title": "grafana/grafana: 12.4.5",
       "url": "https://github.com/grafana/grafana/releases/tag/v12.4.5",
@@ -1249,31 +1219,6 @@
       "published_at": "2026-06-23T13:13:12+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d5d71ae04b66d92ab7d1d96726eef0d8",
-      "title": "Can DNS become the basis for AI agent identity?",
-      "url": "https://thenewstack.io/can-dns-become-the-basis-for-ai-agent-identity/",
-      "source": "The New Stack",
-      "published_at": "2026-06-23T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "430e274d3cfec3d2bd6f875c487e09df",
-      "title": "Hetzner Doubled Its Prices Again. The AI Memory Crunch Is Why",
-      "url": "https://dev.to/devopsdaily/hetzner-doubled-its-prices-again-the-ai-memory-crunch-is-why-64b",
-      "source": "Dev.to",
-      "published_at": "2026-06-23T12:25:30Z",
-      "summary": "If you run anything on Hetzner, you have probably already seen the notice. As of 08:00 CEST on June...",
-      "tags": [
-        "devops",
-        "linux",
-        "ai",
-        "opensource"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1502,46 +1447,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "aa1a1de9e26f446dffd647067fd203c0",
-      "title": "Nx debuts Polygraph, taking aim at what’s stalling AI coding agents",
-      "url": "https://thenewstack.io/nx-polygraph-synthetic-monorepo-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-06-23T16:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3b405d2249a9adbceb35e816dabaa550",
-      "title": "What Happens When Your AI Agent Gets Stuck in Production?",
-      "url": "https://dev.to/milancharan/what-happens-when-your-ai-agent-gets-stuck-in-production-3327",
-      "source": "Dev.to",
-      "published_at": "2026-06-23T16:16:47Z",
-      "summary": "The most expensive AI agent failures I've seen weren't model failures.  They were silent...",
-      "tags": [
-        "ai",
-        "devops",
-        "opensource",
-        "machinelearning"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "70b0461f88470ca3e0cde6731907ff15",
-      "title": "cuenv: one typed file for your whole project",
-      "url": "https://dev.to/peterj/cuenv-one-typed-file-for-your-whole-project-76a",
-      "source": "Dev.to",
-      "published_at": "2026-06-23T14:45:27Z",
-      "summary": "Most projects don't have a configuration system — they have a pile:  a .env file, a Makefile, a CI workflow, and secrets in a fourth place, none of it validated and all of it slowly drifting apart. cuenv replaces that pile with a single typed env.cue written in CUE. In this overview I'll show you how it validates your config before anything runs, resolves secrets at runtime, runs your tasks as a c",
-      "tags": [
-        "automation",
-        "cicd",
-        "devops",
-        "tooling"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3f9400d672826d55590b3e1e0d4b7d0b",
       "title": "Kure Monitor Troubleshoot",
       "url": "https://www.reddit.com/r/devops/comments/1udw6mu/kure_monitor_troubleshoot/",
@@ -1709,21 +1614,6 @@
         "ai",
         "devops",
         "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "78884dbf1528325be235ef0d98f18e72",
-      "title": "How do you know if your AI agent is working or just burning money?",
-      "url": "https://dev.to/renato_marinho/how-do-you-know-if-your-ai-agent-is-working-or-just-burning-money-9fi",
-      "source": "Dev.to",
-      "published_at": "2026-06-23T09:17:32Z",
-      "summary": "If you aren't monitoring your agentic workflows with telemetry, you are just waiting for a massive API bill to arrive. Learn how AgentOps solves this.",
-      "tags": [
-        "ai",
-        "agents",
-        "observability",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -2468,21 +2358,6 @@
         "programming",
         "tutorial",
         "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c83292b756c43a62be401125b2702e67",
-      "title": "We Keep Our Architecture Rules in the Repo. The AI and the New Hire Read the Same File.",
-      "url": "https://dev.to/mickyarun/we-keep-our-architecture-rules-in-the-repo-the-ai-and-the-new-hire-read-the-same-file-48me",
-      "source": "Dev.to",
-      "published_at": "2026-06-23T13:23:04Z",
-      "summary": "A few weeks ago I watched an agent build a feature beautifully.  Clean code. Tests passed. Did...",
-      "tags": [
-        "ai",
-        "nestjs",
-        "devops",
-        "productivity"
       ],
       "relevance_score": 0.0
     },
@@ -3524,6 +3399,126 @@
       "published_at": "2026-06-30T11:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "707a015d0ca2e3913d87b1260ec3dbed",
+      "title": "AWS launches a desktop for agents",
+      "url": "https://thenewstack.io/aws-workspaces-desktops-for-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-06-30T16:01:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3789bb27fbf92ed4389b8a5851bb7483",
+      "title": "Discover, govern, and scale Azure infrastructure in the AI era",
+      "url": "https://www.hashicorp.com/blog/discover-govern-and-scale-azure-infrastructure-in-the-ai-era",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-06-30T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "472053ad54007587bf8f473efdfd7410",
+      "title": "Harness Adds Autonomous AI Agents to Automate DevOps Workflows",
+      "url": "https://devops.com/harness-adds-autonomous-ai-agents-to-automate-devops-workflows/",
+      "source": "DevOps.com",
+      "published_at": "2026-06-30T15:22:25+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "06b1e9afecd2480c2cd839ce171ccf4e",
+      "title": "AWS just put $1 billion into forward deployed engineers. Here’s why it matters for enterprise teams.",
+      "url": "https://thenewstack.io/aws-forward-deployed-engineering/",
+      "source": "The New Stack",
+      "published_at": "2026-06-30T15:02:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4f3a6964dc5c3562cfce9abac61dde40",
+      "title": "“The harness is where the hard work is”: Harness bets on agents that enterprises can trust in production",
+      "url": "https://thenewstack.io/harness-autonomous-worker-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-06-30T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ae4fd9b661cbf6cda30a422f50cfd951",
+      "title": "Building an uptime monitor in Rust: one binary, two databases, 130K checks/sec per core",
+      "url": "https://dev.to/slima4/building-an-uptime-monitor-in-rust-one-binary-two-databases-130k-checkssec-per-core-5g25",
+      "source": "Dev.to",
+      "published_at": "2026-06-30T14:22:09Z",
+      "summary": "A build story. How Uptimepage runs HTTP/TCP/DNS/TLS checks from multiple regions on a single Rust binary backed by Postgres and ClickHouse.",
+      "tags": [
+        "rust",
+        "clickhouse",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cd859439618b2ae0a9fa4435815a0d5c",
+      "title": "Operating Kubernetes at scale: a few stories from running Amazon EKS",
+      "url": "https://thenewstack.io/eks-kubernetes-etcd-scale/",
+      "source": "The New Stack",
+      "published_at": "2026-06-30T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f51f83eee9a31cc68f45b7d41b45d3a6",
+      "title": "proxy_pass with netcat: Pipes, FIFOs, and the Art of Process Plumbing",
+      "url": "https://dev.to/medunes/proxypass-with-netcat-pipes-fifos-and-the-art-of-process-plumbing-nje",
+      "source": "Dev.to",
+      "published_at": "2026-06-30T12:56:55Z",
+      "summary": "I have been working on this nice iximiuz Labs challenge, which might sound simple at first: you have...",
+      "tags": [
+        "linux",
+        "networking",
+        "kernel",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2ce457e0f25d6d54edb1507e3677892c",
+      "title": "Why Your Team Feels Slow (Even If Everyone Is Good)",
+      "url": "https://dev.to/gavincettolo/why-your-team-feels-slow-even-if-everyone-is-good-570e",
+      "source": "Dev.to",
+      "published_at": "2026-06-30T07:31:00Z",
+      "summary": "The engineering manager sat across from me with a look I've seen too many times.  \"I don't understand...",
+      "tags": [
+        "productivity",
+        "career",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "afb78402b8e6732f0574e456845c509b",
+      "title": "Building an Async Job Platform with BullMQ, Socket.io, and Webhooks",
+      "url": "https://dev.to/cypher682/building-an-async-job-platform-with-bullmq-socketio-and-webhooks-2m55",
+      "source": "Dev.to",
+      "published_at": "2026-06-29T19:27:10Z",
+      "summary": "NodeFlow is an asynchronous job orchestration and webhook delivery API built with Node.js,...",
+      "tags": [
+        "node",
+        "typescript",
+        "backend",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
