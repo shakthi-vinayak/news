@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T18:09:37Z",
+  "generated_at": "2026-07-01T21:48:43Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -607,9 +607,15 @@
       "url": "https://www.gitpod.io/blog/we-are-leaving-kubernetes",
       "source": "Hacker News",
       "published_at": "2024-11-04T14:41:28Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores why some teams abandon Kubernetes despite its benefits.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "ServiceMesh",
+        "SRE",
+        "Observability"
+      ],
+      "relevance_score": 0.83
     },
     {
       "id": "d29311c4eb383d3f9952e701ac9e775c",
@@ -627,9 +633,15 @@
       "url": "https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/",
       "source": "Hacker News",
       "published_at": "2023-09-10T20:07:12Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores lessons from the Knightmare incident highlighting DevOps pitfalls.",
+      "tags": [
+        "DevOps",
+        "SRE",
+        "Cloud",
+        "Security",
+        "Observability"
+      ],
+      "relevance_score": 0.92
     },
     {
       "id": "481a9e99c97db012dbac59a3c40a32d1",
@@ -637,9 +649,15 @@
       "url": "https://blog.massdriver.cloud/posts/devops-is-bullshit/",
       "source": "Hacker News",
       "published_at": "2023-06-16T10:00:42Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Discusses why Kubernetes remains central despite criticism in modern DevOps.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Cloud",
+        "Container",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "403515ab9aed8cbe9811fa6b21ee4092",
@@ -667,9 +685,14 @@
       "url": "https://blog.massdriver.cloud/devops-is-bullshit",
       "source": "Hacker News",
       "published_at": "2022-10-20T14:16:22Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Examines security concerns raised by LastPass about DevOps practices.",
+      "tags": [
+        "Security",
+        "DevOps",
+        "Containers",
+        "Observability"
+      ],
+      "relevance_score": 0.83
     },
     {
       "id": "448565d2998e2ae18dd819a237eb256b",
@@ -687,9 +710,15 @@
       "url": "https://www.jeremybrown.tech/8-kubernetes-is-a-red-flag-signalling-premature-optimisation/",
       "source": "Hacker News",
       "published_at": "2022-07-04T07:27:03Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Discusses premature optimization with Kubernetes and best practices.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "Security",
+        "MLOps",
+        "CI/CD"
+      ],
+      "relevance_score": 0.76
     },
     {
       "id": "f9ac267abcb3170b592dae485bd65374",
@@ -707,9 +736,16 @@
       "url": "https://news.ycombinator.com/item?id=31580763",
       "source": "Hacker News",
       "published_at": "2022-06-01T12:19:43Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Analyzes job market trends questioning the value of DevOps roles.",
+      "tags": [
+        "DevOps",
+        "SRE",
+        "CI/CD",
+        "MLOps",
+        "Terraform",
+        "CI/CD"
+      ],
+      "relevance_score": 0.78
     },
     {
       "id": "0d7ac5ff07b77845fe92655fead4c709",
@@ -777,9 +813,15 @@
       "url": "https://www.nomadproject.io/docs/nomad-vs-kubernetes",
       "source": "Hacker News",
       "published_at": "2021-10-15T09:00:17Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Compares Nomad and Kubernetes, highlighting differences in architecture and use cases.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "DevOps",
+        "Container",
+        "SRE"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "69a17ec62818aa05133e1ccca6190b96",
@@ -797,9 +839,15 @@
       "url": "https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF",
       "source": "Hacker News",
       "published_at": "2021-08-03T15:55:43Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores Kubernetes' role in modern personal projects and development.",
+      "tags": [
+        "DevOps",
+        "Kubernetes",
+        "AI",
+        "Containers",
+        "CI/CD"
+      ],
+      "relevance_score": 0.88
     },
     {
       "id": "b6dc0ea92ae50b448c0061e77cfc9c75",
@@ -847,9 +895,15 @@
       "url": "https://k8s.af",
       "source": "Hacker News",
       "published_at": "2021-02-11T19:38:06Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Analyses real-world Kubernetes failure stories to uncover common issues.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "SRE",
+        "ErrorAnalysis",
+        "DevOps"
+      ],
+      "relevance_score": 0.88
     },
     {
       "id": "774e01aa0b6c9e328c8e0f6ac7d02338",
@@ -867,9 +921,15 @@
       "url": "https://blog.coinbase.com/container-technologies-at-coinbase-d4ae118dcb6c",
       "source": "Hacker News",
       "published_at": "2020-06-08T19:50:46Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explains why Kubernetes remains popular despite competition.",
+      "tags": [
+        "DevOps",
+        "Kubernetes",
+        "Cloud",
+        "SRE",
+        "Containers"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "954558d1b435ef89524578ffaee24112",
@@ -877,9 +937,15 @@
       "url": "https://stackoverflow.blog/2020/05/29/why-kubernetes-getting-so-popular/",
       "source": "Hacker News",
       "published_at": "2020-05-29T19:25:40Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Analyzes the reasons behind Kubernetes adoption trends.",
+      "tags": [
+        "Cloud",
+        "Kubernetes",
+        "AI",
+        "MLOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.78
     },
     {
       "id": "9dc231c8e77b4472d1be5a5f7a048368",
@@ -887,9 +953,15 @@
       "url": "https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/",
       "source": "Hacker News",
       "published_at": "2020-05-17T11:48:58Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores frequent pitfalls when adopting Kubernetes, offering practical lessons for DevOps teams.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Cloud",
+        "SRE",
+        "Observability"
+      ],
+      "relevance_score": 0.92
     },
     {
       "id": "543f30e227ce7854f6cf60fd27347f58",
@@ -907,9 +979,15 @@
       "url": "https://pythonspeed.com/articles/dont-need-kubernetes/",
       "source": "Hacker News",
       "published_at": "2020-03-05T05:20:38Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Addresses common misconceptions about Kubernetes usage.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Cloud",
+        "SRE",
+        "Terraform"
+      ],
+      "relevance_score": 0.83
     },
     {
       "id": "4959e94fcfc0b438547e841faf625db6",
@@ -917,9 +995,14 @@
       "url": "https://cloud.google.com/kubernetes-engine/pricing",
       "source": "Hacker News",
       "published_at": "2020-03-04T17:20:56Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Covers pricing updates and cluster management fees for Kubernetes.",
+      "tags": [
+        "Cloud",
+        "Kubernetes",
+        "Pricing",
+        "Security"
+      ],
+      "relevance_score": 0.76
     },
     {
       "id": "36ac993876cec2fa7438a27a1abca440",
@@ -927,9 +1010,15 @@
       "url": "https://tuananh.net/2020/02/20/the-story-behind-my-talk-cloud-cost-optimization-at-scale/",
       "source": "Hacker News",
       "published_at": "2020-02-25T02:25:27Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Examines the role of Kubernetes in cost optimization via spot instances.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "CostOptimization",
+        "Terraform",
+        "CI/CD"
+      ],
+      "relevance_score": 0.91
     },
     {
       "id": "331393a3832f57002a31c3b5715adb62",
@@ -947,9 +1036,15 @@
       "url": "https://www.darkcoding.net/software/a-developer-goes-to-a-devops-conference/",
       "source": "Hacker News",
       "published_at": "2019-09-28T15:43:04Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Debates whether DevOps is truly effective or a myth in today's landscape.",
+      "tags": [
+        "DevOps",
+        "SRE",
+        "Cloud",
+        "Service Mesh",
+        "AI"
+      ],
+      "relevance_score": 0.76
     },
     {
       "id": "ca5548065aa9b25d7ca1ef8ead49797a",
@@ -957,9 +1052,15 @@
       "url": "https://github.com/eon01/kubernetes-workshop",
       "source": "Hacker News",
       "published_at": "2019-09-19T22:04:14Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Guides beginners through a comprehensive Kubernetes workshop.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Containers",
+        "Education",
+        "PlatformEngineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "2103d191869e61005c9ecc67ff850245",
@@ -977,9 +1078,15 @@
       "url": "https://matthias-endler.de/2019/maybe-you-dont-need-kubernetes/",
       "source": "Hacker News",
       "published_at": "2019-03-22T21:18:44Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Debates whether Kubernetes is necessary for modern infrastructure.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Security",
+        "PlatformEngineering",
+        "MLOps"
+      ],
+      "relevance_score": 0.78
     },
     {
       "id": "1824b5a0914f7fce6a2413c124715a5c",
@@ -1007,9 +1114,15 @@
       "url": "https://status.cloud.google.com/incident/container-engine/18005",
       "source": "Hacker News",
       "published_at": "2018-11-11T20:47:57Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Discusses recent service disruptions and management changes for Google Kubernetes Engine.",
+      "tags": [
+        "Cloud",
+        "Kubernetes",
+        "DevOps",
+        "SRE",
+        "Observability"
+      ],
+      "relevance_score": 0.92
     },
     {
       "id": "a2ba6cc16df7d0e8322688c4da3cc398",
@@ -1017,9 +1130,14 @@
       "url": "http://www.doxsey.net/blog/kubernetes--the-surprisingly-affordable-platform-for-personal-projects",
       "source": "Hacker News",
       "published_at": "2018-10-01T11:30:12Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Provides practical guidance for securing Kubernetes clusters.",
+      "tags": [
+        "Security",
+        "Kubernetes",
+        "Observability",
+        "Service Mesh"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "da66e6d373e78078163cccdd3d92d6eb",
@@ -1057,9 +1175,15 @@
       "url": "https://gravitational.com/blog/kubernetes-release-cycle/#",
       "source": "Hacker News",
       "published_at": "2018-02-01T19:48:19Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Highlights the continuous learning required to stay current with Kubernetes.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Cloud",
+        "Containers",
+        "AI"
+      ],
+      "relevance_score": 0.84
     },
     {
       "id": "1bacfa8157b2e74a2baf4623a4bfc6dc",
@@ -1077,9 +1201,14 @@
       "url": "http://kubernetesbyexample.com/",
       "source": "Hacker News",
       "published_at": "2017-05-31T14:32:24Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Highlights Kubernetes' comparison to older complex systems like Multics.",
+      "tags": [
+        "Cloud",
+        "Kubernetes",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.99
     },
     {
       "id": "97f466c27d2c989c99b672d727e25637",
@@ -1192,16 +1321,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b2442f0f768cb2a007ed1c7b493889ac",
-      "title": "To all former DevOps Engineers",
-      "url": "https://www.reddit.com/r/devops/comments/1uel9gr/to_all_former_devops_engineers/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-24T18:13:29+00:00",
-      "summary": "What made you switch from DevOps to your current role? Do you regret leaving DevOps or are you happy that you made the switch? Genuinely interested if other roles are worth getting into.  &#32; submitted by &#32;  /u/Noisy_Farts   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "759ba07d73d78cc1d77e6615dd518c52",
       "title": "hashicorp/terraform: v1.15.7",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.7",
@@ -1217,26 +1336,6 @@
       "url": "https://www.hashicorp.com/blog/advancing-ai-agent-security-in-vault",
       "source": "HashiCorp Blog",
       "published_at": "2026-06-24T04:12:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4f11536a2a95d60d1b1bb74486e1163b",
-      "title": "OpenAI wants to claim more of the AI stack with Jalapeño, its first custom chip",
-      "url": "https://thenewstack.io/openai-jalapeno-custom-chip/",
-      "source": "The New Stack",
-      "published_at": "2026-06-24T20:55:13+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6739360ec97fbbcd2ab49e71d80c2bca",
-      "title": "Will it Mythos? One coder’s verdict on Anthropic’s blend of debugging",
-      "url": "https://thenewstack.io/will-it-mythos-benchmark/",
-      "source": "The New Stack",
-      "published_at": "2026-06-24T20:51:49+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1288,26 +1387,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-06-24T23:53:20+00:00",
       "summary": "I’m currently pursuing a DevOps career and already have RHCSA and RHCE, with CKA coming soon. I’m a bit hesitant about what to do next between AWS SAA and Terraform Associate. I’m also learning through KodeKloud (currently on the GitHub Actions course) and have completed a few basic projects using t",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3b3a15b17ad9fa1ee1267b3188f2f084",
-      "title": "Got GLM-5.2 + MTP speculative decode running on 4× DGX Spark (GB10) — and the build piece the public recipe is missing",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ueqfzl/got_glm52_mtp_speculative_decode_running_on_4_dgx/",
-      "source": "Reddit r/LocalLLaMA",
-      "published_at": "2026-06-24T21:23:27+00:00",
-      "summary": "TL;DR: the recipe's image-build mods aren't actually public – I reconstructed them from the public kernels (with Claude) – and you have to build vLLM at the author's exact pinned ref or the real AWQ weights crash on load. Running now at ~9.4 tok/s on my own 4× GB10. Saw a link on X to CosmicRaisins'",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d99ea71f54f22533fdb578fdaf75cef1",
-      "title": "Do cloud chatbot's system prompts make them stupider?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uep8o5/do_cloud_chatbots_system_prompts_make_them/",
-      "source": "Reddit r/LocalLLaMA",
-      "published_at": "2026-06-24T20:38:30+00:00",
-      "summary": "When I am talking with Chat GPT or Claude about abstract concepts, I am often surprised by how they seem kind of dumb... like they aren't benefitting from their extra parameters over top open models like Kimi or GLM. In fact they often seem stupider than these open models that I run locally in the w",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3146,6 +3225,76 @@
       "url": "https://www.hashicorp.com/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch",
       "source": "HashiCorp Blog",
       "published_at": "2026-06-30T07:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fb60e23d8e952b9d42ecfa86bf69140c",
+      "title": "Where do experienced DevOps engineers find legitimate remote jobs these days?",
+      "url": "https://www.reddit.com/r/devops/comments/1uky12l/where_do_experienced_devops_engineers_find/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-01T21:03:41+00:00",
+      "summary": "Hi everyone, I have experience with Linux, Python, Docker, Terraform, GitHub Actions, SQL, and application/production support. Most of my applications through traditional job portals( naukri, LinkedIn) haven't been very successful. For those already working in DevOps, where do you usually find genui",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ad63965dbbda03c698006b7976553c1d",
+      "title": "New to DevOps – What Should I Learn Next?",
+      "url": "https://www.reddit.com/r/devops/comments/1ukxlyb/new_to_devops_what_should_i_learn_next/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-01T20:48:02+00:00",
+      "summary": "Hi everyone, I’m new to the DevOps world and have recently started my learning journey. So far, I’ve learned: Docker Git GitHub GitLab Now I’m a bit confused about what to learn next. There are so many technologies and roadmaps available that it’s hard to know what to prioritize. If you were startin",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ad87d26e06f224b708caea21e76cfb05",
+      "title": "How to deploy it on cloud",
+      "url": "https://www.reddit.com/r/devops/comments/1ukxcwf/how_to_deploy_it_on_cloud/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-01T20:38:38+00:00",
+      "summary": "Hello guys Sorry for that long post but I need your help and expertise I am still learning  I have a very huge application that have these dockerized components - Nodejs web app - API application - clickhouse - neo4j - posgresql - redis - Kafka - minio s3 - zookeeper - 3 different data prosessing co",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2f613726a0b3b94332017734cf67841c",
+      "title": "Cordyceps flaw pattern is more proof CI/CD is part of the attack surface",
+      "url": "https://thenewstack.io/cordyceps-cicd/",
+      "source": "The New Stack",
+      "published_at": "2026-07-01T20:29:58+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a94fc7b7f4acf094aa7d8bef03088a1e",
+      "title": "I don't wanna use bicep",
+      "url": "https://www.reddit.com/r/devops/comments/1ukwhn0/i_dont_wanna_use_bicep/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-01T20:06:39+00:00",
+      "summary": "We have been an AWS-only shop for a long time and have always used Terraform. We took on an Azure project a bit ago. Small, uncomplicated. I tried to use Bicep then eventually switched back to Terraform. It's fine. We now have a project coming in that wants to use Azure and is quite a bit more invol",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2e4c9034cd7cc84fc9a38d65377ad77e",
+      "title": "hashicorp/terraform: v1.16.0-alpha20260701",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260701",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-07-01T19:49:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "259e3e9ed86e670000202ea24912ea6a",
+      "title": "Reliability Comes From the System, Not the Agent",
+      "url": "https://devops.com/reliability-comes-from-the-system-not-the-agent/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-01T18:56:42+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
