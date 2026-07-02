@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T12:19:10Z",
+  "generated_at": "2026-07-02T16:13:36Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -1247,71 +1247,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "4385c67224fac2147bdceddffb0269d7",
-      "title": "Containers and Internal Certificate Authorities",
-      "url": "https://www.reddit.com/r/devops/comments/1ufccn4/containers_and_internal_certificate_authorities/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-25T14:54:52+00:00",
-      "summary": "Hi, We are in the process of deploying an internal PKI, and as such issuing our in house Certificate Authority. One problem which have arisen is how to handle this inside of containers and I'm curious to see how the folks in this subreddit handled it. I've asked this question to a couple of LLMs but",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c2aa7db7c18f6ddcda988f2f7a096e94",
-      "title": "Humanizing Artificial Intelligence for SRE Teams: Reducing Alert Fatigue With Smarter AI Guidance",
-      "url": "https://dev.to/jjoyneriv/humanizing-artificial-intelligence-for-sre-teams-reducing-alert-fatigue-with-smarter-ai-guidance-3411",
-      "source": "Dev.to",
-      "published_at": "2026-06-25T14:27:13Z",
-      "summary": "The pager goes off at 3:11 a.m. It's the fifth time tonight, and it's the same alert: HighMemoryUsage...",
-      "tags": [
-        "sre",
-        "devops",
-        "ai",
-        "observability"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c91922de319683230c190c0a39a5dec5",
-      "title": "Transitioning from 6.5 years in IT Infra to DevOps. I built an end-to-end GitOps pipeline on Azure & some Python automation. Looking for architectural roasts.",
-      "url": "https://www.reddit.com/r/devops/comments/1ufbbux/transitioning_from_65_years_in_it_infra_to_devops/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-25T14:17:09+00:00",
-      "summary": "​Hey everyone, ​I’ve spent the last 6.5+ years deep in traditional IT infrastructure—managing servers, troubleshooting production environments, and obsessing over strict uptime. Over the last several months, I’ve been pivoting into Cloud/DevOps to learn how to build and automate from scratch. ​Inste",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8a8c9d409bee612bcf56597ddf11b56d",
-      "title": "Who's responsible for Fastlane, DevOps or the mobile devs",
-      "url": "https://www.reddit.com/r/devops/comments/1ufb53e/whos_responsible_for_fastlane_devops_or_the/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-25T14:10:11+00:00",
-      "summary": "I've played a bit with Fastlane solo, but I'm wondering how it normally plays out at larger companies. Do the mobile devs handle the Fastlane scripts, or does it become a DevOps responsibility? Got to love writing Ruby just for releases...  &#32; submitted by &#32;  /u/ZMech   [link] &#32; [comments",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d44bc7f918cb025d8f04ab3a42585bed",
-      "title": "Agent Toolkit for AWS includes 20+ agent skills, but your agent might not load them without this one file",
-      "url": "https://thenewstack.io/aws-agent-toolkit-rules-file/",
-      "source": "The New Stack",
-      "published_at": "2026-06-25T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "969b3967e367ecb4dc5ce9769542c57d",
-      "title": "DataDog alert(monitors) grouping",
-      "url": "https://www.reddit.com/r/devops/comments/1ufaina/datadog_alertmonitors_grouping/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-25T13:46:37+00:00",
-      "summary": "Hello! I've moved to company that is using DataDog for storing logs, monitoring etc. Its not really that used in my team, so i tasked myself with some edits and showing possibilities. I'm coming from company where i have used Grafana for monitoring and alerting, so i'm used to the system that grafan",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "8e261516ff82609d2b2ea692af1c93c2",
       "title": "Upcoming DevOps System Design Round – What Should I Expect?",
       "url": "https://www.reddit.com/r/devops/comments/1ufhxln/upcoming_devops_system_design_round_what_should_i/",
@@ -1349,20 +1284,6 @@
       "published_at": "2026-06-25T17:02:22+00:00",
       "summary": "      Hello People, I'm looking for a Genuine Study partner for learning devops. I don't Actually Study things by reading books. I Totally learn things by doing them practically.  So if anyone goes with it, We'll be a great study partner:) We Can Develop a Great thing together. Looking Forward to it",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9665484e9ba701503f534b6713f8e60f",
-      "title": "-hda vs virtio-blk: Match the Disk Bus to the Guest Image",
-      "url": "https://dev.to/krjakbrjak/-hda-vs-virtio-blk-match-the-disk-bus-to-the-guest-image-1doc",
-      "source": "Dev.to",
-      "published_at": "2026-06-25T14:08:19Z",
-      "summary": "An interesting problem I ran into recently: qcontroller had been loading Ubuntu 22.04-25.04 images...",
-      "tags": [
-        "devops",
-        "qemu",
-        "virtualization"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2113,21 +2034,6 @@
       "published_at": "2026-06-29T12:23:32+00:00",
       "summary": "Hey folks, We’re planning to migrate a SQL Server (Web Edition, on-prem) to a new server, and I’m trying to figure out the best approach with as little downtime as possible. DB is around ~30GB, supporting a web app with moderate write and read load. We also have ~80 SQL Agent/background jobs, but th",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "08a086c750ccfd3f91fef0217fede95c",
-      "title": "AI Agents Can Ship to Production: A Deployment Case Study",
-      "url": "https://dev.to/nucleusos/ai-agents-can-ship-to-production-a-deployment-case-study-43ac",
-      "source": "Dev.to",
-      "published_at": "2026-06-25T14:25:02Z",
-      "summary": "How a single markdown file let an AI agent deploy a Flutter app to App Store and Google Play from terminal — no Xcode, no Play Console, no CI/CD pipeline.",
-      "tags": [
-        "ai",
-        "flutter",
-        "devops",
-        "automation"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3271,6 +3177,51 @@
         "terraform",
         "aws",
         "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6ba9a6cbc74857b6cdd8f5b498fe18d8",
+      "title": "anyone lose the reasoning behind an ai-generated terraform/pipeline change after the session's gone",
+      "url": "https://www.reddit.com/r/devops/comments/1ulm2o6/anyone_lose_the_reasoning_behind_an_aigenerated/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-02T15:52:51+00:00",
+      "summary": "had an annoying moment last week — had claude walk me through restructuring part of a ci pipeline, made a few calls along the way (why we skip caching on this stage, why the deploy step is ordered like it is) and then the session died before i wrote any of it down anywhere. six months from now someo",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7b0b0378ab15b031ce9cc9818d2a4f1a",
+      "title": "Where to learn actual system design?",
+      "url": "https://www.reddit.com/r/devops/comments/1ulhurm/where_to_learn_actual_system_design/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-02T13:10:11+00:00",
+      "summary": "Hi I'm a DevOps with 4+ years of experience and even though I consider myself I'm having a good knowledge, I realized I need to learn system design in an actual production way Like what stack and architecture to use in a specific case Where do I learn that? Do you have any resources for it?  &#32; s",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "caafbf3ea617fa8b24c6602a4453a1ca",
+      "title": "Why traditional CI/CD fails for LLMs (and the release gates we built to fix it)",
+      "url": "https://thenewstack.io/why-cicd-fails-llms/",
+      "source": "The New Stack",
+      "published_at": "2026-07-02T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4f7dd1f1e2077f4c6707a26237cf3ddc",
+      "title": "How I Pushed a Critical Update to Every Company Branch Without Touching a Single Machine (Electron Auto-Update Deep Dive)",
+      "url": "https://dev.to/vinniharu/how-i-pushed-a-critical-update-to-every-company-branch-without-touching-a-single-machine-electron-4pk1",
+      "source": "Dev.to",
+      "published_at": "2026-07-02T04:30:36Z",
+      "summary": "A few months ago I built an internal desktop tool for my company using Electron. It runs on machines...",
+      "tags": [
+        "electron",
+        "devops",
+        "javascript",
+        "node"
       ],
       "relevance_score": 0.0
     }
