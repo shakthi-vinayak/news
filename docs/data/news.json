@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T19:48:27Z",
+  "generated_at": "2026-07-02T21:22:19Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -567,16 +567,6 @@
       "url": "https://devblogs.microsoft.com/devops/axios-npm-supply-chain-compromise-guidance-for-azure-pipelines-customers/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-04-24T10:40:43+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "246189e37e2ac0fa5955b5a5df549863",
-      "title": "Automating Incident Investigation with AWS DevOps Agent and Salesforce MCP Server",
-      "url": "https://aws.amazon.com/blogs/devops/automating-incident-investigation-with-aws-devops-agent-and-salesforce-mcp-server/",
-      "source": "AWS Blog",
-      "published_at": "2026-04-22T17:03:51+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1248,16 +1238,6 @@
       "source": "HashiCorp Blog",
       "published_at": "2026-06-25T22:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "73ef254ede0d80817fc33bf084483a5f",
-      "title": "DevOps culture stuff",
-      "url": "https://www.reddit.com/r/devops/comments/1ufm9kn/devops_culture_stuff/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-25T20:55:14+00:00",
-      "summary": "I know that DevOps has become a role now and I'm cool with that. There are a typical set of tasks we do that employers need done, so why not? But what has become of the culture part of DevOps? Shift left. Fail fast. Break down silos. Etc. Have we achieved all those things and so we don't need to tal",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3353,6 +3333,36 @@
         "mcp",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8cde59ea8d947a9d38d37f657f15dc20",
+      "title": "I built a free anonymous Docker registry where the tag is the TTL - push ocihub.com/myapp:1h and it deletes itself an hour later",
+      "url": "https://www.reddit.com/r/devops/comments/1ulusn3/i_built_a_free_anonymous_docker_registry_where/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-02T21:14:40+00:00",
+      "summary": "Passing images between CI jobs always annoyed me: tarball artifacts are slow. So I built ocihub.com, the tag sets the lifetime: docker push ocihub.com/myapp:1h No signup, no API keys, works with docker.  &#32; submitted by &#32;  /u/Arsalanse   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "00e7ea88a4074acb4bf73449ca69636d",
+      "title": "“AI contributions are demoralizing”: Godot bans coding agents to save its mentoring model",
+      "url": "https://thenewstack.io/godot-bans-ai-coding-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-07-02T20:31:26+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "67025f424fa09d17e8b23688216faee1",
+      "title": "Built a curated list of official DevOps / Cloud / SRE MCP servers and agent skills",
+      "url": "https://www.reddit.com/r/devops/comments/1ulsqih/built_a_curated_list_of_official_devops_cloud_sre/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-02T19:56:04+00:00",
+      "summary": "Hi folks, I’ve been collecting and organizing official MCP servers, agent skills, and agent toolkits for DevOps, cloud, platform engineering, SRE, security, IaC, observability, and diagramming workflows. Repo: https://github.com/DevOpsAIguru123/awesome-agentic-devops The goal is to make it easier to",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
