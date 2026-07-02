@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T21:22:19Z",
+  "generated_at": "2026-07-02T23:20:33Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -1222,16 +1222,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e59a83563a05c2e9516a82cc89b5064d",
-      "title": "Jr DevOps and AI",
-      "url": "https://www.reddit.com/r/devops/comments/1ufo3rb/jr_devops_and_ai/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-25T22:05:53+00:00",
-      "summary": "Hey guys, lately I've been feeling pretty down because I can't really do anything without AI, can't do a simple ticket. Did my Bachelor's with AI, didn't even need to really think that hard for any project, did my first year of my Master's with AI It's my first year working as a DevOps/System Engine",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "32028935ffa16ca981186119502b3fe9",
       "title": "Deploy Boundary on Kubernetes with official Helm charts",
       "url": "https://www.hashicorp.com/blog/deploy-boundary-on-kubernetes-with-official-helm-charts",
@@ -1598,16 +1588,6 @@
       "source": "Reddit r/LocalLLaMA",
       "published_at": "2026-06-26T01:41:51+00:00",
       "summary": "Sometimes I'd prefer chilling on the couch and learning instead of reading. I've searched on YouTube and most seem like clickbait and slop.  Thanks   &#32; submitted by &#32;  /u/6jarjar6   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a9512d17cc8cb602e421e2a2033518fc",
-      "title": "[Research] JetSpec: Speculative Decoding with Parallel Tree Drafting Enables up to 9.64x Lossless LLM Inference Speedup with more than 1000TPS",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ufntl5/research_jetspec_speculative_decoding_with/",
-      "source": "Reddit r/LocalLLaMA",
-      "published_at": "2026-06-25T21:55:02+00:00",
-      "summary": "      We find speculative decoding can push LLM generation latency to extreme by co-optimizing drafting cost and drafting quality with causal parallel tree drafting. JetSpec reaches up to 9.64× end-to-end speedup on MATH-500 and 4.58× on open-ended chat while keeping lossless. With CUDA graph and ke",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3362,6 +3342,41 @@
       "source": "Reddit r/devops",
       "published_at": "2026-07-02T19:56:04+00:00",
       "summary": "Hi folks, I’ve been collecting and organizing official MCP servers, agent skills, and agent toolkits for DevOps, cloud, platform engineering, SRE, security, IaC, observability, and diagramming workflows. Repo: https://github.com/DevOpsAIguru123/awesome-agentic-devops The goal is to make it easier to",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e5eb2b9ddce78fc29fe5c0d0f04758a7",
+      "title": "When AI Agents Get Production Access: The Next Big DevOps Risk",
+      "url": "https://devops.com/when-ai-agents-get-production-access-the-next-big-devops-risk/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-02T22:40:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "05c8cd2e147b57600e35db0886b5563a",
+      "title": "PamStealer: the macOS stealer that checks your password through PAM before stealing it",
+      "url": "https://dev.to/kkierii/pamstealer-the-macos-stealer-that-checks-your-password-through-pam-before-stealing-it-4abj",
+      "source": "Dev.to",
+      "published_at": "2026-07-02T22:09:52Z",
+      "summary": "Someone double-clicks what they think is Maccy, a clipboard manager, and gets a macOS password...",
+      "tags": [
+        "security",
+        "cybersecurity",
+        "devops",
+        "vulnerabilities"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "656dd74f9cf6ddaebb40bb7671510fa7",
+      "title": "Vendoring images and charts",
+      "url": "https://www.reddit.com/r/devops/comments/1ulvojh/vendoring_images_and_charts/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-02T21:49:02+00:00",
+      "summary": "I started working on a tool that makes it easy to vendor images and charts for Kubernetes clusters and docker-compose setups. In my work I ran into issues with third party charts / chart versions disappearing from website and images being deleted from registries or rate limits suddenly preventing ac",
       "tags": [],
       "relevance_score": 0.0
     }
