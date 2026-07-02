@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T09:32:09Z",
+  "generated_at": "2026-07-02T12:19:10Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -1222,52 +1222,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "9ba970afbe5728f8506252905a894de7",
-      "title": "Terraform / OpenTofu vs Pulumi",
-      "url": "https://www.reddit.com/r/devops/comments/1uf8774/terraform_opentofu_vs_pulumi/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-25T12:09:33+00:00",
-      "summary": "You have a chance to plan and implement IaC on a project from scratch  In what case you will choose Pulumi over Terraform/OpenTofu? My thoughts about this: 1. Pulumi gives possibility to manage more complex logic in infra, conditions, loops, reusable 2. More human readable (compare to HCL), good for",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6b3e3132645b2a10f5e59b25205bae41",
       "title": "Building a Cluster-Aware AI Agent with Kubernetes, Argo CD, and GitOps",
       "url": "https://www.cncf.io/blog/2026/06/25/building-a-cluster-aware-ai-agent-with-kubernetes-argo-cd-and-gitops/",
       "source": "CNCF Blog",
       "published_at": "2026-06-25T11:25:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9264f9734affbe51c43b4f24c19c80b9",
-      "title": "Think to self-hosted Grafana OnCall but it's archived",
-      "url": "https://www.reddit.com/r/devops/comments/1uf6x04/think_to_selfhosted_grafana_oncall_but_its/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-25T11:05:22+00:00",
-      "summary": "Who's still running Grafana OnCall OSS after archive? I'm think about self-hosted Grafana OnCall, but it's archived now. It's a good idea to use Grafana OnCall?  &#32; submitted by &#32;  /u/Mark_Mew   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e131f84af76e66b08a8ac582d54cdffe",
-      "title": "n8n-io/n8n: n8n@2.28.2",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.28.2",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-06-25T10:31:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "30ae0a79f082964d311297230ade8cc2",
-      "title": "Certificate renewal and monitoring",
-      "url": "https://www.reddit.com/r/devops/comments/1uf5wh3/certificate_renewal_and_monitoring/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-25T10:08:46+00:00",
-      "summary": "For those who are not running in Kubernetes and have something to manage your SSL certificate renewals, what are you using? Certbot + Let's Encrypt? Windows guys, WinAcme? How are you monitoring renewal dates? I know blackbox exporter does a good job out of the box. Thanks  &#32; submitted by &#32; ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3135,14 +3095,14 @@
       "url": "https://dev.to/ferztyle/kubernetes-resource-requests-and-limits-explained-scheduling-throttling-and-oomkill-590e",
       "source": "Dev.to",
       "published_at": "2026-07-02T01:11:20Z",
-      "summary": "Explains Kubernetes resource requests and limits for scheduling and stability.",
+      "summary": "This is part of the Platform engineering with Go series: a growing collection of posts on Kubernetes,...",
       "tags": [
-        "Kubernetes",
-        "Cloud",
-        "Containerization",
-        "Observability"
+        "devops",
+        "k8s",
+        "kubernetes",
+        "sre"
       ],
-      "relevance_score": 0.76
+      "relevance_score": 0.0
     },
     {
       "id": "a7bb3aa2ede0d4412102285f8a0ba5c0",
@@ -3232,6 +3192,86 @@
       "published_at": "2026-07-02T07:28:12+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0da9b6a59ef7f8aa35bdc79f72e0dea6",
+      "title": "Does anyone actually use Gartner's quadrant when picking CI/CD tools?",
+      "url": "https://www.reddit.com/r/devops/comments/1uldxl2/does_anyone_actually_use_gartners_quadrant_when/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-02T09:59:54+00:00",
+      "summary": "      &#32; submitted by &#32;  /u/AmazingCow7223   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6ea19f9b8e71c8f81ee0ab5257c3b96f",
+      "title": "Your Git History Already Knows Which Code Is AI-Written. Your CI Should Too.",
+      "url": "https://dev.to/shenxianpeng/your-git-history-already-knows-which-code-is-ai-written-your-ci-should-too-37m6",
+      "source": "Dev.to",
+      "published_at": "2026-07-02T07:25:32Z",
+      "summary": "Somewhere between a quarter and half of the code your team merged this year was probably written by...",
+      "tags": [
+        "ai",
+        "devops",
+        "opensource",
+        "github"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5b3fcec281c4d990510d5d7bb84a593a",
+      "title": "Thrown into DevOps and Release Management",
+      "url": "https://www.reddit.com/r/devops/comments/1uktwog/thrown_into_devops_and_release_management/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-01T18:32:23+00:00",
+      "summary": "Hi everyone, I work at a small company building its first SaaS product. My background is mechanical engineering, not software, but I'm already in the mix on customer projects and a couple of smaller software products we've shipped, mostly leaning hard on Claude and Codex. I'm still at university and",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3b372816f73e39b8211af1b76a64160c",
+      "title": "I finally understood cron expressions by building an explainer for them",
+      "url": "https://dev.to/dev48v/i-finally-understood-cron-expressions-by-building-an-explainer-for-them-12dk",
+      "source": "Dev.to",
+      "published_at": "2026-07-01T15:41:40Z",
+      "summary": "For years I copied cron expressions off Stack Overflow, pasted them into a config file, crossed my...",
+      "tags": [
+        "javascript",
+        "webdev",
+        "beginners",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3cc6c077e506a29fc4831e0b992f3e29",
+      "title": "Attackers are hijacking exposed AI endpoints to run offensive operations. No exploit needed.",
+      "url": "https://dev.to/cyclopt_dimitrisk/attackers-are-hijacking-exposed-ai-endpoints-to-run-offensive-operations-no-exploit-needed-123d",
+      "source": "Dev.to",
+      "published_at": "2026-07-01T11:55:36Z",
+      "summary": "The attack doesn't require a compromise   There's a new attack pattern getting documented...",
+      "tags": [
+        "security",
+        "ai",
+        "devops",
+        "discuss"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1774c04f899632d4d177a77274a6d020",
+      "title": "I built an open-source Terraform drift scanner in 2 days, before starting college",
+      "url": "https://dev.to/jeffrin-dev/i-built-an-open-source-terraform-drift-scanner-in-2-days-before-starting-college-jhk",
+      "source": "Dev.to",
+      "published_at": "2026-06-29T09:21:30Z",
+      "summary": "I'm 18, based in Kerala, India, and I start college in about 9 months. I wanted to build something...",
+      "tags": [
+        "devops",
+        "terraform",
+        "aws",
+        "opensource"
+      ],
       "relevance_score": 0.0
     }
   ]
