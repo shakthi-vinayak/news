@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T09:35:40Z",
+  "generated_at": "2026-07-03T12:18:23Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -126,7 +126,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-03T07:56:48+00:00",
+      "published_at": "2026-07-03T10:52:21+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1252,52 +1252,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "55694e39aac1f92cd74af1cdea564dab",
-      "title": "How AI Is Transforming DevOps and Cloud Engineering",
-      "url": "https://devops.com/how-ai-is-transforming-devops-and-cloud-engineering/",
-      "source": "DevOps.com",
-      "published_at": "2026-06-26T11:18:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ee61e9d51c8a27263c320b7449fd85ee",
-      "title": "Your AI agents are sending customer data to OpenAI on every run and your DLP doesn't see it",
-      "url": "https://www.reddit.com/r/devops/comments/1ug3ull/your_ai_agents_are_sending_customer_data_to/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-26T11:12:26+00:00",
-      "summary": "Security teams control what leaves the network. Firewalls, DLP, CASB. Then a developer builds a workflow that pulls CRM records and sends them to OpenAI in a prompt. Every execution. No log. Nothing in DLP because it's HTTPS to an approved endpoint.  Your DLP sees: traffic to api.openai.com ✓ What's",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1f0912e29db58c137920a0c280162fc8",
-      "title": "Using AWS ALB + Entra ID to add SSO to apps that don't support enterprise authentication",
-      "url": "https://www.reddit.com/r/devops/comments/1ug3rvo/using_aws_alb_entra_id_to_add_sso_to_apps_that/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-26T11:08:36+00:00",
-      "summary": "I've recently been building more internal tools, and one thing I've noticed is that many self-hosted applications (or AI-generated internal tools) either have very basic authentication or none at all. Instead of implementing OIDC or SAML in every application, I tried moving authentication to the inf",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "97a9a8ebbacf525d56d09f672661a447",
       "title": "Securing CI/CD for an open source project, part 3: Credentials, verification, and what’s next",
       "url": "https://www.cncf.io/blog/2026/06/26/securing-ci-cd-for-an-open-source-project-part-3-credentials-verification-and-whats-next/",
       "source": "CNCF Blog",
       "published_at": "2026-06-26T11:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f2fd4ebef2c6361c65685bfb6a65f449",
-      "title": "Starting new chapter as DevOps manager",
-      "url": "https://www.reddit.com/r/devops/comments/1ug2kmd/starting_new_chapter_as_devops_manager/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-26T10:05:06+00:00",
-      "summary": "Hear me out. After 20+ years of working as senior individual contributor and technical lead, I am moving into DevOps management. I am joining new organisation, so I am at a disadvantage of not knowing absolutely anyone. It’s in banking. Team of ~10. I am both most senior DevOps manager and engineer,",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2347,13 +2307,14 @@
       "url": "https://dev.to/samson_tanimawo/post-mortem-best-practices-that-actually-drive-change-pd5",
       "source": "Dev.to",
       "published_at": "2026-06-27T00:10:14Z",
-      "summary": "Provides insights into post-mortem analysis for process improvement.",
+      "summary": "The Post-Mortem Nobody Learns From   I've sat through hundreds of post-mortems. Most follow...",
       "tags": [
-        "Post-Mortem",
-        "DevOps",
-        "SRE"
+        "sre",
+        "postmortem",
+        "incidents",
+        "devops"
       ],
-      "relevance_score": 0.76
+      "relevance_score": 0.0
     },
     {
       "id": "9163f1f101bd7eb5965d2020be23dcea",
@@ -3350,6 +3311,26 @@
         "sre",
         "cicd"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5627ebbf00c70a00a6c9cd8f07eb0296",
+      "title": "n8n-io/n8n: n8n@2.29.5",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.5",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-03T11:01:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aeacb69abcc48a562baccd537cfabbbb",
+      "title": "How data sovereignty is changing cloud native infrastructure design",
+      "url": "https://www.cncf.io/blog/2026/07/03/how-data-sovereignty-is-changing-cloud-native-infrastructure-design/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-03T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
