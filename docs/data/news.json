@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T12:18:23Z",
+  "generated_at": "2026-07-03T15:59:44Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -1322,51 +1322,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "be6e04e110e1cc3a2e78916e34342faa",
-      "title": "AWS, Microsoft and Google agree the session is the new unit of compute. They disagree on how to isolate it.",
-      "url": "https://thenewstack.io/agent-session-aware-runtime/",
-      "source": "The New Stack",
-      "published_at": "2026-06-26T14:11:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "afa8b97eeb32b61bc5a8a6428a43b764",
-      "title": "DevOps Security Best Practices Every Engineering Team Should Follow",
-      "url": "https://dev.to/devopsaitoolkit/devops-security-best-practices-every-engineering-team-should-follow-18k5",
-      "source": "Dev.to",
-      "published_at": "2026-06-26T14:01:11Z",
-      "summary": "I've spent 25 years securing Linux boxes, cloud accounts, CI/CD pipelines, and production clusters....",
-      "tags": [
-        "devops",
-        "security",
-        "devsecops",
-        "hardening"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2168c03f6a17101f004954b966e3850b",
-      "title": "DevOps or SAP Basis? Feeling stuck at a career crossroads",
-      "url": "https://www.reddit.com/r/devops/comments/1ug6v6a/devops_or_sap_basis_feeling_stuck_at_a_career/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-26T13:27:50+00:00",
-      "summary": "I've been working in IT infrastructure for several years, mainly on Linux systems, databases, production support, and enterprise applications. Recently, I've been thinking seriously about where I should specialize next, but I'm genuinely torn between two paths: DevOps and SAP Basis. DevOps seems to ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c70dbfb0b32eef6836e3c4d844c19716",
-      "title": "The AI agent identity problem nobody’s talking about",
-      "url": "https://thenewstack.io/agent-workload-identity-authentication/",
-      "source": "The New Stack",
-      "published_at": "2026-06-26T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b8c62ddcda9f2856445a2438f07cef80",
       "title": "Local LLM Peeps",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ughcl0/local_llm_peeps/",
@@ -1433,26 +1388,6 @@
       "source": "Reddit r/LocalLLaMA",
       "published_at": "2026-06-26T16:15:07+00:00",
       "summary": "There are a lot of posts about the models and benchmarks, but I am more interested in the workflows that people use. What is one workflow that really saved you time or made your local LLM more useful?  It could be anything—RAG, MCP, coding agents, organizing prompt, document indexing, automation or ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b2779933ba3f0cff64c7c5b5f3205902",
-      "title": "AWS, Microsoft, and Google agree the session is the new unit of compute. They disagree on how to isolate it.",
-      "url": "https://thenewstack.io/agent-session-aware-runtime/",
-      "source": "The New Stack",
-      "published_at": "2026-06-26T14:11:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ea7248181503adf2f4645dca6405ed79",
-      "title": "Combined RTX5080 & 4060 for inference ?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ug6c5f/combined_rtx5080_4060_for_inference/",
-      "source": "Reddit r/LocalLLaMA",
-      "published_at": "2026-06-26T13:06:22+00:00",
-      "summary": "      Hey, I currently use my RTX 4060 8G for inference with Qwen 3.6-35B-A3B Q8 (q8 for everything weight,value,key) max 60k context per agent (for quality over speed, with CPU &amp;DDR4 offloading) but :  I only get ~100pp &amp; 20tg at max when context is still low on Qwen 3.6-35B-A3B Q8, so I'd ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3331,6 +3266,116 @@
       "published_at": "2026-07-03T11:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "90ec6d591a640e24f515b1934f18fb5f",
+      "title": "apache/airflow: providers-celery/3.21.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-celery%2F3.21.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-03T15:48:09+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5e70e35f46ac75ae29b8eab3a106ea24",
+      "title": "apache/airflow: providers-fab/3.7.1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-fab%2F3.7.1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-03T15:48:09+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0f6e769fbcd2006703182ca94faf0057",
+      "title": "apache/airflow: providers-google/22.2.1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-google%2F22.2.1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-03T15:48:09+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bcf5ad58e50d091a71b046443f189a72",
+      "title": "Protect Yourself, Mesh Yourself",
+      "url": "https://dev.to/eschmechel/protect-yourself-mesh-yourself-3fkn",
+      "source": "Dev.to",
+      "published_at": "2026-07-03T13:45:00Z",
+      "summary": "In my last post, my SSH keys moved off disk and into 1Password. This one is about the network those...",
+      "tags": [
+        "tutorial",
+        "productivity",
+        "opensource",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "827bfd32cd096ddec33c5d3a968d7e38",
+      "title": "apache/airflow: task-sdk/1.3.0rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.3.0rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-03T13:25:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "efb4961a1a050b5e5386f5c5358cb9e8",
+      "title": "apache/airflow: 3.3.0rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/3.3.0rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-03T13:25:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cad4dc94dcc76172ac6dda8b0f0a363c",
+      "title": "Website Down? Don't Blame Your Code Yet (How to Prove Your Host is at Fault)",
+      "url": "https://dev.to/sayista_yazdani_3c0e9f4f9/website-down-dont-blame-your-code-yet-how-to-prove-your-host-is-at-fault-1mfp",
+      "source": "Dev.to",
+      "published_at": "2026-07-03T13:13:51Z",
+      "summary": "Every developer knows the sudden panic 😱 when a production website goes down. You immediately open...",
+      "tags": [
+        "webdev",
+        "devops",
+        "linux",
+        "programming"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c55b3b45205e7a891266725e221ce3b4",
+      "title": "Docker healthchecks: what they actually measure and what you shouldn't promise",
+      "url": "https://dev.to/jtorchia/docker-healthchecks-what-they-actually-measure-and-what-you-shouldnt-promise-447k",
+      "source": "Dev.to",
+      "published_at": "2026-07-03T12:01:57Z",
+      "summary": "A healthcheck that only says \"the process responds\" can hide entire business failures. What Docker HEALTHCHECK actually measures, where people overestimate it, and a decision matrix so you stop promising more than the mechanism can deliver.",
+      "tags": [
+        "english",
+        "docker",
+        "devops",
+        "railway"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "56eb6f8cecb0d87999a2dab41a1eb8e3",
+      "title": "Running untrusted, AI-generated code: why we built CreateOS Sandbox on Firecracker",
+      "url": "https://dev.to/pratikbin/running-untrusted-ai-generated-code-why-we-built-createos-sandbox-on-firecracker-dld",
+      "source": "Dev.to",
+      "published_at": "2026-07-03T11:30:00Z",
+      "summary": "The agent doesn't just write the code anymore. It runs it.  That one change broke an assumption a lot...",
+      "tags": [
+        "ai",
+        "devops",
+        "security",
+        "showdev"
+      ],
       "relevance_score": 0.0
     }
   ]
