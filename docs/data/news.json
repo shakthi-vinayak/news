@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T15:59:44Z",
+  "generated_at": "2026-07-03T17:45:20Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -1262,56 +1262,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c52c025ac06fc835063f176ba89eec57",
-      "title": "apache/airflow: providers-celery/3.21.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-celery%2F3.21.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-06-26T16:18:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fb79f3688cfff1662cb0cfad320c3c76",
-      "title": "apache/airflow: providers-cncf-kubernetes/10.18.1rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-cncf-kubernetes%2F10.18.1rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-06-26T16:18:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "815838401f48ee81fff5da3f2adeb693",
-      "title": "apache/airflow: providers-fab/3.7.1rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-fab%2F3.7.1rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-06-26T16:18:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ab5cae5ccbcbf409bd40c20255140b72",
-      "title": "apache/airflow: providers-google/22.2.1rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-google%2F22.2.1rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-06-26T16:18:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c95a097800c2d8f74b146bf3d1d8b836",
-      "title": "apache/airflow: providers-keycloak/0.8.1rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-keycloak%2F0.8.1rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-06-26T16:18:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2eeb0cb95ad0f5849d19080de14f415f",
       "title": "Terraform MCP server: Four real-world AI infrastructure patterns",
       "url": "https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
@@ -1358,36 +1308,6 @@
       "source": "The New Stack",
       "published_at": "2026-06-26T18:26:50+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8f2fea1253ac9acf0c06a594701d69c7",
-      "title": "Why do people keep investing in Intel for AI?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugcbqx/why_do_people_keep_investing_in_intel_for_ai/",
-      "source": "Reddit r/LocalLLaMA",
-      "published_at": "2026-06-26T16:53:32+00:00",
-      "summary": "      If you get a good deal on some Xeons with a lot of memory bandwidth, or a cheap GPU for home inference, that's cool, no disrespect. But how in the hell are Wall Street types considering Intel part of the &quot;AI picks and shovels&quot; play? Who's buying Intel for their AI data centers?  &#32",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9b6e009bd36efb8e43cb7b816f673e82",
-      "title": "AI Coding Agents Are Pulling CI Feedback Into the Inner Loop",
-      "url": "https://devops.com/ai-coding-agents-are-pulling-ci-feedback-into-the-inner-loop/",
-      "source": "DevOps.com",
-      "published_at": "2026-06-26T16:27:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "aafb0753f98ade1f40dd5302fdaebf6c",
-      "title": "What's one local AI workflow you wish you'd discovered sooner?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugba2x/whats_one_local_ai_workflow_you_wish_youd/",
-      "source": "Reddit r/LocalLLaMA",
-      "published_at": "2026-06-26T16:15:07+00:00",
-      "summary": "There are a lot of posts about the models and benchmarks, but I am more interested in the workflows that people use. What is one workflow that really saved you time or made your local LLM more useful?  It could be anything—RAG, MCP, coding agents, organizing prompt, document indexing, automation or ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3375,6 +3295,56 @@
         "devops",
         "security",
         "showdev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "994edf0d4ede287663976b06aa77ba77",
+      "title": "Apple just turned Safari into something AI agents can control",
+      "url": "https://thenewstack.io/safari-mcp-platform-infrastructure/",
+      "source": "The New Stack",
+      "published_at": "2026-07-03T17:19:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5386f33eef7ece40a20479fbacc5804c",
+      "title": "Learning budget",
+      "url": "https://www.reddit.com/r/devops/comments/1uminm5/learning_budget/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-03T16:11:53+00:00",
+      "summary": "I'm a full-stack web dev with 3 YOE trying to migrate into devops. So, I'm collaborating with a friend who is building a mobile app with node server, SQL db and I'm responsible for the infrastructure. I'd like to try stuff like github actions, docker, managed db service, storage, load balancer, test",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e69d8f30b175a372ac4385ff093fc535",
+      "title": "cgroups v2 as a Native Runtime Isolation Primitive — No Docker Required",
+      "url": "https://dev.to/piotrek1372/cgroups-v2-as-a-native-runtime-isolation-primitive-no-docker-required-38an",
+      "source": "Dev.to",
+      "published_at": "2026-07-01T06:00:00Z",
+      "summary": "The Overhead Tax of Container Abstraction   Every time a team reaches for Docker to isolate...",
+      "tags": [
+        "linux",
+        "devops",
+        "python",
+        "performance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ff5a1fb61ec9811900b91a22635bc337",
+      "title": "What 12 failure classes and 30 Billion tokens spent taught us about trusting AI coding agents",
+      "url": "https://dev.to/keesan/what-12-failure-classes-and-30-billion-tokens-spent-taught-us-about-trusting-ai-coding-agents-pi7",
+      "source": "Dev.to",
+      "published_at": "2026-06-30T20:41:47Z",
+      "summary": "We've been watching AI coding agents fail in production for long enough that we started keeping a...",
+      "tags": [
+        "claude",
+        "productivity",
+        "opensource",
+        "devops"
       ],
       "relevance_score": 0.0
     }
