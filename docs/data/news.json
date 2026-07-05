@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T09:22:30Z",
+  "generated_at": "2026-07-05T11:45:27Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -1567,14 +1567,14 @@
       "url": "https://dev.to/aws-builders/el-escaneo-estuvo-verde-por-meses-luego-marco-un-cve-que-debio-haber-atrapado-desde-el-dia-uno-14ch",
       "source": "Dev.to",
       "published_at": "2026-06-29T03:46:47Z",
-      "summary": "Tracks CVEs that should have been caught earlier.",
+      "summary": "El stack: GitHub Actions, pip-audit (Python), pnpm audit (Node), y Trivy (contenedor/OS). El remate...",
       "tags": [
-        "Security",
-        "Cloud",
-        "Log Analytics",
-        "MLOps"
+        "cicd",
+        "devops",
+        "docker",
+        "security"
       ],
-      "relevance_score": 0.83
+      "relevance_score": 0.0
     },
     {
       "id": "fa464c8637e005d47f01587aa5cb4094",
@@ -3333,6 +3333,26 @@
         "webdev",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1fa542e3c9d1ee15152f49602ad13856",
+      "title": "Best way to restrict AWS/Cloudflare app to specific desktops?",
+      "url": "https://www.reddit.com/r/devops/comments/1unyxz6/best_way_to_restrict_awscloudflare_app_to/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-05T10:39:11+00:00",
+      "summary": "Best way to restrict AWS/Cloudflare app to specific desktops? We are building a fee payment application for a school organization. **Stack:** DB/Backend on AWS and frontend on Cloudflare. **The challenge:** We need to restrict payment work flow used by cashiers to specific systems, while the read fe",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "27256e2ee63a9945636d31fc866292b4",
+      "title": "Engineering managers: how do you prevent valuable Slack discussions from disappearing",
+      "url": "https://www.reddit.com/r/devops/comments/1unvlkj/engineering_managers_how_do_you_prevent_valuable/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-05T07:14:38+00:00",
+      "summary": "In my team I notice senior engineers write detailed explanations in Slack, but months later nobody can find them. Curious how others solve this.  &#32; submitted by &#32;  /u/AsparagusOk893   [link] &#32; [comments]",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
