@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T17:25:46Z",
+  "generated_at": "2026-07-05T19:41:07Z",
   "items": [
     {
       "id": "c1f180fb310980de8c012d01f78154cf",
@@ -1282,46 +1282,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "64160562d47d9a0e4ff921dcf171e7b3",
-      "title": "Self-Hosting Prometheus and Grafana for Omnismith (For Now)",
-      "url": "https://dev.to/homeless-coder/self-hosting-prometheus-and-grafana-for-omnismith-for-now-pf9",
-      "source": "Dev.to",
-      "published_at": "2026-06-28T16:05:51Z",
-      "summary": "When building a data-intensive platform, real operational visibility becomes necessary quickly. A...",
-      "tags": [
-        "devops",
-        "architecture",
-        "infrastructure",
-        "programming"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "aed1c51ebcd09dfeb2db8633570568fb",
-      "title": "Building Identity-Gated Refusal Tiers for AI Security Tools",
-      "url": "https://dev.to/toxsec/building-identity-gated-refusal-tiers-for-ai-security-tools-2hj7",
-      "source": "Dev.to",
-      "published_at": "2026-06-28T14:54:40Z",
-      "summary": "For thirty years the math has favored the attacker. He needs one bug. You have to cover everything,...",
-      "tags": [
-        "security",
-        "ai",
-        "devops",
-        "authentication"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dc35ae1662a5b40b148f3b101990e664",
-      "title": "What's your favorite AI agent harness/framework, and why?",
-      "url": "https://www.reddit.com/r/devops/comments/1ui4uyi/whats_your_favorite_ai_agent_harnessframework_and/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-28T18:31:59+00:00",
-      "summary": "Curious what everyone here is using these days. • What's your go-to harness/framework? • Why that one over the others?  &#32; submitted by &#32;  /u/Downtown_Length3457   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "5af3e65bfdf5544943e11660615a7cab",
       "title": "n8n-io/n8n: n8n@1.123.62",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.62",
@@ -1469,21 +1429,6 @@
       "published_at": "2026-06-29T16:40:15+00:00",
       "summary": "Hey folks, Our leadership is making a push for the engineering teams to start building autonomous &quot;AI Agent&quot; features directly into our SaaS application. Up until now, our only real interaction with AI has been on the developer side using assistant tools (like Claude Code, Codex, etc.) to ",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3a17bd49466be4ecf0fcc0e381191b65",
-      "title": "Building an Offline AI Platform with K3s, Ansible, Argo CD, vLLM, and NVIDIA GPU",
-      "url": "https://dev.to/andygolubev/building-an-offline-ai-platform-with-k3s-ansible-argo-cd-vllm-and-nvidia-gpu-2cbo",
-      "source": "Dev.to",
-      "published_at": "2026-06-28T12:03:56Z",
-      "summary": "Introduction   Running Kubernetes in the cloud is straightforward when every node can reach...",
-      "tags": [
-        "kubernetes",
-        "ansible",
-        "ai",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3333,6 +3278,56 @@
       "published_at": "2026-07-05T15:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c4259e43500d7355b527d134ada776a6",
+      "title": "Leaving K8s platform engineering for an internal dev-tooling/CI-CD role",
+      "url": "https://www.reddit.com/r/devops/comments/1uoatjd/leaving_k8s_platform_engineering_for_an_internal/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-05T19:16:56+00:00",
+      "summary": "I am currently building a central &quot;Cluster-as-a-Service&quot; platform nd deal with automated cluster provisioning, multi-tenant setup, observability work, kubernetes security etc. I also contribute upstream to K8s-sigs. The company I work for is rather unknown and I would love to be at a bigge",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "00c5d9b0bbca1064deff3d0c22d490a9",
+      "title": "GitLab CI skill for ai agents based on official docs",
+      "url": "https://www.reddit.com/r/devops/comments/1uoab35/gitlab_ci_skill_for_ai_agents_based_on_official/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-05T18:57:00+00:00",
+      "summary": "I use ai agents as helper I talk to, not for blind vibecoding. One thing I kept noticing is asking agent to write or refactor gitlab ci pipeline, and results are often questionable. It creates a god yaml, outdated keywords, no thought about debugging or developer experience. I looked for existing sk",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "acd18ed79c7c634222466b805617895a",
+      "title": "Your Kubernetes Controller Is Silently Dead and Nobody Knows",
+      "url": "https://dev.to/reyshazni17/your-kubernetes-controller-is-silently-dead-and-nobody-knows-2fml",
+      "source": "Dev.to",
+      "published_at": "2026-07-05T16:18:04Z",
+      "summary": "Kubernetes controllers built on client-go have a silent failure mode that's easy to miss. When a...",
+      "tags": [
+        "kubernetes",
+        "go",
+        "opensource",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bac29c2e6e06df8b3586c2d8036cb0bb",
+      "title": "CI/CD Testing Tools Compared: the Same Pipeline in GitHub Actions, GitLab CI and Jenkins",
+      "url": "https://dev.to/dayan_elvisjahuirapilco/cicd-testing-tools-compared-the-same-pipeline-in-github-actions-gitlab-ci-and-jenkins-53",
+      "source": "Dev.to",
+      "published_at": "2026-07-04T23:54:20Z",
+      "summary": "TL;DR: I compared the major CI/CD tools for test automation (GitHub Actions, GitLab CI, Jenkins,...",
+      "tags": [
+        "cicd",
+        "devops",
+        "testing",
+        "tutorial"
+      ],
       "relevance_score": 0.0
     }
   ]
