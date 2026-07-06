@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T10:59:56Z",
+  "generated_at": "2026-07-06T15:59:09Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -1102,16 +1102,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6b3e3132645b2a10f5e59b25205bae41",
-      "title": "Building a Cluster-Aware AI Agent with Kubernetes, Argo CD, and GitOps",
-      "url": "https://www.cncf.io/blog/2026/06/25/building-a-cluster-aware-ai-agent-with-kubernetes-argo-cd-and-gitops/",
-      "source": "CNCF Blog",
-      "published_at": "2026-06-25T11:25:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "32028935ffa16ca981186119502b3fe9",
       "title": "Deploy Boundary on Kubernetes with official Helm charts",
       "url": "https://www.hashicorp.com/blog/deploy-boundary-on-kubernetes-with-official-helm-charts",
@@ -1142,16 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "97a9a8ebbacf525d56d09f672661a447",
-      "title": "Securing CI/CD for an open source project, part 3: Credentials, verification, and what’s next",
-      "url": "https://www.cncf.io/blog/2026/06/26/securing-ci-cd-for-an-open-source-project-part-3-credentials-verification-and-whats-next/",
-      "source": "CNCF Blog",
-      "published_at": "2026-06-26T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2eeb0cb95ad0f5849d19080de14f415f",
       "title": "Terraform MCP server: Four real-world AI infrastructure patterns",
       "url": "https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
@@ -1168,26 +1148,6 @@
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-06-26T21:29:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ec8789e999919303ecc815a9e4efc9c5",
-      "title": "Ten Great DevOps Job Opportunities",
-      "url": "https://devops.com/ten-great-devops-job-opportunities-12/",
-      "source": "DevOps.com",
-      "published_at": "2026-06-29T13:54:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "07cd1684031a68266c93c2e57c489f24",
-      "title": "Migrating SQL Server Web Edition to new server. Best way to achieve near-zero downtime?",
-      "url": "https://www.reddit.com/r/devops/comments/1uir0cd/migrating_sql_server_web_edition_to_new_server/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-29T12:23:32+00:00",
-      "summary": "Hey folks, We’re planning to migrate a SQL Server (Web Edition, on-prem) to a new server, and I’m trying to figure out the best approach with as little downtime as possible. DB is around ~30GB, supporting a web app with moderate write and read load. We also have ~80 SQL Agent/background jobs, but th",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2789,14 +2749,14 @@
       "url": "https://dev.to/piotrek1372/cgroups-v2-as-a-native-runtime-isolation-primitive-no-docker-required-38an",
       "source": "Dev.to",
       "published_at": "2026-07-01T06:00:00Z",
-      "summary": "Explains cgroups v2 isolation without relying on Docker.",
+      "summary": "The Overhead Tax of Container Abstraction   Every time a team reaches for Docker to isolate...",
       "tags": [
-        "Kubernetes",
-        "DevOps",
-        "Security",
-        "Containerization"
+        "linux",
+        "devops",
+        "python",
+        "performance"
       ],
-      "relevance_score": 0.76
+      "relevance_score": 0.0
     },
     {
       "id": "ff5a1fb61ec9811900b91a22635bc337",
@@ -3377,6 +3337,121 @@
         "devops",
         "cli",
         "sre"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "09fbfee626fd6a96ed01c4b723cbbfae",
+      "title": "apache/airflow: Apache Airflow 3.3.0",
+      "url": "https://github.com/apache/airflow/releases/tag/3.3.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-06T15:16:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a23767b37a7bd07c17b47c1d82bdd3f8",
+      "title": "hashicorp/terraform: v1.16.0-alpha20260706",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260706",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-07-06T14:49:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "94e2c714043ed478b54967d66ba6356d",
+      "title": "apache/airflow: constraints-latest",
+      "url": "https://github.com/apache/airflow/releases/tag/constraints-latest",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-06T14:09:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d57458c877b475c081f3a8ac881a3ffc",
+      "title": "apache/airflow: constraints-3.3.0",
+      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.3.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-06T14:09:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aeda0366f3faac2f42905d2622e633f1",
+      "title": "apache/airflow: task-sdk/1.3.0",
+      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.3.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-06T14:09:03+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "30043a557bb41fd5a253c94e40642f7f",
+      "title": "5 YOE in DevOps/SRE at a Tier-1 bank, pivoted after a layoff — now in a support-heavy role. How do I course-correct before it hurts my career?",
+      "url": "https://www.reddit.com/r/devops/comments/1uoydmi/5_yoe_in_devopssre_at_a_tier1_bank_pivoted_after/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-06T14:06:40+00:00",
+      "summary": "Hey r/devops — not looking for validation here, looking for people who’ve actually been through this. The background: Spent 5 years as a DevOps/SRE engineer at a large global investment bank. Real scope — owned incident response, SLO/SLI definition, Python automation, Kubernetes deployments, Grafana",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "946c02ce341707c0657f901b193d48f9",
+      "title": "Ten Great DevOps Job Opportunities",
+      "url": "https://devops.com/ten-great-devops-job-opportunities-13/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-06T14:04:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9a54dacbcd430ed0ce00a36773682cbf",
+      "title": "From DevOps to SaaS: How Do You Find Your First Paying Customers?",
+      "url": "https://www.reddit.com/r/devops/comments/1uowi5u/from_devops_to_saas_how_do_you_find_your_first/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-06T12:53:07+00:00",
+      "summary": "      I've spent the past several months building a Python based SaaS platform that helps local businesses create their own online stores and synchronize inventory across multiple marketplaces. The technical side has been enjoyable, but now I'm facing a different challenge: finding the first paying ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9b2edea1d06931eb1f97e593d9868938",
+      "title": "Evolving platform engineering for AI-native workloads",
+      "url": "https://www.cncf.io/blog/2026/07/06/evolving-platform-engineering-for-ai-native-workloads/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-06T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "10efa46ad3a075e30bd01427a799e9e2",
+      "title": "The 4-body problem of SRE: Why autonomous operations depend on context",
+      "url": "https://www.cncf.io/blog/2026/07/06/the-4-body-problem-of-sre-why-autonomous-operations-depend-on-context/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-06T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aef8c9813e7f32108c7f76b0749a1a86",
+      "title": "You Can't Review an Agent. You Can Review a Plan.",
+      "url": "https://dev.to/gyu07/you-cant-review-an-agent-you-can-review-a-plan-5hgp",
+      "source": "Dev.to",
+      "published_at": "2026-07-06T09:45:05Z",
+      "summary": "The problem with AI-written Terraform isn't bad HCL — it's that the plan you reviewed and the plan that applies can quietly diverge. Notes from building an IaC harness (as a private SDK/compiler) where humans, agents, and CI pass one gate, and only a fingerprinted, reviewed plan reaches prod.",
+      "tags": [
+        "ai",
+        "terraform",
+        "devops",
+        "architecture"
       ],
       "relevance_score": 0.0
     }
