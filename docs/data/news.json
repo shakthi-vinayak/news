@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T18:21:44Z",
+  "generated_at": "2026-07-06T21:47:27Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -1152,56 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5cab1d18b8a87ecc6f2286adedb48104",
-      "title": "langchain-ai/langchain: langchain-openrouter==0.2.5",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.5",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-06-29T19:47:29+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "402859072fd05a800fb99818018c3594",
-      "title": "LiteLLM is becoming much more than just an LLM gateway. Has anyone actually deployed its Datadog integration in production?",
-      "url": "https://www.reddit.com/r/devops/comments/1uj1xdi/litellm_is_becoming_much_more_than_just_an_llm/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-29T19:14:38+00:00",
-      "summary": "I've been evaluating LiteLLM's Datadog integration in a test environment, and it looks much more comprehensive than I expected. Beyond basic logging, it includes distributed tracing, custom metrics, LLM observability, cost management, prompt redaction, and latency breakdowns between the gateway and ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9a2d08c5082c2c56317f8a9e60cdcfdd",
-      "title": "ollama/ollama: v0.31.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-06-29T18:50:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a5a1abf5acf014d8b872d2ced664204d",
-      "title": "Started job as azure engineer using azure DevOps, cert worth getting?",
-      "url": "https://www.reddit.com/r/devops/comments/1uj0wu5/started_job_as_azure_engineer_using_azure_devops/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-29T18:37:18+00:00",
-      "summary": "Getting good help from senior engineers. Prior to this job, only had experience with aws and gcp. Used Jenkins and GitHub actions for deployment.  But there’s lots of hands on with azure DevOps which I’ve never used before. Is it worth getting az-400? Or is will it be pretty much useless if I’m bein",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "248baad3c8dfd12c1acbb979d192cf1c",
-      "title": "ollama/ollama: v0.30.11-rc1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.30.11-rc1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-06-26T06:18:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2e9253135705bbe3e2d7a6639672429f",
       "title": "2nd year CS student aiming for DevOps/Cloud, rejected at CV screening from all internships this summer. What should I do this summer to fix it?",
       "url": "https://www.reddit.com/r/devops/comments/1uj7wm4/2nd_year_cs_student_aiming_for_devopscloud/",
@@ -1209,31 +1159,6 @@
       "published_at": "2026-06-29T23:03:11+00:00",
       "summary": "Background: 2nd year CS student. My goal is eventually DevOps, Cloud Engineering, or Platform Engineering. I'm realistic that pure DevOps roles are hard at entry level, so I've been applying to SWE internships. This summer I got rejected at CV screening from every application. No interviews. - I hav",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "be406d7edb04abd94189e46c5faf06f9",
-      "title": "How do you run ops automations today? (restart pod, clear cache, rotate creds, that kind of thing)",
-      "url": "https://www.reddit.com/r/devops/comments/1uj5j18/how_do_you_run_ops_automations_today_restart_pod/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-29T21:27:44+00:00",
-      "summary": "Trying to get a real picture of how teams handle this nowadays before building anything. A few questions if you have a minute:  When you need to restart a pod, vacuum a DB table, clear a cache, rotate a password, what do you actually use? Script in a repo, Rundeck, Ansible, Jenkins, custom Slack bot",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ef186264a0ec7f678eed38c9f7f86dc6",
-      "title": "The $500M Claude Code Problem: Why Most Teams Pay 3x What They Should for AI Coding",
-      "url": "https://dev.to/aplomb2/the-500m-claude-code-problem-why-most-teams-pay-3x-what-they-should-for-ai-coding-59cj",
-      "source": "Dev.to",
-      "published_at": "2026-06-29T19:54:42Z",
-      "summary": "Enterprise AI coding bills are hitting absurd numbers. One source told Axios that a client spent $500...",
-      "tags": [
-        "ai",
-        "programming",
-        "claude",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1467,21 +1392,6 @@
         "productivity",
         "career",
         "webdev",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "afb78402b8e6732f0574e456845c509b",
-      "title": "Building an Async Job Platform with BullMQ, Socket.io, and Webhooks",
-      "url": "https://dev.to/cypher682/building-an-async-job-platform-with-bullmq-socketio-and-webhooks-2m55",
-      "source": "Dev.to",
-      "published_at": "2026-06-29T19:27:10Z",
-      "summary": "NodeFlow is an asynchronous job orchestration and webhook delivery API built with Node.js,...",
-      "tags": [
-        "node",
-        "typescript",
-        "backend",
         "devops"
       ],
       "relevance_score": 0.0
@@ -3081,14 +2991,14 @@
       "url": "https://dev.to/cristhiancarlosmamanic/securing-your-terraform-infrastructure-with-checkov-and-github-actions-2c86",
       "source": "Dev.to",
       "published_at": "2026-07-05T12:35:35Z",
-      "summary": "Guides on securing Terraform infrastructure with Checkov and GitHub Actions.",
+      "summary": "Infrastructure as Code (IaC) has revolutionized how we provision and manage cloud resources. Tools...",
       "tags": [
-        "Terraform",
-        "Security",
-        "CI/CD",
-        "Cloud"
+        "security",
+        "terraform",
+        "devops",
+        "githubactions"
       ],
-      "relevance_score": 0.95
+      "relevance_score": 0.0
     },
     {
       "id": "1960d3b57a14226fdb909af76507d88d",
@@ -3458,6 +3368,96 @@
         "devops",
         "github"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1339544c97e8c94bbababf3587ab1e4b",
+      "title": "Odd manager behavior - looking for opinions",
+      "url": "https://www.reddit.com/r/devops/comments/1upabcd/odd_manager_behavior_looking_for_opinions/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-06T21:10:03+00:00",
+      "summary": "I've been working at a local startup as a DevOps engineer for the past year. I have a total of around 3 years of experience, which is considered mid-level at best. I've worked with various technologies and I'm not that confident in my technical skills but I do try my best to deliver. That's not my p",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f0256820cdf09599ff8f1078ad2531c9",
+      "title": "langchain-ai/langgraph: langgraph==1.2.8",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.8",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-06T20:40:30+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a3eed7faa85f1a7d7418478b6e38db02",
+      "title": "Why Event-Driven Architecture Isn’t About Speed (and When You Actually Need It)",
+      "url": "https://dev.to/alialp/why-event-driven-architecture-isnt-about-speed-and-when-you-actually-need-it-2pol",
+      "source": "Dev.to",
+      "published_at": "2026-07-06T20:37:16Z",
+      "summary": "Before you introduce a heavy event broker into your stack, let's talk about the real socio-technical costs, the reality of latency, and what EDA actually delivers.",
+      "tags": [
+        "architecture",
+        "devops",
+        "microservices",
+        "systemdesign"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2b70eba157fc75b18af8c1a0b4303b1c",
+      "title": "ollama/ollama: v0.31.2-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-06T20:31:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "780123a6409f2732ea1ccbfdd2c5930f",
+      "title": "Novee Uncovers Cordyceps: The Latest Threat to CI/CD Pipelines",
+      "url": "https://devops.com/novee-uncovers-cordyceps-the-latest-threat-to-ci-cd-pipelines/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-06T19:50:28+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "87da8710555284901eeaba142ad10305",
+      "title": "GitHub Managed Settings vs Ota: Platform Governance vs Execution Governance",
+      "url": "https://dev.to/otaready/github-managed-settings-vs-ota-platform-governance-vs-execution-governance-26co",
+      "source": "Dev.to",
+      "published_at": "2026-07-06T19:27:40Z",
+      "summary": "GitHub Managed Settings and Ota are not competing products.  They govern different layers of...",
+      "tags": [
+        "productivity",
+        "opensource",
+        "devops",
+        "automation"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "00057078f52c21dc9988f788a22b8087",
+      "title": "How are you managing dynamic runtime configuration without triggering a full CI/CD deployment?",
+      "url": "https://www.reddit.com/r/devops/comments/1up6pnr/how_are_you_managing_dynamic_runtime/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-06T18:58:12+00:00",
+      "summary": "Hi all! I’m currently digging into the &quot;toil&quot; of our (the company i work at's) release process, and I’m hitting a recurring bottleneck: rate-limiting configuration. Right now, we have our limits (e.g., token buckets, thresholds) defined as part of our static config, which is baked into our",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0c44b6e268f81ea17d382977de8c0a7d",
+      "title": "Getting Claude Code to grunt in Caveman-speak might not save as many tokens as you think",
+      "url": "https://thenewstack.io/caveman-mode-token-savings/",
+      "source": "The New Stack",
+      "published_at": "2026-07-06T18:28:42+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
