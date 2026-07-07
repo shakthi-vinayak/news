@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T20:11:48Z",
+  "generated_at": "2026-07-07T23:12:13Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -1112,31 +1112,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "9163f1f101bd7eb5965d2020be23dcea",
-      "title": "How do you test Logstash pipelines?",
-      "url": "https://www.reddit.com/r/devops/comments/1uk3iii/how_do_you_test_logstash_pipelines/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-06-30T22:19:48+00:00",
-      "summary": "Recently, I've been doing quite a bit of work around Logstash. My biggest gripe with Logstash is the lack of built in testing. In an ideal world I could test my filters in an automated way. I can solve the testing problem by setting up a full ELK stack locally using Docker. And in theory, I can auto",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ee58fee7eb619dd2d435afcee4104652",
       "title": "ollama/ollama: v0.31.1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.31.1",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-07-01T00:25:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6cfaef14f0a03554be0159dc52a25579",
-      "title": "Anthropic’s Claude Sonnet 5 system card says more about the future of AI than its benchmarks do",
-      "url": "https://thenewstack.io/ai-agent-infrastructure-reliability/",
-      "source": "The New Stack",
-      "published_at": "2026-06-30T20:37:01+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1314,21 +1294,6 @@
       "published_at": "2026-07-01T10:31:11+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f9396da787391a68e91b7172b82e4c67",
-      "title": "How to Change a Public Repository to Private Using GitHub CLI",
-      "url": "https://dev.to/cristian-jonhson/how-to-change-a-public-repository-to-private-using-github-cli-20fc",
-      "source": "Dev.to",
-      "published_at": "2026-06-30T21:13:07Z",
-      "summary": "When working on personal, academic, or professional projects, we often start a repository as public...",
-      "tags": [
-        "github",
-        "git",
-        "cli",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2255,21 +2220,6 @@
         "devops",
         "python",
         "performance"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ff5a1fb61ec9811900b91a22635bc337",
-      "title": "What 12 failure classes and 30 Billion tokens spent taught us about trusting AI coding agents",
-      "url": "https://dev.to/keesan/what-12-failure-classes-and-30-billion-tokens-spent-taught-us-about-trusting-ai-coding-agents-pi7",
-      "source": "Dev.to",
-      "published_at": "2026-06-30T20:41:47Z",
-      "summary": "We've been watching AI coding agents fail in production for long enough that we started keeping a...",
-      "tags": [
-        "claude",
-        "productivity",
-        "opensource",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -3428,6 +3378,161 @@
         "devops",
         "opensource"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dde635053bb09f5a4da491bf0d5fbd29",
+      "title": "ollama/ollama: v0.31.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-07T23:03:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "920791882477123cb68ed816e645f3d7",
+      "title": "Deploying Redpanda Kafka-Compatible Streaming Platform on Ubuntu 24.04",
+      "url": "https://dev.to/vultr/deploying-redpanda-kafka-compatible-streaming-platform-on-ubuntu-2404-4elh",
+      "source": "Dev.to",
+      "published_at": "2026-07-07T21:47:18Z",
+      "summary": "Redpanda is a Kafka-API-compatible streaming platform written in C++ with no JVM and no ZooKeeper....",
+      "tags": [
+        "kafka",
+        "devops",
+        "streaming",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "62e1c8921f7bbaf9340d2b444f4e76f5",
+      "title": "Deploying ClearML as a GCP Vertex AI Alternative on Ubuntu",
+      "url": "https://dev.to/vultr/deploying-clearml-as-a-gcp-vertex-ai-alternative-on-ubuntu-n2f",
+      "source": "Dev.to",
+      "published_at": "2026-07-07T21:37:38Z",
+      "summary": "Google Vertex AI is Google Cloud's managed ML platform with experiment tracking, training jobs,...",
+      "tags": [
+        "mlops",
+        "docker",
+        "ai",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cbf89a903185a3a9fc297e385cfdb6e6",
+      "title": "Deploying Matomo Analytics - An Open-Source Google Analytics Alternative",
+      "url": "https://dev.to/vultr/deploying-matomo-analytics-an-open-source-google-analytics-alternative-3noa",
+      "source": "Dev.to",
+      "published_at": "2026-07-07T21:35:46Z",
+      "summary": "Matomo is an open-source web analytics platform that keeps full ownership of visitor data on...",
+      "tags": [
+        "docker",
+        "devops",
+        "analytics",
+        "privacy"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8964eeb2dd61cd3b644ad331e8ab50e2",
+      "title": "Deploying Dokploy - Self-Hosted PaaS for Docker Applications on Ubuntu 24.04",
+      "url": "https://dev.to/vultr/deploying-dokploy-self-hosted-paas-for-docker-applications-on-ubuntu-2404-27eg",
+      "source": "Dev.to",
+      "published_at": "2026-07-07T21:12:42Z",
+      "summary": "Dokploy is an open-source, self-hosted PaaS, a free alternative to Heroku, Vercel, and Netlify, that...",
+      "tags": [
+        "docker",
+        "devops",
+        "paas",
+        "selfhosted"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d51450a14aaed9db5706da9d819d7a69",
+      "title": "Deploying Ngrok Ingress Controller on Kubernetes",
+      "url": "https://dev.to/vultr/deploying-ngrok-ingress-controller-on-kubernetes-j70",
+      "source": "Dev.to",
+      "published_at": "2026-07-07T21:09:26Z",
+      "summary": "Ngrok is a distributed reverse proxy that exposes applications to the internet via a masked external...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "networking",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "251ba94cef3b9e4084066a8cd1f469ec",
+      "title": "Deploying Neko - Self-Hosted Virtual Browser Platform on Linux",
+      "url": "https://dev.to/vultr/deploying-neko-self-hosted-virtual-browser-platform-on-linux-3i9n",
+      "source": "Dev.to",
+      "published_at": "2026-07-07T21:04:24Z",
+      "summary": "Neko is an open-source virtual browser platform that runs inside Docker and streams an interactive...",
+      "tags": [
+        "selfhosted",
+        "docker",
+        "devops",
+        "webrtc"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9e0d8f37b9244f2ffa404a6939c20891",
+      "title": "Deploying ClickHouse on Kubernetes",
+      "url": "https://dev.to/vultr/deploying-clickhouse-on-kubernetes-1f5j",
+      "source": "Dev.to",
+      "published_at": "2026-07-07T21:00:02Z",
+      "summary": "ClickHouse is an open-source, column-oriented database built for OLAP workloads, running complex...",
+      "tags": [
+        "kubernetes",
+        "database",
+        "devops",
+        "observability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1318405750e277d5dc847dee97ac687f",
+      "title": "Coinbase runs 1,200 agents and just slashed its AI bill in half",
+      "url": "https://thenewstack.io/multi-model-ai-infrastructure/",
+      "source": "The New Stack",
+      "published_at": "2026-07-07T20:55:05+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1edef8323b678337796250f2687edb96",
+      "title": "Watch AWS engineers troubleshoot agentic AI with OpenTelemetry and OpenSearch",
+      "url": "https://thenewstack.io/opentelemetry-opensearch-agent-observability/",
+      "source": "The New Stack",
+      "published_at": "2026-07-07T20:29:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "73c20a63af1fb522b4ae89af7a5848f0",
+      "title": "Vercel acquires Better Auth to give AI agents their own identity",
+      "url": "https://thenewstack.io/vercel-acquires-better-auth/",
+      "source": "The New Stack",
+      "published_at": "2026-07-07T20:13:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7b142c53df00e8050a1a0c1f3751cb32",
+      "title": "ollama/ollama: v0.31.2-rc1: create: harden GGUF create flows (#17062)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-06T23:20:20+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
