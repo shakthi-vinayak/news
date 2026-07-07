@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T10:01:07Z",
+  "generated_at": "2026-07-07T12:37:50Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -1072,16 +1072,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a34715029ec6b401273d1d4d6d3a2b1e",
-      "title": "Security Profiles Operator v1: Stable APIs, Security Hardened, and Shaping Upstream Kubernetes",
-      "url": "https://www.cncf.io/blog/2026/06/26/security-profiles-operator-v1-stable-apis-security-hardened-and-shaping-upstream-kubernetes/",
-      "source": "CNCF Blog",
-      "published_at": "2026-06-26T11:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2eeb0cb95ad0f5849d19080de14f415f",
       "title": "Terraform MCP server: Four real-world AI infrastructure patterns",
       "url": "https://www.hashicorp.com/blog/terraform-mcp-server-four-real-world-ai-infrastructure-patterns",
@@ -1097,36 +1087,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.8",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-06-26T21:29:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a91c8977121c47da62aa9121ef9495be",
-      "title": "The DevOps Practice Most Teams Skip When Adopting AI Agents",
-      "url": "https://devops.com/the-devops-practice-most-teams-skip-when-adopting-ai-agents/",
-      "source": "DevOps.com",
-      "published_at": "2026-06-30T12:06:44+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "da222715bcaf764f023f50aa5c144aef",
-      "title": "How to Automate API Testing in CI/CD Pipelines",
-      "url": "https://devops.com/how-to-automate-api-testing-in-ci-cd-pipelines/",
-      "source": "DevOps.com",
-      "published_at": "2026-06-30T11:52:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c04cb3ebc8083e4000a91249e81cb28d",
-      "title": "OpenAI Codex – A New Frontier in Application Modernization",
-      "url": "https://devops.com/openai-codex-a-new-frontier-in-application-modernization/",
-      "source": "DevOps.com",
-      "published_at": "2026-06-30T11:21:41+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2811,14 +2771,14 @@
       "url": "https://dev.to/cristhiancarlosmamanic/securing-your-terraform-infrastructure-with-checkov-and-github-actions-2c86",
       "source": "Dev.to",
       "published_at": "2026-07-05T12:35:35Z",
-      "summary": "Discusses unauthorized access to AI agents and its impact.",
+      "summary": "Infrastructure as Code (IaC) has revolutionized how we provision and manage cloud resources. Tools...",
       "tags": [
-        "Security",
-        "AI",
-        "Terraform",
-        "CI/CD"
+        "security",
+        "terraform",
+        "devops",
+        "githubactions"
       ],
-      "relevance_score": 0.7
+      "relevance_score": 0.0
     },
     {
       "id": "1960d3b57a14226fdb909af76507d88d",
@@ -3468,6 +3428,26 @@
         "containers",
         "tutorial"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a117dc190d491cc72e88959536fb6b39",
+      "title": "How should DevOps teams contain financial blast radius from high-velocity cloud spend categories like Bedrock and Marketplace",
+      "url": "https://www.reddit.com/r/devops/comments/1uptjrx/how_should_devops_teams_contain_financial_blast/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-07T12:24:55+00:00",
+      "summary": "A compromised cloud credential is no longer just a security problem. With services like Bedrock and Marketplace, it can become a financial incident within hours. I’m trying to reason through what practical DevOps / platform engineering controls actually reduce that financial blast radius before bill",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dcdf1ec06d9939bde950a4dcf1a73382",
+      "title": "Why sandboxing your agent is not enough",
+      "url": "https://www.cncf.io/blog/2026/07/07/why-sandboxing-your-agent-is-not-enough/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-07T11:30:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
