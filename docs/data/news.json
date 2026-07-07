@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T12:37:50Z",
+  "generated_at": "2026-07-07T16:41:43Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -1102,16 +1102,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "707a015d0ca2e3913d87b1260ec3dbed",
-      "title": "AWS launches a desktop for agents",
-      "url": "https://thenewstack.io/aws-workspaces-desktops-for-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-06-30T16:01:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3789bb27fbf92ed4389b8a5851bb7483",
       "title": "Discover, govern, and scale Azure infrastructure in the AI era",
       "url": "https://www.hashicorp.com/blog/discover-govern-and-scale-azure-infrastructure-in-the-ai-era",
@@ -1119,76 +1109,6 @@
       "published_at": "2026-06-30T16:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "472053ad54007587bf8f473efdfd7410",
-      "title": "Harness Adds Autonomous AI Agents to Automate DevOps Workflows",
-      "url": "https://devops.com/harness-adds-autonomous-ai-agents-to-automate-devops-workflows/",
-      "source": "DevOps.com",
-      "published_at": "2026-06-30T15:22:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "06b1e9afecd2480c2cd839ce171ccf4e",
-      "title": "AWS just put $1 billion into forward deployed engineers. Here’s why it matters for enterprise teams.",
-      "url": "https://thenewstack.io/aws-forward-deployed-engineering/",
-      "source": "The New Stack",
-      "published_at": "2026-06-30T15:02:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4f3a6964dc5c3562cfce9abac61dde40",
-      "title": "“The harness is where the hard work is”: Harness bets on agents that enterprises can trust in production",
-      "url": "https://thenewstack.io/harness-autonomous-worker-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-06-30T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ae4fd9b661cbf6cda30a422f50cfd951",
-      "title": "Building an uptime monitor in Rust: one binary, two databases, 130K checks/sec per core",
-      "url": "https://dev.to/slima4/building-an-uptime-monitor-in-rust-one-binary-two-databases-130k-checkssec-per-core-5g25",
-      "source": "Dev.to",
-      "published_at": "2026-06-30T14:22:09Z",
-      "summary": "A build story. How Uptimepage runs HTTP/TCP/DNS/TLS checks from multiple regions on a single Rust binary backed by Postgres and ClickHouse.",
-      "tags": [
-        "rust",
-        "clickhouse",
-        "webdev",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cd859439618b2ae0a9fa4435815a0d5c",
-      "title": "Operating Kubernetes at scale: a few stories from running Amazon EKS",
-      "url": "https://thenewstack.io/eks-kubernetes-etcd-scale/",
-      "source": "The New Stack",
-      "published_at": "2026-06-30T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f51f83eee9a31cc68f45b7d41b45d3a6",
-      "title": "proxy_pass with netcat: Pipes, FIFOs, and the Art of Process Plumbing",
-      "url": "https://dev.to/medunes/proxypass-with-netcat-pipes-fifos-and-the-art-of-process-plumbing-nje",
-      "source": "Dev.to",
-      "published_at": "2026-06-30T12:56:55Z",
-      "summary": "I have been working on this nice iximiuz Labs challenge, which might sound simple at first: you have...",
-      "tags": [
-        "linux",
-        "networking",
-        "kernel",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1254,21 +1174,6 @@
       "published_at": "2026-06-30T17:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7494310b07784a87ebd8c533b2f4e588",
-      "title": "LiveOps Rollback Planning: What to Do When a Game Event Goes Wrong",
-      "url": "https://dev.to/sam_novak_574b07811e18495/liveops-rollback-planning-what-to-do-when-an-event-goes-wrong-3929",
-      "source": "Dev.to",
-      "published_at": "2026-06-30T13:06:10Z",
-      "summary": "The event failed. Now every minute writes more damage. Rollback is not a button you press in panic....",
-      "tags": [
-        "devops",
-        "gamedev",
-        "sre",
-        "gameliveops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2244,14 +2149,14 @@
       "url": "https://dev.to/empire/your-devops-team-is-the-silo-devops-was-supposed-to-kill-590a",
       "source": "Dev.to",
       "published_at": "2026-07-02T09:55:28Z",
-      "summary": "Highlights how AI teams can break DevOps silos.",
+      "summary": "If your org chart has a \"DevOps team\" sitting between the people who write the code and the people...",
       "tags": [
-        "AI",
-        "DevOps",
-        "SRE",
-        "Platform Engineering"
+        "devops",
+        "platformengineering",
+        "sre",
+        "cicd"
       ],
-      "relevance_score": 0.83
+      "relevance_score": 0.0
     },
     {
       "id": "5627ebbf00c70a00a6c9cd8f07eb0296",
@@ -3291,14 +3196,14 @@
       "url": "https://dev.to/kimlike/the-deployment-permission-i-deliberately-withheld-from-my-ai-agents-5b54",
       "source": "Dev.to",
       "published_at": "2026-07-06T00:00:00Z",
-      "summary": "Shares a practical GitHub Actions workflow for securing Terraform.",
+      "summary": "The agent finishes its work at 2am. Snapshot built, preflight checks passed, everything green. Then...",
       "tags": [
-        "Terraform",
-        "Security",
-        "Cloud",
-        "DevOps"
+        "ai",
+        "agents",
+        "machinelearning",
+        "devops"
       ],
-      "relevance_score": 0.91
+      "relevance_score": 0.0
     },
     {
       "id": "f841efc2a5ed6a211e714691ef080922",
@@ -3448,6 +3353,91 @@
       "published_at": "2026-07-07T11:30:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1f14bce3ccbf3f4428ac04eb452c4104",
+      "title": "Anthropic’s Claude Cowork now keeps working when you close your laptop",
+      "url": "https://thenewstack.io/claude-cowork-cloud-mobile/",
+      "source": "The New Stack",
+      "published_at": "2026-07-07T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b164f8f29b245b2f39fe73898e12ae04",
+      "title": "apache/airflow: providers-snowflake/6.15.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.15.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-07T14:28:59+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7d8978cad1834290bf5be14ecd244da6",
+      "title": "apache/airflow: providers-tableau/5.6.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-tableau%2F5.6.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-07T14:28:59+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "26b1c359231d5618c3d9a3ffd3216669",
+      "title": "apache/airflow: providers-ssh/5.0.4rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F5.0.4rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-07T14:28:58+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f221785a9abbaf3f20f0df6a8af1e777",
+      "title": "apache/airflow: providers-standard/1.16.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.16.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-07T14:28:58+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "24de062f9043432a8a580ba3d553e2c8",
+      "title": "The organizational iceberg: the invisible data breaking your AI agents",
+      "url": "https://thenewstack.io/invisible-data-ai-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-07-07T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6b1a8394d4d449fe9d17740e01a9b320",
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog",
+      "published_at": "2026-07-07T08:54:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8988398b278bb5cfafb1cad4bb40d927",
+      "title": "Six reasons your build passes locally and fails in CI (and how to catch each before you push)",
+      "url": "https://dev.to/fernforge/six-reasons-your-build-passes-locally-and-fails-in-ci-and-how-to-catch-each-before-you-push-2dgg",
+      "source": "Dev.to",
+      "published_at": "2026-07-07T03:56:26Z",
+      "summary": "The worst part of a CI failure isn't the failure. It's the loop: you edit, commit, push, then wait...",
+      "tags": [
+        "cicd",
+        "githubactions",
+        "node",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
