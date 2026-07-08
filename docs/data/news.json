@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T17:50:45Z",
+  "generated_at": "2026-07-08T19:50:55Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -522,16 +522,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e1288fb7af492bbe89e153ff40596d44",
-      "title": "Kubernetes v1.36: Pod-Level Resource Managers (Alpha)",
-      "url": "https://kubernetes.io/blog/2026/05/01/kubernetes-v1-36-feature-pod-level-resource-managers-alpha/",
-      "source": "Kubernetes Blog",
-      "published_at": "2026-05-01T18:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "23492871a98cc7dfbc62d2206bb3011a",
       "title": "AWS Transform custom: Enterprise Code Modernization with the Learn-Scale-Improve Flywheel",
       "url": "https://aws.amazon.com/blogs/devops/aws-transform-custom-enterprise-code-modernization-with-the-learn-scale-improve-flywheel/",
@@ -1022,16 +1012,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8e4b335b20b8704f1d1bb1973c67509e",
-      "title": "kubernetes/kubernetes: v1.37.0-alpha.2",
-      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-alpha.2",
-      "source": "GitHub Releases (kubernetes)",
-      "published_at": "2026-06-25T02:40:51+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "32028935ffa16ca981186119502b3fe9",
       "title": "Deploy Boundary on Kubernetes with official Helm charts",
       "url": "https://www.hashicorp.com/blog/deploy-boundary-on-kubernetes-with-official-helm-charts",
@@ -1208,26 +1188,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-07-01T20:06:39+00:00",
       "summary": "We have been an AWS-only shop for a long time and have always used Terraform. We took on an Azure project a bit ago. Small, uncomplicated. I tried to use Bicep then eventually switched back to Terraform. It's fine. We now have a project coming in that wants to use Azure and is quite a bit more invol",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2e4c9034cd7cc84fc9a38d65377ad77e",
-      "title": "hashicorp/terraform: v1.16.0-alpha20260701",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260701",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-07-01T19:49:44+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "259e3e9ed86e670000202ea24912ea6a",
-      "title": "Reliability Comes From the System, Not the Agent",
-      "url": "https://devops.com/reliability-comes-from-the-system-not-the-agent/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-01T18:56:42+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1427,16 +1387,6 @@
         "opensource",
         "github"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5b3fcec281c4d990510d5d7bb84a593a",
-      "title": "Thrown into DevOps and Release Management",
-      "url": "https://www.reddit.com/r/devops/comments/1uktwog/thrown_into_devops_and_release_management/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-01T18:32:23+00:00",
-      "summary": "Hi everyone, I work at a small company building its first SaaS product. My background is mechanical engineering, not software, but I'm already in the mix on customer projects and a couple of smaller software products we've shipped, mostly leaning hard on Claude and Codex. I'm still at university and",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -2031,14 +1981,14 @@
       "url": "https://dev.to/achiya-automation/i-deleted-my-no-code-automation-platform-and-rewrote-34-workflows-in-typescript-emh",
       "source": "Dev.to",
       "published_at": "2026-07-02T11:20:45Z",
-      "summary": "Evaluates cost trade-offs of on-premises vs cloud infrastructure.",
+      "summary": "Why I moved 34 production automations from a visual no-code platform to code-first durable workflows — the real benchmarks, the honest caveats, and the tool that made it a solo project.",
       "tags": [
-        "DevOps",
-        "Cloud",
-        "Cost Optimization",
-        "SRE"
+        "typescript",
+        "automation",
+        "ai",
+        "devops"
       ],
-      "relevance_score": 0.73
+      "relevance_score": 0.0
     },
     {
       "id": "c343a2ee2c6fde6dad289169914052d1",
@@ -3623,6 +3573,51 @@
         "kubernetes",
         "readinessprobes",
         "reliability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7a84d461dabf13b55deb86fd2a13d4da",
+      "title": "Looking for advice on transitioning from Sysadmin to DevOps",
+      "url": "https://www.reddit.com/r/devops/comments/1ur3a7j/looking_for_advice_on_transitioning_from_sysadmin/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-08T19:41:19+00:00",
+      "summary": "I'm looking to apply to devops/sre positions to change my current job and have a profesional glow up, i no longer feel challenged project from my job and i am stating to just doing app maintaenance and helpdesk tasks. I am a sysadmin with hands on production enviroments and automatation background (",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7a60a414dcdf0db5a2eacb43349180f8",
+      "title": "“Opus-class, but faster”: What Elon Musk says about beating Anthropic",
+      "url": "https://thenewstack.io/grok-45-opus-killer-launch/",
+      "source": "The New Stack",
+      "published_at": "2026-07-08T18:59:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "57ee8397ca375a1bc4a43ee3f4d563a4",
+      "title": "kubernetes/kubernetes: v1.37.0-alpha.3",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-alpha.3",
+      "source": "GitHub Releases (kubernetes)",
+      "published_at": "2026-07-08T18:11:06+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "70e149741ba9bc6605c3241da29455bd",
+      "title": "Faster, isolated builds: one Firecracker microVM per build",
+      "url": "https://dev.to/ianqqu/faster-isolated-builds-one-firecracker-microvm-per-build-2813",
+      "source": "Dev.to",
+      "published_at": "2026-07-07T12:30:00Z",
+      "summary": "Since we launched, every build on orkestr ran in a shared build environment. Your next build, someone...",
+      "tags": [
+        "programming",
+        "infrastructure",
+        "devops",
+        "webdev"
       ],
       "relevance_score": 0.0
     }
