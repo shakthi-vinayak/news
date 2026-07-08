@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T21:22:03Z",
+  "generated_at": "2026-07-08T23:21:04Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -1122,31 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "dc796b515dcf931a005c0aaad4b58a70",
-      "title": "Self-hosted GitHub Actions runners on Lambda MicroVMs",
-      "url": "https://www.reddit.com/r/devops/comments/1ul110h/selfhosted_github_actions_runners_on_lambda/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-01T23:03:02+00:00",
-      "summary": "I was curious if I can use new Lambda MicroVMs as self-hosted GitHub Runners. On paper, they are super nice: It's cheaper: GHA-hosted is $0.005 / min (2 vCPU), MicroVMs ~$0.0042 / min, and no minimum 60-second commitment as with GHA-hosted. It can run longer: GHA-hosted max 6 hours, MicroVMs max 8 h",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "112c6ae86f837c217cb3246e0dd36451",
-      "title": "Need feedback on my resume",
-      "url": "https://www.reddit.com/r/devops/comments/1ukzt9w/need_feedback_on_my_resume/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-01T22:13:11+00:00",
-      "summary": "Offers advice on transitioning from junior to senior DevOps roles.",
-      "tags": [
-        "SRE",
-        "Career Development",
-        "Kubernetes",
-        "Terraform"
-      ],
-      "relevance_score": 0.76
-    },
-    {
       "id": "16e64bf792a68cb2b63d239bb0b9c108",
       "title": "How much are SWEs expected to know about DevOps?",
       "url": "https://www.reddit.com/r/devops/comments/1ul7dg8/how_much_are_swes_expected_to_know_about_devops/",
@@ -1196,14 +1171,14 @@
       "url": "https://dev.to/ferztyle/kubernetes-resource-requests-and-limits-explained-scheduling-throttling-and-oomkill-590e",
       "source": "Dev.to",
       "published_at": "2026-07-02T01:11:20Z",
-      "summary": "Breaks down Kubernetes resource limits and scheduling optimizations.",
+      "summary": "This is part of the Platform engineering with Go series: a growing collection of posts on Kubernetes,...",
       "tags": [
-        "Kubernetes",
-        "Cloud",
-        "SRE",
-        "Containerization"
+        "devops",
+        "k8s",
+        "kubernetes",
+        "sre"
       ],
-      "relevance_score": 0.88
+      "relevance_score": 0.0
     },
     {
       "id": "a7bb3aa2ede0d4412102285f8a0ba5c0",
@@ -1223,21 +1198,6 @@
       "published_at": "2026-07-01T23:25:39+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a3fd791a860e344dff824de83cb16037",
-      "title": "How a Single Unauthenticated POST Turns Langflow Into a Public Python Shell",
-      "url": "https://dev.to/kkierii/how-a-single-unauthenticated-post-turns-langflow-into-a-public-python-shell-bld",
-      "source": "Dev.to",
-      "published_at": "2026-07-01T22:31:08Z",
-      "summary": "One unauthenticated POST to a Langflow endpoint gets you arbitrary Python execution on the host. No...",
-      "tags": [
-        "ai",
-        "security",
-        "devops",
-        "cybersecurity"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3554,6 +3514,16 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.9",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-07-08T20:07:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2aa79a11bfe78626e686ed4cfff73c73",
+      "title": "langchain-ai/langchain: langchain-openai==1.3.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.4",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-08T23:00:10+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
