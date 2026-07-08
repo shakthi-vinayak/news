@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T06:39:18Z",
+  "generated_at": "2026-07-08T10:32:06Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -16,7 +16,7 @@
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-07T07:57:56+00:00",
+      "published_at": "2026-07-08T08:54:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1022,16 +1022,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "759ba07d73d78cc1d77e6615dd518c52",
-      "title": "hashicorp/terraform: v1.15.7",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.7",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-06-24T16:47:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "1046b7582fb58f192db35fbaa804e69d",
       "title": "Advancing AI agent security in Vault",
       "url": "https://www.hashicorp.com/blog/advancing-ai-agent-security-in-vault",
@@ -1107,16 +1097,6 @@
       "url": "https://www.hashicorp.com/blog/discover-govern-and-scale-azure-infrastructure-in-the-ai-era",
       "source": "HashiCorp Blog",
       "published_at": "2026-06-30T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d5016e4dc9acb926593b4007a2e996b4",
-      "title": "n8n-io/n8n: n8n@2.29.1",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-01T08:32:31+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2009,13 +1989,14 @@
       "url": "https://dev.to/empire/your-devops-team-is-the-silo-devops-was-supposed-to-kill-590a",
       "source": "Dev.to",
       "published_at": "2026-07-02T09:55:28Z",
-      "summary": "Critiques the formation of siloed DevOps teams, arguing they contradict DevOps' original goal of breaking down barriers.",
+      "summary": "If your org chart has a \"DevOps team\" sitting between the people who write the code and the people...",
       "tags": [
-        "DevOps",
-        "Platform Engineering",
-        "SRE"
+        "devops",
+        "platformengineering",
+        "sre",
+        "cicd"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "5627ebbf00c70a00a6c9cd8f07eb0296",
@@ -3528,6 +3509,76 @@
         "networking",
         "security"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c2e73a6938bc467085f7ce014344ac5d",
+      "title": "apache/airflow: python-client/3.3.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/python-client%2F3.3.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-08T09:47:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ad57a15e95b21f25c17e504067049522",
+      "title": "hashicorp/terraform: v1.16.0-alpha20260708",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260708",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-07-08T09:19:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b47c315b8f6f5e1bfb3adb726b59c0ab",
+      "title": "n8n-io/n8n: n8n@2.29.8",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.8",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-08T09:02:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8ef6b1204e50e0226ed826c70d0dddf2",
+      "title": "n8n-io/n8n: n8n@2.30.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-08T08:50:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "39e8f1bd2f4ad1c80141f5ad99010702",
+      "title": "n8n-io/n8n: n8n@1.123.64",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.64",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-08T08:30:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a2df0368a59b134d0276027a3c510d96",
+      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.64 (#33810)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-08T08:03:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "df077a7fa511d317d4c1a34dc6b5d769",
+      "title": "‘GitLost’ Flaw Lets Attackers Trick GitHub AI Agent Into Leaking Private Repos",
+      "url": "https://devops.com/gitlost-flaw-lets-attackers-trick-github-ai-agent-into-leaking-private-repos/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-08T07:06:45+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
