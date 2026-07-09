@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T10:03:04Z",
+  "generated_at": "2026-07-09T16:35:11Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -337,16 +337,6 @@
       "url": "https://aws.amazon.com/blogs/devops/automate-root-cause-analysis-across-datadog-and-elasticsearch-with-aws-devops-agent/",
       "source": "AWS Blog",
       "published_at": "2026-05-19T21:39:20+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f574c9308dfca328124bbf25e9c91e4b",
-      "title": "Simplify AI infrastructure for AWS Trainium and Elastic Fabric Adapter with Kubernetes Dynamic Resource Allocation",
-      "url": "https://aws.amazon.com/blogs/containers/simplify-ai-infrastructure-for-aws-trainium-and-elastic-fabric-adapter-with-kubernetes-dynamic-resource-allocation/",
-      "source": "AWS Blog (Containers)",
-      "published_at": "2026-05-18T18:56:30+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1102,36 +1092,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6ba9a6cbc74857b6cdd8f5b498fe18d8",
-      "title": "anyone lose the reasoning behind an ai-generated terraform/pipeline change after the session's gone",
-      "url": "https://www.reddit.com/r/devops/comments/1ulm2o6/anyone_lose_the_reasoning_behind_an_aigenerated/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-02T15:52:51+00:00",
-      "summary": "had an annoying moment last week — had claude walk me through restructuring part of a ci pipeline, made a few calls along the way (why we skip caching on this stage, why the deploy step is ordered like it is) and then the session died before i wrote any of it down anywhere. six months from now someo",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7b0b0378ab15b031ce9cc9818d2a4f1a",
-      "title": "Where to learn actual system design?",
-      "url": "https://www.reddit.com/r/devops/comments/1ulhurm/where_to_learn_actual_system_design/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-02T13:10:11+00:00",
-      "summary": "Hi I'm a DevOps with 4+ years of experience and even though I consider myself I'm having a good knowledge, I realized I need to learn system design in an actual production way Like what stack and architecture to use in a specific case Where do I learn that? Do you have any resources for it?  &#32; s",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "caafbf3ea617fa8b24c6602a4453a1ca",
-      "title": "Why traditional CI/CD fails for LLMs (and the release gates we built to fix it)",
-      "url": "https://thenewstack.io/why-cicd-fails-llms/",
-      "source": "The New Stack",
-      "published_at": "2026-07-02T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "96f184d404f4e0330f607ab3fb3bca31",
       "title": "How is the job market?",
       "url": "https://www.reddit.com/r/devops/comments/1ulr4us/how_is_the_job_market/",
@@ -1310,51 +1270,6 @@
         "SRE"
       ],
       "relevance_score": 0.95
-    },
-    {
-      "id": "68df8baf0eee231419f04c0d761b381b",
-      "title": "Deploying Plane - An Open-Source Jira Alternative on Ubuntu",
-      "url": "https://dev.to/vultr/deploying-plane-an-open-source-jira-alternative-on-ubuntu-1k85",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T16:35:10Z",
-      "summary": "Plane is an open-source project management platform that supports Agile, Kanban, waterfall, and...",
-      "tags": [
-        "selfhosted",
-        "docker",
-        "devops",
-        "projectmanagement"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8e8f85702d8f5089a700d8d4e9d1d71b",
-      "title": "Deploying OnlyOffice DocSpace - An Open-Source Office Suite on Ubuntu",
-      "url": "https://dev.to/vultr/deploying-onlyoffice-docspace-an-open-source-office-suite-on-ubuntu-2aan",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T16:34:30Z",
-      "summary": "OnlyOffice DocSpace is an open-source office suite that provides word processing, spreadsheets,...",
-      "tags": [
-        "selfhosted",
-        "docker",
-        "productivity",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "403d9381a796259d8c94731a3418e1b0",
-      "title": "The Fragile Balance of AI Development: Individual Flow vs. Collective Context",
-      "url": "https://dev.to/dailycontext/the-fragile-balance-of-ai-development-individual-flow-vs-collective-context-2f49",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T15:00:21Z",
-      "summary": "As much AI-driven development has normalized, we are still in the Wild West. While we are closer to...",
-      "tags": [
-        "aie",
-        "agents",
-        "mcp",
-        "devops"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "8cde59ea8d947a9d38d37f657f15dc20",
@@ -1656,21 +1571,6 @@
       "published_at": "2026-07-04T15:22:53+00:00",
       "summary": "Hi, so I'm in my last year of university.I started my journey as a backend engineer, back in when I was in college.I always wanted to move to DevOps but didn't move because I thought I should have knowledge about the architecture and different concepts related to it like databases, networking,System",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e9dd83e1e57d6564b605d5a101e88fe1",
-      "title": "I Deleted My No-Code Automation Platform and Rewrote 34 Workflows in TypeScript",
-      "url": "https://dev.to/achiya-automation/i-deleted-my-no-code-automation-platform-and-rewrote-34-workflows-in-typescript-emh",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T11:20:45Z",
-      "summary": "Why I moved 34 production automations from a visual no-code platform to code-first durable workflows — the real benchmarks, the honest caveats, and the tool that made it a solo project.",
-      "tags": [
-        "typescript",
-        "automation",
-        "ai",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3462,6 +3362,106 @@
         "learning",
         "linux"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8cb14fa7e08189854ae3db96db116779",
+      "title": "DevOps/Platform engineering vs. Software Dev, is it less creative and more rote work?",
+      "url": "https://www.reddit.com/r/devops/comments/1urufkh/devopsplatform_engineering_vs_software_dev_is_it/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-09T15:59:08+00:00",
+      "summary": "I have been a fullstack software dev for 5 years already, with some years also doing ops stuff for the team (since no one bothered to/liked doing it) like managing Jenkins IaC, pipelines, AWS CDK, K8S deployments, etc. I liked those stuff and our team was really suffering because no one bothered to ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "775d3366cbb086f3e8b046ae5432e67b",
+      "title": "Develop like you deploy: closing the Kubernetes local-to-cluster gap",
+      "url": "https://thenewstack.io/krumware-epinio-kubernetes-mcp/",
+      "source": "The New Stack",
+      "published_at": "2026-07-09T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bd79362cbb2dcd7272a2c3f09a4c86f3",
+      "title": "Kafka Consumer Lag Is the Metric Everyone Collects—and Almost Everyone Misunderstands",
+      "url": "https://dev.to/themoah/kafka-consumer-lag-is-the-metric-everyone-collects-and-almost-everyone-misunderstands-4m8l",
+      "source": "Dev.to",
+      "published_at": "2026-07-09T14:06:20Z",
+      "summary": "Collecting Kafka consumer lag is easy. Understanding what it actually means is much harder. Here's why offsets alone are not enough to operate Kafka in production.",
+      "tags": [
+        "kafka",
+        "sre",
+        "monitoring",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "271b7aca9c9982e7b2a4c225e6e4a580",
+      "title": "Agentic AI in observability: accelerating root cause analysis",
+      "url": "https://thenewstack.io/agentic-ai-observability-operations/",
+      "source": "The New Stack",
+      "published_at": "2026-07-09T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f7b83ead82ffd022bdfb02cd5bccda41",
+      "title": "AI Governance for Engineering Teams",
+      "url": "https://dev.to/hadil/ai-governance-for-engineering-teams-4510",
+      "source": "Dev.to",
+      "published_at": "2026-07-09T12:44:56Z",
+      "summary": "AI Governance for Engineering Teams: Guardrails, Budgets, and Audit Logs That Actually Scale   ...",
+      "tags": [
+        "ai",
+        "devops",
+        "management",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "79b0e56381b64e33e9f6b5e263d6736a",
+      "title": "Is there an orchestration tool that doesn't force everyone on the team to learn python ?",
+      "url": "https://www.reddit.com/r/devops/comments/1uro23y/is_there_an_orchestration_tool_that_doesnt_force/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-09T11:52:56+00:00",
+      "summary": "Genuine question. Our team is 3 data engineers (python), 2 analytics engineers (SQL and dbt), and 2 infra guys (terraform / ansible). We tried airflow but the analytics and anfra pp can't contribute to pipeline definition bc everything is python DAGs. It creates a bottleneck where the 3 python devs ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "22ab5f15c0735f68eee9e7e04dfc38d2",
+      "title": "How should I stay curious and sharp and learn more? What resources should I go to?",
+      "url": "https://www.reddit.com/r/devops/comments/1urnqrt/how_should_i_stay_curious_and_sharp_and_learn/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-09T11:38:16+00:00",
+      "summary": "Hello, I have been working as a dev sec ops for the last 4 years and recently as a devops engineer. At my last job, since everything was new, and I had no idea about so many things everything was exciting. Learning Terraform, ansible, Linux, how to sys admin, Grafana monitoring so on. Now at this ne",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "978dc0667e51edb0aa930b86022bc088",
+      "title": "How to Build a DevSecOps CI/CD Pipeline on Azure With GitHub Actions",
+      "url": "https://devops.com/how-to-build-a-devsecops-ci-cd-pipeline-on-azure-with-github-actions/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-09T11:27:59+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "30d16dad0133b39bc530aa3376d57997",
+      "title": "Shadow Mode Continuous Integration: The Missing Test Layer for AI Agents",
+      "url": "https://devops.com/shadow-mode-continuous-integration-the-missing-test-layer-for-ai-agents/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-09T11:16:01+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
