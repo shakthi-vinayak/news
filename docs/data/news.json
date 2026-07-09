@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T21:41:55Z",
+  "generated_at": "2026-07-09T23:23:38Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -1102,16 +1102,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e5eb2b9ddce78fc29fe5c0d0f04758a7",
-      "title": "When AI Agents Get Production Access: The Next Big DevOps Risk",
-      "url": "https://devops.com/when-ai-agents-get-production-access-the-next-big-devops-risk/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-02T22:40:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "05c8cd2e147b57600e35db0886b5563a",
       "title": "PamStealer: the macOS stealer that checks your password through PAM before stealing it",
       "url": "https://dev.to/kkierii/pamstealer-the-macos-stealer-that-checks-your-password-through-pam-before-stealing-it-4abj",
@@ -1124,16 +1114,6 @@
         "devops",
         "vulnerabilities"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "656dd74f9cf6ddaebb40bb7671510fa7",
-      "title": "Vendoring images and charts",
-      "url": "https://www.reddit.com/r/devops/comments/1ulvojh/vendoring_images_and_charts/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-02T21:49:02+00:00",
-      "summary": "I started working on a tool that makes it easy to vendor images and charts for Kubernetes clusters and docker-compose setups. In my work I ran into issues with third party charts / chart versions disappearing from website and images being deleted from registries or rate limits suddenly preventing ac",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3316,6 +3296,16 @@
       "source": "Reddit r/devops",
       "published_at": "2026-07-09T21:23:03+00:00",
       "summary": "I keep seeing this with rented GPUs. The pod says RUNNING, so you assume the workload is ready. But RUNNING usually just means the infra exists. It does not mean vLLM finished loading. It does not mean ComfyUI is reachable. It does not mean CUDA is visible. It does not mean the container did not cra",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c6dca27fe593b35c67d549417409fae3",
+      "title": "Securing Services with Rootless Containers",
+      "url": "https://www.reddit.com/r/devops/comments/1us43p2/securing_services_with_rootless_containers/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-09T21:45:24+00:00",
+      "summary": "Hi there :) , I assume that many of you are experts on devops, probably much more experienced than me, but I wanted to share some of my notes on how to deploy rootless containers, in case this is useful for someone. - Securing Services with Rootless Containers (with Podman) This is the first part of",
       "tags": [],
       "relevance_score": 0.0
     }
