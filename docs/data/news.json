@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T20:01:22Z",
+  "generated_at": "2026-07-09T21:41:55Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -1097,26 +1097,6 @@
       "url": "https://aws.amazon.com/blogs/containers/diagnose-kubernetes-control-plane-performance-issues-with-aws-devops-agent/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-07-02T17:03:59+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8cde59ea8d947a9d38d37f657f15dc20",
-      "title": "I built a free anonymous Docker registry where the tag is the TTL - push ocihub.com/myapp:1h and it deletes itself an hour later",
-      "url": "https://www.reddit.com/r/devops/comments/1ulusn3/i_built_a_free_anonymous_docker_registry_where/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-02T21:14:40+00:00",
-      "summary": "Passing images between CI jobs always annoyed me: tarball artifacts are slow. So I built ocihub.com, the tag sets the lifetime: docker push ocihub.com/myapp:1h No signup, no API keys, works with docker.  &#32; submitted by &#32;  /u/Arsalanse   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "00e7ea88a4074acb4bf73449ca69636d",
-      "title": "“AI contributions are demoralizing”: Godot bans coding agents to save its mentoring model",
-      "url": "https://thenewstack.io/godot-bans-ai-coding-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-07-02T20:31:26+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3326,6 +3306,16 @@
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-07-09T17:56:51+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5cb966cb250d3f61a6814980f4665549",
+      "title": "The biggest lie in GPU tooling is that RUNNING means ready",
+      "url": "https://www.reddit.com/r/devops/comments/1us3ile/the_biggest_lie_in_gpu_tooling_is_that_running/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-09T21:23:03+00:00",
+      "summary": "I keep seeing this with rented GPUs. The pod says RUNNING, so you assume the workload is ready. But RUNNING usually just means the infra exists. It does not mean vLLM finished loading. It does not mean ComfyUI is reachable. It does not mean CUDA is visible. It does not mean the container did not cra",
       "tags": [],
       "relevance_score": 0.0
     }
