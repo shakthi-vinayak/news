@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T16:35:11Z",
+  "generated_at": "2026-07-09T20:01:22Z",
   "items": [
     {
       "id": "5a479b37a0d49f3ee456456416bfc32c",
@@ -1092,76 +1092,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "96f184d404f4e0330f607ab3fb3bca31",
-      "title": "How is the job market?",
-      "url": "https://www.reddit.com/r/devops/comments/1ulr4us/how_is_the_job_market/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-02T18:55:46+00:00",
-      "summary": "Explains feature flag orchestration using AWS DevOps Agent and LaunchDarkly.",
-      "tags": [
-        "DevOps",
-        "Cloud",
-        "Observability",
-        "AWS"
-      ],
-      "relevance_score": 0.76
-    },
-    {
-      "id": "fbd439e35d01f4a2d3dcd0baa9ba6c54",
-      "title": "Job switch from solar to devops/cloud",
-      "url": "https://www.reddit.com/r/devops/comments/1ulr4lk/job_switch_from_solar_to_devopscloud/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-02T18:55:29+00:00",
-      "summary": "Highlights Kiro power for AWS DevOps Agent in production.",
-      "tags": [
-        "Cloud",
-        "Kubernetes",
-        "Security",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "622b76a4cb21a8e578bbfc3484d35885",
-      "title": "apache/airflow: providers-cncf-kubernetes/10.19.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-cncf-kubernetes%2F10.19.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-02T18:06:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0fb6b46af018e425b597895ac59e3a6c",
-      "title": "apache/airflow: providers-keycloak/0.8.1rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-keycloak%2F0.8.1rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-02T18:06:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0868119d07d2ea032a10362921b4121a",
-      "title": "apache/airflow: providers-common-io/1.8.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-common-io%2F1.8.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-02T18:06:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "813fe3a723f72a9fb00dfc1a517eb643",
-      "title": "apache/airflow: providers/2026-07-01",
-      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-07-01",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-02T17:54:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "0427510037f5e1393c6ec5a9a82cb5d2",
       "title": "Diagnose Kubernetes Control Plane Performance Issues with AWS DevOps Agent",
       "url": "https://aws.amazon.com/blogs/containers/diagnose-kubernetes-control-plane-performance-issues-with-aws-devops-agent/",
@@ -1170,106 +1100,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "939051123ac1908d21d1473d98e263a9",
-      "title": "Deploying Passbolt - An Open-Source Password Management Tool on Ubuntu 24.04",
-      "url": "https://dev.to/vultr/deploying-passbolt-an-open-source-password-management-tool-on-ubuntu-2404-cl1",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T16:48:09Z",
-      "summary": "Passbolt is an open-source password manager built around end-to-end encryption with OpenPGP and...",
-      "tags": [
-        "security",
-        "devops",
-        "selfhosted",
-        "passwords"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "12313eaebaeacee3e219e652cd91bdcb",
-      "title": "Z.ai Debuts ZCode to Compete With GitHub Copilot, Cursor and Anthropic",
-      "url": "https://devops.com/z-ai-debuts-zcode-to-compete-with-github-copilot-cursor-and-anthropic/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-02T16:43:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9a7029e9b64030bd179a1afe85857100",
-      "title": "Backing Up and Restoring PostgreSQL Databases to S3-Compatible Storage in Coolify",
-      "url": "https://dev.to/vultr/backing-up-and-restoring-postgresql-databases-to-s3-compatible-storage-in-coolify-1c7e",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T16:40:22Z",
-      "summary": "Coolify is an open-source, self-hosted PaaS for deploying applications and databases. Its backup...",
-      "tags": [
-        "database",
-        "devops",
-        "selfhosted",
-        "postgres"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7482c5abb498f01362a14625fcbc4567",
-      "title": "Deploying ClearML as an AWS SageMaker Alternative on Ubuntu",
-      "url": "https://dev.to/vultr/deploying-clearml-as-an-aws-sagemaker-alternative-on-ubuntu-44io",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T16:38:45Z",
-      "summary": "ClearML is an open-source MLOps platform that pairs experiment tracking, pipelines, hyperparameter...",
-      "tags": [
-        "mlops",
-        "docker",
-        "ai",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "64158ddb5e7bee0ad02cc69c1984366c",
-      "title": "Deploying Kubeflow as an AWS SageMaker Alternative",
-      "url": "https://dev.to/vultr/deploying-kubeflow-as-an-aws-sagemaker-alternative-4im7",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T16:37:13Z",
-      "summary": "Kubeflow is the open-source MLOps platform for Kubernetes, a self-hosted alternative to AWS SageMaker...",
-      "tags": [
-        "mlops",
-        "kubernetes",
-        "ai",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2bd058ae7de573ca9c03df080215ec3b",
-      "title": "Deploying Navidrome - Self-Hosted Music Streaming Server on Ubuntu 24.04",
-      "url": "https://dev.to/vultr/deploying-navidrome-self-hosted-music-streaming-server-on-ubuntu-2404-l29",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T16:36:29Z",
-      "summary": "Navidrome is an open-source, Subsonic/Airsonic-compatible music streaming server you host yourself....",
-      "tags": [
-        "selfhosted",
-        "docker",
-        "devops",
-        "media"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fb30680a9055c5f6586c9b49a3cb4a00",
-      "title": "Deploying cert-manager and Managing SSL Certificates in Kubernetes",
-      "url": "https://dev.to/vultr/deploying-cert-manager-and-managing-ssl-certificates-in-kubernetes-15f7",
-      "source": "Dev.to",
-      "published_at": "2026-07-02T16:35:52Z",
-      "summary": "Review of Plane as an open-source alternative to Jira in Ubuntu environments.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering",
-        "Open Source",
-        "SRE"
-      ],
-      "relevance_score": 0.95
     },
     {
       "id": "8cde59ea8d947a9d38d37f657f15dc20",
@@ -1290,21 +1120,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "67025f424fa09d17e8b23688216faee1",
-      "title": "Built a curated list of official DevOps / Cloud / SRE MCP servers and agent skills",
-      "url": "https://www.reddit.com/r/devops/comments/1ulsqih/built_a_curated_list_of_official_devops_cloud_sre/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-02T19:56:04+00:00",
-      "summary": "Describes using AWS DevOps Agent with LaunchDarkly for feature flags.",
-      "tags": [
-        "Cloud",
-        "SRE",
-        "Observability",
-        "AWS"
-      ],
-      "relevance_score": 0.91
     },
     {
       "id": "e5eb2b9ddce78fc29fe5c0d0f04758a7",
@@ -3460,6 +3275,56 @@
       "url": "https://devops.com/shadow-mode-continuous-integration-the-missing-test-layer-for-ai-agents/",
       "source": "DevOps.com",
       "published_at": "2026-07-09T11:16:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "63834c4c0a98bebdb4130fdc34ef74ac",
+      "title": "Mezmo Open Sources AI SRE Operations",
+      "url": "https://devops.com/mezmo-open-sources-ai-sre-operations/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-09T19:38:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "25f46f3eb7d4764789f13b210db91847",
+      "title": "OpenAI is folding Codex into the ChatGPT app — and taking aim at Claude Cowork",
+      "url": "https://thenewstack.io/openai-codex-work-atlas/",
+      "source": "The New Stack",
+      "published_at": "2026-07-09T18:55:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "132ea28da92869b28ac4a2947d5eeb66",
+      "title": "Best approach to deploy 40+ React apps as microservices on a single server — Docker or k3s?",
+      "url": "https://www.reddit.com/r/devops/comments/1urzfrj/best_approach_to_deploy_40_react_apps_as/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-09T18:53:49+00:00",
+      "summary": "Hey all, I'm running into an architecture decision and want some real-world input before I commit. Setup: I have 40+ React apps that I'm treating as individual microservices — each one needs to run in its own isolated environment (separate dependencies, separate runtime context, no bleed-over betwee",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4087dde0522eb8218b7fdb4cab90b0cb",
+      "title": "OpenAI’s GPT-5.6 is now live",
+      "url": "https://thenewstack.io/openai-gpt-56-live/",
+      "source": "The New Stack",
+      "published_at": "2026-07-09T18:16:05+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bb93f95dff9469efa4e25b35afff2926",
+      "title": "langchain-ai/langchain: langchain-fireworks==1.4.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.4",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-09T17:56:51+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
