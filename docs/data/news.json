@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T12:34:21Z",
+  "generated_at": "2026-07-10T16:32:29Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -507,16 +507,6 @@
       "url": "https://aws.amazon.com/blogs/devops/aws-transform-custom-enterprise-code-modernization-with-the-learn-scale-improve-flywheel/",
       "source": "AWS Blog",
       "published_at": "2026-04-27T04:49:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "87b4954d14d27baa87224de1362373ec",
-      "title": "Axios npm Supply Chain Compromise – Guidance for Azure Pipelines Customers",
-      "url": "https://devblogs.microsoft.com/devops/axios-npm-supply-chain-compromise-guidance-for-azure-pipelines-customers/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-04-24T10:40:43+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1102,117 +1092,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "90ec6d591a640e24f515b1934f18fb5f",
-      "title": "apache/airflow: providers-celery/3.21.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-celery%2F3.21.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-03T15:48:09+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5e70e35f46ac75ae29b8eab3a106ea24",
-      "title": "apache/airflow: providers-fab/3.7.1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-fab%2F3.7.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-03T15:48:09+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0f6e769fbcd2006703182ca94faf0057",
-      "title": "apache/airflow: providers-google/22.2.1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-google%2F22.2.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-03T15:48:09+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bcf5ad58e50d091a71b046443f189a72",
-      "title": "Protect Yourself, Mesh Yourself",
-      "url": "https://dev.to/eschmechel/protect-yourself-mesh-yourself-3fkn",
-      "source": "Dev.to",
-      "published_at": "2026-07-03T13:45:00Z",
-      "summary": "In my last post, my SSH keys moved off disk and into 1Password. This one is about the network those...",
-      "tags": [
-        "tutorial",
-        "productivity",
-        "opensource",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "827bfd32cd096ddec33c5d3a968d7e38",
-      "title": "apache/airflow: task-sdk/1.3.0rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.3.0rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-03T13:25:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "efb4961a1a050b5e5386f5c5358cb9e8",
-      "title": "apache/airflow: 3.3.0rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/3.3.0rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-03T13:25:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cad4dc94dcc76172ac6dda8b0f0a363c",
-      "title": "Website Down? Don't Blame Your Code Yet (How to Prove Your Host is at Fault)",
-      "url": "https://dev.to/sayista_yazdani_3c0e9f4f9/website-down-dont-blame-your-code-yet-how-to-prove-your-host-is-at-fault-1mfp",
-      "source": "Dev.to",
-      "published_at": "2026-07-03T13:13:51Z",
-      "summary": "Every developer knows the sudden panic 😱 when a production website goes down. You immediately open...",
-      "tags": [
-        "webdev",
-        "devops",
-        "linux",
-        "programming"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c55b3b45205e7a891266725e221ce3b4",
-      "title": "Docker healthchecks: what they actually measure and what you shouldn't promise",
-      "url": "https://dev.to/jtorchia/docker-healthchecks-what-they-actually-measure-and-what-you-shouldnt-promise-447k",
-      "source": "Dev.to",
-      "published_at": "2026-07-03T12:01:57Z",
-      "summary": "A healthcheck that only says \"the process responds\" can hide entire business failures. What Docker HEALTHCHECK actually measures, where people overestimate it, and a decision matrix so you stop promising more than the mechanism can deliver.",
-      "tags": [
-        "english",
-        "docker",
-        "devops",
-        "railway"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "994edf0d4ede287663976b06aa77ba77",
       "title": "Apple just turned Safari into something AI agents can control",
       "url": "https://thenewstack.io/safari-mcp-platform-infrastructure/",
       "source": "The New Stack",
       "published_at": "2026-07-03T17:19:46+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5386f33eef7ece40a20479fbacc5804c",
-      "title": "Learning budget",
-      "url": "https://www.reddit.com/r/devops/comments/1uminm5/learning_budget/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-03T16:11:53+00:00",
-      "summary": "I'm a full-stack web dev with 3 YOE trying to migrate into devops. So, I'm collaborating with a friend who is building a mobile app with node server, SQL db and I'm responsible for the infrastructure. I'd like to try stuff like github actions, docker, managed db service, storage, load balancer, test",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2999,12 +2884,14 @@
       "url": "https://dev.to/smakosh/ai-gateway-fees-compared-who-marks-up-your-tokens-19",
       "source": "Dev.to",
       "published_at": "2026-07-08T17:09:17Z",
-      "summary": "Compares fees across AI gateways to reveal which providers markup token costs the most.",
+      "summary": "Comparing AI gateways on price sounds simple until you read the fine print. The number on the pricing...",
       "tags": [
-        "AI",
-        "LLMOps"
+        "ai",
+        "llm",
+        "api",
+        "devops"
       ],
-      "relevance_score": 0.7
+      "relevance_score": 0.0
     },
     {
       "id": "88b17f55d9b89d61a94200de59fe5668",
@@ -3412,6 +3299,96 @@
         "cicd",
         "githubactions",
         "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "51a2e5f758f78f2ad209ac3c52f423b5",
+      "title": "Why retrieval quality is becoming the defining challenge in AI agent architecture",
+      "url": "https://thenewstack.io/retrieval-ai-agent-architecture/",
+      "source": "The New Stack",
+      "published_at": "2026-07-10T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7bbcc0caea21144012c40b2108e23e13",
+      "title": "Bootstrapping Flux",
+      "url": "https://www.reddit.com/r/devops/comments/1usrq3p/bootstrapping_flux/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-10T15:58:10+00:00",
+      "summary": "there's several methods on setting it up on a cluster (terraform with helm, terraform with flux provider, and using the flux boostrap command). Is there any reason for using Terraform instead of flux cli on my runner? Ultimately i dont want terraform managing it.  &#32; submitted by &#32;  /u/DeLoMi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1e8fcaca5a39b3974dbc250e014a56ed",
+      "title": "What running Kubernetes across millions of clusters taught AWS about zone failures",
+      "url": "https://thenewstack.io/eks-zonal-shift-resilience/",
+      "source": "The New Stack",
+      "published_at": "2026-07-10T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1806b83409451585d0fde97339c08a93",
+      "title": "Shrinking Azure Pipeline task extensions using esbuild",
+      "url": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
+      "source": "Azure DevOps Blog",
+      "published_at": "2026-07-10T14:45:56+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "95c71cd890b4627fd6e69afedc8626f5",
+      "title": "Anthropic wants you to use AI to decide whether or not you should use AI.",
+      "url": "https://thenewstack.io/claude-reflection-ai-judgment/",
+      "source": "The New Stack",
+      "published_at": "2026-07-10T14:14:40+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "314fe35401ee429c89bbb93d8b2bcb5a",
+      "title": "OpenAI, Microsoft & Anthropic agree on who runs the agent. They disagree on what you can take back.",
+      "url": "https://thenewstack.io/ai-agent-control-planes/",
+      "source": "The New Stack",
+      "published_at": "2026-07-10T14:11:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "680dd318fd1f1fd934f1f66c16744024",
+      "title": "Adopting Terraform Ephemeral Resources",
+      "url": "https://dev.to/drewmullen/adopting-terraform-ephemeral-resources-1b67",
+      "source": "Dev.to",
+      "published_at": "2026-07-09T12:50:48Z",
+      "summary": "In version 1.11, HashiCorp introduced Terraform Ephemeral resources and write-only attributes to...",
+      "tags": [
+        "devops",
+        "infrastructure",
+        "security",
+        "terraform"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0dd90558c31775caeb1ff45b59aab6ef",
+      "title": "Introducing AWS Sandbox Environment: Learn AWS for Free Without a Credit Card",
+      "url": "https://dev.to/aws-builders/introducing-aws-sandbox-environment-learn-aws-for-free-without-a-credit-card-58np",
+      "source": "Dev.to",
+      "published_at": "2026-07-09T10:11:18Z",
+      "summary": "AWS Builder Center now offers free 8-hour sandbox environments for workshops. Here's how it works, who it's for, and how it compares to Free Tier, Skill Builder, and Educate.",
+      "tags": [
+        "aws",
+        "cloud",
+        "beginners",
+        "devops"
       ],
       "relevance_score": 0.0
     }
