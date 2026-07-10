@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:53:40Z",
+  "generated_at": "2026-07-10T12:34:21Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1092,16 +1092,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5627ebbf00c70a00a6c9cd8f07eb0296",
-      "title": "n8n-io/n8n: n8n@2.29.5",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.5",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-03T11:01:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "aeacb69abcc48a562baccd537cfabbbb",
       "title": "How data sovereignty is changing cloud native infrastructure design",
       "url": "https://www.cncf.io/blog/2026/07/03/how-data-sovereignty-is-changing-cloud-native-infrastructure-design/",
@@ -1203,21 +1193,6 @@
         "docker",
         "devops",
         "railway"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "56eb6f8cecb0d87999a2dab41a1eb8e3",
-      "title": "Running untrusted, AI-generated code: why we built CreateOS Sandbox on Firecracker",
-      "url": "https://dev.to/pratikbin/running-untrusted-ai-generated-code-why-we-built-createos-sandbox-on-firecracker-dld",
-      "source": "Dev.to",
-      "published_at": "2026-07-03T11:30:00Z",
-      "summary": "The agent doesn't just write the code anymore. It runs it.  That one change broke an assumption a lot...",
-      "tags": [
-        "ai",
-        "devops",
-        "security",
-        "showdev"
       ],
       "relevance_score": 0.0
     },
@@ -1564,13 +1539,14 @@
       "url": "https://dev.to/cristhiancarlosmamanic/securing-your-terraform-infrastructure-with-checkov-and-github-actions-2c86",
       "source": "Dev.to",
       "published_at": "2026-07-05T12:35:35Z",
-      "summary": "Shows how to secure Terraform code using Checkov and integrate scans into GitHub Actions pipelines.",
+      "summary": "Infrastructure as Code (IaC) has revolutionized how we provision and manage cloud resources. Tools...",
       "tags": [
-        "Terraform",
-        "Security",
-        "CI/CD"
+        "security",
+        "terraform",
+        "devops",
+        "githubactions"
       ],
-      "relevance_score": 0.9
+      "relevance_score": 0.0
     },
     {
       "id": "1960d3b57a14226fdb909af76507d88d",
@@ -2893,13 +2869,14 @@
       "url": "https://dev.to/ianqqu/faster-isolated-builds-one-firecracker-microvm-per-build-2813",
       "source": "Dev.to",
       "published_at": "2026-07-07T12:30:00Z",
-      "summary": "Uses Firecracker microVMs to provide faster, isolated builds, improving CI pipeline performance.",
+      "summary": "Since we launched, every build on orkestr ran in a shared build environment. Your next build, someone...",
       "tags": [
-        "Containers",
-        "CI/CD",
-        "Cloud"
+        "programming",
+        "infrastructure",
+        "devops",
+        "webdev"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "6de983bad3471cdd7306a0be201daa36",
@@ -3365,6 +3342,76 @@
         "llm",
         "api",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cef26ca796f2ad56e094289c19f0fe4e",
+      "title": "Anthropic is giving 6 months of Claude Max 20x ($1,200 value) for free to open source contributors, applications are open now",
+      "url": "https://www.reddit.com/r/devops/comments/1uslq0c/anthropic_is_giving_6_months_of_claude_max_20x/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-10T12:04:17+00:00",
+      "summary": "ame across this and wanted to make sure the dev community knows about it. Anthropic quietly expanded their Claude for Open Source program and the details are pretty generous:  6 months of Claude Max 20x $1,200 value - completely free No catch, just an application  Who qualifies:  Package maintainers",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fd88e37108b32d21a00cbfbee34bc554",
+      "title": "Observability Local Setup",
+      "url": "https://www.reddit.com/r/devops/comments/1usl9b6/observability_local_setup/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-10T11:43:11+00:00",
+      "summary": "Greetings to all DevOps enthusiasts. Not long ago I had struggled with observability principles and decided to learn it by building from scratch. I have published an article on Medium that is a complete setup for observing local system. The tech stack consist of a nextjs frontend, .NET backend and a",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fcb757775c2e8c04fc9e5785ad4b35fd",
+      "title": "prometheus/prometheus: v0.313.1",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.1",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-07-10T10:35:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0c498515d1eb5a1729f67fa6a4fdb10f",
+      "title": "prometheus/prometheus: 3.13.1 / 2026-07-10",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.1",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-07-10T10:34:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8d04b4589572331fcea927fb39e3dc2e",
+      "title": "Introducing AWS Sandbox Environment: Learn AWS for Free Without a Credit Card",
+      "url": "https://dev.to/sarvar_04/introducing-aws-sandbox-environment-learn-aws-for-free-without-a-credit-card-58np",
+      "source": "Dev.to",
+      "published_at": "2026-07-09T10:11:18Z",
+      "summary": "AWS Builder Center now offers free 8-hour sandbox environments for workshops. Here's how it works, who it's for, and how it compares to Free Tier, Skill Builder, and Educate.",
+      "tags": [
+        "aws",
+        "cloud",
+        "beginners",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9d14938cf19ba0e1694194f48d4d7fc3",
+      "title": "Build Your First CI/CD Pipeline with GitHub Actions (Complete Beginner's Guide)",
+      "url": "https://dev.to/dr_rvinobchander_ac6a/build-your-first-cicd-pipeline-with-github-actions-complete-beginners-guide-6fj",
+      "source": "Dev.to",
+      "published_at": "2026-07-08T11:12:04Z",
+      "summary": "Every time you push code, a few things should happen automatically: your tests should run, your code...",
+      "tags": [
+        "devops",
+        "cicd",
+        "githubactions",
+        "tutorial"
       ],
       "relevance_score": 0.0
     }
