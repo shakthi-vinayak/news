@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T16:32:29Z",
+  "generated_at": "2026-07-10T19:48:53Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1092,16 +1092,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "994edf0d4ede287663976b06aa77ba77",
-      "title": "Apple just turned Safari into something AI agents can control",
-      "url": "https://thenewstack.io/safari-mcp-platform-infrastructure/",
-      "source": "The New Stack",
-      "published_at": "2026-07-03T17:19:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c9f6f399871b0ffb61e1a389f45706c8",
       "title": "Lyzr Ai and Accenture bring Agentic Ai in Insurance and banking",
       "url": "https://www.reddit.com/r/devops/comments/1umygbe/lyzr_ai_and_accenture_bring_agentic_ai_in/",
@@ -1261,21 +1251,6 @@
       "published_at": "2026-07-05T03:39:52+00:00",
       "summary": "I'm curious how experienced DevOps engineers got started with freelancing or part-time consulting. I currently work full-time as a DevOps engineer and have experience with AWS, Kubernetes, Terraform, Docker, Linux, CI/CD, monitoring, and cloud infrastructure. I'm not looking for job offers here—I wa",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b09c98548aacc720a695d77511e3ca60",
-      "title": "NestJS Zero-Downtime Deployment on DigitalOcean with GitLab CI/CD and PM2",
-      "url": "https://dev.to/fecoded/nestjs-zero-downtime-deployment-on-digitalocean-with-gitlab-cicd-and-pm2-fo7",
-      "source": "Dev.to",
-      "published_at": "2026-07-03T17:13:00Z",
-      "summary": "A complete, battle-tested guide to deploying a NestJS application to a DigitalOcean Droplet using GitLab CI/CD pipelines and PM2 cluster mode for zero-downtime deployments.",
-      "tags": [
-        "nestjs",
-        "devops",
-        "gitlab",
-        "digitalocean"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1629,13 +1604,14 @@
       "url": "https://dev.to/jjoyneriv/from-docker-compose-to-kubernetes-what-actually-changes-4ga9",
       "source": "Dev.to",
       "published_at": "2026-07-05T21:04:54Z",
-      "summary": "Explains key differences when moving from Docker Compose to Kubernetes, focusing on orchestration and scaling.",
+      "summary": "Comfortable with docker compose and wondering what moving to Kubernetes really means? A practical map from Compose concepts to their Kubernetes equivalents.",
       "tags": [
-        "Kubernetes",
-        "Containers",
-        "DevOps"
+        "kubernetes",
+        "docker",
+        "devops",
+        "tutorial"
       ],
-      "relevance_score": 0.9
+      "relevance_score": 0.0
     },
     {
       "id": "8fa47701f9f1d806db9777b3af151c44",
@@ -3388,6 +3364,95 @@
         "aws",
         "cloud",
         "beginners",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5393762e8272311dba15863100bbd77c",
+      "title": "langchain-ai/langchain: langchain-openai==1.3.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.5",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-10T18:58:48+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "954f0ff3ddebded9aca5aa6fc1d9ac96",
+      "title": "apache/airflow: providers-oracle/4.6.2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-oracle%2F4.6.2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-10T16:30:25+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ae93d6a83e401a856e723338de3558f1",
+      "title": "apache/airflow: providers-smtp/3.0.2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-smtp%2F3.0.2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-10T16:30:25+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f1231650bb78e6f489426dd9f372f357",
+      "title": "apache/airflow: providers-tableau/5.6.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-tableau%2F5.6.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-10T16:30:25+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "daccfcb2a5197e5464a85a70dde3e22b",
+      "title": "apache/airflow: providers-ssh/5.0.4",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F5.0.4",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-10T16:30:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "125227697591013ed9d8b9792d36bef8",
+      "title": "apache/airflow: providers-standard/1.16.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.16.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-10T16:30:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "304a63e08b3692912f76828e52ac3af8",
+      "title": "It Works on My Machine: A Docker War Story About exec format error",
+      "url": "https://dev.to/devopsaitoolkit/it-works-on-my-machine-a-docker-war-story-about-exec-format-error-oen",
+      "source": "Dev.to",
+      "published_at": "2026-07-10T14:45:41Z",
+      "summary": "\"It works on my machine\" is the oldest joke in software, and containers were supposed to kill it....",
+      "tags": [
+        "docker",
+        "devops",
+        "debugging",
+        "beginners"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b22cf801c7315792a860967a4155c9e8",
+      "title": "Fix Predictive Alerting False Positives in Prometheus Python Models",
+      "url": "https://dev.to/oleksandr_kuryzhev_42873f/fix-predictive-alerting-false-positives-in-prometheus-python-models-45dh",
+      "source": "Dev.to",
+      "published_at": "2026-07-10T07:02:09Z",
+      "summary": "Originally published on kuryzhev.cloud     Your anomaly model tested perfectly offline — 94%...",
+      "tags": [
+        "python",
+        "monitoring",
         "devops"
       ],
       "relevance_score": 0.0
