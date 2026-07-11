@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T06:25:56Z",
+  "generated_at": "2026-07-11T09:48:11Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1168,16 +1168,6 @@
       "source": "Reddit r/LocalLLaMA",
       "published_at": "2026-07-04T11:09:59+00:00",
       "summary": "      Yesterday there was a message that you can increase the context for Deepseek Flash. But it turned out that everything works for Gemma4 too! function dockergemma () { docker run \\ -e GGML_CUDA_NO_PINNED=1 \\ -p &quot;$PORT_GEMMA&quot;:&quot;$PORT_GEMMA&quot; \\ -v &quot;$LLM_PATH&quot; \\ -v &quot",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a86e2b187005f29a799986bb8d35e436",
-      "title": "A fully local, self-hosted repo index for coding agents (Rust, MIT, runs offline)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un430x/a_fully_local_selfhosted_repo_index_for_coding/",
-      "source": "Reddit r/LocalLLaMA",
-      "published_at": "2026-07-04T08:54:19+00:00",
-      "summary": "If you run local models for coding, feeding them repo context without blowing the context window is half the battle. I built basemind to index a repo locally and serve it over MCP: a code map across 300+ languages, git history and blame, and document RAG over 90+ formats, all on your machine, no clo",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2828,14 +2818,14 @@
       "url": "https://dev.to/henryosei/i-thought-i-understood-containers-then-i-tried-building-one-5a80",
       "source": "Dev.to",
       "published_at": "2026-07-04T21:48:57Z",
-      "summary": "Builds a multi-agent AI tribunal for DevSecOps code reviews using Qwen-Max, showcasing AI-driven security automation.",
+      "summary": "I had just aced my mentor’s Docker exam, so of course I thought I understood containers.  I had said...",
       "tags": [
-        "AI",
-        "DevOps",
-        "Security",
-        "LLMOps"
+        "devops",
+        "docker",
+        "learning",
+        "linux"
       ],
-      "relevance_score": 0.85
+      "relevance_score": 0.0
     },
     {
       "id": "8cb14fa7e08189854ae3db96db116779",
@@ -3207,12 +3197,14 @@
       "url": "https://dev.to/dr_rvinobchander_ac6a/build-your-first-cicd-pipeline-with-github-actions-complete-beginners-guide-6fj",
       "source": "Dev.to",
       "published_at": "2026-07-08T11:12:04Z",
-      "summary": "Beginner-friendly tutorial for creating a complete CI/CD pipeline using GitHub Actions for automated testing and deployment.",
+      "summary": "Every time you push code, a few things should happen automatically: your tests should run, your code...",
       "tags": [
-        "CI/CD",
-        "DevOps"
+        "devops",
+        "cicd",
+        "githubactions",
+        "tutorial"
       ],
-      "relevance_score": 0.9
+      "relevance_score": 0.0
     },
     {
       "id": "51a2e5f758f78f2ad209ac3c52f423b5",
