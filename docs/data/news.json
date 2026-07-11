@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T09:48:11Z",
+  "generated_at": "2026-07-11T11:16:14Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1158,16 +1158,6 @@
       "source": "Reddit r/LocalLLaMA",
       "published_at": "2026-07-04T15:11:17+00:00",
       "summary": "      Spent a while tuning llama.cpp for Qwen3.6 27B on a 9800X3D / 64GB / 5090 box and wanted to share the real distribution instead of just a headline number, since averages hide a lot. Ran with q8 KV cache, 192k context, MTP draft=10, spec-draft-p-min=0.5, batch/ubatch 512. Logged 6,454 samples a",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0c864b242196093ce88904f846a28462",
-      "title": "RTX5090, gemma-4-31B-it-Q6_K.gguf. Context: before - 35k, after - 80k!",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1un6c4s/rtx5090_gemma431bitq6_kgguf_context_before_35k/",
-      "source": "Reddit r/LocalLLaMA",
-      "published_at": "2026-07-04T11:09:59+00:00",
-      "summary": "      Yesterday there was a message that you can increase the context for Deepseek Flash. But it turned out that everything works for Gemma4 too! function dockergemma () { docker run \\ -e GGML_CUDA_NO_PINNED=1 \\ -p &quot;$PORT_GEMMA&quot;:&quot;$PORT_GEMMA&quot; \\ -v &quot;$LLM_PATH&quot; \\ -v &quot",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3483,6 +3473,16 @@
         "devops",
         "node"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "256a9d89c9566e45cec458326ece82f9",
+      "title": "In 24 hours, OpenAI, SpaceXAI, and Meta turned AI into a race to the bottom on price",
+      "url": "https://thenewstack.io/openai-spacexai-meta-price-war/",
+      "source": "The New Stack",
+      "published_at": "2026-07-11T10:30:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
