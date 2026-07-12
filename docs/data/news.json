@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T06:45:44Z",
+  "generated_at": "2026-07-12T10:02:38Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1072,32 +1072,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "63609a65ad8773ddb3d5f221dbda768e",
-      "title": "Built a multi-agent Sast Scanner",
-      "url": "https://www.reddit.com/r/devops/comments/1unweqe/built_a_multiagent_sast_scanner/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-05T08:03:36+00:00",
-      "summary": "      Built a multi-agent SAST scanner with AgentFlow4J to reduce false positives while preserving recall. On one public benchmark with labelled ground truth: * CodeQL: 272/272 vulnerabilities, 87 false positives * Mine: 272/272 vulnerabilities, 27 false positives It’s only one benchmark (partly syn",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "1fa542e3c9d1ee15152f49602ad13856",
       "title": "Best way to restrict AWS/Cloudflare app to specific desktops?",
       "url": "https://www.reddit.com/r/devops/comments/1unyxz6/best_way_to_restrict_awscloudflare_app_to/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-05T10:39:11+00:00",
       "summary": "Best way to restrict AWS/Cloudflare app to specific desktops? We are building a fee payment application for a school organization. **Stack:** DB/Backend on AWS and frontend on Cloudflare. **The challenge:** We need to restrict payment work flow used by cashiers to specific systems, while the read fe",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "27256e2ee63a9945636d31fc866292b4",
-      "title": "Engineering managers: how do you prevent valuable Slack discussions from disappearing",
-      "url": "https://www.reddit.com/r/devops/comments/1unvlkj/engineering_managers_how_do_you_prevent_valuable/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-05T07:14:38+00:00",
-      "summary": "In my team I notice senior engineers write detailed explanations in Slack, but months later nobody can find them. Curious how others solve this.  &#32; submitted by &#32;  /u/AsparagusOk893   [link] &#32; [comments]",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1601,13 +1581,14 @@
       "url": "https://dev.to/otaready/github-managed-settings-vs-ota-platform-governance-vs-execution-governance-26co",
       "source": "Dev.to",
       "published_at": "2026-07-06T19:27:40Z",
-      "summary": "Compares GitHub's managed settings (platform governance) with OTA execution governance for organizational policy enforcement.",
+      "summary": "GitHub Managed Settings and Ota are not competing products.  They govern different layers of...",
       "tags": [
-        "Platform Engineering",
-        "DevOps",
-        "Security"
+        "productivity",
+        "opensource",
+        "devops",
+        "automation"
       ],
-      "relevance_score": 0.85
+      "relevance_score": 0.0
     },
     {
       "id": "00057078f52c21dc9988f788a22b8087",
@@ -3178,13 +3159,14 @@
       "url": "https://dev.to/devopsaitoolkit/it-works-on-my-machine-a-docker-war-story-about-exec-format-error-oen",
       "source": "Dev.to",
       "published_at": "2026-07-10T14:45:41Z",
-      "summary": "Troubleshooting case study of a Docker 'exec format error' caused by architecture mismatch, illustrating cross-platform container challenges.",
+      "summary": "\"It works on my machine\" is the oldest joke in software, and containers were supposed to kill it....",
       "tags": [
-        "Containers",
-        "DevOps",
-        "Cloud"
+        "docker",
+        "devops",
+        "debugging",
+        "beginners"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "b22cf801c7315792a860967a4155c9e8",
@@ -3353,6 +3335,16 @@
         "devops",
         "ai"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a246bf975d62ffa9148fe0439859e322",
+      "title": "What Jenkins Agent Architecture Are You Using in Production in 2026?",
+      "url": "https://www.reddit.com/r/devops/comments/1uua7n4/what_jenkins_agent_architecture_are_you_using_in/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-12T08:59:43+00:00",
+      "summary": "I'm interested in understanding what the current industry standard looks like. There seem to be several approaches:  Static VM/EC2 Agents Docker-based Agents Kubernetes Pod Agents Hybrid setups  For those running Jenkins in production:  Which approach are you using? Why did your team choose it? What",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
