@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T11:24:25Z",
+  "generated_at": "2026-07-12T13:49:54Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1140,21 +1140,6 @@
         "SRE"
       ],
       "relevance_score": 0.65
-    },
-    {
-      "id": "71529a043bf0fd152864aa87ad2c74a9",
-      "title": "Securing Your Terraform Infrastructure with Checkov and GitHub Actions",
-      "url": "https://dev.to/cristhiancarlosmamanic/securing-your-terraform-infrastructure-with-checkov-and-github-actions-2c86",
-      "source": "Dev.to",
-      "published_at": "2026-07-05T12:35:35Z",
-      "summary": "Infrastructure as Code (IaC) has revolutionized how we provision and manage cloud resources. Tools...",
-      "tags": [
-        "security",
-        "terraform",
-        "devops",
-        "githubactions"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "1960d3b57a14226fdb909af76507d88d",
@@ -3335,6 +3320,31 @@
       "published_at": "2026-07-12T08:59:43+00:00",
       "summary": "I'm interested in understanding what the current industry standard looks like. There seem to be several approaches:  Static VM/EC2 Agents Docker-based Agents Kubernetes Pod Agents Hybrid setups  For those running Jenkins in production:  Which approach are you using? Why did your team choose it? What",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "eb31c81822ccb2f4cc6c3ed9dcddf3ae",
+      "title": "The whole frontend + backend + db split in k8s, help",
+      "url": "https://www.reddit.com/r/devops/comments/1uucsj2/the_whole_frontend_backend_db_split_in_k8s_help/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-12T11:22:54+00:00",
+      "summary": "I've been a full-stack dev with responsibilities for the servers since '01, so it was a big change for me when I finally went with a big company that had people to do it. It also ment that I was suddenly working with kubernetes. Since everything was set up, it haven't been a big jump but I wanted to",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "643f302e2a6f5d9d55661f2381b3bd00",
+      "title": "Lowering your DNS TTL will not speed up your failover, and here is the data showing why",
+      "url": "https://dev.to/leobagnolabs/lowering-your-dns-ttl-will-not-speed-up-your-failover-and-here-is-the-data-showing-why-32m3",
+      "source": "Dev.to",
+      "published_at": "2026-07-12T10:18:28Z",
+      "summary": "I spent three months measuring multi-cloud DNS failover for my final-year dissertation. The most...",
+      "tags": [
+        "devops",
+        "aws",
+        "azure",
+        "dns"
+      ],
       "relevance_score": 0.0
     }
   ]
