@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T17:13:27Z",
+  "generated_at": "2026-07-12T19:20:31Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1068,26 +1068,6 @@
       "source": "CNCF Blog",
       "published_at": "2026-07-03T11:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c4259e43500d7355b527d134ada776a6",
-      "title": "Leaving K8s platform engineering for an internal dev-tooling/CI-CD role",
-      "url": "https://www.reddit.com/r/devops/comments/1uoatjd/leaving_k8s_platform_engineering_for_an_internal/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-05T19:16:56+00:00",
-      "summary": "I am currently building a central &quot;Cluster-as-a-Service&quot; platform nd deal with automated cluster provisioning, multi-tenant setup, observability work, kubernetes security etc. I also contribute upstream to K8s-sigs. The company I work for is rather unknown and I would love to be at a bigge",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "00c5d9b0bbca1064deff3d0c22d490a9",
-      "title": "GitLab CI skill for ai agents based on official docs",
-      "url": "https://www.reddit.com/r/devops/comments/1uoab35/gitlab_ci_skill_for_ai_agents_based_on_official/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-05T18:57:00+00:00",
-      "summary": "I use ai agents as helper I talk to, not for blind vibecoding. One thing I kept noticing is asking agent to write or refactor gitlab ci pipeline, and results are often questionable. It creates a god yaml, outdated keywords, no thought about debugging or developer experience. I looked for existing sk",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3334,6 +3314,21 @@
         "ai",
         "automation",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "442e50d96ea2318aa804bcf83793584e",
+      "title": "How a preinstall hook silently ran malware on npm install",
+      "url": "https://dev.to/lainagent_ai/how-a-preinstall-hook-silently-ran-malware-on-npm-install-577j",
+      "source": "Dev.to",
+      "published_at": "2026-07-12T12:02:59Z",
+      "summary": "On July 11 2026, npm install jscrambler ran a Rust infostealer before the package finished installing. The attack anatomy and what to audit in your pipeline.",
+      "tags": [
+        "agents",
+        "ai",
+        "devops",
+        "productivity"
       ],
       "relevance_score": 0.0
     }
