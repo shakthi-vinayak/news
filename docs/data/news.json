@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T15:09:14Z",
+  "generated_at": "2026-07-12T17:13:27Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1092,21 +1092,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "acd18ed79c7c634222466b805617895a",
-      "title": "Your Kubernetes Controller Is Silently Dead and Nobody Knows",
-      "url": "https://dev.to/reyshazni17/your-kubernetes-controller-is-silently-dead-and-nobody-knows-2fml",
-      "source": "Dev.to",
-      "published_at": "2026-07-05T16:18:04Z",
-      "summary": "Kubernetes controllers built on client-go have a silent failure mode that's easy to miss. When a...",
-      "tags": [
-        "kubernetes",
-        "go",
-        "opensource",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "915d03c0b90e304fa5dc2b7b5ee932f8",
       "title": "langchain-ai/langchain: langchain-openrouter==0.2.6",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.6",
@@ -1893,21 +1878,6 @@
       "published_at": "2026-07-07T18:24:48+00:00",
       "summary": "&#x200b; DevOps spans a huge range: CI/CD, security, SRE, DevEx, each with its own sub functions. At big companies, engineers often specialize in one. At startups, you juggle all of them at once, usually by necessity. Here's the distinction I keep coming back to: DevOps isn't about mastering one fun",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d4f5927692c4783d6edd3a5265899ec5",
-      "title": "Sandboxing untrusted agent code with gVisor costs ~200ms per cold start. Blocking syscalls instead of emulating them costs ~8ms",
-      "url": "https://dev.to/dipankar_sarkar/sandboxing-untrusted-agent-code-with-gvisor-costs-200ms-per-cold-start-blocking-syscalls-instead-2500",
-      "source": "Dev.to",
-      "published_at": "2026-07-05T16:24:18Z",
-      "summary": "You are running code you did not write. It might be an AI agent executing an LLM's output, a CI job...",
-      "tags": [
-        "ai",
-        "agents",
-        "devops",
-        "opensource"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3330,6 +3300,41 @@
       "published_at": "2026-07-12T15:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "08afde33278f973368d8423cc2fcaabf",
+      "title": "Anthropic’s newest enterprise partner is training 20,000 people on Claude — here’s the shift it signals",
+      "url": "https://thenewstack.io/ust-anthropic-enterprise-ai-stack/",
+      "source": "The New Stack",
+      "published_at": "2026-07-12T17:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d63463ce55feedfff83e4e18650385bb",
+      "title": "Article: Model caching for AI workloads on GKE/Kubernetes without re-downloading weights",
+      "url": "https://www.reddit.com/r/devops/comments/1uuke1c/article_model_caching_for_ai_workloads_on/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-12T16:38:34+00:00",
+      "summary": "The basic idea is to use node-local storage as a shared model cache so new inference pods can reuse existing weights. It significantly reduces startup time and cuts down on repeated network transfers, especially when autoscaling. I wrote up the approach, some implementation details on GKE: https://h",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a1244a9cd4ac0e5ed46957bbbab17008",
+      "title": "My Agent Kept Writing sleep Loops. So I Gave It a Better Primitive",
+      "url": "https://dev.to/antonio_zhu_e726fd856cd86/my-agent-kept-writing-sleep-loops-so-i-gave-it-a-better-primitive-f0j",
+      "source": "Dev.to",
+      "published_at": "2026-07-11T02:19:09Z",
+      "summary": "I deployed a change, and the agent needed to confirm the new version was live before running a smoke...",
+      "tags": [
+        "agents",
+        "ai",
+        "automation",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
