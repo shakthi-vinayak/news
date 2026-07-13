@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T21:10:21Z",
+  "generated_at": "2026-07-13T23:06:00Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1192,51 +1192,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a3eed7faa85f1a7d7418478b6e38db02",
-      "title": "Why Event-Driven Architecture Isn’t About Speed (and When You Actually Need It)",
-      "url": "https://dev.to/alialp/why-event-driven-architecture-isnt-about-speed-and-when-you-actually-need-it-2pol",
-      "source": "Dev.to",
-      "published_at": "2026-07-06T20:37:16Z",
-      "summary": "Before you introduce a heavy event broker into your stack, let's talk about the real socio-technical costs, the reality of latency, and what EDA actually delivers.",
-      "tags": [
-        "architecture",
-        "devops",
-        "microservices",
-        "systemdesign"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2b70eba157fc75b18af8c1a0b4303b1c",
-      "title": "ollama/ollama: v0.31.2-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-07-06T20:31:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "30d5cd50d2552a16af05a94bf28a34c6",
-      "title": "How do you actually separate CI/CD pipelines for AKS across dev/qa/uat/prod in Azure DevOps?",
-      "url": "https://www.reddit.com/r/devops/comments/1upcl17/how_do_you_actually_separate_cicd_pipelines_for/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-06T22:35:14+00:00",
-      "summary": "Hey Folks, need your advice badly , I'm building out a CI/CD flow for AKS using Azure DevOps Pipelines (not ArgoCD/GitOps for this one, using native Azure Pipelines + KubernetesManifest@1 tasks). Trying to understand what people actually do in production. The MS Learn sample bundles CI and CD into o",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b7a5fdefe0be97b6ea53d666f8684b95",
-      "title": "ollama/ollama: v0.31.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-07-06T22:28:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a2237dfd4d61bf1f18f2f6fd9b9893c4",
       "title": "ollama/ollama: v0.31.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1",
@@ -1244,21 +1199,6 @@
       "published_at": "2026-07-07T00:06:56+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "198405f0df5241f969e2e5b2c801e499",
-      "title": "Our AI agents fabricated \"done\" five times in 17 days. Here is what actually reduced it.",
-      "url": "https://dev.to/nexuslabzen/our-ai-agents-fabricated-done-five-times-in-17-days-here-is-what-actually-reduced-it-3pbm",
-      "source": "Dev.to",
-      "published_at": "2026-07-06T20:49:43Z",
-      "summary": "Five fabrication incidents in 17 days, what they had in common, and the boring checks outside the model that actually reduced them.",
-      "tags": [
-        "ai",
-        "agents",
-        "llm",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1670,21 +1610,6 @@
       "published_at": "2026-07-06T23:20:20+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "145a02ed5fec85c18057531b0ac8a1f4",
-      "title": "AI Attribution Governance: Enforcing AI Disclosure Policies at the CI Level",
-      "url": "https://dev.to/shenxianpeng/ai-attribution-governance-enforcing-ai-disclosure-policies-at-the-ci-level-492a",
-      "source": "Dev.to",
-      "published_at": "2026-07-06T20:59:32Z",
-      "summary": "The open-source ecosystem is converging on a hard question: when a commit is written with AI...",
-      "tags": [
-        "devops",
-        "git",
-        "ai",
-        "opensource"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3297,6 +3222,56 @@
         "security",
         "devops",
         "containers"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d348f8a63dd19c6b065f5f7d160abfde",
+      "title": "ollama/ollama: v0.32.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-13T22:15:30+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "eaa0cf5072477b74240b9ed7f2aaf46e",
+      "title": "Prefect just bought Dagster, another big Airflow rival — and it’s not a data pipeline story",
+      "url": "https://thenewstack.io/prefect-acquires-dagster-orchestrator/",
+      "source": "The New Stack",
+      "published_at": "2026-07-13T22:08:55+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "513f8dc3b8ae0ace5edd5833f766dbe9",
+      "title": "How to add mechanical enforcement to any AI coding agent",
+      "url": "https://dev.to/juandelossantos/how-to-add-mechanical-enforcement-to-any-ai-coding-agent-2dbl",
+      "source": "Dev.to",
+      "published_at": "2026-07-13T20:30:36Z",
+      "summary": "The problem   AI coding agents generate code at impressive speeds. But they also commit...",
+      "tags": [
+        "opensource",
+        "ai",
+        "devops",
+        "agentskills"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d86cf0437d195e151b756e37f7f8b3ce",
+      "title": "Docker Volumes vs Bind Mounts: Where Your Data Actually Lives",
+      "url": "https://dev.to/jjoyneriv/docker-volumes-vs-bind-mounts-where-your-data-actually-lives-1ipl",
+      "source": "Dev.to",
+      "published_at": "2026-07-11T09:38:12Z",
+      "summary": "A container's writable layer feels like a filesystem, and that's exactly the trap. Write a database...",
+      "tags": [
+        "docker",
+        "devops",
+        "containers",
+        "tutorial"
       ],
       "relevance_score": 0.0
     }
