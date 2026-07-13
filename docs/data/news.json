@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T07:34:06Z",
+  "generated_at": "2026-07-13T11:26:15Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -96,7 +96,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-10T07:59:17+00:00",
+      "published_at": "2026-07-13T08:03:15+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1172,66 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b27f3ba8527fcd74c55da5afd51d8c8b",
-      "title": "Help with Devsecops pipeline setup",
-      "url": "https://www.reddit.com/r/devops/comments/1uotw74/help_with_devsecops_pipeline_setup/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-06T10:51:41+00:00",
-      "summary": "I am a pentester. My manager had given me a task for cicd integration with checkmarx. I can understand the basic stuff but I am unable to come up with material for the following: 1. How do manage secrets in the pipeline (someone suggested me aws kms) 2. How to run authenticated scans (apps using okt",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "aa5e0174af50df007c66b7765ceaf952",
-      "title": "Interview prep for devops",
-      "url": "https://www.reddit.com/r/devops/comments/1uot5eb/interview_prep_for_devops/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-06T10:11:34+00:00",
-      "summary": "&#x200b; JD says devops, python and linux developer. I just want focus on scripting and ignore oops. Is that possible? Does this heavily depends on project requirements and company? How did you clear devops interview? Any suggestions? My focus area is systems emgineering.  &#32; submitted by &#32;  ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6effddc5be3f98ea64f8cb02d4eb685d",
-      "title": "What I Learned After Building AI Systems Across Multiple Brands",
-      "url": "https://dev.to/jaideepparashar/what-i-learned-after-building-ai-systems-across-multiple-brands-841",
-      "source": "Dev.to",
-      "published_at": "2026-07-06T09:20:03Z",
-      "summary": "One of the biggest misconceptions about AI is that every project is unique.  At first glance, it...",
-      "tags": [
-        "ai",
-        "webdev",
-        "devops",
-        "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9c3c97aa26c5948e94d7a31ff8a6b5e7",
-      "title": "I Turned Any Website Into a Permanent AI Tool in 10 Minutes with BrowserAct (No API Required)",
-      "url": "https://dev.to/harsh2644/i-turned-any-website-into-a-permanent-ai-tool-in-10-minutes-with-browseract-no-api-required-30ob",
-      "source": "Dev.to",
-      "published_at": "2026-07-06T09:05:10Z",
-      "summary": "Last week, I asked my AI agent to scrape 300 job listings from a recruiting site. It broke at row...",
-      "tags": [
-        "ai",
-        "opensource",
-        "devops",
-        "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b75f29ba74b09049cf547ffd5f715517",
-      "title": "n8n-io/n8n: n8n@2.29.6",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.6",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-06T08:24:03+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "09fbfee626fd6a96ed01c4b723cbbfae",
       "title": "apache/airflow: Apache Airflow 3.3.0",
       "url": "https://github.com/apache/airflow/releases/tag/3.3.0",
@@ -1329,21 +1269,6 @@
       "published_at": "2026-07-06T11:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "aef8c9813e7f32108c7f76b0749a1a86",
-      "title": "You Can't Review an Agent. You Can Review a Plan.",
-      "url": "https://dev.to/gyu07/you-cant-review-an-agent-you-can-review-a-plan-5hgp",
-      "source": "Dev.to",
-      "published_at": "2026-07-06T09:45:05Z",
-      "summary": "The problem with AI-written Terraform isn't bad HCL — it's that the plan you reviewed and the plan that applies can quietly diverge. Notes from building an IaC harness (as a private SDK/compiler) where humans, agents, and CI pass one gate, and only a fingerprinted, reviewed plan reaches prod.",
-      "tags": [
-        "ai",
-        "terraform",
-        "devops",
-        "architecture"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3284,6 +3209,81 @@
       "source": "Reddit r/devops",
       "published_at": "2026-07-13T06:30:13+00:00",
       "summary": "Hey r/devops, welcome to our weekly self-promotion thread! Feel free to use this thread to promote any projects, ideas, or any repos you're wanting to share. Please keep in mind that we ask you to stay friendly, civil, and adhere to the subreddit rules!  &#32; submitted by &#32;  /u/AutoModerator   ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "485720a74d709a4e5f486c9897c46ebf",
+      "title": "Help in implementing CICD for Snowflake Objects.",
+      "url": "https://www.reddit.com/r/devops/comments/1uv7sbp/help_in_implementing_cicd_for_snowflake_objects/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-13T10:31:58+00:00",
+      "summary": "Hey all. I am building a POC for deploying Snowflake objects like table, stream, task, stage etc... to multiple environments like DEV/QA (single only) &amp; PROD with the help of CICD and used Github actions for it. I have never built something like this before and never worked on project consisting",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bee292d80ad738123104ff951a4a67af",
+      "title": "Setting Up a Production CI/CD Pipeline for a Python/Django App",
+      "url": "https://dev.to/saint_vandora/setting-up-a-production-cicd-pipeline-for-a-pythondjango-app-593d",
+      "source": "Dev.to",
+      "published_at": "2026-07-13T08:38:07Z",
+      "summary": "A practical walkthrough of building a complete GitHub Actions pipeline for a Django project, from a...",
+      "tags": [
+        "programming",
+        "tutorial",
+        "python",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c5b496e8cfb86ea4091a162340ee84dc",
+      "title": "‘HalluSquatting’ Compromises AI Coding Agents to Install Malware, Create Botnets",
+      "url": "https://devops.com/hallusquatting-compromises-ai-coding-agents-to-install-malware-create-botnets/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-13T08:20:12+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7cf4dfde862d35acc3fd4505d4194af5",
+      "title": "IBM Bob Gets Multi-Agent Muscle and a Cost Dashboard for Enterprise Coding",
+      "url": "https://devops.com/ibm-bob-gets-multi-agent-muscle-and-a-cost-dashboard-for-enterprise-coding/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-13T08:12:56+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b2d38eccd94828907d583885322844cf",
+      "title": "n8n-io/n8n: n8n@2.30.4",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.4",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-13T08:08:27+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f7b49c23dab548e4e53f4c886cdfcb71",
+      "title": "n8n-io/n8n: n8n@1.123.65",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.65",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-13T07:59:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e74ec18b50e96164cb32d3622a077626",
+      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.65 (#34046)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-13T07:30:52+00:00",
+      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     }
