@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T14:57:13Z",
+  "generated_at": "2026-07-13T18:05:17Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1172,16 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "09fbfee626fd6a96ed01c4b723cbbfae",
-      "title": "apache/airflow: Apache Airflow 3.3.0",
-      "url": "https://github.com/apache/airflow/releases/tag/3.3.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-06T15:16:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9b2edea1d06931eb1f97e593d9868938",
       "title": "Evolving platform engineering for AI-native workloads",
       "url": "https://www.cncf.io/blog/2026/07/06/evolving-platform-engineering-for-ai-native-workloads/",
@@ -1198,26 +1188,6 @@
       "source": "CNCF Blog",
       "published_at": "2026-07-06T11:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dd8b1a95c06ace992b9986f96d01ed47",
-      "title": "Need guidance !",
-      "url": "https://www.reddit.com/r/devops/comments/1up4s58/need_guidance/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-06T17:52:48+00:00",
-      "summary": "I have 3 yrs of experience as a cloud engineer/devops worked in same company from start got one promotion and good hike all along . Want to switch to now and thinking on doing CKA certification is it worth having ?  &#32; submitted by &#32;  /u/Agreeable-Wall3535   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1cec51d9839b1998c89d303c62597179",
-      "title": "I built a single-binary TUI that manages Redis, Postgres, SSH, Docker, Git, S3, MySQL, MongoDB, and HTTP — with a built-in MCP server for AI tooling",
-      "url": "https://www.reddit.com/r/devops/comments/1up1rh3/i_built_a_singlebinary_tui_that_manages_redis/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-06T16:08:04+00:00",
-      "summary": "Qore is a single-binary infrastructure orchestrator with a terminal-native UI. You type commands, get results inline — no context switching between redis-cli, psql, ssh, and docker. What makes it different: 8 connection types in one place:  Redis (native RESP protocol — no redis-cli needed) PostgreS",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2550,11 +2520,14 @@
       "url": "https://dev.to/aws-builders/amazon-deprecated-my-email-so-i-moved-it-to-switzerland-d1m",
       "source": "Dev.to",
       "published_at": "2026-07-09T17:06:48Z",
-      "summary": "Narrates moving email from Amazon to Switzerland after AWS deprecates the service.",
+      "summary": "I am an ex AWS Community Builder. I had the badge, the Slack channel access, and the mild compulsion...",
       "tags": [
-        "Cloud"
+        "aws",
+        "email",
+        "privacy",
+        "devops"
       ],
-      "relevance_score": 0.3
+      "relevance_score": 0.0
     },
     {
       "id": "046c694e4c07ed3bb0bb27b289276630",
@@ -3124,13 +3097,14 @@
       "url": "https://dev.to/ev3lynx727/hybrid-container-governance-scaling-patterns-that-work-1bih",
       "source": "Dev.to",
       "published_at": "2026-07-10T16:26:44Z",
-      "summary": "Presents scaling patterns for hybrid container governance in Kubernetes environments.",
+      "summary": "Hook   The third WSL instance didn't need a reinstall. That's when I knew the pattern...",
       "tags": [
-        "Kubernetes",
-        "DevOps",
-        "Platform Engineering"
+        "architecture",
+        "devops",
+        "docker",
+        "mcp"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "f291062c13e73d0d746c2d3ead294a31",
@@ -3293,6 +3267,36 @@
       "url": "https://thenewstack.io/merge-gate-coding-agents/",
       "source": "The New Stack",
       "published_at": "2026-07-11T17:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5700f0f088c0282a8e3ec031191523c1",
+      "title": "Anthropic extends Fable 5 again — and won’t talk about what developers found inside Cursor",
+      "url": "https://thenewstack.io/fable-5-honeycomb-opus/",
+      "source": "The New Stack",
+      "published_at": "2026-07-13T17:10:27+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5cbaa6cdf4db2455c95c17cb26fc7da5",
+      "title": "Roadmap for infrastructure/backend development in the .NET ecosystem?",
+      "url": "https://www.reddit.com/r/devops/comments/1uvdtif/roadmap_for_infrastructurebackend_development_in/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-13T14:53:37+00:00",
+      "summary": "Hi everyone, I'm looking for advice from developers who build infrastructure or DevOps-oriented software. My goal isn't to become a typical CRUD web developer. Instead, I'd like to build things like hosting/server management panels, deployment tools, automation systems, monitoring dashboards, and so",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cb17e662a33d102e60caeed24377e9fd",
+      "title": "Announcing the public beta of Vault Kubernetes key management",
+      "url": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-07-10T14:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
