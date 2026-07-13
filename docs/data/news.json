@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T18:05:17Z",
+  "generated_at": "2026-07-13T21:10:21Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1192,26 +1192,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1339544c97e8c94bbababf3587ab1e4b",
-      "title": "Odd manager behavior - looking for opinions",
-      "url": "https://www.reddit.com/r/devops/comments/1upabcd/odd_manager_behavior_looking_for_opinions/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-06T21:10:03+00:00",
-      "summary": "I've been working at a local startup as a DevOps engineer for the past year. I have a total of around 3 years of experience, which is considered mid-level at best. I've worked with various technologies and I'm not that confident in my technical skills but I do try my best to deliver. That's not my p",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f0256820cdf09599ff8f1078ad2531c9",
-      "title": "langchain-ai/langgraph: langgraph==1.2.8",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.8",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-07-06T20:40:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a3eed7faa85f1a7d7418478b6e38db02",
       "title": "Why Event-Driven Architecture Isn’t About Speed (and When You Actually Need It)",
       "url": "https://dev.to/alialp/why-event-driven-architecture-isnt-about-speed-and-when-you-actually-need-it-2pol",
@@ -1232,51 +1212,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc0",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-07-06T20:31:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "780123a6409f2732ea1ccbfdd2c5930f",
-      "title": "Novee Uncovers Cordyceps: The Latest Threat to CI/CD Pipelines",
-      "url": "https://devops.com/novee-uncovers-cordyceps-the-latest-threat-to-ci-cd-pipelines/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-06T19:50:28+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "87da8710555284901eeaba142ad10305",
-      "title": "GitHub Managed Settings vs Ota: Platform Governance vs Execution Governance",
-      "url": "https://dev.to/otaready/github-managed-settings-vs-ota-platform-governance-vs-execution-governance-26co",
-      "source": "Dev.to",
-      "published_at": "2026-07-06T19:27:40Z",
-      "summary": "GitHub Managed Settings and Ota are not competing products.  They govern different layers of...",
-      "tags": [
-        "productivity",
-        "opensource",
-        "devops",
-        "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "00057078f52c21dc9988f788a22b8087",
-      "title": "How are you managing dynamic runtime configuration without triggering a full CI/CD deployment?",
-      "url": "https://www.reddit.com/r/devops/comments/1up6pnr/how_are_you_managing_dynamic_runtime/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-06T18:58:12+00:00",
-      "summary": "Hi all! I’m currently digging into the &quot;toil&quot; of our (the company i work at's) release process, and I’m hitting a recurring bottleneck: rate-limiting configuration. Right now, we have our limits (e.g., token buckets, thresholds) defined as part of our static config, which is baked into our",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0c44b6e268f81ea17d382977de8c0a7d",
-      "title": "Getting Claude Code to grunt in Caveman-speak might not save as many tokens as you think",
-      "url": "https://thenewstack.io/caveman-mode-token-savings/",
-      "source": "The New Stack",
-      "published_at": "2026-07-06T18:28:42+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1537,12 +1472,14 @@
       "url": "https://dev.to/fernforge/six-reasons-your-build-passes-locally-and-fails-in-ci-and-how-to-catch-each-before-you-push-2dgg",
       "source": "Dev.to",
       "published_at": "2026-07-07T03:56:26Z",
-      "summary": "Explains common discrepancies between local and CI builds and provides strategies to detect issues before pushing.",
+      "summary": "The worst part of a CI failure isn't the failure. It's the loop: you edit, commit, push, then wait...",
       "tags": [
-        "DevOps",
-        "CI/CD"
+        "cicd",
+        "githubactions",
+        "node",
+        "devops"
       ],
-      "relevance_score": 0.9
+      "relevance_score": 0.0
     },
     {
       "id": "96ab5d971dc8b87f00ec6fa9405d0749",
@@ -2620,12 +2557,14 @@
       "url": "https://dev.to/dr_rvinobchander_ac6a/build-your-first-cicd-pipeline-with-github-actions-complete-beginners-guide-6fj",
       "source": "Dev.to",
       "published_at": "2026-07-08T11:12:04Z",
-      "summary": "Step-by-step tutorial for creating a first CI/CD pipeline with GitHub Actions, covering build, test, and deploy stages.",
+      "summary": "Every time you push code, a few things should happen automatically: your tests should run, your code...",
       "tags": [
-        "CI/CD",
-        "DevOps"
+        "devops",
+        "cicd",
+        "githubactions",
+        "tutorial"
       ],
-      "relevance_score": 0.95
+      "relevance_score": 0.0
     },
     {
       "id": "51a2e5f758f78f2ad209ac3c52f423b5",
@@ -3299,6 +3238,66 @@
       "published_at": "2026-07-10T14:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fe3aeb0f5e46d2b1fdf527794faa419f",
+      "title": "is Overthewire bandit game good for someone learning devops?",
+      "url": "https://www.reddit.com/r/devops/comments/1uvkejc/is_overthewire_bandit_game_good_for_someone/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-13T18:48:08+00:00",
+      "summary": "I've just starting to learn the fundamentals of devops and started with linux. A lot of people recommended this game online saying it's good for building command line skills what do you guys think?  &#32; submitted by &#32;  /u/Lost_Mousse9930   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0a60b30ac02b2927db03c53732aeafa1",
+      "title": "apache/airflow: Apache Airflow Java SDK 1.0.0-beta1",
+      "url": "https://github.com/apache/airflow/releases/tag/java-sdk%2F1.0.0-beta1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-13T18:14:58+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "24b08a7283e93ea7d351a96592d5d8f6",
+      "title": "Degree vs Certs Dilemma: Is a 4-year CS degree worth $15k (20M IQD) if I already have live cloud projects and a home lab at 19?",
+      "url": "https://www.reddit.com/r/devops/comments/1uvisng/degree_vs_certs_dilemma_is_a_4year_cs_degree/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-13T17:51:37+00:00",
+      "summary": "UPDATE / SOLVED: Thank you everyone for the brutal honesty and great advice! You successfully saved me from the &quot;no degree&quot; trap. I am going to take your advice, enroll in my local university to bypass the HR filters, and use my AWS/infrastructure freelancing to pay for the tuition. I real",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9ffca094efd167fbedd36f92ad2e72f1",
+      "title": "Your Feedback Made This Better — Here's What Changed",
+      "url": "https://dev.to/yuhaolin2005/your-feedback-made-this-better-heres-what-changed-4ol2",
+      "source": "Dev.to",
+      "published_at": "2026-07-13T16:40:24Z",
+      "summary": "Your Feedback Made This Better — Here's What Changed   The comments on the GateGuard and...",
+      "tags": [
+        "ai",
+        "programming",
+        "machinelearning",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "22a9e621513f09d8859e2154e3118819",
+      "title": "Hardening Docker Containers: The Security Habits That Actually Matter",
+      "url": "https://dev.to/jjoyneriv/hardening-docker-containers-the-security-habits-that-actually-matter-3d88",
+      "source": "Dev.to",
+      "published_at": "2026-07-13T14:38:47Z",
+      "summary": "Most of what people call \"container security\" is a short list of defaults you can set in an...",
+      "tags": [
+        "docker",
+        "security",
+        "devops",
+        "containers"
+      ],
       "relevance_score": 0.0
     }
   ]
