@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T10:10:09Z",
+  "generated_at": "2026-07-14T14:08:23Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -467,16 +467,6 @@
       "url": "https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/",
       "source": "Kubernetes Blog",
       "published_at": "2026-05-06T18:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "23492871a98cc7dfbc62d2206bb3011a",
-      "title": "AWS Transform custom: Enterprise Code Modernization with the Learn-Scale-Improve Flywheel",
-      "url": "https://aws.amazon.com/blogs/devops/aws-transform-custom-enterprise-code-modernization-with-the-learn-scale-improve-flywheel/",
-      "source": "AWS Blog",
-      "published_at": "2026-04-27T04:49:32+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1042,16 +1032,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "aeacb69abcc48a562baccd537cfabbbb",
-      "title": "How data sovereignty is changing cloud native infrastructure design",
-      "url": "https://www.cncf.io/blog/2026/07/03/how-data-sovereignty-is-changing-cloud-native-infrastructure-design/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-03T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "09a1873dbe2f2f803f27bc3e73c08a75",
       "title": "We're Leaving Kubernetes",
       "url": "https://www.gitpod.io/blog/we-are-leaving-kubernetes",
@@ -1212,16 +1192,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a117dc190d491cc72e88959536fb6b39",
-      "title": "How should DevOps teams contain financial blast radius from high-velocity cloud spend categories like Bedrock and Marketplace",
-      "url": "https://www.reddit.com/r/devops/comments/1uptjrx/how_should_devops_teams_contain_financial_blast/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-07T12:24:55+00:00",
-      "summary": "A compromised cloud credential is no longer just a security problem. With services like Bedrock and Marketplace, it can become a financial incident within hours. I’m trying to reason through what practical DevOps / platform engineering controls actually reduce that financial blast radius before bill",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "dcdf1ec06d9939bde950a4dcf1a73382",
       "title": "Why sandboxing your agent is not enough",
       "url": "https://www.cncf.io/blog/2026/07/07/why-sandboxing-your-agent-is-not-enough/",
@@ -1277,16 +1247,6 @@
       "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.16.0rc1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-07-07T14:28:58+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "24de062f9043432a8a580ba3d553e2c8",
-      "title": "The organizational iceberg: the invisible data breaking your AI agents",
-      "url": "https://thenewstack.io/invisible-data-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-07-07T14:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1815,21 +1775,6 @@
       "published_at": "2026-07-08T18:11:06+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "70e149741ba9bc6605c3241da29455bd",
-      "title": "Faster, isolated builds: one Firecracker microVM per build",
-      "url": "https://dev.to/ianqqu/faster-isolated-builds-one-firecracker-microvm-per-build-2813",
-      "source": "Dev.to",
-      "published_at": "2026-07-07T12:30:00Z",
-      "summary": "Since we launched, every build on orkestr ran in a shared build environment. Your next build, someone...",
-      "tags": [
-        "programming",
-        "infrastructure",
-        "devops",
-        "webdev"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3243,6 +3188,56 @@
         "devops",
         "sre"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f8bfc6c43be156a244a0013a97bbb619",
+      "title": "apache/airflow: python-client/3.3.0",
+      "url": "https://github.com/apache/airflow/releases/tag/python-client%2F3.3.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-14T13:54:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6703a217d4e8b7ec2d92f8eb9fecdf9e",
+      "title": "Automated Incident Remediation with AWS DevOps Agent and Kiro CLI",
+      "url": "https://aws.amazon.com/blogs/devops/automated-incident-remediation-with-aws-devops-agent-and-kiro-cli/",
+      "source": "AWS Blog",
+      "published_at": "2026-07-14T13:17:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "26faebf3a0c7680029f40902282a684f",
+      "title": "AI Engineer World’s Fair 2026: The Runtime Is Where Agent Trust Is Won",
+      "url": "https://www.docker.com/blog/ai-engineer-worlds-fair-2026-the-runtime-is-where-agent-trust-is-won/",
+      "source": "Docker Blog",
+      "published_at": "2026-07-14T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "064a6ffa2918924bc59595f003d9ad2c",
+      "title": "Has an AI agent (Copilot, Cursor, etc) ever broken something in your infra/pipeline?",
+      "url": "https://www.reddit.com/r/devops/comments/1uw7b5l/has_an_ai_agent_copilot_cursor_etc_ever_broken/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-14T12:29:57+00:00",
+      "summary": "I'm a DevOps engineer, and recently I saw a case where an AI agent &quot;fixed&quot; something in a pipeline that it thought was fine, but it ended up destroying something in the infrastructure. I caught it fast because I know the system well, but it got me thinking about how dangerous this could be",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "63e0c7d51423e1eb8d51a1ce80f0120f",
+      "title": "Is a Pod the right deployment unit for an AI agent?",
+      "url": "https://www.cncf.io/blog/2026/07/14/is-a-pod-the-right-deployment-unit-for-an-ai-agent/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-14T11:20:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
