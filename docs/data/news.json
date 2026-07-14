@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-14T06:23:32Z",
+  "generated_at": "2026-07-14T10:10:09Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-10T07:58:05+00:00",
+      "published_at": "2026-07-14T08:24:49+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -96,7 +96,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-13T08:03:15+00:00",
+      "published_at": "2026-07-14T08:05:20+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1172,56 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f841efc2a5ed6a211e714691ef080922",
-      "title": "A Beginner’s Guide to CI/CD and CI/CD Pipelines",
-      "url": "https://devops.com/a-beginners-guide-to-ci-cd-and-ci-cd-pipelines/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-07T09:10:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "18e7d5c94048eaad4b3c5a981f05c7f6",
-      "title": "Beyond Automation: Building Accountability for AI Agents",
-      "url": "https://devops.com/beyond-automation-building-accountability-for-ai-agents/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-07T08:55:39+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "906292c0dcae5249acfc646551395f3e",
-      "title": "The Next DevOps Bottleneck: When AI Generates More Software Than Organizations Can Manage",
-      "url": "https://devops.com/the-next-devops-bottleneck-when-ai-generates-more-software-than-organizations-can-manage/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-07T08:40:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "12258081395b0ff337388c66f38fbda4",
-      "title": "n8n-io/n8n: n8n@2.30.0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.0",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-07T08:00:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7a2caa813bd28594b40b2ed5678539d1",
-      "title": "n8n-io/n8n: n8n@2.29.7",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.7",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-07T07:57:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d8e954289277f2051d35e9d6ea0a3984",
       "title": "open-telemetry/opentelemetry-collector: v1.62.0/v0.156.0",
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.156.0",
@@ -1259,21 +1209,6 @@
       "published_at": "2026-07-07T07:29:14+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e0538b9424d380ba0cddb36c42f468de",
-      "title": "What breaks an AI agent after 50 clean demos",
-      "url": "https://dev.to/kimlike/what-breaks-an-ai-agent-after-50-clean-demos-2fj8",
-      "source": "Dev.to",
-      "published_at": "2026-07-07T00:00:00Z",
-      "summary": "The demo ran 50 times without a failure. Then we shipped it.  Three days into production, the agent...",
-      "tags": [
-        "ai",
-        "agents",
-        "machinelearning",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1364,21 +1299,6 @@
       "published_at": "2026-07-07T08:54:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8988398b278bb5cfafb1cad4bb40d927",
-      "title": "Six reasons your build passes locally and fails in CI (and how to catch each before you push)",
-      "url": "https://dev.to/fernforge/six-reasons-your-build-passes-locally-and-fails-in-ci-and-how-to-catch-each-before-you-push-2dgg",
-      "source": "Dev.to",
-      "published_at": "2026-07-07T03:56:26Z",
-      "summary": "The worst part of a CI failure isn't the failure. It's the loop: you edit, commit, push, then wait...",
-      "tags": [
-        "cicd",
-        "githubactions",
-        "node",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1864,21 +1784,6 @@
         "loki",
         "logs",
         "logql"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "97f1d11b24e02e2941d62432ecd7582e",
-      "title": "The Pod That Lied: A Kubernetes Readiness Probe War Story",
-      "url": "https://dev.to/devopsaitoolkit/the-pod-that-lied-a-kubernetes-readiness-probe-war-story-4kfg",
-      "source": "Dev.to",
-      "published_at": "2026-07-07T07:33:12Z",
-      "summary": "Series #2 of Troubleshooting Kubernetes: every pod 1/1 Ready, dashboards green, users getting 500s. The readiness probe that lied — and how to write one that can't.",
-      "tags": [
-        "devops",
-        "kubernetes",
-        "readinessprobes",
-        "reliability"
       ],
       "relevance_score": 0.0
     },
@@ -3253,6 +3158,91 @@
       "published_at": "2026-07-13T18:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b900b7a8370381ec5d1e166afe95090b",
+      "title": "What makes CIOs trust an AI agent? Thira bets it’s not the model.",
+      "url": "https://thenewstack.io/what-makes-cios-trust-an-ai-agent-thira-bets-its-not-the-model/",
+      "source": "The New Stack",
+      "published_at": "2026-07-14T10:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "762bee78103d407f833d43bf9b5a8d7c",
+      "title": "GitHub Actions OIDC AWS: \"Not authorized to perform sts:AssumeRoleWithWebIdentity\" even after fixing sub/environment claims, what am I missing?",
+      "url": "https://www.reddit.com/r/devops/comments/1uw3v8v/github_actions_oidc_aws_not_authorized_to_perform/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-14T09:35:29+00:00",
+      "summary": "Been stuck on this for a while. Production CI/CD pipeline, GitHub Actions job needs to assume an AWS IAM role via OIDC to push to ECR. Error: Error: Could not assume role with OIDC: Not authorized to perform sts:AssumeRoleWithWebIdentity Setup:  Repo: single GitHub repo, workflow triggers on version",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "16382c73b5532460f1c103a397f30647",
+      "title": "n8n-io/n8n: n8n@2.31.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.0",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-14T08:09:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aa4fe038cb490bbe6205876f909dc6d0",
+      "title": "Are you looking to switch to AI platform engineering roles?",
+      "url": "https://www.reddit.com/r/devops/comments/1uw1v3y/are_you_looking_to_switch_to_ai_platform/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-14T07:37:48+00:00",
+      "summary": "If you are someone looking for transition to AI infra roles from Devops, this podcast is for you- https://www.youtube.com/live/82UoYSWaGpk?si=h6qmIfIN4gVZGlnm Here I discussed tips, projects, interview questions.  &#32; submitted by &#32;  /u/shikha-singh-the-gr8   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "795a5929227e95a66cacbf1d42406da4",
+      "title": "I Failed: A Post-Mortem",
+      "url": "https://dev.to/jgwesterfield/i-failed-a-post-mortem-56cm",
+      "source": "Dev.to",
+      "published_at": "2026-07-14T04:00:04Z",
+      "summary": "King Yemma and KY are pseudonyms. I have changed or generalized names and a few identifying details...",
+      "tags": [
+        "debugging",
+        "devops",
+        "infrastructure",
+        "testing"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f0fd3b1cc0cdf264d118b2c0bc9a595f",
+      "title": "Testing Against State Drift: Guarding a Config Tool Whose Source of Truth Lives Somewhere Else",
+      "url": "https://dev.to/dobybaxter127/testing-against-state-drift-guarding-a-config-tool-whose-source-of-truth-lives-somewhere-else-kgf",
+      "source": "Dev.to",
+      "published_at": "2026-07-14T02:54:49Z",
+      "summary": "TL;DR — I maintain a browser-based configuration tool for ESA's Pyxel detector-simulation framework....",
+      "tags": [
+        "testing",
+        "python",
+        "devops",
+        "cicd"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ea001195c5c04ec5b7d078f0ce5ceb88",
+      "title": "Green CI working software",
+      "url": "https://dev.to/nazarii-ahapevych/green-ci-working-software-5cim",
+      "source": "Dev.to",
+      "published_at": "2026-07-13T19:40:30Z",
+      "summary": "Two green CI runs told me the release worked. Both were no-ops.  A green check means one thing: the...",
+      "tags": [
+        "cicd",
+        "testing",
+        "devops",
+        "sre"
+      ],
       "relevance_score": 0.0
     }
   ]
