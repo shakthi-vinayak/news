@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-15T06:26:47Z",
+  "generated_at": "2026-07-15T10:14:17Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-14T08:24:49+00:00",
+      "published_at": "2026-07-15T08:04:46+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -96,7 +96,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-14T08:05:20+00:00",
+      "published_at": "2026-07-15T08:14:17+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1202,86 +1202,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "533a1bc35c31389ef5b463fe76c19506",
-      "title": "How an Unbounded fastmcp Version Constraint Took Down Production with 421 Misdirected Request",
-      "url": "https://dev.to/toyama0919/how-an-unbounded-fastmcp-version-constraint-took-down-production-with-421-misdirected-request-1mh1",
-      "source": "Dev.to",
-      "published_at": "2026-07-08T05:33:45Z",
-      "summary": "A loose \">=\" dependency pin silently pulled in a new default-on security feature in fastmcp 3.4.3, breaking every request to our MCP server. Here's the root cause and the fix.",
-      "tags": [
-        "python",
-        "mcp",
-        "cloudrun",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c2e73a6938bc467085f7ce014344ac5d",
-      "title": "apache/airflow: python-client/3.3.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/python-client%2F3.3.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-08T09:47:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ad57a15e95b21f25c17e504067049522",
       "title": "hashicorp/terraform: v1.16.0-alpha20260708",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260708",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-07-08T09:19:38+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b47c315b8f6f5e1bfb3adb726b59c0ab",
-      "title": "n8n-io/n8n: n8n@2.29.8",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.29.8",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-08T09:02:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8ef6b1204e50e0226ed826c70d0dddf2",
-      "title": "n8n-io/n8n: n8n@2.30.1",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-08T08:50:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "39e8f1bd2f4ad1c80141f5ad99010702",
-      "title": "n8n-io/n8n: n8n@1.123.64",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.64",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-08T08:30:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a2df0368a59b134d0276027a3c510d96",
-      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.64 (#33810)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-08T08:03:38+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "df077a7fa511d317d4c1a34dc6b5d769",
-      "title": "‘GitLost’ Flaw Lets Attackers Trick GitHub AI Agent Into Leaking Private Repos",
-      "url": "https://devops.com/gitlost-flaw-lets-attackers-trick-github-ai-agent-into-leaking-private-repos/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-08T07:06:45+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3060,6 +2985,70 @@
       "published_at": "2026-07-15T05:57:52+00:00",
       "summary": "We're taking another look at our Azure backup strategy and are curious how other teams are handling it Azure Backup does a good job for many use cases, but we're also thinking about scenarios where we'd want copies of our data outside the same Azure environment. That could mean another tenant, anoth",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b75132c107a1f440f2ecbb91ed534289",
+      "title": "Google Maps for Clusters",
+      "url": "https://www.reddit.com/r/devops/comments/1ux1leq/google_maps_for_clusters/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-15T10:08:48+00:00",
+      "summary": "      Every tool for exploring Kubernetes clusters (the infrastructure that runs most modern software) visualizes them the same way: as a tree or a nested list. Namespace, then resources, then drill in, back out, drill into the next one. It works, but it fights how humans actually process scale. Nob",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c5debffb97c517c156c2c43ba26c87f9",
+      "title": "n8n-io/n8n: n8n@2.31.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-15T08:19:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3da3332dffbf76a3466a60623e3e7b80",
+      "title": "I built a blazing-fast OpenAPI mock server in Rust — starts in milliseconds, zero config, dynamic fake data",
+      "url": "https://dev.to/haowang604/i-built-a-blazing-fast-openapi-mock-server-in-rust-starts-in-milliseconds-zero-config-dynamic-jmd",
+      "source": "Dev.to",
+      "published_at": "2026-07-15T03:36:46Z",
+      "summary": "Hey HN,  Most OpenAPI mock servers I've worked with fall into one of three buckets: they're slow to...",
+      "tags": [
+        "webdev",
+        "automation",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7929f2632eaaceb0d6078644eafc72f8",
+      "title": "n/a is not a verdict",
+      "url": "https://dev.to/ilya_mozerov_867dbdd91feb/na-is-not-a-verdict-35ic",
+      "source": "Dev.to",
+      "published_at": "2026-07-15T03:17:42Z",
+      "summary": "There are three things a check can tell you. It passed. It failed. Or it couldn't run — the thing it...",
+      "tags": [
+        "testing",
+        "linux",
+        "debugging",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8030bcd8bd0c9c919bed5e1e8f0fca9e",
+      "title": "Day 72 - ClickHouse® Internals: How the Query Analyzer Works",
+      "url": "https://dev.to/kanishga_subramani_49ad73/day-72-clickhouser-internals-how-the-query-analyzer-works-500",
+      "source": "Dev.to",
+      "published_at": "2026-07-11T13:36:59Z",
+      "summary": "When you execute a SQL query in ClickHouse®, it doesn't immediately start scanning data or reading...",
+      "tags": [
+        "devops",
+        "clickhouse",
+        "analytics",
+        "database"
+      ],
       "relevance_score": 0.0
     }
   ]
