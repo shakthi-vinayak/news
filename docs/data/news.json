@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T14:05:16Z",
+  "generated_at": "2026-07-15T17:29:03Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1162,16 +1162,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "dcdf1ec06d9939bde950a4dcf1a73382",
-      "title": "Why sandboxing your agent is not enough",
-      "url": "https://www.cncf.io/blog/2026/07/07/why-sandboxing-your-agent-is-not-enough/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-07T11:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6b1a8394d4d449fe9d17740e01a9b320",
       "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
@@ -1269,46 +1259,6 @@
       "published_at": "2026-07-08T20:44:32+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e0faceaa7572dd2681ca12ec8528b92b",
-      "title": "OpenAI’s own safety card says GPT-5.6 has a lying problem",
-      "url": "https://thenewstack.io/gpt-5-6-developer-reactions/",
-      "source": "The New Stack",
-      "published_at": "2026-07-08T17:08:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2dfaa104f2f02fdb3137b21e47302348",
-      "title": "Why Localhost Worked but the Application Couldn't Connect",
-      "url": "https://dev.to/mohhddhassan/why-localhost-worked-but-the-application-couldnt-connect-2pl0",
-      "source": "Dev.to",
-      "published_at": "2026-07-08T14:48:10Z",
-      "summary": "One of the most frustrating debugging sessions I've had wasn't caused by a broken application.  It...",
-      "tags": [
-        "linux",
-        "networking",
-        "devops",
-        "backend"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a4d334a0f6a0c0327a2965c6d0339907",
-      "title": "Our GCP daily cost dropped 80% in six weeks, here is every change we made",
-      "url": "https://dev.to/budiwidhiyanto/our-gcp-daily-cost-dropped-80-in-six-weeks-here-is-every-change-we-made-3p20",
-      "source": "Dev.to",
-      "published_at": "2026-07-08T14:09:43Z",
-      "summary": "When our project manager forwarded the May 2026 invoice, the number had tripled from where it was two...",
-      "tags": [
-        "gcp",
-        "costoptimization",
-        "devops",
-        "bigquery"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1776,21 +1726,6 @@
         "devops",
         "showdev",
         "buildinpublic"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "105cd6bb0edb29509ca52f2bb91b0849",
-      "title": "8 Best AI Gateways in 2026 (Compared)",
-      "url": "https://dev.to/smakosh/8-best-ai-gateways-in-2026-compared-1jj9",
-      "source": "Dev.to",
-      "published_at": "2026-07-08T17:08:26Z",
-      "summary": "Calling LLM providers directly works until it doesn't. The moment you're managing multiple API keys,...",
-      "tags": [
-        "ai",
-        "llm",
-        "api",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -3033,6 +2968,76 @@
         "node",
         "devops",
         "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "165ec680f438eabe7c92a66e39b50352",
+      "title": "Atlassian Extends AI Reach of Jira Into Agentic Engineering Workflows",
+      "url": "https://devops.com/atlassian-extends-ai-reach-of-jira-into-agentic-engineering-workflows/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-15T16:21:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e49cfb95efa0c348f3befb93ea4cff99",
+      "title": "OpenAI’s first gadget is the $230 Codex Micro macropad",
+      "url": "https://thenewstack.io/openai-codex-micro-macropad/",
+      "source": "The New Stack",
+      "published_at": "2026-07-15T16:01:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b84c86f92d3ff5b2a40904bd645251b2",
+      "title": "Managing DB credentials for k8s services",
+      "url": "https://www.reddit.com/r/devops/comments/1ux8asg/managing_db_credentials_for_k8s_services/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-15T14:59:32+00:00",
+      "summary": "Hey all,  Trying to figure how people actually manage DB credentials for apps at scale. Our current setup works, but kinda fragile:  Liquibase runs DDLs using shared creds pulled from Parameter Store. A custom Jenkins shared lib provisions dedicated per app creds at the SQL level and drops them into",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "334a03fee0ad4ccbee73948e0ccafedb",
+      "title": "Anaconda buys Kilo, the open source coding agent that answers to no single model maker",
+      "url": "https://thenewstack.io/anaconda-kilo-open-source-acquisition/",
+      "source": "The New Stack",
+      "published_at": "2026-07-15T14:07:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8478dae95da58284272a267fba9f4f8f",
+      "title": "The Ghost in the Machine: Hunting a Memory Leak I Couldn't See the Source Of.",
+      "url": "https://dev.to/moersebene/the-ghost-in-the-machine-hunting-a-memory-leak-i-couldnt-see-the-source-of-54f1",
+      "source": "Dev.to",
+      "published_at": "2026-07-15T08:09:42Z",
+      "summary": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.  Most bug stories...",
+      "tags": [
+        "devchallenge",
+        "bugsmash",
+        "dotnet",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "199a751362e16f72edb57571cf9c0a28",
+      "title": "Docker, From Zero: What It Actually Solves, and How to Actually Use It",
+      "url": "https://dev.to/surajrkhonde/docker-from-zero-what-it-actually-solves-and-how-to-actually-use-it-59a4",
+      "source": "Dev.to",
+      "published_at": "2026-07-14T04:34:51Z",
+      "summary": "Nephew has heard \"just Dockerize it\" a hundred times at work and nodded along without really knowing...",
+      "tags": [
+        "beginners",
+        "devops",
+        "docker",
+        "tutorial"
       ],
       "relevance_score": 0.0
     }
