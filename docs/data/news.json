@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T10:23:14Z",
+  "generated_at": "2026-07-16T14:16:29Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -102,16 +102,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7cfd732f8833d307ce126034be610c78",
-      "title": "Docker joins the Athena coalition: a cross-industry collaboration for supply chain security",
-      "url": "https://www.docker.com/blog/docker-joins-the-athena-coalition-a-cross-industry-collaboration-for-supply-chain-security/",
-      "source": "Docker Blog",
-      "published_at": "2026-06-15T16:24:29+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7856f719f5378afd2d1e5c1c512d89c8",
       "title": "Spotlight on SIG Storage",
       "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
@@ -167,16 +157,6 @@
       "url": "https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-06-11T15:54:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "569878a8322086bf10e7b15df8806e27",
-      "title": "Docker Hardened Images enhanced vulnerability scanning with Docker and Aikido",
-      "url": "https://www.docker.com/blog/docker-hardened-images-enhanced-vulnerability-scanning-with-docker-and-aikido/",
-      "source": "Docker Blog",
-      "published_at": "2026-06-11T12:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1232,85 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "bd79362cbb2dcd7272a2c3f09a4c86f3",
-      "title": "Kafka Consumer Lag Is the Metric Everyone Collects—and Almost Everyone Misunderstands",
-      "url": "https://dev.to/themoah/kafka-consumer-lag-is-the-metric-everyone-collects-and-almost-everyone-misunderstands-4m8l",
-      "source": "Dev.to",
-      "published_at": "2026-07-09T14:06:20Z",
-      "summary": "Deep dive into Kafka consumer lag metrics, why they're misunderstood, and how to interpret them correctly.",
-      "tags": [
-        "Observability",
-        "SRE",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "271b7aca9c9982e7b2a4c225e6e4a580",
-      "title": "Agentic AI in observability: accelerating root cause analysis",
-      "url": "https://thenewstack.io/agentic-ai-observability-operations/",
-      "source": "The New Stack",
-      "published_at": "2026-07-09T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7b83ead82ffd022bdfb02cd5bccda41",
-      "title": "AI Governance for Engineering Teams",
-      "url": "https://dev.to/hadil/ai-governance-for-engineering-teams-4510",
-      "source": "Dev.to",
-      "published_at": "2026-07-09T12:44:56Z",
-      "summary": "AI Governance for Engineering Teams: Guardrails, Budgets, and Audit Logs That Actually Scale   ...",
-      "tags": [
-        "ai",
-        "devops",
-        "management",
-        "security"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "79b0e56381b64e33e9f6b5e263d6736a",
-      "title": "Is there an orchestration tool that doesn't force everyone on the team to learn python ?",
-      "url": "https://www.reddit.com/r/devops/comments/1uro23y/is_there_an_orchestration_tool_that_doesnt_force/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-09T11:52:56+00:00",
-      "summary": "Genuine question. Our team is 3 data engineers (python), 2 analytics engineers (SQL and dbt), and 2 infra guys (terraform / ansible). We tried airflow but the analytics and anfra pp can't contribute to pipeline definition bc everything is python DAGs. It creates a bottleneck where the 3 python devs ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "22ab5f15c0735f68eee9e7e04dfc38d2",
-      "title": "How should I stay curious and sharp and learn more? What resources should I go to?",
-      "url": "https://www.reddit.com/r/devops/comments/1urnqrt/how_should_i_stay_curious_and_sharp_and_learn/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-09T11:38:16+00:00",
-      "summary": "Hello, I have been working as a dev sec ops for the last 4 years and recently as a devops engineer. At my last job, since everything was new, and I had no idea about so many things everything was exciting. Learning Terraform, ansible, Linux, how to sys admin, Grafana monitoring so on. Now at this ne",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "978dc0667e51edb0aa930b86022bc088",
-      "title": "How to Build a DevSecOps CI/CD Pipeline on Azure With GitHub Actions",
-      "url": "https://devops.com/how-to-build-a-devsecops-ci-cd-pipeline-on-azure-with-github-actions/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-09T11:27:59+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "30d16dad0133b39bc530aa3376d57997",
-      "title": "Shadow Mode Continuous Integration: The Missing Test Layer for AI Agents",
-      "url": "https://devops.com/shadow-mode-continuous-integration-the-missing-test-layer-for-ai-agents/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-09T11:16:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "63834c4c0a98bebdb4130fdc34ef74ac",
       "title": "Mezmo Open Sources AI SRE Operations",
       "url": "https://devops.com/mezmo-open-sources-ai-sre-operations/",
@@ -1592,36 +1493,6 @@
       "published_at": "2026-07-10T14:11:49+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "680dd318fd1f1fd934f1f66c16744024",
-      "title": "Adopting Terraform Ephemeral Resources",
-      "url": "https://dev.to/drewmullen/adopting-terraform-ephemeral-resources-1b67",
-      "source": "Dev.to",
-      "published_at": "2026-07-09T12:50:48Z",
-      "summary": "In version 1.11, HashiCorp introduced Terraform Ephemeral resources and write-only attributes to...",
-      "tags": [
-        "devops",
-        "infrastructure",
-        "security",
-        "terraform"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0dd90558c31775caeb1ff45b59aab6ef",
-      "title": "Introducing AWS Sandbox Environment: Learn AWS for Free Without a Credit Card",
-      "url": "https://dev.to/aws-builders/introducing-aws-sandbox-environment-learn-aws-for-free-without-a-credit-card-58np",
-      "source": "Dev.to",
-      "published_at": "2026-07-09T10:11:18Z",
-      "summary": "AWS Builder Center now offers free 8-hour sandbox environments for workshops. Here's how it works, who it's for, and how it compares to Free Tier, Skill Builder, and Educate.",
-      "tags": [
-        "aws",
-        "cloud",
-        "beginners",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2985,6 +2856,126 @@
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-07-16T08:23:28+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c3ba12169cbd5be110f8bb32ae0c05a8",
+      "title": "langchain-ai/langchain: langchain==1.3.14",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.14",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-16T13:28:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9662c536c56e1de616c2f7cf02ffbe77",
+      "title": "“There are no laws, only suggestions”: What AI agents do with your instructions",
+      "url": "https://thenewstack.io/ai-agents-no-laws/",
+      "source": "The New Stack",
+      "published_at": "2026-07-16T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "992adaa86e285ecd6826581fba7c6657",
+      "title": "AI Agents Explained: How to Build with Them Safely",
+      "url": "https://www.docker.com/blog/what-are-ai-agents/",
+      "source": "Docker Blog",
+      "published_at": "2026-07-16T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "62f38c3164bde0930c2d979c7849d888",
+      "title": "How would you all",
+      "url": "https://www.reddit.com/r/devops/comments/1uy1hh2/how_would_you_all/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-16T12:29:29+00:00",
+      "summary": "So I just wanted to ask what is the best way to learn and master  Devops  Imran teli udemy course , Techworld with nana or anything else ?? Like I watched nana vids she said focus on Basics  And I feel that's right  So I wanted to get advice on  Courses or learning paths , the mistakes not to make a",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2707144e6b3dbcfdb99d6a339f4ea5d1",
+      "title": "Running a self-hosted LLM in Kubernetes with vLLM",
+      "url": "https://www.cncf.io/blog/2026/07/16/running-a-self-hosted-llm-in-kubernetes-with-vllm/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-16T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2519ac9092b990e552c4468468b19728",
+      "title": "We Built an AI-Powered Semantic Release Pipeline - Here's Everything We Learned",
+      "url": "https://dev.to/smit-vaghasiya/we-built-an-ai-powered-semantic-release-pipeline-heres-everything-we-learned-123k",
+      "source": "Dev.to",
+      "published_at": "2026-07-16T10:32:32Z",
+      "summary": "We Built an AI-Powered Semantic Release Pipeline (And Survived All the Edge Cases)   If...",
+      "tags": [
+        "devops",
+        "github",
+        "ai",
+        "cicd"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c578d4c25350baec72f50f38b71537bc",
+      "title": "The most expensive outages return HTTP 200",
+      "url": "https://dev.to/adioof/the-most-expensive-outages-return-http-200-k8d",
+      "source": "Dev.to",
+      "published_at": "2026-07-16T10:15:46Z",
+      "summary": "A 500 is an unexpected jolt from your sleep, while a 200 silently drains your savings.  That's the...",
+      "tags": [
+        "devops",
+        "observability",
+        "cloud",
+        "cost"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ba9fcb6c405206146456e53d821d39c2",
+      "title": "Can anybody help me on how to build production backup strategy for self hosted applications?",
+      "url": "https://www.reddit.com/r/devops/comments/1uxxf1f/can_anybody_help_me_on_how_to_build_production/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-16T09:01:26+00:00",
+      "summary": "Hi everyone, I'm designing a backup and disaster recovery strategy for a production ThingsBoard deployment . My ThingsBoard works on Ubuntu + Postgres on AWS LightSail. I'm aware that there is Version Control feature in ThingsBoard but I dont think that is enough and it is not an alternative for bac",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "93312d0231b62a1fe7b214daec12c049",
+      "title": "Am i a devops engineer?",
+      "url": "https://www.reddit.com/r/devops/comments/1uxlrs9/am_i_a_devops_engineer/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-15T23:16:20+00:00",
+      "summary": "so right out of university , i did an unpaid internship for 6 months to land a job.. initially i wanted to get into cybersecurity but got an offer in devops and i needed money badly so i took it, it was a remote startup.. the pay was okay and the environment was hostile so i left for a corporate job",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e84aa20b4405c26bda09e2eb4d96f74b",
+      "title": "Getting into devops/ cloud roles as a fresher",
+      "url": "https://www.reddit.com/r/devops/comments/1ux9j2n/getting_into_devops_cloud_roles_as_a_fresher/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-15T15:43:32+00:00",
+      "summary": "​Hey everyone, I'm hoping to get some advice on landing an entry-level cloud or devops role. I have a background in full-stack development, but I recently finished an internship that was heavily focused on infrastructure and CI/CD. ​During the internship, I mostly worked on setting up automated host",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e742af54524658a62aafe115887c74b3",
+      "title": "Looking for a Serious DevOps/SRE Grind Buddy",
+      "url": "https://www.reddit.com/r/devops/comments/1uwgszj/looking_for_a_serious_devopssre_grind_buddy/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-14T18:20:09+00:00",
+      "summary": "I'm a working professional with 1.5 YOE preparing to crack product-based companies. After work, I study daily from 10 PM to 2–3 AM. Looking for a serious DevOps/SRE study buddy for accountability, hands-on learning, DSA, and System Design. If there's any experienced SRE mentor here who's willing to ",
       "tags": [],
       "relevance_score": 0.0
     }
