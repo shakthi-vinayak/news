@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T21:14:50Z",
+  "generated_at": "2026-07-16T23:08:13Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1170,30 +1170,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "5cb966cb250d3f61a6814980f4665549",
-      "title": "The biggest lie in GPU tooling is that RUNNING means ready",
-      "url": "https://www.reddit.com/r/devops/comments/1us3ile/the_biggest_lie_in_gpu_tooling_is_that_running/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-09T21:23:03+00:00",
-      "summary": "I keep seeing this with rented GPUs. The pod says RUNNING, so you assume the workload is ready. But RUNNING usually just means the infra exists. It does not mean vLLM finished loading. It does not mean ComfyUI is reachable. It does not mean CUDA is visible. It does not mean the container did not cra",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c6dca27fe593b35c67d549417409fae3",
-      "title": "Securing Services with Rootless Containers",
-      "url": "https://www.reddit.com/r/devops/comments/1us43p2/securing_services_with_rootless_containers/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-09T21:45:24+00:00",
-      "summary": "Explains how to run containers without root privileges to improve security, isolation, and compliance in production environments.",
-      "tags": [
-        "Containers",
-        "Security",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
     },
     {
       "id": "d35b8beb921edfdeca1cbaf76037c001",
@@ -2946,6 +2922,26 @@
       "source": "The New Stack",
       "published_at": "2026-07-16T17:48:29+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b232fe2cb17e63a2f6df7f8d1403384e",
+      "title": "Why You Need AI Agent Security Validation in Software Testing",
+      "url": "https://devops.com/why-you-need-ai-agent-security-validation-in-software-testing/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-16T22:09:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fbf762eaf3bdec16593f8ab23482711c",
+      "title": "Regrets leaving previous DevOps role as I am not enjoying the new company",
+      "url": "https://www.reddit.com/r/devops/comments/1uygsci/regrets_leaving_previous_devops_role_as_i_am_not/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-16T21:59:52+00:00",
+      "summary": "Last month I left my previous DevOps role for a new one. The pay increase was the main reason I left. My old role had good colleagues, interesting work, and an office I could go into whenever I wanted, but I just didn't feel I was being paid enough for the work I was doing. It was a fairly big compa",
       "tags": [],
       "relevance_score": 0.0
     }
