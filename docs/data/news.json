@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T17:22:49Z",
+  "generated_at": "2026-07-17T19:25:51Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1207,16 +1207,6 @@
       "url": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-07-10T14:45:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5393762e8272311dba15863100bbd77c",
-      "title": "langchain-ai/langchain: langchain-openai==1.3.5",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.5",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-07-10T18:58:48+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3085,6 +3075,16 @@
         "ai",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b8b02d48888d4619861483fb53d4163b",
+      "title": "How do small teams manage shared AI context without losing their minds?",
+      "url": "https://www.reddit.com/r/devops/comments/1uz6jw9/how_do_small_teams_manage_shared_ai_context/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-17T17:37:55+00:00",
+      "summary": "Hey, we're building a project with 3 people using Cursor and Claude Code and keep tripping over the same thing. One dev changes a port or finds a bug in a library and patches it with a workaround, the other has no idea and burns three hours figuring it out. The AI in the IDE has zero clue about team",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
