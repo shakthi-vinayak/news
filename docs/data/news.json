@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T15:24:55Z",
+  "generated_at": "2026-07-17T17:22:49Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1202,26 +1202,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "51a2e5f758f78f2ad209ac3c52f423b5",
-      "title": "Why retrieval quality is becoming the defining challenge in AI agent architecture",
-      "url": "https://thenewstack.io/retrieval-ai-agent-architecture/",
-      "source": "The New Stack",
-      "published_at": "2026-07-10T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7bbcc0caea21144012c40b2108e23e13",
-      "title": "Bootstrapping Flux",
-      "url": "https://www.reddit.com/r/devops/comments/1usrq3p/bootstrapping_flux/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-10T15:58:10+00:00",
-      "summary": "there's several methods on setting it up on a cluster (terraform with helm, terraform with flux provider, and using the flux boostrap command). Is there any reason for using Terraform instead of flux cli on my runner? Ultimately i dont want terraform managing it.  &#32; submitted by &#32;  /u/DeLoMi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "1806b83409451585d0fde97339c08a93",
       "title": "Shrinking Azure Pipeline task extensions using esbuild",
       "url": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
@@ -1242,41 +1222,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "954f0ff3ddebded9aca5aa6fc1d9ac96",
-      "title": "apache/airflow: providers-oracle/4.6.2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-oracle%2F4.6.2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-10T16:30:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ae93d6a83e401a856e723338de3558f1",
-      "title": "apache/airflow: providers-smtp/3.0.2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-smtp%2F3.0.2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-10T16:30:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f1231650bb78e6f489426dd9f372f357",
       "title": "apache/airflow: providers-tableau/5.6.0",
       "url": "https://github.com/apache/airflow/releases/tag/providers-tableau%2F5.6.0",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-07-10T16:30:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "daccfcb2a5197e5464a85a70dde3e22b",
-      "title": "apache/airflow: providers-ssh/5.0.4",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F5.0.4",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-10T16:30:24+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1571,21 +1521,6 @@
       "published_at": "2026-07-13T00:50:45+00:00",
       "summary": "How are people feeling about bindplane being acquired by dynatrace? Mainly, are people hesitant to adopt it now since they are owned by one of the big observability companies? And for those who are using bindplane today, have you seen any changes since the acquisition?  &#32; submitted by &#32;  /u/",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bead1dbf6214a5e35329ae8cdc7e56c6",
-      "title": "Hybrid Container Governance: Scaling Patterns That Work",
-      "url": "https://dev.to/ev3lynx727/hybrid-container-governance-scaling-patterns-that-work-1bih",
-      "source": "Dev.to",
-      "published_at": "2026-07-10T16:26:44Z",
-      "summary": "Hook   The third WSL instance didn't need a reinstall. That's when I knew the pattern...",
-      "tags": [
-        "architecture",
-        "devops",
-        "docker",
-        "mcp"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3095,6 +3030,60 @@
         "devops",
         "softwareengineering",
         "aiagents"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "abca7384cadcb0ec716f81f5ff23a310",
+      "title": "1Password’s new browser integration for Claude changes how AI uses your credentials",
+      "url": "https://thenewstack.io/1password-agent-authentication-framework/",
+      "source": "The New Stack",
+      "published_at": "2026-07-17T16:05:12+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2ef3c004a193a7eaf2e67c0f88ff13ff",
+      "title": "How We Made Moderation Architecturally Impossible to Skip",
+      "url": "https://dev.to/candornetwork/how-we-made-moderation-architecturally-impossible-to-skip-7lo",
+      "source": "Dev.to",
+      "published_at": "2026-07-17T13:14:16Z",
+      "summary": "How We Made Moderation Architecturally Impossible to Skip  By Ronny Cruz Alvarez, founder of Open...",
+      "tags": [
+        "devops",
+        "opensource",
+        "architecture",
+        "node"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e4105949e7e0b7fd9aaa22695e530d5b",
+      "title": "Magento 2 Peak Traffic Preparation: Scaling for Black Friday and High-Events",
+      "url": "https://dev.to/magevanta/magento-2-peak-traffic-preparation-scaling-for-black-friday-and-high-events-4l64",
+      "source": "Dev.to",
+      "published_at": "2026-07-17T09:06:53Z",
+      "summary": "Black Friday and flash sales can take your Magento 2 store down in minutes. Learn how to audit, scale, cache, and monitor your infrastructure before the rush hits.",
+      "tags": [
+        "magento",
+        "performance",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "07ecdb8429763a30fa69e023cfb813b5",
+      "title": "What running an LLM in production actually costs you",
+      "url": "https://dev.to/orens/what-running-an-llm-in-production-actually-costs-you-20ih",
+      "source": "Dev.to",
+      "published_at": "2026-07-16T00:15:47Z",
+      "summary": "Every \"build an AI app\" tutorial stops at the demo. Prompt goes in, response comes out, ship it....",
+      "tags": [
+        "llm",
+        "ai",
+        "devops"
       ],
       "relevance_score": 0.0
     }
