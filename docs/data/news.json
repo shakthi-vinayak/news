@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T10:10:40Z",
+  "generated_at": "2026-07-17T13:59:59Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1142,16 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7d2f58deda6374e5ddc744b300ce6c7d",
-      "title": "The CNCF Data Storage in Cloud Native AI White Paper",
-      "url": "https://www.cncf.io/report-whitepaper/2026/07/08/the-cncf-data-storage-in-cloud-native-ai-white-paper/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-08T17:35:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "57ee8397ca375a1bc4a43ee3f4d563a4",
       "title": "kubernetes/kubernetes: v1.37.0-alpha.3",
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-alpha.3",
@@ -1188,26 +1178,6 @@
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-07-10T00:27:31+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cef26ca796f2ad56e094289c19f0fe4e",
-      "title": "Anthropic is giving 6 months of Claude Max 20x ($1,200 value) for free to open source contributors, applications are open now",
-      "url": "https://www.reddit.com/r/devops/comments/1uslq0c/anthropic_is_giving_6_months_of_claude_max_20x/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-10T12:04:17+00:00",
-      "summary": "Came across this and wanted to make sure the dev community knows about it. Anthropic quietly expanded their Claude for Open Source program and the details are pretty generous:  6 months of Claude Max 20x $1,200 value - completely free No catch, just an application  Who qualifies:  Package maintainer",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fd88e37108b32d21a00cbfbee34bc554",
-      "title": "Observability Local Setup",
-      "url": "https://www.reddit.com/r/devops/comments/1usl9b6/observability_local_setup/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-10T11:43:11+00:00",
-      "summary": "Greetings to all DevOps enthusiasts. Not long ago I had struggled with observability principles and decided to learn it by building from scratch. I have published an article on Medium that is a complete setup for observing local system. The tech stack consist of a nextjs frontend, .NET backend and a",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1363,20 +1333,6 @@
         "devops",
         "debugging",
         "beginners"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b22cf801c7315792a860967a4155c9e8",
-      "title": "Fix Predictive Alerting False Positives in Prometheus Python Models",
-      "url": "https://dev.to/oleksandr_kuryzhev_42873f/fix-predictive-alerting-false-positives-in-prometheus-python-models-45dh",
-      "source": "Dev.to",
-      "published_at": "2026-07-10T07:02:09Z",
-      "summary": "Originally published on kuryzhev.cloud     Your anomaly model tested perfectly offline — 94%...",
-      "tags": [
-        "python",
-        "monitoring",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -2384,21 +2340,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "75564cf6e95557d5419b0365bd495ff8",
-      "title": "I built a CLI that catches shadow APIs in Express.js repos before they merge to production",
-      "url": "https://dev.to/darkmaster0345/i-built-a-cli-that-catches-shadow-apis-in-expressjs-repos-before-they-merge-to-production-e0k",
-      "source": "Dev.to",
-      "published_at": "2026-07-10T11:47:46Z",
-      "summary": "Shadow audit  Static API security scanner — finds undocumented and unauthenticated routes before they...",
-      "tags": [
-        "security",
-        "node",
-        "devops",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "165ec680f438eabe7c92a66e39b50352",
       "title": "Atlassian Extends AI Reach of Jira Into Agentic Engineering Workflows",
       "url": "https://devops.com/atlassian-extends-ai-reach-of-jira-into-agentic-engineering-workflows/",
@@ -3005,6 +2946,151 @@
       "published_at": "2026-07-17T07:35:32+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0d020f3e502664db6c53073926aea0da",
+      "title": "Why every AI agent decision needs a receipt",
+      "url": "https://thenewstack.io/agent-evidence-packet-analytics/",
+      "source": "The New Stack",
+      "published_at": "2026-07-17T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "72a961034a3f2476dc475a8e92a395cd",
+      "title": "From intent to enforcement: Lessons from operating Kubernetes controllers at scale",
+      "url": "https://thenewstack.io/kubernetes-controllers-at-scale/",
+      "source": "The New Stack",
+      "published_at": "2026-07-17T12:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b09c60c627da54207faf5aee12849701",
+      "title": "Arm and Google offer a smarter option to run agentic AI workloads",
+      "url": "https://thenewstack.io/cpu-agentic-ai-axion/",
+      "source": "The New Stack",
+      "published_at": "2026-07-17T12:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a5512d8bb77f6353a4408b60e636dba9",
+      "title": "I Almost Leaked My Production Database Password to GitHub (And How I Fixed CI/CD Security)",
+      "url": "https://dev.to/le_beltagy/i-almost-leaked-my-production-database-password-to-github-and-how-i-fixed-cicd-security-5gne",
+      "source": "Dev.to",
+      "published_at": "2026-07-17T11:25:14Z",
+      "summary": "I Almost Leaked My Production Database Password to GitHub (And How I Fixed CI/CD...",
+      "tags": [
+        "security",
+        "cicd",
+        "devops",
+        "github"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4e7209e603670e55a0e2fd3a58ac4a81",
+      "title": "How do you keep release notes from just dying after a few sprints?",
+      "url": "https://www.reddit.com/r/devops/comments/1uyv825/how_do_you_keep_release_notes_from_just_dying/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-17T09:53:12+00:00",
+      "summary": "Hey, I'm a developer looking into the way other teams create release notes and weekly updates together when the work is scattered across different tools e.g. Jira, GitHub and Azure DevOps. We start with good intentions once every couple of months but after a while nobody updates the release notes an",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9a59190483a5e186112ad16049c82b3a",
+      "title": "My Personal AI Stack in 2026",
+      "url": "https://dev.to/jaideepparashar/my-personal-ai-stack-in-2026-2epn",
+      "source": "Dev.to",
+      "published_at": "2026-07-17T09:48:36Z",
+      "summary": "Ask ten AI developers what tools they use, and you'll probably get ten different answers.  The AI...",
+      "tags": [
+        "ai",
+        "beginners",
+        "devops",
+        "automation"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9c2f6ffb34cfed22db405ab091393566",
+      "title": "I Let an AI Agent Run My Cloud Ops for a Week: Here's What Broke",
+      "url": "https://dev.to/muskan_bandta/i-let-an-ai-agent-run-my-cloud-ops-for-a-week-heres-what-broke-5f",
+      "source": "Dev.to",
+      "published_at": "2026-07-17T06:00:25Z",
+      "summary": "A first-hand experiment: I gave an AI agent access to my cloud operations for seven days. Here's what it handled well, what broke, the near-miss that scared me, and whether AIOps is actually ready for real on-call work.",
+      "tags": [
+        "ai",
+        "devops",
+        "cloud",
+        "sre"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7a3db93c6ae17c31f056e8e728bc81ba",
+      "title": "How to Gate Your CI Pipeline on Quantum Vulnerability — with quantum-audit",
+      "url": "https://dev.to/takundanashebmuchenapixel/how-to-gate-your-ci-pipeline-on-quantum-vulnerability-with-quantum-audit-5bbe",
+      "source": "Dev.to",
+      "published_at": "2026-07-17T03:20:20Z",
+      "summary": "Part 3 of the quantum-audit series. Part 1 | Part 2*  🌐 Tool: quantum-audit-site.vercel.app     Most...",
+      "tags": [
+        "security",
+        "javascript",
+        "devops",
+        "github"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fa77c060ff1c49f3df256ded4dc64473",
+      "title": "macOS runs out of application memory because your dead dev servers never die",
+      "url": "https://dev.to/mjmirza/macos-runs-out-of-application-memory-because-your-dead-dev-servers-never-die-4h3c",
+      "source": "Dev.to",
+      "published_at": "2026-07-16T22:18:04Z",
+      "summary": "It was past midnight and my Mac threw a box I had not seen in years.  Your system has run out of...",
+      "tags": [
+        "webdev",
+        "javascript",
+        "node",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2b7b2a863a78ad857f1f9f5d159e6567",
+      "title": "The Complete 90-Day DevOps Roadmap I Wish Existed When I Started (Free, No Signup)",
+      "url": "https://dev.to/opscanopy/the-complete-90-day-devops-roadmap-i-wish-existed-when-i-started-free-no-signup-2eki",
+      "source": "Dev.to",
+      "published_at": "2026-07-14T12:00:00Z",
+      "summary": "I once watched a developer breeze through three Docker courses and then freeze solid the first time a...",
+      "tags": [
+        "devops",
+        "beginners",
+        "career",
+        "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d46ce713bc07606b8528b60c69158cd2",
+      "title": "Self-hosting your email? SPF, DKIM and DMARC decide your inbox rate",
+      "url": "https://dev.to/basictechnology/self-hosting-your-email-spf-dkim-and-dmarc-decide-your-inbox-rate-4f2l",
+      "source": "Dev.to",
+      "published_at": "2026-07-14T07:25:40Z",
+      "summary": "I moved outbound email for a couple of side projects off a hosted ESP last year, mostly to stop...",
+      "tags": [
+        "selfhosted",
+        "email",
+        "devops",
+        "security"
+      ],
       "relevance_score": 0.0
     }
   ]
