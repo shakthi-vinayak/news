@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T13:59:59Z",
+  "generated_at": "2026-07-17T15:24:55Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1222,41 +1222,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1e8fcaca5a39b3974dbc250e014a56ed",
-      "title": "What running Kubernetes across millions of clusters taught AWS about zone failures",
-      "url": "https://thenewstack.io/eks-zonal-shift-resilience/",
-      "source": "The New Stack",
-      "published_at": "2026-07-10T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "1806b83409451585d0fde97339c08a93",
       "title": "Shrinking Azure Pipeline task extensions using esbuild",
       "url": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-07-10T14:45:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "95c71cd890b4627fd6e69afedc8626f5",
-      "title": "Anthropic wants you to use AI to decide whether or not you should use AI.",
-      "url": "https://thenewstack.io/claude-reflection-ai-judgment/",
-      "source": "The New Stack",
-      "published_at": "2026-07-10T14:14:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "314fe35401ee429c89bbb93d8b2bcb5a",
-      "title": "OpenAI, Microsoft & Anthropic agree on who runs the agent. They disagree on what you can take back.",
-      "url": "https://thenewstack.io/ai-agent-control-planes/",
-      "source": "The New Stack",
-      "published_at": "2026-07-10T14:11:49+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1322,36 +1292,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "304a63e08b3692912f76828e52ac3af8",
-      "title": "It Works on My Machine: A Docker War Story About exec format error",
-      "url": "https://dev.to/devopsaitoolkit/it-works-on-my-machine-a-docker-war-story-about-exec-format-error-oen",
-      "source": "Dev.to",
-      "published_at": "2026-07-10T14:45:41Z",
-      "summary": "\"It works on my machine\" is the oldest joke in software, and containers were supposed to kill it....",
-      "tags": [
-        "docker",
-        "devops",
-        "debugging",
-        "beginners"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "621496001104ecc3f67ef1d1e324e7c5",
       "title": "langchain-ai/langgraph: langgraph-cli==0.4.31",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.31",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-07-10T22:58:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ffed39302201d60ee94096fdd17b6129",
-      "title": "What running Kubernetes across millions of clusters taught AWS about zonal failures",
-      "url": "https://thenewstack.io/eks-zonal-shift-resilience/",
-      "source": "The New Stack",
-      "published_at": "2026-07-10T15:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3090,6 +3035,66 @@
         "email",
         "devops",
         "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ebea14c86b066bf8d370931d4e3a7a1c",
+      "title": "DevOps professionals in Australia - how much should I ask?",
+      "url": "https://www.reddit.com/r/devops/comments/1uz25xp/devops_professionals_in_australia_how_much_should/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-17T14:58:24+00:00",
+      "summary": "Been working as a DevOps / Cloud engineer for just over 6 years. Mostly in AWS shops. Know a bit of everything but quite good with linux, AWS, containers and orchestration, GitHub actions, Python / Node / PHP. Hold following certifications. AWS Solutions Architect Associate, DevOps Engineer Professi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7018a7bd569d43129c150a6fdd15fd43",
+      "title": "What broke when your org gave developers AI coding agents?",
+      "url": "https://www.reddit.com/r/devops/comments/1uz1oof/what_broke_when_your_org_gave_developers_ai/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-17T14:41:02+00:00",
+      "summary": "We support 200+ developers and rolled out agentic coding tools this year. The failure modes were not what we expected. Not &quot;AI wrote insecure code&quot; but things like agents committing credentials from local env files, installing unvetted dependencies to satisfy a task, and pipeline tokens wi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "21589800c22af0e4f06ca45bfc6ec954",
+      "title": "“They’re dead if they don’t offer this”: DoorDash’s CLI for agents may be out of necessity",
+      "url": "https://thenewstack.io/doordash-cli-agents-order/",
+      "source": "The New Stack",
+      "published_at": "2026-07-17T14:36:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b815477187506df36728eaade18b98d8",
+      "title": "Which AI APIs go down most? Data from 6 weeks monitoring 77 services",
+      "url": "https://dev.to/max_98b3db49c06de66802dcd/which-ai-apis-go-down-most-data-from-6-weeks-monitoring-77-services-7c9",
+      "source": "Dev.to",
+      "published_at": "2026-07-17T10:56:37Z",
+      "summary": "Six weeks of polling 77 AI APIs every 5 minutes taught us a lot about which services break, how long they stay broken, and why your status page is lying to you.",
+      "tags": [
+        "webdev",
+        "ai",
+        "javascript",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "36cb9efb592b1da723eb0ec735f96010",
+      "title": "The Deploy Was Boring. That Was The Whole Point",
+      "url": "https://dev.to/jeelvankhede/the-deploy-was-boring-that-was-the-whole-point-29if",
+      "source": "Dev.to",
+      "published_at": "2026-07-16T19:07:11Z",
+      "summary": "You know the ten minutes before a deployment. The finger near the button. A dashboard open in the...",
+      "tags": [
+        "deployment",
+        "devops",
+        "softwareengineering",
+        "aiagents"
       ],
       "relevance_score": 0.0
     }
