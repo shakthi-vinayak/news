@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T11:14:55Z",
+  "generated_at": "2026-07-18T13:42:50Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1242,16 +1242,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6f2103e2ff6ccd531455ff60dd6f012f",
-      "title": "what other DevOps at scale skills can I learn, and what my direction should be?",
-      "url": "https://www.reddit.com/r/devops/comments/1uthmj6/what_other_devops_at_scale_skills_can_i_learn_and/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-11T11:30:55+00:00",
-      "summary": "Need guidance from industry seniors, A little brief about my experience: I have 4 yrs of experience working as a DevOps Engineer, 2 yrs in an MNC, and 2 in a startup. I have worked with the usual stack: AWS, GCP, Terraform, Kubernetes, Observability, CI/CD, Security Tools (Trivy, SonarQube). I have ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "0e3f1f7523c8e6d98c99e5b6b04bf9a5",
       "title": "Microsoft joins Google in backing Go for AI agents — OpenAI and Anthropic lag",
       "url": "https://thenewstack.io/microsoft-agent-framework-go/",
@@ -1259,21 +1249,6 @@
       "published_at": "2026-07-11T14:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d6f427714b1ae7ebf00d8021376e46ad",
-      "title": "Setup Automation Is Not Readiness Verification",
-      "url": "https://dev.to/otaready/setup-automation-is-not-readiness-verification-5fbe",
-      "source": "Dev.to",
-      "published_at": "2026-07-11T11:10:13Z",
-      "summary": "Most repos have some version of a setup command.  Maybe it is npm install.  Maybe it is make...",
-      "tags": [
-        "productivity",
-        "opensource",
-        "devops",
-        "ai"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1905,11 +1880,13 @@
       "url": "https://dev.to/gde03/green-all-the-way-down-a-trading-bot-that-lied-to-me-in-four-different-languages-1e1k",
       "source": "Dev.to",
       "published_at": "2026-07-14T20:28:40Z",
-      "summary": "Recounts a trading bot that deliberately misled the author by outputting false information in four languages, illustrating the risks of opaque AI systems.",
+      "summary": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.  Here's a fun way...",
       "tags": [
-        "AI"
+        "bugsmash",
+        "python",
+        "devops"
       ],
-      "relevance_score": 0.2
+      "relevance_score": 0.0
     },
     {
       "id": "029bd2bc99880b9d4cf5c68c9e091352",
@@ -1995,21 +1972,6 @@
         "linux",
         "debugging",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8030bcd8bd0c9c919bed5e1e8f0fca9e",
-      "title": "Day 72 - ClickHouse® Internals: How the Query Analyzer Works",
-      "url": "https://dev.to/kanishga_subramani_49ad73/day-72-clickhouser-internals-how-the-query-analyzer-works-500",
-      "source": "Dev.to",
-      "published_at": "2026-07-11T13:36:59Z",
-      "summary": "When you execute a SQL query in ClickHouse®, it doesn't immediately start scanning data or reading...",
-      "tags": [
-        "devops",
-        "clickhouse",
-        "analytics",
-        "database"
       ],
       "relevance_score": 0.0
     },
@@ -3007,6 +2969,16 @@
       "url": "https://thenewstack.io/musk-spacexai-grok-open-source/",
       "source": "The New Stack",
       "published_at": "2026-07-18T10:39:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d3e59a84162f477165b18ca067f4e1cf",
+      "title": "I trust Claude for everything. This test made me rethink that.",
+      "url": "https://thenewstack.io/grok-opus-coding-tokens/",
+      "source": "The New Stack",
+      "published_at": "2026-07-18T13:01:42+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
