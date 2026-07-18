@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T06:15:16Z",
+  "generated_at": "2026-07-18T09:44:27Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1695,21 +1695,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d86cf0437d195e151b756e37f7f8b3ce",
-      "title": "Docker Volumes vs Bind Mounts: Where Your Data Actually Lives",
-      "url": "https://dev.to/jjoyneriv/docker-volumes-vs-bind-mounts-where-your-data-actually-lives-1ipl",
-      "source": "Dev.to",
-      "published_at": "2026-07-11T09:38:12Z",
-      "summary": "A container's writable layer feels like a filesystem, and that's exactly the trap. Write a database...",
-      "tags": [
-        "docker",
-        "devops",
-        "containers",
-        "tutorial"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a8f0d7b71ca6e336c4ebdeb642378faf",
       "title": "Operating AI/ML Workloads on Kubernetes: A Headlamp Plugin for Kubeflow",
       "url": "https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/",
@@ -2668,13 +2653,14 @@
       "url": "https://dev.to/tflux2011/your-services-already-know-why-they-broke-you-just-delete-that-knowledge-at-deploy-time-5c23",
       "source": "Dev.to",
       "published_at": "2026-07-17T03:14:31Z",
-      "summary": "Argues that services already contain diagnostic information about failures, but this knowledge is often discarded during deployment, hurting observability.",
+      "summary": "I want to start with a moment most of us have lived through.  It's 3 a.m. A dashboard is red. You're...",
       "tags": [
-        "Observability",
-        "SRE",
-        "Platform Engineering"
+        "devops",
+        "distributedsystems",
+        "ai",
+        "architecture"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "879669d0a12d87badeebcecc9855ea1a",
