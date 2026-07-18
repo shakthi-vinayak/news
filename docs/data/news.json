@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T21:04:06Z",
+  "generated_at": "2026-07-18T23:01:02Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1217,16 +1217,6 @@
       "url": "https://github.com/apache/airflow/releases/tag/providers-tableau%2F5.6.0",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-07-10T16:30:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "125227697591013ed9d8b9792d36bef8",
-      "title": "apache/airflow: providers-standard/1.16.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.16.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-10T16:30:24+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2990,6 +2980,26 @@
       "source": "Reddit r/devops",
       "published_at": "2026-07-18T20:09:28+00:00",
       "summary": "Starting to step in this field because development is seen as some random AI stuff now. I think I am too late. I just know abt the tools their names and work, not implemented much more than simple CI/CD pipelines on Github Actions, Docker. Implemented k8s, prometheus, grafana once, not confident. Wh",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d57458c877b475c081f3a8ac881a3ffc",
+      "title": "apache/airflow: constraints-3.3.0",
+      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.3.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-18T22:45:03+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7f53fb07c9611f58fd4a3d4f2c038036",
+      "title": "CVE-2026-63087: Grafana Oncall is EOL",
+      "url": "https://www.reddit.com/r/devops/comments/1v07ef4/cve202663087_grafana_oncall_is_eol/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-18T21:06:27+00:00",
+      "summary": "Heads up if you're running Grafana OnCall's plugin-install flow, CVE-2026-63087 lets anyone reconfigure it with zero auth. Repo's archived, so there's no patch coming from upstream. If you're still migrating off it and need some time, there's a small fix you can apply yourself and build from source ",
       "tags": [],
       "relevance_score": 0.0
     }
