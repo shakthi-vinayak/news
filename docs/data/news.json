@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T17:11:18Z",
+  "generated_at": "2026-07-19T19:21:04Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -3051,6 +3051,31 @@
         "devops",
         "security",
         "data"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "81027a86941cc45b4291f17cbadc825e",
+      "title": "NAT Gateway is somehow 80% of our AWS bill, how are you all keeping this in check?",
+      "url": "https://www.reddit.com/r/devops/comments/1v0xgjh/nat_gateway_is_somehow_80_of_our_aws_bill_how_are/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-19T18:02:33+00:00",
+      "summary": "We’re on AWS Activate credits and just realized NAT Gateway (hourly plus data processing charges) is eating up about 80% of our total AWS spend. Didn’t expect it to be anywhere near that high until we actually looked at Cost Explorer. We know some of the usual fixes exist, like VPC endpoints for S3/",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "16651f7b0ddd44b220c0533892d7fc7b",
+      "title": "Why We Chose Next.js + MERN Stack for White-Label Client Projects",
+      "url": "https://dev.to/buildbeyondstudio/why-we-chose-nextjs-mern-stack-for-white-label-client-projects-h1a",
+      "source": "Dev.to",
+      "published_at": "2026-07-19T05:22:27Z",
+      "summary": "When you're building websites and web apps for other agencies' clients — under their brand, on their...",
+      "tags": [
+        "webdev",
+        "javascript",
+        "nextjs",
+        "devops"
       ],
       "relevance_score": 0.0
     }
