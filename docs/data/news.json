@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T06:42:09Z",
+  "generated_at": "2026-07-19T10:02:10Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1230,19 +1230,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "a246bf975d62ffa9148fe0439859e322",
-      "title": "What Jenkins Agent Architecture Are You Using in Production in 2026?",
-      "url": "https://www.reddit.com/r/devops/comments/1uua7n4/what_jenkins_agent_architecture_are_you_using_in/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-12T08:59:43+00:00",
-      "summary": "Survey of Jenkins agent architectures used in production environments in 2026, covering scaling, security, and maintenance approaches.",
-      "tags": [
-        "CI/CD",
-        "DevOps"
-      ],
-      "relevance_score": 0.8
     },
     {
       "id": "eb31c81822ccb2f4cc6c3ed9dcddf3ae",
@@ -3011,6 +2998,61 @@
       "published_at": "2026-07-19T03:23:53+00:00",
       "summary": "I am running into a boring automation question that matters more now that coding agents run local commands. When a tool says &quot;the command is still running&quot;, that is not enough information. Is the parent process alive? Did a child process inherit stdout? Was there any output in the last fiv",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9039767b21bcbbc2a9104c1f1c0909f9",
+      "title": "Terraform visualizer project",
+      "url": "https://www.reddit.com/r/devops/comments/1v0luip/terraform_visualizer_project/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-19T09:18:50+00:00",
+      "summary": "Hi everyone I'm looking for an idea for my semester project, and I thought about building a Terraform Visualizer. The idea is simple: it takes a Terraform state file, visualizes the infrastructure, and lets you save it as an image. My question is if I build this, would you find it useful? I'm asking",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b8c6301c2904ff9dc71e6a3a7f672239",
+      "title": "Two ways to reuse a privileged CI token (and my rule only caught one)",
+      "url": "https://dev.to/kielltampubolon/two-ways-to-reuse-a-privileged-ci-token-and-my-rule-only-caught-one-l1p",
+      "source": "Dev.to",
+      "published_at": "2026-07-19T08:43:28Z",
+      "summary": "A GitHub Actions security rule that only caught half its vulnerability class, the design mistake behind it, and why checking for something missing is harder than checking for something bad.",
+      "tags": [
+        "security",
+        "devops",
+        "opensource",
+        "python"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "34a14fa0d73ec1162cdd3395e2a9b1ea",
+      "title": "Your SSH Key Isn’t Always the Problem: A Layer-by-Layer Debugging Guide",
+      "url": "https://dev.to/xinyangwuethz/your-ssh-key-isnt-always-the-problem-a-layer-by-layer-debugging-guide-281p",
+      "source": "Dev.to",
+      "published_at": "2026-07-19T06:55:41Z",
+      "summary": "I once ran:    ssh demo-server        Enter fullscreen mode            Exit fullscreen mode    ...",
+      "tags": [
+        "ssh",
+        "networking",
+        "devops",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9213f429ad961dbfc52d202c8c5a0307",
+      "title": "You fixed SPF, DKIM and DMARC and email still lands in spam. Here's why.",
+      "url": "https://dev.to/basictechnology/you-fixed-spf-dkim-and-dmarc-and-email-still-lands-in-spam-heres-why-a4f",
+      "source": "Dev.to",
+      "published_at": "2026-07-18T07:04:20Z",
+      "summary": "Last post I got the auth records green on my side-project mail. SPF, DKIM, DMARC all passing, and I...",
+      "tags": [
+        "email",
+        "devops",
+        "selfhosted",
+        "deliverability"
+      ],
       "relevance_score": 0.0
     }
   ]
