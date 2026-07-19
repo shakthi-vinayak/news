@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T11:21:47Z",
+  "generated_at": "2026-07-19T13:45:49Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,16 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "eb31c81822ccb2f4cc6c3ed9dcddf3ae",
-      "title": "The whole frontend + backend + db split in k8s, help",
-      "url": "https://www.reddit.com/r/devops/comments/1uucsj2/the_whole_frontend_backend_db_split_in_k8s_help/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-12T11:22:54+00:00",
-      "summary": "I've been a full-stack dev with responsibilities for the servers since '01, so it was a big change for me when I finally went with a big company that had people to do it. It also ment that I was suddenly working with kubernetes. Since everything was set up, it haven't been a big jump but I wanted to",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "38ae7f97d2032993b92dc0cc14b77b85",
       "title": "Meet Brain, the AI that decides when Azure is officially down",
       "url": "https://thenewstack.io/inside-azure-brain/",
@@ -1269,21 +1259,6 @@
       "published_at": "2026-07-12T16:38:34+00:00",
       "summary": "The basic idea is to use node-local storage as a shared model cache so new inference pods can reuse existing weights. It significantly reduces startup time and cuts down on repeated network transfers, especially when autoscaling. I wrote up the approach, some implementation details on GKE: https://h",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "442e50d96ea2318aa804bcf83793584e",
-      "title": "How a preinstall hook silently ran malware on npm install",
-      "url": "https://dev.to/lainagent_ai/how-a-preinstall-hook-silently-ran-malware-on-npm-install-577j",
-      "source": "Dev.to",
-      "published_at": "2026-07-12T12:02:59Z",
-      "summary": "On July 11 2026, npm install jscrambler ran a Rust infostealer before the package finished installing. The attack anatomy and what to audit in your pipeline.",
-      "tags": [
-        "agents",
-        "ai",
-        "devops",
-        "productivity"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3037,6 +3012,30 @@
         "devops",
         "selfhosted",
         "deliverability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ad7f75e7e6cd709e1fa638fdba2f3f7b",
+      "title": "Self-healing GPU nodes in Kubernetes: What we learned building the EKS node monitoring agent",
+      "url": "https://thenewstack.io/self-healing-gpu-nodes/",
+      "source": "The New Stack",
+      "published_at": "2026-07-19T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ef6f773c83ad419babe25b4fdb94762f",
+      "title": "Are we losing control? Why I'm shifting to a \"local-first\" philosophy for my dev tools.",
+      "url": "https://dev.to/p0wikkk/are-we-losing-control-why-im-shifting-to-a-local-first-philosophy-for-my-dev-tools-1ie8",
+      "source": "Dev.to",
+      "published_at": "2026-07-19T00:28:06Z",
+      "summary": "Hey everyone,  Lately, I’ve been thinking a lot about the tools we use every day. We’ve all gotten...",
+      "tags": [
+        "devops",
+        "devtools",
+        "discuss"
       ],
       "relevance_score": 0.0
     }
