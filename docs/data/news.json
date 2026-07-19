@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T15:08:02Z",
+  "generated_at": "2026-07-19T17:11:18Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,26 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "08afde33278f973368d8423cc2fcaabf",
-      "title": "Anthropic’s newest enterprise partner is training 20,000 people on Claude — here’s the shift it signals",
-      "url": "https://thenewstack.io/ust-anthropic-enterprise-ai-stack/",
-      "source": "The New Stack",
-      "published_at": "2026-07-12T17:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d63463ce55feedfff83e4e18650385bb",
-      "title": "Article: Model caching for AI workloads on GKE/Kubernetes without re-downloading weights",
-      "url": "https://www.reddit.com/r/devops/comments/1uuke1c/article_model_caching_for_ai_workloads_on/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-12T16:38:34+00:00",
-      "summary": "The basic idea is to use node-local storage as a shared model cache so new inference pods can reuse existing weights. It significantly reduces startup time and cuts down on repeated network transfers, especially when autoscaling. I wrote up the approach, some implementation details on GKE: https://h",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "afb8038cc36d205bce9a6e28a20bc682",
       "title": "Debugging a Legacy CRA + Django Deployment Pipeline: A DevOps Postmortem",
       "url": "https://dev.to/saint_vandora/debugging-a-legacy-cra-django-deployment-pipeline-a-devops-postmortem-2epd",
@@ -2462,21 +2442,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "01d27ec21fb61c863d27c752657cc93c",
-      "title": "DRY Infrastructure: How to Architect Modular Ansible Playbooks for Next.js",
-      "url": "https://dev.to/actocodes/dry-infrastructure-how-to-architect-modular-ansible-playbooks-for-nextjs-11h4",
-      "source": "Dev.to",
-      "published_at": "2026-07-12T17:00:00Z",
-      "summary": "Infrastructure code suffers from the same antipatterns as application code, duplication, tight...",
-      "tags": [
-        "ansible",
-        "nextjs",
-        "infrastructureascode",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d5e387f15fc1e952ae36a1fdb3424be8",
       "title": "Announcing v1 of OpenTelemetry Go Compile-Time Instrumentation",
       "url": "https://www.reddit.com/r/devops/comments/1uyrggy/announcing_v1_of_opentelemetry_go_compiletime/",
@@ -3026,6 +2991,66 @@
         "devops",
         "devtools",
         "discuss"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1ad03e4fd8e439c511a7393136a3f95a",
+      "title": "How do your teams manage planning?",
+      "url": "https://www.reddit.com/r/devops/comments/1v0vscq/how_do_your_teams_manage_planning/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-19T16:58:11+00:00",
+      "summary": "For those on platform or DevOps teams, what does your planning process look like? We have no problem writing docs and roadmaps for product features, but it doesn’t always feel like it aligns with the rest of the business.  Do you have Product Design Docs? Technical design docs? Quarterly roadmaps? O",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7ee0083408c2e81dfdac382429fbd245",
+      "title": "How is CI/CD managed in enterprise environments?",
+      "url": "https://www.reddit.com/r/devops/comments/1v0v1a4/how_is_cicd_managed_in_enterprise_environments/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-19T16:28:27+00:00",
+      "summary": "Hi everyone, I'm learning CI/CD and would love to understand how it's managed in enterprise environments. A few questions:  Which CI/CD tool(s) do you use (GitHub Actions, Jenkins, GitLab CI, Azure DevOps, CircleCI, etc.), and why did your team choose them? How do you structure your CI/CD pipelines ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7e9918cd7f9625d962e3fe0816bd00f5",
+      "title": "Spark 4.2 has a feature that could retire your vector database",
+      "url": "https://thenewstack.io/spark-4-2-ai-workloads/",
+      "source": "The New Stack",
+      "published_at": "2026-07-19T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "77d629db796cee46e1c0cfa2ece626de",
+      "title": "Demystifying LLM Tokenizers: Building a Client-Side Token and API Cost Calculator",
+      "url": "https://dev.to/kandz/demystifying-llm-tokenizers-building-a-client-side-token-and-api-cost-calculator-56pn",
+      "source": "Dev.to",
+      "published_at": "2026-07-19T11:08:14Z",
+      "summary": "If you are building applications with large language models (LLMs) like OpenAI's GPT-4o, Anthropic's...",
+      "tags": [
+        "ai",
+        "javascript",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0dd955923d8d61c89dbbf79fbeb960fc",
+      "title": "We Measured the Lifespan of 7,144 Software Versions. The Median Is 18 Months.",
+      "url": "https://dev.to/endoflifeai/we-measured-the-lifespan-of-7144-software-versions-the-median-is-18-months-2dh0",
+      "source": "Dev.to",
+      "published_at": "2026-07-17T11:36:09Z",
+      "summary": "Original research from the endoflife.ai dataset: across 463 products, the median supported lifespan of a software version is just 1.5 years. Hardware lives longest, cloud services die fastest, and Internet Explorer outlived everything.",
+      "tags": [
+        "programming",
+        "devops",
+        "security",
+        "data"
       ],
       "relevance_score": 0.0
     }
