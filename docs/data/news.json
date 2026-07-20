@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T18:15:26Z",
+  "generated_at": "2026-07-20T21:21:35Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1162,16 +1162,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "19745d42054e1c6afc1df4c97c81bc70",
-      "title": "ollama/ollama: v0.32.0-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.0-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-07-10T00:27:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "fcb757775c2e8c04fc9e5785ad4b35fd",
       "title": "prometheus/prometheus: v0.313.1",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.1",
@@ -1242,16 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "fe3aeb0f5e46d2b1fdf527794faa419f",
-      "title": "is Overthewire bandit game good for someone learning devops?",
-      "url": "https://www.reddit.com/r/devops/comments/1uvkejc/is_overthewire_bandit_game_good_for_someone/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-13T18:48:08+00:00",
-      "summary": "I've just starting to learn the fundamentals of devops and started with linux. A lot of people recommended this game online saying it's good for building command line skills what do you guys think?  &#32; submitted by &#32;  /u/Lost_Mousse9930   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "0a60b30ac02b2927db03c53732aeafa1",
       "title": "apache/airflow: Apache Airflow Java SDK 1.0.0-beta1",
       "url": "https://github.com/apache/airflow/releases/tag/java-sdk%2F1.0.0-beta1",
@@ -1279,21 +1259,6 @@
       "published_at": "2026-07-13T22:08:55+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "513f8dc3b8ae0ace5edd5833f766dbe9",
-      "title": "How to add mechanical enforcement to any AI coding agent",
-      "url": "https://dev.to/juandelossantos/how-to-add-mechanical-enforcement-to-any-ai-coding-agent-2dbl",
-      "source": "Dev.to",
-      "published_at": "2026-07-13T20:30:36Z",
-      "summary": "The problem   AI coding agents generate code at impressive speeds. But they also commit...",
-      "tags": [
-        "opensource",
-        "ai",
-        "devops",
-        "agentskills"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1383,21 +1348,6 @@
         "python",
         "devops",
         "cicd"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ea001195c5c04ec5b7d078f0ce5ceb88",
-      "title": "Green CI working software",
-      "url": "https://dev.to/nazarii-ahapevych/green-ci-working-software-5cim",
-      "source": "Dev.to",
-      "published_at": "2026-07-13T19:40:30Z",
-      "summary": "Two green CI runs told me the release worked. Both were no-ops.  A green check means one thing: the...",
-      "tags": [
-        "cicd",
-        "testing",
-        "devops",
-        "sre"
       ],
       "relevance_score": 0.0
     },
@@ -3071,6 +3021,36 @@
         "opensource",
         "javascript"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c903a20b2a51624126d80168c1bfe45f",
+      "title": "ollama/ollama: v0.32.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-20T21:00:30+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bfb6254d369a511be600cb052faf6bb5",
+      "title": "Cost attribution keeps finding waste that monitoring dashboards miss - how do others handle the gap?",
+      "url": "https://www.reddit.com/r/devops/comments/1v1wa6m/cost_attribution_keeps_finding_waste_that/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-20T20:00:32+00:00",
+      "summary": "I work on cost attribution for a large internal cloud fleet, and a pattern keeps repeating: our observability stack says everything is healthy, and the invoice says otherwise. Recent example: a batch worker that was fully green in monitoring — no errors, no alerts, normal resource graphs - but was c",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5de987e49d40964cdb3e33c1c4e7cf1a",
+      "title": "Do devils use ai workflows in enterprise",
+      "url": "https://www.reddit.com/r/devops/comments/1v1tra1/do_devils_use_ai_workflows_in_enterprise/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-20T18:29:23+00:00",
+      "summary": "I’m building one personal project, a platform where DevOps can create ai workflows without coding(drag and drop/ chatbot) , like n8n but for DevOps. But firstly I want to ask you guys who is working in the industry, some questions to get clarity what to build. A example of the workflow can be taking",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
