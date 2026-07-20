@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-20T06:59:36Z",
+  "generated_at": "2026-07-20T11:12:48Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-17T08:08:37+00:00",
+      "published_at": "2026-07-20T07:56:07+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -86,7 +86,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-16T08:19:35+00:00",
+      "published_at": "2026-07-20T08:18:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1232,81 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "485720a74d709a4e5f486c9897c46ebf",
-      "title": "Help in implementing CICD for Snowflake Objects.",
-      "url": "https://www.reddit.com/r/devops/comments/1uv7sbp/help_in_implementing_cicd_for_snowflake_objects/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-13T10:31:58+00:00",
-      "summary": "Hey all. I am building a POC for deploying Snowflake objects like table, stream, task, stage etc... to multiple environments like DEV/QA (single only) &amp; PROD with the help of CICD and used Github actions for it. I have never built something like this before and never worked on project consisting",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bee292d80ad738123104ff951a4a67af",
-      "title": "Setting Up a Production CI/CD Pipeline for a Python/Django App",
-      "url": "https://dev.to/saint_vandora/setting-up-a-production-cicd-pipeline-for-a-pythondjango-app-593d",
-      "source": "Dev.to",
-      "published_at": "2026-07-13T08:38:07Z",
-      "summary": "A practical walkthrough of building a complete GitHub Actions pipeline for a Django project, from a...",
-      "tags": [
-        "programming",
-        "tutorial",
-        "python",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c5b496e8cfb86ea4091a162340ee84dc",
-      "title": "‘HalluSquatting’ Compromises AI Coding Agents to Install Malware, Create Botnets",
-      "url": "https://devops.com/hallusquatting-compromises-ai-coding-agents-to-install-malware-create-botnets/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-13T08:20:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7cf4dfde862d35acc3fd4505d4194af5",
-      "title": "IBM Bob Gets Multi-Agent Muscle and a Cost Dashboard for Enterprise Coding",
-      "url": "https://devops.com/ibm-bob-gets-multi-agent-muscle-and-a-cost-dashboard-for-enterprise-coding/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-13T08:12:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b2d38eccd94828907d583885322844cf",
-      "title": "n8n-io/n8n: n8n@2.30.4",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.30.4",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-13T08:08:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7b49c23dab548e4e53f4c886cdfcb71",
-      "title": "n8n-io/n8n: n8n@1.123.65",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.65",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-13T07:59:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e74ec18b50e96164cb32d3622a077626",
-      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.65 (#34046)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-13T07:30:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a33a1131a51465a46482534dbdf6505b",
       "title": "Need a accountable working professional who is preparing for switch/certification, let's connect",
       "url": "https://www.reddit.com/r/devops/comments/1uvdqnq/need_a_accountable_working_professional_who_is/",
@@ -1332,13 +1257,14 @@
       "url": "https://dev.to/ferztyle/talking-to-kubernetes-from-go-a-practical-client-go-guide-1227",
       "source": "Dev.to",
       "published_at": "2026-07-13T13:34:48Z",
-      "summary": "Practical guide to using Go's client-go library to interact with Kubernetes API: authentication, informers, controllers, and CRD management.",
+      "summary": "This is part of the Platform Engineering with Go series. This post builds on the minikube cluster set...",
       "tags": [
-        "Kubernetes",
-        "DevOps",
-        "Platform Engineering"
+        "go",
+        "kubernetes",
+        "devops",
+        "sre"
       ],
-      "relevance_score": 0.96
+      "relevance_score": 0.0
     },
     {
       "id": "9786bdda9cbf7947d19fcf03588f3e68",
@@ -1358,21 +1284,6 @@
       "published_at": "2026-07-13T11:30:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "54307e7b3f076f11ce7b107698a58dc9",
-      "title": "On-call is unpaid overtime and we normalized it",
-      "url": "https://dev.to/adioof/on-call-is-unpaid-overtime-and-we-normalized-it-1h3d",
-      "source": "Dev.to",
-      "published_at": "2026-07-13T10:11:52Z",
-      "summary": "Your pager buzzes you awake in the dead of night, an alert in one of your systems demands your...",
-      "tags": [
-        "career",
-        "culture",
-        "devops",
-        "discuss"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3078,6 +2989,71 @@
         "wordpress",
         "security",
         "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "28bc94ab137dc6e66c8bba3a53d70efb",
+      "title": "Why goodput matters more than throughput for LLM serving",
+      "url": "https://www.cncf.io/blog/2026/07/20/why-goodput-matters-more-than-throughput-for-llm-serving/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-20T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "821b3d8ec84337621e35bbe83f2df8af",
+      "title": "xAI Open-Sources Grok Build Coding Agent After Cloud Upload Exposes SSH Keys, Repos",
+      "url": "https://devops.com/xai-open-sources-grok-build-coding-agent-after-cloud-upload-exposes-ssh-keys-repos/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-20T08:29:43+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f3e7db618551ae270a2d35cecc3d560b",
+      "title": "n8n-io/n8n: n8n@2.31.4",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.4",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-20T08:24:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "41b011ee3133cd7d36234334c4e11058",
+      "title": "I don't trust AGENTS.md as a secret-redaction boundary",
+      "url": "https://www.reddit.com/r/devops/comments/1v1fihb/i_dont_trust_agentsmd_as_a_secretredaction/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-20T08:24:09+00:00",
+      "summary": "I am getting less comfortable with using repo instruction files as a safety boundary. They are useful for preferences: commands to run, folders to avoid, how to format the final answer. But if an agent can read config files or logs, I do not think &quot;please redact secrets&quot; in a markdown file",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ed7b5d7a6ef669f692d299d273df0b7b",
+      "title": "HashiCorp Introduces tfpolicy, a Native Policy Framework for Terraform",
+      "url": "https://devops.com/hashicorp-introduces-tfpolicy-a-native-policy-framework-for-terraform/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-20T08:18:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3be748b044c595b596519fb36b5852b7",
+      "title": "Your NAT gateway is a $30k landmine and nobody warns juniors",
+      "url": "https://dev.to/adioof/your-nat-gateway-is-a-30k-landmine-and-nobody-warns-juniors-2l4a",
+      "source": "Dev.to",
+      "published_at": "2026-07-20T07:04:28Z",
+      "summary": "You spend time optimizing a function to be 40 milliseconds faster, but then realize your cloud bill...",
+      "tags": [
+        "cloud",
+        "cost",
+        "architecture",
         "devops"
       ],
       "relevance_score": 0.0
