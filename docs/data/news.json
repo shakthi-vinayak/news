@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-21T06:40:24Z",
+  "generated_at": "2026-07-21T10:35:16Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-20T07:56:07+00:00",
+      "published_at": "2026-07-21T08:02:28+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -86,7 +86,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-20T08:18:00+00:00",
+      "published_at": "2026-07-21T07:56:12+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -862,16 +862,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a92becffbe3a3f87267d97b3bdd35c09",
-      "title": "grafana/grafana: 12.4.5",
-      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.5",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-06-23T13:13:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "1046b7582fb58f192db35fbaa804e69d",
       "title": "Advancing AI agent security in Vault",
       "url": "https://www.hashicorp.com/blog/advancing-ai-agent-security-in-vault",
@@ -1248,46 +1238,6 @@
       "source": "Kubernetes Blog",
       "published_at": "2026-07-13T18:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b900b7a8370381ec5d1e166afe95090b",
-      "title": "What makes CIOs trust an AI agent? Thira bets it’s not the model.",
-      "url": "https://thenewstack.io/what-makes-cios-trust-an-ai-agent-thira-bets-its-not-the-model/",
-      "source": "The New Stack",
-      "published_at": "2026-07-14T10:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "762bee78103d407f833d43bf9b5a8d7c",
-      "title": "GitHub Actions OIDC AWS: \"Not authorized to perform sts:AssumeRoleWithWebIdentity\" even after fixing sub/environment claims, what am I missing?",
-      "url": "https://www.reddit.com/r/devops/comments/1uw3v8v/github_actions_oidc_aws_not_authorized_to_perform/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-14T09:35:29+00:00",
-      "summary": "Been stuck on this for a while. Production CI/CD pipeline, GitHub Actions job needs to assume an AWS IAM role via OIDC to push to ECR. Error: Error: Could not assume role with OIDC: Not authorized to perform sts:AssumeRoleWithWebIdentity Setup:  Repo: single GitHub repo, workflow triggers on version",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "16382c73b5532460f1c103a397f30647",
-      "title": "n8n-io/n8n: n8n@2.31.0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.0",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-14T08:09:44+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "aa4fe038cb490bbe6205876f909dc6d0",
-      "title": "Are you looking to switch to AI platform engineering roles?",
-      "url": "https://www.reddit.com/r/devops/comments/1uw1v3y/are_you_looking_to_switch_to_ai_platform/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-14T07:37:48+00:00",
-      "summary": "If you are someone looking for transition to AI infra roles from Devops, this podcast is for you- https://www.youtube.com/live/82UoYSWaGpk?si=h6qmIfIN4gVZGlnm Here I discussed tips, projects, interview questions.  &#32; submitted by &#32;  /u/shikha-singh-the-gr8   [link] &#32; [comments]",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2258,21 +2208,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d46ce713bc07606b8528b60c69158cd2",
-      "title": "Self-hosting your email? SPF, DKIM and DMARC decide your inbox rate",
-      "url": "https://dev.to/basictechnology/self-hosting-your-email-spf-dkim-and-dmarc-decide-your-inbox-rate-4f2l",
-      "source": "Dev.to",
-      "published_at": "2026-07-14T07:25:40Z",
-      "summary": "I moved outbound email for a couple of side projects off a hosted ESP last year, mostly to stop...",
-      "tags": [
-        "selfhosted",
-        "email",
-        "devops",
-        "security"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ebea14c86b066bf8d370931d4e3a7a1c",
       "title": "DevOps professionals in Australia - how much should I ask?",
       "url": "https://www.reddit.com/r/devops/comments/1uz25xp/devops_professionals_in_australia_how_much_should/",
@@ -2981,6 +2916,51 @@
       "published_at": "2026-07-21T03:37:40+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6fb14e7781d7eb3bba04fabb38cfd365",
+      "title": "grafana/grafana: v12.4.6",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.6",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-07-21T10:10:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5040bb43fcbd144be5d5398c8ecb2644",
+      "title": "grafana/grafana: v13.1.1",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.1",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-07-21T09:14:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "95e1ed42345c79d3f92d27a5dd2a9968",
+      "title": "n8n-io/n8n: n8n@2.32.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.0",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-21T07:59:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "77a504b48f686b1432e6cc30628fbca0",
+      "title": "Additive column can 500 every login (Drizzle + Better Auth + preview deploys)",
+      "url": "https://dev.to/omar_bni_f6856a8bb0e021e9/additive-column-can-500-every-login-drizzle-better-auth-preview-deploys-3pg3",
+      "source": "Dev.to",
+      "published_at": "2026-07-20T10:45:12Z",
+      "summary": "Originally published on the Clanker Support blog.  Migration 0017_user_role.sql in our repo is one...",
+      "tags": [
+        "database",
+        "sql",
+        "devops",
+        "webdev"
+      ],
       "relevance_score": 0.0
     }
   ]
