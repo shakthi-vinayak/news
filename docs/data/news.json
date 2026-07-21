@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:15:42Z",
+  "generated_at": "2026-07-21T17:42:01Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -192,31 +192,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "706cb274edf1cbfde6492bad70b1f868",
-      "title": "Rethinking infrastructure access in the age of agentic AI",
-      "url": "https://www.hashicorp.com/blog/rethinking-infrastructure-access-in-the-age-of-agentic-ai",
-      "source": "HashiCorp Blog",
-      "published_at": "2026-06-04T07:09:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2144861c9d3bf31ce4da5d66944084a1",
       "title": "Azure DevOps and GitHub: Journeying into the AI Era",
       "url": "https://devblogs.microsoft.com/devops/azure-devops-and-github-journeying-into-the-ai-era/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-06-02T19:41:20+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "257c1455c19d05d4480ffe75b821280d",
-      "title": "HCP Terraform adds project-level run tasks",
-      "url": "https://www.hashicorp.com/blog/hcp-terraform-adds-project-level-run-tasks",
-      "source": "HashiCorp Blog",
-      "published_at": "2026-06-02T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1072,16 +1052,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "bb93f95dff9469efa4e25b35afff2926",
-      "title": "langchain-ai/langchain: langchain-fireworks==1.4.4",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.4",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-07-09T17:56:51+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9139c207ee5d992ff1044f8c963e1ee7",
       "title": "langchain-ai/langgraph: langgraph==1.2.9",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.9",
@@ -1208,16 +1178,6 @@
       "source": "Docker Blog",
       "published_at": "2026-07-14T13:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "138da43d430afa8b2d5b5040d4b7eea9",
-      "title": "Control-M vs Airflow?",
-      "url": "https://www.reddit.com/r/devops/comments/1uwdd07/controlm_vs_airflow/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-14T16:19:29+00:00",
-      "summary": "My team is currently using airflow. It works fine, nothing great. We're evaluating CTM to see if it offers meaningful advantages, and would make sense for us to make the switch (which would take 6+ months...). Welcoming any and all advice, suggestions, etc.   &#32; submitted by &#32;  /u/Fresh_Amoeb",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1385,21 +1345,6 @@
       "published_at": "2026-07-15T12:00:15+00:00",
       "summary": "Been self hosting most of my stack for years. LLMs were always the one thing i kept on a closed api, not because i liked it, just because every time i looked at the open alternatives they were noticeably worse. privacy is a nice idea until you are explaining to a paying user why the output got dumbe",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "286a6f518c6e4ffb70bdbafd1187cca7",
-      "title": "Our drift-warning hook was silently dead for 23 days. Zero warnings looked exactly like good behavior.",
-      "url": "https://dev.to/nexuslabzen/our-drift-warning-hook-was-silently-dead-for-23-days-zero-warnings-looked-exactly-like-good-472f",
-      "source": "Dev.to",
-      "published_at": "2026-07-14T14:58:33Z",
-      "summary": "The quality hook that checks every agent turn got killed by its own timeout for about three weeks. Nothing lied to us — the structure made a dead guard indistinguishable from a clean record. What we fixed, what the fix almost broke, and what we monitor now.",
-      "tags": [
-        "ai",
-        "agents",
-        "devops",
-        "observability"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2974,6 +2919,111 @@
       "url": "https://thenewstack.io/amazon-microsoft-and-google-are-converging-on-the-same-enterprise-agent-architecture/",
       "source": "The New Stack",
       "published_at": "2026-07-20T17:43:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0d503838aac26135889988e2b8121c49",
+      "title": "Block built a Slack for AI agents — and gave each one its own passport",
+      "url": "https://thenewstack.io/block-buzz-agent-workspace/",
+      "source": "The New Stack",
+      "published_at": "2026-07-21T16:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "10ac62e80652f98856d16e7f4a66c709",
+      "title": "langchain-ai/langchain: langchain-fireworks==1.5.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-21T16:16:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c359e9a7be6bd81452f72726091924e7",
+      "title": "langchain-ai/langchain: langchain-xai==1.3.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.3.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-21T16:15:45+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "38c20b8c0057a63374612cec8f33ae2e",
+      "title": "Autonomous infrastructure: Managing complexity in agentic workflows",
+      "url": "https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-07-21T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4393e34466bed11f38783a732c6a8c92",
+      "title": "grafana/grafana: 12.4.6",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.6",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-07-21T15:32:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c0618fd00ac147ede7f4fbefc0fbd04d",
+      "title": "Harness Extends DevOps Reach to the Realm of AI Agents",
+      "url": "https://devops.com/harness-extends-devops-reach-to-the-realm-of-ai-agents/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-21T15:00:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "19d6da14c3944ea013045b9fd48ef819",
+      "title": "Google ships 3 new Gemini models. Just not the one everyone’s waiting for.",
+      "url": "https://thenewstack.io/google-ships-3-new-gemini-models-just-not-the-one-everyones-waiting-for/",
+      "source": "The New Stack",
+      "published_at": "2026-07-21T15:00:52+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "985dab79c0d6112fa79d709a34d8482c",
+      "title": "Kubernetes made deploying easy. Nobody warned you about the databases.",
+      "url": "https://thenewstack.io/kubernetes-database-operations-platform/",
+      "source": "The New Stack",
+      "published_at": "2026-07-21T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5932b4aa8f6e7ab9039b09bf3638529d",
+      "title": "The Production Readiness Checklist",
+      "url": "https://dev.to/moose978/the-production-readiness-checklist-p4b",
+      "source": "Dev.to",
+      "published_at": "2026-07-21T13:08:40Z",
+      "summary": "In the last article, I walked through finding and fixing the slow parts of a SaaS before launch: N+1...",
+      "tags": [
+        "webdev",
+        "saas",
+        "devops",
+        "backend"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e52ce4741083de0c960929480ee7ca0d",
+      "title": "Introducing tfpolicy: A declarative policy workflow built for Terraform",
+      "url": "https://www.hashicorp.com/blog/introducing-tfpolicy-a-declarative-policy-workflow-built-for-terraform",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-07-16T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
