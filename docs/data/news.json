@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T19:47:50Z",
+  "generated_at": "2026-07-21T21:23:41Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1199,20 +1199,6 @@
       "published_at": "2026-07-14T23:15:52+00:00",
       "summary": "Hello everyone, so I am currently using NewRelic for half of my setup and grafana (self-hosted) + prometheus for the other half, however I'm looking to move out of grafana and probably use a cloud service, however NR is kinda expensive for my needs; I need to monitor CPU usage, RAM and DISK + any sy",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9d8f3fc11ba3ddb84ad158b590fa4cce",
-      "title": "Green all the way down: a trading bot that lied to me in four different languages",
-      "url": "https://dev.to/gde03/green-all-the-way-down-a-trading-bot-that-lied-to-me-in-four-different-languages-1e1k",
-      "source": "Dev.to",
-      "published_at": "2026-07-14T20:28:40Z",
-      "summary": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.  Here's a fun way...",
-      "tags": [
-        "bugsmash",
-        "python",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2928,7 +2914,7 @@
       "title": "grafana/grafana: 12.4.6",
       "url": "https://github.com/grafana/grafana/releases/tag/v12.4.6",
       "source": "GitHub Releases (grafana)",
-      "published_at": "2026-07-21T15:32:19+00:00",
+      "published_at": "2026-07-21T21:17:11+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3076,6 +3062,166 @@
         "machinelearning",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5b5b9b16b0434861808e6d4ae40aeaa2",
+      "title": "ollama/ollama: v0.32.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-21T19:56:41+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8c21bf264ac2c0f3e759a6e5f82becf3",
+      "title": "Buildpacks vs Dockerfiles: how Cloud Native Buildpacks actually work under the hood",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1v2jchy/buildpacks_vs_dockerfiles_how_cloud_native/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-21T14:01:54+00:00",
+      "summary": "      Every new service starts with another Dockerfile. A year later, every repo builds containers differently. Keeping them secure and consistent becomes a platform team nightmare.  Cloud Native Buildpacks solve this — centralized builds, SBOM generation by default, OS patches without full rebuilds",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fc4add0d9de0c45a14d346fa9477ac52",
+      "title": "Newbie question: If AI is writing a bunch of code, does it make sense to learn k8s now ?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1v2j4aa/newbie_question_if_ai_is_writing_a_bunch_of_code/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-21T13:53:24+00:00",
+      "summary": "Im new to tech and recently started learning operators and controllers. With AI writing every code, which is faster than human, is it rational for me to learn about the kubernetes now ?  &#32; submitted by &#32;  /u/dripindior_   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "879a268f7f91724da12deef10664cbce",
+      "title": "Kubernetes for a beginner",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1v2itoy/kubernetes_for_a_beginner/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-21T13:41:59+00:00",
+      "summary": "New to devops, I just know git and docker.  In docker, I just know commands like how to create a docker image, Run a container, push the image to docker hub, etc . And some other useful commands. I just happened to stumble upon kubernetes. Can anyone guide me on how do I learn kubernetes for a begin",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "49015381158aa776c2fc769c7d8c5f36",
+      "title": "Weekly: Questions and advice",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1v2e02l/weekly_questions_and_advice/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-21T10:00:05+00:00",
+      "summary": "Have any questions about Kubernetes, related tooling, or how to adopt or use Kubernetes? Ask away!  &#32; submitted by &#32;  /u/AutoModerator   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "162e8992d6ec110a61a9dc20d587d990",
+      "title": "ollama/ollama: v0.32.2-rc0: cuda: add CC 10.0 for linux in CUDA v12 (#17025)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-20T20:09:36+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "318068a4e3751e09ad4c532de8b9233d",
+      "title": "KubeSchool",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1v1tbzc/kubeschool/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-20T18:14:21+00:00",
+      "summary": "One of my engineers (im the CEO of Portainer) asked if I had the time to help him better understand Kubernetes architecure and components… and so rather than just explain it once, I figured why not share it wider. So, https://kubeschool.portainer.io was born :-)  &#32; submitted by &#32;  /u/neilcre",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "29cf9aa63c2d30f10eb2422f8b1fde31",
+      "title": "📣 Last call for the Plural x Kubernetes July NYC meetup this Wednesday, July 22",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1v1l9lu/last_call_for_the_plural_x_kubernetes_july_nyc/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-20T13:16:01+00:00",
+      "summary": "If you are in NYC and available on Wednesday evening, come hear guest speaker Noam Levy talk end-to-end testing with Kubernetes and networking magic. 🪄  ➡️ If you can make it, please RSVP at https://luma.com/u4vja8rx See you soon!   &#32; submitted by &#32;  /u/MutedReputation202   [link] &#32; [com",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "620e182ac6d62e0b0eeece38cd610d55",
+      "title": "Curious about what people usually follow during the troubleshooting process?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1v0prxy/curious_about_what_people_usually_follow_during/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-19T12:50:17+00:00",
+      "summary": "During a Kubernetes incident (say users start getting 503s), what's your typical debugging workflow? Mine usually looks something like: Ingress → Service → Endpoints → Pods → Readiness → Events → Logs I'm curious whether experienced platform engineers and SREs follow a similar flow or if there are b",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c06eaf97bd4ce340e2f55d8d6d09bee6",
+      "title": "Article: Topology-Aware GPU scheduling with KAI Scheduler",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1uzuo6a/article_topologyaware_gpu_scheduling_with_kai/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-18T12:32:03+00:00",
+      "summary": "A simple walkthrough on how to use KAI Scheduler for topology-aware placement and gang scheduling to keep distributed GPU training inside one region, zone, or rack on Kubernetes https://hrittikhere.com/posts/kubernetes-topology-aware-scheduling-kai  &#32; submitted by &#32;  /u/mhrittik   [link] &#3",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2a0fff50bc298d162d37ab6a777b439a",
+      "title": "API Gateway with TLS Passthrough",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1uzjxap/api_gateway_with_tls_passthrough/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-18T02:46:42+00:00",
+      "summary": "Looking for feedback from folks running apps that require mTLS that use API Gateway. What controller are you using? Traefik, Envoy, etc.  Any pain points or gotchas you might have ran into?  Any other feedback or recommendations welcome!   &#32; submitted by &#32;  /u/Chest-queef   [link] &#32; [com",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e3434acbf6301ef85e093aac675756b0",
+      "title": "Kustomize Overlays - Adding Complexity?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1uzemlw/kustomize_overlays_adding_complexity/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-17T22:44:51+00:00",
+      "summary": "So im working with Kustomize Overlays( FluxCD). i understand you setup your base infra with overlays per environment and then use patches for environment specific configurations such as replicas, urls, etc.. Some of these patches become very complex and large to the point i think its just easier to ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "eed6c8b09fba166053a4f4d007180d81",
+      "title": "Managed k8s is a financial trap and im tired of pretending it's not",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1uyxdpi/managed_k8s_is_a_financial_trap_and_im_tired_of/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-17T11:46:32+00:00",
+      "summary": "sat down to review our cloud bill this morning and honestly felt my soul leave my body. The amount we are paying just for cross-az data transfer and nat gateways for our EKS clusters could literally fund another engineering team Everyone pushes managed kubernetes like it's the holy grail of modern i",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "94aadb1bda2206abf32b7f2aac6300c4",
+      "title": "Kubernetes revision/reference guide?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1uxuoxl/kubernetes_revisionreference_guide/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-16T06:23:35+00:00",
+      "summary": "Looking for a good Kubernetes revision/reference guide — something concise for quick recall of core objects and architecture, ideally with diagrams, not another full tutorial or exam-prep course  &#32; submitted by &#32;  /u/naveen0109   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b0030ac143c7d1b3f195c5ce9d29f966",
+      "title": "container registries",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1uxl5fb/container_registries/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-15T22:50:51+00:00",
+      "summary": "We are running eks and would like to shore up or supply chain.  Currently we are pulling directly from aws public ECR, docker and other sources. We are working on moving everything to be pulled from our own ECR for two reasons. 1. ) security so the images can be scanned 2) stability. we have had ima",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "10982b76af5bc12344df09564b24f8b0",
+      "title": "Monthly: Who is hiring?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1ukhci6/monthly_who_is_hiring/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-07-01T10:00:11+00:00",
+      "summary": "This monthly post can be used to share Kubernetes-related job openings within your company. Please include:  Name of the company Location requirements (or lack thereof) At least one of: a link to a job posting/application page or contact details  If you are interested in a job, please contact the po",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
