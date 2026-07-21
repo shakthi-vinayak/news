@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T10:35:16Z",
+  "generated_at": "2026-07-21T14:15:42Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -922,16 +922,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "70d407165325bded663697e861dbd3cd",
-      "title": "grafana/grafana: 13.1.0",
-      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.0",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-07-01T15:22:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2646eeba8bc8bcb22ed9ddbe72b7c609",
       "title": "HCP Terraform powered by Infragraph is now in limited availability",
       "url": "https://www.hashicorp.com/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch",
@@ -1062,46 +1052,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d8e954289277f2051d35e9d6ea0a3984",
-      "title": "open-telemetry/opentelemetry-collector: v1.62.0/v0.156.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.156.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-07-07T07:29:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c914b65b4bafc4b1a2987c262e775105",
-      "title": "open-telemetry/opentelemetry-collector: scraper/xscraper/v0.156.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.156.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-07-07T07:29:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9749afb9ccac94e4cec69bd779b71466",
-      "title": "open-telemetry/opentelemetry-collector: service/hostcapabilities/v0.156.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Fhostcapabilities%2Fv0.156.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-07-07T07:29:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5178b3210cc24dd99c5e1a25d7e7f314",
-      "title": "open-telemetry/opentelemetry-collector: service/telemetry/telemetrytest/v0.156.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Ftelemetry%2Ftelemetrytest%2Fv0.156.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-07-07T07:29:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6b1a8394d4d449fe9d17740e01a9b320",
       "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
@@ -1192,16 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "758071d9ed2d62f3aa99b8148a6ae3c2",
-      "title": "Operating OpenTelemetry at scale with OpAMP",
-      "url": "https://www.cncf.io/blog/2026/07/13/operating-opentelemetry-at-scale-with-opamp/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-13T11:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "cb17e662a33d102e60caeed24377e9fd",
       "title": "Announcing the public beta of Vault Kubernetes key management",
       "url": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
@@ -1267,26 +1207,6 @@
       "url": "https://www.docker.com/blog/ai-engineer-worlds-fair-2026-the-runtime-is-where-agent-trust-is-won/",
       "source": "Docker Blog",
       "published_at": "2026-07-14T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "064a6ffa2918924bc59595f003d9ad2c",
-      "title": "Has an AI agent (Copilot, Cursor, etc) ever broken something in your infra/pipeline?",
-      "url": "https://www.reddit.com/r/devops/comments/1uw7b5l/has_an_ai_agent_copilot_cursor_etc_ever_broken/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-14T12:29:57+00:00",
-      "summary": "I'm a DevOps engineer, and recently I saw a case where an AI agent &quot;fixed&quot; something in a pipeline that it thought was fine, but it ended up destroying something in the infrastructure. I caught it fast because I know the system well, but it got me thinking about how dangerous this could be",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "63e0c7d51423e1eb8d51a1ce80f0120f",
-      "title": "Is a Pod the right deployment unit for an AI agent?",
-      "url": "https://www.cncf.io/blog/2026/07/14/is-a-pod-the-right-deployment-unit-for-an-ai-agent/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-14T11:20:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1373,21 +1293,6 @@
       "published_at": "2026-07-14T18:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ef59c79c97aa5c9d44e5bf0b1d8189de",
-      "title": "I Built an Autonomous Vehicle Analytics Platform (Solo) — Here's What I Learned",
-      "url": "https://dev.to/le_beltagy/i-built-an-autonomous-vehicle-analytics-platform-solo-heres-what-i-learned-1c0g",
-      "source": "Dev.to",
-      "published_at": "2026-07-14T12:13:11Z",
-      "summary": "# I Built an Autonomous Vehicle Analytics Platform (Solo) — Here's What I Learned  And why I'm...",
-      "tags": [
-        "devops",
-        "architecture",
-        "opensource",
-        "solodev"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2193,21 +2098,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "2b7b2a863a78ad857f1f9f5d159e6567",
-      "title": "The Complete 90-Day DevOps Roadmap I Wish Existed When I Started (Free, No Signup)",
-      "url": "https://dev.to/opscanopy/the-complete-90-day-devops-roadmap-i-wish-existed-when-i-started-free-no-signup-2eki",
-      "source": "Dev.to",
-      "published_at": "2026-07-14T12:00:00Z",
-      "summary": "I once watched a developer breeze through three Docker courses and then freeze solid the first time a...",
-      "tags": [
-        "devops",
-        "beginners",
-        "career",
-        "tutorial"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ebea14c86b066bf8d370931d4e3a7a1c",
       "title": "DevOps professionals in Australia - how much should I ask?",
       "url": "https://www.reddit.com/r/devops/comments/1uz25xp/devops_professionals_in_australia_how_much_should/",
@@ -2961,6 +2851,131 @@
         "devops",
         "webdev"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "94d27b243fd744960c676b283b5ea14c",
+      "title": "The rise of the agent runtime: The compute platform behind production agents",
+      "url": "https://thenewstack.io/agent-runtime-application-server/",
+      "source": "The New Stack",
+      "published_at": "2026-07-21T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d02957e59a42b46bc898c5d9873c8aed",
+      "title": "In a world of AI agents, where do we fit in?",
+      "url": "https://thenewstack.io/human-purpose-ai-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-07-21T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5fb95dca9a06e09d430ef26e34800a46",
+      "title": "grafana/grafana: 12.3.9",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.3.9",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-07-21T12:50:06+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ac9036191f6809c5af09d74b11b92db2",
+      "title": "open-telemetry/opentelemetry-collector: v1.63.0/v0.157.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.157.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-07-21T12:38:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ff5e5f296397bf22db84e5330112e9c3",
+      "title": "open-telemetry/opentelemetry-collector: scraper/xscraper/v0.157.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.157.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-07-21T12:37:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "90d072386e42ada4b792d52a683cecbe",
+      "title": "open-telemetry/opentelemetry-collector: service/hostcapabilities/v0.157.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Fhostcapabilities%2Fv0.157.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-07-21T12:37:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "09cd731b5b4d0330314cb8b79d9b4321",
+      "title": "open-telemetry/opentelemetry-collector: service/telemetry/telemetrytest/v0.157.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Ftelemetry%2Ftelemetrytest%2Fv0.157.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-07-21T12:37:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c8a22ad2fa2af3a3dc08670f1dceb7f1",
+      "title": "grafana/grafana: 13.1.1",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.1",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-07-21T12:22:29+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "76c90cd41c50fae2dd4f56644e6d54a8",
+      "title": "Why your agent needs access to your documentation",
+      "url": "https://www.cncf.io/blog/2026/07/21/why-your-agent-needs-access-to-your-documentation/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-21T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6974252e65a59850513da04cf16aec9d",
+      "title": "Platform engineering for the agentic enterprise: Managing applications, resources, and AI agents",
+      "url": "https://www.cncf.io/blog/2026/07/21/platform-engineering-for-the-agentic-enterprise-managing-applications-resources-and-ai-agents/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-21T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "874b398ad708daabf6bddc618d6b427c",
+      "title": "We benchmarked an AI agent on 52 broken clusters: kubectl vs a Kubernetes MCP server",
+      "url": "https://dev.to/dovzhikova/we-benchmarked-an-ai-agent-on-52-broken-clusters-kubectl-vs-a-kubernetes-mcp-server-2843",
+      "source": "Dev.to",
+      "published_at": "2026-07-21T09:52:24Z",
+      "summary": "Same agent, same faults, two ways to see the cluster. The one with the resource graph and change timeline used 76% fewer tool calls and finished in half the time.",
+      "tags": [
+        "kubernetes",
+        "ai",
+        "mcp",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "183c2c1de75da2d34abd410edd9adc0b",
+      "title": "Amazon, Microsoft, and Google are converging on the same enterprise agent architecture",
+      "url": "https://thenewstack.io/amazon-microsoft-and-google-are-converging-on-the-same-enterprise-agent-architecture/",
+      "source": "The New Stack",
+      "published_at": "2026-07-20T17:43:11+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
