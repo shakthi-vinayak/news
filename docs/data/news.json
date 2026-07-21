@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T17:42:01Z",
+  "generated_at": "2026-07-21T19:47:50Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -107,16 +107,6 @@
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.2",
       "source": "GitHub Releases (kubernetes)",
       "published_at": "2026-06-12T11:34:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6f5d0b34d62c455d1ae32443e7c3f495",
-      "title": "June Patches for Azure DevOps Server",
-      "url": "https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-5/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-06-11T21:33:15+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1192,26 +1182,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "41822e7a7c814cd22298bb9fead6d807",
-      "title": "AWS will now watch Microsoft’s cloud for you",
-      "url": "https://thenewstack.io/aws-security-hub-azure/",
-      "source": "The New Stack",
-      "published_at": "2026-07-14T19:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5e63437d2f7426207c57311f52c8fc6e",
-      "title": "What happens when your VPN meets 200 AI agents",
-      "url": "https://thenewstack.io/unified-access-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-07-14T18:53:13+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6edbcceca8e3b050212f3ae1a50a2733",
       "title": "KeycloakCon Japan 2026: Navigating cloud native identity and the AI frontier",
       "url": "https://www.cncf.io/blog/2026/07/14/keycloakcon-japan-2026-navigating-cloud-native-identity-and-the-ai-frontier/",
@@ -1705,16 +1675,6 @@
         "Cloud"
       ],
       "relevance_score": 0.8
-    },
-    {
-      "id": "e742af54524658a62aafe115887c74b3",
-      "title": "Looking for a Serious DevOps/SRE Grind Buddy",
-      "url": "https://www.reddit.com/r/devops/comments/1uwgszj/looking_for_a_serious_devopssre_grind_buddy/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-14T18:20:09+00:00",
-      "summary": "I'm a working professional with 1.5 YOE preparing to crack product-based companies. After work, I study daily from 10 PM to 2–3 AM. Looking for a serious DevOps/SRE study buddy for accountability, hands-on learning, DSA, and System Design. If there's any experienced SRE mentor here who's willing to ",
-      "tags": [],
-      "relevance_score": 0.0
     },
     {
       "id": "0a53d270d63e3db0e01dd45084475b20",
@@ -3026,6 +2986,96 @@
       "published_at": "2026-07-16T16:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3fb91e930d342b0cf20af0c40cab242c",
+      "title": "ollama/ollama: v0.32.2-rc2: CI: fix missing CUDA v13.4 sub-package (#17288)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-21T19:25:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0e7fa807adf7e6b2552a85ae10fd46ef",
+      "title": "July Patches for Azure DevOps Server",
+      "url": "https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server-3/",
+      "source": "Azure DevOps Blog",
+      "published_at": "2026-07-21T19:23:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8272b078dae6a6f8ab82512123f5b471",
+      "title": "ollama/ollama: v0.32.2-rc1: server: detect download stalls before the first byte (#17259)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-21T18:28:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1c035595c01e438e96672e749206d55a",
+      "title": "Zero Trust Starts at the Code: Building Secure Systems with PKI and DevOps Automation",
+      "url": "https://devops.com/zero-trust-starts-at-the-code-building-secure-systems-with-pki-and-devops-automation/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-21T18:26:33+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "79e8e714684f50966f36a2b2c4e14ec1",
+      "title": "How are you setting up build systems in monorepos?",
+      "url": "https://www.reddit.com/r/devops/comments/1v2ppv2/how_are_you_setting_up_build_systems_in_monorepos/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-21T17:49:11+00:00",
+      "summary": "Former DevOps consultants, bootstrapped an AWS premier partner and exited to NTT Data, now we advise people building services companies.  After seeing how much easier current AI tools have made it to write code we started building tools for helping our customers and day to day work. Some of the deci",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e1f3499e5d20532d668a092e8347c9c0",
+      "title": "istio/istio: 1.31.0-alpha.0",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.0-alpha.0",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-07-21T17:39:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "51beaa4bbfe6361e6794c73d9a02053e",
+      "title": "🤔 What Really Happens When You Run kubectl apply? Episode 3",
+      "url": "https://dev.to/aws-builders/what-really-happens-when-you-run-kubectl-apply-episode-3-22kp",
+      "source": "Dev.to",
+      "published_at": "2026-07-21T17:38:29Z",
+      "summary": "Follow the complete journey of a Kubernetes Deployment—from your terminal to a running container...",
+      "tags": [
+        "devplusplus",
+        "devops",
+        "kubernetes",
+        "cloud"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aba98d4cbbd0c874ba2d6b0830eb252a",
+      "title": "Autonomy Is the Bug: Why Self-Driving Agents Hallucinate When the Model Barely Does",
+      "url": "https://dev.to/p0rt/autonomy-is-the-bug-why-self-driving-agents-hallucinate-when-the-model-barely-does-1330",
+      "source": "Dev.to",
+      "published_at": "2026-07-21T16:23:46Z",
+      "summary": "A frontier model hallucinates ~1% on a single task. Chain it into a 20-step autonomous agent and the math guarantees failure most of the time, no matter how good the model is. Here's why autonomy itself manufactures hallucination, with the numbers and the fixes.",
+      "tags": [
+        "ai",
+        "llm",
+        "machinelearning",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
