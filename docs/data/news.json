@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T06:41:36Z",
+  "generated_at": "2026-07-22T10:35:48Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1202,26 +1202,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b75132c107a1f440f2ecbb91ed534289",
-      "title": "Google Maps for Clusters",
-      "url": "https://www.reddit.com/r/devops/comments/1ux1leq/google_maps_for_clusters/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-15T10:08:48+00:00",
-      "summary": "      Every tool for exploring Kubernetes clusters (the infrastructure that runs most modern software) visualizes them the same way: as a tree or a nested list. Namespace, then resources, then drill in, back out, drill into the next one. It works, but it fights how humans actually process scale. Nob",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c5debffb97c517c156c2c43ba26c87f9",
-      "title": "n8n-io/n8n: n8n@2.31.1",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-15T08:19:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "09d63ac327739e471b6b44e544d7910e",
       "title": "Our CI/CD secrets are scattered across GitHub, Jenkins, .env files (and a few more). How can I get to runtime injection (relatively) peacefully?",
       "url": "https://www.reddit.com/r/devops/comments/1ux5x2v/our_cicd_secrets_are_scattered_across_github/",
@@ -1289,21 +1269,6 @@
       "published_at": "2026-07-15T14:07:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8478dae95da58284272a267fba9f4f8f",
-      "title": "The Ghost in the Machine: Hunting a Memory Leak I Couldn't See the Source Of.",
-      "url": "https://dev.to/moersebene/the-ghost-in-the-machine-hunting-a-memory-leak-i-couldnt-see-the-source-of-54f1",
-      "source": "Dev.to",
-      "published_at": "2026-07-15T08:09:42Z",
-      "summary": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.  Most bug stories...",
-      "tags": [
-        "devchallenge",
-        "bugsmash",
-        "dotnet",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3234,6 +3199,46 @@
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-07-21T23:06:38+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "992e443b424223cf2acc92ae5ecb7267",
+      "title": "istio/istio: Istio 1.31.0-alpha.0",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.0-alpha.0",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-07-22T10:20:41+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "056ca98cc37863809db0a5bd00cd00ef",
+      "title": "Currently on Falco for runtime security — anyone moved to Tetragon/KubeArmor/Tracee and regretted (or loved) it?",
+      "url": "https://www.reddit.com/r/devops/comments/1v3aave/currently_on_falco_for_runtime_security_anyone/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-22T08:43:29+00:00",
+      "summary": "Running Falco in our EKS clusters right now for runtime detection, paired with Kyverno for admission control and Cosign/Vault for supply chain signing/secrets. Been solid so far, but I keep seeing Tetragon and KubeArmor come up as alternatives, especially for teams who want enforcement (block, not j",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d92332fe28c669ecc17cef6abcbe6019",
+      "title": "Where is AI actually adding value in your DevOps workflow and where isn't it?",
+      "url": "https://www.reddit.com/r/devops/comments/1v3a3u7/where_is_ai_actually_adding_value_in_your_devops/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-22T08:32:14+00:00",
+      "summary": "Senior DevOps here. AI is being pushed into every part of the pipeline right now, and I want to cut past the hype and hear real production experience. Two questions: Where have you put AI into production in your DevOps process and it genuinely adds value? (e.g. CI/CD, code review, IaC generation, mo",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7db758dd6324c9ea20a2cc5b708efd3a",
+      "title": "Multi platform build",
+      "url": "https://www.reddit.com/r/devops/comments/1v39ap7/multi_platform_build/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-22T07:46:12+00:00",
+      "summary": "&#x200b; I am planning to have my docker images to be multi architecture and for it my plan is to have two codebuilds for arm and amd when they both succeeds event bridge will invoke a lambda and lambda will merge the images into one But I am unable to think a way to set up event my current plan is ",
       "tags": [],
       "relevance_score": 0.0
     }
