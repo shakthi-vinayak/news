@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T21:20:46Z",
+  "generated_at": "2026-07-22T23:14:33Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -97,16 +97,6 @@
       "url": "https://kubernetes.io/blog/2026/06/15/sig-storage-spotlight-2026/",
       "source": "Kubernetes Blog",
       "published_at": "2026-06-15T00:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9b923f7e323db194f9489a4752ea7623",
-      "title": "kubernetes/kubernetes: v1.36.2",
-      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.2",
-      "source": "GitHub Releases (kubernetes)",
-      "published_at": "2026-06-12T11:34:56+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2886,16 +2876,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b0030ac143c7d1b3f195c5ce9d29f966",
-      "title": "container registries",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1uxl5fb/container_registries/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-15T22:50:51+00:00",
-      "summary": "We are running eks and would like to shore up or supply chain.  Currently we are pulling directly from aws public ECR, docker and other sources. We are working on moving everything to be pulled from our own ECR for two reasons. 1. ) security so the images can be scanned 2) stability. we have had ima",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a634e6338feda27bcca8e2ca4d67e8bc",
       "title": "ollama/ollama: v0.32.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3",
@@ -3218,6 +3198,46 @@
         "mentalhealth",
         "sre"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e69b7da869edc3267a6838bd2f369d26",
+      "title": "kubernetes/kubernetes: v1.35.7",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.35.7",
+      "source": "GitHub Releases (kubernetes)",
+      "published_at": "2026-07-22T22:28:35+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6b1a8394d4d449fe9d17740e01a9b320",
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog",
+      "published_at": "2026-07-07T08:54:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c356444f7176fd2690f55c5e756da945",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "source": "Google AI Blog",
+      "published_at": "2026-06-01T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8ef3a4044e0f5bfe30224ea0370ac21e",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "Google AI Blog",
+      "published_at": "2026-05-29T17:30:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
