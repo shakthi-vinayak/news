@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T14:18:58Z",
+  "generated_at": "2026-07-22T17:30:59Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1192,36 +1192,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "165ec680f438eabe7c92a66e39b50352",
-      "title": "Atlassian Extends AI Reach of Jira Into Agentic Engineering Workflows",
-      "url": "https://devops.com/atlassian-extends-ai-reach-of-jira-into-agentic-engineering-workflows/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-15T16:21:38+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e49cfb95efa0c348f3befb93ea4cff99",
-      "title": "OpenAI’s first gadget is the $230 Codex Micro macropad",
-      "url": "https://thenewstack.io/openai-codex-micro-macropad/",
-      "source": "The New Stack",
-      "published_at": "2026-07-15T16:01:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b84c86f92d3ff5b2a40904bd645251b2",
-      "title": "Managing DB credentials for k8s services",
-      "url": "https://www.reddit.com/r/devops/comments/1ux8asg/managing_db_credentials_for_k8s_services/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-15T14:59:32+00:00",
-      "summary": "Hey all,  Trying to figure how people actually manage DB credentials for apps at scale. Our current setup works, but kinda fragile:  Liquibase runs DDLs using shared creds pulled from Parameter Store. A custom Jenkins shared lib provisions dedicated per app creds at the SQL level and drops them into",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "33f26f123b0581e933441507502c0b17",
       "title": "ollama/ollama: v0.32.1-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0",
@@ -1286,21 +1256,6 @@
         "architecture",
         "security",
         "cybersecurity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9dcdad0efb08f6026c5a6b497bd7e09d",
-      "title": "The 12 DevOps Errors That Page Teams Most (And the First Thing to Check)",
-      "url": "https://dev.to/devopsaitoolkit/the-12-devops-errors-that-page-teams-most-and-the-first-thing-to-check-hll",
-      "source": "Dev.to",
-      "published_at": "2026-07-15T14:58:06Z",
-      "summary": "Over the last while I've been cataloguing production DevOps errors — the exact strings that show up...",
-      "tags": [
-        "devops",
-        "kubernetes",
-        "sre",
-        "tutorial"
       ],
       "relevance_score": 0.0
     },
@@ -1496,19 +1451,6 @@
       "summary": "so right out of university , i did an unpaid internship for 6 months to land a job.. initially i wanted to get into cybersecurity but got an offer in devops and i needed money badly so i took it, it was a remote startup.. the pay was okay and the environment was hostile so i left for a corporate job",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "e84aa20b4405c26bda09e2eb4d96f74b",
-      "title": "Getting into devops/ cloud roles as a fresher",
-      "url": "https://www.reddit.com/r/devops/comments/1ux9j2n/getting_into_devops_cloud_roles_as_a_fresher/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-15T15:43:32+00:00",
-      "summary": "Advice for freshers on breaking into DevOps and cloud engineering roles, including key skills and pathways.",
-      "tags": [
-        "DevOps",
-        "Cloud"
-      ],
-      "relevance_score": 0.8
     },
     {
       "id": "0a53d270d63e3db0e01dd45084475b20",
@@ -1796,15 +1738,14 @@
       "url": "https://dev.to/muskan_bandta/i-let-an-ai-agent-run-my-cloud-ops-for-a-week-heres-what-broke-5f",
       "source": "Dev.to",
       "published_at": "2026-07-17T06:00:25Z",
-      "summary": "Experiment letting an AI agent manage cloud operations for a week, detailing failures in permissions, cost, drift, and the need for guardrails.",
+      "summary": "A first-hand experiment: I gave an AI agent access to my cloud operations for seven days. Here's what it handled well, what broke, the near-miss that scared me, and whether AIOps is actually ready for real on-call work.",
       "tags": [
-        "AI",
-        "Cloud",
-        "DevOps",
-        "SRE",
-        "LLMOps"
+        "ai",
+        "devops",
+        "cloud",
+        "sre"
       ],
-      "relevance_score": 0.97
+      "relevance_score": 0.0
     },
     {
       "id": "7a3db93c6ae17c31f056e8e728bc81ba",
@@ -3273,6 +3214,66 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-07-22T10:10:52+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d1046bfacc3c86d7db3bb0abbd6a93e1",
+      "title": "OpenAI built support agents for its own customer service line, now it hopes big enterprises will trust them too",
+      "url": "https://thenewstack.io/openai-presence-enterprise-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-07-22T17:23:20+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "06737ab3aa8019c89d339f28f74a8f9f",
+      "title": "OpenAI’s Codex Context Cut Puts Enterprise AI Coding Workflows on Notice",
+      "url": "https://devops.com/openais-codex-context-cut-puts-enterprise-ai-coding-workflows-on-notice/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-22T17:19:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8e74f922aefaba54166fa5b955d02ab0",
+      "title": "VS Code 1.129 Moves Agent Sessions Out of the Editor Window",
+      "url": "https://devops.com/vs-code-1-129-moves-agent-sessions-out-of-the-editor-window/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-22T17:13:12+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b7c24956cda9de80a5a8c6b7c81d700e",
+      "title": "“Every few months, a new model made part of our roadmap unnecessary”: Why Mendral’s founders gave up their startup for Anthropic",
+      "url": "https://thenewstack.io/anthropic-mendral-cicd-acquihire/",
+      "source": "The New Stack",
+      "published_at": "2026-07-22T16:45:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "60e832f6fb0bd21930666bb90ed86a67",
+      "title": "n8n-io/n8n: n8n@2.32.2",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.2",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-22T15:14:33+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "67e85740b11e5baaf647355853fbaf4e",
+      "title": "Security Risks from AI Coding Agents Expand Beyond the Sandbox: Pillar",
+      "url": "https://devops.com/security-risks-from-ai-coding-agents-expand-beyond-the-sandbox-pillar/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-22T14:41:09+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
