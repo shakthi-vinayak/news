@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-22T10:35:48Z",
+  "generated_at": "2026-07-22T14:18:58Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-21T08:02:28+00:00",
+      "published_at": "2026-07-22T10:50:45+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1172,26 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8e0c699d93b0ec20cf34627b5a1b799e",
-      "title": "OpenAI hits 8 million Codex users — what developers need to know",
-      "url": "https://thenewstack.io/gpt-5-6-codex-user-surge/",
-      "source": "The New Stack",
-      "published_at": "2026-07-15T13:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6edbcceca8e3b050212f3ae1a50a2733",
-      "title": "KeycloakCon Japan 2026: Navigating cloud native identity and the AI frontier",
-      "url": "https://www.cncf.io/blog/2026/07/14/keycloakcon-japan-2026-navigating-cloud-native-identity-and-the-ai-frontier/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-14T21:34:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "029bd2bc99880b9d4cf5c68c9e091352",
       "title": "Building a Custom Metrics Exporter for Kubernetes",
       "url": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
@@ -1202,32 +1182,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "09d63ac327739e471b6b44e544d7910e",
-      "title": "Our CI/CD secrets are scattered across GitHub, Jenkins, .env files (and a few more). How can I get to runtime injection (relatively) peacefully?",
-      "url": "https://www.reddit.com/r/devops/comments/1ux5x2v/our_cicd_secrets_are_scattered_across_github/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-15T13:29:59+00:00",
-      "summary": "We spent the last year shipping as fast as we could and the bill came due on secrets management. Right now they're everywhere: hardcoded in a few GitHub repos, sitting in .env files, baked into Jenkins credentials, and on at least three devs' laptops that I know of. It works until it doesn't, and I'",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ee8b0edd2283c0f9e39e1799c70332c9",
       "title": "hashicorp/terraform: v1.16.0-alpha20260715",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-alpha20260715",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-07-15T12:44:36+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a9ba48fec98128ea1e16e42f3b8ecbf0",
-      "title": "The compliance push finally made me look at self-hosting LLMs seriously",
-      "url": "https://www.reddit.com/r/devops/comments/1ux3tlq/the_compliance_push_finally_made_me_look_at/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-15T12:00:15+00:00",
-      "summary": "Been self hosting most of my stack for years. LLMs were always the one thing i kept on a closed api, not because i liked it, just because every time i looked at the open alternatives they were noticeably worse. privacy is a nice idea until you are explaining to a paying user why the output got dumbe",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1258,16 +1218,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-07-15T14:59:32+00:00",
       "summary": "Hey all,  Trying to figure how people actually manage DB credentials for apps at scale. Our current setup works, but kinda fragile:  Liquibase runs DDLs using shared creds pulled from Parameter Store. A custom Jenkins shared lib provisions dedicated per app creds at the SQL level and drops them into",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "334a03fee0ad4ccbee73948e0ccafedb",
-      "title": "Anaconda buys Kilo, the open source coding agent that answers to no single model maker",
-      "url": "https://thenewstack.io/anaconda-kilo-open-source-acquisition/",
-      "source": "The New Stack",
-      "published_at": "2026-07-15T14:07:00+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1351,21 +1301,6 @@
         "kubernetes",
         "sre",
         "tutorial"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "81447a0908ec6a7204615b27369230e7",
-      "title": "The status page you can't fake: measured uptime, not published",
-      "url": "https://dev.to/slima4/the-status-page-you-cant-fake-measured-uptime-not-published-ckp",
-      "source": "Dev.to",
-      "published_at": "2026-07-15T13:50:26Z",
-      "summary": "Why a status page's uptime bar must come from real checks, not from the incidents you chose to publish. The two-layer model, the frozen-flag trap, and a short test you can run on any status page.",
-      "tags": [
-        "devops",
-        "sre",
-        "monitoring",
-        "webdev"
       ],
       "relevance_score": 0.0
     },
@@ -3239,6 +3174,106 @@
       "source": "Reddit r/devops",
       "published_at": "2026-07-22T07:46:12+00:00",
       "summary": "&#x200b; I am planning to have my docker images to be multi architecture and for it my plan is to have two codebuilds for arm and amd when they both succeeds event bridge will invoke a lambda and lambda will merge the images into one But I am unable to think a way to set up event my current plan is ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "207a02919b3a5e0d577cfef44a2c4deb",
+      "title": "Best way to learn K8 now?",
+      "url": "https://www.reddit.com/r/devops/comments/1v3gykw/best_way_to_learn_k8_now/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-22T13:58:20+00:00",
+      "summary": "Hi all, I’m learning Kubernetes right now for work (I use Colima + kubectl) - what is the best way to do so with AI?  I’ve used docker before in previous projects and studied concepts of containers in school - im no expert but I should know enough to learn Kubernetes. I started the Udemy + kodekloud",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "90e805e2db4573c9515f3f949b1b5981",
+      "title": "How do you handle production patching for EC2 instances?",
+      "url": "https://www.reddit.com/r/devops/comments/1v3fu2f/how_do_you_handle_production_patching_for_ec2/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-22T13:14:29+00:00",
+      "summary": "how do you handle production patching for EC2 instances in your environment? I'm interested in learning about real-world production practices. Some questions:  Do you use AWS Systems Manager Patch Manager, Patch Policies, or another approach? Do you patch EC2 instances in place, or do you replace th",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1fb7d428f3728e9e712ae976fa33f53d",
+      "title": "Agentic AI Needs Guardrails, Not Guesswork",
+      "url": "https://www.docker.com/blog/agentic-ai-security-ciso-panel/",
+      "source": "Docker Blog",
+      "published_at": "2026-07-22T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fc8634bd47329a80871b377a6c38bdd7",
+      "title": "Multi-Cluster databases on Kubernetes: Architecture and deployment",
+      "url": "https://www.cncf.io/blog/2026/07/22/multi-cluster-databases-on-kubernetes-architecture-and-deployment/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-22T11:42:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a6990b91d1b55a269ef64bf0ed2e7cf6",
+      "title": "GitHub Actions & CI/CD, Explained Like a Robot Assembly Line",
+      "url": "https://dev.to/ramkumar-m-n/github-actions-cicd-explained-like-a-robot-assembly-line-1f7c",
+      "source": "Dev.to",
+      "published_at": "2026-07-22T11:24:30Z",
+      "summary": "There was a ritual I do not miss: the manual deploy.",
+      "tags": [
+        "automation",
+        "cicd",
+        "devops",
+        "github"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "290a63125e99fc17d1d04456b7a8b259",
+      "title": "n8n-io/n8n: n8n@2.32.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-22T10:45:05+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3cda8807d98b2c43695949876aa0c406",
+      "title": "n8n-io/n8n: n8n@1.123.67",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.67",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-22T10:38:40+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "160e61cfc249b098174c29edd46b91cc",
+      "title": "SPF, DKIM, DMARC: the 15-minute setup that actually passes",
+      "url": "https://dev.to/devopsdaily/spf-dkim-dmarc-the-15-minute-setup-that-actually-passes-53mf",
+      "source": "Dev.to",
+      "published_at": "2026-07-22T10:23:20Z",
+      "summary": "Every guide to email authentication starts with a history lesson. Skip it. You are here because your...",
+      "tags": [
+        "dns",
+        "devops",
+        "development",
+        "beginners"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3a523e425c2873c40eeb4b4af3ad6abb",
+      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.67 (#34700)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-22T10:10:52+00:00",
+      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     }
