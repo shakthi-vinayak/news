@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T19:41:50Z",
+  "generated_at": "2026-07-22T21:20:46Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -197,26 +197,6 @@
       "url": "https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/",
       "source": "Kubernetes Blog",
       "published_at": "2026-06-01T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c356444f7176fd2690f55c5e756da945",
-      "title": "How we used Gemini to build Google I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "source": "Google AI Blog",
-      "published_at": "2026-06-01T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8ef3a4044e0f5bfe30224ea0370ac21e",
-      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-      "source": "Google AI Blog",
-      "published_at": "2026-05-29T17:30:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1022,16 +1002,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6b1a8394d4d449fe9d17740e01a9b320",
-      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI Blog",
-      "published_at": "2026-07-07T08:54:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4ae98686c5b9ce0c326b485be7fca808",
       "title": "hashicorp/terraform: v1.15.8",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.8",
@@ -1188,16 +1158,6 @@
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-07-15T12:44:36+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "72fd89e4d8e4cf434c57493dd1d40659",
-      "title": "Our biggest deployment scare had nothing to do with the deployment itself",
-      "url": "https://www.reddit.com/r/devops/comments/1uxgl1m/our_biggest_deployment_scare_had_nothing_to_do/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-15T19:56:20+00:00",
-      "summary": "A while back we were preparing for what should have been a routine release. The code had been reviewed CI/CD looked good monitoring was ready rollback plans were in place everything you'd expect. Someone on our infrastructure team had been testing Kibu for another project around the same time which ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3218,6 +3178,46 @@
       "published_at": "2026-07-22T17:51:12+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "73e3a99013614eabd463458a447d50b9",
+      "title": "langchain-ai/langchain: langchain-openrouter==0.2.7",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.7",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-22T20:16:36+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0803c7084512041e5a7d5cf6e162b0a8",
+      "title": "I overrode my own safety rules 38 times in one session",
+      "url": "https://dev.to/mjmirza/i-overrode-my-own-safety-rules-38-times-in-one-session-1eac",
+      "source": "Dev.to",
+      "published_at": "2026-07-20T16:54:43Z",
+      "summary": "What made me faster as a senior engineer was not a tool. It was counting which of my own process I keep walking around.",
+      "tags": [
+        "career",
+        "productivity",
+        "devops",
+        "discuss"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2ea2bd6157cfb82d513c986207b1e397",
+      "title": "Designing an On-Call Schedule That Doesn't Burn Out Your Team",
+      "url": "https://dev.to/nolanvale/designing-an-on-call-schedule-that-doesnt-burn-out-your-team-3i68",
+      "source": "Dev.to",
+      "published_at": "2026-07-17T16:04:35Z",
+      "summary": "On-call rotations are one of those systems that quietly determine engineering retention more than...",
+      "tags": [
+        "devops",
+        "management",
+        "mentalhealth",
+        "sre"
+      ],
       "relevance_score": 0.0
     }
   ]
