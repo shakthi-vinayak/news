@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T19:41:39Z",
+  "generated_at": "2026-07-23T21:18:38Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -117,16 +117,6 @@
       "url": "https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-06-11T15:54:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "32fc07eb575e7ccc6899ec24aa5490d3",
-      "title": "Better Together: Amazon EKS Auto Mode and Istio Ambient Mesh",
-      "url": "https://aws.amazon.com/blogs/containers/better-together-amazon-eks-auto-mode-and-istio-ambient-mesh/",
-      "source": "AWS Blog (Containers)",
-      "published_at": "2026-06-09T16:52:39+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1032,16 +1022,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f1231650bb78e6f489426dd9f372f357",
-      "title": "apache/airflow: providers-tableau/5.6.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-tableau%2F5.6.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-10T16:30:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "621496001104ecc3f67ef1d1e324e7c5",
       "title": "langchain-ai/langgraph: langgraph-cli==0.4.31",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.31",
@@ -1062,16 +1042,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0a60b30ac02b2927db03c53732aeafa1",
-      "title": "apache/airflow: Apache Airflow Java SDK 1.0.0-beta1",
-      "url": "https://github.com/apache/airflow/releases/tag/java-sdk%2F1.0.0-beta1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-13T18:14:58+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a8f0d7b71ca6e336c4ebdeb642378faf",
       "title": "Operating AI/ML Workloads on Kubernetes: A Headlamp Plugin for Kubeflow",
       "url": "https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/",
@@ -1087,16 +1057,6 @@
       "url": "https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/",
       "source": "Kubernetes Blog",
       "published_at": "2026-07-13T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f8bfc6c43be156a244a0013a97bbb619",
-      "title": "apache/airflow: python-client/3.3.0",
-      "url": "https://github.com/apache/airflow/releases/tag/python-client%2F3.3.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-14T13:54:50+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3282,6 +3242,76 @@
         "devops",
         "node"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8150fbc259e561404caeca96f3a6957c",
+      "title": "langchain-ai/langchain: langchain-openai==1.4.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-23T20:31:30+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "879a941da0393eac8bfd79aa55f57c72",
+      "title": "langchain-ai/langchain: langchain-fireworks==1.5.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-23T20:28:43+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a1a5498afc2b9d9cc90ec4880e2fff1c",
+      "title": "apache/airflow: providers-snowflake/6.15.0rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.15.0rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-23T20:26:27+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "42139baf75321b3b788b457ae411867f",
+      "title": "apache/airflow: providers-ssh/6.0.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F6.0.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-23T20:26:27+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a1c58b2a8346963cdaaa151dbe5e2109",
+      "title": "apache/airflow: providers-teradata/3.6.1rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-teradata%2F3.6.1rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-23T20:26:27+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "856171a7f94a53bc640b42cf44378dcd",
+      "title": "apache/airflow: providers-weaviate/3.4.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-weaviate%2F3.4.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-23T20:26:27+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "abe2f2a9dd19d118b32cf3bf2e7d99c8",
+      "title": "OpenAI and Anthropic both speak at once with dueling voice updates",
+      "url": "https://thenewstack.io/voice-ai-openai-anthropic/",
+      "source": "The New Stack",
+      "published_at": "2026-07-23T19:57:50+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
