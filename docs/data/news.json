@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T10:35:29Z",
+  "generated_at": "2026-07-23T14:27:48Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1162,26 +1162,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c3ba12169cbd5be110f8bb32ae0c05a8",
-      "title": "langchain-ai/langchain: langchain==1.3.14",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.14",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-07-16T13:28:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9662c536c56e1de616c2f7cf02ffbe77",
-      "title": "“There are no laws, only suggestions”: What AI agents do with your instructions",
-      "url": "https://thenewstack.io/ai-agents-no-laws/",
-      "source": "The New Stack",
-      "published_at": "2026-07-16T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "992adaa86e285ecd6826581fba7c6657",
       "title": "AI Agents Explained: How to Build with Them Safely",
       "url": "https://www.docker.com/blog/what-are-ai-agents/",
@@ -1189,41 +1169,6 @@
       "published_at": "2026-07-16T13:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "62f38c3164bde0930c2d979c7849d888",
-      "title": "How would you all",
-      "url": "https://www.reddit.com/r/devops/comments/1uy1hh2/how_would_you_all/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-16T12:29:29+00:00",
-      "summary": "So I just wanted to ask what is the best way to learn and master  Devops  Imran teli udemy course , Techworld with nana or anything else ?? Like I watched nana vids she said focus on Basics  And I feel that's right  So I wanted to get advice on  Courses or learning paths , the mistakes not to make a",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2707144e6b3dbcfdb99d6a339f4ea5d1",
-      "title": "Running a self-hosted LLM in Kubernetes with vLLM",
-      "url": "https://www.cncf.io/blog/2026/07/16/running-a-self-hosted-llm-in-kubernetes-with-vllm/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-16T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2519ac9092b990e552c4468468b19728",
-      "title": "We Built an AI-Powered Semantic Release Pipeline - Here's Everything We Learned",
-      "url": "https://dev.to/smit-vaghasiya/we-built-an-ai-powered-semantic-release-pipeline-heres-everything-we-learned-123k",
-      "source": "Dev.to",
-      "published_at": "2026-07-16T10:32:32Z",
-      "summary": "We Built an AI-Powered Semantic Release Pipeline (And Survived All the Edge Cases)   If...",
-      "tags": [
-        "devops",
-        "github",
-        "ai",
-        "cicd"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3258,6 +3203,51 @@
       "tags": [
         "ai",
         "python",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f4795e4b11ad3e9f62ea98415c22b34a",
+      "title": "Can prompt caching tame RAG costs without sacrificing accuracy?",
+      "url": "https://thenewstack.io/production-rag-architecture-fixes/",
+      "source": "The New Stack",
+      "published_at": "2026-07-23T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "91d89951c4d652785b16c7a8baaaf4e4",
+      "title": "Sustaining OpenTelemetry: What a 10-week contributor cohort actually looks like",
+      "url": "https://www.cncf.io/blog/2026/07/23/sustaining-opentelemetry-what-a-10-week-contributor-cohort-actually-looks-like/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-23T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "547e8ec4f379b513d5bd84868557b98d",
+      "title": "When Kubeflow meets Cilium: Debugging 60% idle GPUs in Kubernetes",
+      "url": "https://www.cncf.io/blog/2026/07/23/when-kubeflow-meets-cilium-debugging-60-idle-gpus-in-kubernetes/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-23T11:33:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "65b2b17902ddbdcac011a5fe099dab67",
+      "title": "The Hidden Complexity of PostgreSQL Logical Replication",
+      "url": "https://dev.to/alex_zhdankov/the-hidden-complexity-of-postgresql-logical-replication-23ml",
+      "source": "Dev.to",
+      "published_at": "2026-07-23T11:31:27Z",
+      "summary": "We were building a PostgreSQL Logical Replication monitoring system — topology visualization, lag...",
+      "tags": [
+        "postgres",
+        "python",
+        "distributedsystems",
         "devops"
       ],
       "relevance_score": 0.0
