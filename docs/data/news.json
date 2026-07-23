@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T06:39:27Z",
+  "generated_at": "2026-07-23T10:35:29Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -86,7 +86,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-21T07:56:12+00:00",
+      "published_at": "2026-07-23T07:57:39+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1162,36 +1162,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "18a6176d55de067c9ce93fd23afe1f53",
-      "title": "Built a free, KMS-backed alternative to ACM Private CA for IAM Roles Anywhere",
-      "url": "https://www.reddit.com/r/devops/comments/1uxy0k2/built_a_free_kmsbacked_alternative_to_acm_private/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-16T09:35:21+00:00",
-      "summary": "ACM Private CA is $400/month minimum before you've issued a single certificate. Roles Anywhere itself is free, but it needs a CA to trust, and that's basically the only paved-road option AWS gives you for one. So I built my own. Two ways to run it: A laptop-based version where the CA private key liv",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e5c0e2acf2e8687e4852cd9cc028c75c",
-      "title": "Has anyone here actually found consulting work, a remote DevOps job, or long-term clients through Reddit?",
-      "url": "https://www.reddit.com/r/devops/comments/1uxwrw0/has_anyone_here_actually_found_consulting_work_a/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-16T08:24:01+00:00",
-      "summary": "I'm curious about the community's real experiences. Over the past few months, I've seen many posts offering remote work, consulting opportunities, startups looking for DevOps engineers, or requests to &quot;DM me&quot; for more details. However, I've also noticed that many posters don't share a comp",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2cead9b146ace9af45883fa4d58008ca",
-      "title": "n8n-io/n8n: n8n@2.31.2",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.2",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-16T08:23:28+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c3ba12169cbd5be110f8bb32ae0c05a8",
       "title": "langchain-ai/langchain: langchain==1.3.14",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.14",
@@ -1254,29 +1224,6 @@
         "ai",
         "cicd"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c578d4c25350baec72f50f38b71537bc",
-      "title": "The most expensive outages return HTTP 200",
-      "url": "https://dev.to/adioof/the-most-expensive-outages-return-http-200-k8d",
-      "source": "Dev.to",
-      "published_at": "2026-07-16T10:15:46Z",
-      "summary": "Analysis of costly outages that return HTTP 200, stressing the need for deep observability beyond status codes.",
-      "tags": [
-        "SRE",
-        "Observability"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "ba9fcb6c405206146456e53d821d39c2",
-      "title": "Can anybody help me on how to build production backup strategy for self hosted applications?",
-      "url": "https://www.reddit.com/r/devops/comments/1uxxf1f/can_anybody_help_me_on_how_to_build_production/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-16T09:01:26+00:00",
-      "summary": "Hi everyone, I'm designing a backup and disaster recovery strategy for a production ThingsBoard deployment . My ThingsBoard works on Ubuntu + Postgres on AWS LightSail. I'm aware that there is Version Control feature in ThingsBoard but I dont think that is enough and it is not an alternative for bac",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -1580,12 +1527,14 @@
       "url": "https://dev.to/takundanashebmuchenapixel/how-to-gate-your-ci-pipeline-on-quantum-vulnerability-with-quantum-audit-5bbe",
       "source": "Dev.to",
       "published_at": "2026-07-17T03:20:20Z",
-      "summary": "Integrate quantum-audit to block CI pipelines on quantum‑related vulnerabilities.",
+      "summary": "Part 3 of the quantum-audit series. Part 1 | Part 2*  🌐 Tool: quantum-audit-site.vercel.app     Most...",
       "tags": [
-        "CI/CD",
-        "Security"
+        "security",
+        "javascript",
+        "devops",
+        "github"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "fa77c060ff1c49f3df256ded4dc64473",
@@ -1757,13 +1706,14 @@
       "url": "https://dev.to/sbalavignesh123/introducing-sketchlog-v125-bounded-memory-telemetry-for-observability-oi3",
       "source": "Dev.to",
       "published_at": "2026-07-17T11:24:49Z",
-      "summary": "Announces SketchLog v1.2.5, a bounded-memory telemetry library for efficient observability with sketches, histograms, and quantiles.",
+      "summary": "I just released SketchLog v1.2.5.  SketchLog is an open-source observability project built around a...",
       "tags": [
-        "Observability",
-        "SRE",
-        "DevOps"
+        "opensource",
+        "observability",
+        "devops",
+        "python"
       ],
-      "relevance_score": 0.93
+      "relevance_score": 0.0
     },
     {
       "id": "dd6a9d87b60cbd776ead520996fdab9a",
@@ -1938,12 +1888,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v0vscq/how_do_your_teams_manage_planning/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-19T16:58:11+00:00",
-      "summary": "Reddit thread exploring how DevOps teams handle sprint planning, roadmap prioritization, and cross-team coordination.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.6
+      "summary": "For those on platform or DevOps teams, what does your planning process look like? We have no problem writing docs and roadmaps for product features, but it doesn’t always feel like it aligns with the rest of the business.  Do you have Product Design Docs? Technical design docs? Quarterly roadmaps? O",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "7ee0083408c2e81dfdac382429fbd245",
@@ -1951,13 +1898,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v0v1a4/how_is_cicd_managed_in_enterprise_environments/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-19T16:28:27+00:00",
-      "summary": "Practices and tooling for scaling CI/CD pipelines across large enterprises, including governance and security.",
-      "tags": [
-        "DevOps",
-        "CI/CD",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.9
+      "summary": "Hi everyone, I'm learning CI/CD and would love to understand how it's managed in enterprise environments. A few questions:  Which CI/CD tool(s) do you use (GitHub Actions, Jenkins, GitLab CI, Azure DevOps, CircleCI, etc.), and why did your team choose them? How do you structure your CI/CD pipelines ",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "7e9918cd7f9625d962e3fe0816bd00f5",
@@ -2005,13 +1948,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v0xgjh/nat_gateway_is_somehow_80_of_our_aws_bill_how_are/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-19T18:02:33+00:00",
-      "summary": "Strategies to reduce NAT Gateway expenses, such as VPC endpoints, instance placement, or Transit Gateway usage.",
-      "tags": [
-        "Cloud",
-        "DevOps",
-        "SRE"
-      ],
-      "relevance_score": 0.9
+      "summary": "We’re on AWS Activate credits and just realized NAT Gateway (hourly plus data processing charges) is eating up about 80% of our total AWS spend. Didn’t expect it to be anywhere near that high until we actually looked at Cost Explorer. We know some of the usual fixes exist, like VPC endpoints for S3/",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "16651f7b0ddd44b220c0533892d7fc7b",
@@ -2047,11 +1986,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v1dk0c/weekly_self_promotion_thread/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-20T06:30:11+00:00",
-      "summary": "Community thread for developers to share projects and opportunities.",
-      "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.2
+      "summary": "Hey r/devops, welcome to our weekly self-promotion thread! Feel free to use this thread to promote any projects, ideas, or any repos you're wanting to share. Please keep in mind that we ask you to stay friendly, civil, and adhere to the subreddit rules!  &#32; submitted by &#32;  /u/AutoModerator   ",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "3e9ad4d99bf66c637b2c4aa18b0de183",
@@ -2059,13 +1996,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v1by4l/how_are_you_actually_tracking_token_spend_across/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-20T05:00:58+00:00",
-      "summary": "Discussion on methods and tools for monitoring and controlling expenses from LLM API usage in production.",
-      "tags": [
-        "AI",
-        "DevOps",
-        "LLMOps"
-      ],
-      "relevance_score": 0.8
+      "summary": "We've got OpenAI and Anthropic calls scattered across a handful of services now, and nobody can tell me month to month what's driving the bill until the invoice shows up. No real attribution back to which service or team is burning the tokens. Started looking at logging and a proxy setup since the v",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "94929c1b7cefe2e52cf42b1396c7d166",
@@ -2118,12 +2051,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v1fihb/i_dont_trust_agentsmd_as_a_secretredaction/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-20T08:24:09+00:00",
-      "summary": "Concerns about using AGENTS.md file to prevent leakage of secrets in AI agent configurations.",
-      "tags": [
-        "Security",
-        "AI"
-      ],
-      "relevance_score": 0.4
+      "summary": "I am getting less comfortable with using repo instruction files as a safety boundary. They are useful for preferences: commands to run, folders to avoid, how to format the final answer. But if an agent can read config files or logs, I do not think &quot;please redact secrets&quot; in a markdown file",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "ed7b5d7a6ef669f692d299d273df0b7b",
@@ -2306,12 +2236,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v1tra1/do_devils_use_ai_workflows_in_enterprise/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-20T18:29:23+00:00",
-      "summary": "Reddit discussion asking whether enterprises are adopting AI-driven workflows in DevOps practices.",
-      "tags": [
-        "AI",
-        "DevOps"
-      ],
-      "relevance_score": 0.7
+      "summary": "I’m building one personal project, a platform where DevOps can create ai workflows without coding(drag and drop/ chatbot) , like n8n but for DevOps. But firstly I want to ask you guys who is working in the industry, some questions to get clarity what to build. A example of the workflow can be taking",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "29ff887cd469da4a0ffa5394766eedea",
@@ -2654,13 +2581,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v2ppv2/how_are_you_setting_up_build_systems_in_monorepos/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-21T17:49:11+00:00",
-      "summary": "Conversation about build system choices and practices for managing monorepos in DevOps workflows.",
-      "tags": [
-        "DevOps",
-        "CI/CD",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.9
+      "summary": "Former DevOps consultants, bootstrapped an AWS premier partner and exited to NTT Data, now we advise people building services companies.  After seeing how much easier current AI tools have made it to write code we started building tools for helping our customers and day to day work. Some of the deci",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "e1f3499e5d20532d668a092e8347c9c0",
@@ -2893,13 +2816,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v34gf2/good_observability_tool_recommendation_cloud_based/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-22T03:32:21+00:00",
-      "summary": "Request for recommendations on cloud-native observability platforms for monitoring, logging, and tracing.",
-      "tags": [
-        "Observability",
-        "DevOps",
-        "Cloud"
-      ],
-      "relevance_score": 0.9
+      "summary": "I work in two companies, one very big that have a giant budget to spend on Datadog, and another small one, that don't have that very big budget. On the small company we are looking to migrate from Prometheus + Grafana + Alert Manager to something cloud based. Mostly because we are a small team (3 pe",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "bc4fee5442d4071d8398f095dd2dd03e",
@@ -2927,13 +2846,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v3aave/currently_on_falco_for_runtime_security_anyone/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-22T08:43:29+00:00",
-      "summary": "Discussion on alternatives to Falco for Kubernetes runtime security, comparing Tetragon, KubeArmor, and Tracee.",
-      "tags": [
-        "DevOps",
-        "Security",
-        "Kubernetes"
-      ],
-      "relevance_score": 0.9
+      "summary": "Running Falco in our EKS clusters right now for runtime detection, paired with Kyverno for admission control and Cosign/Vault for supply chain signing/secrets. Been solid so far, but I keep seeing Tetragon and KubeArmor come up as alternatives, especially for teams who want enforcement (block, not j",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "d92332fe28c669ecc17cef6abcbe6019",
@@ -2941,13 +2856,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v3a3u7/where_is_ai_actually_adding_value_in_your_devops/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-22T08:32:14+00:00",
-      "summary": "DevOps practitioners share where AI tools add value (automation, incident response) and where they fall short.",
-      "tags": [
-        "AI",
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.95
+      "summary": "Senior DevOps here. AI is being pushed into every part of the pipeline right now, and I want to cut past the hype and hear real production experience. Two questions: Where have you put AI into production in your DevOps process and it genuinely adds value? (e.g. CI/CD, code review, IaC generation, mo",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "7db758dd6324c9ea20a2cc5b708efd3a",
@@ -2955,13 +2866,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v39ap7/multi_platform_build/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-22T07:46:12+00:00",
-      "summary": "Strategies for building software that runs on multiple platforms (e.g., Linux, Windows, ARM) in CI/CD pipelines.",
-      "tags": [
-        "DevOps",
-        "CI/CD",
-        "Containers"
-      ],
-      "relevance_score": 0.8
+      "summary": "&#x200b; I am planning to have my docker images to be multi architecture and for it my plan is to have two codebuilds for arm and amd when they both succeeds event bridge will invoke a lambda and lambda will merge the images into one But I am unable to think a way to set up event my current plan is ",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "207a02919b3a5e0d577cfef44a2c4deb",
@@ -2969,12 +2876,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v3gykw/best_way_to_learn_k8_now/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-22T13:58:20+00:00",
-      "summary": "Guidance on getting started with Kubernetes learning resources.",
-      "tags": [
-        "Kubernetes",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
+      "summary": "Hi all, I’m learning Kubernetes right now for work (I use Colima + kubectl) - what is the best way to do so with AI?  I’ve used docker before in previous projects and studied concepts of containers in school - im no expert but I should know enough to learn Kubernetes. I started the Udemy + kodekloud",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "90e805e2db4573c9515f3f949b1b5981",
@@ -2982,13 +2886,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v3fu2f/how_do_you_handle_production_patching_for_ec2/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-22T13:14:29+00:00",
-      "summary": "Discussion on tools and processes for safely applying OS patches to EC2 fleets in production.",
-      "tags": [
-        "DevOps",
-        "Cloud",
-        "SRE"
-      ],
-      "relevance_score": 0.9
+      "summary": "how do you handle production patching for EC2 instances in your environment? I'm interested in learning about real-world production practices. Some questions:  Do you use AWS Systems Manager Patch Manager, Patch Policies, or another approach? Do you patch EC2 instances in place, or do you replace th",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "1fb7d428f3728e9e712ae976fa33f53d",
@@ -3280,6 +3180,85 @@
         "devops",
         "platformengineering",
         "cicd"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "497f3312d827db5d914a07ba8c2606b8",
+      "title": "How are developers and operations meant to work in this situation?",
+      "url": "https://www.reddit.com/r/devops/comments/1v480u5/how_are_developers_and_operations_meant_to_work/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-23T08:40:03+00:00",
+      "summary": "Here’s our situation - a mature operations team with pipelines building container images for a third party product going into kube Company acquired a company with a development team who had no ops but are proficient at producing dockerfiles for their products Ops is in azure devops, developers in bi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "27601454cfd8b2cd4852377341a9c9da",
+      "title": "n8n-io/n8n: n8n@2.32.3",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.3",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-23T08:00:59+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "907ef0a59a5f29fa5dc0a5029000ae4b",
+      "title": "Scraping millions of pages a day: what actually breaks",
+      "url": "https://dev.to/votiakov/scraping-millions-of-pages-a-day-what-actually-breaks-1c2b",
+      "source": "Dev.to",
+      "published_at": "2026-07-23T07:50:26Z",
+      "summary": "I ran a scraping platform that processed millions of pages a day at roughly 95% extraction success,...",
+      "tags": [
+        "webscraping",
+        "distributedsystems",
+        "devops",
+        "python"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8a3a65a00e5b60b0d2f9d4b95064d12a",
+      "title": "Moving a high-memory Python application from Kubernetes to a dedicated Linux server — what would be the best setup?",
+      "url": "https://www.reddit.com/r/devops/comments/1v475m2/moving_a_highmemory_python_application_from/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-23T07:49:38+00:00",
+      "summary": "Hello, At the company where I work, we have a Python application running on a Kubernetes cluster. The application is fully integrated into a CI/CD workflow. Whenever code is merged, Jenkins pulls the source code from GitLab, builds the application, and pushes the image to Harbor. Argo CD then deploy",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "857370f598486c94c24230ff27ba7eec",
+      "title": "Looking for Terraform + AWS hands-on project ideas after completing Terraform Associate and AWS SAA",
+      "url": "https://www.reddit.com/r/devops/comments/1v454t7/looking_for_terraform_aws_handson_project_ideas/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-23T05:57:19+00:00",
+      "summary": "Hi everyone, I recently completed: HashiCorp Certified: Terraform Associate (003) AWS Certified Solutions Architect – Associate (SAA-C03) Now I want to move beyond certifications and gain more hands-on practical experience with Terraform on AWS. I understand the Terraform concepts and AWS services a",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d926424613e46e6b638a826ba94e156f",
+      "title": "Which DevOps tool looked amazing during the PoC but became painful after six months?",
+      "url": "https://www.reddit.com/r/devops/comments/1v445k8/which_devops_tool_looked_amazing_during_the_poc/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-23T05:05:33+00:00",
+      "summary": "I am Little confused ?  &#32; submitted by &#32;  /u/mobiindia6   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4b9466047a018dba52001d31d602fb81",
+      "title": "Bonsai-27B on a Single 3090: What Works and What Doesn't",
+      "url": "https://dev.to/o96a/bonsai-27b-on-a-single-3090-what-works-and-what-doesnt-3eio",
+      "source": "Dev.to",
+      "published_at": "2026-07-20T14:37:48Z",
+      "summary": "I spent the weekend with Bonsai-27B, and I think I finally understand what a \"27B that runs on one...",
+      "tags": [
+        "ai",
+        "python",
+        "devops"
       ],
       "relevance_score": 0.0
     }
