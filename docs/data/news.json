@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:27:48Z",
+  "generated_at": "2026-07-23T17:43:38Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1179,61 +1179,6 @@
       "published_at": "2026-07-16T16:50:56+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fe2f7a2face7586421b0bdacdaef108f",
-      "title": "who is actually running self-healing code in prod",
-      "url": "https://www.reddit.com/r/devops/comments/1uy7jbe/who_is_actually_running_selfhealing_code_in_prod/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-16T16:20:24+00:00",
-      "summary": "so i keep seeing self-healing code talked about like its almost here. error happens, agent writes a fix, deploys it, no humans. and every time i hear it i think about our own numbers and go hmm our triage suggestions are right maybe 60% of the time, and thats with a decent setup. self healing means ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "44be5d111aea1831306927bf99124660",
-      "title": "Self hosted sentry issue",
-      "url": "https://www.reddit.com/r/devops/comments/1uy717p/self_hosted_sentry_issue/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-16T16:02:21+00:00",
-      "summary": "We are running a self-hosted Sentry deployment on EKS using the official Sentry Helm chart. Due to cost constraints, we removed the larger instance types and currently only have &quot;t3a.large&quot; nodes. As expected, we are facing bottlenecks, primarily related to memory, since many Sentry compon",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f92694cda7beae0b7746894643c1f52a",
-      "title": "CNCF Strengthens Partnership with Broadcom as a Platinum Member to Advance AI-Ready Cloud Native Infrastructure",
-      "url": "https://www.cncf.io/announcements/2026/07/16/cncf-strengthens-partnership-with-broadcom-as-a-platinum-member-to-to-advance-ai-ready-cloud-native-infrastructure/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-16T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3527d8f834e55c42567c1ec7eb0557b3",
-      "title": "OpenAI’s GPT-Red automates prompt injection testing to harden AI agents",
-      "url": "https://thenewstack.io/gpt-red-prompt-injection-testing/",
-      "source": "The New Stack",
-      "published_at": "2026-07-16T14:58:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "87a474d162dcfb7e4e565231c84cd63b",
-      "title": "Kiro CLI Gets Worse After an Hour. Here's How I Fixed It.",
-      "url": "https://dev.to/aws-builders/kiro-cli-gets-worse-after-an-hour-heres-how-i-fixed-it-1l7g",
-      "source": "Dev.to",
-      "published_at": "2026-07-16T14:37:01Z",
-      "summary": "Why Kiro CLI degrades in long sessions and the context management techniques that fixed it for my daily AWS workflow.",
-      "tags": [
-        "aws",
-        "kiro",
-        "productivity",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3091,12 +3036,14 @@
       "url": "https://dev.to/tsvetang2/pin-your-mcp-server-contracts-the-way-you-pin-your-dependencies-43j8",
       "source": "Dev.to",
       "published_at": "2026-07-21T23:43:41Z",
-      "summary": "Applying dependency pinning practices to MCP server contracts for consistency.",
+      "summary": "You pin your npm dependencies. You have a lockfile. You review the diff when it changes.  Now...",
       "tags": [
-        "DevOps",
-        "Platform Engineering"
+        "mcp",
+        "ai",
+        "devops",
+        "opensource"
       ],
-      "relevance_score": 0.7
+      "relevance_score": 0.0
     },
     {
       "id": "543a1a0c05b7d1ef840c1181952ecc25",
@@ -3249,6 +3196,81 @@
         "python",
         "distributedsystems",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "61b065107f35d25979a7f6e8c141dedc",
+      "title": "hashicorp/terraform: v1.16.0-beta1",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta1",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-07-23T16:51:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6aad79b5d793de2cc855638265757dc4",
+      "title": "ollama/ollama: v0.32.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-23T16:46:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2af2e95ed5c062448178e19d0663e8e3",
+      "title": "DSCI - CI with regular programming languages instead of YAML",
+      "url": "https://dev.to/melezhik/dsci-ci-with-regular-programming-languages-instead-of-yaml-29kk",
+      "source": "Dev.to",
+      "published_at": "2026-07-23T11:09:31Z",
+      "summary": "How to use DSCI to build CI pipelines using regular programing languages",
+      "tags": [
+        "rakulang",
+        "ci",
+        "forgejo",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9a294e9ec59f18602cee07e92d6fc60a",
+      "title": "Banning ChatGPT Won't Fix Your Shadow AI Problem. It'll Just Hide It.",
+      "url": "https://dev.to/cyclopt_dimitrisk/banning-chatgpt-wont-fix-your-shadow-ai-problem-itll-just-hide-it-58nl",
+      "source": "Dev.to",
+      "published_at": "2026-07-23T09:32:49Z",
+      "summary": "Intro   Every engineering org has a policy about which AI tools developers are allowed to...",
+      "tags": [
+        "ai",
+        "security",
+        "devops",
+        "discuss"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0eb6c1c33de975438a96def8043c20e6",
+      "title": "ollama/ollama: v0.32.3-rc0: model: align Laguna with upstream llama.cpp (#17335)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-23T00:09:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e809272b8f2b250774c60cf261206498",
+      "title": "Your Seeder Should Describe a Shape, Not Your Laptop",
+      "url": "https://dev.to/nasrulhazim/your-seeder-should-describe-a-shape-not-your-laptop-mad",
+      "source": "Dev.to",
+      "published_at": "2026-07-20T01:53:39Z",
+      "summary": "TL;DR    Rewrote a bootstrap seeder so the deployment stack — DB engine, queue runner, PHP...",
+      "tags": [
+        "laravel",
+        "php",
+        "devops",
+        "architecture"
       ],
       "relevance_score": 0.0
     }
