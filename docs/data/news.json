@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T17:43:38Z",
+  "generated_at": "2026-07-23T19:41:39Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -107,16 +107,6 @@
       "url": "https://aws.amazon.com/blogs/devops/diagnose-eks-node-issues-faster-with-aws-devops-agent-and-custom-mcp/",
       "source": "AWS Blog",
       "published_at": "2026-06-11T20:43:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fb0c4e5014875097f5c5937967858c88",
-      "title": "Terraform MCP server is now generally available",
-      "url": "https://www.hashicorp.com/blog/terraform-mcp-server-is-now-generally-available",
-      "source": "HashiCorp Blog",
-      "published_at": "2026-06-11T18:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1152,16 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6d0fe7ed9ca8d47897fd093bb71ccd15",
-      "title": "ollama/ollama: v0.32.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-07-16T18:49:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "992adaa86e285ecd6826581fba7c6657",
       "title": "AI Agents Explained: How to Build with Them Safely",
       "url": "https://www.docker.com/blog/what-are-ai-agents/",
@@ -1177,16 +1157,6 @@
       "url": "https://github.com/istio/istio/releases/tag/1.30.3",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-07-16T16:50:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c7c47d95345aac1fefeae9c6b6313113",
-      "title": "GoDaddy opened its registrar to AI agents. Then it had to build guardrails.",
-      "url": "https://thenewstack.io/godaddy-developer-platform-domains/",
-      "source": "The New Stack",
-      "published_at": "2026-07-16T17:48:29+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1234,21 +1204,6 @@
       "published_at": "2026-07-16T23:29:14+00:00",
       "summary": "Hi everyone, I've been working as a System Administrator for a little over 2 years, but I honestly feel like I haven't gained the kind of experience most people associate with system administration. I work at a very old/traditional company where my day-to-day work is mostly repetitive:  Installing t",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4f9387b4e16f395aa155d398e8bfb49d",
-      "title": "Best Practices for Managing AWS WAF with Code",
-      "url": "https://dev.to/aws-builders/best-practices-for-managing-aws-waf-with-code-3efl",
-      "source": "Dev.to",
-      "published_at": "2026-07-16T17:57:38Z",
-      "summary": "A practical guide to AWS WAF as code: object ownership, labels, label namespaces, cleanup rules, imports, and safe rollout patterns.",
-      "tags": [
-        "aws",
-        "security",
-        "terraform",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1483,21 +1438,6 @@
         "ai",
         "javascript",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "36cb9efb592b1da723eb0ec735f96010",
-      "title": "The Deploy Was Boring. That Was The Whole Point",
-      "url": "https://dev.to/jeelvankhede/the-deploy-was-boring-that-was-the-whole-point-29if",
-      "source": "Dev.to",
-      "published_at": "2026-07-16T19:07:11Z",
-      "summary": "You know the ten minutes before a deployment. The finger near the button. A dashboard open in the...",
-      "tags": [
-        "deployment",
-        "devops",
-        "softwareengineering",
-        "aiagents"
       ],
       "relevance_score": 0.0
     },
@@ -3271,6 +3211,76 @@
         "php",
         "devops",
         "architecture"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "34b94113657c9d363b107479dc852c5a",
+      "title": "AWS says its DevOps Agent delivers 75% lower MTTR and 94% root cause accuracy",
+      "url": "https://www.reddit.com/r/devops/comments/1v4nqwx/aws_says_its_devops_agent_delivers_75_lower_mttr/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-23T19:18:39+00:00",
+      "summary": "Straight from the GA blog: customers report &quot;up to 75% lower MTTR, 80% faster investigations, and 94% root cause accuracy, enabling 3-5x faster incident resolution.&quot; https://aws.amazon.com/blogs/mt/announcing-general-availability-of-aws-devops-agent/ GA since March. I haven't seen anyone o",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "16ea481e85373e50d0417becb7d24628",
+      "title": "Terraform/Github deployment overwriting another deployment",
+      "url": "https://www.reddit.com/r/devops/comments/1v4np15/terraformgithub_deployment_overwriting_another/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-23T19:16:45+00:00",
+      "summary": "I'm on a team that shares a Github repository. Whenever we open a PR from a feature branch to the dev branch, a deployment to the AWS development account is automatically triggered. The issue we're facing is that one developer may deploy to dev, and then another developer deploys afterward. Even tho",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "25bf429638d0afef2005713800f96def",
+      "title": "I gave an on-call autopilot a hard \"stop and ask a human\" gate — here's the state machine that makes it safe",
+      "url": "https://dev.to/kopachelli/i-gave-an-on-call-autopilot-a-hard-stop-and-ask-a-human-gate-heres-the-state-machine-that-hm5",
+      "source": "Dev.to",
+      "published_at": "2026-07-22T18:30:54Z",
+      "summary": "It's 3am. Your phone lights up with a page you've seen four times this quarter. You know the fix....",
+      "tags": [
+        "devops",
+        "ai",
+        "oncall",
+        "reliability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "68873e58253cde6c7ced66b831efc216",
+      "title": "Terraform introduces workspaces and Stacks restore, and more",
+      "url": "https://www.hashicorp.com/blog/terraform-introduces-workspaces-and-stacks-restore-and-more",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-07-22T17:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6763abca17d0c888fb5d2c1abae4a303",
+      "title": "Terraform Stacks, explained",
+      "url": "https://www.hashicorp.com/blog/terraform-stacks-explained",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-07-21T19:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5a42aca00b761a9073bd75a48fd8e5fd",
+      "title": "We Were Wrong About sls remove",
+      "url": "https://dev.to/ofri-peretz/we-were-wrong-about-sls-remove-keo",
+      "source": "Dev.to",
+      "published_at": "2026-07-20T04:44:23Z",
+      "summary": "Our loudest serverless claim — 'ghost billing after sls remove' — failed our own E2E run. The trap is real, but it lives on a different path entirely. The full story of re-scoping a claim in public, and why the narrower version came out stronger.",
+      "tags": [
+        "serverless",
+        "aws",
+        "devops",
+        "node"
       ],
       "relevance_score": 0.0
     }
