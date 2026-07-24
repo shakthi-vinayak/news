@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T14:06:50Z",
+  "generated_at": "2026-07-24T17:48:35Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,101 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a5512d8bb77f6353a4408b60e636dba9",
-      "title": "I Almost Leaked My Production Database Password to GitHub (And How I Fixed CI/CD Security)",
-      "url": "https://dev.to/le_beltagy/i-almost-leaked-my-production-database-password-to-github-and-how-i-fixed-cicd-security-5gne",
-      "source": "Dev.to",
-      "published_at": "2026-07-17T11:25:14Z",
-      "summary": "I Almost Leaked My Production Database Password to GitHub (And How I Fixed CI/CD...",
-      "tags": [
-        "security",
-        "cicd",
-        "devops",
-        "github"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ebea14c86b066bf8d370931d4e3a7a1c",
-      "title": "DevOps professionals in Australia - how much should I ask?",
-      "url": "https://www.reddit.com/r/devops/comments/1uz25xp/devops_professionals_in_australia_how_much_should/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-17T14:58:24+00:00",
-      "summary": "Been working as a DevOps / Cloud engineer for just over 6 years. Mostly in AWS shops. Know a bit of everything but quite good with linux, AWS, containers and orchestration, GitHub actions, Python / Node / PHP. Hold following certifications. AWS Solutions Architect Associate, DevOps Engineer Professi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7018a7bd569d43129c150a6fdd15fd43",
-      "title": "What broke when your org gave developers AI coding agents?",
-      "url": "https://www.reddit.com/r/devops/comments/1uz1oof/what_broke_when_your_org_gave_developers_ai/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-17T14:41:02+00:00",
-      "summary": "We support 200+ developers and rolled out agentic coding tools this year. The failure modes were not what we expected. Not &quot;AI wrote insecure code&quot; but things like agents committing credentials from local env files, installing unvetted dependencies to satisfy a task, and pipeline tokens wi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "21589800c22af0e4f06ca45bfc6ec954",
-      "title": "“They’re dead if they don’t offer this”: DoorDash’s CLI for agents may be out of necessity",
-      "url": "https://thenewstack.io/doordash-cli-agents-order/",
-      "source": "The New Stack",
-      "published_at": "2026-07-17T14:36:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b815477187506df36728eaade18b98d8",
-      "title": "Which AI APIs go down most? Data from 6 weeks monitoring 77 services",
-      "url": "https://dev.to/max_98b3db49c06de66802dcd/which-ai-apis-go-down-most-data-from-6-weeks-monitoring-77-services-7c9",
-      "source": "Dev.to",
-      "published_at": "2026-07-17T10:56:37Z",
-      "summary": "Six weeks of polling 77 AI APIs every 5 minutes taught us a lot about which services break, how long they stay broken, and why your status page is lying to you.",
-      "tags": [
-        "webdev",
-        "ai",
-        "javascript",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "abca7384cadcb0ec716f81f5ff23a310",
-      "title": "1Password’s new browser integration for Claude changes how AI uses your credentials",
-      "url": "https://thenewstack.io/1password-agent-authentication-framework/",
-      "source": "The New Stack",
-      "published_at": "2026-07-17T16:05:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2ef3c004a193a7eaf2e67c0f88ff13ff",
-      "title": "How We Made Moderation Architecturally Impossible to Skip",
-      "url": "https://dev.to/candornetwork/how-we-made-moderation-architecturally-impossible-to-skip-7lo",
-      "source": "Dev.to",
-      "published_at": "2026-07-17T13:14:16Z",
-      "summary": "How We Made Moderation Architecturally Impossible to Skip  By Ronny Cruz Alvarez, founder of Open...",
-      "tags": [
-        "devops",
-        "opensource",
-        "architecture",
-        "node"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b8b02d48888d4619861483fb53d4163b",
-      "title": "How do small teams manage shared AI context without losing their minds?",
-      "url": "https://www.reddit.com/r/devops/comments/1uz6jw9/how_do_small_teams_manage_shared_ai_context/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-17T17:37:55+00:00",
-      "summary": "Hey, we're building a project with 3 people using Cursor and Claude Code and keep tripping over the same thing. One dev changes a port or finds a bug in a library and patches it with a workaround, the other has no idea and burns three hours figuring it out. The AI in the IDE has zero clue about team",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d240268296c65ecf7c8ad2bdbbc8f9a6",
       "title": "What is the one automation you have added, that you are proud of?",
       "url": "https://www.reddit.com/r/devops/comments/1uze2sz/what_is_the_one_automation_you_have_added_that/",
@@ -1252,21 +1157,6 @@
         "devops",
         "programming",
         "cybersecurity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "78d50e88d62a5f652f1332502fd28b6f",
-      "title": "Introducing SketchLog v1.2.5: Bounded-Memory Telemetry for Observability",
-      "url": "https://dev.to/sbalavignesh123/introducing-sketchlog-v125-bounded-memory-telemetry-for-observability-oi3",
-      "source": "Dev.to",
-      "published_at": "2026-07-17T11:24:49Z",
-      "summary": "I just released SketchLog v1.2.5.  SketchLog is an open-source observability project built around a...",
-      "tags": [
-        "opensource",
-        "observability",
-        "devops",
-        "python"
       ],
       "relevance_score": 0.0
     },
@@ -1479,21 +1369,6 @@
         "javascript",
         "webdev",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0dd955923d8d61c89dbbf79fbeb960fc",
-      "title": "We Measured the Lifespan of 7,144 Software Versions. The Median Is 18 Months.",
-      "url": "https://dev.to/endoflifeai/we-measured-the-lifespan-of-7144-software-versions-the-median-is-18-months-2dh0",
-      "source": "Dev.to",
-      "published_at": "2026-07-17T11:36:09Z",
-      "summary": "Original research from the endoflife.ai dataset: across 463 products, the median supported lifespan of a software version is just 1.5 years. Hardware lives longest, cloud services die fastest, and Internet Explorer outlived everything.",
-      "tags": [
-        "programming",
-        "devops",
-        "security",
-        "data"
       ],
       "relevance_score": 0.0
     },
@@ -2615,21 +2490,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "2ea2bd6157cfb82d513c986207b1e397",
-      "title": "Designing an On-Call Schedule That Doesn't Burn Out Your Team",
-      "url": "https://dev.to/nolanvale/designing-an-on-call-schedule-that-doesnt-burn-out-your-team-3i68",
-      "source": "Dev.to",
-      "published_at": "2026-07-17T16:04:35Z",
-      "summary": "On-call rotations are one of those systems that quietly determine engineering retention more than...",
-      "tags": [
-        "devops",
-        "management",
-        "mentalhealth",
-        "sre"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e69b7da869edc3267a6838bd2f369d26",
       "title": "kubernetes/kubernetes: v1.35.7",
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.35.7",
@@ -3235,6 +3095,156 @@
       "published_at": "2026-07-24T10:39:20+00:00",
       "summary": "We manage all of our infra apps like Vault, Argo Workflows and many others using Terraform + Helm. TF creates the ArgoCD ApplicationSet which points to the chart and values managed in the repo, and ArgoCD syncs everything. During the transition to GW API I noticed that most charts either don't suppo",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "24c09186d056f3979d3e92ee47f843f8",
+      "title": "Agentic AI Needs Guardrails, Not Guesswork",
+      "url": "https://www.docker.com/blog/agentic-ai-needs-guardrails-not-guesswork/",
+      "source": "Docker Blog",
+      "published_at": "2026-07-24T17:19:36+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7067d422700f2989ed9af2c491b46119",
+      "title": "Anthropic’s Opus 5 is almost Fable 5",
+      "url": "https://thenewstack.io/anthropics-opus-5-almost-fable-5/",
+      "source": "The New Stack",
+      "published_at": "2026-07-24T17:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5f4453296e6ef47316d3d2aef60eae03",
+      "title": "AWS, Google Cloud, Microsoft Azure, and Cloudflare now all offer agent sandboxes. None built them the same way.",
+      "url": "https://thenewstack.io/cloud-agent-code-sandboxes/",
+      "source": "The New Stack",
+      "published_at": "2026-07-24T16:04:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1a824ec7c2ff87f3af5506fa01bddfae",
+      "title": "Deploying Kubernetes Dashboard and Managing Cluster Resources",
+      "url": "https://dev.to/vultr/deploying-kubernetes-dashboard-and-managing-cluster-resources-4426",
+      "source": "Dev.to",
+      "published_at": "2026-07-24T14:19:09Z",
+      "summary": "Kubernetes Dashboard is an open-source web GUI for managing cluster resources (CronJobs, DaemonSets,...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "dashboard",
+        "rbac"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e3b7f19662c9bdbe15114964174d6b9e",
+      "title": "Deploying Strapi on a Kubernetes Cluster",
+      "url": "https://dev.to/vultr/deploying-strapi-on-a-kubernetes-cluster-384b",
+      "source": "Dev.to",
+      "published_at": "2026-07-24T14:17:45Z",
+      "summary": "Strapi is a headless CMS with an intuitive admin dashboard, custom content types, and role-based...",
+      "tags": [
+        "kubernetes",
+        "cms",
+        "docker",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "358175814b357df5367d1c3ee5ac402c",
+      "title": "Deploying MariaDB on Kubernetes",
+      "url": "https://dev.to/vultr/deploying-mariadb-on-kubernetes-408a",
+      "source": "Dev.to",
+      "published_at": "2026-07-24T14:16:12Z",
+      "summary": "MariaDB is a popular open-source relational database. Running it on Kubernetes gets you portability...",
+      "tags": [
+        "kubernetes",
+        "database",
+        "mysql",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3c72b302c465a9dee876516aa413bf61",
+      "title": "Deploying CockroachDB on Kubernetes",
+      "url": "https://dev.to/vultr/deploying-cockroachdb-on-kubernetes-5ch8",
+      "source": "Dev.to",
+      "published_at": "2026-07-24T14:15:31Z",
+      "summary": "CockroachDB is a distributed SQL database that replicates data across nodes for high availability. If...",
+      "tags": [
+        "kubernetes",
+        "database",
+        "sql",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b0aca5b327384cae6651ed0fe2fee61c",
+      "title": "Deploying Apache Cassandra on Kubernetes",
+      "url": "https://dev.to/vultr/deploying-apache-cassandra-on-kubernetes-po6",
+      "source": "Dev.to",
+      "published_at": "2026-07-24T14:14:55Z",
+      "summary": "Apache Cassandra is a highly scalable, distributed NoSQL database built for write-heavy workloads,...",
+      "tags": [
+        "kubernetes",
+        "database",
+        "cassandra",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "53346a782e320f170feeb6978ef83cd7",
+      "title": "Deploying Gateway API with TLS Encryption on Kubernetes",
+      "url": "https://dev.to/vultr/deploying-gateway-api-with-tls-encryption-on-kubernetes-129a",
+      "source": "Dev.to",
+      "published_at": "2026-07-24T14:12:45Z",
+      "summary": "The Kubernetes Gateway API is the successor to Ingress, a more expressive, role-oriented resource...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "tls",
+        "networking"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f767f94989b66b5ad2a3c84306090195",
+      "title": "DSCI - CI with regular programming languages instead of YAML",
+      "url": "https://dev.to/sp1983/dsci-ci-with-regular-programming-languages-instead-of-yaml-29kk",
+      "source": "Dev.to",
+      "published_at": "2026-07-23T11:09:31Z",
+      "summary": "How to use DSCI to build CI pipelines using regular programing languages",
+      "tags": [
+        "rakulang",
+        "ci",
+        "forgejo",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dca65776e1bb2586ec050b16aca6887c",
+      "title": "Why AI Apps Fail in Production (And How Google Solved It)",
+      "url": "https://dev.to/googleai/why-ai-apps-fail-in-production-and-how-google-solved-it-5a3m",
+      "source": "Dev.to",
+      "published_at": "2026-07-22T17:36:07Z",
+      "summary": "We are living in the golden age of the weekend AI side project. Thanks to vibe coding and LLMs, you...",
+      "tags": [
+        "ai",
+        "vibecoding",
+        "devops",
+        "architecture"
+      ],
       "relevance_score": 0.0
     }
   ]
