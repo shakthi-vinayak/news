@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T21:16:34Z",
+  "generated_at": "2026-07-24T23:12:58Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,31 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d240268296c65ecf7c8ad2bdbbc8f9a6",
-      "title": "What is the one automation you have added, that you are proud of?",
-      "url": "https://www.reddit.com/r/devops/comments/1uze2sz/what_is_the_one_automation_you_have_added_that/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-17T22:21:48+00:00",
-      "summary": "As DevOps, we all work on automating tasks to make our lives easier. What is the most satisfying automation you have ever implemented that truly saved you time?  &#32; submitted by &#32;  /u/SwordfishPositive91   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d296b75b45af12c14832c0b5315c2963",
-      "title": "AI Worked Both Sides of the Security Ledger This Week. Here's What to Actually Run",
-      "url": "https://dev.to/kkierii/ai-worked-both-sides-of-the-security-ledger-this-week-heres-what-to-actually-run-2071",
-      "source": "Dev.to",
-      "published_at": "2026-07-17T22:24:56Z",
-      "summary": "Two of the zero-days Microsoft patched on July 14 are being exploited right now. Here is the...",
-      "tags": [
-        "ai",
-        "devops",
-        "programming",
-        "cybersecurity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "dd6a9d87b60cbd776ead520996fdab9a",
       "title": "Musk open-sourced Grok Build to fight Anthropic. Anthropic pays him $1.25 billion a month.",
       "url": "https://thenewstack.io/musk-spacexai-grok-open-source/",
@@ -2152,16 +2127,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-07-18T02:46:42+00:00",
       "summary": "Looking for feedback from folks running apps that require mTLS that use API Gateway. What controller are you using? Traefik, Envoy, etc.  Any pain points or gotchas you might have ran into?  Any other feedback or recommendations welcome!   &#32; submitted by &#32;  /u/Chest-queef   [link] &#32; [com",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e3434acbf6301ef85e093aac675756b0",
-      "title": "Kustomize Overlays - Adding Complexity?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1uzemlw/kustomize_overlays_adding_complexity/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-17T22:44:51+00:00",
-      "summary": "So im working with Kustomize Overlays( FluxCD). i understand you setup your base infra with overlays per environment and then use patches for environment specific configurations such as replicas, urls, etc.. Some of these patches become very complex and large to the point i think its just easier to ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3261,6 +3226,31 @@
       "published_at": "2026-07-24T18:08:30+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "304271aea74ef87ff0bb6c58537771dc",
+      "title": "Looking for feedback on my open-source production-grade AWS EKS platform architecture",
+      "url": "https://www.reddit.com/r/devops/comments/1v5p19e/looking_for_feedback_on_my_opensource/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-24T21:42:44+00:00",
+      "summary": "      Hi everyone, Over the past few weeks, I've been working on an open-source project to deepen my Platform Engineering and DevOps skills. The goal wasn't just to deploy an EKS cluster, but to create a reusable, production-oriented reference architecture following Infrastructure as Code and GitOps",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f9516651afbe1114d763eca75feab1e1",
+      "title": "My fix for a data-loss bug sat in a green PR for four days. Every install in that window still had the bug.",
+      "url": "https://dev.to/achiya-automation/my-fix-for-a-data-loss-bug-sat-in-a-green-pr-for-four-days-every-install-in-that-window-still-had-2jj5",
+      "source": "Dev.to",
+      "published_at": "2026-07-21T11:12:56Z",
+      "summary": "On July 17 I opened the most serious issue my project has ever had, wrote the fix the same morning,...",
+      "tags": [
+        "programming",
+        "opensource",
+        "javascript",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
