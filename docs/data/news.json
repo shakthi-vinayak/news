@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T10:29:46Z",
+  "generated_at": "2026-07-24T14:06:50Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1117,36 +1117,6 @@
       "url": "https://github.com/istio/istio/releases/tag/1.30.3",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-07-16T16:50:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0d020f3e502664db6c53073926aea0da",
-      "title": "Why every AI agent decision needs a receipt",
-      "url": "https://thenewstack.io/agent-evidence-packet-analytics/",
-      "source": "The New Stack",
-      "published_at": "2026-07-17T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "72a961034a3f2476dc475a8e92a395cd",
-      "title": "From intent to enforcement: Lessons from operating Kubernetes controllers at scale",
-      "url": "https://thenewstack.io/kubernetes-controllers-at-scale/",
-      "source": "The New Stack",
-      "published_at": "2026-07-17T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b09c60c627da54207faf5aee12849701",
-      "title": "Arm and Google offer a smarter option to run agentic AI workloads",
-      "url": "https://thenewstack.io/cpu-agentic-ai-axion/",
-      "source": "The New Stack",
-      "published_at": "2026-07-17T12:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2335,16 +2305,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "eed6c8b09fba166053a4f4d007180d81",
-      "title": "Managed k8s is a financial trap and im tired of pretending it's not",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1uyxdpi/managed_k8s_is_a_financial_trap_and_im_tired_of/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-17T11:46:32+00:00",
-      "summary": "sat down to review our cloud bill this morning and honestly felt my soul leave my body. The amount we are paying just for cross-az data transfer and nat gateways for our EKS clusters could literally fund another engineering team Everyone pushes managed kubernetes like it's the holy grail of modern i",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a634e6338feda27bcca8e2ca4d67e8bc",
       "title": "ollama/ollama: v0.32.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3",
@@ -3255,6 +3215,26 @@
         "webdev",
         "security"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b6c990673cbf02a61c2d1ef140dae029",
+      "title": "OpenTelemetry has graduated… Now what?",
+      "url": "https://www.cncf.io/blog/2026/07/24/opentelemetry-has-graduated-now-what/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-24T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0cd00589d3e00c7846f0240e06d0ad74",
+      "title": "What is the long term plan for charts supporting Gateway API?",
+      "url": "https://www.reddit.com/r/devops/comments/1v57q3k/what_is_the_long_term_plan_for_charts_supporting/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-24T10:39:20+00:00",
+      "summary": "We manage all of our infra apps like Vault, Argo Workflows and many others using Terraform + Helm. TF creates the ArgoCD ApplicationSet which points to the chart and values managed in the repo, and ArgoCD syncs everything. During the transition to GW API I noticed that most charts either don't suppo",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
