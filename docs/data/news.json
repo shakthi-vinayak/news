@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T11:23:46Z",
+  "generated_at": "2026-07-25T13:57:42Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,16 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d3e59a84162f477165b18ca067f4e1cf",
-      "title": "I trust Claude for everything. This test made me rethink that.",
-      "url": "https://thenewstack.io/grok-opus-coding-tokens/",
-      "source": "The New Stack",
-      "published_at": "2026-07-18T13:01:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d5575c15026deda4f4b94cb02f846944",
       "title": "The bottleneck for AI agents isn’t the model anymore. It’s the context layer.",
       "url": "https://thenewstack.io/ai-agent-infrastructure-bottleneck/",
@@ -2097,16 +2087,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-07-19T12:50:17+00:00",
       "summary": "During a Kubernetes incident (say users start getting 503s), what's your typical debugging workflow? Mine usually looks something like: Ingress → Service → Endpoints → Pods → Readiness → Events → Logs I'm curious whether experienced platform engineers and SREs follow a similar flow or if there are b",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c06eaf97bd4ce340e2f55d8d6d09bee6",
-      "title": "Article: Topology-Aware GPU scheduling with KAI Scheduler",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1uzuo6a/article_topologyaware_gpu_scheduling_with_kai/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-18T12:32:03+00:00",
-      "summary": "A simple walkthrough on how to use KAI Scheduler for topology-aware placement and gang scheduling to keep distributed GPU training inside one region, zone, or rack on Kubernetes https://hrittikhere.com/posts/kubernetes-topology-aware-scheduling-kai  &#32; submitted by &#32;  /u/mhrittik   [link] &#3",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3312,6 +3292,16 @@
       "source": "The New Stack",
       "published_at": "2026-07-25T10:30:00+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "24b5b5e8c0e6af04be57367e0c2900e7",
+      "title": "How do you manage/handle openAPI specs sharing between teams?",
+      "url": "https://www.reddit.com/r/devops/comments/1v66xq8/how_do_you_managehandle_openapi_specs_sharing/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-25T12:21:02+00:00",
+      "summary": "Hey everyone, Looking for some advice on a better way to handle and secure our Swagger/OpenAPI docs without overcomplicating our stack or breaking the bank.  Our current setup: We have several projects hosted on Azure. Each project has standard Dev, Staging, and Prod environments and 3 engineering t",
       "tags": [],
       "relevance_score": 0.0
     }
