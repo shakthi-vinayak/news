@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T06:28:40Z",
+  "generated_at": "2026-07-25T10:00:37Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -3303,6 +3303,16 @@
         "node",
         "aws"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0a191dfe3928da757d6236ea12a849f9",
+      "title": "Terraform Question I am asked almost everytime",
+      "url": "https://www.reddit.com/r/devops/comments/1v637pl/terraform_question_i_am_asked_almost_everytime/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-25T09:04:52+00:00",
+      "summary": "You're working in production. Your Terraform backend is:  S3 for state DynamoDB for locking  A developer accidentally deletes the DynamoDB lock table. At the same time, two engineers run terraform apply. Thirty minutes later, the infrastructure is in an inconsistent state. Questions  What exactly ha",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
