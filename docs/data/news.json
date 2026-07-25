@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T13:57:42Z",
+  "generated_at": "2026-07-25T15:15:32Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,26 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d5575c15026deda4f4b94cb02f846944",
-      "title": "The bottleneck for AI agents isn’t the model anymore. It’s the context layer.",
-      "url": "https://thenewstack.io/ai-agent-infrastructure-bottleneck/",
-      "source": "The New Stack",
-      "published_at": "2026-07-18T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "20b260ea478eb032def4effb63cb19cf",
-      "title": "Platform engineering’s new job: serving environments at agent speed",
-      "url": "https://thenewstack.io/serving-environments-agent-speed/",
-      "source": "The New Stack",
-      "published_at": "2026-07-18T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "53c7a9703fcd13a396aae6e55375aaa2",
       "title": "How much DevOps implementation is expected from a Freshie to know?",
       "url": "https://www.reddit.com/r/devops/comments/1v060es/how_much_devops_implementation_is_expected_from_a/",
@@ -1226,21 +1206,6 @@
         "networking",
         "devops",
         "security"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9213f429ad961dbfc52d202c8c5a0307",
-      "title": "You fixed SPF, DKIM and DMARC and email still lands in spam. Here's why.",
-      "url": "https://dev.to/basictechnology/you-fixed-spf-dkim-and-dmarc-and-email-still-lands-in-spam-heres-why-a4f",
-      "source": "Dev.to",
-      "published_at": "2026-07-18T07:04:20Z",
-      "summary": "Last post I got the auth records green on my side-project mail. SPF, DKIM, DMARC all passing, and I...",
-      "tags": [
-        "email",
-        "devops",
-        "selfhosted",
-        "deliverability"
       ],
       "relevance_score": 0.0
     },
@@ -3238,12 +3203,13 @@
       "url": "https://dev.to/femitek_8ef22c/looking-for-testers-and-contributors-aws-guardduty-to-microsoft-sentinel-integration-37h3",
       "source": "Dev.to",
       "published_at": "2026-07-22T21:06:33Z",
-      "summary": "The post seeks testers for an integration that bridges AWS GuardDuty alerts with Microsoft Sentinel for improved security monitoring.",
+      "summary": "I recently published guardduty-sentinel-integration, an open-source project that helps security teams...",
       "tags": [
-        "Cloud",
-        "Security"
+        "devops",
+        "security",
+        "productivity"
       ],
-      "relevance_score": 0.6
+      "relevance_score": 0.0
     },
     {
       "id": "c48de6728c654b821a5aef13b65a6ef0",
@@ -3303,6 +3269,21 @@
       "published_at": "2026-07-25T12:21:02+00:00",
       "summary": "Hey everyone, Looking for some advice on a better way to handle and secure our Swagger/OpenAPI docs without overcomplicating our stack or breaking the bank.  Our current setup: We have several projects hosted on Azure. Each project has standard Dev, Staging, and Prod environments and 3 engineering t",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c4e30a54683661ee61610a9ea83bd202",
+      "title": "Your incident postmortems aren't investigations; they're fan fiction.",
+      "url": "https://dev.to/renato_marinho/your-incident-postmortems-arent-investigations-theyre-fan-fiction-3am",
+      "source": "Dev.to",
+      "published_at": "2026-07-21T03:24:24Z",
+      "summary": "A look at why incident postmortems fail and how we can use MCP to enforce SRE-grade rigor.",
+      "tags": [
+        "sre",
+        "devops",
+        "ai",
+        "automation"
+      ],
       "relevance_score": 0.0
     }
   ]
