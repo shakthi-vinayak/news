@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T10:11:49Z",
+  "generated_at": "2026-07-26T13:49:32Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,16 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ad7f75e7e6cd709e1fa638fdba2f3f7b",
-      "title": "Self-healing GPU nodes in Kubernetes: What we learned building the EKS node monitoring agent",
-      "url": "https://thenewstack.io/self-healing-gpu-nodes/",
-      "source": "The New Stack",
-      "published_at": "2026-07-19T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "1ad03e4fd8e439c511a7393136a3f95a",
       "title": "How do your teams manage planning?",
       "url": "https://www.reddit.com/r/devops/comments/1v0vscq/how_do_your_teams_manage_planning/",
@@ -1159,21 +1149,6 @@
       "published_at": "2026-07-19T16:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "77d629db796cee46e1c0cfa2ece626de",
-      "title": "Demystifying LLM Tokenizers: Building a Client-Side Token and API Cost Calculator",
-      "url": "https://dev.to/kandz/demystifying-llm-tokenizers-building-a-client-side-token-and-api-cost-calculator-56pn",
-      "source": "Dev.to",
-      "published_at": "2026-07-19T11:08:14Z",
-      "summary": "If you are building applications with large language models (LLMs) like OpenAI's GPT-4o, Anthropic's...",
-      "tags": [
-        "ai",
-        "javascript",
-        "webdev",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1910,16 +1885,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-07-20T13:16:01+00:00",
       "summary": "If you are in NYC and available on Wednesday evening, come hear guest speaker Noam Levy talk end-to-end testing with Kubernetes and networking magic. 🪄  ➡️ If you can make it, please RSVP at https://luma.com/u4vja8rx See you soon!   &#32; submitted by &#32;  /u/MutedReputation202   [link] &#32; [com",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "620e182ac6d62e0b0eeece38cd610d55",
-      "title": "Curious about what people usually follow during the troubleshooting process?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1v0prxy/curious_about_what_people_usually_follow_during/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-19T12:50:17+00:00",
-      "summary": "During a Kubernetes incident (say users start getting 503s), what's your typical debugging workflow? Mine usually looks something like: Ingress → Service → Endpoints → Pods → Readiness → Events → Logs I'm curious whether experienced platform engineers and SREs follow a similar flow or if there are b",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3346,6 +3311,21 @@
       "published_at": "2026-07-26T07:49:28+00:00",
       "summary": "I always heard that in the Indian market AWS has more jobs, is it still the same case  &#32; submitted by &#32;  /u/0diyammabadava   [link] &#32; [comments]",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2245e2172c69ff79d8e111b4ef3aabb9",
+      "title": "Sesiones remotas siempre disponibles para tus agentes de codigo",
+      "url": "https://dev.to/aws-builders/sesiones-remotas-siempre-disponibles-para-tus-agentes-de-codigo-549f",
+      "source": "Dev.to",
+      "published_at": "2026-07-25T19:19:33Z",
+      "summary": "Una sesión de agente que sobrevive a cerrar la laptop, corriendo en una sola instancia EC2 chica que...",
+      "tags": [
+        "automation",
+        "aws",
+        "cli",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
