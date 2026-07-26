@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T06:47:17Z",
+  "generated_at": "2026-07-26T10:11:49Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,50 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "9039767b21bcbbc2a9104c1f1c0909f9",
-      "title": "Terraform visualizer project",
-      "url": "https://www.reddit.com/r/devops/comments/1v0luip/terraform_visualizer_project/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-19T09:18:50+00:00",
-      "summary": "Reddit showcase of a Terraform visualizer tool that graphs infrastructure dependencies and module relationships.",
-      "tags": [
-        "Terraform",
-        "DevOps",
-        "Cloud"
-      ],
-      "relevance_score": 0.8
-    },
-    {
-      "id": "b8c6301c2904ff9dc71e6a3a7f672239",
-      "title": "Two ways to reuse a privileged CI token (and my rule only caught one)",
-      "url": "https://dev.to/kielltampubolon/two-ways-to-reuse-a-privileged-ci-token-and-my-rule-only-caught-one-l1p",
-      "source": "Dev.to",
-      "published_at": "2026-07-19T08:43:28Z",
-      "summary": "A GitHub Actions security rule that only caught half its vulnerability class, the design mistake behind it, and why checking for something missing is harder than checking for something bad.",
-      "tags": [
-        "security",
-        "devops",
-        "opensource",
-        "python"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "34a14fa0d73ec1162cdd3395e2a9b1ea",
-      "title": "Your SSH Key Isn’t Always the Problem: A Layer-by-Layer Debugging Guide",
-      "url": "https://dev.to/xinyangwuethz/your-ssh-key-isnt-always-the-problem-a-layer-by-layer-debugging-guide-281p",
-      "source": "Dev.to",
-      "published_at": "2026-07-19T06:55:41Z",
-      "summary": "I once ran:    ssh demo-server        Enter fullscreen mode            Exit fullscreen mode    ...",
-      "tags": [
-        "ssh",
-        "networking",
-        "devops",
-        "security"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ad7f75e7e6cd709e1fa638fdba2f3f7b",
       "title": "Self-healing GPU nodes in Kubernetes: What we learned building the EKS node monitoring agent",
       "url": "https://thenewstack.io/self-healing-gpu-nodes/",
@@ -1228,21 +1184,6 @@
       "published_at": "2026-07-19T18:02:33+00:00",
       "summary": "We’re on AWS Activate credits and just realized NAT Gateway (hourly plus data processing charges) is eating up about 80% of our total AWS spend. Didn’t expect it to be anywhere near that high until we actually looked at Cost Explorer. We know some of the usual fixes exist, like VPC endpoints for S3/",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "16651f7b0ddd44b220c0533892d7fc7b",
-      "title": "Why We Chose Next.js + MERN Stack for White-Label Client Projects",
-      "url": "https://dev.to/buildbeyondstudio/why-we-chose-nextjs-mern-stack-for-white-label-client-projects-h1a",
-      "source": "Dev.to",
-      "published_at": "2026-07-19T05:22:27Z",
-      "summary": "When you're building websites and web apps for other agencies' clients — under their brand, on their...",
-      "tags": [
-        "webdev",
-        "javascript",
-        "nextjs",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3395,6 +3336,16 @@
         "devops",
         "machinelearning"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "15ab6dbc7df077c90fac148c930e251d",
+      "title": "AWS vs Azure, which cloud to learn wrt Indian market?",
+      "url": "https://www.reddit.com/r/devops/comments/1v6x9sc/aws_vs_azure_which_cloud_to_learn_wrt_indian/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-26T07:49:28+00:00",
+      "summary": "I always heard that in the Indian market AWS has more jobs, is it still the same case  &#32; submitted by &#32;  /u/0diyammabadava   [link] &#32; [comments]",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
