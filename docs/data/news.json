@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T17:14:24Z",
+  "generated_at": "2026-07-26T19:26:31Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1118,16 +1118,6 @@
       "source": "GitHub Releases (istio)",
       "published_at": "2026-07-16T16:50:56+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "81027a86941cc45b4291f17cbadc825e",
-      "title": "NAT Gateway is somehow 80% of our AWS bill, how are you all keeping this in check?",
-      "url": "https://www.reddit.com/r/devops/comments/1v0xgjh/nat_gateway_is_somehow_80_of_our_aws_bill_how_are/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-19T18:02:33+00:00",
-      "summary": "We’re on AWS Activate credits and just realized NAT Gateway (hourly plus data processing charges) is eating up about 80% of our total AWS spend. Didn’t expect it to be anywhere near that high until we actually looked at Cost Explorer. We know some of the usual fixes exist, like VPC endpoints for S3/",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3350,6 +3340,36 @@
         "security",
         "llm",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4bfab321adbe7df58563a4c4da081a52",
+      "title": "\"Server Down Hai, Try Later\": What's Actually Happening When a Site Dies",
+      "url": "https://dev.to/fuzzykidoo/server-down-hai-try-later-whats-actually-happening-when-a-site-dies-5hjb",
+      "source": "Dev.to",
+      "published_at": "2026-07-26T18:21:33Z",
+      "summary": "How you doin'?   Let's talk about the Iconic thing we heard a lot: \"server down, try later.\" Your...",
+      "tags": [
+        "ai",
+        "hackathon",
+        "devops",
+        "productivity"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e5b8409d3d563f35a4452156b0460504",
+      "title": "Openship: Your Deployment Tool Shouldn't Compete With Your App for RAM",
+      "url": "https://dev.to/arshtechpro/openship-your-deployment-tool-shouldnt-compete-with-your-app-for-ram-5a4k",
+      "source": "Dev.to",
+      "published_at": "2026-07-26T16:59:30Z",
+      "summary": "The self-hosted PaaS drawer is not empty. Coolify, Dokploy, CapRover, Dokku, Kamal. If you have...",
+      "tags": [
+        "ai",
+        "opensource",
+        "devops",
+        "docker"
       ],
       "relevance_score": 0.0
     }
