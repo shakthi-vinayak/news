@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T15:15:07Z",
+  "generated_at": "2026-07-26T17:14:24Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1117,36 +1117,6 @@
       "url": "https://github.com/istio/istio/releases/tag/1.30.3",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-07-16T16:50:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1ad03e4fd8e439c511a7393136a3f95a",
-      "title": "How do your teams manage planning?",
-      "url": "https://www.reddit.com/r/devops/comments/1v0vscq/how_do_your_teams_manage_planning/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-19T16:58:11+00:00",
-      "summary": "For those on platform or DevOps teams, what does your planning process look like? We have no problem writing docs and roadmaps for product features, but it doesn’t always feel like it aligns with the rest of the business.  Do you have Product Design Docs? Technical design docs? Quarterly roadmaps? O",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7ee0083408c2e81dfdac382429fbd245",
-      "title": "How is CI/CD managed in enterprise environments?",
-      "url": "https://www.reddit.com/r/devops/comments/1v0v1a4/how_is_cicd_managed_in_enterprise_environments/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-19T16:28:27+00:00",
-      "summary": "Hi everyone, I'm learning CI/CD and would love to understand how it's managed in enterprise environments. A few questions:  Which CI/CD tool(s) do you use (GitHub Actions, Jenkins, GitLab CI, Azure DevOps, CircleCI, etc.), and why did your team choose them? How do you structure your CI/CD pipelines ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7e9918cd7f9625d962e3fe0816bd00f5",
-      "title": "Spark 4.2 has a feature that could retire your vector database",
-      "url": "https://thenewstack.io/spark-4-2-ai-workloads/",
-      "source": "The New Stack",
-      "published_at": "2026-07-19T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3336,6 +3306,51 @@
       "published_at": "2026-07-26T14:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c2d0beb47510556debb6188db35d9f8a",
+      "title": "Building an Adaptive Authorization Layer with SigNoz and OpenTelemetry",
+      "url": "https://dev.to/vaibhav_shukla_20/building-an-autonomy-error-budget-gateway-with-signoz-and-opentelemetry-4ia3",
+      "source": "Dev.to",
+      "published_at": "2026-07-26T05:38:53Z",
+      "summary": "A lot of agent implementations right now have static permissions. If an agent's allowed to run...",
+      "tags": [
+        "agents",
+        "ai",
+        "automation",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9ed4b3212ebe9e63643e7b258b8e5592",
+      "title": "Several agents, one dirty index: disposable multi-repo workspaces for Claude Code",
+      "url": "https://dev.to/riccardo_cereghino/several-agents-one-dirty-index-disposable-multi-repo-workspaces-for-claude-code-1936",
+      "source": "Dev.to",
+      "published_at": "2026-07-25T13:13:09Z",
+      "summary": "Before facet existed, I was at work, locked into a Windows machine. I much prefer Linux, and the...",
+      "tags": [
+        "ai",
+        "git",
+        "devops",
+        "showdev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3c6fbc38f6f4868a521ed61841e0b16c",
+      "title": "AI Agent Sandboxing: Contain the Blast Radius",
+      "url": "https://dev.to/brennhill/ai-agent-sandboxing-contain-the-blast-radius-59p8",
+      "source": "Dev.to",
+      "published_at": "2026-07-25T12:00:00Z",
+      "summary": "AI agent sandboxing means running an autonomous AI agent inside an isolated, contained environment. No network by default, scoped and short-lived…",
+      "tags": [
+        "ai",
+        "security",
+        "llm",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
