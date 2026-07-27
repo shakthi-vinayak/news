@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T07:45:17Z",
+  "generated_at": "2026-07-27T11:37:53Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-24T07:58:35+00:00",
+      "published_at": "2026-07-27T08:02:35+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1122,56 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "28bc94ab137dc6e66c8bba3a53d70efb",
-      "title": "Why goodput matters more than throughput for LLM serving",
-      "url": "https://www.cncf.io/blog/2026/07/20/why-goodput-matters-more-than-throughput-for-llm-serving/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-20T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "821b3d8ec84337621e35bbe83f2df8af",
-      "title": "xAI Open-Sources Grok Build Coding Agent After Cloud Upload Exposes SSH Keys, Repos",
-      "url": "https://devops.com/xai-open-sources-grok-build-coding-agent-after-cloud-upload-exposes-ssh-keys-repos/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-20T08:29:43+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f3e7db618551ae270a2d35cecc3d560b",
-      "title": "n8n-io/n8n: n8n@2.31.4",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.4",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-20T08:24:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "41b011ee3133cd7d36234334c4e11058",
-      "title": "I don't trust AGENTS.md as a secret-redaction boundary",
-      "url": "https://www.reddit.com/r/devops/comments/1v1fihb/i_dont_trust_agentsmd_as_a_secretredaction/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-20T08:24:09+00:00",
-      "summary": "I am getting less comfortable with using repo instruction files as a safety boundary. They are useful for preferences: commands to run, folders to avoid, how to format the final answer. But if an agent can read config files or logs, I do not think &quot;please redact secrets&quot; in a markdown file",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ed7b5d7a6ef669f692d299d273df0b7b",
-      "title": "HashiCorp Introduces tfpolicy, a Native Policy Framework for Terraform",
-      "url": "https://devops.com/hashicorp-introduces-tfpolicy-a-native-policy-framework-for-terraform/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-20T08:18:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e5b93810192dffe53e140c1cad9def30",
       "title": "Ten Great DevOps Job Opportunities",
       "url": "https://devops.com/ten-great-devops-job-opportunities-15/",
@@ -1287,21 +1237,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ce226562b7ca882bddb71f5c0bff5616",
-      "title": "I built a safety tool for the AWS Console, then shipped a 6-second hole in it",
-      "url": "https://dev.to/cowijin/i-built-a-safety-tool-for-the-aws-console-then-shipped-a-6-second-hole-in-it-58ac",
-      "source": "Dev.to",
-      "published_at": "2026-07-20T10:41:43Z",
-      "summary": "We've all seen the postmortem, or written it: wrong account in the tab, one wrong click.  The AWS...",
-      "tags": [
-        "aws",
-        "devops",
-        "opensource",
-        "javascript"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c903a20b2a51624126d80168c1bfe45f",
       "title": "ollama/ollama: v0.32.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc0",
@@ -1383,21 +1318,6 @@
       "published_at": "2026-07-21T07:59:50+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "77a504b48f686b1432e6cc30628fbca0",
-      "title": "Additive column can 500 every login (Drizzle + Better Auth + preview deploys)",
-      "url": "https://dev.to/omar_bni_f6856a8bb0e021e9/additive-column-can-500-every-login-drizzle-better-auth-preview-deploys-3pg3",
-      "source": "Dev.to",
-      "published_at": "2026-07-20T10:45:12Z",
-      "summary": "Originally published on the Clanker Support blog.  Migration 0017_user_role.sql in our repo is one...",
-      "tags": [
-        "database",
-        "sql",
-        "devops",
-        "webdev"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3312,6 +3232,101 @@
         "machinelearning",
         "devops",
         "agents"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "51fb640ed54487838c66842416373ccd",
+      "title": "Federating clusters for zero-downtime Kubernetes",
+      "url": "https://www.cncf.io/blog/2026/07/27/federating-clusters-for-zero-downtime-kubernetes/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-27T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "368f2c7d7904e57affe799f5e7d94071",
+      "title": "Human-in-the-Loop Agentic DevOps: Govern AI Automation in GitHub Issues",
+      "url": "https://dev.to/pwd9000/human-in-the-loop-agentic-devops-govern-ai-automation-in-github-issues-472h",
+      "source": "Dev.to",
+      "published_at": "2026-07-27T10:37:38Z",
+      "summary": "Learn how GitHub Issues combines agent confidence, rationales and approvals to keep agentic DevOps fast, visible and human-led.",
+      "tags": [
+        "githubcopilot",
+        "github",
+        "devops",
+        "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f029f8f560f01a89681d61d50b68d7b9",
+      "title": "GitHub Gives Teams More Control Over Copilot’s Cloud Agent in Linear",
+      "url": "https://devops.com/github-gives-teams-more-control-over-copilots-cloud-agent-in-linear/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-27T10:32:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "129369b322adea3fdb0202a824829c26",
+      "title": "Alternatives to Kubernetes for medium-sized organizations?",
+      "url": "https://www.reddit.com/r/devops/comments/1v7u665/alternatives_to_kubernetes_for_mediumsized/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-27T08:15:34+00:00",
+      "summary": "Kubernetes is a great platform, but it can be expensive and may be more than what’s needed for many medium-sized organizations. What are the common alternatives being used in production? Interested in hearing what solutions have worked well in real-world environments and the reasons behind those cho",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e1e4805ad8788061337ae2e725028619",
+      "title": "Agentic ai devops after a year",
+      "url": "https://www.reddit.com/r/devops/comments/1v7u28r/agentic_ai_devops_after_a_year/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-27T08:09:07+00:00",
+      "summary": "we run a fairly boring b2b product, 20ish services, small platform team. a year ago management got excited about agentic ai devops and told us to &quot;explore aggressively&quot;. so we did, and honestly most of it got thrown out what didnt stay: - ai generated terraform. we tried stackgen and messe",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "072fd3144e96311db4cc1c8245cabf62",
+      "title": "n8n-io/n8n: n8n@2.31.7",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.31.7",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-27T08:06:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a24e38b83fa117802262af4296177142",
+      "title": "Designing a Scalable Release System for Multi-Package TypeScript Monorepos",
+      "url": "https://dev.to/__whyd_rf/building-a-production-ready-release-pipeline-for-multi-package-typescript-monorepos-1ohm",
+      "source": "Dev.to",
+      "published_at": "2026-07-26T11:24:15Z",
+      "summary": "A practical guide to building automated deployment pipelines for multi-package TypeScript monorepos — covering versioning, npm publishing, Docker, and docs deployment.",
+      "tags": [
+        "typescript",
+        "devops",
+        "cicd",
+        "deployment"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "419c0961232b903dbfc304f9d6f2baaf",
+      "title": "From Policy to Pipeline: Making Compliance an Engineering Property",
+      "url": "https://dev.to/anusha_mukka/from-policy-to-pipeline-making-compliance-an-engineering-property-35ap",
+      "source": "Dev.to",
+      "published_at": "2026-07-25T19:41:30Z",
+      "summary": "Part 4 of \"Trust the Machine\" —&gt; a series on building AI infrastructure that is secure, compliant,...",
+      "tags": [
+        "ai",
+        "security",
+        "devops",
+        "compliance"
       ],
       "relevance_score": 0.0
     }
