@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T14:59:03Z",
+  "generated_at": "2026-07-27T17:52:51Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1142,31 +1142,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ea406819327e130fbc16ca8f6a8ec90b",
-      "title": "Amazon, Microsoft, and Google are converging on the same enterprise agent architecture",
-      "url": "https://thenewstack.io/agent-platform-portability-contract/",
-      "source": "The New Stack",
-      "published_at": "2026-07-20T17:43:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a0252f36348233d83b543af7039535e8",
       "title": "JVM memory, CPU, and classpath best practices for Java containers on AWS",
       "url": "https://aws.amazon.com/blogs/containers/jvm-memory-cpu-and-classpath-best-practices-for-java-containers-on-aws/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-07-20T16:54:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6b575c51067013d1e54be3fe291b03da",
-      "title": "Anthropic employees worked “literally around the clock” to keep Fable 5 from disappearing",
-      "url": "https://thenewstack.io/fable-5-permanent-subscription-access/",
-      "source": "The New Stack",
-      "published_at": "2026-07-20T16:38:09+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1183,36 +1163,6 @@
         "githubactions",
         "devops",
         "tutorial"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "60910039e442794bd8fcc783c39c23b3",
-      "title": "Why I chose Rust over Go for an uptime monitor",
-      "url": "https://dev.to/slima4/why-i-chose-rust-over-go-for-an-uptime-monitor-lo8",
-      "source": "Dev.to",
-      "published_at": "2026-07-20T14:46:30Z",
-      "summary": "Go is the usual pick for a service like this. I chose Rust for one reason: a monitor sells clean timing, and its own runtime must not add random delay.",
-      "tags": [
-        "rust",
-        "go",
-        "monitoring",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a857f741060b9a207bbdb8be441d87c8",
-      "title": "Gemma4 DevOps In Action",
-      "url": "https://dev.to/gde/gemma4-devops-in-action-10bl",
-      "source": "Dev.to",
-      "published_at": "2026-07-20T14:20:31Z",
-      "summary": "In the last entry I got Gemma-4's 128-expert MoE running on an inf2.24xlarge and signed off with...",
-      "tags": [
-        "ai",
-        "aws",
-        "devops",
-        "llm"
       ],
       "relevance_score": 0.0
     },
@@ -1413,16 +1363,6 @@
         "mcp",
         "devops"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "183c2c1de75da2d34abd410edd9adc0b",
-      "title": "Amazon, Microsoft, and Google are converging on the same enterprise agent architecture",
-      "url": "https://thenewstack.io/amazon-microsoft-and-google-are-converging-on-the-same-enterprise-agent-architecture/",
-      "source": "The New Stack",
-      "published_at": "2026-07-20T17:43:11+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3334,6 +3274,56 @@
       "published_at": "2026-07-27T13:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "95452f7d6eb3ba6b39130fc8233c2e3a",
+      "title": "langchain-ai/langchain: langchain-fireworks==1.5.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.2",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-27T16:59:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b7aae1e48b6f2258e7d5f48a2836d402",
+      "title": "Microsoft is racing to make OpenAI optional",
+      "url": "https://thenewstack.io/microsoft-homegrown-ai-models/",
+      "source": "The New Stack",
+      "published_at": "2026-07-27T16:24:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ff1b82f40b730ccad20771e44161a2ca",
+      "title": "Branch-Based CI/CD: Quality Gate to Multi-Environment Deploy with GitHub Actions",
+      "url": "https://dev.to/saint_vandora/branch-based-cicd-quality-gate-to-multi-environment-deploy-with-github-actions-16jf",
+      "source": "Dev.to",
+      "published_at": "2026-07-27T11:06:16Z",
+      "summary": "A complete, reusable pattern for wiring a code-quality gate (SonarQube) to Docker build, image...",
+      "tags": [
+        "docker",
+        "devops",
+        "productivity",
+        "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c0f90b8178d169c3d9e6f0f71fa4887d",
+      "title": "Build a Terraform provider for your side project's API (it's smaller than you think)",
+      "url": "https://dev.to/devopsdaily/build-a-terraform-provider-for-your-side-projects-api-its-smaller-than-you-think-5bg8",
+      "source": "Dev.to",
+      "published_at": "2026-07-23T19:56:52Z",
+      "summary": "Writing a Terraform provider sounds like a big-company activity, something HashiCorp partners do with...",
+      "tags": [
+        "devops",
+        "terraform",
+        "go",
+        "smtp"
+      ],
       "relevance_score": 0.0
     }
   ]
