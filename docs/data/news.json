@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T11:37:53Z",
+  "generated_at": "2026-07-27T14:59:03Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,26 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e5b93810192dffe53e140c1cad9def30",
-      "title": "Ten Great DevOps Job Opportunities",
-      "url": "https://devops.com/ten-great-devops-job-opportunities-15/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-20T14:08:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4ec88f3f45624487a25f97f1409c261f",
-      "title": "Grok 4.5 vs. Claude Opus 4.8: Costs and what works, not the spec sheet",
-      "url": "https://thenewstack.io/grok-opus-coding-tokens/",
-      "source": "The New Stack",
-      "published_at": "2026-07-20T13:38:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d29c00b1ed98859a2a22d951db7749a2",
       "title": "Coding Agent Horror Stories: The Agent That Deleted Production",
       "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-agent-that-deleted-production/",
@@ -1711,16 +1691,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "29cf9aa63c2d30f10eb2422f8b1fde31",
-      "title": "📣 Last call for the Plural x Kubernetes July NYC meetup this Wednesday, July 22",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1v1l9lu/last_call_for_the_plural_x_kubernetes_july_nyc/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-20T13:16:01+00:00",
-      "summary": "If you are in NYC and available on Wednesday evening, come hear guest speaker Noam Levy talk end-to-end testing with Kubernetes and networking magic. 🪄  ➡️ If you can make it, please RSVP at https://luma.com/u4vja8rx See you soon!   &#32; submitted by &#32;  /u/MutedReputation202   [link] &#32; [com",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a634e6338feda27bcca8e2ca4d67e8bc",
       "title": "ollama/ollama: v0.32.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc3",
@@ -2205,20 +2175,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "4b9466047a018dba52001d31d602fb81",
-      "title": "Bonsai-27B on a Single 3090: What Works and What Doesn't",
-      "url": "https://dev.to/o96a/bonsai-27b-on-a-single-3090-what-works-and-what-doesnt-3eio",
-      "source": "Dev.to",
-      "published_at": "2026-07-20T14:37:48Z",
-      "summary": "I spent the weekend with Bonsai-27B, and I think I finally understand what a \"27B that runs on one...",
-      "tags": [
-        "ai",
-        "python",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f4795e4b11ad3e9f62ea98415c22b34a",
       "title": "Can prompt caching tame RAG costs without sacrificing accuracy?",
       "url": "https://thenewstack.io/production-rag-architecture-fixes/",
@@ -2554,13 +2510,13 @@
       "url": "https://dev.to/irinobservability/migrating-from-promtail-to-alloy-for-log-collection-18j2",
       "source": "Dev.to",
       "published_at": "2026-07-23T14:44:33Z",
-      "summary": "Migrating from Promtail to Alloy streamlines log collection and improves observability stack flexibility.",
+      "summary": "TL;DR: Promtail reached end of life in March 2026, making Alloy the supported replacement for...",
       "tags": [
-        "Observability",
-        "SRE",
-        "Cloud"
+        "devops",
+        "infrastructure",
+        "monitoring"
       ],
-      "relevance_score": 0.9
+      "relevance_score": 0.0
     },
     {
       "id": "bb69740c5883bc489f1ca42950e9cbe0",
@@ -3328,6 +3284,56 @@
         "devops",
         "compliance"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d935e0fb4a94627be6647ebfeb153abc",
+      "title": "Investments in DevOps Tools and Platforms Start to Accelerate in AI Era",
+      "url": "https://devops.com/investments-in-devops-tools-and-platforms-start-to-accelerate-in-ai-era/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-27T14:39:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "63df14af309ab5025f344cd33789003e",
+      "title": "Ten Great DevOps Job Opportunities",
+      "url": "https://devops.com/ten-great-devops-job-opportunities-16/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-27T13:59:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7489fa8f2907d34788e32a33341e0599",
+      "title": "Cloudflare open-sources a debugger for privacy protocols used by Apple and Microsoft, with AI agents in mind",
+      "url": "https://thenewstack.io/cloudflare-pvcli-privacy-debugger-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-07-27T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3a483d3ec678ccc3f1f83781326846e6",
+      "title": "Dynatrace’s new agents can reveal the single hardest part of AI operations",
+      "url": "https://thenewstack.io/dynatrace-autonomous-sre-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-07-27T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d63128e1323871c0d1a4b94d1f2b75c4",
+      "title": "“Developers see this as the future”:  Pilot Protocol launches to power the agent economy",
+      "url": "https://thenewstack.io/pilot-protocol-agent-economy/",
+      "source": "The New Stack",
+      "published_at": "2026-07-27T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
