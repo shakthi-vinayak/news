@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T10:46:21Z",
+  "generated_at": "2026-07-28T14:32:10Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,36 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "94d27b243fd744960c676b283b5ea14c",
-      "title": "The rise of the agent runtime: The compute platform behind production agents",
-      "url": "https://thenewstack.io/agent-runtime-application-server/",
-      "source": "The New Stack",
-      "published_at": "2026-07-21T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d02957e59a42b46bc898c5d9873c8aed",
-      "title": "In a world of AI agents, where do we fit in?",
-      "url": "https://thenewstack.io/human-purpose-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-07-21T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5fb95dca9a06e09d430ef26e34800a46",
-      "title": "grafana/grafana: 12.3.9",
-      "url": "https://github.com/grafana/grafana/releases/tag/v12.3.9",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-07-21T12:50:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ac9036191f6809c5af09d74b11b92db2",
       "title": "open-telemetry/opentelemetry-collector: v1.63.0/v0.157.0",
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.157.0",
@@ -1227,26 +1197,6 @@
       "url": "https://github.com/grafana/grafana/releases/tag/v13.1.1",
       "source": "GitHub Releases (grafana)",
       "published_at": "2026-07-21T12:22:29+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "76c90cd41c50fae2dd4f56644e6d54a8",
-      "title": "Why your agent needs access to your documentation",
-      "url": "https://www.cncf.io/blog/2026/07/21/why-your-agent-needs-access-to-your-documentation/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-21T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6974252e65a59850513da04cf16aec9d",
-      "title": "Platform engineering for the agentic enterprise: Managing applications, resources, and AI agents",
-      "url": "https://www.cncf.io/blog/2026/07/21/platform-engineering-for-the-agentic-enterprise-managing-applications-resources-and-ai-agents/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-21T11:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1329,21 +1279,6 @@
       "published_at": "2026-07-21T15:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5932b4aa8f6e7ab9039b09bf3638529d",
-      "title": "The Production Readiness Checklist",
-      "url": "https://dev.to/moose978/the-production-readiness-checklist-p4b",
-      "source": "Dev.to",
-      "published_at": "2026-07-21T13:08:40Z",
-      "summary": "In the last article, I walked through finding and fixing the slow parts of a SaaS before launch: N+1...",
-      "tags": [
-        "webdev",
-        "saas",
-        "devops",
-        "backend"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1453,36 +1388,6 @@
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-07-21T19:56:41+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8c21bf264ac2c0f3e759a6e5f82becf3",
-      "title": "Buildpacks vs Dockerfiles: how Cloud Native Buildpacks actually work under the hood",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1v2jchy/buildpacks_vs_dockerfiles_how_cloud_native/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-21T14:01:54+00:00",
-      "summary": "      Every new service starts with another Dockerfile. A year later, every repo builds containers differently. Keeping them secure and consistent becomes a platform team nightmare.  Cloud Native Buildpacks solve this — centralized builds, SBOM generation by default, OS patches without full rebuilds",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fc4add0d9de0c45a14d346fa9477ac52",
-      "title": "Newbie question: If AI is writing a bunch of code, does it make sense to learn k8s now ?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1v2j4aa/newbie_question_if_ai_is_writing_a_bunch_of_code/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-21T13:53:24+00:00",
-      "summary": "Im new to tech and recently started learning operators and controllers. With AI writing every code, which is faster than human, is it rational for me to learn about the kubernetes now ?  &#32; submitted by &#32;  /u/dripindior_   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "879a268f7f91724da12deef10664cbce",
-      "title": "Kubernetes for a beginner",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1v2itoy/kubernetes_for_a_beginner/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-21T13:41:59+00:00",
-      "summary": "New to devops, I just know git and docker.  In docker, I just know commands like how to create a docker image, Run a container, push the image to docker hub, etc . And some other useful commands. I just happened to stumble upon kubernetes. Can anyone guide me on how do I learn kubernetes for a begin",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1857,21 +1762,6 @@
         "ai",
         "devops",
         "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "543a1a0c05b7d1ef840c1181952ecc25",
-      "title": "Your AI coding agent invented a package name. The attacker was already waiting.",
-      "url": "https://dev.to/lainagent_ai/your-ai-coding-agent-invented-a-package-name-the-attacker-was-already-waiting-o93",
-      "source": "Dev.to",
-      "published_at": "2026-07-21T14:24:06Z",
-      "summary": "An AI agent recommended react-codeshift. The package never existed. By January 2026, 237 projects referenced it and the name was already claimed.",
-      "tags": [
-        "agents",
-        "ai",
-        "devops",
-        "productivity"
       ],
       "relevance_score": 0.0
     },
@@ -2315,21 +2205,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5a307192451ad228b985e46ffbc2dc68",
-      "title": "Silent nginx Config Bugs That Pass nginx -t: if, location, add_header, alias",
-      "url": "https://dev.to/shinagawa-web/nginx-t-passed-but-the-behavior-is-wrong-config-patterns-that-break-silently-outside-the-syntax-2nnc",
-      "source": "Dev.to",
-      "published_at": "2026-07-21T13:02:00Z",
-      "summary": "nginx -t returns syntax is ok and test is successful. nginx -s reload finishes without a complaint....",
-      "tags": [
-        "nginx",
-        "devops",
-        "webdev",
-        "security"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b6c990673cbf02a61c2d1ef140dae029",
       "title": "OpenTelemetry has graduated… Now what?",
       "url": "https://www.cncf.io/blog/2026/07/24/opentelemetry-has-graduated-now-what/",
@@ -2536,21 +2411,6 @@
       "published_at": "2026-07-24T21:42:44+00:00",
       "summary": "      Hi everyone, Over the past few weeks, I've been working on an open-source project to deepen my Platform Engineering and DevOps skills. The goal wasn't just to deploy an EKS cluster, but to create a reusable, production-oriented reference architecture following Infrastructure as Code and GitOps",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f9516651afbe1114d763eca75feab1e1",
-      "title": "My fix for a data-loss bug sat in a green PR for four days. Every install in that window still had the bug.",
-      "url": "https://dev.to/achiya-automation/my-fix-for-a-data-loss-bug-sat-in-a-green-pr-for-four-days-every-install-in-that-window-still-had-2jj5",
-      "source": "Dev.to",
-      "published_at": "2026-07-21T11:12:56Z",
-      "summary": "On July 17 I opened the most serious issue my project has ever had, wrote the fix the same morning,...",
-      "tags": [
-        "programming",
-        "opensource",
-        "javascript",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3374,6 +3234,56 @@
         "webdev",
         "programming"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7ab74a1c6070687fa08f6aebb499ec73",
+      "title": "Need help regarding nfs-server service",
+      "url": "https://www.reddit.com/r/devops/comments/1v8y29y/need_help_regarding_nfsserver_service/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-28T13:10:00+00:00",
+      "summary": "So let me tell the context first, I have an kubernetes environment for production, and for like shared storage solution, I have installed nfs-utils and use the nfs-server service. In my scenario I cannot use cloud as an option. And for long I have been using the nfs-server but I have been facing alo",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "033db4b6160326e04c0c20bfce38b025",
+      "title": "Diagrid gives failed AI agents a way to resume",
+      "url": "https://thenewstack.io/diagrid-catalyst-agent-recovery/",
+      "source": "The New Stack",
+      "published_at": "2026-07-28T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8b3f1ab360ded9c300273b9cdd95e557",
+      "title": "Coding Agent Horror Stories: The 29 Million Secret Problem",
+      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-29-million-secret-problem/",
+      "source": "Docker Blog",
+      "published_at": "2026-07-28T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d754d99fa907e7679b489fe58e53bf87",
+      "title": "github actions central repo",
+      "url": "https://www.reddit.com/r/devops/comments/1v8wshu/github_actions_central_repo/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-28T12:16:41+00:00",
+      "summary": "Hi I am in a new role where they use Github for all their repos. I have been using Gitlab exlusively the past 5 years.  For CI/CD in my previous role we had a central 'pipelines' repo that was reference in the gitlab-ci file of each project to save teams/projects from repeating work.  I want to know",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f17770586653853e59a12e0c0fc4575f",
+      "title": "API returns 504 when I emulate phone in Firefox",
+      "url": "https://www.reddit.com/r/devops/comments/1v8vdq7/api_returns_504_when_i_emulate_phone_in_firefox/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-28T11:14:30+00:00",
+      "summary": "I have a frontend/backend working fine when I use any browser. When I emulate a phone in Chrome, it all works. But any request to the backend as phone in Firefox returns 504 gateway timeout (instant response). The same request works fine in another tab. Any idea what could it be? I use istio for net",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
