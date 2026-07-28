@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-28T06:38:20Z",
+  "generated_at": "2026-07-28T10:46:21Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-27T08:02:35+00:00",
+      "published_at": "2026-07-28T08:01:41+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -86,7 +86,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-24T18:04:39+00:00",
+      "published_at": "2026-07-28T07:59:17+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1152,36 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6fb14e7781d7eb3bba04fabb38cfd365",
-      "title": "grafana/grafana: v12.4.6",
-      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.6",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-07-21T10:10:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5040bb43fcbd144be5d5398c8ecb2644",
-      "title": "grafana/grafana: v13.1.1",
-      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.1",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-07-21T09:14:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "95e1ed42345c79d3f92d27a5dd2a9968",
-      "title": "n8n-io/n8n: n8n@2.32.0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.0",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-21T07:59:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "94d27b243fd744960c676b283b5ea14c",
       "title": "The rise of the agent runtime: The compute platform behind production agents",
       "url": "https://thenewstack.io/agent-runtime-application-server/",
@@ -1279,21 +1249,6 @@
       "published_at": "2026-07-21T11:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "874b398ad708daabf6bddc618d6b427c",
-      "title": "We benchmarked an AI agent on 52 broken clusters: kubectl vs a Kubernetes MCP server",
-      "url": "https://dev.to/dovzhikova/we-benchmarked-an-ai-agent-on-52-broken-clusters-kubectl-vs-a-kubernetes-mcp-server-2843",
-      "source": "Dev.to",
-      "published_at": "2026-07-21T09:52:24Z",
-      "summary": "Same agent, same faults, two ways to see the cluster. The one with the resource graph and change timeline used 76% fewer tool calls and finished in half the time.",
-      "tags": [
-        "kubernetes",
-        "ai",
-        "mcp",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1528,16 +1483,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-07-21T13:41:59+00:00",
       "summary": "New to devops, I just know git and docker.  In docker, I just know commands like how to create a docker image, Run a container, push the image to docker hub, etc . And some other useful commands. I just happened to stumble upon kubernetes. Can anyone guide me on how do I learn kubernetes for a begin",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "49015381158aa776c2fc769c7d8c5f36",
-      "title": "Weekly: Questions and advice",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1v2e02l/weekly_questions_and_advice/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-07-21T10:00:05+00:00",
-      "summary": "Have any questions about Kubernetes, related tooling, or how to adopt or use Kubernetes? Ask away!  &#32; submitted by &#32;  /u/AutoModerator   [link] &#32; [comments]",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3334,6 +3279,101 @@
       "published_at": "2026-07-28T00:02:25+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ba6bef023e0a7b50fb5e981a9f6419fc",
+      "title": "DSCI series / Rakulang CI",
+      "url": "https://dev.to/sp1983/dsci-series-rakulang-ci-4472",
+      "source": "Dev.to",
+      "published_at": "2026-07-28T09:58:48Z",
+      "summary": "How to build CI pipelines for Rakulang using DSCI",
+      "tags": [
+        "rakulang",
+        "ci",
+        "devops",
+        "automation"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "009c75ab88565682a22697b7a417ee6c",
+      "title": "n8n-io/n8n: n8n@2.33.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.0",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-28T08:03:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "497c54f52d00378856153d84fbe94058",
+      "title": "apache/airflow: providers-snowflake/6.15.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.15.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-28T06:43:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0df1be6f87c4a246ceb8ea0b1ba6b093",
+      "title": "apache/airflow: providers-ssh/6.0.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F6.0.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-28T06:43:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8cded65388863c227b535df6ff6a6967",
+      "title": "apache/airflow: providers-teradata/3.6.1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-teradata%2F3.6.1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-28T06:43:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b74dff172b762f2d59eff9cfe5efcdac",
+      "title": "apache/airflow: providers-weaviate/3.4.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-weaviate%2F3.4.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-07-28T06:43:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "db8c5d186a8d8f1be61e2573a1b9dc8e",
+      "title": "My coding agent shipped a bug to three pages it wasn't touching",
+      "url": "https://dev.to/solo_operator/my-coding-agent-shipped-a-bug-to-three-pages-it-wasnt-touching-3ica",
+      "source": "Dev.to",
+      "published_at": "2026-07-27T19:19:47Z",
+      "summary": "The spec was simple: restyle the buy button on the product detail pages. Nothing else. The agent...",
+      "tags": [
+        "ai",
+        "devops",
+        "programming",
+        "automation"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fec13029dd7a092e8069ce048675076e",
+      "title": "The 502 That Wasn't the Server",
+      "url": "https://dev.to/pedro_furst_53f8c10f2701d/the-502-that-wasnt-the-server-41ca",
+      "source": "Dev.to",
+      "published_at": "2026-07-27T17:02:07Z",
+      "summary": "We spent over a year blaming the wrong things.  A 502 Bad Gateway kept hitting our login route —...",
+      "tags": [
+        "nginx",
+        "devops",
+        "webdev",
+        "programming"
+      ],
       "relevance_score": 0.0
     }
   ]
