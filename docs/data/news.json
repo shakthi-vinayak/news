@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T19:48:16Z",
+  "generated_at": "2026-07-28T21:20:59Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1197,16 +1197,6 @@
       "url": "https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server-3/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-07-21T19:23:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5b5b9b16b0434861808e6d4ae40aeaa2",
-      "title": "ollama/ollama: v0.32.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.2-rc2",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-07-21T19:56:41+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3183,6 +3173,116 @@
       "source": "HashiCorp Blog",
       "published_at": "2026-07-28T16:00:00+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fae6d8b94b14d2af338102309a18f522",
+      "title": "Built a Python tool that manages DNS records via Cloudflare API and Pull Requests",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1v9ax23/built_a_python_tool_that_manages_dns_records_via/",
+      "source": "Reddit r/selfhosted",
+      "published_at": "2026-07-28T20:55:54+00:00",
+      "summary": "      Hi everyone. I wanted to share a pure Python backend project I made. It syncs JSON configurations into Cloudflare DNS using GitHub Actions. It validates zones via pytest and keeps everything automated. If anyone wants to check out the repo or needs a playground to test their configurations, le",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aa35ab734adfe7337a84d5e168abfa64",
+      "title": "Jensen Huang says AI agents could drive a 5-10x computing boom: “100 billion agents and billions of robots”",
+      "url": "https://thenewstack.io/huang-semiconductor-tenfold-ai-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-07-28T19:46:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "61e9cc8fc76f2da5a2e2b0bb42276a3f",
+      "title": "Need help, finding an adequate backup solution",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1v97zuk/need_help_finding_an_adequate_backup_solution/",
+      "source": "Reddit r/selfhosted",
+      "published_at": "2026-07-28T19:07:29+00:00",
+      "summary": "Hi, I need help finding a suitable backup solution for my setup. I’m simply overwhelmed by the sheer number of options available, and I’m not 100% up to speed on the subject either. Here’s a brief overview of my setup: I have a home server running TrueNAS, two SMB file shares, and a Paperless NGX an",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3d32ff54389590e466992460829c776f",
+      "title": "Super Productivity v18.16.0 released: what changed since last r/selfhosted update",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1v91fg8/super_productivity_v18160_released_what_changed/",
+      "source": "Reddit r/selfhosted",
+      "published_at": "2026-07-28T15:16:05+00:00",
+      "summary": "      I maintain Super Productivity, an MIT-licensed task manager and time tracker that works offline and can be self-hosted with Docker. Super Productivity v18.16.0 is out. My last Super Productivity post here covered v18.5.0, so this is a catch-up on the accumulated changes since then, not only th",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "eb2ce00127c3da555c3bd6fba5bafd6f",
+      "title": "HP 48p switch visual administration",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1v915s4/hp_48p_switch_visual_administration/",
+      "source": "Reddit r/selfhosted",
+      "published_at": "2026-07-28T15:06:25+00:00",
+      "summary": "      Hey everyone, Just wanted to share how wild AI can be—even for someone like me! I’d pretty much stopped using the WEBGUI on my HP 2530 48G PoE switch because it’s clunky and ugly. So, I turned to Gemini in Antigravity and asked it to code a web interface using REST API to control my switch. I ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "df3bd6096f021ab60d791be00474007d",
+      "title": "We Build a Kubernetes Dashboard. AI Agents Might Make It Obsolete.",
+      "url": "https://dev.to/dovzhikova/we-build-a-kubernetes-dashboard-ai-agents-might-make-it-obsolete-4cm4",
+      "source": "Dev.to",
+      "published_at": "2026-07-28T14:37:23Z",
+      "summary": "The honest bear case against our own product: if agents operate the cluster, who needs the UI? What actually dies, and the job that gets bigger.",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "ai",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "90eec01541ea0c55c2af93accec5e81b",
+      "title": "Running an android app in a docker container",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1v8th2l/running_an_android_app_in_a_docker_container/",
+      "source": "Reddit r/selfhosted",
+      "published_at": "2026-07-28T09:40:41+00:00",
+      "summary": "So my local council has a mobile app for their bin collection, eg which weeks are green waste and which are recycling. It also has a messaging portion that they (I assume anyway, it’s only new) would be for things like service disruption or annual services etc. It has push notifications for these me",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "57a5309883e9d9dc888610584f1305e9",
+      "title": "Piwigo is a bot trap 💀 685 legit requests, 266k from scrapers PER DAY",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1v8060b/piwigo_is_a_bot_trap_685_legit_requests_266k_from/",
+      "source": "Reddit r/selfhosted",
+      "published_at": "2026-07-27T13:17:36+00:00",
+      "summary": "      I have a very small german Piwigo site. Only a small amount of images are hosted there, not very relevant for any search engine. Less than 100 images I think. In the last 24h: 685 requests from germany, 266000 from the US 😂 Its like 95% Meta, according to the user agents. Now I have to check h",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4859bad49b16531a86baffe6d3cc9a0a",
+      "title": "GitHub put Shell, Dockerfiles, Terraform and PHP behind a paywall. Here's a free Action that scans them.",
+      "url": "https://dev.to/booyaka101/github-put-shell-dockerfiles-terraform-and-php-behind-a-paywall-heres-a-free-action-that-scans-46m8",
+      "source": "Dev.to",
+      "published_at": "2026-07-27T11:20:28Z",
+      "summary": "On July 14, 2026 GitHub shipped AI security detections on pull requests. The changelog is one...",
+      "tags": [
+        "security",
+        "github",
+        "devops",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a1de7938bac40e706ffa37ab2727be75",
+      "title": "New Project Megathread - Week of 23 Jul 2026",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1v4s7ok/new_project_megathread_week_of_23_jul_2026/",
+      "source": "Reddit r/selfhosted",
+      "published_at": "2026-07-23T22:01:06+00:00",
+      "summary": "Welcome to the New Project Megathread! This weekly thread is the new official home for sharing your new projects (younger than three months) with the community. To keep the subreddit feed from being overwhelmed (particularly with the rapid influx of AI-generated projects) all new projects can only b",
       "tags": [],
       "relevance_score": 0.0
     }
