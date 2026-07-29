@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:50:08Z",
+  "generated_at": "2026-07-29T14:30:00Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -297,16 +297,6 @@
       "url": "https://kubernetes.io/blog/2026/05/08/kubernetes-v1-36-volume-group-snapshot-ga/",
       "source": "Kubernetes Blog",
       "published_at": "2026-05-08T18:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7d01c93dbb0f88165cdc8d8069654082",
-      "title": "Building an end-to-end agentic SRE using AWS DevOps Agent",
-      "url": "https://aws.amazon.com/blogs/devops/building-an-end-to-end-agentic-sre-using-aws-devops-agent/",
-      "source": "AWS Blog",
-      "published_at": "2026-05-08T15:46:14+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1212,50 +1202,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "207a02919b3a5e0d577cfef44a2c4deb",
-      "title": "Best way to learn K8 now?",
-      "url": "https://www.reddit.com/r/devops/comments/1v3gykw/best_way_to_learn_k8_now/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-22T13:58:20+00:00",
-      "summary": "Seeks recommendations on the most effective way to learn Kubernetes today.",
-      "tags": [
-        "Kubernetes",
-        "DevOps",
-        "Containers"
-      ],
-      "relevance_score": 0.87
-    },
-    {
-      "id": "90e805e2db4573c9515f3f949b1b5981",
-      "title": "How do you handle production patching for EC2 instances?",
-      "url": "https://www.reddit.com/r/devops/comments/1v3fu2f/how_do_you_handle_production_patching_for_ec2/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-22T13:14:29+00:00",
-      "summary": "how do you handle production patching for EC2 instances in your environment? I'm interested in learning about real-world production practices. Some questions:  Do you use AWS Systems Manager Patch Manager, Patch Policies, or another approach? Do you patch EC2 instances in place, or do you replace th",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1fb7d428f3728e9e712ae976fa33f53d",
-      "title": "Agentic AI Needs Guardrails, Not Guesswork",
-      "url": "https://www.docker.com/blog/agentic-ai-security-ciso-panel/",
-      "source": "Docker Blog",
-      "published_at": "2026-07-22T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fc8634bd47329a80871b377a6c38bdd7",
-      "title": "Multi-Cluster databases on Kubernetes: Architecture and deployment",
-      "url": "https://www.cncf.io/blog/2026/07/22/multi-cluster-databases-on-kubernetes-architecture-and-deployment/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-22T11:42:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a6990b91d1b55a269ef64bf0ed2e7cf6",
       "title": "GitHub Actions & CI/CD, Explained Like a Robot Assembly Line",
       "url": "https://dev.to/ramkumar-m-n/github-actions-cicd-explained-like-a-robot-assembly-line-1f7c",
@@ -1267,21 +1213,6 @@
         "cicd",
         "devops",
         "github"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "160e61cfc249b098174c29edd46b91cc",
-      "title": "SPF, DKIM, DMARC: the 15-minute setup that actually passes",
-      "url": "https://dev.to/devopsdaily/spf-dkim-dmarc-the-15-minute-setup-that-actually-passes-53mf",
-      "source": "Dev.to",
-      "published_at": "2026-07-22T10:23:20Z",
-      "summary": "Every guide to email authentication starts with a history lesson. Skip it. You are here because your...",
-      "tags": [
-        "dns",
-        "devops",
-        "development",
-        "beginners"
       ],
       "relevance_score": 0.0
     },
@@ -3269,6 +3200,56 @@
         "devops",
         "tutorial"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8cd4df024a73f9144b7fef1af21cf8fd",
+      "title": "GPT-5.6 kernel of truth: Sol can cut its own costs, says OpenAI",
+      "url": "https://thenewstack.io/gpt-5-6-serving-efficiency/",
+      "source": "The New Stack",
+      "published_at": "2026-07-29T13:04:39+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2e4918252339db83872491f3e769aba0",
+      "title": "Modus’s operandi: To give AI agents just the right amount of context",
+      "url": "https://thenewstack.io/modus-enterprise-context-warehouse/",
+      "source": "The New Stack",
+      "published_at": "2026-07-29T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3beb84b2524398b5d7c1cb08cb0caac7",
+      "title": "How Company 3 Streamlines Studio Image Management with EC2 Image Builder and AWS CDK",
+      "url": "https://aws.amazon.com/blogs/devops/how-company-3-streamlines-studio-image-management-with-ec2-image-builder-and-aws-cdk/",
+      "source": "AWS Blog",
+      "published_at": "2026-07-29T12:34:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0c8b83b6c031c52a2d7044f0d7bd48a5",
+      "title": "Add security context to operational investigations with AWS DevOps Agent and Wiz",
+      "url": "https://aws.amazon.com/blogs/devops/add-security-context-to-operational-investigations-with-aws-devops-agent-and-wiz/",
+      "source": "AWS Blog",
+      "published_at": "2026-07-29T12:33:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "98e54503009077caaa20e47dca6bd262",
+      "title": "Your Kubernetes health checks are accidentally waking your services. Here’s the fix.",
+      "url": "https://www.cncf.io/blog/2026/07/29/your-kubernetes-health-checks-are-accidentally-waking-your-services-heres-the-fix/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-29T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
