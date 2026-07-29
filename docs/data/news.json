@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:30:00Z",
+  "generated_at": "2026-07-29T17:26:38Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1214,66 +1214,6 @@
         "devops",
         "github"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d1046bfacc3c86d7db3bb0abbd6a93e1",
-      "title": "OpenAI built support agents for its own customer service line, now it hopes big enterprises will trust them too",
-      "url": "https://thenewstack.io/openai-presence-enterprise-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-07-22T17:23:20+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "06737ab3aa8019c89d339f28f74a8f9f",
-      "title": "OpenAI’s Codex Context Cut Puts Enterprise AI Coding Workflows on Notice",
-      "url": "https://devops.com/openais-codex-context-cut-puts-enterprise-ai-coding-workflows-on-notice/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-22T17:19:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8e74f922aefaba54166fa5b955d02ab0",
-      "title": "VS Code 1.129 Moves Agent Sessions Out of the Editor Window",
-      "url": "https://devops.com/vs-code-1-129-moves-agent-sessions-out-of-the-editor-window/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-22T17:13:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b7c24956cda9de80a5a8c6b7c81d700e",
-      "title": "“Every few months, a new model made part of our roadmap unnecessary”: Why Mendral’s founders gave up their startup for Anthropic",
-      "url": "https://thenewstack.io/anthropic-mendral-cicd-acquihire/",
-      "source": "The New Stack",
-      "published_at": "2026-07-22T16:45:49+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "60e832f6fb0bd21930666bb90ed86a67",
-      "title": "n8n-io/n8n: n8n@2.32.2",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.2",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-22T15:14:33+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "67e85740b11e5baaf647355853fbaf4e",
-      "title": "Security Risks from AI Coding Agents Expand Beyond the Sandbox: Pillar",
-      "url": "https://devops.com/security-risks-from-ai-coding-agents-expand-beyond-the-sandbox-pillar/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-22T14:41:09+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3248,6 +3188,66 @@
       "url": "https://www.cncf.io/blog/2026/07/29/your-kubernetes-health-checks-are-accidentally-waking-your-services-heres-the-fix/",
       "source": "CNCF Blog",
       "published_at": "2026-07-29T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "43d96808b6671b3eb754a027ae42581e",
+      "title": "Why Agentic Coding Needs Governance at Scale",
+      "url": "https://devops.com/why-agentic-coding-needs-governance-at-scale/",
+      "source": "DevOps.com",
+      "published_at": "2026-07-29T17:13:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e5ae417221ee0d6df00740d18e4e8738",
+      "title": "agentic incident response actually saved me at 11pm last week",
+      "url": "https://www.reddit.com/r/devops/comments/1va0x5k/agentic_incident_response_actually_saved_me_at/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-29T16:19:00+00:00",
+      "summary": "6 person team, i carry the pager most weeks cuz nobody else wants it. last tuesday 11pm i get paged, payment latency climbing, checkouts timing out. normally this is me sitting up in bed squinting at grafana half asleep for 15 min trying to find what changed this time i had an agent wired into our r",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "13aad1f5cab94ae634b08c8ef55d979f",
+      "title": "“Stateful systems are incredibly hard to build”: How Perplexity thinks about AI agent sandboxes",
+      "url": "https://thenewstack.io/perplexity-space-agent-sandboxes/",
+      "source": "The New Stack",
+      "published_at": "2026-07-29T15:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "23f0c9fdd4a5f4dda37a088a24b955ba",
+      "title": "Devops project as a fresher?",
+      "url": "https://www.reddit.com/r/devops/comments/1v9z0v9/devops_project_as_a_fresher/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-29T15:12:48+00:00",
+      "summary": "What is the best devops project you made as a fresher from college.. Mine was end to end devops project of a Ecom site -- Infra with terraform, CICD with DevSecOps pipeline in GitHub action, GKE for kubernetes, Gitops with ArgoCD (also this one got me hired back then) What is your best project would",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a6dd1d10dcfa8ec50afe901543d3a97c",
+      "title": "Looking for guidance on choosing programming language",
+      "url": "https://www.reddit.com/r/devops/comments/1v9ykus/looking_for_guidance_on_choosing_programming/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-29T14:56:57+00:00",
+      "summary": "Hello everyone I was working as Devops engineer , Currently I was targetting FAANG companies moving forward, I choose python as my primary scripting language I won't say I do well in python just know the basics and AI to generate it my logic and I validate it never coded anything like leetcide probl",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b1223d1e0c690315764228c7e2963afb",
+      "title": "Kernel of truth: GPT-5.6 Sol can cut its own costs, says OpenAI",
+      "url": "https://thenewstack.io/gpt-5-6-serving-efficiency/",
+      "source": "The New Stack",
+      "published_at": "2026-07-29T13:04:39+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
