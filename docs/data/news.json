@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-29T06:43:33Z",
+  "generated_at": "2026-07-29T10:50:08Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-28T08:01:41+00:00",
+      "published_at": "2026-07-29T08:38:42+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -76,7 +76,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-28T07:59:17+00:00",
+      "published_at": "2026-07-29T08:37:19+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1212,36 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "056ca98cc37863809db0a5bd00cd00ef",
-      "title": "Currently on Falco for runtime security — anyone moved to Tetragon/KubeArmor/Tracee and regretted (or loved) it?",
-      "url": "https://www.reddit.com/r/devops/comments/1v3aave/currently_on_falco_for_runtime_security_anyone/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-22T08:43:29+00:00",
-      "summary": "Running Falco in our EKS clusters right now for runtime detection, paired with Kyverno for admission control and Cosign/Vault for supply chain signing/secrets. Been solid so far, but I keep seeing Tetragon and KubeArmor come up as alternatives, especially for teams who want enforcement (block, not j",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d92332fe28c669ecc17cef6abcbe6019",
-      "title": "Where is AI actually adding value in your DevOps workflow and where isn't it?",
-      "url": "https://www.reddit.com/r/devops/comments/1v3a3u7/where_is_ai_actually_adding_value_in_your_devops/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-22T08:32:14+00:00",
-      "summary": "Senior DevOps here. AI is being pushed into every part of the pipeline right now, and I want to cut past the hype and hear real production experience. Two questions: Where have you put AI into production in your DevOps process and it genuinely adds value? (e.g. CI/CD, code review, IaC generation, mo",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7db758dd6324c9ea20a2cc5b708efd3a",
-      "title": "Multi platform build",
-      "url": "https://www.reddit.com/r/devops/comments/1v39ap7/multi_platform_build/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-22T07:46:12+00:00",
-      "summary": "&#x200b; I am planning to have my docker images to be multi architecture and for it my plan is to have two codebuilds for arm and amd when they both succeeds event bridge will invoke a lambda and lambda will merge the images into one But I am unable to think a way to set up event my current plan is ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "207a02919b3a5e0d577cfef44a2c4deb",
       "title": "Best way to learn K8 now?",
       "url": "https://www.reddit.com/r/devops/comments/1v3gykw/best_way_to_learn_k8_now/",
@@ -1301,26 +1271,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "290a63125e99fc17d1d04456b7a8b259",
-      "title": "n8n-io/n8n: n8n@2.32.1",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-22T10:45:05+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3cda8807d98b2c43695949876aa0c406",
-      "title": "n8n-io/n8n: n8n@1.123.67",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.67",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-22T10:38:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "160e61cfc249b098174c29edd46b91cc",
       "title": "SPF, DKIM, DMARC: the 15-minute setup that actually passes",
       "url": "https://dev.to/devopsdaily/spf-dkim-dmarc-the-15-minute-setup-that-actually-passes-53mf",
@@ -1333,16 +1283,6 @@
         "development",
         "beginners"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3a523e425c2873c40eeb4b4af3ad6abb",
-      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.67 (#34700)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-22T10:10:52+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -1473,21 +1413,6 @@
       "published_at": "2026-07-23T00:35:52+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b408105e543b93a50e297ef23647a5d5",
-      "title": "Pin your MCP server contracts the way you pin your dependencies",
-      "url": "https://dev.to/tsvetang2/pin-your-mcp-server-contracts-the-way-you-pin-your-dependencies-43j8",
-      "source": "Dev.to",
-      "published_at": "2026-07-21T23:43:41Z",
-      "summary": "You pin your npm dependencies. You have a lockfile. You review the diff when it changes.  Now...",
-      "tags": [
-        "mcp",
-        "ai",
-        "devops",
-        "opensource"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2353,12 +2278,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v6owff/transitioning_from_it_to_devops/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-26T00:40:36+00:00",
-      "summary": "Advice and experiences from professionals moving from traditional IT roles into DevOps positions.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.86
+      "summary": "Hello! I've been wanting to ask but the amount of &quot;AI slop&quot; comments has been making me second guess. Anyway.  Just curious if I'm jumping in over my head. My background is 8 years in IT. Local MSP so small to medium businesses. Intune Administration for 15,000 devices, project engineer, S",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "a5d13e902cf856101c9d510e1c147f0c",
@@ -3312,6 +3234,41 @@
       "published_at": "2026-07-29T04:28:01+00:00",
       "summary": "Am I just an old man yelling at clouds, or has DevOps become incredibly boring? I know building technical solutions is not supposed to exist purely for my entertainment, but I do actually want to enjoy my job. I am not currently working as a DevOps engineer, and one of the reasons I moved toward dev",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7c7696c3088dc21805a9d7163a382e2f",
+      "title": "n8n-io/n8n: n8n@2.33.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-29T08:45:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0bc334e544891d4e25eb3864e339b84d",
+      "title": "Thinking of building a tool that fixes vulnerable dependencies for you - want some opinions before I start",
+      "url": "https://www.reddit.com/r/devops/comments/1v9q0oy/thinking_of_building_a_tool_that_fixes_vulnerable/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-29T08:24:43+00:00",
+      "summary": "I'm a 3rd year CS student and I want to build something real over the next couple of months to learn RAG and agents properly. I've been thinking about one idea for a while and wanted to get opinions before I commit to it. The problem I noticed is when you install on e package, you end up pulling in ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dd2e4ea561ad1709a7c371cfd0b8e98c",
+      "title": "SafeLine vs Cloudflare WAF: An Honest, Detailed Comparison",
+      "url": "https://dev.to/lialiago/safeline-vs-cloudflare-waf-an-honest-detailed-comparison-3dga",
+      "source": "Dev.to",
+      "published_at": "2026-07-28T17:07:23Z",
+      "summary": "If you're choosing a web application firewall, you've probably narrowed it down to two very different...",
+      "tags": [
+        "webdev",
+        "security",
+        "devops",
+        "tutorial"
+      ],
       "relevance_score": 0.0
     }
   ]
