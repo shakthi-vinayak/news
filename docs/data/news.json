@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T17:46:47Z",
+  "generated_at": "2026-07-30T19:47:52Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -782,16 +782,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "846284af150c78378b5739ac2c35186c",
-      "title": "Why AI Agents Need Isolation",
-      "url": "https://www.docker.com/blog/why-ai-agents-need-isolation/",
-      "source": "Docker Blog",
-      "published_at": "2026-07-01T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f1ba066aa9f3a664eec4d190f026fec8",
       "title": "istio/istio: Istio 1.28.10",
       "url": "https://github.com/istio/istio/releases/tag/1.28.10",
@@ -1198,26 +1188,6 @@
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-07-23T16:51:01+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "34b94113657c9d363b107479dc852c5a",
-      "title": "AWS says its DevOps Agent delivers 75% lower MTTR and 94% root cause accuracy",
-      "url": "https://www.reddit.com/r/devops/comments/1v4nqwx/aws_says_its_devops_agent_delivers_75_lower_mttr/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-23T19:18:39+00:00",
-      "summary": "Straight from the GA blog: customers report &quot;up to 75% lower MTTR, 80% faster investigations, and 94% root cause accuracy, enabling 3-5x faster incident resolution.&quot; https://aws.amazon.com/blogs/mt/announcing-general-availability-of-aws-devops-agent/ GA since March. I haven't seen anyone o",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "16ea481e85373e50d0417becb7d24628",
-      "title": "Terraform/Github deployment overwriting another deployment",
-      "url": "https://www.reddit.com/r/devops/comments/1v4np15/terraformgithub_deployment_overwriting_another/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-23T19:16:45+00:00",
-      "summary": "I'm on a team that shares a Github repository. Whenever we open a PR from a feature branch to the dev branch, a deployment to the AWS development account is automatically triggered. The issue we're facing is that one developer may deploy to dev, and then another developer deploys afterward. Even tho",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3196,6 +3166,46 @@
         "devops",
         "security"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "764587c5a2f5bc9be16c5555ab0dae8c",
+      "title": "The Future of Agentic AI Depends on Openness and Trust. That’s Why Docker Is Joining Nvidia’s Open Secure AI Alliance.",
+      "url": "https://www.docker.com/blog/docker-joins-nvidia-open-secure-ai-alliance/",
+      "source": "Docker Blog",
+      "published_at": "2026-07-30T19:31:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e4769b7bf9f70cacb6798b6e8d3a88e3",
+      "title": "Chinese AI competitors may have forced OpenAI’s hand on pricing",
+      "url": "https://thenewstack.io/gpt-5-6-api-price-cuts/",
+      "source": "The New Stack",
+      "published_at": "2026-07-30T19:28:02+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "55ca9aa0c3b5d590544eabb55ccf389c",
+      "title": "langchain-ai/langgraph: langgraph-checkpoint-sqlite==3.1.1",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-30T19:19:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "42372e547d7a4ce838670bd2c6697df7",
+      "title": "OpenAI and Elastic are tackling the AI problem enterprises can’t ignore",
+      "url": "https://thenewstack.io/openai-elastic-enterprise-context/",
+      "source": "The New Stack",
+      "published_at": "2026-07-30T18:42:32+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
