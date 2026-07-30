@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T14:28:07Z",
+  "generated_at": "2026-07-30T17:46:47Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1192,36 +1192,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "65b2b17902ddbdcac011a5fe099dab67",
-      "title": "The Hidden Complexity of PostgreSQL Logical Replication",
-      "url": "https://dev.to/alex_zhdankov/the-hidden-complexity-of-postgresql-logical-replication-23ml",
-      "source": "Dev.to",
-      "published_at": "2026-07-23T11:31:27Z",
-      "summary": "We were building a PostgreSQL Logical Replication monitoring system — topology visualization, lag...",
-      "tags": [
-        "postgres",
-        "python",
-        "distributedsystems",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "61b065107f35d25979a7f6e8c141dedc",
       "title": "hashicorp/terraform: v1.16.0-beta1",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta1",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-07-23T16:51:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6aad79b5d793de2cc855638265757dc4",
-      "title": "ollama/ollama: v0.32.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.3",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-07-23T16:46:16+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1437,20 +1412,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3994999b6643f86ed556fc48b004ccb6",
-      "title": "Migrating from Promtail to Alloy for Log Collection",
-      "url": "https://dev.to/irinobservability/migrating-from-promtail-to-alloy-for-log-collection-18j2",
-      "source": "Dev.to",
-      "published_at": "2026-07-23T14:44:33Z",
-      "summary": "TL;DR: Promtail reached end of life in March 2026, making Alloy the supported replacement for...",
-      "tags": [
-        "devops",
-        "infrastructure",
-        "monitoring"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b6c990673cbf02a61c2d1ef140dae029",
       "title": "OpenTelemetry has graduated… Now what?",
       "url": "https://www.cncf.io/blog/2026/07/24/opentelemetry-has-graduated-now-what/",
@@ -1586,21 +1547,6 @@
         "devops",
         "tls",
         "networking"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f767f94989b66b5ad2a3c84306090195",
-      "title": "DSCI - CI with regular programming languages instead of YAML",
-      "url": "https://dev.to/sp1983/dsci-ci-with-regular-programming-languages-instead-of-yaml-29kk",
-      "source": "Dev.to",
-      "published_at": "2026-07-23T11:09:31Z",
-      "summary": "How to use DSCI to build CI pipelines using regular programing languages",
-      "tags": [
-        "rakulang",
-        "ci",
-        "forgejo",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -3181,6 +3127,75 @@
       "published_at": "2026-07-30T13:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "19e3ef1efcc2072a226c2a0eee2d045e",
+      "title": "How many of you went multi-cloud, or switched cloud providers entirely, for a new job?",
+      "url": "https://www.reddit.com/r/devops/comments/1vazyx8/how_many_of_you_went_multicloud_or_switched_cloud/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-30T17:19:43+00:00",
+      "summary": "I have spent most of my career in AWS, but more and more, I am seeing companies asking for skill sets with multiple cloud providers. I feel like the skill set is transferable; if you know how to spin up EKS then spinning up a GKE cluster shouldn't be that much different. It's still Kubernetes under ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0f9a039cab81dab7fafc23acb06fcc27",
+      "title": "How you guys are avoiding tying to any specific GPU vendor for AI workloads?",
+      "url": "https://www.reddit.com/r/devops/comments/1vawhik/how_you_guys_are_avoiding_tying_to_any_specific/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-30T15:15:22+00:00",
+      "summary": "With more and more teams using LLMs and inference services wondering how everyone is making decisions about their infrastructure like are you choosing one major cloud provider, using Kubernetes across multiple providers or trying platforms like RunPod, CoreWeave, Yotta Labs, Lambda to keep things fl",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3845bb0bf065ac186231eb4131f4f1fe",
+      "title": "Why linting alone can’t govern agentic development",
+      "url": "https://thenewstack.io/governing-agentic-software-development/",
+      "source": "The New Stack",
+      "published_at": "2026-07-30T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aab917b6f34edd1949bf014e64e5feba",
+      "title": "langchain-ai/langchain: langchain-core==1.5.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.3",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-07-30T14:56:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "203801cb295cb357fc4c0dd5933624f1",
+      "title": "What Actually Happens After You Send a Webhook",
+      "url": "https://dev.to/devopsdaily/what-actually-happens-after-you-send-a-webhook-fao",
+      "source": "Dev.to",
+      "published_at": "2026-07-30T11:21:14Z",
+      "summary": "The first version of a webhook is always the same four lines:    await fetch(customer.webhookUrl, {  ...",
+      "tags": [
+        "webdev",
+        "devops",
+        "javascript",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b65d7a14fcb5ff9700fe4d6faee7e881",
+      "title": "The security checks in every Lionshead PR",
+      "url": "https://dev.to/earnestamateur/the-security-checks-in-every-lionshead-pr-1k49",
+      "source": "Dev.to",
+      "published_at": "2026-07-30T10:43:55Z",
+      "summary": "At enterprise scale, a breach is a bad quarter. You have a legal team to coordinate disclosure. A...",
+      "tags": [
+        "automation",
+        "devops",
+        "security"
+      ],
       "relevance_score": 0.0
     }
   ]
