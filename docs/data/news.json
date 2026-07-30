@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T06:38:49Z",
+  "generated_at": "2026-07-30T10:35:44Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -76,7 +76,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-29T08:37:19+00:00",
+      "published_at": "2026-07-30T07:58:13+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1212,51 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "497f3312d827db5d914a07ba8c2606b8",
-      "title": "How are developers and operations meant to work in this situation?",
-      "url": "https://www.reddit.com/r/devops/comments/1v480u5/how_are_developers_and_operations_meant_to_work/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-23T08:40:03+00:00",
-      "summary": "Here’s our situation - a mature operations team with pipelines building container images for a third party product going into kube Company acquired a company with a development team who had no ops but are proficient at producing dockerfiles for their products Ops is in azure devops, developers in bi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "27601454cfd8b2cd4852377341a9c9da",
-      "title": "n8n-io/n8n: n8n@2.32.3",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.32.3",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-23T08:00:59+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "907ef0a59a5f29fa5dc0a5029000ae4b",
-      "title": "Scraping millions of pages a day: what actually breaks",
-      "url": "https://dev.to/votiakov/scraping-millions-of-pages-a-day-what-actually-breaks-1c2b",
-      "source": "Dev.to",
-      "published_at": "2026-07-23T07:50:26Z",
-      "summary": "I ran a scraping platform that processed millions of pages a day at roughly 95% extraction success,...",
-      "tags": [
-        "webscraping",
-        "distributedsystems",
-        "devops",
-        "python"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8a3a65a00e5b60b0d2f9d4b95064d12a",
-      "title": "Moving a high-memory Python application from Kubernetes to a dedicated Linux server — what would be the best setup?",
-      "url": "https://www.reddit.com/r/devops/comments/1v475m2/moving_a_highmemory_python_application_from/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-23T07:49:38+00:00",
-      "summary": "Hello, At the company where I work, we have a Python application running on a Kubernetes cluster. The application is fully integrated into a CI/CD workflow. Whenever code is merged, Jenkins pulls the source code from GitLab, builds the application, and pushes the image to Harbor. Argo CD then deploy",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f4795e4b11ad3e9f62ea98415c22b34a",
       "title": "Can prompt caching tame RAG costs without sacrificing accuracy?",
       "url": "https://thenewstack.io/production-rag-architecture-fixes/",
@@ -1333,21 +1288,6 @@
         "ci",
         "forgejo",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9a294e9ec59f18602cee07e92d6fc60a",
-      "title": "Banning ChatGPT Won't Fix Your Shadow AI Problem. It'll Just Hide It.",
-      "url": "https://dev.to/cyclopt_dimitrisk/banning-chatgpt-wont-fix-your-shadow-ai-problem-itll-just-hide-it-58nl",
-      "source": "Dev.to",
-      "published_at": "2026-07-23T09:32:49Z",
-      "summary": "Intro   Every engineering org has a policy about which AI tools developers are allowed to...",
-      "tags": [
-        "ai",
-        "security",
-        "devops",
-        "discuss"
       ],
       "relevance_score": 0.0
     },
@@ -1572,21 +1512,6 @@
         "devops",
         "infrastructure",
         "monitoring"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bb69740c5883bc489f1ca42950e9cbe0",
-      "title": "The Postgres migration that locks your table at 3am, and how to catch it in review",
-      "url": "https://dev.to/technical_turtle/the-postgres-migration-that-locks-your-table-at-3am-and-how-to-catch-it-in-review-17pa",
-      "source": "Dev.to",
-      "published_at": "2026-07-23T07:07:44Z",
-      "summary": "-- looks fine in review, locks your busiest table in prod: ALTER TABLE users ALTER COLUMN email SET...",
-      "tags": [
-        "postgres",
-        "database",
-        "devops",
-        "sql"
       ],
       "relevance_score": 0.0
     },
@@ -3256,6 +3181,41 @@
       "published_at": "2026-07-30T06:02:53+00:00",
       "summary": "Not going to lie. It's been a bad day. I almost tell them &quot;take this job and shove it' after reviewing all these crappy AI codes. Vibe coding is not only a joke. It's a monster that mocks our hard-earned experiences!  I am thinking of leaving the industry! If you could go back ten years from no",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "90e1ecb2338b1f42301023d4f2f09957",
+      "title": "Can I transition from a BPO job to DevOps?",
+      "url": "https://www.reddit.com/r/devops/comments/1vani6a/can_i_transition_from_a_bpo_job_to_devops/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-30T08:18:43+00:00",
+      "summary": "Hi everyone, I'm a 2025 Computer Science graduate from India. I'm struggling to get an IT support or infrastructure support job mainly because my spoken English isn't very strong, even though I can troubleshoot issues practically. I'm considering joining a BPO (technical support/chat support) for fi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5e6e3299886699b940c5e007cea1b894",
+      "title": "n8n-io/n8n: n8n@2.33.2",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.2",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-07-30T08:02:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "83dc3528ff969a0e08249df2c19d7677",
+      "title": "How to Give a Linux User Scoped Access to a Specific Docker Container (Without Exposing the Entire Server)",
+      "url": "https://dev.to/saint_vandora/how-to-give-a-linux-user-scoped-access-to-a-specific-docker-container-without-exposing-the-entire-10ck",
+      "source": "Dev.to",
+      "published_at": "2026-07-29T14:26:48Z",
+      "summary": "When you run multiple services on a shared Linux server, one of the most common DevOps challenges is...",
+      "tags": [
+        "productivity",
+        "devops",
+        "linux",
+        "tutorial"
+      ],
       "relevance_score": 0.0
     }
   ]
