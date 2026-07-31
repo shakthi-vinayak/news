@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T10:51:36Z",
+  "generated_at": "2026-07-31T14:31:13Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1212,16 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b6c990673cbf02a61c2d1ef140dae029",
-      "title": "OpenTelemetry has graduated… Now what?",
-      "url": "https://www.cncf.io/blog/2026/07/24/opentelemetry-has-graduated-now-what/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-24T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "24c09186d056f3979d3e92ee47f843f8",
       "title": "Agentic AI Needs Guardrails, Not Guesswork",
       "url": "https://www.docker.com/blog/agentic-ai-needs-guardrails-not-guesswork/",
@@ -1252,35 +1242,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1a824ec7c2ff87f3af5506fa01bddfae",
-      "title": "Deploying Kubernetes Dashboard and Managing Cluster Resources",
-      "url": "https://dev.to/vultr/deploying-kubernetes-dashboard-and-managing-cluster-resources-4426",
-      "source": "Dev.to",
-      "published_at": "2026-07-24T14:19:09Z",
-      "summary": "Details steps to deploy the Kubernetes Dashboard and manage cluster resources effectively.",
-      "tags": [
-        "Kubernetes",
-        "Cloud",
-        "DevOps"
-      ],
-      "relevance_score": 0.8
-    },
-    {
-      "id": "e3b7f19662c9bdbe15114964174d6b9e",
-      "title": "Deploying Strapi on a Kubernetes Cluster",
-      "url": "https://dev.to/vultr/deploying-strapi-on-a-kubernetes-cluster-384b",
-      "source": "Dev.to",
-      "published_at": "2026-07-24T14:17:45Z",
-      "summary": "Strapi is a headless CMS with an intuitive admin dashboard, custom content types, and role-based...",
-      "tags": [
-        "kubernetes",
-        "cms",
-        "docker",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "358175814b357df5367d1c3ee5ac402c",
       "title": "Deploying MariaDB on Kubernetes",
       "url": "https://dev.to/vultr/deploying-mariadb-on-kubernetes-408a",
@@ -1292,51 +1253,6 @@
         "database",
         "mysql",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3c72b302c465a9dee876516aa413bf61",
-      "title": "Deploying CockroachDB on Kubernetes",
-      "url": "https://dev.to/vultr/deploying-cockroachdb-on-kubernetes-5ch8",
-      "source": "Dev.to",
-      "published_at": "2026-07-24T14:15:31Z",
-      "summary": "CockroachDB is a distributed SQL database that replicates data across nodes for high availability. If...",
-      "tags": [
-        "kubernetes",
-        "database",
-        "sql",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b0aca5b327384cae6651ed0fe2fee61c",
-      "title": "Deploying Apache Cassandra on Kubernetes",
-      "url": "https://dev.to/vultr/deploying-apache-cassandra-on-kubernetes-po6",
-      "source": "Dev.to",
-      "published_at": "2026-07-24T14:14:55Z",
-      "summary": "Apache Cassandra is a highly scalable, distributed NoSQL database built for write-heavy workloads,...",
-      "tags": [
-        "kubernetes",
-        "database",
-        "cassandra",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "53346a782e320f170feeb6978ef83cd7",
-      "title": "Deploying Gateway API with TLS Encryption on Kubernetes",
-      "url": "https://dev.to/vultr/deploying-gateway-api-with-tls-encryption-on-kubernetes-129a",
-      "source": "Dev.to",
-      "published_at": "2026-07-24T14:12:45Z",
-      "summary": "The Kubernetes Gateway API is the successor to Ingress, a more expressive, role-oriented resource...",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "tls",
-        "networking"
       ],
       "relevance_score": 0.0
     },
@@ -1546,21 +1462,6 @@
         "ai",
         "codereview",
         "opensource",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1e39ef87e5f5e6a95356a96af4f66cf3",
-      "title": "Your AI-contribution policy is prose. Here's the enforceable half.",
-      "url": "https://dev.to/sjh9714/your-ai-contribution-policy-is-prose-heres-the-enforceable-half-570n",
-      "source": "Dev.to",
-      "published_at": "2026-07-24T10:58:52Z",
-      "summary": "Your open-source project probably added an AI-contribution policy in the last few months. Apache has...",
-      "tags": [
-        "opensource",
-        "ai",
-        "github",
         "devops"
       ],
       "relevance_score": 0.0
@@ -3085,6 +2986,86 @@
         "webdev",
         "opensource",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "67725beb8a93e2d29983ccdacf4c4353",
+      "title": "Deploying ImgProxy – Process, Resize, Convert Images on the Fly",
+      "url": "https://dev.to/vultr/deploying-imgproxy-process-resize-convert-images-on-the-fly-5ab0",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T12:41:20Z",
+      "summary": "ImgProxy is an open-source image-processing server — resize, convert, and transform images on the fly...",
+      "tags": [
+        "linux",
+        "nginx",
+        "imageprocessing",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bd8d18bd2d9f983c5ab63e955ecaf9fd",
+      "title": "Deploying code-server for VS Code on Ubuntu 24.04",
+      "url": "https://dev.to/vultr/deploying-code-server-for-vs-code-on-ubuntu-2404-4o9e",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T12:40:36Z",
+      "summary": "code-server is the open-source project that runs full VS Code including extensions, integrated...",
+      "tags": [
+        "docker",
+        "vscode",
+        "devops",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "718d62a38a1b696ea562c8c87d51b9bf",
+      "title": "Installing Nginx UI – An Open-Source WebUI for Nginx",
+      "url": "https://dev.to/vultr/installing-nginx-ui-an-open-source-webui-for-nginx-59j7",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T12:38:42Z",
+      "summary": "Nginx UI is an open-source web GUI for managing Nginx, single-node or clustered, with real-time...",
+      "tags": [
+        "nginx",
+        "linux",
+        "devops",
+        "webui"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "32c2518da62b6766091844a75a9c7392",
+      "title": "I'm lost after 3 years in DevOps. What would you do?",
+      "url": "https://www.reddit.com/r/devops/comments/1vbottm/im_lost_after_3_years_in_devops_what_would_you_do/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-07-31T11:55:31+00:00",
+      "summary": "Hi everyone, I'm looking for advice from people who have been in this field longer than I have. I'm an Arts graduate who got into DevOps about 3.3 years ago. I've switched 3 companies and recently joined my 4th company, a large GCC. Along the way I've worked with AWS, Kubernetes, Terraform, CI/CD, a",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fde8f2d399e669e83d65be9e5ffed0fe",
+      "title": "Scaling Kubernetes pods with KEDA based on Amazon SQS queue depth",
+      "url": "https://www.cncf.io/blog/2026/07/31/scaling-kubernetes-pods-with-keda-based-on-amazon-sqs-queue-depth/",
+      "source": "CNCF Blog",
+      "published_at": "2026-07-31T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "83f081dfafe91af52ae83b417ffe0af9",
+      "title": "My Robot Accountant Got an Eviction Notice. So We Moved: Migrating from Bedrock Agents Classic to AgentCore",
+      "url": "https://dev.to/aws-builders/my-robot-accountant-got-an-eviction-notice-so-we-moved-migrating-from-bedrock-agents-classic-to-4bjo",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T07:40:04Z",
+      "summary": "Ciao Amici 👋  Grab your chai, because the robot accountant is back, and this time we have a...",
+      "tags": [
+        "aws",
+        "devops",
+        "machinelearning",
+        "tutorial"
       ],
       "relevance_score": 0.0
     }
