@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T10:10:29Z",
+  "generated_at": "2026-08-01T13:49:02Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1222,26 +1222,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d27dba58ee6ea10efa594aacd27a0e33",
-      "title": "Microsoft, Nvidia, Meta and 22 others defended open weights. Anthropic and OpenAI didn’t sign.",
-      "url": "https://thenewstack.io/microsoft-nvidia-meta-and-open-weights/",
-      "source": "The New Stack",
-      "published_at": "2026-07-25T10:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "24b5b5e8c0e6af04be57367e0c2900e7",
-      "title": "How do you manage/handle openAPI specs sharing between teams?",
-      "url": "https://www.reddit.com/r/devops/comments/1v66xq8/how_do_you_managehandle_openapi_specs_sharing/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-25T12:21:02+00:00",
-      "summary": "Hey everyone, Looking for some advice on a better way to handle and secure our Swagger/OpenAPI docs without overcomplicating our stack or breaking the bank.  Our current setup: We have several projects hosted on Azure. Each project has standard Dev, Staging, and Prod environments and 3 engineering t",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "5ba78938e32b63ad923bc1ebd3865ce2",
       "title": "Stop correcting AI code. Build the system agents need.",
       "url": "https://thenewstack.io/stop-correcting-ai-code-build-the-system-agents-need/",
@@ -1313,21 +1293,6 @@
         "homelab",
         "devops",
         "talos"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "05ce1fe6ccf121a36997091c5e2021b5",
-      "title": "Orchestrating Slow, Unreliable Async Jobs Across Multiple Providers",
-      "url": "https://dev.to/leojxu/orchestrating-slow-unreliable-async-jobs-across-multiple-providers-41mf",
-      "source": "Dev.to",
-      "published_at": "2026-07-25T08:08:56Z",
-      "summary": "Video generation broke every assumption my request-handling code was built on. A job takes anywhere...",
-      "tags": [
-        "architecture",
-        "api",
-        "devops",
-        "programming"
       ],
       "relevance_score": 0.0
     },
@@ -1422,36 +1387,6 @@
         "agents",
         "ai",
         "automation",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9ed4b3212ebe9e63643e7b258b8e5592",
-      "title": "Several agents, one dirty index: disposable multi-repo workspaces for Claude Code",
-      "url": "https://dev.to/riccardo_cereghino/several-agents-one-dirty-index-disposable-multi-repo-workspaces-for-claude-code-1936",
-      "source": "Dev.to",
-      "published_at": "2026-07-25T13:13:09Z",
-      "summary": "Before facet existed, I was at work, locked into a Windows machine. I much prefer Linux, and the...",
-      "tags": [
-        "ai",
-        "git",
-        "devops",
-        "showdev"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3c6fbc38f6f4868a521ed61841e0b16c",
-      "title": "AI Agent Sandboxing: Contain the Blast Radius",
-      "url": "https://dev.to/brennhill/ai-agent-sandboxing-contain-the-blast-radius-59p8",
-      "source": "Dev.to",
-      "published_at": "2026-07-25T12:00:00Z",
-      "summary": "AI agent sandboxing means running an autonomous AI agent inside an isolated, contained environment. No network by default, scoped and short-lived…",
-      "tags": [
-        "ai",
-        "security",
-        "llm",
         "devops"
       ],
       "relevance_score": 0.0
@@ -3365,32 +3300,6 @@
       "relevance_score": 0.9
     },
     {
-      "id": "802e3f98836e3090e90d28cf155d8716",
-      "title": "Why We Stopped Using Log Aggregation for Everything",
-      "url": "https://dev.to/samson_tanimawo/why-we-stopped-using-log-aggregation-for-everything-3eim",
-      "source": "Dev.to",
-      "published_at": "2026-07-25T13:32:05Z",
-      "summary": "The team explains why they abandoned universal log aggregation, opting for targeted logging to reduce noise and improve performance.",
-      "tags": [
-        "Observability",
-        "DevOps"
-      ],
-      "relevance_score": 0.92
-    },
-    {
-      "id": "37602d61b465f52762f3a11d00b46be7",
-      "title": "Design Around the Point You Cannot Undo",
-      "url": "https://dev.to/iqtechsolutions/design-around-the-point-you-cannot-undo-2hin",
-      "source": "Dev.to",
-      "published_at": "2026-07-25T10:45:22Z",
-      "summary": "Designing systems around irreversible points forces careful trade‑offs and resilient architecture decisions.",
-      "tags": [
-        "Platform Engineering",
-        "DevOps"
-      ],
-      "relevance_score": 0.7
-    },
-    {
       "id": "0539d31d80dc8ab7fd3f081de68606c6",
       "title": "Designing a Linux patch management system with Aptly, AWX, PostgreSQL and Grafana",
       "url": "https://www.reddit.com/r/devops/comments/1vcelwk/designing_a_linux_patch_management_system_with/",
@@ -3451,6 +3360,31 @@
         "ci",
         "devops",
         "goose"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ef9cff45bd7ee40c78a2528cc53ef1ef",
+      "title": "What Claude’s real-world breaches reveal about AI safety tests",
+      "url": "https://thenewstack.io/anthropic-claude-containment-failure/",
+      "source": "The New Stack",
+      "published_at": "2026-08-01T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "416ef37b7476d0b6e19ea4b986c7b331",
+      "title": "What Payments Infrastructure Taught Me About Building Systems That Don't Break",
+      "url": "https://dev.to/mtsammy40/what-payments-infrastructure-taught-me-about-building-systems-that-dont-break-kjo",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T09:45:31Z",
+      "summary": "Idempotency, vendor failure, monitoring that catches the invisible outages, and the tradeoffs nobody...",
+      "tags": [
+        "ai",
+        "programming",
+        "devops",
+        "performance"
       ],
       "relevance_score": 0.0
     }
