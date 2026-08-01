@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T06:40:06Z",
+  "generated_at": "2026-08-01T10:10:29Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1222,16 +1222,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0a191dfe3928da757d6236ea12a849f9",
-      "title": "Terraform Question I am asked almost everytime",
-      "url": "https://www.reddit.com/r/devops/comments/1v637pl/terraform_question_i_am_asked_almost_everytime/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-25T09:04:52+00:00",
-      "summary": "You're working in production. Your Terraform backend is:  S3 for state DynamoDB for locking  A developer accidentally deletes the DynamoDB lock table. At the same time, two engineers run terraform apply. Thirty minutes later, the infrastructure is in an inconsistent state. Questions  What exactly ha",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d27dba58ee6ea10efa594aacd27a0e33",
       "title": "Microsoft, Nvidia, Meta and 22 others defended open weights. Anthropic and OpenAI didn’t sign.",
       "url": "https://thenewstack.io/microsoft-nvidia-meta-and-open-weights/",
@@ -2029,12 +2019,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1v97rw1/need_advice_did_i_mess_up_my_architecture_also/",
       "source": "Reddit r/devops",
       "published_at": "2026-07-28T18:59:56+00:00",
-      "summary": "Asking for feedback on architecture and comparing Dokploy, Coolify, and Komodo.",
-      "tags": [
-        "Cloud",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.6
+      "summary": "Hi everyone, I'm looking for some honest feedback on my current self-hosted architecture. I have a feeling I may have made some poor design decisions, so I'd really appreciate suggestions on how to improve it. Here's my current setup on AWS: Frontend EC2: Two React applications (Admin &amp; Tenant) ",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "fddd32662d64223335a2e32b63d40e12",
