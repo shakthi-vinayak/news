@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T19:24:30Z",
+  "generated_at": "2026-08-01T21:06:01Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,16 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "281f34818bfc894f1754665f485c3278",
-      "title": "How do you reduce risk when deploying to prod?",
-      "url": "https://www.reddit.com/r/devops/comments/1v6ji9l/how_do_you_reduce_risk_when_deploying_to_prod/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-25T20:47:25+00:00",
-      "summary": "I’m researching how engineers make safer production changes. Many teams now use strategies like automated tests, regression tests, canary releases, automated rollbacks, and better observability, but production incidents still happen after deployments. I’m curious about real experiences from engineer",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7b03c6c3752a6b920d5d2da1aa5407c0",
       "title": "Should agents need a second approval before deploy/delete actions?",
       "url": "https://www.reddit.com/r/devops/comments/1v6rxjm/should_agents_need_a_second_approval_before/",
@@ -1294,21 +1284,6 @@
       "published_at": "2026-07-26T07:49:28+00:00",
       "summary": "I always heard that in the Indian market AWS has more jobs, is it still the same case  &#32; submitted by &#32;  /u/0diyammabadava   [link] &#32; [comments]",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2245e2172c69ff79d8e111b4ef3aabb9",
-      "title": "Sesiones remotas siempre disponibles para tus agentes de codigo",
-      "url": "https://dev.to/aws-builders/sesiones-remotas-siempre-disponibles-para-tus-agentes-de-codigo-549f",
-      "source": "Dev.to",
-      "published_at": "2026-07-25T19:19:33Z",
-      "summary": "Una sesión de agente que sobrevive a cerrar la laptop, corriendo en una sola instancia EC2 chica que...",
-      "tags": [
-        "automation",
-        "aws",
-        "cli",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1478,21 +1453,6 @@
         "devops",
         "cicd",
         "deployment"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "419c0961232b903dbfc304f9d6f2baaf",
-      "title": "From Policy to Pipeline: Making Compliance an Engineering Property",
-      "url": "https://dev.to/anusha_mukka/from-policy-to-pipeline-making-compliance-an-engineering-property-35ap",
-      "source": "Dev.to",
-      "published_at": "2026-07-25T19:41:30Z",
-      "summary": "Part 4 of \"Trust the Machine\" —&gt; a series on building AI infrastructure that is secure, compliant,...",
-      "tags": [
-        "ai",
-        "security",
-        "devops",
-        "compliance"
       ],
       "relevance_score": 0.0
     },
@@ -3365,6 +3325,50 @@
         "security",
         "testing",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "91b9764db0249925fe78b66167922a02",
+      "title": "How I Built My AWS Cloud Resume Challenge — A Complete Walkthrough",
+      "url": "https://dev.to/tejtandel/how-i-built-my-aws-cloud-resume-challenge-a-complete-walkthrough-2mm6",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T13:32:56Z",
+      "summary": "A deep dive into building a serverless cloud resume using S3, CloudFront, Lambda, DynamoDB, API Gateway, and Terraform — all wired together with GitHub Actions CI/CD.",
+      "tags": [
+        "aws",
+        "terraform",
+        "devops",
+        "cicd"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c1b2cb6e4ba601208a67dc7576033c94",
+      "title": "Twilio removes conference_participant from Voice Insights on Aug 1, 2026 — the field goes null, not gone, so nothing errors",
+      "url": "https://dev.to/flarecanary/twilio-removes-conferenceparticipant-from-voice-insights-on-aug-1-2026-the-field-goes-null-not-4l52",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T05:00:46Z",
+      "summary": "If you pull Twilio Voice Insights Call Summaries to analyze conference calls — contact-center...",
+      "tags": [
+        "twilio",
+        "api",
+        "integrations",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "61e7c1905d3d043f7410681957f4365c",
+      "title": "What Financial Services Taught Me About Saying No",
+      "url": "https://dev.to/todd_linnertz_871a076f68e/what-financial-services-taught-me-about-saying-no-olj",
+      "source": "Dev.to",
+      "published_at": "2026-07-26T19:46:04Z",
+      "summary": "Financial services has a reputation among engineers: it's the place where velocity goes to die. Ask...",
+      "tags": [
+        "devops",
+        "platformengineering",
+        "fintech"
       ],
       "relevance_score": 0.0
     }
