@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T10:08:18Z",
+  "generated_at": "2026-08-02T13:48:38Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1369,21 +1369,6 @@
       "published_at": "2026-07-27T08:06:19+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a24e38b83fa117802262af4296177142",
-      "title": "Designing a Scalable Release System for Multi-Package TypeScript Monorepos",
-      "url": "https://dev.to/__whyd_rf/building-a-production-ready-release-pipeline-for-multi-package-typescript-monorepos-1ohm",
-      "source": "Dev.to",
-      "published_at": "2026-07-26T11:24:15Z",
-      "summary": "A practical guide to building automated deployment pipelines for multi-package TypeScript monorepos — covering versioning, npm publishing, Docker, and docs deployment.",
-      "tags": [
-        "typescript",
-        "devops",
-        "cicd",
-        "deployment"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3042,13 +3027,14 @@
       "url": "https://dev.to/youngpib0dy/your-grpc-stream-is-healthy-and-serving-nothing-synthetic-monitoring-for-server-side-streams-5gcn",
       "source": "Dev.to",
       "published_at": "2026-07-27T13:26:37Z",
-      "summary": "Discusses using synthetic monitoring to detect healthy-but-idle gRPC streams and improve reliability.",
+      "summary": "By Daniil Romashov — SRE/DevOps engineer. The tool described here is open...",
       "tags": [
-        "Observability",
-        "DevOps",
-        "Cloud"
+        "opensource",
+        "sre",
+        "devops",
+        "grpc"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "c9a30e4cee523018ffb775b84c825cd2",
@@ -3090,21 +3076,6 @@
         "DevOps"
       ],
       "relevance_score": 0.8
-    },
-    {
-      "id": "c24a33f870f22731b005b3d38871bb1a",
-      "title": "SRE Maturity Models: Where Is Your Team?",
-      "url": "https://dev.to/samson_tanimawo/sre-maturity-models-where-is-your-team-47mb",
-      "source": "Dev.to",
-      "published_at": "2026-07-26T13:27:00Z",
-      "summary": "Where is your SRE team on the maturity curve? I've worked with teams at every stage. Here's a rough...",
-      "tags": [
-        "sre",
-        "devops",
-        "maturity",
-        "strategy"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "0539d31d80dc8ab7fd3f081de68606c6",
@@ -3355,6 +3326,41 @@
         "integrations",
         "hr",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f80cf0eff26954d961e180629984187a",
+      "title": "Idempotency in IaC is just an equality check",
+      "url": "https://www.reddit.com/r/devops/comments/1vdhrjb/idempotency_in_iac_is_just_an_equality_check/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-02T13:12:19+00:00",
+      "summary": "      Was trying to better understand how state works in Terraform and OpenTofu, so I put together this short post on idempotency in IaC. I would love to hear your opinions   &#32; submitted by &#32;  /u/ogathrow   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d1ca69fa6dba2a3ead2ac35453c77860",
+      "title": "Where do infra/platform engineers actually hang out online these days?",
+      "url": "https://www.reddit.com/r/devops/comments/1vdh4yt/where_do_infraplatform_engineers_actually_hang/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-02T12:43:16+00:00",
+      "summary": "Altho I’m an active lurker here, I’ve recently started using X to try and connect with people working in infra, platform engineering, and devops, but I’m finding it surprisingly difficult to discover that side of the community. But my feed is still mostly AI hype and general tech content, while I’m ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "43c3896d8465371cb2a0d218894c4757",
+      "title": "Apache Iceberg Query Performance: A Practical Guide",
+      "url": "https://dev.to/jonisar/apache-iceberg-query-performance-a-practical-guide-1pd6",
+      "source": "Dev.to",
+      "published_at": "2026-08-02T09:31:14Z",
+      "summary": "Iceberg is the standard. Snowflake, Databricks, AWS, and every major query engine read and write it...",
+      "tags": [
+        "data",
+        "dataengineering",
+        "devops",
+        "programmers"
       ],
       "relevance_score": 0.0
     }
