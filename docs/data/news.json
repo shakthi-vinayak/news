@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T17:12:48Z",
+  "generated_at": "2026-08-02T19:25:57Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -3337,6 +3337,16 @@
         "devops",
         "programmers"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "88248f47415d64bf0704f40375d10ec0",
+      "title": "I'm so tired of pushing 10 times just to fix one GitHub Actions error",
+      "url": "https://www.reddit.com/r/devops/comments/1vdqoy3/im_so_tired_of_pushing_10_times_just_to_fix_one/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-02T19:12:12+00:00",
+      "summary": "Every time I touch a workflow file it's the same loop, small change, push, wait for the runner, watch it fail on some tiny thing, tweak, push again. Ten commits later it finally goes green. No real way to test it before it runs, so I'm just push-and-praying. Do you hit the same thing? Or is there so",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
