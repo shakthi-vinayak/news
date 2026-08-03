@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T19:54:58Z",
+  "generated_at": "2026-08-03T21:17:51Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1218,26 +1218,6 @@
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-07-27T20:45:08+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e9261e8471eca2aa76de9ed9c40ee48d",
-      "title": "Expectations from devops engineer with 3 YOE in USA",
-      "url": "https://www.reddit.com/r/devops/comments/1v8boe6/expectations_from_devops_engineer_with_3_yoe_in/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-27T20:09:07+00:00",
-      "summary": "Working as devops engineer from last 3 years in states, mostly work on windows stack, azure devops, yaml pipeline. Recently worked with setting up sonarqube &amp; snyk for all teams &amp; product across firm. Currently working in git migration and github actions. Planning to move back to india, what",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "72970e03d0da89b6130950da53d6e592",
-      "title": "Automated my tech support / investigation workflow using CLI, MCPs, and custom subagents. Here is the architecture.",
-      "url": "https://www.reddit.com/r/devops/comments/1v8bm5l/automated_my_tech_support_investigation_workflow/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-27T20:06:56+00:00",
-      "summary": "Hey everyone, Quick workflow showcase/idea for anyone who gets enterprise access to AI CLIs at work (Gemini CLI, Claude Code, etc.) and still finds themselves manually jumping between tools during investigations or routine support tasks. I recently set up a workflow that basically turns my CLI into ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3004,12 +2984,14 @@
       "url": "https://dev.to/tomaszwostal/when-your-homelab-grows-up-how-sqlite-took-down-my-k3s-control-plane-1kdp",
       "source": "Dev.to",
       "published_at": "2026-08-02T18:32:01Z",
-      "summary": "Describes a homelab scenario where using SQLite for k3s datastore caused control plane instability, highlighting lessons for lightweight K8s deployments.",
+      "summary": "Originally published at wostal.eu.   TL;DR: My Hetzner k3s lab quietly became a platform. Dozens of...",
       "tags": [
-        "Kubernetes",
-        "DevOps"
+        "kubernetes",
+        "sqlite",
+        "sre",
+        "homelab"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "1e44e83808a73c1eff4238788b2ad1f3",
@@ -3554,6 +3536,581 @@
         "infrastructure",
         "security"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c60efcee6a7e43c665a2ed1a2aa96ec3",
+      "title": "If I cannot start a devops job as a fresher, what can I start to learn to get job?",
+      "url": "https://www.reddit.com/r/devops/comments/1veo5ve/if_i_cannot_start_a_devops_job_as_a_fresher_what/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-03T19:58:42+00:00",
+      "summary": "Hey all, I read and heard that devops is not a starter job that I can learn number of skills and start job searching. There is no junior or entry level devops jobs. I can understand it. If it is true, what can I learn and search for jobs? Shall I go for AWS? Linux? The only one skill will get me a j",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "abc8efbb838485abafc0df82edf85e53",
+      "title": "What Does 'Hello World' Actually Cost on AWS vs Bare Metal? (2026)",
+      "url": "https://dev.to/pavel-hostim/what-does-hello-world-actually-cost-on-aws-vs-bare-metal-2026-4f41",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T15:39:51Z",
+      "summary": "One container, one domain, HTTPS, no traffic. Priced line by line on AWS Fargate, Hetzner Cloud, and Hetzner bare metal, with every rate linked to its source.",
+      "tags": [
+        "aws",
+        "devops",
+        "docker",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "88d7c50c95a8c0331f9e712bcd8e214c",
+      "title": "Switching from cloud-native (AKS) to OpenShift/on-prem for a regulated-industry SRE role — smart move or not?",
+      "url": "https://www.reddit.com/r/sre/comments/1vedgcb/switching_from_cloudnative_aks_to_openshiftonprem/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-08-03T13:28:32+00:00",
+      "summary": "I've spent years doing SRE work fully in Azure (AKS, Managed services, cloud-native tooling). I have an offer from an insurance company where the stack is OpenShift, Java-based app runtimes (Quarkus, RedHat EAP), and no public cloud at all as far as I can tell. The role itself is interesting (securi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f79552e53baedef036b86d78a3524be7",
+      "title": "ShopSphere — A Cloud-Native E-Commerce Platform",
+      "url": "https://dev.to/saurabh_gupta/shopsphere-a-cloud-native-e-commerce-platform-110c",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T12:11:15Z",
+      "summary": "`           8 Things That Broke When I Deployed Kubernetes on AWS EKS Fargate (And How I Fixed...",
+      "tags": [
+        "kubernetes",
+        "docker",
+        "aws",
+        "python"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6ed3e342df67cc95d70a08fd5d9399c2",
+      "title": "Stack Overflow + dev.to (install errors are searched, not browsed - this is an evergreen Q&A magnet)",
+      "url": "https://dev.to/mikhail_dorokhovich_0c532/stack-overflow-devto-install-errors-are-searched-not-browsed-this-is-an-evergreen-qa-magnet-dlm",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T09:24:58Z",
+      "summary": "Don't start the build chapters until this k8s smoke test passes   Chapter 4 of a...",
+      "tags": [
+        "devops",
+        "docker",
+        "infrastructure",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "54bb0d41a26209bdbd95d86aff2dc35c",
+      "title": "5 Most Important Programming Languages to Learn in 2026 (Based on Real Industry Demand)",
+      "url": "https://dev.to/hadil/5-most-important-programming-languages-to-learn-in-2026-based-on-real-industry-demand-3dc7",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T09:05:57Z",
+      "summary": "Every year, developers ask the same question:  \"Which programming language should I learn next?\"  And...",
+      "tags": [
+        "python",
+        "rust",
+        "java",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "48cb1fa323d15f9f443c7813bc6ff4ec",
+      "title": "A Weekend of Kubernetes: FastAPI, Helm, and Breaking Things on Purpose",
+      "url": "https://dev.to/xinyangwuethz/a-weekend-of-kubernetes-fastapi-helm-and-breaking-things-on-purpose-3nf8",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T08:36:30Z",
+      "summary": "Deploying two FastAPI services on a local kind cluster with a production-shaped Helm chart — and why deliberately breaking the deployment taught me the most.",
+      "tags": [
+        "kubernetes",
+        "helm",
+        "docker",
+        "fastapi"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a82b8b364fe0ad6868d0f014d44245f5",
+      "title": "The Kubernetes v1.37 sneak peek gives you three deprecations to diary now",
+      "url": "https://dev.to/leobaniak/the-kubernetes-v137-sneak-peek-gives-you-three-deprecations-to-diary-now-45a3",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T08:24:49Z",
+      "summary": "The release team's preview for v1.37 flags a three-release deprecation clock on kube-proxy ipvs mode, a rule that Static Pods can no longer reference Secrets or ConfigMaps, and the removal of the --filename flag on kubectl run. It also reprises the still-live cgroup v1 tripwire that stops kubelet from booting.",
+      "tags": [
+        "kubernetes",
+        "release",
+        "deprecations",
+        "kubeproxy"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a411a2a4c21415d512632dd816ab0aa3",
+      "title": "From Kubernetes PR to Deployment Verdict: Approve, Warn, or Block",
+      "url": "https://dev.to/silpa_nallagopula_4d02cde/from-kubernetes-pr-to-deployment-verdict-approve-warn-or-block-52lk",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T04:00:00Z",
+      "summary": "A small change in a Helm values file can look completely harmless during review.  The YAML is...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "sre",
+        "platformengineering"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "033f9940ae5bca6008d2477144268f79",
+      "title": "Traversal AI SRE",
+      "url": "https://www.reddit.com/r/sre/comments/1vdlwjf/traversal_ai_sre/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-08-02T16:04:53+00:00",
+      "summary": "Hi everyone, Has anybody tried using Traversal’s product? Any thoughts? Wonder how much it works vs. just fluff and PR. Thanks  &#32; submitted by &#32;  /u/Berlin31337   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c08c761da025b94eb5d05ed58a5ab3d2",
+      "title": "5 years as an SRE, but I still feel my knowledge is too shallow",
+      "url": "https://www.reddit.com/r/sre/comments/1vcsfyi/5_years_as_an_sre_but_i_still_feel_my_knowledge/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-08-01T16:54:10+00:00",
+      "summary": "I've been working as an SRE for the past 5 years, but I was laid off last month. Throughout my career I've worked with a variety of technologies, but I never feel like I truly know them. Lately I've been interviewing, and it feels like my knowledge is too shallow. I'm not sure if I'm actually lackin",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a9ed535e37f6e252ef7a6cea4759d9e8",
+      "title": "I Learned Go in 3 Weeks. Yesterday, My Code Merged into k9s.",
+      "url": "https://dev.to/le_beltagy/i-learned-go-in-3-weeks-yesterday-my-code-merged-into-k9s-2dg4",
+      "source": "Dev.to",
+      "published_at": "2026-08-01T10:07:53Z",
+      "summary": "I Learned Go in 3 Weeks. Yesterday, My Code Merged into k9s.   From zero Go experience to a...",
+      "tags": [
+        "go",
+        "kubernetes",
+        "opensource",
+        "beginners"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1d043600c4d8ed366a22913146bab1f2",
+      "title": "Here's what changed in AI SRE vendor land this past week (25-31 July)",
+      "url": "https://www.reddit.com/r/sre/comments/1vchzo2/heres_what_changed_in_ai_sre_vendor_land_this/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-08-01T08:45:12+00:00",
+      "summary": " Resolve AI now charges for results instead of tokens. They say if their agent wastes tokens, that's their cost to eat, not yours. Datadog has made Agent Observability free for up to 40,000 LLM spans a month. They didn't announce it explicitly, they just changed the line at the bottom of their AI bl",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6cec73fb2ff9d3fd4e419c8c56fb1d05",
+      "title": "\"Kubernetes Interviews Are Broken When Trivia Matters More Than Real Skill\"",
+      "url": "https://dev.to/da-li-at-pl/kubernetes-interviews-are-broken-when-trivia-matters-more-than-real-skill-40po",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T21:44:28Z",
+      "summary": "Kubernetes Interviews Are Broken When Trivia Matters More Than Real Skill   Kubernetes...",
+      "tags": [
+        "career",
+        "devops",
+        "interview",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b2adfe7b4d85c2de09fcd73e68d23a22",
+      "title": "Why is high mttr despite observability stack still happening?",
+      "url": "https://www.reddit.com/r/sre/comments/1vbw55w/why_is_high_mttr_despite_observability_stack/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-31T16:40:08+00:00",
+      "summary": "Something i keep running into, both in our own incidents and talking to other teams, is this gap: on paper we have a modern observability stack but our mean time to resolve is still higher than anyone's comfortable with. By modern observability stack i mean the usual combo: structured logs, distribu",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "38af74cca53e67ebdb6007835aa55618",
+      "title": "Deploying Metabase on Kubernetes",
+      "url": "https://dev.to/vultr/deploying-metabase-on-kubernetes-48gh",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T12:39:17Z",
+      "summary": "Metabase is an open-source BI tool for building charts and dashboards over MySQL, PostgreSQL,...",
+      "tags": [
+        "kubernetes",
+        "database",
+        "analytics",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8e38387168070b75db013d6dc5612178",
+      "title": "Testing CAST AI on GKE: A Hands-On Kubernetes Workload Optimization Lab",
+      "url": "https://dev.to/upshivam786/testing-cast-ai-on-gke-a-hands-on-kubernetes-workload-optimization-lab-3lep",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T12:38:02Z",
+      "summary": "I intentionally over-provisioned a Kubernetes application just to see whether CAST AI could detect...",
+      "tags": [
+        "cloud",
+        "devops",
+        "infrastructure",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b609b74ba9ab3654a60cfd4b33128725",
+      "title": "FOSS Friday: Share Your SRE-Related Open-Source Project",
+      "url": "https://www.reddit.com/r/sre/comments/1vbozu4/foss_friday_share_your_srerelated_opensource/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-31T12:02:32+00:00",
+      "summary": "Welcome to FOSS Friday, where you can share your newly released or updated open-source project with the community. Please note that our rules still apply:  no AI generated comments: please write them on your own! no commercial advertisements (this includes commercial products with a FOSS version) th",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "df2084e0573eaa177e2315d4ff43f19b",
+      "title": "Cloud Security Architecture: From Shared Responsibility to Zero Trust",
+      "url": "https://dev.to/aloknecessary/cloud-security-architecture-from-shared-responsibility-to-zero-trust-4jc7",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T10:24:18Z",
+      "summary": "Cloud security incidents that make news are rarely the result of a novel attack technique. They are...",
+      "tags": [
+        "cloud",
+        "architecture",
+        "devops",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "01a428ff6e0c356e170b52dc7adf7c2b",
+      "title": "Switching to sre from swe",
+      "url": "https://www.reddit.com/r/sre/comments/1vbeyow/switching_to_sre_from_swe/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-31T03:16:17+00:00",
+      "summary": "Hey everyone, I'm currently a senior SWE at a FAANG in the US with about 10 YoE, mostly focused on infra building. We're dealing with some visa issues right now (my wife lost her work permit), so I'm looking into an internal transfer to London. The catch is that the only options available for me to ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f9eb79047aeec901bb72d06cfe740b10",
+      "title": "Image verification, one layer below admission",
+      "url": "https://dev.to/leobaniak/image-verification-one-layer-below-admission-17mg",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T00:25:35Z",
+      "summary": "A CNCF post outlines a Node Resource Interface plugin that verifies SLSA, VEX and VSA attestations at CreateContainer time inside the container runtime, closing gaps that admission webhooks can miss.",
+      "tags": [
+        "kubernetes",
+        "supplychain",
+        "policy",
+        "attestations"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a69f20ef050cb9a5e8591d2a2e6949af",
+      "title": "Saturation: How Your Software Will Fail at Scale",
+      "url": "https://www.reddit.com/r/sre/comments/1vavsfn/saturation_how_your_software_will_fail_at_scale/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-30T14:49:36+00:00",
+      "summary": "      Excellent talk by Lorin Hochstein, an SRE at Airbnb, from SSW earlier this month. Thought some of you would enjoy it!  &#32; submitted by &#32;  /u/isaacvando   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "55b081dd4751514ec5ca5be500743089",
+      "title": "Building a K8s-Native AI Governance Platform with OPA and ML-BOM",
+      "url": "https://dev.to/hyelzor/building-a-k8s-native-ai-governance-platform-with-opa-and-ml-bom-5109",
+      "source": "Dev.to",
+      "published_at": "2026-07-30T12:06:32Z",
+      "summary": "Building a K8s-Native AI Governance Platform with OPA and ML-BOM  AI workloads on Kubernetes are...",
+      "tags": [
+        "ai",
+        "kubernetes",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "babe7cfbf5e55b280d344b7389879bfc",
+      "title": "Kubernetes On-Premise: Criando um Registro de Imagens Docker Local",
+      "url": "https://dev.to/celsonery/kubernetes-on-premise-criando-um-registro-de-imagens-docker-local-a89",
+      "source": "Dev.to",
+      "published_at": "2026-07-29T19:09:43Z",
+      "summary": "Em clusters Kubernetes on-premise, nem sempre faz sentido depender do Docker Hub (ou de qualquer...",
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "devops",
+        "registry"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ecf0bacef80b28761cb5e794ba6e0c31",
+      "title": "Backing Up Qdrant Snapshots Correctly: From emptyDir to NFS Persistent Backups",
+      "url": "https://dev.to/futhgar/backing-up-qdrant-snapshots-correctly-from-emptydir-to-nfs-persistent-backups-2b9f",
+      "source": "Dev.to",
+      "published_at": "2026-07-29T18:15:48Z",
+      "summary": "Qdrant snapshots on emptyDir vanish on restart, and snapshots on the data PVC die with the disk. Here's the NFS-backed pattern that survives both.",
+      "tags": [
+        "qdrant",
+        "kubernetes",
+        "backups",
+        "nfs"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7f158687b2dba619f9dbea6563944be0",
+      "title": "Raspberry Pi Kubernetes Cluster: SSH into the Nodes (Issue #3)",
+      "url": "https://dev.to/_juliantellez/raspberry-pi-kubernetes-cluster-ssh-into-the-nodes-issue-3-7cm",
+      "source": "Dev.to",
+      "published_at": "2026-07-29T12:59:56Z",
+      "summary": "Find your Raspberry Pi nodes on the network with nmap and connect over SSH, both by password and with RSA keys.",
+      "tags": [
+        "kubernetes",
+        "homelab",
+        "raspberrypi"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "60f60a26babed8437f26d92b47723d15",
+      "title": "Raspberry Pi Kubernetes Cluster: Equipment (Issue #1)",
+      "url": "https://dev.to/_juliantellez/raspberry-pi-kubernetes-cluster-equipment-issue-1-4la7",
+      "source": "Dev.to",
+      "published_at": "2026-07-29T12:56:17Z",
+      "summary": "The first in a series on building a Kubernetes home lab with Raspberry Pi: the prerequisites and the equipment to get started.",
+      "tags": [
+        "kubernetes",
+        "homelab",
+        "raspberrypi"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e6e2be37e98397aefa1a562424878533",
+      "title": "Zero-code PII sanitization for Grafana Loki and Promtail in Kubernetes",
+      "url": "https://dev.to/aragossa/zero-code-pii-sanitization-for-grafana-loki-and-promtail-in-kubernetes-739",
+      "source": "Dev.to",
+      "published_at": "2026-07-29T08:56:43Z",
+      "summary": "If you use Grafana Loki for log aggregation, you probably rely on Promtail (or the Grafana Agent) to...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "security",
+        "observability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "190202eebc86f491e9b2e92839cc8f0c",
+      "title": "What is the minimum observability you deploy with Celery?",
+      "url": "https://www.reddit.com/r/sre/comments/1v9ms11/what_is_the_minimum_observability_you_deploy_with/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-29T05:27:12+00:00",
+      "summary": "I’m reviewing a small Celery deployment example that includes a worker and Flower: https://github.com/render-examples/celery For a small application, is Flower still the first observability tool you would add? The minimum setup I’m considering is:  Structured task logs Queue-depth monitoring Failed-",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "438b71080d779c6022db7e888ca920e8",
+      "title": "The Hidden Cost of Manual Application Onboarding on Google Cloud",
+      "url": "https://dev.to/vertro/the-hidden-cost-of-manual-application-onboarding-on-google-cloud-fba",
+      "source": "Dev.to",
+      "published_at": "2026-07-29T03:26:09Z",
+      "summary": "When people think about application onboarding, they usually think about creating a Kubernetes...",
+      "tags": [
+        "googlecloud",
+        "kubernetes",
+        "platformengineering",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e8e2eba095ab10153815cfb6b318391e",
+      "title": "Foreman 101: agentic coding as Kubernetes resources",
+      "url": "https://dev.to/defilan/foreman-101-agentic-coding-as-kubernetes-resources-4k33",
+      "source": "Dev.to",
+      "published_at": "2026-07-28T18:55:51Z",
+      "summary": "Foreman is an agentic coder that runs as Kubernetes resources. You describe work as a Workload, it...",
+      "tags": [
+        "kubernetes",
+        "ai",
+        "llm",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f75b536d122f434aa3ba4eeb8f24d99d",
+      "title": "A Kubernetes Constraint for a novice architect",
+      "url": "https://dev.to/chimbs86/a-kubernetes-constraint-for-a-novice-architect-4n8n",
+      "source": "Dev.to",
+      "published_at": "2026-07-28T14:05:58Z",
+      "summary": "Your Business Scales on Connections. Your Cluster Scales on CPU.   Why the most common...",
+      "tags": [
+        "architecture",
+        "kubernetes",
+        "scalability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e4c805860d53ab40e6c474494ee58674",
+      "title": "Pressure-testing Ota on Hasura: raw Kubernetes manifests and honest kubectl proof",
+      "url": "https://dev.to/otaready/pressure-testing-ota-on-hasura-raw-kubernetes-manifests-and-honest-kubectl-proof-pj4",
+      "source": "Dev.to",
+      "published_at": "2026-07-28T11:46:24Z",
+      "summary": "Overview   Hasura exposed a useful execution-governance boundary: raw Kubernetes manifests...",
+      "tags": [
+        "pressuretesting",
+        "hasura",
+        "kubernetes",
+        "kubectl"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "708ab83c5eb2d8ccf6d8c353f8de5728",
+      "title": "Understanding Why Kubernetes Pods Get Stuck in Pending (A Beginner-Friendly Troubleshooting Guide)",
+      "url": "https://dev.to/avinashwagh/understanding-why-kubernetes-pods-get-stuck-in-pending-a-beginner-friendly-troubleshooting-guide-32d7",
+      "source": "Dev.to",
+      "published_at": "2026-07-28T11:29:03Z",
+      "summary": "kubernetes #devops #aws #docker #linux   One of the most common issues you'll encounter...",
+      "tags": [
+        "aws",
+        "devops",
+        "docker",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c177d7ac017b1cfa64088134b3ab74a5",
+      "title": "Linkerd federation keeps the app running when a whole Kubernetes cluster dies",
+      "url": "https://dev.to/leobaniak/linkerd-federation-keeps-the-app-running-when-a-whole-kubernetes-cluster-dies-7ob",
+      "source": "Dev.to",
+      "published_at": "2026-07-28T08:27:04Z",
+      "summary": "A CNCF walk-through by Dominik Táskai wires three GKE clusters into a full-mesh Linkerd multicluster and kills one. The nine-pod frontend rebalances across the surviving six with no application changes, but the setup pays a real price at the VPC, node-count and controller layers.",
+      "tags": [
+        "linkerd",
+        "multicluster",
+        "kubernetes",
+        "servicemesh"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "26fefb9aed23b88f8ff2ff8faba42714",
+      "title": "Which spacelift or terraform cloud alternatives are we using now?",
+      "url": "https://www.reddit.com/r/sre/comments/1v8o2gd/which_spacelift_or_terraform_cloud_alternatives/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-28T04:46:24+00:00",
+      "summary": "We are reviewing our IaC platform and looking beyond Terraform Cloud and Spacelift. Orchestration is important, but from an SRE perspective, we are also trying to improve visibility and recovery. Some resources exist outside Terraform, and configuration drift means Git does not always represent the ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0f1afb0a5e316f31a11565a43fc3d051",
+      "title": "Construindo uma plataforma GitOps do zero: Kubernetes, ArgoCD, Terraform e Observabilidade",
+      "url": "https://dev.to/m_kocotem_1b69865766c653/construindo-uma-plataforma-gitops-do-zero-kubernetes-argocd-terraform-e-observabilidade-34jh",
+      "source": "Dev.to",
+      "published_at": "2026-07-27T22:53:33Z",
+      "summary": "Durante muito tempo, meu contato com Kubernetes foi do tipo \"já mexi\": subi um pod aqui, apliquei um...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "gitops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4233b8c205d7cf0aea4ab1c8047b4ff9",
+      "title": "Suggestions on Reading Papers to be a better SRE",
+      "url": "https://www.reddit.com/r/sre/comments/1v6ymdv/suggestions_on_reading_papers_to_be_a_better_sre/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-26T09:05:39+00:00",
+      "summary": "Since the start of 2026, I have been reading some famous papers such as Dynamo, GFS, Zookeeper, Apache Kafka, The tail at scale. But it feels like mostly theoretical stuff, the question is, will reading papers be useful to become a better SRE? I read on the weekends so my pace is slow.  &#32; submit",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d3f3025ccbf6302299b6eb2fd4dedf1f",
+      "title": "Calling out salary bs",
+      "url": "https://www.reddit.com/r/sre/comments/1v4rn5w/calling_out_salary_bs/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-23T21:39:45+00:00",
+      "summary": "So, went to levels.fyi. I've been there before. I'm not putting my salary in though so I don't have full access to the site. The median US salary for SRE is $205k Ok that's pretty decent but what the fuck is this &gt;$600k nonsense I'm seeing bandied about in this sub? Fwiw I'm trying to hire, not s",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "667eb8daa496c340f2db518818af5019",
+      "title": "Thoughts on alert work",
+      "url": "https://www.reddit.com/r/sre/comments/1v4mqa6/thoughts_on_alert_work/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-23T18:43:07+00:00",
+      "summary": "Joined an SRE org from a background that was mostly infrastructure and technical design work. Since joining, almost everything I’ve been assigned has been alert-related in some form. Cleanup, enrichment, TTR, take your pick. It’s been the quarterly assignment three quarters running and there’s anoth",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "382a67c84344189345947c85880b8c21",
+      "title": "Who's doing multi cloud on purpose and how are you surviving it?",
+      "url": "https://www.reddit.com/r/sre/comments/1v4alod/whos_doing_multi_cloud_on_purpose_and_how_are_you/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-23T11:00:33+00:00",
+      "summary": "In my last role, we ended up multi cloud mostly by accident, major workloads on AWS, a big legacy system on Azure, some experiments on GCP, and a handful of SaaS platforms that each came with their own identity and billing surface, another provider in every way that mattered. Nobody planned a unifie",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d46b558cbc570978d131d2b5630d5f39",
+      "title": "Help me choose between Nvidia or Palo Alto Networks",
+      "url": "https://www.reddit.com/r/sre/comments/1v3zzr7/help_me_choose_between_nvidia_or_palo_alto/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-23T01:47:42+00:00",
+      "summary": "I have got an offer to join Nvidia on their SRE team which revolves around maintaining or keeping up with the GPU Infra in their compute Infrastructure, and another offer from Palo Alto Networks as a swe, so I just wanted to know like which one to choose, I'm a new grad btw, please let me know your ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5b604c441dcf40858022eabd068a415b",
+      "title": "200+ applications, still no signed offer. How are you all coping?",
+      "url": "https://www.reddit.com/r/sre/comments/1v3vkag/200_applications_still_no_signed_offer_how_are/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-22T22:37:06+00:00",
+      "summary": "Throwaway for obvious reasons. SWE/SRE background, ~7 years experience, applying across engineering and adjacent roles. Laid off earlier this year in a company-wide cut. I tracked everything since the layoff, so here is the actual funnel: - 240+ applications - ~50 companies replied with anything hum",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "02fb3c585c22ae5e756adddf32bde747",
+      "title": "How are you gating what can touch prod now that AI agents are in the mix?",
+      "url": "https://www.reddit.com/r/sre/comments/1v3vg9p/how_are_you_gating_what_can_touch_prod_now_that/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-22T22:32:44+00:00",
+      "summary": "We're getting pushed to use AI for more ops work. At the same time I keep seeing posts here about an agent wiping a prod db or deleting the backups (the Railway/Cursor one especially). Feels backwards that we won't give a mid-level engineer write access to prod, but we'll happily point an agent at i",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "957d9a1afc2665832fa58e3de56da0f1",
+      "title": "Is SRE more \"AI-proof\" than other fields, or are we just behind?",
+      "url": "https://www.reddit.com/r/sre/comments/1v3usfj/is_sre_more_aiproof_than_other_fields_or_are_we/",
+      "source": "Reddit r/sre",
+      "published_at": "2026-07-22T22:06:50+00:00",
+      "summary": "Hi everyone, I’ve been observing the AI boom across different sectors, and it feels like SRE isn't getting the same level of hype or rapid integration as Software Engineering (SWE) or Cybersecurity. While AI tools for SRE definitely exist, their progress seems slower, and their impact on the job mar",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
