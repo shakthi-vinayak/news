@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T21:17:51Z",
+  "generated_at": "2026-08-03T23:15:12Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -267,16 +267,6 @@
       "url": "https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/",
       "source": "Kubernetes Blog",
       "published_at": "2026-05-13T18:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7a3263d9607ace153034f144404853bd",
-      "title": "Agentic application modernization at scale with Strands and Amazon Transform custom",
-      "url": "https://aws.amazon.com/blogs/devops/use-generative-ai-agents-for-application-modernization-at-scale-with-strands-amazon-transform-custom-and-amazon-bedrock-agentcore/",
-      "source": "AWS Blog",
-      "published_at": "2026-05-11T19:03:17+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -4020,97 +4010,53 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0f1afb0a5e316f31a11565a43fc3d051",
-      "title": "Construindo uma plataforma GitOps do zero: Kubernetes, ArgoCD, Terraform e Observabilidade",
-      "url": "https://dev.to/m_kocotem_1b69865766c653/construindo-uma-plataforma-gitops-do-zero-kubernetes-argocd-terraform-e-observabilidade-34jh",
+      "id": "925a08323a7d64d9023f40b20bc252d9",
+      "title": "Docker Proves Your App Runs. Kubernetes Proves It's Operable.",
+      "url": "https://dev.to/arbythecoder/docker-proves-your-app-runs-kubernetes-proves-its-operable-439i",
       "source": "Dev.to",
-      "published_at": "2026-07-27T22:53:33Z",
-      "summary": "Durante muito tempo, meu contato com Kubernetes foi do tipo \"já mexi\": subi um pod aqui, apliquei um...",
+      "published_at": "2026-08-03T22:47:22Z",
+      "summary": "It's 2:47 AM. The pod says Running. The logs are clean, no stack trace, no red text, nothing you...",
       "tags": [
-        "kubernetes",
         "devops",
-        "gitops"
+        "docker",
+        "kubernetes",
+        "containers"
       ],
       "relevance_score": 0.0
     },
     {
-      "id": "4233b8c205d7cf0aea4ab1c8047b4ff9",
-      "title": "Suggestions on Reading Papers to be a better SRE",
-      "url": "https://www.reddit.com/r/sre/comments/1v6ymdv/suggestions_on_reading_papers_to_be_a_better_sre/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-26T09:05:39+00:00",
-      "summary": "Since the start of 2026, I have been reading some famous papers such as Dynamo, GFS, Zookeeper, Apache Kafka, The tail at scale. But it feels like mostly theoretical stuff, the question is, will reading papers be useful to become a better SRE? I read on the weekends so my pace is slow.  &#32; submit",
+      "id": "b6e56ff13909c49356e72c6982526138",
+      "title": "Analyze and remediate technical debt autonomously with AWS Transform – continuous modernization",
+      "url": "https://aws.amazon.com/blogs/devops/analyze-and-remediate-technical-debt-autonomously-with-aws-transform-continuous-modernization/",
+      "source": "AWS Blog",
+      "published_at": "2026-08-03T21:28:32+00:00",
+      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
     {
-      "id": "d3f3025ccbf6302299b6eb2fd4dedf1f",
-      "title": "Calling out salary bs",
-      "url": "https://www.reddit.com/r/sre/comments/1v4rn5w/calling_out_salary_bs/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-23T21:39:45+00:00",
-      "summary": "So, went to levels.fyi. I've been there before. I'm not putting my salary in though so I don't have full access to the site. The median US salary for SRE is $205k Ok that's pretty decent but what the fuck is this &gt;$600k nonsense I'm seeing bandied about in this sub? Fwiw I'm trying to hire, not s",
+      "id": "89d01c2631a0323e55ce58475b70a1ae",
+      "title": "Book recommendations for on premises deployment",
+      "url": "https://www.reddit.com/r/devops/comments/1veqes4/book_recommendations_for_on_premises_deployment/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-03T21:21:58+00:00",
+      "summary": "So I am new to the DevOps field and my job is to deploy an app on premises. Now the problem is that the material I have read, such as: &quot;Fundamentals of DevOps and Software Delivery&quot; by Yevgeniy Brikman &quot;Road to Kubernetes&quot; by Justin Mitchel focuses mainly on cloud based deploymen",
       "tags": [],
       "relevance_score": 0.0
     },
     {
-      "id": "667eb8daa496c340f2db518818af5019",
-      "title": "Thoughts on alert work",
-      "url": "https://www.reddit.com/r/sre/comments/1v4mqa6/thoughts_on_alert_work/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-23T18:43:07+00:00",
-      "summary": "Joined an SRE org from a background that was mostly infrastructure and technical design work. Since joining, almost everything I’ve been assigned has been alert-related in some form. Cleanup, enrichment, TTR, take your pick. It’s been the quarterly assignment three quarters running and there’s anoth",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "382a67c84344189345947c85880b8c21",
-      "title": "Who's doing multi cloud on purpose and how are you surviving it?",
-      "url": "https://www.reddit.com/r/sre/comments/1v4alod/whos_doing_multi_cloud_on_purpose_and_how_are_you/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-23T11:00:33+00:00",
-      "summary": "In my last role, we ended up multi cloud mostly by accident, major workloads on AWS, a big legacy system on Azure, some experiments on GCP, and a handful of SaaS platforms that each came with their own identity and billing surface, another provider in every way that mattered. Nobody planned a unifie",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d46b558cbc570978d131d2b5630d5f39",
-      "title": "Help me choose between Nvidia or Palo Alto Networks",
-      "url": "https://www.reddit.com/r/sre/comments/1v3zzr7/help_me_choose_between_nvidia_or_palo_alto/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-23T01:47:42+00:00",
-      "summary": "I have got an offer to join Nvidia on their SRE team which revolves around maintaining or keeping up with the GPU Infra in their compute Infrastructure, and another offer from Palo Alto Networks as a swe, so I just wanted to know like which one to choose, I'm a new grad btw, please let me know your ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5b604c441dcf40858022eabd068a415b",
-      "title": "200+ applications, still no signed offer. How are you all coping?",
-      "url": "https://www.reddit.com/r/sre/comments/1v3vkag/200_applications_still_no_signed_offer_how_are/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-22T22:37:06+00:00",
-      "summary": "Throwaway for obvious reasons. SWE/SRE background, ~7 years experience, applying across engineering and adjacent roles. Laid off earlier this year in a company-wide cut. I tracked everything since the layoff, so here is the actual funnel: - 240+ applications - ~50 companies replied with anything hum",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "02fb3c585c22ae5e756adddf32bde747",
-      "title": "How are you gating what can touch prod now that AI agents are in the mix?",
-      "url": "https://www.reddit.com/r/sre/comments/1v3vg9p/how_are_you_gating_what_can_touch_prod_now_that/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-22T22:32:44+00:00",
-      "summary": "We're getting pushed to use AI for more ops work. At the same time I keep seeing posts here about an agent wiping a prod db or deleting the backups (the Railway/Cursor one especially). Feels backwards that we won't give a mid-level engineer write access to prod, but we'll happily point an agent at i",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "957d9a1afc2665832fa58e3de56da0f1",
-      "title": "Is SRE more \"AI-proof\" than other fields, or are we just behind?",
-      "url": "https://www.reddit.com/r/sre/comments/1v3usfj/is_sre_more_aiproof_than_other_fields_or_are_we/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-22T22:06:50+00:00",
-      "summary": "Hi everyone, I’ve been observing the AI boom across different sectors, and it feels like SRE isn't getting the same level of hype or rapid integration as Software Engineering (SWE) or Cybersecurity. While AI tools for SRE definitely exist, their progress seems slower, and their impact on the job mar",
-      "tags": [],
+      "id": "28d4d32d2ec1e8bc2b1dbb165013d528",
+      "title": "It refused to run a dangerous option. I wrote it one character shorter, and it ran",
+      "url": "https://dev.to/cynepmyx/it-refused-to-run-a-dangerous-option-i-wrote-it-one-character-shorter-and-it-ran-2i42",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T15:57:44Z",
+      "summary": "GitPython refuses --upload-pack. Write the same option as -u and it executes. Reproducing CVE-2026-67324 on a live lab, and why the same barrier has been bypassed three times in one year.",
+      "tags": [
+        "security",
+        "python",
+        "devops",
+        "cve"
+      ],
       "relevance_score": 0.0
     }
   ]
