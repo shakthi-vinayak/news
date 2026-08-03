@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:03:51Z",
+  "generated_at": "2026-08-03T19:54:58Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1212,16 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8ac629e695c46ae3db39b1c3cfc020e2",
-      "title": "The 24-hour experiment that helped Anthropic find its identity",
-      "url": "https://thenewstack.io/anthropic-evals-replace-prds/",
-      "source": "The New Stack",
-      "published_at": "2026-07-27T19:14:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d2c1886673299e5a1bde5506bcd01743",
       "title": "ollama/ollama: v0.32.5",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
@@ -1388,21 +1378,6 @@
       "published_at": "2026-07-28T06:43:08+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "db8c5d186a8d8f1be61e2573a1b9dc8e",
-      "title": "My coding agent shipped a bug to three pages it wasn't touching",
-      "url": "https://dev.to/solo_operator/my-coding-agent-shipped-a-bug-to-three-pages-it-wasnt-touching-3ica",
-      "source": "Dev.to",
-      "published_at": "2026-07-27T19:19:47Z",
-      "summary": "The spec was simple: restyle the buy button on the product detail pages. Nothing else. The agent...",
-      "tags": [
-        "ai",
-        "devops",
-        "programming",
-        "automation"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3534,6 +3509,50 @@
         "serverless",
         "cloudflare",
         "monitoring"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "09bc173cc7df8742d91b4cb24d2b304b",
+      "title": "Postgres Advisory Locks for Distributed Cron: Killing Duplicate Job Runs Without a Redis Dependency",
+      "url": "https://dev.to/mukesh_13/postgres-advisory-locks-for-distributed-cron-killing-duplicate-job-runs-without-a-redis-dependency-1bfl",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T08:11:45Z",
+      "summary": "The problem: your cron job runs twice (or five times)   You have a scheduled job -- cleaning...",
+      "tags": [
+        "postgres",
+        "distributedsystems",
+        "backend",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a473d59e7a53492c71238047f4347ebf",
+      "title": "4.4% of MCP servers changed their tool contract in 36 hours",
+      "url": "https://dev.to/theopslog/44-of-mcp-servers-changed-their-tool-contract-in-36-hours-i3m",
+      "source": "Dev.to",
+      "published_at": "2026-08-01T18:44:15Z",
+      "summary": "Two days ago I catalogued the tool surface of the public MCP registry: a random sample of 500 live...",
+      "tags": [
+        "mcp",
+        "ai",
+        "devops",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "469b2d6cd727617ba3618cfc7e609f80",
+      "title": "Working with Let's Encrypt's Short-Lived tlsserver and shortlived Profile Certificates",
+      "url": "https://dev.to/polymind/working-with-lets-encrypts-short-lived-tlsserver-and-shortlived-profile-certificates-547o",
+      "source": "Dev.to",
+      "published_at": "2026-07-30T03:24:30Z",
+      "summary": "Let's Encrypt issues TLS certificates with a 90-day validity period by default. However, as the...",
+      "tags": [
+        "devops",
+        "infrastructure",
+        "security"
       ],
       "relevance_score": 0.0
     }
