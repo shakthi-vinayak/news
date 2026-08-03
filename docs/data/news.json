@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T15:11:46Z",
+  "generated_at": "2026-08-03T18:03:51Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -267,16 +267,6 @@
       "url": "https://kubernetes.io/blog/2026/05/13/kubernetes-v1-36-advancing-workload-aware-scheduling/",
       "source": "Kubernetes Blog",
       "published_at": "2026-05-13T18:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d2435b09da38f0ee63f8fcf17fd096b6",
-      "title": "Kubernetes v1.36: PSI Metrics for Kubernetes Graduates to GA",
-      "url": "https://kubernetes.io/blog/2026/05/12/kubernetes-v1-36-psi-metrics-ga/",
-      "source": "Kubernetes Blog",
-      "published_at": "2026-05-12T18:35:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1222,26 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "95452f7d6eb3ba6b39130fc8233c2e3a",
-      "title": "langchain-ai/langchain: langchain-fireworks==1.5.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.5.2",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-07-27T16:59:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b7aae1e48b6f2258e7d5f48a2836d402",
-      "title": "Microsoft is racing to make OpenAI optional",
-      "url": "https://thenewstack.io/microsoft-homegrown-ai-models/",
-      "source": "The New Stack",
-      "published_at": "2026-07-27T16:24:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "8ac629e695c46ae3db39b1c3cfc020e2",
       "title": "The 24-hour experiment that helped Anthropic find its identity",
       "url": "https://thenewstack.io/anthropic-evals-replace-prds/",
@@ -1432,21 +1402,6 @@
         "devops",
         "programming",
         "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fec13029dd7a092e8069ce048675076e",
-      "title": "The 502 That Wasn't the Server",
-      "url": "https://dev.to/pedro_furst_53f8c10f2701d/the-502-that-wasnt-the-server-41ca",
-      "source": "Dev.to",
-      "published_at": "2026-07-27T17:02:07Z",
-      "summary": "We spent over a year blaming the wrong things.  A 502 Bad Gateway kept hitting our login route —...",
-      "tags": [
-        "nginx",
-        "devops",
-        "webdev",
-        "programming"
       ],
       "relevance_score": 0.0
     },
@@ -1696,21 +1651,6 @@
       "published_at": "2026-07-28T14:48:30+00:00",
       "summary": "Setting up test automation in CI is easy, making devs look at and trust the results is the hard part Coverage numbers that look great on paper but the team treats the test step like a formality because false positives trained them to ignore failures, its pavlovian at this point, test fails and every",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9ff7d72a610c7a49621537fc73dd1789",
-      "title": "AI Didn't Make Your Team Faster. It Moved the Bottleneck.",
-      "url": "https://dev.to/_firelinks/i-didnt-make-your-team-faster-it-moved-the-bottleneck-1lj",
-      "source": "Dev.to",
-      "published_at": "2026-07-27T17:00:00Z",
-      "summary": "This is publishing in the same month the loudest AI jobs forecasts got walked back by the people who...",
-      "tags": [
-        "ai",
-        "devops",
-        "softwareengineering",
-        "management"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2940,21 +2880,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e6d7d687fbea47f71f459b6c70d344e2",
-      "title": "Istio and the Sidecar Pattern: What I Learned About Service Mesh Fundamentals",
-      "url": "https://dev.to/madhavnakra/istio-and-the-sidecar-pattern-what-i-learned-about-service-mesh-fundamentals-1np6",
-      "source": "Dev.to",
-      "published_at": "2026-07-27T16:39:00Z",
-      "summary": "If you work with Kubernetes long enough, you eventually hit a wall that has nothing to do with your...",
-      "tags": [
-        "devops",
-        "istio",
-        "kubernetes",
-        "sidecar"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "bab894b36e13f4db633b0f6b1f379d19",
       "title": "Your cron expression can be valid and still never run",
       "url": "https://dev.to/takeaseatventure/your-cron-expression-can-be-valid-and-still-never-run-4alg",
@@ -3519,6 +3444,96 @@
         "devops",
         "github",
         "postgres"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2bc66216bbfd21025c48b60ffcbff1bb",
+      "title": "Building ferctl top: Kubernetes resource usage vs requests and limits",
+      "url": "https://dev.to/ferztyle/building-ferctl-top-kubernetes-resource-usage-vs-requests-and-limits-50a3",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T15:36:32Z",
+      "summary": "Series: Platform engineering with Go | Topics: Go, Kubernetes, Cobra, client-go, metrics-server,...",
+      "tags": [
+        "go",
+        "devops",
+        "sre",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c163d1bc59172808d875424f46bfed50",
+      "title": "Gartner Says 40% of Apps Will Have AI Agents by December. Here's the Plumbing Nobody Puts on the Slide.",
+      "url": "https://dev.to/mickyarun/gartner-says-40-of-apps-will-have-ai-agents-by-december-heres-the-plumbing-nobody-puts-on-the-5196",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T08:09:14Z",
+      "summary": "There's a number going around dev.to this week. Gartner says 40% of enterprise apps will ship a...",
+      "tags": [
+        "ai",
+        "agents",
+        "devops",
+        "fintech"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0a4c7f4bf3ac670c1ef4b50799579012",
+      "title": "I Gave an AI Agent Nightly Merge Rights to Every Repo I Own (With a Budget and a Kill Switch)",
+      "url": "https://dev.to/jenatechio/i-gave-an-ai-agent-nightly-merge-rights-to-every-repo-i-own-with-a-budget-and-a-kill-switch-5b6k",
+      "source": "Dev.to",
+      "published_at": "2026-08-02T18:41:21Z",
+      "summary": "I run about twenty production and support repos by myself — a content site with a curated data feed,...",
+      "tags": [
+        "ai",
+        "automation",
+        "github",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ba6eade8c2b308e7283391e00ecf4779",
+      "title": "Building a Production-Grade Microservices Platform on AWS EKS",
+      "url": "https://dev.to/neshan_parvej_bf2aed2f5d8/building-a-production-grade-microservices-platform-on-aws-eks-44jd",
+      "source": "Dev.to",
+      "published_at": "2026-08-01T20:33:49Z",
+      "summary": "🎯 Introduction   Running microservices in development is easy. Building a production-grade...",
+      "tags": [
+        "aws",
+        "devops",
+        "kubernetes",
+        "terraform"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d8649dbdd9c66d5dec27eb71ec9aca50",
+      "title": "I checked every MCP server in the official registry. A quarter of them are unusable.",
+      "url": "https://dev.to/theopslog/i-checked-every-mcp-server-in-the-official-registry-about-1-in-10-is-broken-1ehj",
+      "source": "Dev.to",
+      "published_at": "2026-07-30T21:15:54Z",
+      "summary": "There is a number going around that roughly half of all remote MCP servers are dead.  I had repeated...",
+      "tags": [
+        "mcp",
+        "ai",
+        "devops",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5cc2c124c517dc2648762df04b3cb80e",
+      "title": "A Dead-Man's Switch for Scheduled Jobs (Because Silent Failures Rot Data)",
+      "url": "https://dev.to/jenatechio/a-dead-mans-switch-for-scheduled-jobs-because-silent-failures-rot-data-3nmh",
+      "source": "Dev.to",
+      "published_at": "2026-07-30T19:40:21Z",
+      "summary": "A scheduled job has two failure modes. The loud one throws an error and your alerting catches it. The...",
+      "tags": [
+        "devops",
+        "serverless",
+        "cloudflare",
+        "monitoring"
       ],
       "relevance_score": 0.0
     }
