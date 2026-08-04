@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T18:01:32Z",
+  "generated_at": "2026-08-04T19:52:19Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1092,16 +1092,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d2c1886673299e5a1bde5506bcd01743",
-      "title": "ollama/ollama: v0.32.5",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-07-27T20:45:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "8b3f1ab360ded9c300273b9cdd95e557",
       "title": "Coding Agent Horror Stories: The 29 Million Secret Problem",
       "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-29-million-secret-problem/",
@@ -1132,31 +1122,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "bb889205b4c9aa4192e2d78d1e805342",
-      "title": "Need advice: Did I mess up my architecture? Also, Dokploy vs Coolify vs Komodo?",
-      "url": "https://www.reddit.com/r/devops/comments/1v97rw1/need_advice_did_i_mess_up_my_architecture_also/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-28T18:59:56+00:00",
-      "summary": "Hi everyone, I'm looking for some honest feedback on my current self-hosted architecture. I have a feeling I may have made some poor design decisions, so I'd really appreciate suggestions on how to improve it. Here's my current setup on AWS: Frontend EC2: Two React applications (Admin &amp; Tenant) ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "fddd32662d64223335a2e32b63d40e12",
       "title": "langchain-ai/langgraph: langgraph==1.2.10",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.10",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-07-28T18:34:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b5820ccf933496f5c8545a38c731d780",
-      "title": "Adoption and Fragmentation of AI in CI/CD—and Operational Readiness",
-      "url": "https://devops.com/adoption-and-fragmentation-of-ai-in-ci-cd-and-operational-readiness/",
-      "source": "DevOps.com",
-      "published_at": "2026-07-28T18:18:30+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1178,26 +1148,6 @@
       "source": "Reddit r/selfhosted",
       "published_at": "2026-07-28T20:55:54+00:00",
       "summary": "      Hi everyone. I wanted to share a pure Python backend project I made. It syncs JSON configurations into Cloudflare DNS using GitHub Actions. It validates zones via pytest and keeps everything automated. If anyone wants to check out the repo or needs a playground to test their configurations, le",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "aa35ab734adfe7337a84d5e168abfa64",
-      "title": "Jensen Huang says AI agents could drive a 5-10x computing boom: “100 billion agents and billions of robots”",
-      "url": "https://thenewstack.io/huang-semiconductor-tenfold-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-07-28T19:46:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "61e9cc8fc76f2da5a2e2b0bb42276a3f",
-      "title": "Need help, finding an adequate backup solution",
-      "url": "https://www.reddit.com/r/selfhosted/comments/1v97zuk/need_help_finding_an_adequate_backup_solution/",
-      "source": "Reddit r/selfhosted",
-      "published_at": "2026-07-28T19:07:29+00:00",
-      "summary": "Hi, I need help finding a suitable backup solution for my setup. I’m simply overwhelmed by the sheer number of options available, and I’m not 100% up to speed on the subject either. Here’s a brief overview of my setup: I have a home server running TrueNAS, two SMB file shares, and a Paperless NGX an",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3440,21 +3390,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e8e2eba095ab10153815cfb6b318391e",
-      "title": "Foreman 101: agentic coding as Kubernetes resources",
-      "url": "https://dev.to/defilan/foreman-101-agentic-coding-as-kubernetes-resources-4k33",
-      "source": "Dev.to",
-      "published_at": "2026-07-28T18:55:51Z",
-      "summary": "Foreman is an agentic coder that runs as Kubernetes resources. You describe work as a Workload, it...",
-      "tags": [
-        "kubernetes",
-        "ai",
-        "llm",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "925a08323a7d64d9023f40b20bc252d9",
       "title": "Docker Proves Your App Runs. Kubernetes Proves It's Operable.",
       "url": "https://dev.to/arbythecoder/docker-proves-your-app-runs-kubernetes-proves-its-operable-439i",
@@ -3825,6 +3760,56 @@
       "url": "https://www.hashicorp.com/blog/consul-cyberark-wim-external-ca-for-the-service-mesh",
       "source": "HashiCorp Blog",
       "published_at": "2026-07-31T07:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e92821b3404c2a4288c35f85501d48a9",
+      "title": "Hetzner Cloud vs Turkish VPS for a production mobile backend?",
+      "url": "https://www.reddit.com/r/devops/comments/1vfkjvd/hetzner_cloud_vs_turkish_vps_for_a_production/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-04T19:35:46+00:00",
+      "summary": "Hi everyone, I'm building a mobile application primarily for users in Turkey. My stack: - NestJS - PostgreSQL - Redis - Docker - Coolify The app is still in development and I'm planning the production infrastructure. I'm considering two options:  Hetzner Cloud (Germany) A VPS/Dedicated server locate",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d1f9c1dd0c1eba2b8c1a21467a638572",
+      "title": "ollama/ollama: v0.32.6",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-08-04T18:49:20+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f15399f2e3b59a1a6b7be498ed973a09",
+      "title": "Does anyone have information on hardening publically exposed k8s LB nodes? Loadbalancers in AWS are really expensive.",
+      "url": "https://www.reddit.com/r/devops/comments/1vfi0gg/does_anyone_have_information_on_hardening/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-04T18:04:14+00:00",
+      "summary": "Just exploring the space and price comparisons ALBs and NLBs are expensive. especially in AW So some ingress only nodes with proper hardening seems cheaper, but curious about battle scars and stories people wanna share. My idea is simply that, hardening a fleet of ingress only nodes in a public subn",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5162aea12ee60d28c6f70bf983bf9344",
+      "title": "From API Integration to Agent Governance: What Backend Teams Need to Know About MCP",
+      "url": "https://devops.com/from-api-integration-to-agent-governance-what-backend-teams-need-to-know-about-mcp/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-04T17:56:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6b0654c8ea13961b6db3f59dc5458720",
+      "title": "ollama/ollama: v0.32.5-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.5-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-07-26T23:59:47+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
