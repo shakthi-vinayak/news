@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-04T06:39:05Z",
+  "generated_at": "2026-08-04T10:51:04Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-31T07:57:44+00:00",
+      "published_at": "2026-08-04T08:20:39+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -76,7 +76,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-31T07:59:53+00:00",
+      "published_at": "2026-08-04T07:51:41+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1212,71 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ba6bef023e0a7b50fb5e981a9f6419fc",
-      "title": "DSCI series / Rakulang CI",
-      "url": "https://dev.to/sp1983/dsci-series-rakulang-ci-4472",
-      "source": "Dev.to",
-      "published_at": "2026-07-28T09:58:48Z",
-      "summary": "How to build CI pipelines for Rakulang using DSCI",
-      "tags": [
-        "rakulang",
-        "ci",
-        "devops",
-        "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "009c75ab88565682a22697b7a417ee6c",
-      "title": "n8n-io/n8n: n8n@2.33.0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.33.0",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-07-28T08:03:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "497c54f52d00378856153d84fbe94058",
-      "title": "apache/airflow: providers-snowflake/6.15.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.15.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-28T06:43:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0df1be6f87c4a246ceb8ea0b1ba6b093",
-      "title": "apache/airflow: providers-ssh/6.0.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F6.0.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-28T06:43:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8cded65388863c227b535df6ff6a6967",
-      "title": "apache/airflow: providers-teradata/3.6.1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-teradata%2F3.6.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-28T06:43:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b74dff172b762f2d59eff9cfe5efcdac",
-      "title": "apache/airflow: providers-weaviate/3.4.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-weaviate%2F3.4.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-07-28T06:43:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7ab74a1c6070687fa08f6aebb499ec73",
       "title": "Need help regarding nfs-server service",
       "url": "https://www.reddit.com/r/devops/comments/1v8y29y/need_help_regarding_nfsserver_service/",
@@ -1482,16 +1417,6 @@
         "ai",
         "opensource"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "90eec01541ea0c55c2af93accec5e81b",
-      "title": "Running an android app in a docker container",
-      "url": "https://www.reddit.com/r/selfhosted/comments/1v8th2l/running_an_android_app_in_a_docker_container/",
-      "source": "Reddit r/selfhosted",
-      "published_at": "2026-07-28T09:40:41+00:00",
-      "summary": "So my local council has a mobile app for their bin collection, eg which weeks are green waste and which are recycling. It also has a messaging portion that they (I assume anyway, it’s only new) would be for things like service disruption or annual services etc. It has push notifications for these me",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3869,21 +3794,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c177d7ac017b1cfa64088134b3ab74a5",
-      "title": "Linkerd federation keeps the app running when a whole Kubernetes cluster dies",
-      "url": "https://dev.to/leobaniak/linkerd-federation-keeps-the-app-running-when-a-whole-kubernetes-cluster-dies-7ob",
-      "source": "Dev.to",
-      "published_at": "2026-07-28T08:27:04Z",
-      "summary": "A CNCF walk-through by Dominik Táskai wires three GKE clusters into a full-mesh Linkerd multicluster and kills one. The nine-pod frontend rebalances across the surviving six with no application changes, but the setup pays a real price at the VPC, node-count and controller layers.",
-      "tags": [
-        "linkerd",
-        "multicluster",
-        "kubernetes",
-        "servicemesh"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "925a08323a7d64d9023f40b20bc252d9",
       "title": "Docker Proves Your App Runs. Kubernetes Proves It's Operable.",
       "url": "https://dev.to/arbythecoder/docker-proves-your-app-runs-kubernetes-proves-its-operable-439i",
@@ -3986,6 +3896,106 @@
       "published_at": "2026-08-04T05:24:41+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8d26f4ad17bf2596e4ec0234a7d2c3c9",
+      "title": "So Agentic Systems Are Messing Up Your SLO Framework",
+      "url": "https://devops.com/so-agentic-systems-are-messing-up-your-slo-framework/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-04T10:01:03+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6846821093cb85e58bd5c4f765fa98f6",
+      "title": "Shift Left Security: 4 Automated Security Gates in GitHub Actions",
+      "url": "https://devops.com/shift-left-security-4-automated-security-gates-in-github-actions/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-04T09:30:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cd252acee241a3b7bbfe44ddd474b2f7",
+      "title": "Interview tips and suggestions for platform engineer",
+      "url": "https://www.reddit.com/r/devops/comments/1vf5auy/interview_tips_and_suggestions_for_platform/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-04T09:21:04+00:00",
+      "summary": "hey everyone, I have an upcoming interview for a Platform Engineer role. I’ve been grinding scenarios around IaC (Terraform/Terragrunt), CI/CD pipelines, Kubernetes, and SRE concepts (SLIs/SLOs, Error Budgets) . **i need tips and guidance from senior engineer . it will be a technical round of interv",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "319179d7c6a68ad2dd570dfc0af055d2",
+      "title": "n8n-io/n8n: n8n@2.34.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.0",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-08-04T07:55:29+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fe15aced4dfa49137d4ad9cf266726b7",
+      "title": "Hardening Claude Code: the Minimum Floor as Config",
+      "url": "https://dev.to/javatarz/hardening-claude-code-the-minimum-floor-as-config-21lo",
+      "source": "Dev.to",
+      "published_at": "2026-08-04T04:04:36Z",
+      "summary": "Ten Claude Code settings that survive an agent trying to route around them, each paired to the exact bypass it closes, verified against live docs.",
+      "tags": [
+        "ai",
+        "programming",
+        "security",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a3cb020700abb4bdc4791d8386b80ca3",
+      "title": "Why Your Elasticsearch Backups Might Fail When You Need Them Most",
+      "url": "https://dev.to/suresh_devops_ffa0728a190/why-your-elasticsearch-backups-might-fail-when-you-need-them-most-2cid",
+      "source": "Dev.to",
+      "published_at": "2026-08-04T04:01:43Z",
+      "summary": "Why Your Elasticsearch Backups Might Fail When You Need Them Most: Lessons from the July 2026...",
+      "tags": [
+        "elasticsearch",
+        "es",
+        "cluster",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8a71fde04f2f332ad627d1a3f36fa6a8",
+      "title": "Your SPF record can be valid, published, and completely ignored",
+      "url": "https://dev.to/jose_pollman_fa7c6ec43cdd/your-spf-record-can-be-valid-published-and-completely-ignored-bi9",
+      "source": "Dev.to",
+      "published_at": "2026-08-02T20:55:09Z",
+      "summary": "There's a failure mode in SPF that produces no error anywhere you'd think to look.  Your record is...",
+      "tags": [
+        "devops",
+        "security",
+        "dns",
+        "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "efa549c9d832d13432a16dd73ec68b52",
+      "title": "From 1.2GB to 24MB: How I Sped Up Our Next.js CI/CD Pipeline by 4 in One Afternoon",
+      "url": "https://dev.to/stevez/from-12gb-to-24mb-how-i-sped-up-our-nextjs-cicd-pipeline-by-4-in-one-afternoon-3523",
+      "source": "Dev.to",
+      "published_at": "2026-07-31T18:58:41Z",
+      "summary": "The Situation   Our team's CI/CD pipeline on Azure DevOps was taking 15 minutes to complete...",
+      "tags": [
+        "nextjs",
+        "devops",
+        "cicd",
+        "azure"
+      ],
       "relevance_score": 0.0
     }
   ]
