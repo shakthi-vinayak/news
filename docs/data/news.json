@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T10:50:38Z",
+  "generated_at": "2026-08-06T14:33:41Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -97,16 +97,6 @@
       "url": "https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-06-11T15:54:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "34817973c81117561bccdf67c64030d3",
-      "title": "Copilot Code Reviews for Azure Repos",
-      "url": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-06-09T15:12:40+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -932,16 +922,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "29ff887cd469da4a0ffa5394766eedea",
-      "title": "kubernetes/kubernetes: v1.37.0-beta.0",
-      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-beta.0",
-      "source": "GitHub Releases (kubernetes)",
-      "published_at": "2026-07-20T23:21:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "38c20b8c0057a63374612cec8f33ae2e",
       "title": "Autonomous infrastructure: Managing complexity in agentic workflows",
       "url": "https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
@@ -1092,16 +1072,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3d8bcb5a8e46ed418ac8ee122319d388",
-      "title": "CNCF and SlashData Report Finds Japan’s Cloud Native Community Reaches Nearly 1 Million Developers",
-      "url": "https://www.cncf.io/announcements/2026/07/28/cncf-and-slashdata-report-finds-japans-cloud-native-community-reaches-nearly-1-million-developers/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-29T00:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3beb84b2524398b5d7c1cb08cb0caac7",
       "title": "How Company 3 Streamlines Studio Image Management with EC2 Image Builder and AWS CDK",
       "url": "https://aws.amazon.com/blogs/devops/how-company-3-streamlines-studio-image-management-with-ec2-image-builder-and-aws-cdk/",
@@ -1142,21 +1112,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "89a52f0141f89554af61cd5f02bcddc8",
-      "title": "GitHub Actions Getting Expensive? We Cut CI Costs to a Quarter With a One-Line Change",
-      "url": "https://dev.to/ryantsuji/github-actions-getting-expensive-we-cut-ci-costs-to-a-quarter-with-a-one-line-change-31a4",
-      "source": "Dev.to",
-      "published_at": "2026-07-29T23:52:17Z",
-      "summary": "AI-driven development inflates CI cost on two axes at once: more runs, and more tasks you now want CI to do. We migrated our GitHub Actions runners twice, from GitHub-hosted to Blacksmith to Namespace, and measured everything along the way. Per-run CI cost dropped to roughly a quarter, p90 came down 37%, and silent never-finishing runs went from 32 to zero. Failure story included: we skipped estim",
-      "tags": [
-        "ci",
-        "devops",
-        "githubactions",
-        "namespace"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "8e08c5430fe1c9109a712bd5f114b6fb",
       "title": "prometheus/prometheus: v0.313.2",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.2",
@@ -1172,16 +1127,6 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.2",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-07-30T13:25:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7fda84e820ed1940a6fff78ddc6208a8",
-      "title": "When do AI agents need permission boundaries?",
-      "url": "https://thenewstack.io/ai-agent-permission-boundaries/",
-      "source": "The New Stack",
-      "published_at": "2026-07-30T13:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1224,21 +1169,6 @@
       "published_at": "2026-07-30T14:56:11+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "203801cb295cb357fc4c0dd5933624f1",
-      "title": "What Actually Happens After You Send a Webhook",
-      "url": "https://dev.to/devopsdaily/what-actually-happens-after-you-send-a-webhook-fao",
-      "source": "Dev.to",
-      "published_at": "2026-07-30T11:21:14Z",
-      "summary": "The first version of a webhook is always the same four lines:    await fetch(customer.webhookUrl, {  ...",
-      "tags": [
-        "webdev",
-        "devops",
-        "javascript",
-        "security"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1579,19 +1509,6 @@
         "Platform Engineering"
       ],
       "relevance_score": 0.9
-    },
-    {
-      "id": "d8353a17ef4cf31ef4d767b4360420f2",
-      "title": "Scaling On-Call When You Only Have 5 Engineers",
-      "url": "https://dev.to/samson_tanimawo/scaling-on-call-when-you-only-have-5-engineers-507f",
-      "source": "Dev.to",
-      "published_at": "2026-07-30T13:32:44Z",
-      "summary": "Offers tactics for scaling on‑call responsibilities with a small team, including rotation design, automation, and escalation policies.",
-      "tags": [
-        "SRE",
-        "DevOps"
-      ],
-      "relevance_score": 0.85
     },
     {
       "id": "0539d31d80dc8ab7fd3f081de68606c6",
@@ -2690,20 +2607,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "55b081dd4751514ec5ca5be500743089",
-      "title": "Building a K8s-Native AI Governance Platform with OPA and ML-BOM",
-      "url": "https://dev.to/hyelzor/building-a-k8s-native-ai-governance-platform-with-opa-and-ml-bom-5109",
-      "source": "Dev.to",
-      "published_at": "2026-07-30T12:06:32Z",
-      "summary": "Building a K8s-Native AI Governance Platform with OPA and ML-BOM  AI workloads on Kubernetes are...",
-      "tags": [
-        "ai",
-        "kubernetes",
-        "security"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "925a08323a7d64d9023f40b20bc252d9",
       "title": "Docker Proves Your App Runs. Kubernetes Proves It's Operable.",
       "url": "https://dev.to/arbythecoder/docker-proves-your-app-runs-kubernetes-proves-its-operable-439i",
@@ -3184,21 +3087,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "eff17ef17aa56a5de5ef41f1e734c295",
-      "title": "How Should AI Monitor Your Infrastructure?",
-      "url": "https://dev.to/atomsized/how-should-ai-monitor-your-infrastructure-166d",
-      "source": "Dev.to",
-      "published_at": "2026-07-30T06:00:00Z",
-      "summary": "An alert tells you that something changed. It rarely says why, who is affected or what to do next....",
-      "tags": [
-        "ai",
-        "devops",
-        "observability",
-        "platformengineering"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e2810cb959f2b20d2c48128c75fdf170",
       "title": "n8n-io/n8n: n8n@2.34.1",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.1",
@@ -3359,7 +3247,7 @@
       "url": "https://www.reddit.com/r/devops/comments/1vgab26/confused_about_how_different_environments_factor/",
       "source": "Reddit r/devops",
       "published_at": "2026-08-05T15:18:54+00:00",
-      "summary": "Assume you are building an MLOps platform which has pipelines for the entire model lifecycle written with code and storage components. Something I am struggling to understand is how CI/CD factors into the MLOps system itself that brings the model through the entire lifecycle when we have multiple de",
+      "summary": "Something I am struggling to understand is how CI/CD factors into the MLOps system itself that brings the model through the entire lifecycle when we have multiple deployment environments. The MLOps system takes a model through the entire lifecycle (get data, preprocess, train, validate, promote, dep",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3491,6 +3379,135 @@
       "published_at": "2026-08-06T07:58:06+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "21edc9946d1af1e5879dfc52b2702cf5",
+      "title": "Migrating From Gitlab to Azure DevOps",
+      "url": "https://www.reddit.com/r/devops/comments/1vh40yh/migrating_from_gitlab_to_azure_devops/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-06T13:18:17+00:00",
+      "summary": "We're an on prem shop and our manager wants to migrate all DevOps teams from Enterprise Gitlab self managed to ADO on prem.  We don't know what to expect with this move, anyone has experience with ADO on prem ? what kind of challenges would we face if our entire Gitlab infra (platform + runners) are",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8b7a175d6d29f2ff5a040f12f5fa5f1b",
+      "title": "apache/airflow: providers/2026-08-06",
+      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-08-06",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-06T12:10:29+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7a6d4b0054224fdb8e662d579ad69957",
+      "title": "kubernetes/kubernetes: v1.37.0-rc.0",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-rc.0",
+      "source": "GitHub Releases (kubernetes)",
+      "published_at": "2026-08-06T12:04:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4d0c30e68beb6453de11dfd9b39bcb98",
+      "title": "When You Should Not Run Kubernetes, and What a Single Docker Compose Host Really Costs You",
+      "url": "https://dev.to/jachin_ocacio_e8de2a25158/when-you-should-not-run-kubernetes-and-what-a-single-docker-compose-host-really-costs-you-526i",
+      "source": "Dev.to",
+      "published_at": "2026-08-06T08:17:33Z",
+      "summary": "Do not run Kubernetes for a client project that fits on one server, has no autoscaling requirement,...",
+      "tags": [
+        "kubernetes",
+        "docker",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6bc7cb31ffc3f3214421197be82ee83e",
+      "title": "claude -p: what headless Claude Code actually loads (and when --bare is the right call)",
+      "url": "https://dev.to/rulestack/claude-p-what-headless-claude-code-actually-loads-and-when-bare-is-the-right-call-182c",
+      "source": "Dev.to",
+      "published_at": "2026-08-06T02:48:17Z",
+      "summary": "You wire claude -p into a script, it works, and then the usage numbers make no sense: a one-line...",
+      "tags": [
+        "claudecode",
+        "cli",
+        "devops",
+        "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "520f2eca45b0d394ee7610a5b8bf69b8",
+      "title": "kubernetes/kubernetes: v1.38.0-alpha.0",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-alpha.0",
+      "source": "GitHub Releases (kubernetes)",
+      "published_at": "2026-08-06T02:39:02+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d20e029fa1ec967f5a4c9493a1bb9d37",
+      "title": "When Your VPS Never Had the Resources It Was Sold With",
+      "url": "https://dev.to/pascal_cescato_692b7a8a20/when-your-vps-never-had-the-resources-it-was-sold-with-302o",
+      "source": "Dev.to",
+      "published_at": "2026-08-05T23:58:23Z",
+      "summary": "I needed a VPS to run CyberPanel. Simple enough: 1 vCPU, 1 GB RAM, 10 GB SSD, IPv6 only. CyberPanel...",
+      "tags": [
+        "networking",
+        "devops",
+        "vps",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9418c6131d62f78b6901cf3a8dbfc9ba",
+      "title": "I read 172 official status feeds every 10 minutes. Here is what is quietly broken in them.",
+      "url": "https://dev.to/kerolos_atallah/i-read-172-official-status-feeds-every-10-minutes-here-is-what-is-quietly-broken-in-them-4234",
+      "source": "Dev.to",
+      "published_at": "2026-08-05T17:00:52Z",
+      "summary": "For the last few weeks I've had a cron job reading the official status feed of 172 cloud and SaaS...",
+      "tags": [
+        "devops",
+        "sre",
+        "api",
+        "webdev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "40cd368fb9b71743154b48bc0f204612",
+      "title": "Does Your AI Agent Have a Kill Switch?",
+      "url": "https://dev.to/atomsized/does-your-ai-agent-have-a-kill-switch-396j",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T06:00:00Z",
+      "summary": "The agent believed it was working inside a simulation. The systems it reached were real. Anthropic's...",
+      "tags": [
+        "ai",
+        "devops",
+        "security",
+        "platformengineering"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3d04a423456f20f4a6de3afb338ad590",
+      "title": "🚀 UPDATE: v0.3.0 is officially out!",
+      "url": "https://dev.to/nexusforg/im-12-and-i-built-my-first-cli-tool-in-rust-to-solve-works-on-my-machine-5fb",
+      "source": "Dev.to",
+      "published_at": "2026-08-01T10:16:08Z",
+      "summary": "Hey everyone! Thanks to those who checked out the initial version. I've been working hard on making...",
+      "tags": [
+        "rust",
+        "devops",
+        "opensource",
+        "automation"
+      ],
       "relevance_score": 0.0
     }
   ]
