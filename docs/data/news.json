@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T17:04:01Z",
+  "generated_at": "2026-08-07T19:10:49Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1132,21 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "4ae5330586254fa560d3a4c3a1e7f59b",
-      "title": "An AI Agent Deleted a Production Database in 9 Seconds — the Real Bug Was the Token Scope",
-      "url": "https://dev.to/mainulspace/nine-seconds-13jb",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T17:13:24Z",
-      "summary": "How “AI erases human knowledge” stopped being science fiction, and why the real version looks nothing...",
-      "tags": [
-        "ai",
-        "devops",
-        "security",
-        "database"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4b23ddd2f01f02c6f96128528bd72eb5",
       "title": "Kubernetes v1.37 Sneak Peek",
       "url": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
@@ -2244,21 +2229,6 @@
         "security",
         "dns",
         "tutorial"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "efa549c9d832d13432a16dd73ec68b52",
-      "title": "From 1.2GB to 24MB: How I Sped Up Our Next.js CI/CD Pipeline by 4 in One Afternoon",
-      "url": "https://dev.to/stevez/from-12gb-to-24mb-how-i-sped-up-our-nextjs-cicd-pipeline-by-4-in-one-afternoon-3523",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T18:58:41Z",
-      "summary": "The Situation   Our team's CI/CD pipeline on Azure DevOps was taking 15 minutes to complete...",
-      "tags": [
-        "nextjs",
-        "devops",
-        "cicd",
-        "azure"
       ],
       "relevance_score": 0.0
     },
@@ -3479,6 +3449,71 @@
         "backend",
         "devops",
         "testing"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8af26d40d0db0c304deeb06236158634",
+      "title": "Meta’s new coding agent is cheap (but it’ll cost you your data).",
+      "url": "https://thenewstack.io/meta-muse-code/",
+      "source": "The New Stack",
+      "published_at": "2026-08-07T18:17:56+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "070a0e6b314566d68f6275fcb846c4bc",
+      "title": "Coinbase, Shopify and Ramp all built their own coding agents. All three still pay Anthropic.",
+      "url": "https://thenewstack.io/enterprise-ai-agent-harness/",
+      "source": "The New Stack",
+      "published_at": "2026-08-07T18:16:03+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0f79980e557408cdd5a2097ea11ded1f",
+      "title": "Multi-Repo to Monorepo: How I Automated 6 Go Microservice Releases and Then Made It 15x Faster",
+      "url": "https://dev.to/singhamandeep007/multi-repo-to-monorepo-how-i-automated-6-go-microservice-releases-and-then-made-it-15x-faster-4e88",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T17:47:23Z",
+      "summary": "Last month I spent more than an hour cutting a release across six Go microservice repos. Tag log,...",
+      "tags": [
+        "go",
+        "devops",
+        "automation",
+        "monorepo"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4fab3d8a4009435232eeabcd73e51584",
+      "title": "n8n Workflow Not Triggering? Work Through It in This Order (2026)",
+      "url": "https://dev.to/ali_ilyas/n8n-workflow-not-triggering-work-through-it-in-this-order-2026-1f7b",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T10:04:49Z",
+      "summary": "Originally published at noderecipe.com.  A workflow that won't trigger gives you almost nothing to...",
+      "tags": [
+        "n8n",
+        "automation",
+        "devops",
+        "debugging"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "15168cc337983991dd28cdcb54d93b9e",
+      "title": "Legacy Migration: The Strangler Fig Pattern in Laravel 🕰️",
+      "url": "https://dev.to/iprajapatiparesh/legacy-migration-the-strangler-fig-pattern-in-laravel-1pp4",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T04:28:38Z",
+      "summary": "The Fallacy of the \"Big Bang\" Rewrite  Every engineering team eventually inherits a legacy...",
+      "tags": [
+        "laravel",
+        "php",
+        "architecture",
+        "devops"
       ],
       "relevance_score": 0.0
     }
