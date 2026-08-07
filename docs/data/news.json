@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-07T15:05:10Z",
+  "generated_at": "2026-08-07T17:04:01Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-07T07:56:32+00:00",
+      "published_at": "2026-08-07T16:53:02+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1132,26 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6d7051822612bba2f66427a4b7eab924",
-      "title": "Gemini Robotics 2 brings us one step closer to physical AGI",
-      "url": "https://thenewstack.io/gemini-robotics-2/",
-      "source": "The New Stack",
-      "published_at": "2026-07-31T15:56:51+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d54159d108148f0f79c6476abf46667f",
-      "title": "How do i get my confidence back?!",
-      "url": "https://www.reddit.com/r/devops/comments/1vbufg6/how_do_i_get_my_confidence_back/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-31T15:38:45+00:00",
-      "summary": "Hey! Quick background on me — graduated in 2020 from a tier 2 college, landed a third-party role at a Tier1 investment bank as an SRE, and ended up staying 5 years (got converted to full-time after the first 2). Got laid off in May 2025, honestly wasn’t mad about it since I wanted out anyway. Most o",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4ae5330586254fa560d3a4c3a1e7f59b",
       "title": "An AI Agent Deleted a Production Database in 9 Seconds — the Real Bug Was the Token Scope",
       "url": "https://dev.to/mainulspace/nine-seconds-13jb",
@@ -2078,16 +2058,6 @@
         "interview",
         "kubernetes"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b2adfe7b4d85c2de09fcd73e68d23a22",
-      "title": "Why is high mttr despite observability stack still happening?",
-      "url": "https://www.reddit.com/r/sre/comments/1vbw55w/why_is_high_mttr_despite_observability_stack/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-31T16:40:08+00:00",
-      "summary": "Something i keep running into, both in our own incidents and talking to other teams, is this gap: on paper we have a modern observability stack but our mean time to resolve is still higher than anyone's comfortable with. By modern observability stack i mean the usual combo: structured logs, distribu",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3439,6 +3409,76 @@
         "ai",
         "devops",
         "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ca859df58938a854ad879982a75a697b",
+      "title": "n8n-io/n8n: n8n@2.34.4",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.4",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-08-07T16:13:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "05f67ff5ffc4bd73a58ab7eedc784d4c",
+      "title": "The night my World Cup model started fighting itself",
+      "url": "https://dev.to/pgardunoc/the-night-my-world-cup-model-started-fighting-itself-19f0",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T15:44:54Z",
+      "summary": "Back in July I wrote up my World Cup model — Elo, jet-lag penalties, and 10,000 Monte Carlo...",
+      "tags": [
+        "automation",
+        "devops",
+        "git",
+        "github"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6a826b278a68c8657bbf6d354234a3ca",
+      "title": "The Same Setting, Three Different Answers: Why 0.0.0.0 Isn't Always What You Want",
+      "url": "https://dev.to/cicikus_niyazi/the-same-setting-three-different-answers-why-0000-isnt-always-what-you-want-58h5",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T15:19:06Z",
+      "summary": "Why does uvicorn's --host parameter change depending on whether you are on a local VM, a production server, or inside Docker? A look into socket binding and network isolation.",
+      "tags": [
+        "devops",
+        "python",
+        "docker",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d811089a9d00eab5aacb1145c65cfeef",
+      "title": "How I Hooked My AI Coding Agent Into CI to Fix Its Own Failing Builds",
+      "url": "https://dev.to/yureki_lab/how-i-hooked-my-ai-coding-agent-into-ci-to-fix-its-own-failing-builds-4bnf",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T14:33:47Z",
+      "summary": "TL;DR   I wired my autonomous coding agent into CI so it watches failing builds and opens...",
+      "tags": [
+        "ai",
+        "claudecode",
+        "softwareengineering",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "117b8d08da5efaf91f6e668f982fcdac",
+      "title": "Building Deterministic RL Environments for Cloud Infrastructure Evaluation: What Actually Transfers From Production Engineering",
+      "url": "https://dev.to/marvinoka4/building-deterministic-rl-environments-for-cloud-infrastructure-evaluation-what-actually-transfers-52jm",
+      "source": "Dev.to",
+      "published_at": "2026-08-06T18:16:20Z",
+      "summary": "AI models are increasingly being asked to design, deploy, secure, and recover production-grade...",
+      "tags": [
+        "ai",
+        "backend",
+        "devops",
+        "testing"
       ],
       "relevance_score": 0.0
     }
