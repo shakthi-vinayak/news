@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:55:27Z",
+  "generated_at": "2026-08-07T22:50:05Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1132,19 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "bd9d8efafe110742cf9ac3de33f4108c",
-      "title": "Cost Attribution in Shared Infrastructure",
-      "url": "https://dev.to/samson_tanimawo/cost-attribution-in-shared-infrastructure-h7p",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T22:23:15Z",
-      "summary": "Discusses strategies for attributing cloud costs in shared environments, enabling teams to understand spend and optimize resource usage.",
-      "tags": [
-        "Cloud",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.85
-    },
-    {
       "id": "0539d31d80dc8ab7fd3f081de68606c6",
       "title": "Designing a Linux patch management system with Aptly, AWX, PostgreSQL and Grafana",
       "url": "https://www.reddit.com/r/devops/comments/1vcelwk/designing_a_linux_patch_management_system_with/",
@@ -1992,21 +1979,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6cec73fb2ff9d3fd4e419c8c56fb1d05",
-      "title": "\"Kubernetes Interviews Are Broken When Trivia Matters More Than Real Skill\"",
-      "url": "https://dev.to/da-li-at-pl/kubernetes-interviews-are-broken-when-trivia-matters-more-than-real-skill-40po",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T21:44:28Z",
-      "summary": "Kubernetes Interviews Are Broken When Trivia Matters More Than Real Skill   Kubernetes...",
-      "tags": [
-        "career",
-        "devops",
-        "interview",
-        "kubernetes"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "925a08323a7d64d9023f40b20bc252d9",
       "title": "Docker Proves Your App Runs. Kubernetes Proves It's Operable.",
       "url": "https://dev.to/arbythecoder/docker-proves-your-app-runs-kubernetes-proves-its-operable-439i",
@@ -2157,11 +2129,14 @@
       "url": "https://dev.to/javatarz/hardening-claude-code-the-minimum-floor-as-config-21lo",
       "source": "Dev.to",
       "published_at": "2026-08-04T04:04:36Z",
-      "summary": "Offers configuration tips to harden Claude Code, targeting AI integration in development pipelines.",
+      "summary": "Ten Claude Code settings that survive an agent trying to route around them, each paired to the exact bypass it closes, verified against live docs.",
       "tags": [
-        "AI"
+        "ai",
+        "programming",
+        "security",
+        "devops"
       ],
-      "relevance_score": 0.6
+      "relevance_score": 0.0
     },
     {
       "id": "a3cb020700abb4bdc4791d8386b80ca3",
@@ -3535,6 +3510,66 @@
         "productivity",
         "ai",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9a888aba6e9aeeb11a104e2a6297d862",
+      "title": "Platform Engineering - interview",
+      "url": "https://www.reddit.com/r/devops/comments/1viezea/platform_engineering_interview/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-07T22:35:48+00:00",
+      "summary": "Hello, strictly from a platform engineering role, could someone list of possible system design interview questions, based on what they have faced in recent months? This is for a huge Bank. Do they actually ask “Design Instagram” type of questions for this role?  &#32; submitted by &#32;  /u/producti",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9bd2d725e8436eb19c702bcbbf6450a4",
+      "title": "Auto Mode will soon be the default in Claude Code — because humans can’t be trusted",
+      "url": "https://thenewstack.io/claude-code-auto-mode/",
+      "source": "The New Stack",
+      "published_at": "2026-08-07T21:42:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9f0bded90aacb55b5c3dc4eb3722923a",
+      "title": "The AI model OpenAI won’t release yet — and what it found in testing",
+      "url": "https://thenewstack.io/openai-astra-cybersecurity-delay/",
+      "source": "The New Stack",
+      "published_at": "2026-08-07T20:56:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8bd0853b9714c41cd497d470f6a2fb86",
+      "title": "You've outgrown one server. You don't need Kubernetes.",
+      "url": "https://dev.to/mighty840/youve-outgrown-one-server-you-dont-need-kubernetes-51cn",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T14:14:36Z",
+      "summary": "The awkward gap between Coolify and Kubernetes - and the single-binary orchestrator I built to fill it.",
+      "tags": [
+        "devops",
+        "rust",
+        "selfhosting",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ec82e0dbdda25504a3348a434e163d84",
+      "title": "Railway vs Render vs Fly.io: Deploying a Hobby App Without a DevOps Team",
+      "url": "https://dev.to/libme/railway-vs-render-vs-flyio-deploying-a-hobby-app-without-a-devops-team-10d3",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T11:48:03Z",
+      "summary": "A hands-on comparison of Railway, Render, and Fly.io for deploying a hobby app when you have no DevOps team and no time to build one.",
+      "tags": [
+        "devops",
+        "cloud",
+        "backend",
+        "tutorial"
       ],
       "relevance_score": 0.0
     }
