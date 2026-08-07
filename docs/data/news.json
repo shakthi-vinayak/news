@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:04:08Z",
+  "generated_at": "2026-08-07T13:24:33Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1062,16 +1062,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "98e54503009077caaa20e47dca6bd262",
-      "title": "Your Kubernetes health checks are accidentally waking your services. Here’s the fix.",
-      "url": "https://www.cncf.io/blog/2026/07/29/your-kubernetes-health-checks-are-accidentally-waking-your-services-heres-the-fix/",
-      "source": "CNCF Blog",
-      "published_at": "2026-07-29T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "8241cce1d9d6067f131025a745384d1a",
       "title": "hashicorp/terraform: v1.17.0-alpha20260729",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729",
@@ -1132,21 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "67725beb8a93e2d29983ccdacf4c4353",
-      "title": "Deploying ImgProxy – Process, Resize, Convert Images on the Fly",
-      "url": "https://dev.to/vultr/deploying-imgproxy-process-resize-convert-images-on-the-fly-5ab0",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T12:41:20Z",
-      "summary": "ImgProxy is an open-source image-processing server — resize, convert, and transform images on the fly...",
-      "tags": [
-        "linux",
-        "nginx",
-        "imageprocessing",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "bd8d18bd2d9f983c5ab63e955ecaf9fd",
       "title": "Deploying code-server for VS Code on Ubuntu 24.04",
       "url": "https://dev.to/vultr/deploying-code-server-for-vs-code-on-ubuntu-2404-4o9e",
@@ -1159,31 +1134,6 @@
         "devops",
         "linux"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "718d62a38a1b696ea562c8c87d51b9bf",
-      "title": "Installing Nginx UI – An Open-Source WebUI for Nginx",
-      "url": "https://dev.to/vultr/installing-nginx-ui-an-open-source-webui-for-nginx-59j7",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T12:38:42Z",
-      "summary": "Nginx UI is an open-source web GUI for managing Nginx, single-node or clustered, with real-time...",
-      "tags": [
-        "nginx",
-        "linux",
-        "devops",
-        "webui"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "32c2518da62b6766091844a75a9c7392",
-      "title": "I'm lost after 3 years in DevOps. What would you do?",
-      "url": "https://www.reddit.com/r/devops/comments/1vbottm/im_lost_after_3_years_in_devops_what_would_you_do/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-07-31T11:55:31+00:00",
-      "summary": "Hi everyone, I'm looking for advice from people who have been in this field longer than I have. I'm an Arts graduate who got into DevOps about 3.3 years ago. I've switched 3 companies and recently joined my 4th company, a large GCC. Along the way I've worked with AWS, Kubernetes, Terraform, CI/CD, a",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -1293,20 +1243,6 @@
         "Platform Engineering"
       ],
       "relevance_score": 0.85
-    },
-    {
-      "id": "add6a62ff239ebd2eb1c42a56537ffdf",
-      "title": "How We Killed Our Worst Alert (And What We Learned)",
-      "url": "https://dev.to/samson_tanimawo/how-we-killed-our-worst-alert-and-what-we-learned-1jdf",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T13:12:09Z",
-      "summary": "Shares a case study on eliminating a noisy, low-value alert, detailing the analysis process and lessons learned about alert design and on-call hygiene.",
-      "tags": [
-        "SRE",
-        "Observability",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
     },
     {
       "id": "0539d31d80dc8ab7fd3f081de68606c6",
@@ -2266,46 +2202,6 @@
       "source": "Reddit r/sre",
       "published_at": "2026-07-31T16:40:08+00:00",
       "summary": "Something i keep running into, both in our own incidents and talking to other teams, is this gap: on paper we have a modern observability stack but our mean time to resolve is still higher than anyone's comfortable with. By modern observability stack i mean the usual combo: structured logs, distribu",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "38af74cca53e67ebdb6007835aa55618",
-      "title": "Deploying Metabase on Kubernetes",
-      "url": "https://dev.to/vultr/deploying-metabase-on-kubernetes-48gh",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T12:39:17Z",
-      "summary": "Metabase is an open-source BI tool for building charts and dashboards over MySQL, PostgreSQL,...",
-      "tags": [
-        "kubernetes",
-        "database",
-        "analytics",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8e38387168070b75db013d6dc5612178",
-      "title": "Testing CAST AI on GKE: A Hands-On Kubernetes Workload Optimization Lab",
-      "url": "https://dev.to/upshivam786/testing-cast-ai-on-gke-a-hands-on-kubernetes-workload-optimization-lab-3lep",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T12:38:02Z",
-      "summary": "I intentionally over-provisioned a Kubernetes application just to see whether CAST AI could detect...",
-      "tags": [
-        "cloud",
-        "devops",
-        "infrastructure",
-        "kubernetes"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b609b74ba9ab3654a60cfd4b33128725",
-      "title": "FOSS Friday: Share Your SRE-Related Open-Source Project",
-      "url": "https://www.reddit.com/r/sre/comments/1vbozu4/foss_friday_share_your_srerelated_opensource/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-07-31T12:02:32+00:00",
-      "summary": "Welcome to FOSS Friday, where you can share your newly released or updated open-source project with the community. Please note that our rules still apply:  no AI generated comments: please write them on your own! no commercial advertisements (this includes commercial products with a FOSS version) th",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3498,6 +3394,36 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-07T10:26:21+00:00",
       "summary": "Hi folks . I'm working as a application support analyst and I have total 8 years experience. I jus know basics of Linux and Sql and I'm planning to move towards Devops / SRE . Is it possible for a person to move in to devops with 8 years support experience? Pls share resources/ roadmap 🙏🏻 😭   &#32; ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fc4443d2ee13dec2a7afc7d83bbfd04f",
+      "title": "I am making a free single binary to optimize s3 read, writes and updates",
+      "url": "https://www.reddit.com/r/devops/comments/1vhzw6e/i_am_making_a_free_single_binary_to_optimize_s3/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-07T12:56:12+00:00",
+      "summary": "I’m building a free, single-binary tool designed to optimize S3 reads, writes, and updates, with a focus on making object storage operations faster and more efficient. It’s still early, and I’d really appreciate feedback from people who work with S3 heavily—especially around whether the problem is r",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "132a6c5c078182019c93232a78a9caaa",
+      "title": "We deleted Docker Compose from our internal platform's runtime and migrated to Kubernetes before it was too late",
+      "url": "https://www.reddit.com/r/devops/comments/1vhyiqk/we_deleted_docker_compose_from_our_internal/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-07T11:54:21+00:00",
+      "summary": "I’m part of the team that builds platform for turning small applications and AI experiments into deployed services. The first use case came from our own team. Someone built a useful tool, but sharing it with colleagues still required help from a person who understood servers and deployment pipelines",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3ad1f9fa29ea486358078bf338c84030",
+      "title": "Does Kubernetes DRA Replace HAMi?",
+      "url": "https://www.cncf.io/blog/2026/08/07/does-kubernetes-dra-replace-hami/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-07T11:30:00+00:00",
+      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     }
