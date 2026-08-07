@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T19:10:49Z",
+  "generated_at": "2026-08-07T20:55:27Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1102,16 +1102,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "55ca9aa0c3b5d590544eabb55ccf389c",
-      "title": "langchain-ai/langgraph: langgraph-checkpoint-sqlite==3.1.1",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-07-30T19:19:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "fde8f2d399e669e83d65be9e5ffed0fe",
       "title": "Scaling Kubernetes pods with KEDA based on Amazon SQS queue depth",
       "url": "https://www.cncf.io/blog/2026/07/31/scaling-kubernetes-pods-with-keda-based-on-amazon-sqs-queue-depth/",
@@ -1186,35 +1176,6 @@
         "devops",
         "infrastructure",
         "linux"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "48c1f11db732c538c32216b74c645b84",
-      "title": "The C2 Channel Is a Headless Browser",
-      "url": "https://dev.to/kkierii/the-c2-channel-is-a-headless-browser-30j7",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T20:07:35Z",
-      "summary": "Cisco Talos published analysis on July 23 of a Rust-based RAT they've named msaRAT, attributed to the...",
-      "tags": [
-        "security",
-        "devops",
-        "programming"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b461b1f203999aa55dc8fc92c9074113",
-      "title": "How I Put My Agent in CI to Automate Release Notes",
-      "url": "https://dev.to/blackgirlbytes/how-i-put-my-agent-in-ci-to-automate-release-notes-2c2h",
-      "source": "Dev.to",
-      "published_at": "2026-07-31T19:00:39Z",
-      "summary": "When I joined Entire, I noticed my boss spending a chunk of time every week writing detailed release...",
-      "tags": [
-        "agents",
-        "ci",
-        "devops",
-        "goose"
       ],
       "relevance_score": 0.0
     },
@@ -3513,6 +3474,66 @@
         "laravel",
         "php",
         "architecture",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9209c48b397ce8da04112de5043346a5",
+      "title": "langchain-ai/langgraph: langgraph-checkpoint-postgres==3.1.2",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-07T20:40:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "278b786f3d5ea8f4a78f51fd88256e9a",
+      "title": "langchain-ai/langgraph: langgraph-checkpoint==4.2.0",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-07T20:05:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "407819fc23707ad4a71b15c3a8be58a8",
+      "title": "Microsoft’s New Testing Agent Tackles the Trust Gap in AI-Generated Code",
+      "url": "https://devops.com/microsofts-new-testing-agent-tackles-the-trust-gap-in-ai-generated-code/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-07T19:26:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "af710ad0e3d6cd032784e46e128101cc",
+      "title": "Random Forest Is Horizontal Scaling for Predictions",
+      "url": "https://dev.to/nishant_banginwar_80b7dc5/random-forest-is-horizontal-scaling-for-predictions-3dd3",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T03:42:00Z",
+      "summary": "Classic Machine Learning Through the Eyes of an SRE — Part 3  The random forest is the first ML...",
+      "tags": [
+        "machinelearning",
+        "devops",
+        "ai",
+        "datascience"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e5823fadd5775e815026a879b7e3eeac",
+      "title": "Harder Now, Not Optional Now",
+      "url": "https://dev.to/raleighschickel/harder-now-not-optional-now-4ffa",
+      "source": "Dev.to",
+      "published_at": "2026-08-06T18:26:52Z",
+      "summary": "What humanistic engineering leadership actually requires in an AI-augmented organization.     It's...",
+      "tags": [
+        "leadership",
+        "productivity",
+        "ai",
         "devops"
       ],
       "relevance_score": 0.0
