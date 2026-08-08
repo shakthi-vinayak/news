@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T16:48:00Z",
+  "generated_at": "2026-08-08T18:54:28Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1690,21 +1690,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a473d59e7a53492c71238047f4347ebf",
-      "title": "4.4% of MCP servers changed their tool contract in 36 hours",
-      "url": "https://dev.to/theopslog/44-of-mcp-servers-changed-their-tool-contract-in-36-hours-i3m",
-      "source": "Dev.to",
-      "published_at": "2026-08-01T18:44:15Z",
-      "summary": "Two days ago I catalogued the tool surface of the public MCP registry: a random sample of 500 live...",
-      "tags": [
-        "mcp",
-        "ai",
-        "devops",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c60efcee6a7e43c665a2ed1a2aa96ec3",
       "title": "If I cannot start a devops job as a fresher, what can I start to learn to get job?",
       "url": "https://www.reddit.com/r/devops/comments/1veo5ve/if_i_cannot_start_a_devops_job_as_a_fresher_what/",
@@ -1836,16 +1821,6 @@
       "source": "Reddit r/sre",
       "published_at": "2026-08-02T16:04:53+00:00",
       "summary": "Hi everyone, Has anybody tried using Traversal’s product? Any thoughts? Wonder how much it works vs. just fluff and PR. Thanks  &#32; submitted by &#32;  /u/Berlin31337   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c08c761da025b94eb5d05ed58a5ab3d2",
-      "title": "5 years as an SRE, but I still feel my knowledge is too shallow",
-      "url": "https://www.reddit.com/r/sre/comments/1vcsfyi/5_years_as_an_sre_but_i_still_feel_my_knowledge/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-08-01T16:54:10+00:00",
-      "summary": "I've been working as an SRE for the past 5 years, but I was laid off last month. Throughout my career I've worked with a variety of technologies, but I never feel like I truly know them. Lately I've been interviewing, and it feels like my knowledge is too shallow. I'm not sure if I'm actually lackin",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3646,6 +3621,21 @@
         "devops",
         "laravel",
         "nextjs"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5b21a50286a93569c1546a5bee2d3113",
+      "title": "What AWS VPC Actually Does Under the Hood (I Rebuilt It on Linux to Find Out)",
+      "url": "https://dev.to/gerald_izuchukwu/what-aws-vpc-actually-does-under-the-hood-i-rebuilt-it-on-linux-to-find-out-3iif",
+      "source": "Dev.to",
+      "published_at": "2026-08-08T11:29:46Z",
+      "summary": "I rebuilt AWS VPC networking, subnets, routing, security groups, peering using raw Linux primitives to understand what AWS is actually doing underneath the abstraction.",
+      "tags": [
+        "devops",
+        "aws",
+        "linux",
+        "networking"
       ],
       "relevance_score": 0.0
     }
