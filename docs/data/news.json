@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T07:09:10Z",
+  "generated_at": "2026-08-08T08:55:42Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1908,16 +1908,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1d043600c4d8ed366a22913146bab1f2",
-      "title": "Here's what changed in AI SRE vendor land this past week (25-31 July)",
-      "url": "https://www.reddit.com/r/sre/comments/1vchzo2/heres_what_changed_in_ai_sre_vendor_land_this/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-08-01T08:45:12+00:00",
-      "summary": " Resolve AI now charges for results instead of tokens. They say if their agent wastes tokens, that's their cost to eat, not yours. Datadog has made Agent Observability free for up to 40,000 LLM spans a month. They didn't announce it explicitly, they just changed the line at the bottom of their AI bl",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "925a08323a7d64d9023f40b20bc252d9",
       "title": "Docker Proves Your App Runs. Kubernetes Proves It's Operable.",
       "url": "https://dev.to/arbythecoder/docker-proves-your-app-runs-kubernetes-proves-its-operable-439i",
@@ -3429,12 +3419,14 @@
       "url": "https://dev.to/nishant_banginwar_80b7dc5/random-forest-is-horizontal-scaling-for-predictions-3dd3",
       "source": "Dev.to",
       "published_at": "2026-08-07T03:42:00Z",
-      "summary": "Frames Random Forest as a metaphor for horizontal scaling of predictions, linking ML models to scaling concepts.",
+      "summary": "Classic Machine Learning Through the Eyes of an SRE — Part 3  The random forest is the first ML...",
       "tags": [
-        "AI",
-        "MLOps"
+        "machinelearning",
+        "devops",
+        "ai",
+        "datascience"
       ],
-      "relevance_score": 0.65
+      "relevance_score": 0.0
     },
     {
       "id": "e5823fadd5775e815026a879b7e3eeac",
@@ -3616,7 +3608,7 @@
         "devops",
         "infrastructure",
         "llm",
-        "performance"
+        "ollama"
       ],
       "relevance_score": 0.0
     },
@@ -3632,6 +3624,21 @@
         "webdev",
         "devops",
         "github"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bf69901109966d78581b8dc6feb84e57",
+      "title": "I put SSO in front of eleven self-hosted services — then locked myself out of all of them",
+      "url": "https://dev.to/maaax/i-put-sso-in-front-of-eleven-self-hosted-services-then-locked-myself-out-of-all-of-them-4ogm",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T13:10:42Z",
+      "summary": "Eleven self-hosted services. Eleven logins. And — being honest here — at least four of them had a...",
+      "tags": [
+        "selfhosted",
+        "homelab",
+        "docker",
+        "devops"
       ],
       "relevance_score": 0.0
     }
