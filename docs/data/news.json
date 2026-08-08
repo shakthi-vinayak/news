@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T05:09:18Z",
+  "generated_at": "2026-08-08T07:09:10Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1128,16 +1128,6 @@
       "source": "Kubernetes Blog",
       "published_at": "2026-07-31T16:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0539d31d80dc8ab7fd3f081de68606c6",
-      "title": "Designing a Linux patch management system with Aptly, AWX, PostgreSQL and Grafana",
-      "url": "https://www.reddit.com/r/devops/comments/1vcelwk/designing_a_linux_patch_management_system_with/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-01T05:35:44+00:00",
-      "summary": "      https://preview.redd.it/bhyfdt5t9pgh1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=e13f6a15dac958b9f4dbcf651a8ef954cf940098 A production server rebooted after an unattended kernel update, which made me rethink how Linux patching should work in production. Rather than just disabling unatte",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3562,6 +3552,86 @@
         "selfhosted",
         "homelab",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1c2a4992307575a75c3f0af1b855419a",
+      "title": "apache/airflow: providers-yandex/4.5.1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-yandex%2F4.5.1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-08T06:51:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f6c6644782b60d22956bdf1d7da49398",
+      "title": "apache/airflow: providers-weaviate/3.4.1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-weaviate%2F3.4.1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-08T06:51:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "10006fb27d33c770a8082596b6a3357b",
+      "title": "apache/airflow: providers-trino/6.6.1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-trino%2F6.6.1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-08T06:51:52+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c740f5377005d973de5abc4fe2449aac",
+      "title": "apache/airflow: providers-teradata/3.6.2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-teradata%2F3.6.2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-08T06:51:51+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "db5660e7e394f48a52605eca86571047",
+      "title": "apache/airflow: providers-telegram/4.9.6",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-telegram%2F4.9.6",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-08T06:51:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8c0896b65b43441fb78d8db62e22a427",
+      "title": "Our Ollama /LLM Production Setup",
+      "url": "https://dev.to/suresh_devops_ffa0728a190/our-ollama-llm-production-setup-3anf",
+      "source": "Dev.to",
+      "published_at": "2026-08-08T05:16:35Z",
+      "summary": "Response to Ollama Production Queries to the previous post   Excellent questions — you've...",
+      "tags": [
+        "devops",
+        "infrastructure",
+        "llm",
+        "performance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "30c6b62daab4ef1184dea8dce9423286",
+      "title": "AI Writes 41% of Code. Only 29% of Devs Trust It. Review It Like a Senior Engineer",
+      "url": "https://dev.to/aymen_benyedder_616fc74f/ai-writes-41-of-code-only-29-of-devs-trust-it-review-it-like-a-senior-engineer-22hm",
+      "source": "Dev.to",
+      "published_at": "2026-08-08T00:47:49Z",
+      "summary": "The bottleneck moved from generation to verification. Stack Overflow trust fell 40%→29% in a year, METR measured AI at 19% slower, and Veracode found AI code 2.74x more likely to carry vulnerabilities. Here's the 10-point review checklist that catches it.",
+      "tags": [
+        "ai",
+        "webdev",
+        "devops",
+        "github"
       ],
       "relevance_score": 0.0
     }
