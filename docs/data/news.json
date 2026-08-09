@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:46:02Z",
+  "generated_at": "2026-08-09T22:42:57Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1132,16 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "988f2680c537201ced0535878acb999f",
-      "title": "Why did you choose to be a DevOps?",
-      "url": "https://www.reddit.com/r/devops/comments/1vdu0p1/why_did_you_choose_to_be_a_devops/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-02T21:23:29+00:00",
-      "summary": "What motivated you to choose DevOps as a career? Was there a specific reason or did you somehow end up on this path by accident?  &#32; submitted by &#32;  /u/SwordfishPositive91   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "67bdaee62935a88b2a82d127c3bc16eb",
       "title": "apache/airflow: providers-telegram/4.9.6rc1",
       "url": "https://github.com/apache/airflow/releases/tag/providers-telegram%2F4.9.6rc1",
@@ -1771,21 +1761,6 @@
         "es",
         "cluster",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8a71fde04f2f332ad627d1a3f36fa6a8",
-      "title": "Your SPF record can be valid, published, and completely ignored",
-      "url": "https://dev.to/jose_pollman_fa7c6ec43cdd/your-spf-record-can-be-valid-published-and-completely-ignored-bi9",
-      "source": "Dev.to",
-      "published_at": "2026-08-02T20:55:09Z",
-      "summary": "There's a failure mode in SPF that produces no error anywhere you'd think to look.  Your record is...",
-      "tags": [
-        "devops",
-        "security",
-        "dns",
-        "tutorial"
       ],
       "relevance_score": 0.0
     },
@@ -3502,6 +3477,96 @@
       "published_at": "2026-08-09T18:35:00+00:00",
       "summary": "Hi everyone, I’m a junior DevOps engineer, and recently our CTO said something that honestly made me question my understanding of software engineering. He has around 30 years of experience, and his statement was basically:  With AI tools like Claude Code, there is no real difference anymore between ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e435cf756bef18d3ac8a0058f03aab3b",
+      "title": "GitHub doesn't retry webhooks. So I gave my tunnel a database.",
+      "url": "https://dev.to/bigachiever/github-doesnt-retry-webhooks-so-i-gave-my-tunnel-a-database-4aa0",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T19:42:34Z",
+      "summary": "Built solo over a weekend for the WeMakeDevs × Zerops challenge. There's a live gateway you can poke...",
+      "tags": [
+        "webdev",
+        "go",
+        "webhook",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1390d92bac1a11b81d306ae61e324495",
+      "title": "Restate's Single Binary vs Temporal's Cluster: When the Lighter Engine Wins",
+      "url": "https://dev.to/andriiboyko/restates-single-binary-vs-temporals-cluster-when-the-lighter-engine-wins-3635",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T19:05:41Z",
+      "summary": "Here is a bet that will save you a lot of arguing: pick your durable execution engine on what you...",
+      "tags": [
+        "architecture",
+        "typescript",
+        "discuss",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "93c2b715963915a6400245a1c08add3a",
+      "title": "Cpynet a pastebin you talk to with curl, that forgets everything you send it",
+      "url": "https://dev.to/eminbuyuk/why-i-built-a-zero-dependency-single-file-go-clipboard-for-terminal-junkies-2ob6",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T18:21:49Z",
+      "summary": "A zero-dependency, single-file Go pastebin built for terminals — burn-after-read by default, two...",
+      "tags": [
+        "go",
+        "devops",
+        "productivity",
+        "sysadmin"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "95cfe71191cb10fe590d06007475efc6",
+      "title": "I Almost Gave Up on QuizRank Because I Thought Render Was Too Small",
+      "url": "https://dev.to/gideonadeti/i-almost-gave-up-on-quizrank-because-i-thought-render-was-too-small-1jkd",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T14:56:39Z",
+      "summary": "QuizRank has been one of those projects where I've learned almost as much from things going wrong as...",
+      "tags": [
+        "webdev",
+        "backend",
+        "nestjs",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c03474676a77bbec16cc03562a3e4a27",
+      "title": "Meta's Graph API v20 expires September 24 — your calls won't fail, they'll quietly start running v21",
+      "url": "https://dev.to/flarecanary/metas-graph-api-v20-expires-september-24-your-calls-wont-fail-theyll-quietly-start-running-v21-2m2a",
+      "source": "Dev.to",
+      "published_at": "2026-08-06T05:00:43Z",
+      "summary": "There are two ways a vendor can retire an API version. It can reject calls to the dead version, which...",
+      "tags": [
+        "api",
+        "integrations",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "641335f581691c713a4154a312e67812",
+      "title": "I Gave an AI Agent One Prompt (\"Cut Our Cloud Bill 20% Without Breaking Anything\"), and Here’s What It Did",
+      "url": "https://dev.to/muskan_bandta/i-gave-an-ai-agent-one-prompt-cut-our-cloud-bill-20-without-breaking-anything-heres-what-it-did-48bl",
+      "source": "Dev.to",
+      "published_at": "2026-08-03T06:00:02Z",
+      "summary": "After my cloud-ops-for-a-week experiment, several people in the comments asked the obvious next...",
+      "tags": [
+        "ai",
+        "cloud",
+        "finops",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
