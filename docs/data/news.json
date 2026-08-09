@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:56:06Z",
+  "generated_at": "2026-08-09T20:46:02Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1130,28 +1130,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "88248f47415d64bf0704f40375d10ec0",
-      "title": "I'm so tired of pushing 10 times just to fix one GitHub Actions error",
-      "url": "https://www.reddit.com/r/devops/comments/1vdqoy3/im_so_tired_of_pushing_10_times_just_to_fix_one/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-02T19:12:12+00:00",
-      "summary": "Every time I touch a workflow file it's the same loop, small change, push, wait for the runner, watch it fail on some tiny thing, tweak, push again. Ten commits later it finally goes green. No real way to test it before it runs, so I'm just push-and-praying. Do you hit the same thing? Or is there so",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "22d27cae9808621532bcfccd8b8d504c",
-      "title": "DevOps roadmap?",
-      "url": "https://www.reddit.com/r/devops/comments/1vdsxx8/devops_roadmap/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-02T20:40:09+00:00",
-      "summary": "Provides a suggested learning path for aspiring DevOps professionals.",
-      "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.8
     },
     {
       "id": "988f2680c537201ced0535878acb999f",
@@ -2919,21 +2897,6 @@
         "npm",
         "devops",
         "vulnerabilities"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f4107e7c9158275eddda3cbdbd59d297",
-      "title": "MCP schema drift isn't a rate, it's a small set of servers that never stop moving",
-      "url": "https://dev.to/theopslog/mcp-schema-drift-isnt-a-rate-its-a-small-set-of-servers-that-never-stop-moving-243c",
-      "source": "Dev.to",
-      "published_at": "2026-08-02T19:30:51Z",
-      "summary": "Two days ago I measured that 4.4% of MCP servers changed their tool contract in 36 hours, and refused...",
-      "tags": [
-        "mcp",
-        "ai",
-        "devops",
-        "opensource"
       ],
       "relevance_score": 0.0
     },
