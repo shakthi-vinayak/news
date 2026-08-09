@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:57:47Z",
+  "generated_at": "2026-08-09T10:46:14Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,21 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "43c3896d8465371cb2a0d218894c4757",
-      "title": "Apache Iceberg Query Performance: A Practical Guide",
-      "url": "https://dev.to/jonisar/apache-iceberg-query-performance-a-practical-guide-1pd6",
-      "source": "Dev.to",
-      "published_at": "2026-08-02T09:31:14Z",
-      "summary": "Iceberg is the standard. Snowflake, Databricks, AWS, and every major query engine read and write it...",
-      "tags": [
-        "data",
-        "dataengineering",
-        "devops",
-        "programmers"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "88248f47415d64bf0704f40375d10ec0",
       "title": "I'm so tired of pushing 10 times just to fix one GitHub Actions error",
       "url": "https://www.reddit.com/r/devops/comments/1vdqoy3/im_so_tired_of_pushing_10_times_just_to_fix_one/",
@@ -1492,12 +1477,14 @@
       "url": "https://dev.to/mukesh_13/smarter-test-splitting-in-circleci-balancing-parallel-containers-with-real-timing-data-instead-of-p7g",
       "source": "Dev.to",
       "published_at": "2026-08-03T08:19:16Z",
-      "summary": "Offers a method to split tests in CircleCI using real timing data instead of guesswork.",
+      "summary": "Most teams turn on parallelism in CircleCI, add circleci tests split, and assume the test-speed...",
       "tags": [
-        "CI/CD",
-        "DevOps"
+        "circleci",
+        "cicd",
+        "testing",
+        "devops"
       ],
-      "relevance_score": 0.9
+      "relevance_score": 0.0
     },
     {
       "id": "08c74625640b17e5228711ec0c7e5b64",
@@ -3584,6 +3571,21 @@
         "github",
         "ai",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9379fd48f04187c130cdc36125e09cc1",
+      "title": "The Insecure Default Was the Configuration",
+      "url": "https://dev.to/henry_dan_81513dd35a2f540/the-insecure-default-was-the-configuration-14pp",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T08:00:52Z",
+      "summary": "I found an API key hardcoded as a fallback in three scripts and did the obvious thing: deleted it, moved the value to an env file, felt responsible. Then I checked whether anything actually set that variable. Nothing did. The literal I had just remov",
+      "tags": [
+        "security",
+        "devops",
+        "python",
+        "programming"
       ],
       "relevance_score": 0.0
     }
