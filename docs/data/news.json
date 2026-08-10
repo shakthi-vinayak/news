@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:00:20Z",
+  "generated_at": "2026-08-10T09:45:28Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1172,16 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e81760462c381b353399b6e1124e21ac",
-      "title": "Need Career Advice - Is it worth continuing to chase DevOps?",
-      "url": "https://www.reddit.com/r/devops/comments/1ve75i1/need_career_advice_is_it_worth_continuing_to/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-03T08:06:32+00:00",
-      "summary": "Hi everyone, I'm an MCA graduate (2025) from a Tier 3 college in Maharashtra(Pune). I had worked 1 yrs into Infrastructure Support before enrolling for masters. During my MCA, I also did 2 DevOps internships, and my goal has always been to build a career in DevOps. Since February, I've been applying",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d98c976d291f10892738482b83745005",
       "title": "DevOps not a real job.",
       "url": "https://www.reddit.com/r/devops/comments/1vef6rh/devops_not_a_real_job/",
@@ -1242,51 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "84b562630146ba19db12a0655cfcbb09",
-      "title": "Self-Healing Instance Pools on Vultr: A Reconciler Loop for Solo Devs Without Kubernetes",
-      "url": "https://dev.to/mukesh_13/self-healing-instance-pools-on-vultr-a-reconciler-loop-for-solo-devs-without-kubernetes-4k70",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T08:19:53Z",
-      "summary": "Managed Kubernetes gives you self-healing for free: a node dies, the scheduler notices, a replacement...",
-      "tags": [
-        "vultr",
-        "infrastructure",
-        "devops",
-        "highavailability"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "199f85e4b05f9d965b97c82f19fdfe60",
-      "title": "Smarter Test Splitting in CircleCI: Balancing Parallel Containers with Real Timing Data Instead of Guesswork",
-      "url": "https://dev.to/mukesh_13/smarter-test-splitting-in-circleci-balancing-parallel-containers-with-real-timing-data-instead-of-p7g",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T08:19:16Z",
-      "summary": "Most teams turn on parallelism in CircleCI, add circleci tests split, and assume the test-speed...",
-      "tags": [
-        "circleci",
-        "cicd",
-        "testing",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "08c74625640b17e5228711ec0c7e5b64",
-      "title": "Episode 3 — The Cache Problem",
-      "url": "https://dev.to/surajrkhonde/episode-3-the-cache-problem-278i",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T07:33:35Z",
-      "summary": "Week 2. \"Why does my pipeline take eleven minutes to install packages I installed...",
-      "tags": [
-        "cicd",
-        "productivity",
-        "devops",
-        "computerscience"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2bc66216bbfd21025c48b60ffcbff1bb",
       "title": "Building ferctl top: Kubernetes resource usage vs requests and limits",
       "url": "https://dev.to/ferztyle/building-ferctl-top-kubernetes-resource-usage-vs-requests-and-limits-50a3",
@@ -1298,36 +1243,6 @@
         "devops",
         "sre",
         "kubernetes"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c163d1bc59172808d875424f46bfed50",
-      "title": "Gartner Says 40% of Apps Will Have AI Agents by December. Here's the Plumbing Nobody Puts on the Slide.",
-      "url": "https://dev.to/mickyarun/gartner-says-40-of-apps-will-have-ai-agents-by-december-heres-the-plumbing-nobody-puts-on-the-5196",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T08:09:14Z",
-      "summary": "There's a number going around dev.to this week. Gartner says 40% of enterprise apps will ship a...",
-      "tags": [
-        "ai",
-        "agents",
-        "devops",
-        "fintech"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "09bc173cc7df8742d91b4cb24d2b304b",
-      "title": "Postgres Advisory Locks for Distributed Cron: Killing Duplicate Job Runs Without a Redis Dependency",
-      "url": "https://dev.to/mukesh_13/postgres-advisory-locks-for-distributed-cron-killing-duplicate-job-runs-without-a-redis-dependency-1bfl",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T08:11:45Z",
-      "summary": "The problem: your cron job runs twice (or five times)   You have a scheduled job -- cleaning...",
-      "tags": [
-        "postgres",
-        "distributedsystems",
-        "backend",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -1378,66 +1293,6 @@
         "docker",
         "aws",
         "python"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6ed3e342df67cc95d70a08fd5d9399c2",
-      "title": "Stack Overflow + dev.to (install errors are searched, not browsed - this is an evergreen Q&A magnet)",
-      "url": "https://dev.to/mikhail_dorokhovich_0c532/stack-overflow-devto-install-errors-are-searched-not-browsed-this-is-an-evergreen-qa-magnet-dlm",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T09:24:58Z",
-      "summary": "Don't start the build chapters until this k8s smoke test passes   Chapter 4 of a...",
-      "tags": [
-        "devops",
-        "docker",
-        "infrastructure",
-        "kubernetes"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "54bb0d41a26209bdbd95d86aff2dc35c",
-      "title": "5 Most Important Programming Languages to Learn in 2026 (Based on Real Industry Demand)",
-      "url": "https://dev.to/hadil/5-most-important-programming-languages-to-learn-in-2026-based-on-real-industry-demand-3dc7",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T09:05:57Z",
-      "summary": "Every year, developers ask the same question:  \"Which programming language should I learn next?\"  And...",
-      "tags": [
-        "python",
-        "rust",
-        "java",
-        "kubernetes"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "48cb1fa323d15f9f443c7813bc6ff4ec",
-      "title": "A Weekend of Kubernetes: FastAPI, Helm, and Breaking Things on Purpose",
-      "url": "https://dev.to/xinyangwuethz/a-weekend-of-kubernetes-fastapi-helm-and-breaking-things-on-purpose-3nf8",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T08:36:30Z",
-      "summary": "Deploying two FastAPI services on a local kind cluster with a production-shaped Helm chart — and why deliberately breaking the deployment taught me the most.",
-      "tags": [
-        "kubernetes",
-        "helm",
-        "docker",
-        "fastapi"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a82b8b364fe0ad6868d0f014d44245f5",
-      "title": "The Kubernetes v1.37 sneak peek gives you three deprecations to diary now",
-      "url": "https://dev.to/leobaniak/the-kubernetes-v137-sneak-peek-gives-you-three-deprecations-to-diary-now-45a3",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T08:24:49Z",
-      "summary": "The release team's preview for v1.37 flags a three-release deprecation clock on kube-proxy ipvs mode, a rule that Static Pods can no longer reference Secrets or ConfigMaps, and the removal of the --filename flag on kubectl run. It also reprises the still-live cgroup v1 tripwire that stops kubelet from booting.",
-      "tags": [
-        "kubernetes",
-        "release",
-        "deprecations",
-        "kubeproxy"
       ],
       "relevance_score": 0.0
     },
@@ -3435,6 +3290,50 @@
       "published_at": "2026-08-10T06:30:18+00:00",
       "summary": "Hey r/devops, welcome to our weekly self-promotion thread! Feel free to use this thread to promote any projects, ideas, or any repos you're wanting to share. Please keep in mind that we ask you to stay friendly, civil, and adhere to the subreddit rules!  &#32; submitted by &#32;  /u/AutoModerator   ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6a9596b9b8c8884f76ccd173010d6169",
+      "title": "The Scheduled Step Failed on Night One. The Heartbeat Stayed Green.",
+      "url": "https://dev.to/hexisteme/the-scheduled-step-failed-on-night-one-the-heartbeat-stayed-green-lca",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T09:00:07Z",
+      "summary": "A nightly job's meter computation failed on its first and only scheduled run because of a launchd PATH difference invisible from an interactive shell, and a fail-soft design absorbed the failure so the job's heartbeat kept reporting healthy — nothing in the system would have reported it for the next 55 nights.",
+      "tags": [
+        "automation",
+        "devops",
+        "monitoring"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a3128d7808dcf85cadd3b2fe1162e3ee",
+      "title": "On-Call Runbooks for AI Services",
+      "url": "https://dev.to/multigrid/on-call-runbooks-for-ai-services-4ag7",
+      "source": "Dev.to",
+      "published_at": "2026-08-07T21:49:16Z",
+      "summary": "Five runbooks for the five things that actually page you on an AI service, each with the first command, the branch, and what to do at each branch.",
+      "tags": [
+        "ai",
+        "devops",
+        "tutorial",
+        "llm"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ab58713cc59a6f8bcd05ab8d6fb053e5",
+      "title": "Linux Troubleshooting Workflow for Beginners: A Step-by-Step Guide",
+      "url": "https://dev.to/sreekanth_kuruba_91721e5d/linux-troubleshooting-workflow-for-beginners-a-step-by-step-guide-427c",
+      "source": "Dev.to",
+      "published_at": "2026-08-04T06:18:32Z",
+      "summary": "Most Linux problems aren't actually difficult.  They're difficult because they're often debugged in...",
+      "tags": [
+        "linux",
+        "sysadmin",
+        "devops",
+        "beginners"
+      ],
       "relevance_score": 0.0
     }
   ]
