@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T05:43:17Z",
+  "generated_at": "2026-08-10T08:00:20Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1132,31 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d0b78c3fa512bad4a42220537d2ea434",
-      "title": "Weekly Self Promotion Thread",
-      "url": "https://www.reddit.com/r/devops/comments/1ve5h6c/weekly_self_promotion_thread/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-03T06:30:24+00:00",
-      "summary": "Hey r/devops, welcome to our weekly self-promotion thread! Feel free to use this thread to promote any projects, ideas, or any repos you're wanting to share. Please keep in mind that we ask you to stay friendly, civil, and adhere to the subreddit rules!  &#32; submitted by &#32;  /u/AutoModerator   ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a771cb652419da10721ee72ccf01f023",
-      "title": "I Gave an AI Agent One Prompt Cut Our Cloud Bill 20% Without Breaking Anything Here’s What It Did",
-      "url": "https://dev.to/muskan_bandta/i-gave-an-ai-agent-one-prompt-cut-our-cloud-bill-20-without-breaking-anything-heres-what-it-did-48bl",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T06:00:02Z",
-      "summary": "After my cloud-ops-for-a-week experiment, several people in the comments asked the obvious next...",
-      "tags": [
-        "ai",
-        "cloud",
-        "finops",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d36b699e6c40d933cfa75f4685662437",
       "title": "Biotech DevOps + Startup",
       "url": "https://www.reddit.com/r/devops/comments/1veag7x/biotech_devops_startup/",
@@ -1203,36 +1178,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-03T08:06:32+00:00",
       "summary": "Hi everyone, I'm an MCA graduate (2025) from a Tier 3 college in Maharashtra(Pune). I had worked 1 yrs into Infrastructure Support before enrolling for masters. During my MCA, I also did 2 DevOps internships, and my goal has always been to build a career in DevOps. Since February, I've been applying",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "87fcfd326ce105e786c59de81dccb0a9",
-      "title": "n8n-io/n8n: n8n@1.123.68",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.68",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-03T07:50:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5fc03ea3c4dcc1904465764408925ac4",
-      "title": "If we already have Grafana, Datadog, Splunk, PagerDuty, etc., why are production incidents still so hard?",
-      "url": "https://www.reddit.com/r/devops/comments/1ve6uem/if_we_already_have_grafana_datadog_splunk/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-03T07:48:53+00:00",
-      "summary": "I've been trying to understand what actually happens during production incidents, and something doesn't add up in my head. Let's say I'm on call and I get paged at 2 AM because &quot;checkout is broken.&quot; We already have tools like Grafana, Datadog, Splunk, OpenTelemetry, PagerDuty, Kubernetes d",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "48891cc911d1c11fc1558e3887144782",
-      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.68 (#35403)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-03T07:22:21+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1338,21 +1283,6 @@
         "productivity",
         "devops",
         "computerscience"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "205bd80eefcb4facaa1577a9be41102b",
-      "title": "Your Ops Agent’s Chat History Is an Attack Surface: Prompt Injection Just Became an Infrastructure Problem",
-      "url": "https://dev.to/muskan_bandta/your-ops-agents-chat-history-is-an-attack-surface-prompt-injection-just-became-an-infrastructure-2pee",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T06:00:26Z",
-      "summary": "There's a line going around dev.to this week that stuck with me: your AI agent's chat history is user...",
-      "tags": [
-        "security",
-        "ai",
-        "cloud",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -2039,11 +1969,14 @@
       "url": "https://dev.to/onurkesim/do-not-trust-the-green-checkmark-48i5",
       "source": "Dev.to",
       "published_at": "2026-08-03T19:33:05Z",
-      "summary": "Discusses why a green checkmark may be misleading in CI/CD or security contexts, urging critical evaluation.",
+      "summary": "Most people trust a green checkmark in a CI pipeline. If every job is marked as successful, we...",
       "tags": [
-        "Security"
+        "testing",
+        "devops",
+        "github",
+        "python"
       ],
-      "relevance_score": 0.5
+      "relevance_score": 0.0
     },
     {
       "id": "7545520f7ab5f0e0bd4675cb0ec1f04a",
@@ -2354,21 +2287,6 @@
         "sre",
         "api",
         "webdev"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "40cd368fb9b71743154b48bc0f204612",
-      "title": "Does Your AI Agent Have a Kill Switch?",
-      "url": "https://dev.to/atomsized/does-your-ai-agent-have-a-kill-switch-396j",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T06:00:00Z",
-      "summary": "The agent believed it was working inside a simulation. The systems it reached were real. Anthropic's...",
-      "tags": [
-        "ai",
-        "devops",
-        "security",
-        "platformengineering"
       ],
       "relevance_score": 0.0
     },
@@ -3475,21 +3393,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "641335f581691c713a4154a312e67812",
-      "title": "I Gave an AI Agent One Prompt (\"Cut Our Cloud Bill 20% Without Breaking Anything\"), and Here’s What It Did",
-      "url": "https://dev.to/muskan_bandta/i-gave-an-ai-agent-one-prompt-cut-our-cloud-bill-20-without-breaking-anything-heres-what-it-did-48bl",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T06:00:02Z",
-      "summary": "After my cloud-ops-for-a-week experiment, several people in the comments asked the obvious next...",
-      "tags": [
-        "ai",
-        "cloud",
-        "finops",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "5ce81ab78a4d2cc0749dc404f22f6f9c",
       "title": "How do you handle conflicting infrastructure state?",
       "url": "https://www.reddit.com/r/devops/comments/1vk7lk2/how_do_you_handle_conflicting_infrastructure_state/",
@@ -3521,6 +3424,16 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-10T00:35:34+00:00",
       "summary": "I want to deploy Karpenter. However, I would like to learn the best practices for using Karpenter on EKS. Currently, we are using app-of-apps in ArgoCD, all within a Managed Node Group. With Karpenter, our plan is to have it configured like this: - Scale down the MNG and run the Karpenter Controller",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "96260f0a6a0e277d57e6a61214f8e4a6",
+      "title": "Weekly Self Promotion Thread",
+      "url": "https://www.reddit.com/r/devops/comments/1vkd20a/weekly_self_promotion_thread/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-10T06:30:18+00:00",
+      "summary": "Hey r/devops, welcome to our weekly self-promotion thread! Feel free to use this thread to promote any projects, ideas, or any repos you're wanting to share. Please keep in mind that we ask you to stay friendly, civil, and adhere to the subreddit rules!  &#32; submitted by &#32;  /u/AutoModerator   ",
       "tags": [],
       "relevance_score": 0.0
     }
