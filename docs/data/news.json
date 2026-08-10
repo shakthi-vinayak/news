@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:19:07Z",
+  "generated_at": "2026-08-10T13:30:14Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -157,26 +157,6 @@
       "url": "https://aws.amazon.com/blogs/devops/announcing-aws-cdk-mixins-composable-abstractions-for-aws-resources/",
       "source": "AWS Blog",
       "published_at": "2026-05-18T12:53:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "192da917a706ba25e844cc7a477dd463",
-      "title": "Building Self-Extending CLI Tools with Strands Agent",
-      "url": "https://aws.amazon.com/blogs/devops/building-self-extending-cli-tools-with-aws-strands/",
-      "source": "AWS Blog",
-      "published_at": "2026-05-18T12:52:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "896c4a963903cd6bb4dd52aa84a68334",
-      "title": "Modernizing Excel VBA to Python at Scale with AWS Transform custom",
-      "url": "https://aws.amazon.com/blogs/devops/modernizing-excel-vba-to-python-at-scale-with-aws-transform-custom/",
-      "source": "AWS Blog",
-      "published_at": "2026-05-18T12:48:58+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1217,31 +1197,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "88d7c50c95a8c0331f9e712bcd8e214c",
-      "title": "Switching from cloud-native (AKS) to OpenShift/on-prem for a regulated-industry SRE role — smart move or not?",
-      "url": "https://www.reddit.com/r/sre/comments/1vedgcb/switching_from_cloudnative_aks_to_openshiftonprem/",
-      "source": "Reddit r/sre",
-      "published_at": "2026-08-03T13:28:32+00:00",
-      "summary": "I've spent years doing SRE work fully in Azure (AKS, Managed services, cloud-native tooling). I have an offer from an insurance company where the stack is OpenShift, Java-based app runtimes (Quarkus, RedHat EAP), and no public cloud at all as far as I can tell. The role itself is interesting (securi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f79552e53baedef036b86d78a3524be7",
-      "title": "ShopSphere — A Cloud-Native E-Commerce Platform",
-      "url": "https://dev.to/saurabh_gupta/shopsphere-a-cloud-native-e-commerce-platform-110c",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T12:11:15Z",
-      "summary": "`           8 Things That Broke When I Deployed Kubernetes on AWS EKS Fargate (And How I Fixed...",
-      "tags": [
-        "kubernetes",
-        "docker",
-        "aws",
-        "python"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "925a08323a7d64d9023f40b20bc252d9",
       "title": "Docker Proves Your App Runs. Kubernetes Proves It's Operable.",
       "url": "https://dev.to/arbythecoder/docker-proves-your-app-runs-kubernetes-proves-its-operable-439i",
@@ -1318,21 +1273,6 @@
         "devops",
         "cloudnative",
         "reliability"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "237eccc038c077a07dc465c51397d8e7",
-      "title": "Running Claude Code on AWS Bedrock: IAM, SCPs, and the Governance Model Most Teams Get Wrong",
-      "url": "https://dev.to/amartinawi/running-claude-code-on-aws-bedrock-iam-scps-and-the-governance-model-most-teams-get-wrong-3ojm",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T12:00:00Z",
-      "summary": "Cross-posted with permission from iqraa.tech — the full guide has the complete IAM policy, SCP...",
-      "tags": [
-        "aws",
-        "claudecode",
-        "devops",
-        "bedrock"
       ],
       "relevance_score": 0.0
     },
@@ -1665,21 +1605,6 @@
         "bugsmash",
         "docker",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1cda92dcecdd3b05de0943334dba77f5",
-      "title": "🌐 HTTP, HTTPS, Load Balancers & Firewalls: Networking Concepts Every DevOps Engineer Should Know",
-      "url": "https://dev.to/themdmohiuddin/http-https-load-balancers-firewalls-networking-concepts-every-devops-engineer-should-know-31f7",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T12:46:47Z",
-      "summary": "Networking doesn't stop at IP addresses, DNS, and ports.  Once a client successfully reaches a...",
-      "tags": [
-        "devops",
-        "networking",
-        "webdev",
-        "cloud"
       ],
       "relevance_score": 0.0
     },
@@ -3293,6 +3218,91 @@
         "devops",
         "iam",
         "python"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c0b37d1e4ecd4d90cdd2a4399ee82256",
+      "title": "langchain-ai/langchain: langchain-openai==1.4.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.3",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-10T13:23:36+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b1530e1ca5f8e3954df8b92e32dc0d57",
+      "title": "AI agent shouldn't stop working when you close your laptop.Here's what actually fixed it",
+      "url": "https://www.reddit.com/r/devops/comments/1vkkmiu/ai_agent_shouldnt_stop_working_when_you_close/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-10T13:18:14+00:00",
+      "summary": "We've been running AI coding agents inside Kubernetes instead of on developer laptops, and the first thing that broke was the most obvious one: any long-running process died the moment someone closed their browser tab. If you've only ever run short-lived jobs, this doesn't come up. But a coding agen",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6d5988cfc6a385cb97fcd4bbc2ae55ba",
+      "title": "Automate SageMaker HyperPod incident triage and root-cause-analysis with AWS DevOps Agent",
+      "url": "https://aws.amazon.com/blogs/devops/automate-sagemaker-hyperpod-incident-triage-and-root-cause-analysis-with-aws-devops-agent/",
+      "source": "AWS Blog",
+      "published_at": "2026-08-10T11:29:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d8e1b46bca780effd523347d7ffe167b",
+      "title": "Scaling organizational knowledge in Kiro with Amazon Bedrock Knowledge Bases, LangChain, and MCP",
+      "url": "https://aws.amazon.com/blogs/devops/scaling-organizational-knowledge-in-kiro-with-amazon-bedrock-knowledge-bases-langchain-and-mcp/",
+      "source": "AWS Blog",
+      "published_at": "2026-08-10T11:24:36+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dadf2ce3fe5ee3a247cd2b62e10374d9",
+      "title": "What I Learned Building a Production LMS with Node.js, MongoDB & AWS in 2026",
+      "url": "https://dev.to/tisankan/what-i-learned-building-a-production-lms-with-nodejs-mongodb-aws-in-2026-26dd",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T04:45:00Z",
+      "summary": "Building an LMS looks simple at the beginning.  You need users, classes, payments, attendance,...",
+      "tags": [
+        "node",
+        "devops",
+        "architecture",
+        "aws"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2c2ff2618a2e87724ca3386757eb8c39",
+      "title": "Loop engineering: stop prompting, start defining outcomes",
+      "url": "https://dev.to/ayaan278/loop-engineering-stop-prompting-start-defining-outcomes-lho",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T02:20:00Z",
+      "summary": "A few years ago, I was integrating with an API that shall remain nameless. It told me almost nothing...",
+      "tags": [
+        "ai",
+        "programming",
+        "productivity",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "db573ca1ad27ed6e6c13ed32461e580b",
+      "title": "Self-Hosting Your First LLM: What the Tutorials Skip About GPU Memory",
+      "url": "https://dev.to/libme/self-hosting-your-first-llm-what-the-tutorials-skip-about-gpu-memory-50pc",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T00:45:24Z",
+      "summary": "Why a model that \"fits\" in your GPU still OOMs — the KV cache, overhead, and quantization math self-hosting tutorials leave out.",
+      "tags": [
+        "llm",
+        "ai",
+        "machinelearning",
+        "devops"
       ],
       "relevance_score": 0.0
     }
