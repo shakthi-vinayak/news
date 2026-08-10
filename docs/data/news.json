@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:10:23Z",
+  "generated_at": "2026-08-10T17:05:04Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,21 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "2bc66216bbfd21025c48b60ffcbff1bb",
-      "title": "Building ferctl top: Kubernetes resource usage vs requests and limits",
-      "url": "https://dev.to/ferztyle/building-ferctl-top-kubernetes-resource-usage-vs-requests-and-limits-50a3",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T15:36:32Z",
-      "summary": "Series: Platform engineering with Go | Topics: Go, Kubernetes, Cobra, client-go, metrics-server,...",
-      "tags": [
-        "go",
-        "devops",
-        "sre",
-        "kubernetes"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c60efcee6a7e43c665a2ed1a2aa96ec3",
       "title": "If I cannot start a devops job as a fresher, what can I start to learn to get job?",
       "url": "https://www.reddit.com/r/devops/comments/1veo5ve/if_i_cannot_start_a_devops_job_as_a_fresher_what/",
@@ -1144,21 +1129,6 @@
       "published_at": "2026-08-03T19:58:42+00:00",
       "summary": "Hey all, I read and heard that devops is not a starter job that I can learn number of skills and start job searching. There is no junior or entry level devops jobs. I can understand it. If it is true, what can I learn and search for jobs? Shall I go for AWS? Linux? The only one skill will get me a j",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "abc8efbb838485abafc0df82edf85e53",
-      "title": "What Does 'Hello World' Actually Cost on AWS vs Bare Metal? (2026)",
-      "url": "https://dev.to/pavel-hostim/what-does-hello-world-actually-cost-on-aws-vs-bare-metal-2026-4f41",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T15:39:51Z",
-      "summary": "One container, one domain, HTTPS, no traffic. Priced line by line on AWS Fargate, Hetzner Cloud, and Hetzner bare metal, with every rate linked to its source.",
-      "tags": [
-        "aws",
-        "devops",
-        "docker",
-        "kubernetes"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1197,21 +1167,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "28d4d32d2ec1e8bc2b1dbb165013d528",
-      "title": "It refused to run a dangerous option. I wrote it one character shorter, and it ran",
-      "url": "https://dev.to/cynepmyx/it-refused-to-run-a-dangerous-option-i-wrote-it-one-character-shorter-and-it-ran-2i42",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T15:57:44Z",
-      "summary": "GitPython refuses --upload-pack. Write the same option as -u and it executes. Reproducing CVE-2026-67324 on a live lab, and why the same barrier has been bypassed three times in one year.",
-      "tags": [
-        "security",
-        "python",
-        "devops",
-        "cve"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f1e2847e973dc903bac990ac8c8f1b7b",
       "title": "Episode 5 — Who Gets to Flip the Switch",
       "url": "https://dev.to/surajrkhonde/episode-5-who-gets-to-flip-the-switch-2d9g",
@@ -1223,21 +1178,6 @@
         "productivity",
         "devops",
         "computerscience"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "09a0da0771d47e1090952087f0175b81",
-      "title": "Applying SRE Principles to Election Infrastructure: A Framework for Availability, Integrity, and Recovery",
-      "url": "https://dev.to/npayyappilly/applying-sre-principles-to-election-infrastructure-a-framework-for-availability-integrity-and-2e9p",
-      "source": "Dev.to",
-      "published_at": "2026-08-03T16:00:00Z",
-      "summary": "On February 3, 2020, the Iowa Democratic Party attempted to report precinct caucus results using a...",
-      "tags": [
-        "sre",
-        "devops",
-        "cloudnative",
-        "reliability"
       ],
       "relevance_score": 0.0
     },
@@ -3328,6 +3268,51 @@
         "career",
         "ai",
         "hiring"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e21f70026669a886006b59cef2ee0a18",
+      "title": "CNCF Reveals KubeCon + CloudNativeCon North America 2026 Schedule, Adds New AI Inference + Agentic Track",
+      "url": "https://www.cncf.io/announcements/2026/08/10/cncf-reveals-kubecon-cloudnativecon-north-america-2026-schedule-adds-new-ai-inference-agentic-track/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-10T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e263e2a506000ac41a226e0a8206051f",
+      "title": "apache/airflow: providers-cncf-kubernetes/10.21.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-cncf-kubernetes%2F10.21.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-10T15:32:05+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ca69285bcff55c8b28c0a737b5d0c08a",
+      "title": "apache/airflow: providers-google/22.3.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-google%2F22.3.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-10T15:32:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9114f6070b9ccde0c936fa77083bb829",
+      "title": "Three Clouds, Three Native Agents",
+      "url": "https://dev.to/aws-builders/three-clouds-three-native-agents-5hda",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T15:04:44Z",
+      "summary": "What is this project trying to do?   Three AI agents, each built with a different vendor's...",
+      "tags": [
+        "cloud",
+        "ai",
+        "architecture",
+        "devops"
       ],
       "relevance_score": 0.0
     }
