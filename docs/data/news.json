@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T15:09:44Z",
+  "generated_at": "2026-08-11T17:09:39Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1158,46 +1158,6 @@
       "source": "The New Stack",
       "published_at": "2026-08-04T17:57:06+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "449ba8c883182193abfcbc10b4a5aee3",
-      "title": "ollama/ollama: v0.32.6-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-04T16:51:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "33920b7997f272a36f30165cdedf0ce6",
-      "title": "Airlock Digital Unveils Agentic AI Control & Governance to Extend Preventative Endpoint Security",
-      "url": "https://devops.com/airlock-digital-unveils-agentic-ai-control-governance-to-extend-preventative-endpoint-security/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-04T16:31:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f270ad34851d8c86ee8425e1283de152",
-      "title": "Claude, Gemini, and GPT-5 can handle every SDLC task. Almost none of them should.",
-      "url": "https://thenewstack.io/ai-software-delivery-architecture/",
-      "source": "The New Stack",
-      "published_at": "2026-08-04T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f800ebd2175ecf0294f749e50b41d64d",
-      "title": "how do you keep track of what your Al agent actually changes?",
-      "url": "https://www.reddit.com/r/devops/comments/1vfdj4n/how_do_you_keep_track_of_what_your_al_agent/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-04T15:25:55+00:00",
-      "summary": "I've been doing a lot of vibe coding with Claude Code and Codex, and one thing keeps happening I ask for one small change, then later realize Al changed my code in places I never expected. By the time I notice, I can't remember exactly what changed or when. Is anyone using something besides Git to t",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3350,6 +3310,66 @@
         "devops",
         "reliability",
         "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "439f04b1e65b3cd4d1961fdc2ad389b5",
+      "title": "Databricks acquires Electric to give every AI agent its own Postgres database",
+      "url": "https://thenewstack.io/databricks-electric-wasm-agentic-postgres/",
+      "source": "The New Stack",
+      "published_at": "2026-08-11T16:44:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4288218f4d29d4287550563a88d01807",
+      "title": "We Audited 156,808 Failed CI Runs Across Eight Open Source Repos",
+      "url": "https://www.reddit.com/r/devops/comments/1vlmbu3/we_audited_156808_failed_ci_runs_across_eight/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-11T16:28:14+00:00",
+      "summary": "      Author here. Two caveats worth flagging up front. The corpus skews hard: PostHog and Grafana are about two thirds of it, both running enormous matrices. So it's &quot;what breaks in a big CI matrix,&quot; not &quot;what breaks in CI.&quot; And the 1.3% is a floor, not a hit rate. A retrospecti",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9f68c65510caa983fd908ee5d4cb233f",
+      "title": "CNCF Announces Graduation of Cloud Native Buildpacks, Advancing the Standard for Container Builds",
+      "url": "https://www.cncf.io/announcements/2026/08/11/cncf-announces-graduation-of-cloud-native-buildpacks-advancing-the-standard-for-container-builds/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-11T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "430ce7f9e5db03522f210a311b10a377",
+      "title": "Five other projects have the exact same fake API key in their tests",
+      "url": "https://dev.to/henrique_yuri_f42f2fca47a/five-other-projects-have-the-exact-same-fake-api-key-in-their-tests-2i9b",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T21:34:37Z",
+      "summary": "GitHub flagged a Google API key in my repository. It was a fixture I had made up — sequential filler...",
+      "tags": [
+        "security",
+        "opensource",
+        "testing",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7401bd29fe0f9aeb302038403a2c6e6e",
+      "title": "Your coding agent's summary of its own work is not evidence",
+      "url": "https://dev.to/jk27101/your-coding-agents-summary-of-its-own-work-is-not-evidence-46i5",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T16:53:17Z",
+      "summary": "I spent three days last week doing real work on a production codebase with an agentic coding tool....",
+      "tags": [
+        "ai",
+        "devops",
+        "productivity",
+        "claude"
       ],
       "relevance_score": 0.0
     }
