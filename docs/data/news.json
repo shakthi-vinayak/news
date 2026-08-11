@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:19:22Z",
+  "generated_at": "2026-08-11T07:23:07Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1117,16 +1117,6 @@
       "url": "https://aws.amazon.com/blogs/devops/analyze-and-remediate-technical-debt-autonomously-with-aws-transform-continuous-modernization/",
       "source": "AWS Blog",
       "published_at": "2026-08-03T21:28:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d7175d2647a467dbd72dd839c83d7418",
-      "title": "grafana/grafana: v13.0.5",
-      "url": "https://github.com/grafana/grafana/releases/tag/v13.0.5",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-08-04T05:24:41+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2969,21 +2959,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ab58713cc59a6f8bcd05ab8d6fb053e5",
-      "title": "Linux Troubleshooting Workflow for Beginners: A Step-by-Step Guide",
-      "url": "https://dev.to/sreekanth_kuruba_91721e5d/linux-troubleshooting-workflow-for-beginners-a-step-by-step-guide-427c",
-      "source": "Dev.to",
-      "published_at": "2026-08-04T06:18:32Z",
-      "summary": "Most Linux problems aren't actually difficult.  They're difficult because they're often debugged in...",
-      "tags": [
-        "linux",
-        "sysadmin",
-        "devops",
-        "beginners"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7304b04a65fa63af1e01ef048e300f2e",
       "title": "ollama/ollama: v0.32.7",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7",
@@ -3308,7 +3283,7 @@
       "title": "ollama/ollama: v0.32.8",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.8",
       "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-10T22:48:32+00:00",
+      "published_at": "2026-08-11T06:39:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3340,6 +3315,46 @@
         "automation",
         "devops",
         "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "76b757beb98f3703d11423ab51118c70",
+      "title": "Sydney DevOps Meetup: AI Agents and Open Source Developer Platforms on Kubernetes",
+      "url": "https://www.reddit.com/r/devops/comments/1vl8akn/sydney_devops_meetup_ai_agents_and_open_source/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-11T05:18:23+00:00",
+      "summary": "Sydney DevOps folks, If you're working with DevOps, Kubernetes, SRE, platform engineering, or AI infrastructure, CNCF Cloud Native Sydney is hosting a meetup on August 19 around two open source projects. The session will cover: kagent — a Kubernetes-native framework for building, deploying, and mana",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "338880a5d97951bccd4dfa1c1362233e",
+      "title": "Stop Waiting 10 Minutes to Fail: How CDK Comprehensive Validation Catches Misconfigurations Before Deploy",
+      "url": "https://dev.to/pahud/stop-waiting-10-minutes-to-fail-how-cdk-comprehensive-validation-catches-misconfigurations-before-1907",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T18:47:55Z",
+      "summary": "The 10-Minute Tax   For many years, as a CDK developer, I'd run cdk synth, then cdk deploy,...",
+      "tags": [
+        "aws",
+        "cdk",
+        "devops",
+        "infrastructureascode"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2417b69c265f264030df806eb9dcbf03",
+      "title": "How many npm packages actually run code when you `npm install`? I measured a sample.",
+      "url": "https://dev.to/myzura/how-many-npm-packages-actually-run-code-when-you-npm-install-i-measured-a-sample-45e4",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T12:49:37Z",
+      "summary": "The npm supply-chain conversation tends to happen without a denominator. \"Install scripts are...",
+      "tags": [
+        "security",
+        "node",
+        "devops",
+        "npm"
       ],
       "relevance_score": 0.0
     }
