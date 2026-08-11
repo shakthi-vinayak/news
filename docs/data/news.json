@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T11:00:39Z",
+  "generated_at": "2026-08-11T13:26:37Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1182,26 +1182,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "9fb41bb60d1245f6dce1de29a359330b",
-      "title": "found out my LLM feature's cost problem from an invoice, not a dashboard, and that felt very wrong",
-      "url": "https://www.reddit.com/r/devops/comments/1vfa6tu/found_out_my_llm_features_cost_problem_from_an/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-04T13:20:39+00:00",
-      "summary": "shipped an LLM feature, felt fine at launch, moved on to other work. a while later the bill showed up noticeably higher than expected and that was the first real signal anything had changed. no alert, no dashboard flag, just a number at the end of the month that made me go &quot;wait, what happened.",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f956183eef82de37ea9bb9550de51b8a",
-      "title": "AI agents can create database sprawl issues. YugabyteDB’s solution is more agents!",
-      "url": "https://thenewstack.io/yugabytedb-agentic-postgres-scaling/",
-      "source": "The New Stack",
-      "published_at": "2026-08-04T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "39815193d9a80a1dba9bd4c0b069d820",
       "title": "You can’t debug what you can’t see — Observability for AI Agents",
       "url": "https://www.cncf.io/blog/2026/08/04/you-cant-debug-what-you-cant-see-observability-for-ai-agents/",
@@ -1407,21 +1387,6 @@
         "devops",
         "programming",
         "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d2491cb704ac74f01b07c1601aa1cbbc",
-      "title": "Every DKIM checker is guessing — including mine",
-      "url": "https://dev.to/jose_pollman_fa7c6ec43cdd/every-dkim-checker-is-guessing-including-mine-1klb",
-      "source": "Dev.to",
-      "published_at": "2026-08-04T12:53:34Z",
-      "summary": "Almost every DNS record you care about can be looked up. Ask for the SPF record, you get it. Ask for...",
-      "tags": [
-        "devops",
-        "security",
-        "dns",
-        "tutorial"
       ],
       "relevance_score": 0.0
     },
@@ -3354,11 +3319,61 @@
       "relevance_score": 0.0
     },
     {
-      "id": "992e443b424223cf2acc92ae5ecb7267",
-      "title": "istio/istio: Istio 1.31.0-alpha.0",
-      "url": "https://github.com/istio/istio/releases/tag/1.31.0-alpha.0",
+      "id": "358fa6fe3a6e7713064f477eabeddb23",
+      "title": "The unholy trinity of LLM API errors (and my dirty fix to stop agents from crashing at 2 AM)",
+      "url": "https://www.reddit.com/r/devops/comments/1vlgjgg/the_unholy_trinity_of_llm_api_errors_and_my_dirty/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-11T12:49:20+00:00",
+      "summary": "      If you're running any kind of agent loop in prod, you already know these three. Ranked by how much sleep they’ve actually cost me: 429 (Rate limited) — Either my agent went rogue or the provider is having a meltdown. Never hard-fail on this. Exponential backoff is mandatory here, otherwise you",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6179212bf18b25cd8b1e049572d50288",
+      "title": "istio/istio: Istio 1.31.0-alpha.2",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.0-alpha.2",
       "source": "GitHub Releases (istio)",
-      "published_at": "2026-07-22T10:20:41+00:00",
+      "published_at": "2026-08-11T12:40:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f79e3258f2cc5c0c7bc690841f87c883",
+      "title": "prometheus/prometheus: 3.14.0-rc.0 / 2026-08-06",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.14.0-rc.0",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-08-11T11:05:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "98514070e0c87be30b4a87423e9b56d1",
+      "title": "A practical guide to solving when zero+zero=two in mesh observability",
+      "url": "https://www.cncf.io/blog/2026/08/11/a-practical-guide-to-solving-when-zerozerotwo-in-mesh-observability/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-11T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fb8294737da40b6ae771341989085153",
+      "title": "prometheus/prometheus: v0.314.0-rc.0",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.314.0-rc.0",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-08-11T08:20:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f246f78c35df6e947821c136a57d2cb6",
+      "title": "ollama/ollama: v0.32.9: nemotron_h: support the Nemotron 3.5 prompt layout",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-08-11T04:58:21+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
