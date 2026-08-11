@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T09:11:27Z",
+  "generated_at": "2026-08-11T11:00:39Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1112,36 +1112,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8d26f4ad17bf2596e4ec0234a7d2c3c9",
-      "title": "So Agentic Systems Are Messing Up Your SLO Framework",
-      "url": "https://devops.com/so-agentic-systems-are-messing-up-your-slo-framework/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-04T10:01:03+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6846821093cb85e58bd5c4f765fa98f6",
-      "title": "Shift Left Security: 4 Automated Security Gates in GitHub Actions",
-      "url": "https://devops.com/shift-left-security-4-automated-security-gates-in-github-actions/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-04T09:30:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cd252acee241a3b7bbfe44ddd474b2f7",
-      "title": "Interview tips and suggestions for platform engineer",
-      "url": "https://www.reddit.com/r/devops/comments/1vf5auy/interview_tips_and_suggestions_for_platform/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-04T09:21:04+00:00",
-      "summary": "hey everyone, I have an upcoming interview for a Platform Engineer role. I’ve been grinding scenarios around IaC (Terraform/Terragrunt), CI/CD pipelines, Kubernetes, and SRE concepts (SLIs/SLOs, Error Budgets) . **i need tips and guidance from senior engineer . it will be a technical round of interv",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a92916b91840feb5881bdaa5ec1f7acf",
       "title": "Nvidia’s NOOA makes an agent one Python class",
       "url": "https://thenewstack.io/nvidia-nooa-agent-framework/",
@@ -1238,16 +1208,6 @@
       "source": "CNCF Blog",
       "published_at": "2026-08-04T11:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6d1ed69a8cebedb92af7c4804f2ef977",
-      "title": "I keep seeing the same issues on WAF configs in my audits",
-      "url": "https://www.reddit.com/r/devops/comments/1vf70m0/i_keep_seeing_the_same_issues_on_waf_configs_in/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-04T10:55:56+00:00",
-      "summary": "Been doing security audits for a while (I’m a secops engineer) and the same patterns keep showing up. Regardless of the vendor, so these are the same whether it’s Akamai, Cloudflare, AWS WAF. **1.** Origin is directly reachable! Traffic bypasses the CDN/WAF (check cert transparency logs for leaked o",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3364,6 +3324,41 @@
       "url": "https://github.com/istio/istio/releases/tag/1.31.0-alpha.1",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-08-11T07:43:55+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "64b043e89992d8011cf4190e0bf51843",
+      "title": "Deployah: short app specs → Helm releases (no charts, no in-cluster install) – v0.7 adds stateful + workers",
+      "url": "https://www.reddit.com/r/devops/comments/1vldw7n/deployah_short_app_specs_helm_releases_no_charts/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-11T10:41:06+00:00",
+      "summary": "Deployah is a CLI for deploying apps to Kubernetes without becoming a Helm author and without standing up an internal platform. Model: write deployah.yaml → Deployah renders values and installs a Helm release. Single Go binary; embeds helm, kubectl, and kind. Nothing gets installed in the cluster. v",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6bdb2248de20b3db0ff3bbdf5007ac2b",
+      "title": "The Kernel Trick Is the Oldest Move in Engineering",
+      "url": "https://dev.to/nishant_banginwar_80b7dc5/the-kernel-trick-is-the-oldest-move-in-engineering-4ij5",
+      "source": "Dev.to",
+      "published_at": "2026-08-11T03:22:24Z",
+      "summary": "Classic Machine Learning Through the Eyes of an SRE — Part 4  When a computation is too hard, don't...",
+      "tags": [
+        "machinelearning",
+        "ai",
+        "devops",
+        "career"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "992e443b424223cf2acc92ae5ecb7267",
+      "title": "istio/istio: Istio 1.31.0-alpha.0",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.0-alpha.0",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-07-22T10:20:41+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
