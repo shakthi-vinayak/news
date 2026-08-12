@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T15:08:49Z",
+  "generated_at": "2026-08-12T17:07:38Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -632,16 +632,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f1ba066aa9f3a664eec4d190f026fec8",
-      "title": "istio/istio: Istio 1.28.10",
-      "url": "https://github.com/istio/istio/releases/tag/1.28.10",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-07-01T10:31:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2646eeba8bc8bcb22ed9ddbe72b7c609",
       "title": "HCP Terraform powered by Infragraph is now in limited availability",
       "url": "https://www.hashicorp.com/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch",
@@ -822,16 +812,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0a53d270d63e3db0e01dd45084475b20",
-      "title": "istio/istio: Istio 1.30.3",
-      "url": "https://github.com/istio/istio/releases/tag/1.30.3",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-07-16T16:50:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d29c00b1ed98859a2a22d951db7749a2",
       "title": "Coding Agent Horror Stories: The Agent That Deleted Production",
       "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-agent-that-deleted-production/",
@@ -992,26 +972,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8e08c5430fe1c9109a712bd5f114b6fb",
-      "title": "prometheus/prometheus: v0.313.2",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.2",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-07-30T13:27:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fc57c98edafef699a05eef38fa2051af",
-      "title": "prometheus/prometheus: 3.13.2 / 2026-07-29",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.2",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-07-30T13:25:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "764587c5a2f5bc9be16c5555ab0dae8c",
       "title": "The Future of Agentic AI Depends on Openness and Trust. That’s Why Docker Is Joining Nvidia’s Open Secure AI Alliance.",
       "url": "https://www.docker.com/blog/docker-joins-nvidia-open-secure-ai-alliance/",
@@ -1138,16 +1098,6 @@
       "source": "HashiCorp Blog",
       "published_at": "2026-08-05T16:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7068ffca08b2a0d97ca74ca99e4001dc",
-      "title": "Confused about how different environments factor into building MLOps systems?",
-      "url": "https://www.reddit.com/r/devops/comments/1vgab26/confused_about_how_different_environments_factor/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-05T15:18:54+00:00",
-      "summary": "Something I am struggling to understand is how CI/CD factors into the MLOps system itself that brings the model through the entire lifecycle when we have multiple deployment environments. The MLOps system takes a model through the entire lifecycle (get data, preprocess, train, validate, promote, dep",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1365,21 +1315,6 @@
         "devops",
         "vps",
         "linux"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9418c6131d62f78b6901cf3a8dbfc9ba",
-      "title": "I read 172 official status feeds every 10 minutes. Here is what is quietly broken in them.",
-      "url": "https://dev.to/kerolos_atallah/i-read-172-official-status-feeds-every-10-minutes-here-is-what-is-quietly-broken-in-them-4234",
-      "source": "Dev.to",
-      "published_at": "2026-08-05T17:00:52Z",
-      "summary": "For the last few weeks I've had a cron job reading the official status feed of 172 cloud and SaaS...",
-      "tags": [
-        "devops",
-        "sre",
-        "api",
-        "webdev"
       ],
       "relevance_score": 0.0
     },
@@ -3435,8 +3370,123 @@
       "url": "https://www.reddit.com/r/devops/comments/1vmg4ew/ai_agent_for_ci_failure_diagnosis/",
       "source": "Reddit r/devops",
       "published_at": "2026-08-12T14:43:57+00:00",
-      "summary": "Hey, I'm trying to build an agent that diagnoses the CI failure. What do you look into if you want to determine if the failure is due to flakiness, given that you can only look at the information generated till now?  &#32; submitted by &#32;  /u/Elegant_Quantity_583   [link] &#32; [comments]",
+      "summary": "I'm trying to build an agent that finds the reason why CI run failed Like, what are the things going on in your head and  Let's imagine. Your brain has something like a belief system that sort of makes you suspect certain things more.  I want to know how practitioners think, like what doubts they ar",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "759d314975959baa419c4765c9b09014",
+      "title": "Code that passes every test can still break the next AI agent that touches it",
+      "url": "https://thenewstack.io/go-language-ai-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-08-12T17:00:12+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "239986ea5fe1202d6b9e5177674f8a0a",
+      "title": "Anthropic gave agents the ability to dream. Then developers woke up.",
+      "url": "https://thenewstack.io/anthropic-agent-memory-dreaming/",
+      "source": "The New Stack",
+      "published_at": "2026-08-12T16:51:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d867929ffbd0be2e275b7d1566059294",
+      "title": "Deploying docker-compose.yml",
+      "url": "https://www.reddit.com/r/devops/comments/1vmjm45/deploying_dockercomposeyml/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-12T16:49:57+00:00",
+      "summary": "Hello all. The circumstance I have working with is the following: * I have an Apache2 PHP server that gets bundled as a Docker image in a CI process to ECR * I have an infra repository with a docker-compose.yml that bundles the PHP Docker image to an Nginx image, alongside Nginx config like attachin",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "02037e93d61860b1ebec08f927c8d8bf",
+      "title": "Installing Traefik Ingress Controller with cert-manager on Kubernetes",
+      "url": "https://dev.to/vultr/installing-traefik-ingress-controller-with-cert-manager-on-kubernetes-dbh",
+      "source": "Dev.to",
+      "published_at": "2026-08-12T16:23:50Z",
+      "summary": "Traefik is an open-source Kubernetes Ingress controller that pairs with cert-manager to automatically...",
+      "tags": [
+        "kubernetes",
+        "traefik",
+        "tls",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5c5a3fbf948dd735b8805b634dd34842",
+      "title": "LiteLLM Attack Affected 2,500 Companies, 434,000 CI/CD Pipelines: CloudSEK",
+      "url": "https://devops.com/litellm-attack-affected-2500-companies-434000-ci-cd-pipelines-cloudsek/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-12T16:09:40+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "07c302da5fd95499fcfad7b9a5823f5b",
+      "title": "Why Teams Are Moving Away From Railway in 2026",
+      "url": "https://dev.to/thecloudexpert/why-teams-are-moving-away-from-railway-18nn",
+      "source": "Dev.to",
+      "published_at": "2026-08-12T12:16:26Z",
+      "summary": "TL;DR    Railway published four incident reports in five months covering four unrelated...",
+      "tags": [
+        "railway",
+        "cloud",
+        "devops",
+        "hosting"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "603d2808a0ab2354ec1b0d4aa481ea39",
+      "title": "The Boring Stack Manifesto: Why Your Startup Probably Doesn't Need Kubernetes",
+      "url": "https://dev.to/libme/the-boring-stack-manifesto-why-your-startup-probably-doesnt-need-kubernetes-55bo",
+      "source": "Dev.to",
+      "published_at": "2026-08-12T08:02:23Z",
+      "summary": "A practical case for skipping Kubernetes at an early-stage startup, with a decision table and the failure modes that actually push you toward it.",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "architecture",
+        "startup"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e6f3da8084ba49485b230be30847e820",
+      "title": "One GPU, four ways to share it: ten scenarios, and the headline finding I had to retract",
+      "url": "https://dev.to/defilan/one-gpu-four-ways-to-share-it-ten-scenarios-and-the-one-number-that-inverts-on-your-hardware-1bih",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T18:43:19Z",
+      "summary": "I measured every GPU sharing mode across ten scenarios, published a headline finding that duplicate models are nearly free on unified memory, then failed to replicate it and retracted it. Here is what the controlled replication showed and how the original measurement fooled me.",
+      "tags": [
+        "kubernetes",
+        "gpu",
+        "ai",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d25838a2e856c3d77666b0123776ae90",
+      "title": "Your first enterprise security questionnaire, and you have no SOC 2",
+      "url": "https://dev.to/plainanswer/your-first-enterprise-security-questionnaire-and-you-have-no-soc-2-19mc",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T19:10:27Z",
+      "summary": "What actually happens when a one-person B2B SaaS meets its first enterprise security review, and how to answer 100+ questions truthfully when the honest answer to a lot of them is no.",
+      "tags": [
+        "security",
+        "saas",
+        "startup",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
