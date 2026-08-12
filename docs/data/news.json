@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T11:08:59Z",
+  "generated_at": "2026-08-12T13:31:02Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -137,16 +137,6 @@
       "url": "https://aws.amazon.com/blogs/devops/automate-root-cause-analysis-across-datadog-and-elasticsearch-with-aws-devops-agent/",
       "source": "AWS Blog",
       "published_at": "2026-05-19T21:39:20+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3006e4c0c6e5abbbc4cdadc44e63ffab",
-      "title": "Announcing AWS CDK Mixins: Composable Abstractions for AWS Resources",
-      "url": "https://aws.amazon.com/blogs/devops/announcing-aws-cdk-mixins-composable-abstractions-for-aws-resources/",
-      "source": "AWS Blog",
-      "published_at": "2026-05-18T12:53:57+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1002,16 +992,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8241cce1d9d6067f131025a745384d1a",
-      "title": "hashicorp/terraform: v1.17.0-alpha20260729",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260729",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-07-29T19:38:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "8e08c5430fe1c9109a712bd5f114b6fb",
       "title": "prometheus/prometheus: v0.313.2",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.2",
@@ -1137,16 +1117,6 @@
       "url": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-ga/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-08-05T12:58:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3e1ede3d18e4be95a07196c6e6c6abb6",
-      "title": "OpenCost 1.121.0: First-of-a-kind Kubernetes inference cost tracking",
-      "url": "https://www.cncf.io/blog/2026/08/05/opencost-1-121-0-first-of-a-kind-kubernetes-inference-cost-tracking/",
-      "source": "CNCF Blog",
-      "published_at": "2026-08-05T11:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2715,21 +2685,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "daa6629d074057e9b2c3d8625c1a2e89",
-      "title": "I Tested AI Resume Screening. The Model Was the Fair Part",
-      "url": "https://dev.to/devopsdaily/i-tested-ai-resume-screening-the-model-was-the-fair-part-98m",
-      "source": "Dev.to",
-      "published_at": "2026-08-05T09:00:00Z",
-      "summary": "I set out to write a post about biased AI throwing away good DevOps resumes. I ran the experiment...",
-      "tags": [
-        "devops",
-        "career",
-        "ai",
-        "hiring"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e21f70026669a886006b59cef2ee0a18",
       "title": "CNCF Reveals KubeCon + CloudNativeCon North America 2026 Schedule, Adds New AI Inference + Agentic Track",
       "url": "https://www.cncf.io/announcements/2026/08/10/cncf-reveals-kubecon-cloudnativecon-north-america-2026-schedule-adds-new-ai-inference-agentic-track/",
@@ -3290,21 +3245,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "86a7608a007974bb15b9a84be775c9d4",
-      "title": "I let an AI agent into my repo. Here's what I lock down first.",
-      "url": "https://dev.to/mikobuilds/i-let-an-ai-agent-into-my-repo-heres-what-i-lock-down-first-5145",
-      "source": "Dev.to",
-      "published_at": "2026-08-05T12:50:14Z",
-      "summary": "An AI coding agent isn't autocomplete. It runs shell commands, reads your files, installs packages,...",
-      "tags": [
-        "ai",
-        "devops",
-        "security",
-        "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "1b1ba1faef3a0d466fe8a45fab82f8c9",
       "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
       "url": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
@@ -3417,6 +3357,91 @@
       "published_at": "2026-08-12T09:50:17+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "84269c73859fb08a74226b56e7883d20",
+      "title": "Vendor‑Neutral or Cloud‑Specific for Kubernetes: What’s the Better Path for a New Container Learner?",
+      "url": "https://www.reddit.com/r/devops/comments/1vmdexs/vendorneutral_or_cloudspecific_for_kubernetes/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-12T12:57:36+00:00",
+      "summary": "I have ADHD and I wasn’t taking my medicine like I should have been, so why I started learning containers out of the blue may have something to do with that. However, I started back on my meds and I am still learning and highly interested in building and managing containers. I have only been doing t",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c1b027eb131a3ad4c26ffc5e11247c29",
+      "title": "Extending AWS Transform custom with MCP Servers for End-to-End Code Modernization",
+      "url": "https://aws.amazon.com/blogs/devops/extending-aws-transform-custom-with-mcp-servers-for-end-to-end-code-modernization/",
+      "source": "AWS Blog",
+      "published_at": "2026-08-12T12:55:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5631e3d1dfbb2ee56b553c2aad76818b",
+      "title": "hashicorp/terraform: v1.17.0-alpha20260812",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-08-12T12:01:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "db2614a340bac9aef3146044302b7e7e",
+      "title": "Coding agents ignore open source contribution guidelines, researchers find.",
+      "url": "https://thenewstack.io/coding-agents-ignore-guidelines/",
+      "source": "The New Stack",
+      "published_at": "2026-08-12T11:48:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "31163059c8316e428f97c83e0b57fd99",
+      "title": "I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.",
+      "url": "https://dev.to/le_beltagy/i-automated-my-entire-gitops-security-stack-the-first-thing-it-blocked-was-my-own-salary-227e",
+      "source": "Dev.to",
+      "published_at": "2026-08-12T10:00:00Z",
+      "summary": "I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own...",
+      "tags": [
+        "kubernetes",
+        "security",
+        "gitops",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "71d46dc52852b5e29fc8cabda4a24ef2",
+      "title": "Why localhost doesn't work as OpenAI Base URL in Cursor — and how to fix it",
+      "url": "https://dev.to/orchidfiles/why-localhost-doesnt-work-as-openai-base-url-in-cursor-and-how-to-fix-it-589e",
+      "source": "Dev.to",
+      "published_at": "2026-08-11T09:20:44Z",
+      "summary": "TL;DR: Cursor doesn't call your OpenAI Base URL from your local machine. It routes every request...",
+      "tags": [
+        "cursor",
+        "openai",
+        "devops",
+        "claude"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "827053c09732ea6c30f4b9f4de85b1c1",
+      "title": "Your AI Coding Agent Has Tools. Here's a Test Suite for the Sandbox You Hope It Respects",
+      "url": "https://dev.to/codego_3211/your-ai-coding-agent-has-tools-heres-a-test-suite-for-the-sandbox-you-hope-it-respects-4f0f",
+      "source": "Dev.to",
+      "published_at": "2026-08-10T08:33:31Z",
+      "summary": "There's a growing unease in the dev community right now: we keep handing AI agents more tools — shell...",
+      "tags": [
+        "security",
+        "ai",
+        "agents",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
