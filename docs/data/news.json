@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T11:08:29Z",
+  "generated_at": "2026-08-13T13:57:05Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1102,26 +1102,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "21edc9946d1af1e5879dfc52b2702cf5",
-      "title": "Migrating From Gitlab to Azure DevOps",
-      "url": "https://www.reddit.com/r/devops/comments/1vh40yh/migrating_from_gitlab_to_azure_devops/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-06T13:18:17+00:00",
-      "summary": "We're an on prem shop and our manager wants to migrate all DevOps teams from Enterprise Gitlab self managed to ADO on prem.  We don't know what to expect with this move, anyone has experience with ADO on prem ? what kind of challenges would we face if our entire Gitlab infra (platform + runners) are",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8b7a175d6d29f2ff5a040f12f5fa5f1b",
-      "title": "apache/airflow: providers/2026-08-06",
-      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-08-06",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-06T12:10:29+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7a6d4b0054224fdb8e662d579ad69957",
       "title": "kubernetes/kubernetes: v1.37.0-rc.0",
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0-rc.0",
@@ -1500,21 +1480,6 @@
         "laravel",
         "php",
         "architecture",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f2d4bf6f62c3156d930b875fdfbd7940",
-      "title": "Optimizing an 18 TB Azure SQL Hyperscale Database — Part 4: Reclaiming Terabytes",
-      "url": "https://dev.to/kostyabartashevich/optimizing-an-18-tb-azure-sql-hyperscale-database-part-4-reclaiming-terabytes-2j2k",
-      "source": "Dev.to",
-      "published_at": "2026-08-06T13:14:22Z",
-      "summary": "Used vs. allocated space, running DBCC SHRINKFILE against a heavily loaded production database, and what it does to backup cost.",
-      "tags": [
-        "azure",
-        "database",
-        "cloud",
         "devops"
       ],
       "relevance_score": 0.0
@@ -2380,21 +2345,6 @@
       "published_at": "2026-08-10T13:58:58+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c37c394067fea26560327c5749de3e50",
-      "title": "What Does One Merge Actually Cost You in CI?",
-      "url": "https://dev.to/devopsdaily/what-does-one-merge-actually-cost-you-in-ci-2plg",
-      "source": "Dev.to",
-      "published_at": "2026-08-06T09:00:00Z",
-      "summary": "Ask a team how long their CI takes and you will get an answer. Ask what one merge costs and you...",
-      "tags": [
-        "cicd",
-        "githubactions",
-        "finops",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3634,6 +3584,126 @@
       "published_at": "2026-08-13T09:50:58+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "33e2b61a089534d09541f0ebe0cd4f58",
+      "title": "langchain-ai/langchain: langchain-openai==1.5.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-13T13:15:02+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ccb28ba3e663766e914b16a7b5d9bd79",
+      "title": "Devops job security with AI",
+      "url": "https://www.reddit.com/r/devops/comments/1vnacqq/devops_job_security_with_ai/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-13T13:12:55+00:00",
+      "summary": "Recently saw posts about how AI isn't that good in distributed systems and it gave me validation on my own experience. When the model isn't dealing with a single codebase, when it has to connect the dots between a db, redis, other cloud infra, k8s that each already have a lot of configuration, it st",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "174e92efe713207fb08ecd68bca35a72",
+      "title": "Looking for a good free resource to learn Jenkins properly",
+      "url": "https://www.reddit.com/r/devops/comments/1vna68k/looking_for_a_good_free_resource_to_learn_jenkins/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-13T13:05:20+00:00",
+      "summary": "I’m new to DevOps and looking for some good free or paid resources to learn Jenkins from the ground up. I have around 6 years of experience as a Java developer and have used Jenkins at work, but mostly from a user/developer perspective. I’ve triggered jobs and worked with existing pipelines, but I’v",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bee5d5216e6e91d39b11d9e10c7f71fd",
+      "title": "Where Agents Belong in Enterprise Testing: What I Took Away from UiPath Test Cloud",
+      "url": "https://devops.com/where-agents-belong-in-enterprise-testing-what-i-took-away-from-uipath-test-cloud/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-13T12:00:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b25a714d9baf24330510a46c14467d66",
+      "title": "Lightweight Dragonfly Deployment: P2P Distribution Without the Database Stack",
+      "url": "https://www.cncf.io/blog/2026/08/13/lightweight-dragonfly-deployment-p2p-distribution-without-the-database-stack/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-13T11:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ae1f456ab1fccd9d10b39aa86076d3d3",
+      "title": "langchain-ai/langchain: langchain==1.3.15",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.15",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-11T19:11:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "49f56b343004bfcbf2ecc30df0769cb2",
+      "title": "Docker never restarted my database: the price of restart: no",
+      "url": "https://dev.to/jguillaumesio/docker-never-restarted-my-database-the-price-of-restart-no-4hi4",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T09:30:56Z",
+      "summary": "Something died in the middle of the night. I found out in the morning, from a user, not from a...",
+      "tags": [
+        "docker",
+        "devops",
+        "sre",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8ffd13e864852442a1c6727446cebd5b",
+      "title": "Shipping a SaaS on one VPS with Docker Compose: an honest audit",
+      "url": "https://dev.to/jguillaumesio/shipping-a-saas-on-one-vps-with-docker-compose-an-honest-audit-5g81",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T09:29:37Z",
+      "summary": "The entire product runs on a single VPS. One machine, one docker-compose.yml, a containerised nginx...",
+      "tags": [
+        "devops",
+        "docker",
+        "selfhosted",
+        "webdev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "41ba39db5180acd11128fa7e53fe3f63",
+      "title": "Docker bypassed my firewall: the database port was open to the internet",
+      "url": "https://dev.to/jguillaumesio/docker-bypassed-my-firewall-the-database-port-was-open-to-the-internet-1345",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T09:27:40Z",
+      "summary": "I had a firewall. I had explicitly blocked the Postgres port on the host. And Postgres was still...",
+      "tags": [
+        "docker",
+        "security",
+        "devops",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "62fc2fa84cadb24f24c2e8cff541163b",
+      "title": "CPU utilization lies: autoscaling a single-threaded service",
+      "url": "https://dev.to/jguillaumesio/cpu-utilization-lies-autoscaling-a-single-threaded-service-539k",
+      "source": "Dev.to",
+      "published_at": "2026-08-09T09:24:26Z",
+      "summary": "The service was slow. Not down, just slow: p95 latency climbing well past where users notice,...",
+      "tags": [
+        "aws",
+        "devops",
+        "node",
+        "performance"
+      ],
       "relevance_score": 0.0
     }
   ]
