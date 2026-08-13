@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T05:49:06Z",
+  "generated_at": "2026-08-13T07:49:02Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1166,21 +1166,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6bc7cb31ffc3f3214421197be82ee83e",
-      "title": "claude -p: what headless Claude Code actually loads (and when --bare is the right call)",
-      "url": "https://dev.to/rulestack/claude-p-what-headless-claude-code-actually-loads-and-when-bare-is-the-right-call-182c",
-      "source": "Dev.to",
-      "published_at": "2026-08-06T02:48:17Z",
-      "summary": "You wire claude -p into a script, it works, and then the usage numbers make no sense: a one-line...",
-      "tags": [
-        "claudecode",
-        "cli",
-        "devops",
-        "ai"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "520f2eca45b0d394ee7610a5b8bf69b8",
       "title": "kubernetes/kubernetes: v1.38.0-alpha.0",
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-alpha.0",
@@ -1188,21 +1173,6 @@
       "published_at": "2026-08-06T02:39:02+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d20e029fa1ec967f5a4c9493a1bb9d37",
-      "title": "When Your VPS Never Had the Resources It Was Sold With",
-      "url": "https://dev.to/pascal_cescato_692b7a8a20/when-your-vps-never-had-the-resources-it-was-sold-with-302o",
-      "source": "Dev.to",
-      "published_at": "2026-08-05T23:58:23Z",
-      "summary": "I needed a VPS to run CyberPanel. Simple enough: 1 vCPU, 1 GB RAM, 10 GB SSD, IPv6 only. CyberPanel...",
-      "tags": [
-        "networking",
-        "devops",
-        "vps",
-        "linux"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1403,21 +1373,6 @@
       "published_at": "2026-08-07T00:25:54+00:00",
       "summary": "I'm being brought in to assist with getting a devops plan in place. The current team is using ADO for issue management and code repos. They have no real existing IaC, CI-CD, monitoring, etc. My first reaction is to tell them to run from ADO. But then I look at GH and their bullshit and I wonder if I",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3f5a010f8975d21230d56c87e2eefee9",
-      "title": "The check that could not fail",
-      "url": "https://dev.to/nazarii-ahapevych/the-check-that-could-not-fail-55n4",
-      "source": "Dev.to",
-      "published_at": "2026-08-06T07:29:16Z",
-      "summary": "Context   There is one cheap way to ask python-semantic-release whether it will write your...",
-      "tags": [
-        "devops",
-        "cicd",
-        "testing",
-        "debugging"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3554,6 +3509,75 @@
       "published_at": "2026-08-13T02:31:05+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d19adc012922b6d4d1c09225c323f2d2",
+      "title": "Amazon Q is saving me these days otherwise I will be having a hard time using AWS services",
+      "url": "https://www.reddit.com/r/devops/comments/1vn3ypi/amazon_q_is_saving_me_these_days_otherwise_i_will/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-13T07:34:33+00:00",
+      "summary": "Thank god AWS has Amazon Q otherwise I'll still be having a very hard time even finding the environment variables of a project.  &#32; submitted by &#32;  /u/anishghimire   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dd1ba14e1c77b5efb28c46b64c52727f",
+      "title": "AI Access Control for Enterprise AI: Turning Policy Into Runtime Enforcement",
+      "url": "https://dev.to/kenwalger/ai-access-control-for-enterprise-ai-turning-policy-into-runtime-enforcement-5bkk",
+      "source": "Dev.to",
+      "published_at": "2026-08-12T23:46:00Z",
+      "summary": "API keys authenticate software. Policy objects decide what that software is allowed to do.  The...",
+      "tags": [
+        "ai",
+        "security",
+        "architecture",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "83536a0ccf63a4e41570cbe490ee1167",
+      "title": "Installing Docker on Debian",
+      "url": "https://dev.to/celsonery/installing-docker-on-debian-4h1j",
+      "source": "Dev.to",
+      "published_at": "2026-08-12T19:20:50Z",
+      "summary": "🇧🇷 Versão em português aqui           Installing Docker on Debian   Before running any container —...",
+      "tags": [
+        "docker",
+        "debian",
+        "linux",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "74d2d38038091d6ce291191711c93262",
+      "title": "Day 49: Deploy Applications with Kubernetes Deployments",
+      "url": "https://dev.to/janak0ff/day-49-deploy-applications-with-kubernetes-deployments-3oo0",
+      "source": "Dev.to",
+      "published_at": "2026-08-12T16:59:14Z",
+      "summary": "The Nautilus DevOps team is delving into Kubernetes for app management. One team member needs to...",
+      "tags": [
+        "100daysofdevops",
+        "kodekloud",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "37313fe218762d324c17c2035f5bec5b",
+      "title": "How I Built a Random Number Calculator with HTML, CSS and JavaScript",
+      "url": "https://dev.to/olivia_grooks_c31ac753fa4/how-i-built-a-random-number-calculator-with-html-css-and-javascript-3808",
+      "source": "Dev.to",
+      "published_at": "2026-08-12T16:56:43Z",
+      "summary": "I wanted to build a small JavaScript project that was simple enough to understand but still gave me...",
+      "tags": [
+        "webdev",
+        "productivity",
+        "tutorial",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
