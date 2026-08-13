@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T15:08:26Z",
+  "generated_at": "2026-08-13T17:07:27Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1172,86 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a6ef9a2cb7f791ffc0147bf88ec7e037",
-      "title": "apache/airflow: providers-trino/6.6.1rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-trino%2F6.6.1rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-06T16:20:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7ea02e9e45c9883a6f21693ffc02715c",
-      "title": "apache/airflow: providers-teradata/3.6.2rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-teradata%2F3.6.2rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-06T16:20:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ca050684cb280b63bd338f6abb8ec5df",
-      "title": "apache/airflow: providers-telegram/4.9.6rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-telegram%2F4.9.6rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-06T16:19:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3ca101d5cc3f537b7661fb63397eca63",
-      "title": "apache/airflow: providers-weaviate/3.4.1rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-weaviate%2F3.4.1rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-06T16:19:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cea2cf8a06eeecf13ff0cb3d100fddc5",
-      "title": "apache/airflow: providers-yandex/4.5.1rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-yandex%2F4.5.1rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-06T16:19:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2d77dcf1041b0ca75ac89ea89e7f909e",
-      "title": "Say goodbye to K8s GPU pain: How DRA changes everything",
-      "url": "https://thenewstack.io/kubernetes-dra-gpu-scheduling/",
-      "source": "The New Stack",
-      "published_at": "2026-08-06T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ef4f1fa78bf068b186ee3f39059e7204",
-      "title": "AWS Extends DevSecOps Reach to AI Coding Tools from Anthropic and OpenAI",
-      "url": "https://devops.com/aws-extends-devsecops-reach-to-ai-coding-tools-from-anthropic-and-openai/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-06T15:53:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5640384cfd03d93f6d5077c7a4561bbc",
-      "title": "VPS for build server",
-      "url": "https://www.reddit.com/r/devops/comments/1vh70y9/vps_for_build_server/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-06T15:12:45+00:00",
-      "summary": "I am running docker builds on my local machine and pushing to a self hosted registry running on a vps.  Im considering setting up a build server on a vps to pull the code from local and build and push to the registry, but I'm just unsure about the security of moving code to a vps.  Is this recommend",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "02d0c6fea280517098c7cc4417ee5b70",
       "title": "apache/airflow: constraints-3.3.1rc1",
       "url": "https://github.com/apache/airflow/releases/tag/constraints-3.3.1rc1",
@@ -1931,21 +1851,6 @@
       "published_at": "2026-08-08T13:24:55+00:00",
       "summary": "I have seen a coding interview that hands in docker logs, the logs have some error, and the interviewer asks you to recreate that docker file from the logs, what really struck my mind is that, i have never really practiced docker like that and now i feel that i was wasting my time not knowing how to",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9e3b59a53d4ef5c51193909ea966fb68",
-      "title": "Deploy to VPS with GitHub Actions: 12 Real Errors Fixed (Laravel 13 + Next.js 16)",
-      "url": "https://dev.to/dineshstack/deploy-to-vps-with-github-actions-12-real-errors-fixed-laravel-13-nextjs-16-4p9h",
-      "source": "Dev.to",
-      "published_at": "2026-08-06T15:11:06Z",
-      "summary": "GitHub Actions VPS deployments fail in predictable ways — and almost none of the tutorials warn you...",
-      "tags": [
-        "cicd",
-        "devops",
-        "laravel",
-        "nextjs"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3693,6 +3598,21 @@
         "devops",
         "node",
         "performance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aed52bab41c763983133bda189667758",
+      "title": "i started holyclaude back in march. 2.4k stars later i'm building the hosted version of it",
+      "url": "https://dev.to/coderluii/i-started-holyclaude-back-in-march-24k-stars-later-im-building-the-hosted-version-of-it-28cc",
+      "source": "Dev.to",
+      "published_at": "2026-08-13T14:24:17Z",
+      "summary": "i started holyclaude in march. a web ui for running claude on your own machine, built because i...",
+      "tags": [
+        "opensource",
+        "startup",
+        "ai",
+        "devops"
       ],
       "relevance_score": 0.0
     }
