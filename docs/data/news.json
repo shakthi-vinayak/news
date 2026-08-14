@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T20:40:41Z",
+  "generated_at": "2026-08-14T22:34:21Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1162,36 +1162,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d811089a9d00eab5aacb1145c65cfeef",
-      "title": "How I Hooked My AI Coding Agent Into CI to Fix Its Own Failing Builds",
-      "url": "https://dev.to/yureki_lab/how-i-hooked-my-ai-coding-agent-into-ci-to-fix-its-own-failing-builds-4bnf",
-      "source": "Dev.to",
-      "published_at": "2026-08-07T14:33:47Z",
-      "summary": "TL;DR   I wired my autonomous coding agent into CI so it watches failing builds and opens...",
-      "tags": [
-        "ai",
-        "claudecode",
-        "softwareengineering",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0f79980e557408cdd5a2097ea11ded1f",
-      "title": "Multi-Repo to Monorepo: How I Automated 6 Go Microservice Releases and Then Made It 15x Faster",
-      "url": "https://dev.to/singhamandeep007/multi-repo-to-monorepo-how-i-automated-6-go-microservice-releases-and-then-made-it-15x-faster-4e88",
-      "source": "Dev.to",
-      "published_at": "2026-08-07T17:47:23Z",
-      "summary": "Last month I spent more than an hour cutting a release across six Go microservice repos. Tag log,...",
-      "tags": [
-        "go",
-        "devops",
-        "automation",
-        "monorepo"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9209c48b397ce8da04112de5043346a5",
       "title": "langchain-ai/langgraph: langgraph-checkpoint-postgres==3.1.2",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2",
@@ -1218,26 +1188,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-07T22:35:48+00:00",
       "summary": "Hello, strictly from a platform engineering role, could someone list of possible system design interview questions, based on what they have faced in recent months? This is for a huge Bank. Do they actually ask “Design Instagram” type of questions for this role?  &#32; submitted by &#32;  /u/producti",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9bd2d725e8436eb19c702bcbbf6450a4",
-      "title": "Auto Mode will soon be the default in Claude Code — because humans can’t be trusted",
-      "url": "https://thenewstack.io/claude-code-auto-mode/",
-      "source": "The New Stack",
-      "published_at": "2026-08-07T21:42:44+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9f0bded90aacb55b5c3dc4eb3722923a",
-      "title": "The AI model OpenAI won’t release yet — and what it found in testing",
-      "url": "https://thenewstack.io/openai-astra-cybersecurity-delay/",
-      "source": "The New Stack",
-      "published_at": "2026-08-07T20:56:38+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1632,21 +1582,6 @@
         "automation",
         "devops",
         "monitoring"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a3128d7808dcf85cadd3b2fe1162e3ee",
-      "title": "On-Call Runbooks for AI Services",
-      "url": "https://dev.to/multigrid/on-call-runbooks-for-ai-services-4ag7",
-      "source": "Dev.to",
-      "published_at": "2026-08-07T21:49:16Z",
-      "summary": "Five runbooks for the five things that actually page you on an AI service, each with the first command, the branch, and what to do at each branch.",
-      "tags": [
-        "ai",
-        "devops",
-        "tutorial",
-        "llm"
       ],
       "relevance_score": 0.0
     },
@@ -3411,6 +3346,131 @@
       "published_at": "2026-08-14T19:18:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "46fdd5facffca0ab1f19ddb192f987c7",
+      "title": "How do you test CI pipelines?",
+      "url": "https://www.reddit.com/r/devops/comments/1voki1m/how_do_you_test_ci_pipelines/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-14T21:43:59+00:00",
+      "summary": "Do you create a sample application to test the proper auth, access and everything the runner needs? And a related sub question. How do you validate gitops changes before they are merged? Regarding FluxCD or ArgoCD.  &#32; submitted by &#32;  /u/Mysterious_Prune415   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5bc5197ba97c11c94a004b198e939793",
+      "title": "How do you actually diagnose a CI integration-test failure when the root cause isn't obvious?",
+      "url": "https://www.reddit.com/r/devops/comments/1vojtkx/how_do_you_actually_diagnose_a_ci_integrationtest/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-14T21:16:55+00:00",
+      "summary": "I'm researching a small CI diagnosis agent, but I'm first trying to understand how experienced engineers actually debug these failures. Suppose an integration test fails in CI and the logs don't immediately reveal the root cause. What do you normally investigate first? For example:  CI logs/stack tr",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2e3982b9f657aef45486b02f2fccc57b",
+      "title": "Two npm worms shipped with valid provenance this year",
+      "url": "https://dev.to/booyaka101/two-npm-worms-shipped-with-valid-provenance-this-year-22io",
+      "source": "Dev.to",
+      "published_at": "2026-08-14T17:16:36Z",
+      "summary": "I spent most of this year believing a green provenance check on npm meant something stronger than it...",
+      "tags": [
+        "javascript",
+        "security",
+        "npm",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "89cdf855b5069cd8f2d77151304e49bc",
+      "title": "Reviving Open Source Giants: How I Brought Weave Scope Back with Multi-Platform Docker Support in One Afternoon Using Antigravity",
+      "url": "https://dev.to/gde/reviving-open-source-giants-how-i-brought-weave-scope-back-with-multi-platform-docker-support-in-cmo",
+      "source": "Dev.to",
+      "published_at": "2026-08-14T16:36:10Z",
+      "summary": "How to rescue abandoned open-source projects, modernize build systems, and generate multi-architecture Docker images (x86_64, ARM64) in a single afternoon with Antigravity.",
+      "tags": [
+        "opensource",
+        "devops",
+        "docker",
+        "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d12f9f1e48302e855d4c64fb3c8552e1",
+      "title": "Build an MCP Server in Go (Part 2): Building the MCP tool layer",
+      "url": "https://dev.to/ferztyle/build-an-mcp-server-in-go-part-2-building-the-mcp-tool-layer-4l3m",
+      "source": "Dev.to",
+      "published_at": "2026-08-14T14:15:57Z",
+      "summary": "Part 1 designs the KubeClient interface this post builds on. If you haven't read it, the short...",
+      "tags": [
+        "go",
+        "kubernetes",
+        "devops",
+        "mcp"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "091f224135a85659eac8f293d2ae4e3d",
+      "title": "Build an MCP Server in Go (Part 1): Designing a diagnostic-grade Kubernetes client",
+      "url": "https://dev.to/ferztyle/build-an-mcp-server-in-go-part-1-designing-a-diagnostic-grade-kubernetes-client-49a2",
+      "source": "Dev.to",
+      "published_at": "2026-08-14T14:12:02Z",
+      "summary": "This post designs the Kubernetes client. The next post wraps it as an MCP server and wires it to an...",
+      "tags": [
+        "kubernetes",
+        "go",
+        "devops",
+        "mcp"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1a90550dd0681a2785beacaa0c536213",
+      "title": "Nobody audits their OpenAI invoice",
+      "url": "https://dev.to/rinava/nobody-audits-their-openai-invoice-2n5i",
+      "source": "Dev.to",
+      "published_at": "2026-08-14T01:56:01Z",
+      "summary": "Every team running LLMs in production has two numbers for last month's spend: the one in their...",
+      "tags": [
+        "ai",
+        "llm",
+        "devops",
+        "finops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3ab2905f8f38aa0ce97e9fd94e9999ff",
+      "title": "Prompt Caching in LLMs, Measured on Our Own Bill",
+      "url": "https://dev.to/jula-markova/prompt-caching-in-llms-measured-on-our-own-bill-o85",
+      "source": "Dev.to",
+      "published_at": "2026-08-13T11:29:57Z",
+      "summary": "The token report for one pipeline run landed in front of me and the first number I saw was 7,300,000....",
+      "tags": [
+        "ai",
+        "llm",
+        "programming",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b909d44cdbf21bfd9da69c8222aa08bb",
+      "title": "Five things I found in Google's Agent Registry and Agent Gateway that aren't in the docs",
+      "url": "https://dev.to/iamrobertmoore/five-things-i-found-in-googles-agent-registry-and-agent-gateway-that-arent-in-the-docs-236f",
+      "source": "Dev.to",
+      "published_at": "2026-08-13T10:33:34Z",
+      "summary": "I spent a couple of weeks building on Google's new Gemini Enterprise Agent Platform, and hit five...",
+      "tags": [
+        "googlecloud",
+        "ai",
+        "security",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
