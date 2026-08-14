@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T11:06:17Z",
+  "generated_at": "2026-08-14T13:26:53Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -892,16 +892,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "24c09186d056f3979d3e92ee47f843f8",
-      "title": "Agentic AI Needs Guardrails, Not Guesswork",
-      "url": "https://www.docker.com/blog/agentic-ai-needs-guardrails-not-guesswork/",
-      "source": "Docker Blog",
-      "published_at": "2026-07-24T17:19:36+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "8b3f1ab360ded9c300273b9cdd95e557",
       "title": "Coding Agent Horror Stories: The 29 Million Secret Problem",
       "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-29-million-secret-problem/",
@@ -1162,39 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5cce7ad6df47ca207a7ed2d85f70891d",
-      "title": "Shadow AI in CI/CD: Threat-modeling the path from developer laptop to Kubernetes",
-      "url": "https://www.cncf.io/blog/2026/08/07/shadow-ai-in-ci-cd-threat-modeling-the-path-from-developer-laptop-to-kubernetes/",
-      "source": "CNCF Blog",
-      "published_at": "2026-08-07T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fc4443d2ee13dec2a7afc7d83bbfd04f",
-      "title": "I am making a free single binary to optimize s3 read, writes and updates",
-      "url": "https://www.reddit.com/r/devops/comments/1vhzw6e/i_am_making_a_free_single_binary_to_optimize_s3/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-07T12:56:12+00:00",
-      "summary": "Development of a lightweight binary to enhance S3 read/write performance.",
-      "tags": [
-        "Cloud",
-        "DevOps"
-      ],
-      "relevance_score": 0.7
-    },
-    {
-      "id": "132a6c5c078182019c93232a78a9caaa",
-      "title": "We deleted Docker Compose from our internal platform's runtime and migrated to Kubernetes before it was too late",
-      "url": "https://www.reddit.com/r/devops/comments/1vhyiqk/we_deleted_docker_compose_from_our_internal/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-07T11:54:21+00:00",
-      "summary": "I’m part of the team that builds platform for turning small applications and AI experiments into deployed services. The first use case came from our own team. Someone built a useful tool, but sharing it with colleagues still required help from a person who understood servers and deployment pipelines",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3ad1f9fa29ea486358078bf338c84030",
       "title": "Does Kubernetes DRA Replace HAMi?",
       "url": "https://www.cncf.io/blog/2026/08/07/does-kubernetes-dra-replace-hami/",
@@ -1212,36 +1169,6 @@
       "published_at": "2026-08-07T13:58:16+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "40030b9c3fb161e885ed8f6b72214783",
-      "title": "How Kiro Crew's Cron Jobs Replaced 4 Hours of Weekly Toil",
-      "url": "https://dev.to/aws-builders/how-kiro-crews-cron-jobs-replaced-4-hours-of-weekly-toil-37h",
-      "source": "Dev.to",
-      "published_at": "2026-08-07T13:22:29Z",
-      "summary": "6-minute demo: AI agent sets up automated dependency scans, git hygiene checks, health reports, doc audits, and a Friday EOW summary. Cost: $2.10/week.",
-      "tags": [
-        "agents",
-        "ai",
-        "showdev",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "531e2af6e03238b841b84a2ac21d1488",
-      "title": "Agent Sandboxes: Giving AI Agents Their Own Little Linux Box (And Why You Should Care)",
-      "url": "https://dev.to/gde/agent-sandboxes-giving-ai-agents-their-own-little-linux-box-and-why-you-should-care-jl4",
-      "source": "Dev.to",
-      "published_at": "2026-08-07T09:38:40Z",
-      "summary": "Sourced from: GKE Agent Sandbox docs, kubernetes-sigs/agent-sandbox       So here is the thing. We...",
-      "tags": [
-        "ai",
-        "kubernetes",
-        "devops",
-        "security"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1410,21 +1337,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ec82e0dbdda25504a3348a434e163d84",
-      "title": "Railway vs Render vs Fly.io: Deploying a Hobby App Without a DevOps Team",
-      "url": "https://dev.to/libme/railway-vs-render-vs-flyio-deploying-a-hobby-app-without-a-devops-team-10d3",
-      "source": "Dev.to",
-      "published_at": "2026-08-07T11:48:03Z",
-      "summary": "A hands-on comparison of Railway, Render, and Fly.io for deploying a hobby app when you have no DevOps team and no time to build one.",
-      "tags": [
-        "devops",
-        "cloud",
-        "backend",
-        "tutorial"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a15aa346fddc390e70ced00af69420b0",
       "title": "apache/airflow: providers/2026-08-08",
       "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-08-08",
@@ -1452,20 +1364,6 @@
       "published_at": "2026-08-08T01:32:51+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f4d893dd345bed670b959782965e6521",
-      "title": "Zero open ports — my homelab is reachable from anywhere and exposes nothing",
-      "url": "https://dev.to/maaax/zero-open-ports-my-homelab-is-reachable-from-anywhere-and-exposes-nothing-4ff8",
-      "source": "Dev.to",
-      "published_at": "2026-08-07T13:14:41Z",
-      "summary": "My router forwards exactly one port to the internet. UDP, for WireGuard. That's it.  No port for the...",
-      "tags": [
-        "selfhosted",
-        "homelab",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1545,21 +1443,6 @@
         "webdev",
         "devops",
         "github"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bf69901109966d78581b8dc6feb84e57",
-      "title": "I put SSO in front of eleven self-hosted services — then locked myself out of all of them",
-      "url": "https://dev.to/maaax/i-put-sso-in-front-of-eleven-self-hosted-services-then-locked-myself-out-of-all-of-them-4ogm",
-      "source": "Dev.to",
-      "published_at": "2026-08-07T13:10:42Z",
-      "summary": "Eleven self-hosted services. Eleven logins. And — being honest here — at least four of them had a...",
-      "tags": [
-        "selfhosted",
-        "homelab",
-        "docker",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -3523,6 +3406,41 @@
       "published_at": "2026-08-14T10:26:02+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a774ec7d770a8f5a1b4f0979f0c4230f",
+      "title": "Reproducible ESP32 Firmware Development with Docker and Docker Sandboxes",
+      "url": "https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/",
+      "source": "Docker Blog",
+      "published_at": "2026-08-14T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "49edc654db66b913f0aa865cadebb6fc",
+      "title": "Eleven minutes, zero humans: Building a self-healing Kubernetes upgrade pipeline on Kairos",
+      "url": "https://www.cncf.io/blog/2026/08/14/eleven-minutes-zero-humans-building-a-self-healing-kubernetes-upgrade-pipeline-on-kairos/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-14T11:14:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c9de364cfae130728d31be62bfca1db8",
+      "title": "Domain-Driven Infrastructure: Organize Your Terraform by Reason to Change",
+      "url": "https://dev.to/tomozayasu/domain-driven-infrastructure-organize-your-terraform-by-reason-to-change-202b",
+      "source": "Dev.to",
+      "published_at": "2026-08-08T09:35:57Z",
+      "summary": "Most Terraform repositories are organized by technology. Then one business change sends you across six directories — and one shared state.",
+      "tags": [
+        "terraform",
+        "devops",
+        "architecture",
+        "iac"
+      ],
       "relevance_score": 0.0
     }
   ]
