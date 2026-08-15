@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T10:33:18Z",
+  "generated_at": "2026-08-15T12:55:24Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1182,46 +1182,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "08afba86c7ebde595b59357099ad9399",
-      "title": "AWS Route 53 — DNS Fundamentals, Hosted Zones, Routing Policies & Resolvers",
-      "url": "https://dev.to/tejas_shinkar/aws-route-53-dns-fundamentals-hosted-zones-routing-policies-resolvers-2727",
-      "source": "Dev.to",
-      "published_at": "2026-08-08T12:15:57Z",
-      "summary": "Part of my AWS learning journey — transitioning from Systems Engineer to Cloud/DevOps. Route 53 is...",
-      "tags": [
-        "aws",
-        "cloud",
-        "devops",
-        "beginners"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1fbf62f3267f25d8639e624577a88ebb",
-      "title": "Platform/DevOps/SRE practitioners: looking for independent technical review of a research implementation",
-      "url": "https://www.reddit.com/r/devops/comments/1vituwp/platformdevopssre_practitioners_looking_for/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-08T11:43:47+00:00",
-      "summary": "I’m developing HybridOps Core, an MIT-0 open-source research implementation for governed infrastructure operations, and I’m looking for practitioners willing to give a short, candid technical assessment of specific parts of the work. The work examines whether infrastructure intent, environment polic",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3edf2a706e6623868e43e1ba365d30ff",
-      "title": "Everything Was Working. AWS Wanted $1,665/Month More.",
-      "url": "https://dev.to/aws-builders/everything-was-working-aws-wanted-1665month-more-45h",
-      "source": "Dev.to",
-      "published_at": "2026-08-08T10:24:18Z",
-      "summary": "An AWS cost anomaly exposed years of hidden infrastructure drift across EKS and RDS. What looked like a simple version upgrade turned into a six-hour production maintenance exercise.",
-      "tags": [
-        "aws",
-        "kubernetes",
-        "devops",
-        "mysql"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f52c5a7b6e2c48c3848e80c86583b1f5",
       "title": "Gym for DevOps practice",
       "url": "https://www.reddit.com/r/devops/comments/1vivzci/gym_for_devops_practice/",
@@ -1229,21 +1189,6 @@
       "published_at": "2026-08-08T13:24:55+00:00",
       "summary": "I have seen a coding interview that hands in docker logs, the logs have some error, and the interviewer asks you to recreate that docker file from the logs, what really struck my mind is that, i have never really practiced docker like that and now i feel that i was wasting my time not knowing how to",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5b21a50286a93569c1546a5bee2d3113",
-      "title": "What AWS VPC Actually Does Under the Hood (I Rebuilt It on Linux to Find Out)",
-      "url": "https://dev.to/gerald_izuchukwu/what-aws-vpc-actually-does-under-the-hood-i-rebuilt-it-on-linux-to-find-out-3iif",
-      "source": "Dev.to",
-      "published_at": "2026-08-08T11:29:46Z",
-      "summary": "I rebuilt AWS VPC networking, subnets, routing, security groups, peering using raw Linux primitives to understand what AWS is actually doing underneath the abstraction.",
-      "tags": [
-        "devops",
-        "aws",
-        "linux",
-        "networking"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3119,21 +3064,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c9de364cfae130728d31be62bfca1db8",
-      "title": "Domain-Driven Infrastructure: Organize Your Terraform by Reason to Change",
-      "url": "https://dev.to/tomozayasu/domain-driven-infrastructure-organize-your-terraform-by-reason-to-change-202b",
-      "source": "Dev.to",
-      "published_at": "2026-08-08T09:35:57Z",
-      "summary": "Most Terraform repositories are organized by technology. Then one business change sends you across six directories — and one shared state.",
-      "tags": [
-        "terraform",
-        "devops",
-        "architecture",
-        "iac"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "eb4304a9f535d5027d2348cdd5ed4a60",
       "title": "ollama/ollama: v0.32.12",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.12",
@@ -3346,6 +3276,21 @@
       "published_at": "2026-08-14T17:02:16+00:00",
       "summary": "Disclosure: I'm the creator of NetAudit.  Hey folks,  I've been using various network scanning tools (nmap, ping, etc.) but wanted something more structured, vendor-aware, and easily automatable. So I wrote NetAudit – a Python CLI toolkit for network auditing and diagnostics.  **Key features from a ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ff9e0e65448ebf8d6fce9c2ecc641201",
+      "title": "Kubernetes Architecture Deep Dive: From Resource Limits to Custom Operators",
+      "url": "https://dev.to/enesguler/kubernetes-architecture-deep-dive-from-resource-limits-to-custom-operators-47dk",
+      "source": "Dev.to",
+      "published_at": "2026-08-12T12:33:54Z",
+      "summary": "Resource Management (Requests &amp; Limits)   Resource management prevents Kubernetes...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "security",
+        "sre"
+      ],
       "relevance_score": 0.0
     }
   ]
