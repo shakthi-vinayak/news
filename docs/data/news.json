@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T12:56:59Z",
+  "generated_at": "2026-08-16T14:33:48Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -2745,36 +2745,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "41ba39db5180acd11128fa7e53fe3f63",
-      "title": "Docker bypassed my firewall: the database port was open to the internet",
-      "url": "https://dev.to/jguillaumesio/docker-bypassed-my-firewall-the-database-port-was-open-to-the-internet-1345",
-      "source": "Dev.to",
-      "published_at": "2026-08-09T09:27:40Z",
-      "summary": "I had a firewall. I had explicitly blocked the Postgres port on the host. And Postgres was still...",
-      "tags": [
-        "docker",
-        "security",
-        "devops",
-        "linux"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "62fc2fa84cadb24f24c2e8cff541163b",
-      "title": "CPU utilization lies: autoscaling a single-threaded service",
-      "url": "https://dev.to/jguillaumesio/cpu-utilization-lies-autoscaling-a-single-threaded-service-539k",
-      "source": "Dev.to",
-      "published_at": "2026-08-09T09:24:26Z",
-      "summary": "The service was slow. Not down, just slow: p95 latency climbing well past where users notice,...",
-      "tags": [
-        "aws",
-        "devops",
-        "node",
-        "performance"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "aed52bab41c763983133bda189667758",
       "title": "i started holyclaude back in march. 2.4k stars later i'm building the hosted version of it",
       "url": "https://dev.to/coderluii/i-started-holyclaude-back-in-march-24k-stars-later-im-building-the-hosted-version-of-it-28cc",
@@ -3179,7 +3149,7 @@
       "url": "https://www.reddit.com/r/devops/comments/1vocygj/netaudit_cli_tool_for_network_audits_that_plays/",
       "source": "Reddit r/devops",
       "published_at": "2026-08-14T17:02:16+00:00",
-      "summary": "Disclosure: I'm the creator of NetAudit.  Hey folks,  I've been using various network scanning tools (nmap, ping, etc.) but wanted something more structured, vendor-aware, and easily automatable. So I wrote NetAudit – a Python CLI toolkit for network auditing and diagnostics.  **Key features from a ",
+      "summary": "Disclosure: I'm the creator of NetAudit. Hey folks, I've been using various network scanning tools (nmap, ping, etc.) but wanted something more structured, vendor-aware, and easily automatable. So I wrote NetAudit – a Python CLI toolkit for network auditing and diagnostics. **Key features from a Dev",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3280,6 +3250,16 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-16T08:04:22+00:00",
       "summary": "Hey, I’m French and I work in IT, mainly on the DevOps / SysOps side. I’ve been working with Linux/RHEL, AWS, Ansible, GitLab and CI/CD stuff for a few years now. I’ve been thinking about moving to the US at some point, probably Seattle, so I’m trying to get a better idea of what the job market is a",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5ccc36e9439a42bca32428f6d391a3cd",
+      "title": "Starting DevOps from \"Management\" in IT company",
+      "url": "https://www.reddit.com/r/devops/comments/1vpww0l/starting_devops_from_management_in_it_company/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-16T13:19:55+00:00",
+      "summary": "Hello everyone,  To not waste your time, here's the tl;dr: 1. I've never worked in IT company before, now I do, but as a administrative manager. I'm responsible for every task delivery to customer in our company pretty much 2. I'm good at organizing and optimizing &quot;human&quot; stuff: keeping tr",
       "tags": [],
       "relevance_score": 0.0
     }
