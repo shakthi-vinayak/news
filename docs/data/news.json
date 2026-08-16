@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T16:37:31Z",
+  "generated_at": "2026-08-16T18:42:09Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1172,26 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1cbc57c87415ba73f997c6e34cb7866c",
-      "title": "What is the best architecture for a developer-friendly, virtualized execution environment for AI agents?",
-      "url": "https://www.reddit.com/r/devops/comments/1vjuku9/what_is_the_best_architecture_for_a/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-09T16:40:46+00:00",
-      "summary": "What is the best architecture for a developer-friendly, virtualized execution environment for AI agents? I'm exploring an idea for running AI agents inside isolated, virtualized environments. The basic concept is: **AI Agent → Sandbox API/SDK → Firecracker microVM → isolated Linux filesystem** The g",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f4846c9e153e78c0d34b9fba057bfcd2",
-      "title": "CTO says AI makes junior and senior engineers the same",
-      "url": "https://www.reddit.com/r/devops/comments/1vjxidv/cto_says_ai_makes_junior_and_senior_engineers_the/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-09T18:35:00+00:00",
-      "summary": "Hi everyone, I’m a junior DevOps engineer, and recently our CTO said something that honestly made me question my understanding of software engineering. He has around 30 years of experience, and his statement was basically:  With AI tools like Claude Code, there is no real difference anymore between ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e435cf756bef18d3ac8a0058f03aab3b",
       "title": "GitHub doesn't retry webhooks. So I gave my tunnel a database.",
       "url": "https://dev.to/bigachiever/github-doesnt-retry-webhooks-so-i-gave-my-tunnel-a-database-4aa0",
@@ -1218,21 +1198,6 @@
         "typescript",
         "discuss",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "93c2b715963915a6400245a1c08add3a",
-      "title": "Cpynet a pastebin you talk to with curl, that forgets everything you send it",
-      "url": "https://dev.to/eminbuyuk/why-i-built-a-zero-dependency-single-file-go-clipboard-for-terminal-junkies-2ob6",
-      "source": "Dev.to",
-      "published_at": "2026-08-09T18:21:49Z",
-      "summary": "A zero-dependency, single-file Go pastebin built for terminals — burn-after-read by default, two...",
-      "tags": [
-        "go",
-        "devops",
-        "productivity",
-        "sysadmin"
       ],
       "relevance_score": 0.0
     },
@@ -1867,21 +1832,6 @@
         "opensource",
         "testing",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7401bd29fe0f9aeb302038403a2c6e6e",
-      "title": "Your coding agent's summary of its own work is not evidence",
-      "url": "https://dev.to/jk27101/your-coding-agents-summary-of-its-own-work-is-not-evidence-46i5",
-      "source": "Dev.to",
-      "published_at": "2026-08-09T16:53:17Z",
-      "summary": "I spent three days last week doing real work on a production codebase with an agentic coding tool....",
-      "tags": [
-        "ai",
-        "devops",
-        "productivity",
-        "claude"
       ],
       "relevance_score": 0.0
     },
@@ -3236,6 +3186,60 @@
       "published_at": "2026-08-16T15:29:42+00:00",
       "summary": "      From an interview with Charity Majors: DevOps was about trying to create a feedback loop that connected people writing the code to the code running in production. She thinks that the &quot;ops people: learn to code!&quot; wave worked, but the &quot;software engineers: understand your code in p",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ca50ba0318e654fe04c857647d3e0578",
+      "title": "ollama/ollama: v0.32.14",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.14",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-08-16T17:41:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "db768c7907a4f34f2b1a5d7722e53f24",
+      "title": "Context Is a Platform Capability Now",
+      "url": "https://dev.to/vscarpenter/context-is-a-platform-capability-now-2c7n",
+      "source": "Dev.to",
+      "published_at": "2026-08-16T02:49:05Z",
+      "summary": "Watch a developer start an agent session on real enterprise work and you will see a ritual. Before...",
+      "tags": [
+        "ai",
+        "devops",
+        "platformengineering",
+        "devex"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "825e73d69f8d10616d99479d3dfb77ce",
+      "title": "My AI Agent Tried to Delete Every Customer Record. Here's What Stopped It.",
+      "url": "https://dev.to/frederikvonderheyden/my-ai-agent-tried-to-delete-every-customer-record-heres-what-stopped-it-39ip",
+      "source": "Dev.to",
+      "published_at": "2026-08-15T12:04:37Z",
+      "summary": "Last Tuesday, 2:47 AM.  I was asleep. My AI coding agent was not. It had been running autonomously...",
+      "tags": [
+        "ai",
+        "agents",
+        "devops",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d7c25bce4437bdef691954e216ab0e4c",
+      "title": "Three Silent Failures in Two Weeks: What My Agent Pipeline Never Told Me",
+      "url": "https://dev.to/robswierk/three-silent-failures-in-two-weeks-what-my-agent-pipeline-never-told-me-443m",
+      "source": "Dev.to",
+      "published_at": "2026-08-15T10:00:02Z",
+      "summary": "A corrupt video that every tool called valid, a backup that stopped running while its timer looked healthy, and an API account that hit zero without a single alert. Three production outages from one solo pipeline, and the one monitoring rule that wou",
+      "tags": [
+        "agents",
+        "automation",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
