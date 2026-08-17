@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:42:43Z",
+  "generated_at": "2026-08-17T13:02:00Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1142,16 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3ad1f9fa29ea486358078bf338c84030",
-      "title": "Does Kubernetes DRA Replace HAMi?",
-      "url": "https://www.cncf.io/blog/2026/08/07/does-kubernetes-dra-replace-hami/",
-      "source": "CNCF Blog",
-      "published_at": "2026-08-07T11:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9209c48b397ce8da04112de5043346a5",
       "title": "langchain-ai/langgraph: langgraph-checkpoint-postgres==3.1.2",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2",
@@ -1183,16 +1173,6 @@
         "devops",
         "monitoring"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7304b04a65fa63af1e01ef048e300f2e",
-      "title": "ollama/ollama: v0.32.7",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-10T11:13:46+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -1462,21 +1442,6 @@
         "cdk",
         "devops",
         "infrastructureascode"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2417b69c265f264030df806eb9dcbf03",
-      "title": "How many npm packages actually run code when you `npm install`? I measured a sample.",
-      "url": "https://dev.to/myzura/how-many-npm-packages-actually-run-code-when-you-npm-install-i-measured-a-sample-45e4",
-      "source": "Dev.to",
-      "published_at": "2026-08-10T12:49:37Z",
-      "summary": "The npm supply-chain conversation tends to happen without a denominator. \"Install scripts are...",
-      "tags": [
-        "security",
-        "node",
-        "devops",
-        "npm"
       ],
       "relevance_score": 0.0
     },
@@ -3130,6 +3095,36 @@
         "php",
         "testing"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b539de335d7dc24c4302d6d5097500d9",
+      "title": "Do you actually track the cost of your infrastructure?",
+      "url": "https://www.reddit.com/r/devops/comments/1vqria3/do_you_actually_track_the_cost_of_your/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-17T12:52:46+00:00",
+      "summary": "I've been wondering how many people actually calculate the real cost of running their infrastructure. Not just the server or cloud bill, but electricity, storage, maintenance, upgrades, downtime, and the time spent keeping everything running. Sometimes a cloud bill looks expensive until you factor i",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e6137bb0f8a7046e816dbb68f61ad558",
+      "title": "istio/istio: Istio 1.31.0-beta.1",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.0-beta.1",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-08-17T12:46:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0692cdb055e4e33a7551f96912fb7e56",
+      "title": "apache/airflow: python-client/3.3.1",
+      "url": "https://github.com/apache/airflow/releases/tag/python-client%2F3.3.1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-17T10:44:49+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
