@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T13:02:00Z",
+  "generated_at": "2026-08-17T14:39:05Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -127,16 +127,6 @@
       "url": "https://kubernetes.io/blog/2026/05/26/reconciling-unfixed-kubernetes-cves/",
       "source": "Kubernetes Blog",
       "published_at": "2026-05-26T17:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dc9447c6a1590e1ada9b9a0ad4742ce4",
-      "title": "Automate root cause analysis across Datadog and Elasticsearch with AWS DevOps Agent",
-      "url": "https://aws.amazon.com/blogs/devops/automate-root-cause-analysis-across-datadog-and-elasticsearch-with-aws-devops-agent/",
-      "source": "AWS Blog",
-      "published_at": "2026-05-19T21:39:20+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -892,16 +882,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8b3f1ab360ded9c300273b9cdd95e557",
-      "title": "Coding Agent Horror Stories: The 29 Million Secret Problem",
-      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-29-million-secret-problem/",
-      "source": "Docker Blog",
-      "published_at": "2026-07-28T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b219155dd8f391a8177f0c9581bed7e7",
       "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
@@ -1162,40 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6a9596b9b8c8884f76ccd173010d6169",
-      "title": "The Scheduled Step Failed on Night One. The Heartbeat Stayed Green.",
-      "url": "https://dev.to/hexisteme/the-scheduled-step-failed-on-night-one-the-heartbeat-stayed-green-lca",
-      "source": "Dev.to",
-      "published_at": "2026-08-10T09:00:07Z",
-      "summary": "A nightly job's meter computation failed on its first and only scheduled run because of a launchd PATH difference invisible from an interactive shell, and a fail-soft design absorbed the failure so the job's heartbeat kept reporting healthy — nothing in the system would have reported it for the next 55 nights.",
-      "tags": [
-        "automation",
-        "devops",
-        "monitoring"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c0b37d1e4ecd4d90cdd2a4399ee82256",
-      "title": "langchain-ai/langchain: langchain-openai==1.4.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.4.3",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-08-10T13:23:36+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b1530e1ca5f8e3954df8b92e32dc0d57",
-      "title": "AI agent shouldn't stop working when you close your laptop.Here's what actually fixed it",
-      "url": "https://www.reddit.com/r/devops/comments/1vkkmiu/ai_agent_shouldnt_stop_working_when_you_close/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-10T13:18:14+00:00",
-      "summary": "We've been running AI coding agents inside Kubernetes instead of on developer laptops, and the first thing that broke was the most obvious one: any long-running process died the moment someone closed their browser tab. If you've only ever run short-lived jobs, this doesn't come up. But a coding agen",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6d5988cfc6a385cb97fcd4bbc2ae55ba",
       "title": "Automate SageMaker HyperPod incident triage and root-cause-analysis with AWS DevOps Agent",
       "url": "https://aws.amazon.com/blogs/devops/automate-sagemaker-hyperpod-incident-triage-and-root-cause-analysis-with-aws-devops-agent/",
@@ -1211,36 +1157,6 @@
       "url": "https://aws.amazon.com/blogs/devops/scaling-organizational-knowledge-in-kiro-with-amazon-bedrock-knowledge-bases-langchain-and-mcp/",
       "source": "AWS Blog",
       "published_at": "2026-08-10T11:24:36+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e30302e2ae8d3be3b38927d6f7a2dfb0",
-      "title": "“It blows my mind”-“It has a tendency to overengineer things a little”: Developers react to road-testing OpenAI GPT‑5.6 Sol",
-      "url": "https://thenewstack.io/developers-review-gpt-56-sol/",
-      "source": "The New Stack",
-      "published_at": "2026-08-10T14:28:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "97a88fd1131789e645696c133c0efe67",
-      "title": "Adapting to AI tooling in DevOps",
-      "url": "https://www.reddit.com/r/devops/comments/1vklxud/adapting_to_ai_tooling_in_devops/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-10T14:10:17+00:00",
-      "summary": "My company is making a hard shift towards AI and I'm struggling. I'm tasked with something I have a small amount of knowledge about, but not enough to fully implement. Before AI, my approach to challenges like this would be to iterate on it, work through the problems, and learn what's required. Usin",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "058d9e60e0e1d677daf78d3f56682a5b",
-      "title": "Ten Great DevOps Job Opportunities",
-      "url": "https://devops.com/ten-great-devops-job-opportunities-18/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-10T13:58:58+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3123,6 +3039,71 @@
       "url": "https://github.com/apache/airflow/releases/tag/python-client%2F3.3.1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-08-17T10:44:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6ca3070f15ff27fbc6240e0b1eb361f6",
+      "title": "I built and run a production e-commerce platform - DevOps and security lessons from operating it myself",
+      "url": "https://www.reddit.com/r/devops/comments/1vqt3ne/i_built_and_run_a_production_ecommerce_platform/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-17T13:57:57+00:00",
+      "summary": "I built and currently operate my own e-commerce platform in production as a solo engineer. What started as an application project became a practical exercise in DevOps, infrastructure, security, and production operations. Running a real system has taught me that DevOps is much more than deployment. ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1b6821d3926c913e154423eaf9df5027",
+      "title": "Ten Great DevOps Job Opportunities",
+      "url": "https://devops.com/ten-great-devops-job-opportunities-19/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-17T13:27:25+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "75e871f43a0c4eb85bc5188e607ce8d9",
+      "title": "Streamline your GitHub journey with AWS CodePipeline and AWS DevOps Agent",
+      "url": "https://aws.amazon.com/blogs/devops/streamline-your-github-journey-with-aws-codepipeline-and-aws-devops-agent/",
+      "source": "AWS Blog",
+      "published_at": "2026-08-17T13:25:12+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0693e4af86d68e7bf81d76547e2532ee",
+      "title": "Dynatrace Acquires Arize as AI Agents Deepen the Observability Challenge",
+      "url": "https://devops.com/dynatrace-acquires-arize-as-ai-agents-deepen-the-observability-challenge/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-17T13:03:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c8440071d5304fe155eb71469973e0d2",
+      "title": "SIP: Five Immediate Software Supply Chain Controls",
+      "url": "https://dev.to/docker/sip-five-immediate-software-supply-chain-controls-4836",
+      "source": "Dev.to",
+      "published_at": "2026-08-17T11:52:57Z",
+      "summary": "I talk about software supply chain security in different capacities, and I often get the same...",
+      "tags": [
+        "ai",
+        "docker",
+        "security",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3ad1f9fa29ea486358078bf338c84030",
+      "title": "Does Kubernetes DRA Replace HAMi?",
+      "url": "https://www.cncf.io/blog/2026/08/07/does-kubernetes-dra-replace-hami/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-07T11:30:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
