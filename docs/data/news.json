@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:39:05Z",
+  "generated_at": "2026-08-17T16:39:59Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1172,41 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e263e2a506000ac41a226e0a8206051f",
-      "title": "apache/airflow: providers-cncf-kubernetes/10.21.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-cncf-kubernetes%2F10.21.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-10T15:32:05+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ca69285bcff55c8b28c0a737b5d0c08a",
-      "title": "apache/airflow: providers-google/22.3.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-google%2F22.3.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-10T15:32:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9114f6070b9ccde0c936fa77083bb829",
-      "title": "Three Clouds, Three Native Agents",
-      "url": "https://dev.to/aws-builders/three-clouds-three-native-agents-5hda",
-      "source": "Dev.to",
-      "published_at": "2026-08-10T15:04:44Z",
-      "summary": "What is this project trying to do?   Three AI agents, each built with a different vendor's...",
-      "tags": [
-        "cloud",
-        "ai",
-        "architecture",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "153ff92cc6e39ed4d93d192c7cc69340",
       "title": "Anthropic Makes Claude Code’s Auto Mode the Default, Betting Automation Beats Manual Review",
       "url": "https://devops.com/anthropic-makes-claude-codes-auto-mode-the-default-betting-automation-beats-manual-review/",
@@ -1519,21 +1484,6 @@
       "published_at": "2026-08-10T22:48:32+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b9e385568e4263f88fcb4ebeef34c085",
-      "title": "Multi-Window Burn Rate Alerting: A Formal Analysis of the AND-Gate Logic Behind Google's Alert Model",
-      "url": "https://dev.to/npayyappilly/multi-window-burn-rate-alerting-a-formal-analysis-of-the-and-gate-logic-behind-googles-alert-model-37h0",
-      "source": "Dev.to",
-      "published_at": "2026-08-10T16:00:00Z",
-      "summary": "Alerting on Service Level Objectives is a solved problem in the sense that the solution exists, has...",
-      "tags": [
-        "sre",
-        "devops",
-        "reliability",
-        "kubernetes"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2059,16 +2009,6 @@
         "devops",
         "nhi"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8e08c5430fe1c9109a712bd5f114b6fb",
-      "title": "prometheus/prometheus: v0.313.2",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.2",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-07-30T13:27:56+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3099,13 +3039,58 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3ad1f9fa29ea486358078bf338c84030",
-      "title": "Does Kubernetes DRA Replace HAMi?",
-      "url": "https://www.cncf.io/blog/2026/08/07/does-kubernetes-dra-replace-hami/",
+      "id": "09fab05334cc0db11c5aa6e4f4383c82",
+      "title": "How do you decide what to investigate next during a production latency incident",
+      "url": "https://www.reddit.com/r/devops/comments/1vqwy5f/how_do_you_decide_what_to_investigate_next_during/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-17T16:26:44+00:00",
+      "summary": "Hey hi everyone,  I am just trying to understand how engineers/SREs who dealt with real production latency incidents investigate it Lets say you have the following - Logs - Recent deployment information - Application health - Database metrics - External dependency health/metrics - Infrastructure met",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "391a66ffb3105ed39c67c7a2c77d1662",
+      "title": "CNCF Announces Kubeflow’s Graduation, Solidifying a Standard for Cloud Native AI Operations",
+      "url": "https://www.cncf.io/announcements/2026/08/17/cncf-announces-kubeflows-graduation-solidifying-the-standard-for-cloud-native-ai-operations/",
       "source": "CNCF Blog",
-      "published_at": "2026-08-07T11:30:00+00:00",
+      "published_at": "2026-08-17T16:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "976be1a3293f10ac017b4d4e7f981d0e",
+      "title": "prometheus/prometheus: v3.14.0",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.14.0",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-08-17T15:41:51+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "55cb49175ddfba2f47ac35eb80a4bd4a",
+      "title": "Fixing broken Datadog APM gaps",
+      "url": "https://www.reddit.com/r/devops/comments/1vquhco/fixing_broken_datadog_apm_gaps/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-17T14:49:56+00:00",
+      "summary": "Hi Observability Experts, I am working with a client managing a large-scale infrastructure across AWS, Azure, and on-premise environments. They have used Datadog for 4–5 years, but legacy technical debt has left their APM configuration fragmented: The Problem: APM libraries are out of date, and sour",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dcc80bb7b36a62c9651b6738eaf7a554",
+      "title": "Containing the Autonomous Blast Radius: Runtime AI Safety with Docker and LLM Judges",
+      "url": "https://dev.to/karanverma/containing-the-autonomous-blast-radius-runtime-ai-safety-with-docker-and-llm-judges-ogf",
+      "source": "Dev.to",
+      "published_at": "2026-08-17T12:42:41Z",
+      "summary": "A lot of AI safety work has focused on what models produce: harmful content, misinformation, bias,...",
+      "tags": [
+        "docker",
+        "ai",
+        "security",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
