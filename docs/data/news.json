@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T13:03:30Z",
+  "generated_at": "2026-08-18T14:44:20Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1119,31 +1119,6 @@
       "published_at": "2026-08-11T14:00:50+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "72aa030ac62fb22ddd65bb4a11ab8b24",
-      "title": "ollama/ollama: v0.32.9",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.9",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-11T13:24:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c3f4aafacce37e87e76704a37d31f473",
-      "title": "I Showed My CISO Kiro Crew: Here's the Security Model That Got It Approved",
-      "url": "https://dev.to/aws-builders/i-showed-my-ciso-kiro-crew-heres-the-security-model-that-got-it-approved-423j",
-      "source": "Dev.to",
-      "published_at": "2026-08-11T12:25:14Z",
-      "summary": "5-min demo: AI agent investigates a P1, gets BLOCKED on dangerous commands, then fixes it with human approval. 8 layers, 137 deny patterns, signed audit logs.",
-      "tags": [
-        "agents",
-        "ai",
-        "security",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2975,6 +2950,49 @@
         "python",
         "devops",
         "powerautomate"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "93fc1707cc62fd6bd252c6fc3d80bff1",
+      "title": "grafana/grafana: 12.4.9",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.9",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-08-18T14:11:26+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f8dd79abda27b8b7ad37403ef204aa3c",
+      "title": "Did GitHub Just Gaslight Our Monitoring System?",
+      "url": "https://www.reddit.com/r/devops/comments/1vrosn0/did_github_just_gaslight_our_monitoring_system/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-18T13:12:07+00:00",
+      "summary": "Did anyone else notice that the GitHub status page reported an incident with GitHub Actions, only to deny it 47 minutes later? Our monitors captured it, paged our on-call team, and then GitHub denied that any incident had occurred. https://www.githubstatus.com/incidents/gx7js8bd0jpz  &#32; submitted",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "860fa06b55f37aa071a990f4fa3432b6",
+      "title": "OpenAI’s Greg Brockman: Z.ai’s GLM-5.3 likely to “significantly accelerate the threat landscape”",
+      "url": "https://thenewstack.io/openai-open-weight-glm-5-3/",
+      "source": "The New Stack",
+      "published_at": "2026-08-18T13:10:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9cd77db67ccd5680d545026bd015427c",
+      "title": "How Ranex Judges AI-Written Code: The Kernel, Explained",
+      "url": "https://dev.to/anthonygarces/how-ranex-judges-ai-written-code-the-kernel-explained-3d8",
+      "source": "Dev.to",
+      "published_at": "2026-08-15T06:23:20Z",
+      "summary": "Your agent reports “done — all tests pass.” Do you believe it?  Nothing in that sentence is evidence,...",
+      "tags": [
+        "ai",
+        "devops"
       ],
       "relevance_score": 0.0
     }
