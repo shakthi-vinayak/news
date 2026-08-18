@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:44:20Z",
+  "generated_at": "2026-08-18T16:43:10Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -932,16 +932,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "28f189a23827d711d49987253b73f90f",
-      "title": "Docker OIDC connections for GitHub Actions available for Docker Orgs",
-      "url": "https://www.docker.com/blog/docker-oidc-connections-for-github-actions-available-for-docker-orgs/",
-      "source": "Docker Blog",
-      "published_at": "2026-07-31T16:30:48+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4b23ddd2f01f02c6f96128528bd72eb5",
       "title": "Kubernetes v1.37 Sneak Peek",
       "url": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
@@ -1128,16 +1118,6 @@
       "source": "The New Stack",
       "published_at": "2026-08-11T16:44:15+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4288218f4d29d4287550563a88d01807",
-      "title": "We Audited 156,808 Failed CI Runs Across Eight Open Source Repos",
-      "url": "https://www.reddit.com/r/devops/comments/1vlmbu3/we_audited_156808_failed_ci_runs_across_eight/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-11T16:28:14+00:00",
-      "summary": "      Author here. Two caveats worth flagging up front. The corpus skews hard: PostHog and Grafana are about two thirds of it, both running enormous matrices. So it's &quot;what breaks in a big CI matrix,&quot; not &quot;what breaks in CI.&quot; And the 1.3% is a floor, not a hit rate. A retrospecti",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2992,6 +2972,41 @@
       "summary": "Your agent reports “done — all tests pass.” Do you believe it?  Nothing in that sentence is evidence,...",
       "tags": [
         "ai",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4b7130b790c3095417b797f661b5836c",
+      "title": "Deterministic Robots, Agentic Reasoning: Balancing Reliability and Flexibility in Software Test Automation",
+      "url": "https://devops.com/deterministic-robots-agentic-reasoning-balancing-reliability-and-flexibility-in-software-test-automation/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-18T16:27:55+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f8d3090ea5048968409da8dc26aa677f",
+      "title": "17,600 Actions: Agent Security Is a Systems Problem",
+      "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
+      "source": "Docker Blog",
+      "published_at": "2026-08-18T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "18b9da1883fcb79128aa5b73c558bc9e",
+      "title": "My Uptime Monitor Was Set to Every 5 Minutes. In July It Ran 15 Times a Day.",
+      "url": "https://dev.to/mrviduus/my-uptime-monitor-was-set-to-every-5-minutes-in-july-it-ran-15-times-a-day-3if8",
+      "source": "Dev.to",
+      "published_at": "2026-08-18T13:30:20Z",
+      "summary": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.   🔨 #bugsmash, week...",
+      "tags": [
+        "devchallenge",
+        "bugsmash",
+        "github",
         "devops"
       ],
       "relevance_score": 0.0
