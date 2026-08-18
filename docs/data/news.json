@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T03:06:17Z",
+  "generated_at": "2026-08-18T04:46:21Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,36 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "cbbcd6f7130446cb7f07b6f3f2f85b20",
-      "title": "apache/airflow: constraints-3.3.1rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.3.1rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-11T04:40:28+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f28c66dbb64a825797ee4c5c95767fe2",
-      "title": "apache/airflow: task-sdk/1.3.1rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.3.1rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-11T04:07:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1406be4b6f8f62daa4821cc6b5a3c914",
-      "title": "apache/airflow: 3.3.1rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/3.3.1rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-11T04:07:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "43cf29825d4e8cbc02363b79bba161c0",
       "title": "ollama/ollama: v0.32.8",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.8",
@@ -1209,21 +1179,6 @@
       "published_at": "2026-08-11T10:41:06+00:00",
       "summary": "Deployah is a CLI for deploying apps to Kubernetes without becoming a Helm author and without standing up an internal platform. Model: write deployah.yaml → Deployah renders values and installs a Helm release. Single Go binary; embeds helm, kubectl, and kind. Nothing gets installed in the cluster. v",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6bdb2248de20b3db0ff3bbdf5007ac2b",
-      "title": "The Kernel Trick Is the Oldest Move in Engineering",
-      "url": "https://dev.to/nishant_banginwar_80b7dc5/the-kernel-trick-is-the-oldest-move-in-engineering-4ij5",
-      "source": "Dev.to",
-      "published_at": "2026-08-11T03:22:24Z",
-      "summary": "Classic Machine Learning Through the Eyes of an SRE — Part 4  When a computation is too hard, don't...",
-      "tags": [
-        "machinelearning",
-        "ai",
-        "devops",
-        "career"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2990,6 +2945,36 @@
         "career",
         "remote",
         "africa"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1b235c100711ef11765c9aea250e3fb3",
+      "title": "Measuring the real concurrency ceiling of an LLM agent runner",
+      "url": "https://dev.to/arti0/measuring-the-real-concurrency-ceiling-of-an-llm-agent-runner-53cb",
+      "source": "Dev.to",
+      "published_at": "2026-08-15T14:24:21Z",
+      "summary": "I wanted to raise the concurrency limits on my local AI agent runner. The UI now supports multiple...",
+      "tags": [
+        "ai",
+        "llm",
+        "performance",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "12e23ee87809e2044d5ee765376832f0",
+      "title": "We Health-Checked 86 Public MCP Servers. Not One Uses the Legacy Transport.",
+      "url": "https://dev.to/merlonix/we-health-checked-86-public-mcp-servers-not-one-uses-the-legacy-transport-74n",
+      "source": "Dev.to",
+      "published_at": "2026-08-13T18:28:24Z",
+      "summary": "Transport split, auth rates, negotiated protocol revisions, handshake latency and tool-surface size across every reachable public remote MCP server in our directory.",
+      "tags": [
+        "mcp",
+        "ai",
+        "devops",
+        "monitoring"
       ],
       "relevance_score": 0.0
     }
