@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T16:43:10Z",
+  "generated_at": "2026-08-18T18:53:13Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1112,41 +1112,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "439f04b1e65b3cd4d1961fdc2ad389b5",
-      "title": "Databricks acquires Electric to give every AI agent its own Postgres database",
-      "url": "https://thenewstack.io/databricks-electric-wasm-agentic-postgres/",
-      "source": "The New Stack",
-      "published_at": "2026-08-11T16:44:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9f68c65510caa983fd908ee5d4cb233f",
       "title": "CNCF Announces Graduation of Cloud Native Buildpacks, Advancing the Standard for Container Builds",
       "url": "https://www.cncf.io/announcements/2026/08/11/cncf-announces-graduation-of-cloud-native-buildpacks-advancing-the-standard-for-container-builds/",
       "source": "CNCF Blog",
       "published_at": "2026-08-11T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "216204b469775fa78ec1d4368f6e7a03",
-      "title": "langchain-ai/langchain: langchain-core==1.5.4",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.4",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-08-11T18:03:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "669ae1098df8c1ed47c75b22df55641f",
-      "title": "OpenAI’s ChatGPT/Codex desktop app is now on Linux",
-      "url": "https://thenewstack.io/openais-chatgpt-desktop-linux/",
-      "source": "The New Stack",
-      "published_at": "2026-08-11T17:53:59+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3008,6 +2978,101 @@
         "bugsmash",
         "github",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cede2008003bc766b03693fbe31b97b6",
+      "title": ".NET 10 dotnet tool exec: Pin the Version and Feed in CI",
+      "url": "https://dev.to/ssukhpinder/net-10-dotnet-tool-exec-pin-the-version-and-feed-in-ci-2jgl",
+      "source": "Dev.to",
+      "published_at": "2026-08-18T18:45:55Z",
+      "summary": "A CI step that says dotnet tool exec Some.Tool looks isolated, but it is not fully reproducible....",
+      "tags": [
+        "dotnet",
+        "devops",
+        "programming",
+        "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d21a3867111096335c1c0224372aa043",
+      "title": "QA Engineer (9 YOE) Looking to Transition into DevOps — Need Guidance on Roadmap & Resources",
+      "url": "https://www.reddit.com/r/devops/comments/1vry4fc/qa_engineer_9_yoe_looking_to_transition_into/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-18T18:45:32+00:00",
+      "summary": "Hi everyone, I’m a QA Engineer in the gaming domain with around 9 years of experience, and I’m seriously considering transitioning into DevOps. I’d really appreciate some guidance from people who have made a similar transition or are currently working in DevOps. Here’s where I currently stand: I hav",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e72156f34fb86974dd0e14dfabbdeeee",
+      "title": "Transition from Internal IT to Devops Engineer",
+      "url": "https://www.reddit.com/r/devops/comments/1vrx2ez/transition_from_internal_it_to_devops_engineer/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-18T18:08:24+00:00",
+      "summary": "I have been working as internal IT (corpeng,sys admin) for the last 7 years, mainly managing various SaaSes from google workspace to Okta, mdm's etc and since 3 months i am now working as a platform engineer for the same company but i feel like i am still struggling alot to get the fundamentals righ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0bb5dd64cf5bc779d88ac196c28824d3",
+      "title": "A Claude Code skill was eating 200,000 tokens before answering a single question",
+      "url": "https://thenewstack.io/claude-code-token-reduction/",
+      "source": "The New Stack",
+      "published_at": "2026-08-18T17:42:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bc17ece80f294b3e32a126fb606c2f4a",
+      "title": "langchain-ai/langchain: langchain-openai==1.5.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.2",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-18T17:38:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8f1467993caf2ddfd73f3ca39cb8190f",
+      "title": "Agentic AI has a latency problem that more compute won’t solve",
+      "url": "https://thenewstack.io/agentic-ai-latency-infrastructure/",
+      "source": "The New Stack",
+      "published_at": "2026-08-18T16:58:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "73fe0c91b5a670fa90b285086a532f7d",
+      "title": "RBAC for AI: Governing the AI Control Plane",
+      "url": "https://dev.to/kenwalger/rbac-for-ai-governing-the-ai-control-plane-e59",
+      "source": "Dev.to",
+      "published_at": "2026-08-18T16:43:00Z",
+      "summary": "Giving someone access to the AI control plane is not the same as deciding which parts of it they are...",
+      "tags": [
+        "ai",
+        "security",
+        "architecture",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "18e8659581470846123427164d51ca72",
+      "title": "Day 28: Cherry-Pick Takes One Commit, and the Tag Is the Address",
+      "url": "https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-28-cherry-pick-takes-one-commit-and-the-tag-is-the-address-k33",
+      "source": "Dev.to",
+      "published_at": "2026-08-17T16:51:42Z",
+      "summary": "Both of today's tasks came down to being precise about exactly what you are moving and exactly where...",
+      "tags": [
+        "devops",
+        "git",
+        "aws",
+        "docker"
       ],
       "relevance_score": 0.0
     }
