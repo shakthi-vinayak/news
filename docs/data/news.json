@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:40:00Z",
+  "generated_at": "2026-08-18T13:03:30Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -932,16 +932,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "764587c5a2f5bc9be16c5555ab0dae8c",
-      "title": "The Future of Agentic AI Depends on Openness and Trust. That’s Why Docker Is Joining Nvidia’s Open Secure AI Alliance.",
-      "url": "https://www.docker.com/blog/docker-joins-nvidia-open-secure-ai-alliance/",
-      "source": "Docker Blog",
-      "published_at": "2026-07-30T19:31:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "28f189a23827d711d49987253b73f90f",
       "title": "Docker OIDC connections for GitHub Actions available for Docker Orgs",
       "url": "https://www.docker.com/blog/docker-oidc-connections-for-github-actions-available-for-docker-orgs/",
@@ -1062,26 +1052,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6ba0999f064797084566302270a29b8e",
-      "title": "grafana/grafana: 13.1.3",
-      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.3",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-08-07T03:03:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1c89cff9f1f33f4302e7964135b80de1",
-      "title": "grafana/grafana: 12.4.8",
-      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.8",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-08-07T02:56:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9209c48b397ce8da04112de5043346a5",
       "title": "langchain-ai/langgraph: langgraph-checkpoint-postgres==3.1.2",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2",
@@ -1122,41 +1092,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "64b043e89992d8011cf4190e0bf51843",
-      "title": "Deployah: short app specs → Helm releases (no charts, no in-cluster install) – v0.7 adds stateful + workers",
-      "url": "https://www.reddit.com/r/devops/comments/1vldw7n/deployah_short_app_specs_helm_releases_no_charts/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-11T10:41:06+00:00",
-      "summary": "Deployah is a CLI for deploying apps to Kubernetes without becoming a Helm author and without standing up an internal platform. Model: write deployah.yaml → Deployah renders values and installs a Helm release. Single Go binary; embeds helm, kubectl, and kind. Nothing gets installed in the cluster. v",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "358fa6fe3a6e7713064f477eabeddb23",
-      "title": "The unholy trinity of LLM API errors (and my dirty fix to stop agents from crashing at 2 AM)",
-      "url": "https://www.reddit.com/r/devops/comments/1vlgjgg/the_unholy_trinity_of_llm_api_errors_and_my_dirty/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-11T12:49:20+00:00",
-      "summary": "      If you're running any kind of agent loop in prod, you already know these three. Ranked by how much sleep they’ve actually cost me: 429 (Rate limited) — Either my agent went rogue or the provider is having a meltdown. Never hard-fail on this. Exponential backoff is mandatory here, otherwise you",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6179212bf18b25cd8b1e049572d50288",
       "title": "istio/istio: Istio 1.31.0-alpha.2",
       "url": "https://github.com/istio/istio/releases/tag/1.31.0-alpha.2",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-08-11T12:40:23+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f79e3258f2cc5c0c7bc690841f87c883",
-      "title": "prometheus/prometheus: 3.14.0-rc.0 / 2026-08-06",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.14.0-rc.0",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-08-11T11:05:32+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1684,16 +1624,6 @@
         "devops",
         "nhi"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0a53d270d63e3db0e01dd45084475b20",
-      "title": "istio/istio: Istio 1.30.3",
-      "url": "https://github.com/istio/istio/releases/tag/1.30.3",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-07-16T16:50:56+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -2970,6 +2900,81 @@
         "agents",
         "devops",
         "architecture"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f6494258b412c449fa0f0c1f1ac54c05",
+      "title": "Coding Agent Horror Stories: The Command You Already Approved",
+      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-command-you-already-approved/",
+      "source": "Docker Blog",
+      "published_at": "2026-08-18T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f3dc2476d048d608af18be8e39e35bec",
+      "title": "grafana/grafana: 13.2.0",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.2.0",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-08-18T12:48:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "160504edfe9b55778e660620890d8588",
+      "title": "grafana/grafana: v13.1.4",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.4",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-08-18T12:13:20+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "539e9fbd8bff1770e791f6c02fd7a602",
+      "title": "grafana/grafana: v12.4.9",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.9",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-08-18T12:09:59+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8bf18484cf7345ff3bf6111d0d64c640",
+      "title": "Cloud Native platform sovereignty through multi-plane architecture",
+      "url": "https://www.cncf.io/blog/2026/08/18/cloud-native-platform-sovereignty-through-multi-plane-architecture/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-18T11:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "08f79f31966de36be4acb8a1ec1e2687",
+      "title": "istio/istio: 1.31.0-beta.2",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.0-beta.2",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-08-18T11:15:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e048bb3cd15332dd1b2a8d877fc2168a",
+      "title": "Three Ways to Monitor Prepaid API Balances (Excel, Python + Cron, Power Automate)",
+      "url": "https://dev.to/saint_vandora/three-ways-to-monitor-prepaid-api-balances-excel-python-cron-power-automate-eja",
+      "source": "Dev.to",
+      "published_at": "2026-08-18T11:14:57Z",
+      "summary": "If you run a platform that depends on prepaid APIs, SMS gateways, identity verification, and airtime,...",
+      "tags": [
+        "automation",
+        "python",
+        "devops",
+        "powerautomate"
       ],
       "relevance_score": 0.0
     }
