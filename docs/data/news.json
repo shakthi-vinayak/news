@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T08:50:22Z",
+  "generated_at": "2026-08-18T10:40:00Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-14T08:13:05+00:00",
+      "published_at": "2026-08-18T09:44:27+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -66,7 +66,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-14T10:21:10+00:00",
+      "published_at": "2026-08-18T09:41:51+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1172,16 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "fb8294737da40b6ae771341989085153",
-      "title": "prometheus/prometheus: v0.314.0-rc.0",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.314.0-rc.0",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-08-11T08:20:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "184f18f22bae919272073e3898b25873",
       "title": "langchain-ai/langgraph: langgraph==1.2.11",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.11",
@@ -1512,21 +1502,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "71d46dc52852b5e29fc8cabda4a24ef2",
-      "title": "Why localhost doesn't work as OpenAI Base URL in Cursor — and how to fix it",
-      "url": "https://dev.to/orchidfiles/why-localhost-doesnt-work-as-openai-base-url-in-cursor-and-how-to-fix-it-589e",
-      "source": "Dev.to",
-      "published_at": "2026-08-11T09:20:44Z",
-      "summary": "TL;DR: Cursor doesn't call your OpenAI Base URL from your local machine. It routes every request...",
-      "tags": [
-        "cursor",
-        "openai",
-        "devops",
-        "claude"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "03caf17f2e9242bfb69bc7f7156cc730",
       "title": "AI Agent for CI Failure Diagnosis",
       "url": "https://www.reddit.com/r/devops/comments/1vmg4ew/ai_agent_for_ci_failure_diagnosis/",
@@ -1709,16 +1684,6 @@
         "devops",
         "nhi"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fc57c98edafef699a05eef38fa2051af",
-      "title": "prometheus/prometheus: 3.13.2 / 2026-07-29",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.2",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-07-30T13:25:26+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -2936,6 +2901,76 @@
       "published_at": "2026-08-18T07:32:26+00:00",
       "summary": "After working with Kubernetes in production, I've noticed that some of the most annoying incidents aren't caused by obvious failures. They're often caused by small configuration decisions that look perfectly reasonable during review. Things like:  missing resource requests/limits incorrect probes ov",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bb0c63b1ff5a0ea97d377685bfddf5cd",
+      "title": "grafana/grafana: v13.2.0",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.2.0",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-08-18T09:44:09+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e0211bfc9c61ce5704c1a94f672a7193",
+      "title": "n8n-io/n8n: n8n@2.36.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-08-18T09:41:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e87cf2668d43d2a2043b3e2db3ea9b06",
+      "title": "prometheus/prometheus: 3.14.0 / 2026-08-17",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.14.0",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-08-18T08:49:40+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2b99d0b05162c5bf9b39dc5acf76a2f3",
+      "title": "Copilot Autofix Introduced a Critical CI/CD Bug at Snowflake. Here's How to Harden GitHub Actions",
+      "url": "https://dev.to/jamilxt/copilot-autofix-introduced-a-critical-cicd-bug-at-snowflake-heres-how-to-harden-github-actions-1pf",
+      "source": "Dev.to",
+      "published_at": "2026-08-17T16:05:39Z",
+      "summary": "On June 23, an autonomous AI security tool walked into Snowflake's internal Jira. It did not...",
+      "tags": [
+        "ai",
+        "security",
+        "java",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6cc58aea0726537bec34a1517a1f126e",
+      "title": "prometheus/prometheus: v0.314.0",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.314.0",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-08-17T15:42:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "455cd7d0d129f53ec1b8312545fc5714",
+      "title": "Your approval gate is not judgment — it is a lookup you never automated",
+      "url": "https://dev.to/unmannedops/your-approval-gate-is-not-judgment-it-is-a-lookup-you-never-automated-160h",
+      "source": "Dev.to",
+      "published_at": "2026-08-17T07:35:35Z",
+      "summary": "We spent two weeks believing our agent org couldn't publish because it lacked the capability. Today...",
+      "tags": [
+        "ai",
+        "agents",
+        "devops",
+        "architecture"
+      ],
       "relevance_score": 0.0
     }
   ]
