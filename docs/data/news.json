@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:08:51Z",
+  "generated_at": "2026-08-19T04:47:42Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -3031,6 +3031,36 @@
         "python",
         "npm",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e465fa319dbd34bdb665dd71b1bd0c1a",
+      "title": "How I wrote a Go message broker with a throughput of a million messages per second",
+      "url": "https://dev.to/erkin_khidirov_e1a1d8dc51/how-i-wrote-a-go-message-broker-with-a-throughput-of-a-million-messages-per-second-o86",
+      "source": "Dev.to",
+      "published_at": "2026-08-18T21:15:58Z",
+      "summary": "I built HermitMQ entirely in Go. The main feature is ditching heavy wrappers like JSON in favor of a...",
+      "tags": [
+        "hermitmq",
+        "json",
+        "go",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b62d8d0d76123cda813986c4e33c4eb2",
+      "title": "Building a Kubernetes Security Audit Tool with Go",
+      "url": "https://dev.to/ayinedjimi-consultants/building-a-kubernetes-security-audit-tool-with-go-4dnm",
+      "source": "Dev.to",
+      "published_at": "2026-08-18T10:05:28Z",
+      "summary": "Most Kubernetes clusters ship with insecure defaults that nobody touches until something goes wrong....",
+      "tags": [
+        "go",
+        "security",
+        "devops",
+        "tutorial"
       ],
       "relevance_score": 0.0
     }
