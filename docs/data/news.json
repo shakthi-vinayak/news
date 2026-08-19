@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T08:51:23Z",
+  "generated_at": "2026-08-19T10:39:54Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1317,21 +1317,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "603d2808a0ab2354ec1b0d4aa481ea39",
-      "title": "The Boring Stack Manifesto: Why Your Startup Probably Doesn't Need Kubernetes",
-      "url": "https://dev.to/libme/the-boring-stack-manifesto-why-your-startup-probably-doesnt-need-kubernetes-55bo",
-      "source": "Dev.to",
-      "published_at": "2026-08-12T08:02:23Z",
-      "summary": "A practical case for skipping Kubernetes at an early-stage startup, with a decision table and the failure modes that actually push you toward it.",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "architecture",
-        "startup"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d9ec943513f141192959f6c5402dc1fa",
       "title": "AI Raises the Stakes for Observability Engineering",
       "url": "https://devops.com/ai-raises-the-stakes-for-observability-engineering/",
@@ -2144,13 +2129,14 @@
       "url": "https://dev.to/techwithhari/multi-region-deployment-with-terraform-modules-2jok",
       "source": "Dev.to",
       "published_at": "2026-08-13T16:59:01Z",
-      "summary": "Guide to building multi‑region deployments with reusable Terraform modules for resilient cloud architectures.",
+      "summary": "The problem   I was managing infrastructure across multiple regions  a handful of virtual...",
       "tags": [
-        "DevOps",
-        "Cloud",
-        "Terraform"
+        "terraform",
+        "cloud",
+        "devops",
+        "aws"
       ],
-      "relevance_score": 0.88
+      "relevance_score": 0.0
     },
     {
       "id": "761db02408c27364988a296a7130ee7a",
@@ -2686,7 +2672,7 @@
       "title": "grafana/grafana: 13.2.0",
       "url": "https://github.com/grafana/grafana/releases/tag/v13.2.0",
       "source": "GitHub Releases (grafana)",
-      "published_at": "2026-08-18T12:48:13+00:00",
+      "published_at": "2026-08-19T10:36:29+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3064,7 +3050,7 @@
       "title": "n8n-io/n8n: n8n@2.36.2",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.2",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-19T08:15:23+00:00",
+      "published_at": "2026-08-19T08:57:06+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3082,6 +3068,16 @@
         "devops",
         "debugging"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "31c6b548dc2917fff5a7334885263e3c",
+      "title": "How Engineers Investigate Incidents with AI?",
+      "url": "https://www.reddit.com/r/devops/comments/1vsih2q/how_engineers_investigate_incidents_with_ai/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-19T10:23:01+00:00",
+      "summary": "      📣 Calling all DevOps using AI tooling during incident investigations: we want to learn from your real-world experience! Our MCP &amp; AI Ecosystem ProdDev team is conducting a user research study to understand how engineering teams handle incident investigations - and how AI agents (like Claud",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
