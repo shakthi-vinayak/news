@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:44:51Z",
+  "generated_at": "2026-08-19T16:42:57Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1112,31 +1112,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "70c75ecd2c3d3f2c8f4e79e94a61e6c6",
-      "title": "apache/airflow: task-sdk/1.3.1",
-      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.3.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-12T08:47:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "936a0d83ee3b243c6d3276844ad07d3e",
       "title": "Advancing AI model interoperability with Docker and ModelPack",
       "url": "https://www.cncf.io/blog/2026/08/12/advancing-ai-model-interoperability-with-docker-and-modelpack/",
       "source": "CNCF Blog",
       "published_at": "2026-08-12T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4fb8830379508fec7428dcf06b592527",
-      "title": "apache/airflow: Apache Airflow 3.3.1",
-      "url": "https://github.com/apache/airflow/releases/tag/3.3.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-12T09:50:17+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1188,31 +1168,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-12T16:49:57+00:00",
       "summary": "Hello all. The circumstance I have working with is the following: * I have an Apache2 PHP server that gets bundled as a Docker image in a CI process to ECR * I have an infra repository with a docker-compose.yml that bundles the PHP Docker image to an Nginx image, alongside Nginx config like attachin",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "02037e93d61860b1ebec08f927c8d8bf",
-      "title": "Installing Traefik Ingress Controller with cert-manager on Kubernetes",
-      "url": "https://dev.to/vultr/installing-traefik-ingress-controller-with-cert-manager-on-kubernetes-dbh",
-      "source": "Dev.to",
-      "published_at": "2026-08-12T16:23:50Z",
-      "summary": "Traefik is an open-source Kubernetes Ingress controller that pairs with cert-manager to automatically...",
-      "tags": [
-        "kubernetes",
-        "traefik",
-        "tls",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5c5a3fbf948dd735b8805b634dd34842",
-      "title": "LiteLLM Attack Affected 2,500 Companies, 434,000 CI/CD Pipelines: CloudSEK",
-      "url": "https://devops.com/litellm-attack-affected-2500-companies-434000-ci-cd-pipelines-cloudsek/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-12T16:09:40+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1279,16 +1234,6 @@
         "productivity",
         "devops"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fcb6dc3adb269d5ecf2e16217907a642",
-      "title": "hashicorp/terraform: v1.16.0-rc1",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-08-12T15:22:32+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3108,6 +3053,106 @@
         "devops",
         "cloud"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "37a599d6746e1ab971b9df69378b2867",
+      "title": "Can there be only 1 SRE Engineer in a company?",
+      "url": "https://www.reddit.com/r/devops/comments/1vsr726/can_there_be_only_1_sre_engineer_in_a_company/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-19T16:22:11+00:00",
+      "summary": "Is there a possibility of being the only sre engineer in a company? Before choosing it I want to clarify it because if there could be then hes life could be problematic because he has to stay on call everyday. Also if it is not there then will be on call rotation right? Because I don't want to stay ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1f2f2d52f8ebe97d63d139d78bb9ba80",
+      "title": "langchain-ai/langchain: langchain-core==1.6.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-19T15:55:59+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "977766776cab0a654e0ba35a45315228",
+      "title": "ollama/ollama: v0.32.15-rc1: ci: plumb temporary MLX patch through to docker stages (#17874)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-08-19T15:33:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "40cc14f30cc1f17c6b7079fbe4156de9",
+      "title": "apache/airflow: providers-samba/4.13.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-samba%2F4.13.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-19T15:20:39+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b0c40907767bb104665c2636abfff8b7",
+      "title": "apache/airflow: providers-tableau/5.6.1rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-tableau%2F5.6.1rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-19T15:20:39+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fa106a47d3e1b55c26b6580f4dcaad20",
+      "title": "apache/airflow: providers-snowflake/6.16.1rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.16.1rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-19T15:20:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "161e495cd2ff4fc95c0da15d091583d3",
+      "title": "apache/airflow: providers-standard/1.18.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.18.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-19T15:20:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c638b784a61507b8def0d3d553d8ef62",
+      "title": "apache/airflow: providers-postgres/7.0.2rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-postgres%2F7.0.2rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-19T15:20:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "228e44cfe798574db6a5b573e4df7227",
+      "title": "LangChain’s dcode Isn’t New. Its Governance Play for Sensitive Code Is",
+      "url": "https://devops.com/langchains-dcode-isnt-new-its-governance-play-for-sensitive-code-is/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-19T15:16:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4650e11617e250481e6b58804d706985",
+      "title": "Harness Adds AI Agents to Automate DevSecOps Workflows at Machine Speed",
+      "url": "https://devops.com/harness-adds-ai-agents-to-automate-devsecops-workflows-at-machine-speed/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-19T15:00:30+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
