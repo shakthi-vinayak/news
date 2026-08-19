@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T06:59:51Z",
+  "generated_at": "2026-08-19T08:51:23Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,16 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "cedbf21e9f358a0fc01a608e1ea071c9",
-      "title": "apache/airflow: 3.3.1",
-      "url": "https://github.com/apache/airflow/releases/tag/3.3.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-12T08:47:45+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "94e2c714043ed478b54967d66ba6356d",
       "title": "apache/airflow: constraints-latest",
       "url": "https://github.com/apache/airflow/releases/tag/constraints-latest",
@@ -1169,61 +1159,6 @@
       "published_at": "2026-08-12T08:47:27+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f550dfeea560670dcbc8d46d73fe5299",
-      "title": "apache/airflow: constraints-3.3.1",
-      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.3.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-12T08:45:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c45c904c380b9b119490ca2728330fe5",
-      "title": "n8n-io/n8n: n8n@1.123.70",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.70",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-12T08:27:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "87d32808e15ef25cec095234c9e4930a",
-      "title": "n8n-io/n8n: n8n@2.35.1",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-12T08:00:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "755949a5a2c3f92785243e94aca186e1",
-      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.70 (#36104)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-12T07:31:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6200f84d99dc69808061977488dd7a1d",
-      "title": "Preventing Quota Crashes via Antigravity CLI Agent Hooks",
-      "url": "https://dev.to/gde/preventing-quota-crashes-via-antigravity-cli-agent-hooks-24hd",
-      "source": "Dev.to",
-      "published_at": "2026-08-12T07:15:38Z",
-      "summary": "Solving the LLM quota monitoring paradox with zero-overhead local Connect RPC agent...",
-      "tags": [
-        "ai",
-        "gemini",
-        "antigravity",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3122,6 +3057,31 @@
       "published_at": "2026-08-19T05:27:45+00:00",
       "summary": "We've been evaluating Wiz over the past few weeks and I can definitely see why larger organisations like it. The visibility is impressive, but for a company of our size (around 200 people), it's difficult to justify the cost. We're mostly running AWS, Kubernetes and containerised applications, with ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d4599bd51a34b37f79478d442bb391bf",
+      "title": "n8n-io/n8n: n8n@2.36.2",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.2",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-08-19T08:15:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0d1d679bdb4fdf0f178e15f62bf6f930",
+      "title": "DigitalOcean Postgres Has a Firewall Trap. We Walked Right Into It.",
+      "url": "https://dev.to/anand_rathnas_d5b608cc3de/digitalocean-postgres-has-a-firewall-trap-we-walked-right-into-it-3inf",
+      "source": "Dev.to",
+      "published_at": "2026-08-19T02:20:59Z",
+      "summary": "Adding a single trusted-source rule to a previously-open DO managed Postgres flips the entire DB into enforcement mode. We learned this the hard way.",
+      "tags": [
+        "digitalocean",
+        "postgres",
+        "devops",
+        "debugging"
+      ],
       "relevance_score": 0.0
     }
   ]
