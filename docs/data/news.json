@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:41:44Z",
+  "generated_at": "2026-08-20T13:07:02Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -842,16 +842,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "386820a554be4633f66b04ff41078466",
-      "title": "kubernetes/kubernetes: v1.36.3",
-      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.3",
-      "source": "GitHub Releases (kubernetes)",
-      "published_at": "2026-07-23T00:35:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "68873e58253cde6c7ced66b831efc216",
       "title": "Terraform introduces workspaces and Stacks restore, and more",
       "url": "https://www.hashicorp.com/blog/terraform-introduces-workspaces-and-stacks-restore-and-more",
@@ -1062,16 +1052,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "9f68c65510caa983fd908ee5d4cb233f",
-      "title": "CNCF Announces Graduation of Cloud Native Buildpacks, Advancing the Standard for Container Builds",
-      "url": "https://www.cncf.io/announcements/2026/08/11/cncf-announces-graduation-of-cloud-native-buildpacks-advancing-the-standard-for-container-builds/",
-      "source": "CNCF Blog",
-      "published_at": "2026-08-11T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "00d77c9e7ac099810a6e7df31b840fc9",
       "title": "August Patches for Azure DevOps Server",
       "url": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-4/",
@@ -1188,26 +1168,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-13T13:12:55+00:00",
       "summary": "Recently saw posts about how AI isn't that good in distributed systems and it gave me validation on my own experience. When the model isn't dealing with a single codebase, when it has to connect the dots between a db, redis, other cloud infra, k8s that each already have a lot of configuration, it st",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "174e92efe713207fb08ecd68bca35a72",
-      "title": "Looking for a good free resource to learn Jenkins properly",
-      "url": "https://www.reddit.com/r/devops/comments/1vna68k/looking_for_a_good_free_resource_to_learn_jenkins/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-13T13:05:20+00:00",
-      "summary": "I’m new to DevOps and looking for some good free or paid resources to learn Jenkins from the ground up. I have around 6 years of experience as a Java developer and have used Jenkins at work, but mostly from a user/developer perspective. I’ve triggered jobs and worked with existing pipelines, but I’v",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bee5d5216e6e91d39b11d9e10c7f71fd",
-      "title": "Where Agents Belong in Enterprise Testing: What I Took Away from UiPath Test Cloud",
-      "url": "https://devops.com/where-agents-belong-in-enterprise-testing-what-i-took-away-from-uipath-test-cloud/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-13T12:00:17+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3054,6 +3014,36 @@
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-08-20T07:35:45+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d13687ee9d888ace861688719307262b",
+      "title": "German ciphers, telegrams, and cloud native data sovereignty",
+      "url": "https://www.cncf.io/blog/2026/08/20/german-ciphers-telegrams-and-cloud-native-data-sovereignty/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-20T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2d29aac87567b19b232d03a877bc8ae8",
+      "title": "kubernetes/kubernetes: v1.36.4",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.36.4",
+      "source": "GitHub Releases (kubernetes)",
+      "published_at": "2026-08-20T11:48:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9e90e7b498aac37e4877f696a7f78997",
+      "title": "AI-generated code detection in CI/CD — looking for approaches and real-world experience",
+      "url": "https://www.reddit.com/r/devops/comments/1vtgslx/aigenerated_code_detection_in_cicd_looking_for/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-20T11:26:30+00:00",
+      "summary": "I'm working on a system to estimate whether code committed to a repository was generated with AI coding tools. My current approach is based on Git/commit-level signals such as AI-related commit trailers, commit metadata, LOC changes, number of files changed, addition/deletion patterns, etc. The prob",
       "tags": [],
       "relevance_score": 0.0
     }
