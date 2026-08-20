@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:48:24Z",
+  "generated_at": "2026-08-20T07:01:15Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1172,21 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "dd1ba14e1c77b5efb28c46b64c52727f",
-      "title": "AI Access Control for Enterprise AI: Turning Policy Into Runtime Enforcement",
-      "url": "https://dev.to/kenwalger/ai-access-control-for-enterprise-ai-turning-policy-into-runtime-enforcement-5bkk",
-      "source": "Dev.to",
-      "published_at": "2026-08-12T23:46:00Z",
-      "summary": "API keys authenticate software. Policy objects decide what that software is allowed to do.  The...",
-      "tags": [
-        "ai",
-        "security",
-        "architecture",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "71f7dd43fc966dde00974b225db7b4e9",
       "title": "Looking for feedback on first attempt at setting up hosting and CI/CD for a fullstack .NET and React app with PostgreSQL database, hosted on Github using Github Actions.",
       "url": "https://www.reddit.com/r/devops/comments/1vn4tdm/looking_for_feedback_on_first_attempt_at_setting/",
@@ -1661,13 +1646,14 @@
       "url": "https://dev.to/ferztyle/build-an-mcp-server-in-go-part-1-designing-a-diagnostic-grade-kubernetes-client-49a2",
       "source": "Dev.to",
       "published_at": "2026-08-14T14:12:02Z",
-      "summary": "First part of creating an MCP server in Go, focusing on a diagnostic‑grade Kubernetes client design.",
+      "summary": "This post designs the Kubernetes client. The next post wraps it as an MCP server and wires it to an...",
       "tags": [
-        "Kubernetes",
-        "DevOps",
-        "Platform Engineering"
+        "kubernetes",
+        "go",
+        "devops",
+        "mcp"
       ],
-      "relevance_score": 0.93
+      "relevance_score": 0.0
     },
     {
       "id": "1a90550dd0681a2785beacaa0c536213",
@@ -1940,21 +1926,6 @@
         "performance",
         "security",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4b4af0ebaa58746b99f9b5fdb846b495",
-      "title": "The deploy script that always said it worked",
-      "url": "https://dev.to/nasrulhazim/the-deploy-script-that-always-said-it-worked-3l4o",
-      "source": "Dev.to",
-      "published_at": "2026-08-12T23:34:47Z",
-      "summary": "TL;DR    I stood a Laravel control plane up on a bare Ubuntu host today. The provisioning...",
-      "tags": [
-        "devops",
-        "laravel",
-        "php",
-        "testing"
       ],
       "relevance_score": 0.0
     },
@@ -3107,7 +3078,7 @@
       "url": "https://www.reddit.com/r/devops/comments/1vt6t5a/backend_here_seeking_some_insights/",
       "source": "Reddit r/devops",
       "published_at": "2026-08-20T02:25:59+00:00",
-      "summary": "I'm backend eng and mostly the thing that kept me working  is just making life easier for the other teams  android needs response in a specific way sure  Front needs this api to make his life easier why not  Team member hates it when I write code this way cuz harder to read no problem  Still devops ",
+      "summary": "I'm backend eng and mostly the thing that kept me working is just making life easier for the other teams android needs response in a specific way sure Front needs this api to make his life easier why not Team member hates it when I write code this way cuz harder to read no problem Still devops is li",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3119,6 +3090,31 @@
       "published_at": "2026-08-20T03:58:51+00:00",
       "summary": "I've been looking into non-prod AWS costs lately, and I'm wondering how far people actually go with shutting these environments down. Scheduling dev/test environments to shut down overnight or over the weekend seems like an easy win. The tricky part seems to be taking them all the way to zero, espec",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7948e3e6280c598f9bdbf2dc300f6ac2",
+      "title": "Cloud sovereignty is starting to become an architecture problem",
+      "url": "https://www.reddit.com/r/devops/comments/1vtadgo/cloud_sovereignty_is_starting_to_become_an/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-20T05:23:22+00:00",
+      "summary": "There’s a lot more to sovereignty than choosing an EU cloud region. With the EU Data Act, NIS2 and DORA, teams also need to think about where control and state live, where observability data goes, who can access the environment, and how dependent the workload is on a particular provider. This recent",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a6478451dcee88e9c5a4c29a04736c4d",
+      "title": "How I Replaced $450/mo in SaaS Subscriptions with a Single $4 Hetzner VPS (And Slept Better)",
+      "url": "https://dev.to/enfernandes/how-i-replaced-450mo-in-saas-subscriptions-with-a-single-4-hetzner-vps-and-slept-better-1175",
+      "source": "Dev.to",
+      "published_at": "2026-08-14T13:47:11Z",
+      "summary": "Originally published on SelfHostStack  Every modern tech team hits the same inflection point. You...",
+      "tags": [
+        "devops",
+        "selfhosted",
+        "docker",
+        "opensource"
+      ],
       "relevance_score": 0.0
     }
   ]
