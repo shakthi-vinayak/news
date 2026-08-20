@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T16:46:11Z",
+  "generated_at": "2026-08-20T18:54:49Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -922,16 +922,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "9d0ed138a27a381e40ea2ebe97053ef6",
-      "title": "Docker AI Governance: Audit Logs, Now Where Your Security Team Already Works",
-      "url": "https://www.docker.com/blog/docker-ai-governance-audit-logs-now-where-your-security-team-already-works/",
-      "source": "Docker Blog",
-      "published_at": "2026-08-03T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b6e56ff13909c49356e72c6982526138",
       "title": "Analyze and remediate technical debt autonomously with AWS Transform – continuous modernization",
       "url": "https://aws.amazon.com/blogs/devops/analyze-and-remediate-technical-debt-autonomously-with-aws-transform-continuous-modernization/",
@@ -1152,16 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "cfa002e588c2fb67d196a29df5df1ec7",
-      "title": "ollama/ollama: v0.32.10",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.10",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-13T18:32:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6e73c020e9f76ca4dc34be349f7ee23e",
       "title": "The Backup Awakens: A Star Wars Story",
       "url": "https://dev.to/timevolt/the-backup-awakens-a-star-wars-story-1616",
@@ -1182,16 +1162,6 @@
       "url": "https://github.com/istio/istio/releases/tag/1.31.0-beta.0",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-08-13T17:38:13+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d4600bd8e30742d1ee68b971ba4be9b5",
-      "title": "DeepSeek open sources an agent harness where everything is a plugin",
-      "url": "https://thenewstack.io/deepseek-harness-open-source-plugins/",
-      "source": "The New Stack",
-      "published_at": "2026-08-13T17:20:21+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1957,21 +1927,6 @@
         "llm",
         "performance",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "12e23ee87809e2044d5ee765376832f0",
-      "title": "We Health-Checked 86 Public MCP Servers. Not One Uses the Legacy Transport.",
-      "url": "https://dev.to/merlonix/we-health-checked-86-public-mcp-servers-not-one-uses-the-legacy-transport-74n",
-      "source": "Dev.to",
-      "published_at": "2026-08-13T18:28:24Z",
-      "summary": "Transport split, auth rates, negotiated protocol revisions, handshake latency and tool-surface size across every reachable public remote MCP server in our directory.",
-      "tags": [
-        "mcp",
-        "ai",
-        "devops",
-        "monitoring"
       ],
       "relevance_score": 0.0
     },
@@ -2838,7 +2793,7 @@
       "title": "ollama/ollama: v0.32.15",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
       "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-20T00:49:25+00:00",
+      "published_at": "2026-08-20T18:47:06+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3060,6 +3015,66 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-20T16:01:49+00:00",
       "summary": "Hi Observability &amp; DevOps Experts, I'm looking for guidance from teams that have successfully scaled observability across large enterprise environments. We operate a large-scale estate spanning AWS, Azure, and on-premises environments and have been using Datadog for several years. Over time, a s",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "96db7aa53524dc441224b4ac0114c108",
+      "title": "Slack makes it easier to install agents built with third-party tools",
+      "url": "https://thenewstack.io/add-to-slack-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-08-20T18:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fc79480d8e793497a845ced124db3cd8",
+      "title": "langchain-ai/langchain: langchain-fireworks==1.6.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-20T17:47:20+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d3795b90b5a5b5447b29a95fdb5ca003",
+      "title": "OpenRouter called itself the “Stripe for LLMs” — now Stripe’s swooped in to buy it",
+      "url": "https://thenewstack.io/stripe-acquires-openrouter-tokens/",
+      "source": "The New Stack",
+      "published_at": "2026-08-20T17:20:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "708f89dbbf9272758aaab1b8bb9eae08",
+      "title": "UiPath Test Cloud: Robots Handle Repetition, Agents Adapt and Humans Lead",
+      "url": "https://devops.com/uipath-test-cloud-robots-handle-repetition-agents-adapt-and-humans-lead/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-20T17:10:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "486ccca8c4468d428b7a894b475369f3",
+      "title": "Docker Verified Publisher Applications Are Now Self-Serve",
+      "url": "https://www.docker.com/blog/docker-verified-publisher-applications-are-now-self-serve/",
+      "source": "Docker Blog",
+      "published_at": "2026-08-20T17:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "567998eb2f7c60e8cdaca462e239a681",
+      "title": "Slack has a new channel type — but only agents can create one",
+      "url": "https://thenewstack.io/slack-code-agent-channels/",
+      "source": "The New Stack",
+      "published_at": "2026-08-20T16:50:07+00:00",
+      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     }
