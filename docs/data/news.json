@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:07:02Z",
+  "generated_at": "2026-08-20T14:46:57Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,26 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "33e2b61a089534d09541f0ebe0cd4f58",
-      "title": "langchain-ai/langchain: langchain-openai==1.5.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.0",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-08-13T13:15:02+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ccb28ba3e663766e914b16a7b5d9bd79",
-      "title": "Devops job security with AI",
-      "url": "https://www.reddit.com/r/devops/comments/1vnacqq/devops_job_security_with_ai/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-13T13:12:55+00:00",
-      "summary": "Recently saw posts about how AI isn't that good in distributed systems and it gave me validation on my own experience. When the model isn't dealing with a single codebase, when it has to connect the dots between a db, redis, other cloud infra, k8s that each already have a lot of configuration, it st",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b25a714d9baf24330510a46c14467d66",
       "title": "Lightweight Dragonfly Deployment: P2P Distribution Without the Database Stack",
       "url": "https://www.cncf.io/blog/2026/08/13/lightweight-dragonfly-deployment-p2p-distribution-without-the-database-stack/",
@@ -1179,21 +1159,6 @@
       "published_at": "2026-08-13T11:30:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "aed52bab41c763983133bda189667758",
-      "title": "i started holyclaude back in march. 2.4k stars later i'm building the hosted version of it",
-      "url": "https://dev.to/coderluii/i-started-holyclaude-back-in-march-24k-stars-later-im-building-the-hosted-version-of-it-28cc",
-      "source": "Dev.to",
-      "published_at": "2026-08-13T14:24:17Z",
-      "summary": "i started holyclaude in march. a web ui for running claude on your own machine, built because i...",
-      "tags": [
-        "opensource",
-        "startup",
-        "ai",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1537,36 +1502,6 @@
         "llm",
         "devops",
         "finops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3ab2905f8f38aa0ce97e9fd94e9999ff",
-      "title": "Prompt Caching in LLMs, Measured on Our Own Bill",
-      "url": "https://dev.to/jula-markova/prompt-caching-in-llms-measured-on-our-own-bill-o85",
-      "source": "Dev.to",
-      "published_at": "2026-08-13T11:29:57Z",
-      "summary": "The token report for one pipeline run landed in front of me and the first number I saw was 7,300,000....",
-      "tags": [
-        "ai",
-        "llm",
-        "programming",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b909d44cdbf21bfd9da69c8222aa08bb",
-      "title": "Five things I found in Google's Agent Registry and Agent Gateway that aren't in the docs",
-      "url": "https://dev.to/iamrobertmoore/five-things-i-found-in-googles-agent-registry-and-agent-gateway-that-arent-in-the-docs-236f",
-      "source": "Dev.to",
-      "published_at": "2026-08-13T10:33:34Z",
-      "summary": "I spent a couple of weeks building on Google's new Gemini Enterprise Agent Platform, and hit five...",
-      "tags": [
-        "googlecloud",
-        "ai",
-        "security",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -3045,6 +2980,101 @@
       "published_at": "2026-08-20T11:26:30+00:00",
       "summary": "I'm working on a system to estimate whether code committed to a repository was generated with AI coding tools. My current approach is based on Git/commit-level signals such as AI-related commit trailers, commit metadata, LOC changes, number of files changed, addition/deletion patterns, etc. The prob",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1d1e0a70cca678e0dee796eb0584c7d0",
+      "title": "langchain-ai/langchain: langchain==1.3.16",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.16",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-20T14:35:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "36494cefb0562f5b7502102dafd6beac",
+      "title": "langchain-ai/langchain: langchain-anthropic==1.6.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.6.1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-08-20T14:06:51+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ac56f71c96f75d303868f856a2d336fc",
+      "title": "Stop the token bleed: building token-efficient multi-agent systems",
+      "url": "https://thenewstack.io/building-token-efficient-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-08-20T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5b46247a29df2ae4ccb8aaa7179a54c5",
+      "title": "“Save frontier models for frontier problems”: Why Korea’s Solar Pro 4 is a workhorse agent reliability play",
+      "url": "https://thenewstack.io/upstage-solar-pro-4/",
+      "source": "The New Stack",
+      "published_at": "2026-08-20T13:11:35+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2561903dd9fab933e94ebcbf5756ba29",
+      "title": "Kubernetes at the edge has hit a wall. Fleet management is the way through.",
+      "url": "https://thenewstack.io/edge-kubernetes-fleet-management/",
+      "source": "The New Stack",
+      "published_at": "2026-08-20T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "79b905fbabac4d1946a8b2d44280fd75",
+      "title": "Taking the network away from a Cloud Run job",
+      "url": "https://dev.to/amartyadev/taking-the-network-away-from-a-cloud-run-job-3il7",
+      "source": "Dev.to",
+      "published_at": "2026-08-20T11:46:20Z",
+      "summary": "If you execute other people's code, at some point you have to decide what it is allowed to reach....",
+      "tags": [
+        "devops",
+        "security",
+        "googlecloud",
+        "containers"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "96f85861cdccd8796aebe2993a7bf7db",
+      "title": "The $11k cloud bill was mostly the tools you added to watch the cloud bill",
+      "url": "https://dev.to/adioof/the-11k-cloud-bill-was-mostly-the-tools-you-added-to-watch-the-cloud-bill-3oec",
+      "source": "Dev.to",
+      "published_at": "2026-08-20T10:38:23Z",
+      "summary": "A startup with only six engineers calculated the cost of their monthly cloud bill to be $11,847. The...",
+      "tags": [
+        "devops",
+        "cloud",
+        "observability",
+        "opinion"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "54a1dfda6f45ab3e5685adafd45d91c2",
+      "title": "Solving Gradle metadata and Renovate integration",
+      "url": "https://dev.to/nfrankel/solving-gradle-metadata-and-renovate-integration-2d4a",
+      "source": "Dev.to",
+      "published_at": "2026-08-20T09:02:00Z",
+      "summary": "My current company has settled on using Gradle. It doesn't make me very happy, but you need to learn...",
+      "tags": [
+        "gradle",
+        "renovate",
+        "devops",
+        "security"
+      ],
       "relevance_score": 0.0
     }
   ]
