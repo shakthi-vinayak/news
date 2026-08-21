@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T08:54:10Z",
+  "generated_at": "2026-08-21T10:42:15Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-21T07:59:29+00:00",
+      "published_at": "2026-08-21T10:24:14+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1072,16 +1072,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5631e3d1dfbb2ee56b553c2aad76818b",
-      "title": "hashicorp/terraform: v1.17.0-alpha20260812",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-08-12T12:01:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "33d7b6e963d71ad6ea71def0dbdb7754",
       "title": "Docker VMM Public Beta: A Complete Overhaul, Built for Performance",
       "url": "https://www.docker.com/blog/docker-vmm-public-beta/",
@@ -1147,16 +1137,6 @@
       "url": "https://github.com/istio/istio/releases/tag/1.31.0-beta.0",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-08-13T17:38:13+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a7ac6a074e8130cc09890f03f441ec87",
-      "title": "n8n-io/n8n: n8n@2.35.3",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.3",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-14T10:26:02+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1388,21 +1368,6 @@
         "automation",
         "devops",
         "agents"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7ef730fac8dc48e0a528160267fc2a39",
-      "title": "You Can't Reproduce What the Vendor Changes Under You",
-      "url": "https://dev.to/vainamoinen/you-cant-reproduce-what-the-vendor-changes-under-you-32il",
-      "source": "Dev.to",
-      "published_at": "2026-08-14T09:40:06Z",
-      "summary": "Server-side prompt injection quietly broke reproducibility for AI agents. Here's the mechanism, why it defeats root-cause analysis, and what to do.",
-      "tags": [
-        "ai",
-        "llm",
-        "devops",
-        "reliability"
       ],
       "relevance_score": 0.0
     },
@@ -3073,20 +3038,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "723dd684add785927ea39bb856bc3d0e",
-      "title": "How Nginx Handles Thousands of Connections With One Thread",
-      "url": "https://dev.to/arnavsharma2711/how-nginx-handles-thousands-of-connections-with-one-thread-4pjk",
-      "source": "Dev.to",
-      "published_at": "2026-08-14T10:16:03Z",
-      "summary": "You've copied an nginx config from Stack Overflow. It works. You have no idea why.  Maybe you added a...",
-      "tags": [
-        "nginx",
-        "backend",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d88787a6a26381a19371faf6a65a106d",
       "title": "n8n-io/n8n: n8n@2.36.4",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.4",
@@ -3114,6 +3065,71 @@
       "published_at": "2026-08-21T07:35:26+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d4f859811c48df7a22cc0384046b06c8",
+      "title": "n8n-io/n8n: n8n@2.36.5",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.5",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-08-21T10:35:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bd32dbcb3392f0f42a059756b51d4446",
+      "title": "AWS DevOps Professionals: Seeking Real-World Experience & Interview Insights",
+      "url": "https://www.reddit.com/r/devops/comments/1vubod8/aws_devops_professionals_seeking_realworld/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-21T09:43:16+00:00",
+      "summary": "Hi Everyone, I am moving from DEV to DevOps. I’m preparing for AWS DevOps interviews and would love to hear from people currently working in AWS DevOps. Could someone please share briefly: - Your current role &amp; responsibilities - Your DevOps/AWS experience - Your current project architecture - T",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ca5c6b1f073c0536fdbcfdb188d1dd47",
+      "title": "AI Killed Git Commits: So I Stopped Publishing Them",
+      "url": "https://dev.to/js402/ai-killed-git-commits-so-i-stopped-publishing-them-3182",
+      "source": "Dev.to",
+      "published_at": "2026-08-20T18:18:56Z",
+      "summary": "When agents write most of the code, the commit is no longer the unit of work. The release is. So my public repository now receives one commit per release, and nothing in between.",
+      "tags": [
+        "go",
+        "ai",
+        "opensource",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fc1bae9ed899e33c51d770e60ecaf4ef",
+      "title": "Agentic AI Vocabulary for DevOps: 12 Terms You Already Operate Under Another Name",
+      "url": "https://dev.to/devopsdaily/agentic-ai-vocabulary-for-devops-12-terms-you-already-operate-under-another-name-4la7",
+      "source": "Dev.to",
+      "published_at": "2026-08-19T14:00:00Z",
+      "summary": "There is a genre of infographic doing the rounds at the moment: twelve must-know agentic AI terms, a...",
+      "tags": [
+        "ai",
+        "devops",
+        "sre",
+        "mcp"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "be0e63b02dd9ec7c7966a77db6a8dde4",
+      "title": "S3 Lifecycle Policies: How to Cut Your Storage Bill 40% (With the Actual Arithmetic)",
+      "url": "https://dev.to/ethan-carter/s3-lifecycle-policies-how-to-cut-your-storage-bill-40-with-the-actual-arithmetic-4lnk",
+      "source": "Dev.to",
+      "published_at": "2026-08-19T13:14:00Z",
+      "summary": "An S3 lifecycle policy moves objects between storage classes on a schedule, or deletes them. The...",
+      "tags": [
+        "aws",
+        "s3",
+        "devops",
+        "storage"
+      ],
       "relevance_score": 0.0
     }
   ]
