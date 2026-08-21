@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T10:42:15Z",
+  "generated_at": "2026-08-21T13:05:57Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -107,16 +107,6 @@
       "url": "https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/",
       "source": "Kubernetes Blog",
       "published_at": "2026-06-01T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5e0d47b28f113202606856bc9d2be3b8",
-      "title": "How AWS DevOps Agent uses multi-agent reasoning to find root causes",
-      "url": "https://aws.amazon.com/blogs/devops/how-aws-devops-agent-uses-multi-agent-reasoning-to-find-root-causes/",
-      "source": "AWS Blog",
-      "published_at": "2026-05-27T20:08:05+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3130,6 +3120,96 @@
         "devops",
         "storage"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4435e2b5d62266058f16fed4ba9ac219",
+      "title": "Claude Opus 5 scored 30% on ARC-AGI-3. Wrapped in Nvidia’s AVO, it hit 100%.",
+      "url": "https://thenewstack.io/nvidia-avo-arcagi3-benchmark/",
+      "source": "The New Stack",
+      "published_at": "2026-08-21T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cc4c5f447d6263f21ba11fdc5af00951",
+      "title": "Grok, Claude, and Hermes agents get job titles — and persistent permissions",
+      "url": "https://thenewstack.io/persistent-ai-agent-identities/",
+      "source": "The New Stack",
+      "published_at": "2026-08-21T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "93f8cf1b2a54d94c702a85d04b4032b0",
+      "title": "Running AI agents in GitHub Actions with Docker Sandboxes",
+      "url": "https://www.docker.com/blog/running-ai-agents-in-github-actions-with-docker-sandboxes/",
+      "source": "Docker Blog",
+      "published_at": "2026-08-21T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "26b9c27fe5316d07d74d7db3d2008769",
+      "title": "Production-Grade AI Eval Systems. What I Learned Putting LLMs on Call",
+      "url": "https://devops.com/production-grade-ai-eval-systems/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-21T12:14:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0d1657b503354f38dad8652334ab75a4",
+      "title": "Managing AWS policies in terraform",
+      "url": "https://www.reddit.com/r/devops/comments/1vuel71/managing_aws_policies_in_terraform/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-21T12:09:49+00:00",
+      "summary": "We are pushing IaC. Being a traditional systems admin, I am having a hard time accepting that this is more efficient. If we manage each application with a yaml file, how is this faster than just add it in console or even in awscli? I hate the fact that I have to look for where the templates are in g",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ac692e297250efe63f9abfb718a03e9b",
+      "title": "Most coding agent benchmarks skip large-scale refactoring. Not this one.",
+      "url": "https://thenewstack.io/ai-agents-refactoring-benchmarks/",
+      "source": "The New Stack",
+      "published_at": "2026-08-21T11:54:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9a6b25031194875540f76c5d1faf713e",
+      "title": "Waterfall 2.0: Controlling LLM-Driven Software Development with Stage-Gated Discipline",
+      "url": "https://devops.com/waterfall-2-0-controlling-llm-driven-software-development-with-stage-gated-discipline/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-21T11:37:51+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "86ea2eb3ca26d19a020685df66257d7d",
+      "title": "How to turn slow queries into actionable reliability metrics with OpenTelemetry",
+      "url": "https://www.cncf.io/blog/2026/08/21/how-to-turn-slow-queries-into-actionable-reliability-metrics-with-opentelemetry/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-21T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5631e3d1dfbb2ee56b553c2aad76818b",
+      "title": "hashicorp/terraform: v1.17.0-alpha20260812",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-08-12T12:01:24+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
