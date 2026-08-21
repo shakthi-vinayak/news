@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:36:39Z",
+  "generated_at": "2026-08-21T22:36:03Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,26 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "46fdd5facffca0ab1f19ddb192f987c7",
-      "title": "How do you test CI pipelines?",
-      "url": "https://www.reddit.com/r/devops/comments/1voki1m/how_do_you_test_ci_pipelines/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-14T21:43:59+00:00",
-      "summary": "Do you create a sample application to test the proper auth, access and everything the runner needs? And a related sub question. How do you validate gitops changes before they are merged? Regarding FluxCD or ArgoCD.  &#32; submitted by &#32;  /u/Mysterious_Prune415   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5bc5197ba97c11c94a004b198e939793",
-      "title": "How do you actually diagnose a CI integration-test failure when the root cause isn't obvious?",
-      "url": "https://www.reddit.com/r/devops/comments/1vojtkx/how_do_you_actually_diagnose_a_ci_integrationtest/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-14T21:16:55+00:00",
-      "summary": "I'm researching a small CI diagnosis agent, but I'm first trying to understand how experienced engineers actually debug these failures. Suppose an integration test fails in CI and the logs don't immediately reveal the root cause. What do you normally investigate first? For example:  CI logs/stack tr",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "89cdf855b5069cd8f2d77151304e49bc",
       "title": "Reviving Open Source Giants: How I Brought Weave Scope Back with Multi-Platform Docker Support in One Afternoon Using Antigravity",
       "url": "https://dev.to/gde/reviving-open-source-giants-how-i-brought-weave-scope-back-with-multi-platform-docker-support-in-cmo",
@@ -1593,21 +1573,6 @@
       "published_at": "2026-08-18T01:51:40+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "275546fa4c49e383e9cfe1cc25d58c4d",
-      "title": "The Reality of Working as a DevOps Engineer in Cameroon",
-      "url": "https://dev.to/durrello/the-reality-of-working-as-a-devops-engineer-in-cameroon-1k7l",
-      "source": "Dev.to",
-      "published_at": "2026-08-14T22:04:43Z",
-      "summary": "Most \"how to become a DevOps engineer\" posts are written from places where electricity and...",
-      "tags": [
-        "devops",
-        "career",
-        "remote",
-        "africa"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3123,6 +3088,16 @@
       "url": "https://thenewstack.io/anthropic-mythos-claude-security/",
       "source": "The New Stack",
       "published_at": "2026-08-21T19:11:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "76198bc1bfd1b6c2ce5d8566bdd13048",
+      "title": "ollama/ollama: v0.33.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-08-21T22:04:58+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
