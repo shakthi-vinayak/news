@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T06:56:59Z",
+  "generated_at": "2026-08-22T08:42:43Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -3152,6 +3152,36 @@
       "published_at": "2026-08-22T05:21:39+00:00",
       "summary": "Hey everyone, I’m currently managing a small startup project. Our infrastructure is pretty simple right now: we have a single Oracle Cloud VM running our backend API and two PostgreSQL databases (one for dev and one for prod) inside Docker containers. Up until now, I’ve been using DBeaver with an SS",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "450899597b1964feb92a01cb5ded95d1",
+      "title": "4 Non-obvious learnings from working with alerts",
+      "url": "https://dev.to/harishteens/4-non-obvious-learnings-from-working-with-alerts-ba5",
+      "source": "Dev.to",
+      "published_at": "2026-08-22T02:16:30Z",
+      "summary": "Alerting is a details game. Nobody gets paged by their intent — they get paged by the exact query...",
+      "tags": [
+        "observability",
+        "sre",
+        "prometheus",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f72a9a69c0aefb6ff4a4e1314bec5454",
+      "title": "I Managed Kubernetes Across AWS, Azure, and GCP Simultaneously — Here's What Nobody Tells You",
+      "url": "https://dev.to/prateek_srivastava_6a5661/i-managed-kubernetes-across-aws-azure-and-gcp-simultaneously-heres-what-nobody-tells-you-2g69",
+      "source": "Dev.to",
+      "published_at": "2026-08-21T19:11:46Z",
+      "summary": "The day the same Helm chart behaved differently on three clouds in the same hour was the day I...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "aws",
+        "cloud"
+      ],
       "relevance_score": 0.0
     }
   ]
