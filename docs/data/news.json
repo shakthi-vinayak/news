@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T04:44:11Z",
+  "generated_at": "2026-08-22T06:56:59Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1756,19 +1756,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "9cd77db67ccd5680d545026bd015427c",
-      "title": "How Ranex Judges AI-Written Code: The Kernel, Explained",
-      "url": "https://dev.to/anthonygarces/how-ranex-judges-ai-written-code-the-kernel-explained-3d8",
-      "source": "Dev.to",
-      "published_at": "2026-08-15T06:23:20Z",
-      "summary": "Your agent reports “done — all tests pass.” Do you believe it?  Nothing in that sentence is evidence,...",
-      "tags": [
-        "ai",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4b7130b790c3095417b797f661b5836c",
       "title": "Deterministic Robots, Agentic Reasoning: Balancing Reliability and Flexibility in Software Test Automation",
       "url": "https://devops.com/deterministic-robots-agentic-reasoning-balancing-reliability-and-flexibility-in-software-test-automation/",
@@ -3154,6 +3141,16 @@
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-08-22T03:19:59+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3e6f679d4280ad7fbbcdf58d10dbef25",
+      "title": "How do real companies securely give developers access to the development database?",
+      "url": "https://www.reddit.com/r/devops/comments/1vv3h37/how_do_real_companies_securely_give_developers/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-22T05:21:39+00:00",
+      "summary": "Hey everyone, I’m currently managing a small startup project. Our infrastructure is pretty simple right now: we have a single Oracle Cloud VM running our backend API and two PostgreSQL databases (one for dev and one for prod) inside Docker containers. Up until now, I’ve been using DBeaver with an SS",
       "tags": [],
       "relevance_score": 0.0
     }
