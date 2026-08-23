@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T20:34:53Z",
+  "generated_at": "2026-08-23T22:33:32Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -3216,6 +3216,196 @@
       "source": "GitHub Releases (apache)",
       "published_at": "2026-08-23T20:10:24+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "84bb4a415ff52b0911ebe2488e7be80d",
+      "title": "Terraform Setup for Developer Enablement",
+      "url": "https://www.reddit.com/r/devops/comments/1vwhgvg/terraform_setup_for_developer_enablement/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-23T20:05:45+00:00",
+      "summary": "Hello r/devops, in my current team we are discussing how a developer centric terraform setup might look like. Some context: Every app has 3 repositories - Backend, Frontend and Infrastructure. There are two possible setups:  (our current): We use generic terraform modules (e.g. for a backend app) on",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "18a26dd023f0e59603188dc6dc9b75c2",
+      "title": "Question for people running production systems",
+      "url": "https://www.reddit.com/r/devops/comments/1vwgmo7/question_for_people_running_production_systems/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-23T19:33:51+00:00",
+      "summary": "I’ve been thinking about this while working with observability systems and I’m curious how other people handle it. We have metrics, logs, traces, alerts, deployment information, etc. In theory, there should be enough information to understand what happened during an incident. But in practice, it oft",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "41fb12ebd70078c0f06672ea87ae5560",
+      "title": "Learn K8s with Flashcards",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vwaydi/learn_k8s_with_flashcards/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-23T15:59:25+00:00",
+      "summary": "      &#32; submitted by &#32;  /u/LearnSkills5   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fe827d48ba66d9c53a87006c0d7c6cf1",
+      "title": "Canadian k8s hosting?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vw8d10/canadian_k8s_hosting/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-23T14:16:35+00:00",
+      "summary": "I need to move our k8s cluster up the border, thanks to the orange cheeto. Like if I didn’t have anything else to do… We’re currently on digitalocean. We need a non-us based company with non-us datacenter, with presence in the east or central Canada. Any suggestions?  &#32; submitted by &#32;  /u/ar",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e0e96a4215c4be398912ffe126e956fb",
+      "title": "CIVO vs OVHcloud vs Vultr for managed k8s",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vw37z8/civo_vs_ovhcloud_vs_vultr_for_managed_k8s/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-23T10:04:37+00:00",
+      "summary": "They all offer free control plane and they are affordable. What is your experience with them ?   &#32; submitted by &#32;  /u/Street_Dependent_705   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "15f102505ab272685b5887d9a78ba8a3",
+      "title": "How would you manage 1,280 ARM64 bare-metal nodes with a very small ops team?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vusaf7/how_would_you_manage_1280_arm64_baremetal_nodes/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-21T20:51:30+00:00",
+      "summary": "I’m looking for architecture advice from people who have operated Kubernetes at the edge or across large numbers of smaller physical machines. Our company now controls 1,280 identical RK3588 ARM64 nodes that are already deployed and operational in a U.S. commercial data center. The hardware works. T",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "89a7d4078e1abbe562b5fdbe163a0066",
+      "title": "Linux and storage | toward Rook|Ceph",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vurqsc/linux_and_storage_toward_rookceph/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-21T20:30:11+00:00",
+      "summary": "      towards* So, I started learning K8s some months ago, bought some hardware for a homelab, etc., and after learning the fundamental stuff, I decided to learn other things like GitOps, secret management, IaC, and so on.  I wanted to learn this Rook|Ceph thingy, so last week I bought some SSDs for",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8c2a4e6065d5343b43ab01c083fdf98c",
+      "title": "Struggling mightily with NFS and respecting POSIX permissions in a multi-tenant environment",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vurn1o/struggling_mightily_with_nfs_and_respecting_posix/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-21T20:26:12+00:00",
+      "summary": "I'm really struggling to find a viable solution for k8s-based resources accessing our NFS-backed data that can respect the POSIX permissions restricting access. Has anyone solved multi-tenant POSIX-respecting NFS access in k8s, or am I missing something obvious? We have a significant amount of data ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1707ba2018fa5e66c25507a5794496ef",
+      "title": "Congratulations, you learned Kubernetes 💀",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vulnqe/congratulations_you_learned_kubernetes/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-21T16:46:36+00:00",
+      "summary": "      &#32; submitted by &#32;  /u/suman087   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dde9ec819db45448bdb5c914b9ce4f99",
+      "title": "What would tell a vibe learner of k8s",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vudp0f/what_would_tell_a_vibe_learner_of_k8s/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-21T11:27:51+00:00",
+      "summary": "I admit that currently I’m needing to vibe my way through my work project’s K8s, and while so far my computer science basics and smells have gotten me decently far, I definitely suspect there are tons of gotchas lying in wait. I’m sure I’m not the only viber around new to this. What warnings, tips, ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8fcd2ab9cc192c07857136ac6c764ae7",
+      "title": "How do you scope a Kubernetes penetration test when the infrastructure uses dynamic IPs?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vu92ql/how_do_you_scope_a_kubernetes_penetration_test/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-21T07:10:06+00:00",
+      "summary": "Hi everyone, I’m planning a penetration test for a Kubernetes environment and I’m trying to understand how others typically scope this type of assessment. If the Kubernetes environment is considered internal infrastructure, how do you approach scanning and testing the underlying infrastructure when ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "191800339b1afcb9039f42de15f92042",
+      "title": "If today you had to rebuild your career in Kubernetes, what roadmap would you follow? What new would you add? Something that you would skip and something that you would definitely recommend?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vu6lfr/if_today_you_had_to_rebuild_your_career_in/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-21T04:52:43+00:00",
+      "summary": "Same as the title.  &#32; submitted by &#32;  /u/Visible-Walk-1416   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c0aa07b9362b1b8add43870cbce5712b",
+      "title": "What do you people gate automated rollback on?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vu1nbp/what_do_you_people_gate_automated_rollback_on/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-21T00:55:53+00:00",
+      "summary": "Progressive delivery on k8s must say, mostly comes down to what you let the analysis gate on. Agro rollouts and flagger both do metric driven rollback but you define analysis templates that query promethus or datadog, new relic for success rate, p95 latency error rate and if it breaches the threshol",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bffd961a51178f0f6219eb85587f254d",
+      "title": "Who should own services deletion, App or Kubernetes GC/Controller?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vtw364/who_should_own_services_deletion_app_or/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-20T21:06:36+00:00",
+      "summary": "We have fairly large kubernetes clusters for data engineering workloads. Mostly thousands of Apache Spark jobs run on these clusters every day.  The current model is that Spark driver/executor pods are marked for deletion with timeToLiveSeconds from Spark side after completion (whether failed or suc",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "df81c0dfb41e0eb4e7ecb5f650c6033d",
+      "title": "DevOps Interview Prep Day 8: Jenkins Agents Offline, K8s Service Not Reachable, and ELK Log Floods",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vtqj5z/devops_interview_prep_day_8_jenkins_agents/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-20T17:48:17+00:00",
+      "summary": "&#32; submitted by &#32;  /u/BookkeeperAutomatic   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5e2d001761b399f2abb2d36b9ccd61f8",
+      "title": "How do you handle session recording for kubectl debug in production?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vtmj76/how_do_you_handle_session_recording_for_kubectl/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-20T15:23:48+00:00",
+      "summary": "We're moving production workloads to shell-less/distroless images (Chainguard), which means no shell, no tooling in the image. kubectl debug with ephemeral containers is the obvious replacement and technically works fine. The blocker is auditing. We already ship Kubernetes audit logs and events off-",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b99a58abfe7f97d1eaa0ea996b2e3f11",
+      "title": "AWS EKS | EKS Access Entry - How large organizations handle EKS Access?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vtd0th/aws_eks_eks_access_entry_how_large_organizations/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-20T07:55:07+00:00",
+      "summary": "Hi all, Quick question about EKS Access Entries. Suppose I create an Access Entry for an IAM role, say dev-pod-reader. If I associate an EKS access policy with that entry (e.g. AmazonEKSViewPolicy), can I also use the same IAM role in Kubernetes RBAC, such as a RoleBinding/ClusterRoleBinding? From w",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "556380155cb7de3de821f5866a15c2f3",
+      "title": "What does cloud sovereignty actually mean for Kubernetes?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vta4t2/what_does_cloud_sovereignty_actually_mean_for/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-20T05:10:20+00:00",
+      "summary": "Sovereignty is becoming a bigger question for Kubernetes teams, especially in Europe. It’s not only about keeping workloads in an EU region anymore. Where the control plane sits, where telemetry goes, who can access runtime state, and whether workloads can keep running independently all matter too. ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0af18826d0bf0d2e8c034631afb8decd",
+      "title": "Monthly: Who is hiring?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vcj9x5/monthly_who_is_hiring/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-01T10:00:07+00:00",
+      "summary": "This monthly post can be used to share Kubernetes-related job openings within your company. Please include:  Name of the company Location requirements (or lack thereof) At least one of: a link to a job posting/application page or contact details  If you are interested in a job, please contact the po",
       "tags": [],
       "relevance_score": 0.0
     }
