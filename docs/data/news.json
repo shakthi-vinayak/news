@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T18:54:37Z",
+  "generated_at": "2026-08-24T20:42:50Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1212,26 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6f23198a3ea11f58225c58b0b43bd470",
-      "title": "Claude can now delete your production voice agent from a chat window",
-      "url": "https://thenewstack.io/elevenlabs-mcp-voice-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-08-17T19:51:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9c6aea1becb68a2dc4275325b39f1c8d",
-      "title": "Anthropic defined the standards inside Agent Plugins. So why isn’t it helping govern the format?",
-      "url": "https://thenewstack.io/agent-plugins-portability-gaps/",
-      "source": "The New Stack",
-      "published_at": "2026-08-17T19:27:20+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d5f53fd104d62ef13cb99f56ba9069f9",
       "title": "langchain-ai/langchain: langchain-core==1.5.6",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.6",
@@ -1528,21 +1508,6 @@
         "security",
         "architecture",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "18e8659581470846123427164d51ca72",
-      "title": "Day 28: Cherry-Pick Takes One Commit, and the Tag Is the Address",
-      "url": "https://dev.to/ndcodes/100-days-of-devops-and-cloud-aws-day-28-cherry-pick-takes-one-commit-and-the-tag-is-the-address-k33",
-      "source": "Dev.to",
-      "published_at": "2026-08-17T16:51:42Z",
-      "summary": "Both of today's tasks came down to being precise about exactly what you are moving and exactly where...",
-      "tags": [
-        "devops",
-        "git",
-        "aws",
-        "docker"
       ],
       "relevance_score": 0.0
     },
@@ -3412,6 +3377,61 @@
       "published_at": "2026-08-24T17:39:15+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "56e62df24f7ed0e9facf7048cc44e110",
+      "title": "Anthropic’s Playground vs. OpenAI’s: The week-old tool beat the six-year incumbent",
+      "url": "https://thenewstack.io/anthropic-openai-playground-comparison/",
+      "source": "The New Stack",
+      "published_at": "2026-08-24T19:30:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5a069c9531f3a0b3f97db89c7172b944",
+      "title": "SSL Certificate Name Mismatch: NET::ERR_CERT_COMMON_NAME_INVALID",
+      "url": "https://dev.to/merlonix/ssl-certificate-name-mismatch-neterrcertcommonnameinvalid-5ak4",
+      "source": "Dev.to",
+      "published_at": "2026-08-24T17:56:38Z",
+      "summary": "The certificate is valid, unexpired, and CA-signed — and the browser still refuses it with NET::ERR_CERT_COMMON_NAME_INVALID, because it was issued for a different hostname than the one you typed. Why the Common Name no longer counts, the causes in the order they bite, and how to read the SAN list your server actually presents.",
+      "tags": [
+        "ssl",
+        "tls",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "145ebfbcbd376358c2c8361a900d2483",
+      "title": "SSL Certificate Problem: Unable to Get Local Issuer Certificate",
+      "url": "https://dev.to/merlonix/ssl-certificate-problem-unable-to-get-local-issuer-certificate-40ak",
+      "source": "Dev.to",
+      "published_at": "2026-08-24T16:38:30Z",
+      "summary": "It works in your browser and fails in curl, Node, or Python with \"unable to get local issuer certificate.\" That almost always means your server is sending an incomplete certificate chain — and the browser is hiding it. Why, the causes in the order they bite, and how to read the chain your server actually serves.",
+      "tags": [
+        "ssl",
+        "tls",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "df63042f4289f9eb8fe89908af36e7ce",
+      "title": "Zero asset requests was the tell: finding a scraper in 50 seconds of logs",
+      "url": "https://dev.to/whateverneveranywhere/zero-asset-requests-was-the-tell-finding-a-scraper-in-50-seconds-of-logs-292j",
+      "source": "Dev.to",
+      "published_at": "2026-08-23T16:13:28Z",
+      "summary": "Four alarms, one cause. The rotating user agent was faked. The missing CSS requests were not.",
+      "tags": [
+        "devops",
+        "webdev",
+        "cloudflare",
+        "database"
+      ],
       "relevance_score": 0.0
     }
   ]
