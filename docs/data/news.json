@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:42:50Z",
+  "generated_at": "2026-08-24T22:37:58Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1207,16 +1207,6 @@
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Ftelemetry%2Ftelemetrytest%2Fv0.159.0",
       "source": "GitHub Releases (open-telemetry)",
       "published_at": "2026-08-17T17:22:35+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d5f53fd104d62ef13cb99f56ba9069f9",
-      "title": "langchain-ai/langchain: langchain-core==1.5.6",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.5.6",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-08-17T21:26:48+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3431,6 +3421,36 @@
         "webdev",
         "cloudflare",
         "database"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "44cf6b3e7c4fd8c6ff27cd7cbaab2614",
+      "title": ".NET 10 NU1510 Package Pruning: Fix CI Without Breaking Legacy Targets",
+      "url": "https://dev.to/ssukhpinder/net-10-nu1510-package-pruning-fix-ci-without-breaking-legacy-targets-5ggd",
+      "source": "Dev.to",
+      "published_at": "2026-08-24T22:23:40Z",
+      "summary": ".NET 10 NU1510 package pruning can turn an SDK upgrade into a failed restore when a repository...",
+      "tags": [
+        "dotnet",
+        "csharp",
+        "devops",
+        "debugging"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ab7602c62fbea3024b134a2385e18286",
+      "title": "Why .env.example Gets Out of Sync — and What Actually Fixes It",
+      "url": "https://dev.to/rabbilyasar/why-envexample-gets-out-of-sync-and-what-actually-fixes-it-1a76",
+      "source": "Dev.to",
+      "published_at": "2026-08-24T21:59:00Z",
+      "summary": "Every .env.example goes stale eventually — not from carelessness, but because nothing ever enforced that it stay accurate. Here's why it happens, what the common workarounds actually fix, and what closes the gap for good.",
+      "tags": [
+        "opensource",
+        "devops",
+        "configuration",
+        "cli"
       ],
       "relevance_score": 0.0
     }
