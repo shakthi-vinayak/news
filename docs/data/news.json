@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T14:54:08Z",
+  "generated_at": "2026-08-24T16:51:27Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1162,31 +1162,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "09fab05334cc0db11c5aa6e4f4383c82",
-      "title": "How do you decide what to investigate next during a production latency incident",
-      "url": "https://www.reddit.com/r/devops/comments/1vqwy5f/how_do_you_decide_what_to_investigate_next_during/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-17T16:26:44+00:00",
-      "summary": "Hey hi everyone,  I am just trying to understand how engineers/SREs who dealt with real production latency incidents investigate it Lets say you have the following - Logs - Recent deployment information - Application health - Database metrics - External dependency health/metrics - Infrastructure met",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "391a66ffb3105ed39c67c7a2c77d1662",
       "title": "CNCF Announces Kubeflow’s Graduation, Solidifying a Standard for Cloud Native AI Operations",
       "url": "https://www.cncf.io/announcements/2026/08/17/cncf-announces-kubeflows-graduation-solidifying-the-standard-for-cloud-native-ai-operations/",
       "source": "CNCF Blog",
       "published_at": "2026-08-17T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "976be1a3293f10ac017b4d4e7f981d0e",
-      "title": "prometheus/prometheus: v3.14.0",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.14.0",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-08-17T15:41:51+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1319,21 +1299,6 @@
       "published_at": "2026-08-18T08:49:40+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2b99d0b05162c5bf9b39dc5acf76a2f3",
-      "title": "Copilot Autofix Introduced a Critical CI/CD Bug at Snowflake. Here's How to Harden GitHub Actions",
-      "url": "https://dev.to/jamilxt/copilot-autofix-introduced-a-critical-cicd-bug-at-snowflake-heres-how-to-harden-github-actions-1pf",
-      "source": "Dev.to",
-      "published_at": "2026-08-17T16:05:39Z",
-      "summary": "On June 23, an autonomous AI security tool walked into Snowflake's internal Jira. It did not...",
-      "tags": [
-        "ai",
-        "security",
-        "java",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3416,6 +3381,16 @@
       "source": "The New Stack",
       "published_at": "2026-08-24T13:00:00+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0554e07c1ac3cdbd618239a796411c70",
+      "title": "Production was at 100% CPU even when its non peak hour...",
+      "url": "https://www.reddit.com/r/devops/comments/1vwxcwp/production_was_at_100_cpu_even_when_its_non_peak/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-24T08:58:55+00:00",
+      "summary": "Hi r/devops I recently came across an incident where the API services were consuming much CPU.  Eventually my first thought was I need to add more CPU to it. But the second thought came into my mind is at non peak hour what causing this much CPU. I deep dive into this issue and find out that A lot o",
       "tags": [],
       "relevance_score": 0.0
     }
