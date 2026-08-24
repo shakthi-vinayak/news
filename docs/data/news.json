@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T13:08:38Z",
+  "generated_at": "2026-08-24T14:54:08Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,26 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6ca3070f15ff27fbc6240e0b1eb361f6",
-      "title": "I built and run a production e-commerce platform - DevOps and security lessons from operating it myself",
-      "url": "https://www.reddit.com/r/devops/comments/1vqt3ne/i_built_and_run_a_production_ecommerce_platform/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-17T13:57:57+00:00",
-      "summary": "I built and currently operate my own e-commerce platform in production as a solo engineer. What started as an application project became a practical exercise in DevOps, infrastructure, security, and production operations. Running a real system has taught me that DevOps is much more than deployment. ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1b6821d3926c913e154423eaf9df5027",
-      "title": "Ten Great DevOps Job Opportunities",
-      "url": "https://devops.com/ten-great-devops-job-opportunities-19/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-17T13:27:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "75e871f43a0c4eb85bc5188e607ce8d9",
       "title": "Streamline your GitHub journey with AWS CodePipeline and AWS DevOps Agent",
       "url": "https://aws.amazon.com/blogs/devops/streamline-your-github-journey-with-aws-codepipeline-and-aws-devops-agent/",
@@ -1209,31 +1189,6 @@
       "published_at": "2026-08-17T15:41:51+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "55cb49175ddfba2f47ac35eb80a4bd4a",
-      "title": "Fixing broken Datadog APM gaps",
-      "url": "https://www.reddit.com/r/devops/comments/1vquhco/fixing_broken_datadog_apm_gaps/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-17T14:49:56+00:00",
-      "summary": "Hi Observability Experts, I am working with a client managing a large-scale infrastructure across AWS, Azure, and on-premise environments. They have used Datadog for 4–5 years, but legacy technical debt has left their APM configuration fragmented: The Problem: APM libraries are out of date, and sour",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dcc80bb7b36a62c9651b6738eaf7a554",
-      "title": "Containing the Autonomous Blast Radius: Runtime AI Safety with Docker and LLM Judges",
-      "url": "https://dev.to/karanverma/containing-the-autonomous-blast-radius-runtime-ai-safety-with-docker-and-llm-judges-ogf",
-      "source": "Dev.to",
-      "published_at": "2026-08-17T12:42:41Z",
-      "summary": "A lot of AI safety work has focused on what models produce: harmful content, misinformation, bias,...",
-      "tags": [
-        "docker",
-        "ai",
-        "security",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3416,6 +3371,51 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-24T08:30:19+00:00",
       "summary": "We are being asked to onboard 4 separate teams onto our orchestration plateform and suddenly &quot;who can run what&quot; matters a lot. Our current setup (airflow) has RBAC that technically works bit it's painful. No SSO integration, audit logs are scattered and fine grained namespace level permiss",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cb955dd97d5ad73931eac6f8828688f2",
+      "title": "How are you isolating Docker-capable self-hosted GitHub Actions runners?",
+      "url": "https://www.reddit.com/r/devops/comments/1vx3n3x/how_are_you_isolating_dockercapable_selfhosted/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-24T13:59:39+00:00",
+      "summary": "Disclosure: I built and maintain EPAR, which I mention below as the approach I ended up implementing. I wanted to use spare servers for long-running Playwright/Selenium tests, but my workflows also use docker compose to bring up the test environment. That created two concerns with ordinary self-host",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e7717aa1c0a7889ac4fa71dfcf9a663c",
+      "title": "Ten Great DevOps Job Opportunities",
+      "url": "https://devops.com/ten-great-devops-job-opportunities-20/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-24T13:54:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fbaa8ebdbb98dae56027a6ab4e50d941",
+      "title": "Why I Couldn't Access My Own Site (But My Phone Could): A Cloudways Auto-Ban Story",
+      "url": "https://dev.to/highcenburg/why-i-couldnt-access-my-own-site-but-my-phone-could-a-cloudways-auto-ban-story-1f2l",
+      "source": "Dev.to",
+      "published_at": "2026-08-24T13:12:24Z",
+      "summary": "I sat down to work on Rev6 and couldn't load the site. Not a slow load, not an SSL warning — nothing....",
+      "tags": [
+        "devops",
+        "networking",
+        "security",
+        "webdev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b00f2220967cfe0be2b578360943a1b4",
+      "title": "Thomson Reuters trained its own AI model. Then it kept using Anthropic’s anyway.",
+      "url": "https://thenewstack.io/thomson-reuters-ai-model/",
+      "source": "The New Stack",
+      "published_at": "2026-08-24T13:00:00+00:00",
+      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     }
