@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T10:47:21Z",
+  "generated_at": "2026-08-24T13:08:38Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1102,16 +1102,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "96e0bfafe3fed4410575d8b14d1cc57e",
-      "title": "LLMOps and platform engineering: Who should own the AI pipeline?",
-      "url": "https://www.cncf.io/blog/2026/08/13/llmops-and-platform-engineering-who-should-own-the-ai-pipeline/",
-      "source": "CNCF Blog",
-      "published_at": "2026-08-13T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b25a714d9baf24330510a46c14467d66",
       "title": "Lightweight Dragonfly Deployment: P2P Distribution Without the Database Stack",
       "url": "https://www.cncf.io/blog/2026/08/13/lightweight-dragonfly-deployment-p2p-distribution-without-the-database-stack/",
@@ -1162,26 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b539de335d7dc24c4302d6d5097500d9",
-      "title": "Do you actually track the cost of your infrastructure?",
-      "url": "https://www.reddit.com/r/devops/comments/1vqria3/do_you_actually_track_the_cost_of_your/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-17T12:52:46+00:00",
-      "summary": "I've been wondering how many people actually calculate the real cost of running their infrastructure. Not just the server or cloud bill, but electricity, storage, maintenance, upgrades, downtime, and the time spent keeping everything running. Sometimes a cloud bill looks expensive until you factor i",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e6137bb0f8a7046e816dbb68f61ad558",
-      "title": "istio/istio: Istio 1.31.0-beta.1",
-      "url": "https://github.com/istio/istio/releases/tag/1.31.0-beta.1",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-08-17T12:46:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6ca3070f15ff27fbc6240e0b1eb361f6",
       "title": "I built and run a production e-commerce platform - DevOps and security lessons from operating it myself",
       "url": "https://www.reddit.com/r/devops/comments/1vqt3ne/i_built_and_run_a_production_ecommerce_platform/",
@@ -1209,31 +1179,6 @@
       "published_at": "2026-08-17T13:25:12+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0693e4af86d68e7bf81d76547e2532ee",
-      "title": "Dynatrace Acquires Arize as AI Agents Deepen the Observability Challenge",
-      "url": "https://devops.com/dynatrace-acquires-arize-as-ai-agents-deepen-the-observability-challenge/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-17T13:03:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c8440071d5304fe155eb71469973e0d2",
-      "title": "SIP: Five Immediate Software Supply Chain Controls",
-      "url": "https://dev.to/docker/sip-five-immediate-software-supply-chain-controls-4836",
-      "source": "Dev.to",
-      "published_at": "2026-08-17T11:52:57Z",
-      "summary": "I talk about software supply chain security in different capacities, and I often get the same...",
-      "tags": [
-        "ai",
-        "docker",
-        "security",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1984,21 +1929,6 @@
       "published_at": "2026-08-19T13:05:52+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cbec1e8df60698d4f62372e7a5905f0b",
-      "title": "A tiny TypeError. A 3-day cloud bill. Three bugs hiding in plain sight.",
-      "url": "https://dev.to/codecrack01/a-tiny-typeerror-a-3-day-cloud-bill-three-bugs-hiding-in-plain-sight-1mfj",
-      "source": "Dev.to",
-      "published_at": "2026-08-17T12:12:19Z",
-      "summary": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.  We had a little...",
-      "tags": [
-        "devchallenge",
-        "bugsmash",
-        "devops",
-        "cloud"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3431,6 +3361,61 @@
       "source": "DevOps.com",
       "published_at": "2026-08-24T10:16:37+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dad22c9caa2a6d362d336b5c0e258803",
+      "title": "MinIO End of Life: How to Stay Patched and Audit-Ready with Docker ELS",
+      "url": "https://www.docker.com/blog/minio-end-of-life-how-to-stay-patched-and-audit-ready-with-docker-els/",
+      "source": "Docker Blog",
+      "published_at": "2026-08-24T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5414307b753f1e7b325c123035620647",
+      "title": "Beyond Log Search: What We Learned Building a RAG-Based Incident Diagnosis System",
+      "url": "https://devops.com/beyond-log-search-what-we-learned-building-a-rag-based-incident-diagnosis-system/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-24T11:58:02+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "14306c01c8824ac0194017cb117f791f",
+      "title": "I Built an AWS DevOps AI Agent Using Kiro Crew + MCP",
+      "url": "https://dev.to/aws-builders/i-built-an-aws-devops-ai-agent-using-kiro-crew-mcp-fk0",
+      "source": "Dev.to",
+      "published_at": "2026-08-24T11:30:54Z",
+      "summary": "Kiro Crew + AWS DevOps Agent over MCP = autonomous incident detection, investigation, and fixes. One config block. 34 tools. Runs while you sleep.",
+      "tags": [
+        "agents",
+        "ai",
+        "showdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f9126ae41b57437a4eb5f75abb6010fe",
+      "title": "Automating root cause analysis at scale: Multi-signal correlation for cloud native incident response",
+      "url": "https://www.cncf.io/blog/2026/08/24/automating-root-cause-analysis-at-scale-multi-signal-correlation-for-cloud-native-incident-response/",
+      "source": "CNCF Blog",
+      "published_at": "2026-08-24T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "906049225ab4692b87c4b8b0cb8a3b45",
+      "title": "What workflow orchestration too actually has real entreprise RBAC, not just role=admin/role=viewer ?",
+      "url": "https://www.reddit.com/r/devops/comments/1vwww41/what_workflow_orchestration_too_actually_has_real/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-24T08:30:19+00:00",
+      "summary": "We are being asked to onboard 4 separate teams onto our orchestration plateform and suddenly &quot;who can run what&quot; matters a lot. Our current setup (airflow) has RBAC that technically works bit it's painful. No SSO integration, audit logs are scattered and fine grained namespace level permiss",
       "tags": [],
       "relevance_score": 0.0
     }
