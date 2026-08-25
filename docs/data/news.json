@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T07:03:46Z",
+  "generated_at": "2026-08-25T08:55:28Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1212,16 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "853d510dfdc13456d2407bce7e23c31f",
-      "title": "What Kubernetes misconfigurations have caused you real production problems?",
-      "url": "https://www.reddit.com/r/devops/comments/1vribl5/what_kubernetes_misconfigurations_have_caused_you/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-18T07:32:26+00:00",
-      "summary": "After working with Kubernetes in production, I've noticed that some of the most annoying incidents aren't caused by obvious failures. They're often caused by small configuration decisions that look perfectly reasonable during review. Things like:  missing resource requests/limits incorrect probes ov",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "bb0c63b1ff5a0ea97d377685bfddf5cd",
       "title": "grafana/grafana: v13.2.0",
       "url": "https://github.com/grafana/grafana/releases/tag/v13.2.0",
@@ -1637,13 +1627,14 @@
       "url": "https://dev.to/anand_rathnas_d5b608cc3de/digitalocean-postgres-has-a-firewall-trap-we-walked-right-into-it-3inf",
       "source": "Dev.to",
       "published_at": "2026-08-19T02:20:59Z",
-      "summary": "Describes a firewall trap in DigitalOcean Managed Postgres that caught users off guard, and how to avoid similar network misconfigurations.",
+      "summary": "Adding a single trusted-source rule to a previously-open DO managed Postgres flips the entire DB into enforcement mode. We learned this the hard way.",
       "tags": [
-        "Cloud",
-        "DevOps",
-        "Security"
+        "digitalocean",
+        "postgres",
+        "devops",
+        "debugging"
       ],
-      "relevance_score": 0.6
+      "relevance_score": 0.0
     },
     {
       "id": "31c6b548dc2917fff5a7334885263e3c",
@@ -3472,6 +3463,16 @@
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-08-25T04:01:31+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "94d5e117ae5e221aa066030767086845",
+      "title": "Building an IDP PoC for self-learning (and potential pitch): What is your current open-source stack?",
+      "url": "https://www.reddit.com/r/devops/comments/1vxsmyr/building_an_idp_poc_for_selflearning_and/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-25T07:13:07+00:00",
+      "summary": "Hi everyone, I am planning to build an Internal Developer Platform (IDP) Proof of Concept. My main goal is self-learning (I am very interested in DevEx and self-service) to understand the moving parts of a modern platform, but I am also hoping to gather enough hands-on experience to potentially pres",
       "tags": [],
       "relevance_score": 0.0
     }
