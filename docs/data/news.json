@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T20:40:58Z",
+  "generated_at": "2026-08-25T22:38:34Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -3421,6 +3421,56 @@
       "tags": [
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "33033fb1126843c84d2cba1ef4a78ce4",
+      "title": "Sleep/wake orchestration for self-hosted side projects: a wire-protocol proxy approach instead of a full PaaS.",
+      "url": "https://www.reddit.com/r/devops/comments/1vyep15/sleepwake_orchestration_for_selfhosted_side/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-25T22:27:59+00:00",
+      "summary": "I built an open-source tool (Hobbyist) around one architectural bet and I'd like this community to poke holes in it. The bet: for small self-hosted workloads, you don't need Kubernetes-style orchestration; you need scale-to-zero on a single box. Hobbyist runs each project's Postgres 18, Docker apps,",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e5004e9ecf8da633cab741884f272387",
+      "title": "Moving from Minimus to Docker Hardened Images",
+      "url": "https://www.docker.com/blog/moving-from-minimus-to-docker-hardened-images/",
+      "source": "Docker Blog",
+      "published_at": "2026-08-25T22:27:06+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5ca67750d1cf9ba684d1daffc8e419a8",
+      "title": "Our .NET app goes down while CPU/RAM look fine - what are we missing in monitoring?",
+      "url": "https://www.reddit.com/r/devops/comments/1vye5h9/our_net_app_goes_down_while_cpuram_look_fine_what/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-25T22:06:28+00:00",
+      "summary": "Hi everyone, I would like to hear how experienced DevOps engineers approach monitoring for large public-facing applications. We have a .NET e-commerce platform with: - ASP.NET Core MVC + Angular - SQL Server - Elasticsearch (~10M products) - RabbitMQ - IIS hosting - Multiple public domains/subdomain",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "91233549256f03e454992e6649d3e674",
+      "title": "ollama/ollama: v0.33.0-rc4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc4",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-08-25T22:03:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d11da7bd4f678b5524e2e48ac9a2ff36",
+      "title": "apache/airflow: providers/2026-08-25",
+      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-08-25",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-25T21:01:45+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
