@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:56:42Z",
+  "generated_at": "2026-08-25T16:50:44Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1202,16 +1202,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "4b7130b790c3095417b797f661b5836c",
-      "title": "Deterministic Robots, Agentic Reasoning: Balancing Reliability and Flexibility in Software Test Automation",
-      "url": "https://devops.com/deterministic-robots-agentic-reasoning-balancing-reliability-and-flexibility-in-software-test-automation/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-18T16:27:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f8d3090ea5048968409da8dc26aa677f",
       "title": "17,600 Actions: Agent Security Is a Systems Problem",
       "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
@@ -1284,21 +1274,6 @@
       "published_at": "2026-08-18T16:58:18+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "73fe0c91b5a670fa90b285086a532f7d",
-      "title": "RBAC for AI: Governing the AI Control Plane",
-      "url": "https://dev.to/kenwalger/rbac-for-ai-governing-the-ai-control-plane-e59",
-      "source": "Dev.to",
-      "published_at": "2026-08-18T16:43:00Z",
-      "summary": "Giving someone access to the AI control plane is not the same as deciding which parts of it they are...",
-      "tags": [
-        "ai",
-        "security",
-        "architecture",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1703,21 +1678,6 @@
         "chaosengineering",
         "devops",
         "homelab"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ded2b81fe3030e9a9074f53f7bd9699e",
-      "title": "Not Every LLM Needs vLLM: A Kubernetes Engineer's Guide to Serving Engines",
-      "url": "https://dev.to/the-persistent-engineer/not-every-llm-needs-vllm-a-kubernetes-engineers-guide-to-serving-engines-15h0",
-      "source": "Dev.to",
-      "published_at": "2026-08-18T15:51:03Z",
-      "summary": "Series links   Part 1: Everything You Know About Scaling Web Apps Breaks When You Serve an LLM Part...",
-      "tags": [
-        "kubernetes",
-        "llm",
-        "ai",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -3378,6 +3338,101 @@
       "source": "The New Stack",
       "published_at": "2026-08-25T14:00:12+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d300252632b00d3c5748c980d04c1cc7",
+      "title": "The AI Agent Race Is On. But Are We Watching the Right Race?",
+      "url": "https://devops.com/the-ai-agent-race-is-on-but-are-we-watching-the-right-race/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-25T16:09:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e59111cd3123b47adc21046acf1707b4",
+      "title": "Backend developer moving into Infra — what Kubernetes fundamentals should I focus on first?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vy43k1/backend_developer_moving_into_infra_what/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-25T16:06:42+00:00",
+      "summary": "I’m a backend developer who recently moved into an infrastructure-focused role. I’m now working with Kubernetes, Key Vault, Storage Accounts, networking, etc., and I’ve realized that I’m missing some of the foundational infrastructure knowledge. I already have experience with Docker and backend deve",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2fb250179590043d41f38706a07da1c5",
+      "title": "Perplexity’s Computer agent can now run locally — if you can afford it",
+      "url": "https://thenewstack.io/perplexity-portable-computer-nvidia/",
+      "source": "The New Stack",
+      "published_at": "2026-08-25T15:34:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "964bd99199860fe46e10a3cc3becf923",
+      "title": "How we turned a Kubernetes cluster into a VDI platform",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vxzg7z/how_we_turned_a_kubernetes_cluster_into_a_vdi/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-25T13:11:11+00:00",
+      "summary": "      We've been running abcdesktop.io in production for more than five years and wanted to share the architecture since it's a fairly unusual use of Kubernetes. The core idea Instead of provisioning VMs for VDI (like Citrix or Horizon do), each user session is a Kubernetes pod. Login event, then po",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1a1cad261e1b9a9d21a602eb8b279eb8",
+      "title": "Weekly: Questions and advice",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vxvg5j/weekly_questions_and_advice/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-25T10:00:10+00:00",
+      "summary": "Have any questions about Kubernetes, related tooling, or how to adopt or use Kubernetes? Ask away!  &#32; submitted by &#32;  /u/AutoModerator   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "35ef6f87d76a9c2f22cfafd06a40a1fe",
+      "title": "Kubara? Is it worth it?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vxbqu9/kubara_is_it_worth_it/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-24T18:50:55+00:00",
+      "summary": "I've noticed that [Kubara](https://github.com/kubara-io/kubara) team is introducing their product as the new, must have solution for a modern infra stack. Is that legit? Or is it just another wrapper around existing gitops tools with pre-scaffolded templates?  &#32; submitted by &#32;  /u/possible_f",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "540043e1fd7b33c2be79f7a360107777",
+      "title": "Clean stop of a 'pod' in EKS ?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vx2dyt/clean_stop_of_a_pod_in_eks/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-24T13:09:49+00:00",
+      "summary": "&#32; submitted by &#32;  /u/CyrilDevOps   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8b765c22dd19a153268f2755397d7c26",
+      "title": "ChatGPT and Gemini Both Crossed a Billion Users. The Infrastructure Story Is the One Nobody's Telling",
+      "url": "https://dev.to/muskan_bandta/chatgpt-and-gemini-both-crossed-a-billion-users-the-infrastructure-story-is-the-one-nobodys-25k7",
+      "source": "Dev.to",
+      "published_at": "2026-08-24T05:20:34Z",
+      "summary": "The headline this week is the round number: ChatGPT reportedly crossed a billion weekly users, Gemini...",
+      "tags": [
+        "ai",
+        "cloud",
+        "devops",
+        "architecture"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0af18826d0bf0d2e8c034631afb8decd",
+      "title": "Monthly: Who is hiring?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1vcj9x5/monthly_who_is_hiring/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-08-01T10:00:07+00:00",
+      "summary": "This monthly post can be used to share Kubernetes-related job openings within your company. Please include:  Name of the company Location requirements (or lack thereof) At least one of: a link to a job posting/application page or contact details  If you are interested in a job, please contact the po",
       "tags": [],
       "relevance_score": 0.0
     }
