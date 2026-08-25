@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T13:05:34Z",
+  "generated_at": "2026-08-25T14:56:42Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-25T13:02:24+00:00",
+      "published_at": "2026-08-25T13:03:52+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -66,7 +66,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-25T09:43:55+00:00",
+      "published_at": "2026-08-25T14:05:39+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1202,26 +1202,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f8dd79abda27b8b7ad37403ef204aa3c",
-      "title": "Did GitHub Just Gaslight Our Monitoring System?",
-      "url": "https://www.reddit.com/r/devops/comments/1vrosn0/did_github_just_gaslight_our_monitoring_system/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-18T13:12:07+00:00",
-      "summary": "Did anyone else notice that the GitHub status page reported an incident with GitHub Actions, only to deny it 47 minutes later? Our monitors captured it, paged our on-call team, and then GitHub denied that any incident had occurred. https://www.githubstatus.com/incidents/gx7js8bd0jpz  &#32; submitted",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "860fa06b55f37aa071a990f4fa3432b6",
-      "title": "OpenAI’s Greg Brockman: Z.ai’s GLM-5.3 likely to “significantly accelerate the threat landscape”",
-      "url": "https://thenewstack.io/openai-open-weight-glm-5-3/",
-      "source": "The New Stack",
-      "published_at": "2026-08-18T13:10:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4b7130b790c3095417b797f661b5836c",
       "title": "Deterministic Robots, Agentic Reasoning: Balancing Reliability and Flexibility in Software Test Automation",
       "url": "https://devops.com/deterministic-robots-agentic-reasoning-balancing-reliability-and-flexibility-in-software-test-automation/",
@@ -1239,21 +1219,6 @@
       "published_at": "2026-08-18T16:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "18b9da1883fcb79128aa5b73c558bc9e",
-      "title": "My Uptime Monitor Was Set to Every 5 Minutes. In July It Ran 15 Times a Day.",
-      "url": "https://dev.to/mrviduus/my-uptime-monitor-was-set-to-every-5-minutes-in-july-it-ran-15-times-a-day-3if8",
-      "source": "Dev.to",
-      "published_at": "2026-08-18T13:30:20Z",
-      "summary": "This is a submission for DEV's Summer Bug Smash: Smash Stories powered by Sentry.   🔨 #bugsmash, week...",
-      "tags": [
-        "devchallenge",
-        "bugsmash",
-        "github",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1354,21 +1319,6 @@
       "published_at": "2026-08-18T19:44:51+00:00",
       "summary": "Has anyone here attended an Observability SWE coding round? I’m trying to get a sense of the typical coding questions asked by tech companies for these roles. Would you say the coding is generally at the same level as a standard SWE coding round, or is it more SRE/observability-focused (e.g., log pa",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d60f8c5df1c69845176b6c3aa624f8a1",
-      "title": "A Load Balancer Is 200 Lines of Go, and Five Bugs You Won't See Coming",
-      "url": "https://dev.to/v4nd1t/a-load-balancer-is-200-lines-of-go-and-five-bugs-you-wont-see-coming-5cm3",
-      "source": "Dev.to",
-      "published_at": "2026-08-18T14:00:00Z",
-      "summary": "Building a round-robin HTTP load balancer in ~200 lines of Go, and the five quiet bugs (one of which go vet screams about) that reveal what real load balancing actually is.",
-      "tags": [
-        "go",
-        "devops",
-        "networking",
-        "programming"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3397,6 +3347,36 @@
       "url": "https://tuananh.net/2020/02/20/the-story-behind-my-talk-cloud-cost-optimization-at-scale/",
       "source": "Hacker News",
       "published_at": "2020-02-25T02:25:27Z",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c6dd0b424c1445a07f7113a81c6781c8",
+      "title": "istio/istio: 1.31.0-rc.2",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.0-rc.2",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-08-25T14:31:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bbbcee550ac933d9a82ec27de46ded70",
+      "title": "n8n-io/n8n: n8n@2.37.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-08-25T14:11:21+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bfd424504af6385b2ee8853282a563f4",
+      "title": "OpenAI built a chip in nine months. Then it let AI rewrite the code.",
+      "url": "https://thenewstack.io/openai-jalapeno-inference-chip/",
+      "source": "The New Stack",
+      "published_at": "2026-08-25T14:00:12+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
