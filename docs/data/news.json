@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T10:45:23Z",
+  "generated_at": "2026-08-26T13:10:36Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -87,16 +87,6 @@
       "url": "https://aws.amazon.com/blogs/devops/diagnose-eks-node-issues-faster-with-aws-devops-agent-and-custom-mcp/",
       "source": "AWS Blog",
       "published_at": "2026-06-11T20:43:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "76d05acf9ed6aa083631fed8b75db208",
-      "title": "Debug deployment failures faster with the Deployments tab in AWS Elastic Beanstalk",
-      "url": "https://aws.amazon.com/blogs/devops/debug-deployment-failures-faster-with-the-deployments-tab-in-aws-elastic-beanstalk/",
-      "source": "AWS Blog",
-      "published_at": "2026-06-04T13:53:20+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1092,16 +1082,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "391a66ffb3105ed39c67c7a2c77d1662",
-      "title": "CNCF Announces Kubeflow’s Graduation, Solidifying a Standard for Cloud Native AI Operations",
-      "url": "https://www.cncf.io/announcements/2026/08/17/cncf-announces-kubeflows-graduation-solidifying-the-standard-for-cloud-native-ai-operations/",
-      "source": "CNCF Blog",
-      "published_at": "2026-08-17T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "fea2bb729024a20423f77ed7f1f3b6ae",
       "title": "open-telemetry/opentelemetry-collector: v1.65.0/v0.159.0",
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.159.0",
@@ -1212,46 +1192,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "41d8b3ef3f65047b0728b6303f89f8e2",
-      "title": "istio/istio: 1.31.0-rc.0",
-      "url": "https://github.com/istio/istio/releases/tag/1.31.0-rc.0",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-08-19T12:43:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a766bf9c696b5a431326f33af3ae24e8",
-      "title": "Are LLMs Equally Good (or Bad) at Building Secure Software?",
-      "url": "https://devops.com/are-llms-equally-good-or-bad-at-building-secure-software/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-19T12:12:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "00ccf71680c47115372b6c503700bcbc",
-      "title": "hashicorp/terraform: v1.16.0-rc2",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc2",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-08-19T12:08:45+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "49ed3e4d17e65d201aa7c4197ab47b38",
-      "title": "An open source rival to Claude Managed Agents just launched",
-      "url": "https://thenewstack.io/truefoundry-trueforge-claude-managed-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-08-19T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "39797522db646a0cd59a415141fb3722",
       "title": "apache/airflow: providers/2026-08-18",
       "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-08-18",
@@ -1319,26 +1259,6 @@
         "linux",
         "learning"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "518d54f56081b8628cf343500501e0ce",
-      "title": "Claude Code’s Temporary Usage Boost Expires Tonight. Here’s What Actually Changes",
-      "url": "https://devops.com/claude-codes-temporary-usage-boost-expires-tonight-heres-what-actually-changes/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-19T13:07:03+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b1b6c26055074510706f48449127ad27",
-      "title": "istio/istio: Istio 1.31.0-beta.2",
-      "url": "https://github.com/istio/istio/releases/tag/1.31.0-beta.2",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-08-19T13:05:52+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3466,6 +3386,61 @@
       "published_at": "2026-08-26T09:06:32+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f19ad8a21705ec45cd7cc5f31300c6ec",
+      "title": "hashicorp/terraform: v1.16.0",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-08-26T13:05:28+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "95212e6c62087b479f1537a8e0e1234e",
+      "title": "When AI agent traces become application data",
+      "url": "https://thenewstack.io/agent-traces-application-data/",
+      "source": "The New Stack",
+      "published_at": "2026-08-26T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4e7ec4c01142ec07daf8c76ed363daef",
+      "title": "AI-driven software delivery with Kiro, AWS DevOps Agent and Bluebox by Dynatrace",
+      "url": "https://aws.amazon.com/blogs/devops/ai-driven-software-delivery-with-kiro-aws-devops-agent-and-bluebox-by-dynatrace/",
+      "source": "AWS Blog",
+      "published_at": "2026-08-26T12:59:33+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8ab1fb051e97a65ebbd5c5cc462639e3",
+      "title": "Microsoft just released Agent Lightning v1.0. Here’s why it matters for platform engineers.",
+      "url": "https://thenewstack.io/microsoft-agent-lightning-harness/",
+      "source": "The New Stack",
+      "published_at": "2026-08-26T12:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5aa65d4f488413157dd2635dfaa439e6",
+      "title": "Mastering Zero-Downtime Deployments with Laravel Deployer",
+      "url": "https://dev.to/abbeymaniak/mastering-zero-downtime-deployments-with-laravel-deployer-18f3",
+      "source": "Dev.to",
+      "published_at": "2026-08-26T11:06:16Z",
+      "summary": "How I achieved zero-downtime deployments using PHP Deployer for my Laravel app, and the critical...",
+      "tags": [
+        "laravel",
+        "php",
+        "devops",
+        "deployer"
+      ],
       "relevance_score": 0.0
     }
   ]
