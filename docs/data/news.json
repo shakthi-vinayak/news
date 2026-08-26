@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:10:36Z",
+  "generated_at": "2026-08-26T14:55:08Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1042,16 +1042,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ef60b13196612b9f3b59275cf6444281",
-      "title": "istio/istio: 1.31.0-beta.0",
-      "url": "https://github.com/istio/istio/releases/tag/1.31.0-beta.0",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-08-13T17:38:13+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a774ec7d770a8f5a1b4f0979f0c4230f",
       "title": "Reproducible ESP32 Firmware Development with Docker and Docker Sandboxes",
       "url": "https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/",
@@ -1189,76 +1179,6 @@
       "published_at": "2026-08-18T16:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "39797522db646a0cd59a415141fb3722",
-      "title": "apache/airflow: providers/2026-08-18",
-      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-08-18",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-19T14:36:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4ff178a81d1e51bf73fa484897a8a0fd",
-      "title": "hashicorp/terraform: v1.15.9",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-08-19T14:29:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "25e29ff1ca282cfeeecd5490b809e495",
-      "title": "ollama/ollama: v0.32.15-rc0: mlx update (#17850)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-19T14:15:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a8e9c8bc4b858a9575b4b3c8f24fa0e6",
-      "title": "istio/istio: Istio 1.31.0-rc.0",
-      "url": "https://github.com/istio/istio/releases/tag/1.31.0-rc.0",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-08-19T14:07:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "eeb62b604b82c6528170a46afa37223b",
-      "title": "Deploying SigNoz in 2026: A Survival Guide to ClickHouse v25+ and OTel Gotchas",
-      "url": "https://dev.to/zhukmax/deploying-signoz-in-2026-a-survival-guide-to-clickhouse-v25-and-otel-gotchas-3pec",
-      "source": "Dev.to",
-      "published_at": "2026-08-19T13:56:48Z",
-      "summary": "Hello, fellow developers! 🧑‍💻  When building a modern B2B SaaS ecosystem, bulletproof observability...",
-      "tags": [
-        "signoz",
-        "clickhouse",
-        "devops",
-        "architecture"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "33663547f38023e24a962fd4675eb464",
-      "title": "11 Independent DevOps Learning Sites That Are Not Selling You a Certification",
-      "url": "https://dev.to/devopsdaily/11-independent-devops-learning-sites-that-are-not-selling-you-a-certification-4l3p",
-      "source": "Dev.to",
-      "published_at": "2026-08-19T13:10:14Z",
-      "summary": "Most DevOps learning content is made by companies that want you to buy their product, or by course mills that teach the exam. Here are eleven resources run by individuals and small teams, what each is actually good for, and where each one stops.",
-      "tags": [
-        "devops",
-        "kubernetes",
-        "linux",
-        "learning"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1902,36 +1822,6 @@
         "ai",
         "opensource",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fc1bae9ed899e33c51d770e60ecaf4ef",
-      "title": "Agentic AI Vocabulary for DevOps: 12 Terms You Already Operate Under Another Name",
-      "url": "https://dev.to/devopsdaily/agentic-ai-vocabulary-for-devops-12-terms-you-already-operate-under-another-name-4la7",
-      "source": "Dev.to",
-      "published_at": "2026-08-19T14:00:00Z",
-      "summary": "There is a genre of infographic doing the rounds at the moment: twelve must-know agentic AI terms, a...",
-      "tags": [
-        "ai",
-        "devops",
-        "sre",
-        "mcp"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "be0e63b02dd9ec7c7966a77db6a8dde4",
-      "title": "S3 Lifecycle Policies: How to Cut Your Storage Bill 40% (With the Actual Arithmetic)",
-      "url": "https://dev.to/ethan-carter/s3-lifecycle-policies-how-to-cut-your-storage-bill-40-with-the-actual-arithmetic-4lnk",
-      "source": "Dev.to",
-      "published_at": "2026-08-19T13:14:00Z",
-      "summary": "An S3 lifecycle policy moves objects between storage classes on a schedule, or deletes them. The...",
-      "tags": [
-        "aws",
-        "s3",
-        "devops",
-        "storage"
       ],
       "relevance_score": 0.0
     },
@@ -3440,6 +3330,81 @@
         "php",
         "devops",
         "deployer"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5383f8cc45becde56a500fa1f7c62377",
+      "title": "apache/airflow: ts-sdk/0.0.1-beta2",
+      "url": "https://github.com/apache/airflow/releases/tag/ts-sdk%2F0.0.1-beta2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-26T13:52:06+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a1653fe3883b1e8eb861ceef53f61b45",
+      "title": "Your Agent Planned the Right Tools. It Still Crashed the Machine.",
+      "url": "https://dev.to/p0rt/your-agent-planned-the-right-tools-it-still-crashed-the-machine-58hf",
+      "source": "Dev.to",
+      "published_at": "2026-08-26T13:51:56Z",
+      "summary": "PeakBench separates logical planning from physical scheduling. Eight frontier models could recover dependencies yet still overload finite infrastructure",
+      "tags": [
+        "ai",
+        "llm",
+        "devops",
+        "mlops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "43451fd452037c061e5b8a01dd39473d",
+      "title": "The Cloud Is Becoming a Geopolitical Risk",
+      "url": "https://www.reddit.com/r/devops/comments/1vyx3zp/the_cloud_is_becoming_a_geopolitical_risk/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-26T13:27:53+00:00",
+      "summary": "      Governments spent years moving critical digital infrastructure into the cloud. Now there’s a growing question about what that actually means for national sovereignty. AWS, Microsoft Azure and Google Cloud are American companies, which creates an interesting problem for governments that increas",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "505092c68807751de53d22760b4d55d9",
+      "title": "istio/istio: 1.31.0-rc.3",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.0-rc.3",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-08-26T13:26:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "150fc1490b807e9dda201d10bab1b3f6",
+      "title": "Building Performance Budgets Into Git",
+      "url": "https://dev.to/meroline_lizlent/building-performance-budgets-into-git-2onf",
+      "source": "Dev.to",
+      "published_at": "2026-08-26T10:10:58Z",
+      "summary": "Performance gets worse and worse as patches are added. None of the specific PRs contribute 200ms of...",
+      "tags": [
+        "performance",
+        "git",
+        "cicd",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9f872e2c4515b08a6997e500273260c9",
+      "title": "I Read 25 Release Pipelines Looking for One Bug. Four Had It.",
+      "url": "https://dev.to/wahib_el_khadiri_0/i-read-25-release-pipelines-looking-for-one-bug-four-had-it-3n9e",
+      "source": "Dev.to",
+      "published_at": "2026-08-26T09:40:48Z",
+      "summary": "A GitHub Actions expression is not a variable. It is pasted into your shell as text before bash ever sees it — and it usually lands in the one job holding your publishing credentials.",
+      "tags": [
+        "security",
+        "github",
+        "devops",
+        "cicd"
       ],
       "relevance_score": 0.0
     }
