@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T19:59:05Z",
+  "generated_at": "2026-08-26T23:22:20Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1162,36 +1162,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "402aec081fa8281aa75bcc84fee50989",
-      "title": "“The opening stages of OpenAI’s unraveling”: OpenAI slows model training — not everyone is buying the explanation",
-      "url": "https://thenewstack.io/openai-training-pause-cybersecurity/",
-      "source": "The New Stack",
-      "published_at": "2026-08-19T21:53:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8799d3bc25f8146110e6d8dfb4fa04bf",
-      "title": "langchain-ai/langchain: langchain-openai==1.6.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.0",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-08-19T21:45:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "441dab4e4d053034eba5764e05e28c9d",
-      "title": "What It Really Takes to Run OpenTelemetry",
-      "url": "https://devops.com/what-it-really-takes-to-run-opentelemetry/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-19T21:12:35+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3d820e7b1c0f9c6b8439585ddb027e30",
       "title": "ollama/ollama: v0.32.15",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15",
@@ -1868,16 +1838,6 @@
         "automation",
         "devops"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "46e4b936115c68724ad274a6f910c981",
-      "title": "ollama/ollama: v0.32.15-rc2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc2",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-19T22:40:16+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3411,6 +3371,91 @@
       "published_at": "2026-08-26T00:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "503ab2e206f3393db496dd9d09487d44",
+      "title": "ollama/ollama: v0.33.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-08-26T22:55:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "998cd3f08013e8970f4d51fa2578f2f0",
+      "title": "Anthropic’s Claude now has a browser of its own",
+      "url": "https://thenewstack.io/claude-built-in-browser-cowork/",
+      "source": "The New Stack",
+      "published_at": "2026-08-26T22:05:58+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7d36a30a0297c148fc93e6547e637599",
+      "title": "Any CI/CD tool where automation code doesn't cohabit with product code in git repo?",
+      "url": "https://www.reddit.com/r/devops/comments/1vzbcrg/any_cicd_tool_where_automation_code_doesnt/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-26T22:05:20+00:00",
+      "summary": "Currently using Github and Github workflows (including the many outages). Let me explain what I'm trying to resolve with few examples: Let say I manage 15 repos, each one I want to run a relatively similar workflow on Pull Request. I create a github shared workflow and in each of the 15 repos I make",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "584618802274b9f00a8f82c92742af6b",
+      "title": "I wrote down every silent failure mode from shipping Android/CI projects with no local dev environment",
+      "url": "https://www.reddit.com/r/devops/comments/1vza86e/i_wrote_down_every_silent_failure_mode_from/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-26T21:22:01+00:00",
+      "summary": "Full disclosure: this is my own repo. I do all my development from a phone — no laptop, no local toolchain. Everything gets built and verified through GitHub Actions. Over the last month, shipping an Android app and a couple of Cloudflare Workers this way, I kept hitting the same category of bug: th",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "855562ca7c1b34544d781929b251ffd6",
+      "title": "Please Help. How do we continue do dev?",
+      "url": "https://www.reddit.com/r/devops/comments/1vz8w6x/please_help_how_do_we_continue_do_dev/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-26T20:31:37+00:00",
+      "summary": "I'm on a 3-person team: 1 data scientist, and 2 engineer (including myself). Between the both of us engineers, we have maybe a year of experience total with strictly Python. This is for a prototype AI app / tool. I am approaching about 2 years of IT experience and had to pick up docker, gitlab ci, a",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "26e6974c27f42d832e5b171938fe049d",
+      "title": "OpenAI’s Astra can do a researcher’s week of work. That’s the problem.",
+      "url": "https://thenewstack.io/openai-astra-persistent-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-08-26T20:24:20+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e9f2f457084ceb82914758fbe646cf5b",
+      "title": "Observability has a data problem. AI is about to make it worse.",
+      "url": "https://thenewstack.io/opentelemetry-observability-telemetry-storage/",
+      "source": "The New Stack",
+      "published_at": "2026-08-26T20:08:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2959150b04bb53e5074b3bbeda651ec2",
+      "title": "50 minutes from issue to merged fix: when the readers find the boundary you shipped past",
+      "url": "https://dev.to/pm25coder/50-minutes-from-issue-to-merged-fix-when-the-readers-find-the-boundary-you-shipped-past-20g5",
+      "source": "Dev.to",
+      "published_at": "2026-08-26T16:46:45Z",
+      "summary": "We published a postmortem about a token counter that drifted 50% and a safety net that never fired....",
+      "tags": [
+        "ai",
+        "llm",
+        "programming",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
