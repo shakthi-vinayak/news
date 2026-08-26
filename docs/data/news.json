@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T16:56:30Z",
+  "generated_at": "2026-08-26T19:59:05Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -117,16 +117,6 @@
       "url": "https://kubernetes.io/blog/2026/05/15/kubernetes-1-36-feature-mixed-version-proxy-beta/",
       "source": "Kubernetes Blog",
       "published_at": "2026-05-15T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "53fcd95fcf5c6d853fafa192d79f2cfd",
-      "title": "Kubernetes v1.36: Deprecation and removal of Service ExternalIPs",
-      "url": "https://kubernetes.io/blog/2026/05/14/kubernetes-v1-36-deprecation-and-removal-of-service-externalips/",
-      "source": "Kubernetes Blog",
-      "published_at": "2026-05-14T18:35:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1167,36 +1157,6 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-08-19T18:05:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "047aef01cc1f8f290122fb46a9ed3264",
-      "title": "ollama/ollama: v0.32.15",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.32.15-rc1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-19T17:25:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8f95de7937599539b87d2bd2fecec586",
-      "title": "Your coding agent got the onboarding your developers never did",
-      "url": "https://thenewstack.io/coding-agents-developer-neglect/",
-      "source": "The New Stack",
-      "published_at": "2026-08-19T17:04:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "360272a3bd9e9f5747c83d638c7bf377",
-      "title": "AWS deprecated this EKS auth method. 81% of clusters still run it.",
-      "url": "https://thenewstack.io/kubernetes-fleet-security-management/",
-      "source": "The New Stack",
-      "published_at": "2026-08-19T18:59:54+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3329,6 +3289,126 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc0",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-08-26T15:05:59+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1df321173642e5f96571805231a9beb6",
+      "title": "apache/airflow: providers-amazon/9.35.1rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-amazon%2F9.35.1rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-26T19:27:52+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "267acf0f718cbc5c2286ef3dc412158b",
+      "title": "apache/airflow: providers-fab/3.8.1rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-fab%2F3.8.1rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-26T19:27:52+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9ddcc93be802222cdda40968c4647ada",
+      "title": "apache/airflow: providers-microsoft-azure/15.0.1rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-microsoft-azure%2F15.0.1rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-08-26T19:27:52+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "49d5aa0597ebe26749dda8a93c70ccfc",
+      "title": "ollama/ollama: v0.33.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-08-26T18:09:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b4ebd1f553bb48fefbb188891586f015",
+      "title": "Installing OpenLiteSpeed on Ubuntu 22.04",
+      "url": "https://dev.to/vultr/installing-openlitespeed-on-ubuntu-2204-1pn8",
+      "source": "Dev.to",
+      "published_at": "2026-08-26T17:47:13Z",
+      "summary": "OpenLiteSpeed is a free, open-source, high-performance web server with HTTP/2 and HTTP/3 support,...",
+      "tags": [
+        "linux",
+        "webdev",
+        "devops",
+        "php"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dde1dc957d3356a97fc50165d2c18da8",
+      "title": "Installing Nagios on Ubuntu 24.04",
+      "url": "https://dev.to/vultr/installing-nagios-on-ubuntu-2404-327g",
+      "source": "Dev.to",
+      "published_at": "2026-08-26T17:33:30Z",
+      "summary": "Nagios Core is an open-source monitoring tool for networks, services, and applications, using the...",
+      "tags": [
+        "monitoring",
+        "linux",
+        "devops",
+        "networking"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d081c771416340065257a9e9e6224264",
+      "title": "How would you recommend learning Kubernetes and Helm effectively?",
+      "url": "https://www.reddit.com/r/devops/comments/1vz3dvi/how_would_you_recommend_learning_kubernetes_and/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-26T17:18:07+00:00",
+      "summary": "Hi everyone, I recently started working in a DevOps-related role, and I’ve been asked to learn Kubernetes, Helm, and the concepts around them. I’m currently trying to understand the best way to approach it. There are so many resources and topics that I’m not sure what I should prioritize first. For ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d1eb897c9fb2d7cd08c4d1bfcc9bd14a",
+      "title": "Centrally Managing OTel Collectors with Elastic Agent and Fleet",
+      "url": "https://www.reddit.com/r/devops/comments/1vz38io/centrally_managing_otel_collectors_with_elastic/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-26T17:12:55+00:00",
+      "summary": "      Managing OpenTelemetry collectors at scale has been a pain point for a while now. You either run standalone collectors and lose central visibility, or you build custom tooling to keep configs in sync across environments. This takes a different approach by embedding an OTel Collector directly i",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0df79488fb04be93dda5ef522dc8079b",
+      "title": "Intrusion Detection on K8s on prem",
+      "url": "https://www.reddit.com/r/devops/comments/1vz34yv/intrusion_detection_on_k8s_on_prem/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-26T17:09:27+00:00",
+      "summary": "I’m looking for an open source solution for intrusion detection. Our team is working on vulnerability scanning and intrusion detection for the new BSI standards set by the EU/German security compliance agencies. We already have Jfrog Xray for vulnerability scanning albeit with some limitations. But ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ef609fdab18497a7f154beaed733d6e9",
+      "title": "Claude Desktop can now easily run Qwen, DeepSeek and Kimi models — after Ollama’s first effort stalled",
+      "url": "https://thenewstack.io/ollama-claude-desktop-integration/",
+      "source": "The New Stack",
+      "published_at": "2026-08-26T16:59:39+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2bc41b572e444126c900574e33640800",
+      "title": "Kubernetes v1.37: Garhwal",
+      "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
+      "source": "Kubernetes Blog",
+      "published_at": "2026-08-26T00:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
