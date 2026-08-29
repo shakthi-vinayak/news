@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T11:02:29Z",
+  "generated_at": "2026-08-29T16:42:21Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1137,26 +1137,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-08-23T19:19:20+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "51f42be2ff3b95e465a39a22aa4006a8",
-      "title": "Six identity capabilities for securing autonomous AI agents",
-      "url": "https://thenewstack.io/securing-autonomous-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-08-22T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e24e3a5d2e8ee2cdce8f7864cf141fef",
-      "title": "Securing sandboxes: What happens when AI agents escape containment?",
-      "url": "https://thenewstack.io/securing-ai-agent-sandboxes/",
-      "source": "The New Stack",
-      "published_at": "2026-08-22T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3229,6 +3209,46 @@
         "go",
         "opensource"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "01dcc08852e1dfcd6dec2db58381ea5d",
+      "title": "Observability of the dependencies in codebases still a problem",
+      "url": "https://www.reddit.com/r/devops/comments/1w1m4i3/observability_of_the_dependencies_in_codebases/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-29T13:07:48+00:00",
+      "summary": "Almost every codebase is calling a REST, gRPC, or a GraphQL API or using SDKs from an external or even internal provider. It gets harder to keep track of everything when the codebase matures and increases in size and from my experience sometimes it gets hard to respond to changes in time or even bec",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "93a2a54e4439919afe647d09e69b5d3a",
+      "title": "The 3 roles AI agents play in your developer platform",
+      "url": "https://thenewstack.io/ai-agent-platform-roles/",
+      "source": "The New Stack",
+      "published_at": "2026-08-29T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "468a0ce23e814f909de4383e77d673c0",
+      "title": "Thing nobody warn you about deploying into customers cloud/env",
+      "url": "https://www.reddit.com/r/devops/comments/1w1ltbt/thing_nobody_warn_you_about_deploying_into/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-29T12:54:07+00:00",
+      "summary": "Most of us talk about packaging like thats the hard part of shipping into customers cloud, docker or helm or IAC bt thats the easy peasy 80% and even the deploy and update side is mostly solved now with tools like alien dev push the app and updates in  Phase that actually stings is everything your s",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "51c2e0004acf9d7c6311e0b34018f76d",
+      "title": "Sysadmin → cloud engineer. How rough is it? Give me a /10",
+      "url": "https://www.reddit.com/r/devops/comments/1w1kx8j/sysadmin_cloud_engineer_how_rough_is_it_give_me_a/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-29T12:11:25+00:00",
+      "summary": "Alright so I'm at a consulting firm and I'm getting moved off my Linux sysadmin role onto an AWS project as a &quot;cloud engineer&quot;. Starting soon. Not gonna lie, I'm sweating a bit. Everything I know about AWS is theory. Docs, videos, cert prep stuff. Never actually touched prod. Linux I'm fin",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
