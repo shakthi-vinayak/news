@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T14:49:56Z",
+  "generated_at": "2026-08-30T19:19:32Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1132,16 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0b2ef0e09995cd214a273916fc9cb847",
-      "title": "ollama/ollama: v0.33.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc2",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-23T19:19:20+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "44c401d68e2874eb3fcc34a91e69936d",
       "title": "The HTTP 429 That Turned Seven Minutes Into Zero Work",
       "url": "https://dev.to/jblaz6335/the-http-429-that-turned-seven-minutes-into-zero-work-3ppl",
@@ -1154,26 +1144,6 @@
         "devops",
         "python"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d5646bb0c79d52926f9550ecb3c2612e",
-      "title": "Is 16GB RAM enough for learning DevOps, or should I use my old laptop alongside it?",
-      "url": "https://www.reddit.com/r/devops/comments/1vw9tu2/is_16gb_ram_enough_for_learning_devops_or_should/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-23T15:15:27+00:00",
-      "summary": "Hey everyone, I'm a student currently learning DevOps, and I recently bought a laptop with a Core Ultra 5 225H and 16GB RAM. I'm planning to learn technologies commonly used in DevOps — Linux, Docker, Kubernetes, Terraform, Ansible, CI/CD, cloud platforms, monitoring, etc. My main concern is whether",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7aa1f5e8e95c40f7b6d612ceff2b5cb8",
-      "title": "What is the most recommended way of doing SAST/DAST inside of Azure?",
-      "url": "https://www.reddit.com/r/devops/comments/1vwd4r9/what_is_the_most_recommended_way_of_doing/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-23T17:22:26+00:00",
-      "summary": "Context: The organization I'm currently at uses an old fashioned way of deploying to prod. They have on prem servers where the devs manually FTP the files over for every change... They've now started to migrate over to Azure. I'm tasked with the logical design, overseeing the entire process and help",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -1243,16 +1213,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-23T19:33:51+00:00",
       "summary": "I’ve been thinking about this while working with observability systems and I’m curious how other people handle it. We have metrics, logs, traces, alerts, deployment information, etc. In theory, there should be enough information to understand what happened during an incident. But in practice, it oft",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "41fb12ebd70078c0f06672ea87ae5560",
-      "title": "Learn K8s with Flashcards",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1vwaydi/learn_k8s_with_flashcards/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-08-23T15:59:25+00:00",
-      "summary": "      &#32; submitted by &#32;  /u/LearnSkills5   [link] &#32; [comments] ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3278,6 +3238,46 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-30T11:11:12+00:00",
       "summary": "We launched our PaaS prematurely, but it's now running around 50-60 apps from our own SaaS offering and our partners' apps, so I thought I'd share what we're building and get some opinions from people who actually work with infrastructure. The platform is Kubernetes-based and can deploy static sites",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "28d0cc787ad63a84ed69caa66081f0c3",
+      "title": "OpenAI leaving Cursor: “Developers have to be prepared to adapt when it happens.”",
+      "url": "https://thenewstack.io/openai-cuts-cursor-spacex/",
+      "source": "The New Stack",
+      "published_at": "2026-08-30T17:03:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "95699ad4c43f73a08475ccac6e3f31da",
+      "title": "What are some good GitHub projects to contribute to?",
+      "url": "https://www.reddit.com/r/devops/comments/1w2m29s/what_are_some_good_github_projects_to_contribute/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-30T16:26:55+00:00",
+      "summary": "I am a contributor to both terraform-provider-aws and Ansible Core repos, as well as Ansible Community AWS repo. I am on the lookout for additional projects to contribute to, ideally ones that have plenty of issues and where reviews are done quickly. It should also be quick and easy to compile from ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e4a4c8a9ab8760b7eeeb30f941340258",
+      "title": "AI agents are making retrieval engineering a core engineering discipline",
+      "url": "https://thenewstack.io/ai-agents-retrieval-engineering/",
+      "source": "The New Stack",
+      "published_at": "2026-08-30T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3731dca0b117933418890a7bedf9cde4",
+      "title": "Your AI agent is only as good as the harness around it",
+      "url": "https://thenewstack.io/building-ai-agent-harness/",
+      "source": "The New Stack",
+      "published_at": "2026-08-30T15:00:00+00:00",
+      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     }
