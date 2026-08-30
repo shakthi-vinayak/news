@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T19:19:32Z",
+  "generated_at": "2026-08-30T22:41:28Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1144,76 +1144,6 @@
         "devops",
         "python"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d38f14086ea99294b0294b8519f6e792",
-      "title": "apache/airflow: providers-standard/1.18.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.18.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-23T20:10:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2a1cdb6a85ab17b1faedf3904764c394",
-      "title": "apache/airflow: providers-postgres/7.0.2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-postgres%2F7.0.2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-23T20:10:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c13eb4192e7a97fd89bd5f4277f96cb3",
-      "title": "apache/airflow: providers-samba/4.13.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-samba%2F4.13.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-23T20:10:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0add3fc5953c5b5b051aa78898ca6409",
-      "title": "apache/airflow: providers-snowflake/6.16.1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.16.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-23T20:10:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1a07e303220b028980da2955508175a3",
-      "title": "apache/airflow: providers-tableau/5.6.1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-tableau%2F5.6.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-23T20:10:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "84bb4a415ff52b0911ebe2488e7be80d",
-      "title": "Terraform Setup for Developer Enablement",
-      "url": "https://www.reddit.com/r/devops/comments/1vwhgvg/terraform_setup_for_developer_enablement/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-23T20:05:45+00:00",
-      "summary": "Hello r/devops, in my current team we are discussing how a developer centric terraform setup might look like. Some context: Every app has 3 repositories - Backend, Frontend and Infrastructure. There are two possible setups:  (our current): We use generic terraform modules (e.g. for a backend app) on",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "18a26dd023f0e59603188dc6dc9b75c2",
-      "title": "Question for people running production systems",
-      "url": "https://www.reddit.com/r/devops/comments/1vwgmo7/question_for_people_running_production_systems/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-23T19:33:51+00:00",
-      "summary": "I’ve been thinking about this while working with observability systems and I’m curious how other people handle it. We have metrics, logs, traces, alerts, deployment information, etc. In theory, there should be enough information to understand what happened during an incident. But in practice, it oft",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3278,6 +3208,26 @@
       "source": "The New Stack",
       "published_at": "2026-08-30T15:00:00+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ac0b9f3db89370c27d3fb00bbf88ea4f",
+      "title": "me-riyadh-1: outbound HTTPS to Anthropic is 100% blackholed and Fastly is ~50% packet loss — upstream transit, not my VCN. Anyone else seeing this?",
+      "url": "https://www.reddit.com/r/devops/comments/1w2u5j9/meriyadh1_outbound_https_to_anthropic_is_100/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-30T21:34:56+00:00",
+      "summary": "Posting this both to ask if anyone else in **me-riyadh-1** is hitting it, and so the next person googling &quot;OCI curl timeout Riyadh&quot; finds something useful. **Setup:** Ubuntu compute instance, public subnet, default route → Internet Gateway, stateful egress allow-all, VCN resolver for DNS. ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c676a5b160f0421dcc2eee77c5342d72",
+      "title": "CI pipeline using Github actions",
+      "url": "https://www.reddit.com/r/devops/comments/1w2u0ru/ci_pipeline_using_github_actions/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-30T21:29:27+00:00",
+      "summary": "I started learning CI/CD using github actions after containerising my application and I have created CI pipeline for django app that runs test, builds and pushes image to github container registry. I am sharing my yaml file for CI pipeline. Please do share your thoughts and where can i improve. name",
       "tags": [],
       "relevance_score": 0.0
     }
