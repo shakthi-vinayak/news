@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:32:37Z",
+  "generated_at": "2026-08-31T19:59:32Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,89 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "cb955dd97d5ad73931eac6f8828688f2",
-      "title": "How are you isolating Docker-capable self-hosted GitHub Actions runners?",
-      "url": "https://www.reddit.com/r/devops/comments/1vx3n3x/how_are_you_isolating_dockercapable_selfhosted/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-24T13:59:39+00:00",
-      "summary": "Disclosure: I built and maintain EPAR, which I mention below as the approach I ended up implementing. I wanted to use spare servers for long-running Playwright/Selenium tests, but my workflows also use docker compose to bring up the test environment. That created two concerns with ordinary self-host",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e7717aa1c0a7889ac4fa71dfcf9a663c",
-      "title": "Ten Great DevOps Job Opportunities",
-      "url": "https://devops.com/ten-great-devops-job-opportunities-20/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-24T13:54:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5036dd4e2f48aafb8ab892c6eb6c66cc",
-      "title": "Does DevOps need to learn AI technologies like Rag, Langraph, VectorDB etc. ?",
-      "url": "https://www.reddit.com/r/devops/comments/1vxahjd/does_devops_need_to_learn_ai_technologies_like/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-24T18:07:24+00:00",
-      "summary": "Debates whether DevOps engineers should adopt AI tools like RAG, LangGraph, and VectorDB to enhance workflows.",
-      "tags": [
-        "AI",
-        "DevOps"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "4b3254b794fefeb673fc45463e3b7de1",
-      "title": "Grok Bot vs. Hermes: Where each draws the security boundary",
-      "url": "https://thenewstack.io/ai-agent-security-boundaries/",
-      "source": "The New Stack",
-      "published_at": "2026-08-24T17:39:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "56e62df24f7ed0e9facf7048cc44e110",
-      "title": "Anthropic’s Playground vs. OpenAI’s: The week-old tool beat the six-year incumbent",
-      "url": "https://thenewstack.io/anthropic-openai-playground-comparison/",
-      "source": "The New Stack",
-      "published_at": "2026-08-24T19:30:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5a069c9531f3a0b3f97db89c7172b944",
-      "title": "SSL Certificate Name Mismatch: NET::ERR_CERT_COMMON_NAME_INVALID",
-      "url": "https://dev.to/merlonix/ssl-certificate-name-mismatch-neterrcertcommonnameinvalid-5ak4",
-      "source": "Dev.to",
-      "published_at": "2026-08-24T17:56:38Z",
-      "summary": "The certificate is valid, unexpired, and CA-signed — and the browser still refuses it with NET::ERR_CERT_COMMON_NAME_INVALID, because it was issued for a different hostname than the one you typed. Why the Common Name no longer counts, the causes in the order they bite, and how to read the SAN list your server actually presents.",
-      "tags": [
-        "ssl",
-        "tls",
-        "webdev",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "145ebfbcbd376358c2c8361a900d2483",
-      "title": "SSL Certificate Problem: Unable to Get Local Issuer Certificate",
-      "url": "https://dev.to/merlonix/ssl-certificate-problem-unable-to-get-local-issuer-certificate-40ak",
-      "source": "Dev.to",
-      "published_at": "2026-08-24T16:38:30Z",
-      "summary": "It works in your browser and fails in curl, Node, or Python with \"unable to get local issuer certificate.\" That almost always means your server is sending an incomplete certificate chain — and the browser is hiding it. Why, the causes in the order they bite, and how to read the chain your server actually serves.",
-      "tags": [
-        "ssl",
-        "tls",
-        "webdev",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "44cf6b3e7c4fd8c6ff27cd7cbaab2614",
       "title": ".NET 10 NU1510 Package Pruning: Fix CI Without Breaking Legacy Targets",
       "url": "https://dev.to/ssukhpinder/net-10-nu1510-package-pruning-fix-ci-without-breaking-legacy-targets-5ggd",
@@ -1453,16 +1370,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-08-25T10:00:10+00:00",
       "summary": "Have any questions about Kubernetes, related tooling, or how to adopt or use Kubernetes? Ask away!  &#32; submitted by &#32;  /u/AutoModerator   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "35ef6f87d76a9c2f22cfafd06a40a1fe",
-      "title": "Kubara? Is it worth it?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1vxbqu9/kubara_is_it_worth_it/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-08-24T18:50:55+00:00",
-      "summary": "I've noticed that [Kubara](https://github.com/kubara-io/kubara) team is introducing their product as the new, must have solution for a modern infra stack. Is that legit? Or is it just another wrapper around existing gitops tools with pre-scaffolded templates?  &#32; submitted by &#32;  /u/possible_f",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1794,14 +1701,9 @@
       "url": "https://github.com/istio/istio/releases/tag/1.31.0-rc.3",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-08-26T13:26:42+00:00",
-      "summary": "Istio releases release candidate 1.31.0, adding new features and bug fixes for service mesh.",
-      "tags": [
-        "Service Mesh",
-        "Observability",
-        "DevOps",
-        "Cloud"
-      ],
-      "relevance_score": 0.9
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "150fc1490b807e9dda201d10bab1b3f6",
@@ -3041,12 +2943,14 @@
       "url": "https://dev.to/codejs_1959/the-0-code-review-pipeline-free-models-free-server-no-credit-card-5c7n",
       "source": "Dev.to",
       "published_at": "2026-08-30T11:16:34Z",
-      "summary": "Set up a zero‑cost code‑review pipeline using free models and a no‑credit‑card server, streamlining CI/CD without expenses.",
+      "summary": "A code-review bot that costs zero dollars per pull request sounds like a compromise. It is not. A...",
       "tags": [
-        "CI/CD",
-        "DevOps"
+        "ai",
+        "opensource",
+        "devops",
+        "productivity"
       ],
-      "relevance_score": 0.85
+      "relevance_score": 0.0
     },
     {
       "id": "e4bcc016776e8562548997f6e54ee2b6",
@@ -3318,6 +3222,116 @@
         "testing",
         "programming",
         "ai",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8bd2869322b673da99d965a1a46adf9a",
+      "title": "anyone actually running argocd/gitops in prod, hows it going",
+      "url": "https://www.reddit.com/r/devops/comments/1w3ot1w/anyone_actually_running_argocdgitops_in_prod_hows/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-31T19:50:30+00:00",
+      "summary": "were on 50+ microservices on gcp, still doing our own deploy tooling. keep hearing gitops is the way and honestly cant tell if thats real or just the current hype cycle. not looking for a sales pitch, more curious what broke for you after the demo phase. drift detection, secrets, rollback under load",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6c8702a90604340933c7ffde343ac0c4",
+      "title": "OpenAI Cuts Off Cursor’s Model Access After SpaceX Acquisition",
+      "url": "https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-31T19:18:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "af7e47587ca53dc6ad7a005f78638528",
+      "title": "OpenAI wants to charge only when AI gets it right — here’s the catch",
+      "url": "https://thenewstack.io/openai-outcome-based-pricing/",
+      "source": "The New Stack",
+      "published_at": "2026-08-31T18:47:25+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fb493f8488d3503ce4d04ca3807df647",
+      "title": "istio/istio: Istio 1.31.0",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.0",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-08-31T17:10:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9e19c5a79ed32f910e83ff5f31f4a84a",
+      "title": "Anyone here working in AWS DCO / Data Center Operations in Frankfurt / Germany?",
+      "url": "https://www.reddit.com/r/devops/comments/1w3iws5/anyone_here_working_in_aws_dco_data_center/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-31T16:30:35+00:00",
+      "summary": "Hey everyone, Is anyone here currently working in AWS Data Center Operations (DCO) in the Frankfurt region (or Germany) or familiar with their technical screening process? I recently completed a 60-minute technical phone screen with an engineer for an AWS DCO / IT Support role in Germany. During the",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "92bf21f6fdb432d95ea45264a72b049a",
+      "title": "From Operator to Agent Manager: The Real Shift in Network Engineering",
+      "url": "https://devops.com/from-operator-to-agent-manager-the-real-shift-in-network-engineering/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-31T16:20:06+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "76a95a2f075a84e162a00f7a70811f12",
+      "title": "Cut coding agent token use with better tool output",
+      "url": "https://thenewstack.io/cut-coding-agent-tokens/",
+      "source": "The New Stack",
+      "published_at": "2026-08-31T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0c3976172ebfce5afbc068d700614a6a",
+      "title": "Deploy What Changed: Nx affected + Cloud Run + Workload Identity Federation",
+      "url": "https://dev.to/dalenguyen/deploy-what-changed-nx-affected-cloud-run-workload-identity-federation-3bmj",
+      "source": "Dev.to",
+      "published_at": "2026-08-31T14:50:20Z",
+      "summary": "A merge to main should ship the services that merge touched — and nothing else. Here is the whole...",
+      "tags": [
+        "githubactions",
+        "googlecloud",
+        "devops",
+        "nx"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "497996c465375de74f95794df81363bd",
+      "title": "Ten Great DevOps Job Opportunities",
+      "url": "https://devops.com/ten-great-devops-job-opportunities-21/",
+      "source": "DevOps.com",
+      "published_at": "2026-08-31T14:06:35+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d6a898ea21ffbf07c790174c724c6b24",
+      "title": "Six things reported green and were lying",
+      "url": "https://dev.to/mahirhir/six-things-reported-green-and-were-lying-bj8",
+      "source": "Dev.to",
+      "published_at": "2026-08-31T14:01:58Z",
+      "summary": "Red gets attention. It's loud, it blocks the merge, somebody looks at it. Green gets a glance and a...",
+      "tags": [
+        "rust",
+        "testing",
+        "opensource",
         "devops"
       ],
       "relevance_score": 0.0
