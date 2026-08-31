@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T19:59:32Z",
+  "generated_at": "2026-08-31T23:47:30Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -592,16 +592,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1806b83409451585d0fde97339c08a93",
-      "title": "Shrinking Azure Pipeline task extensions using esbuild",
-      "url": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-07-10T14:45:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "cb17e662a33d102e60caeed24377e9fd",
       "title": "Announcing the public beta of Vault Kubernetes key management",
       "url": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
@@ -1120,34 +1110,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "44cf6b3e7c4fd8c6ff27cd7cbaab2614",
-      "title": ".NET 10 NU1510 Package Pruning: Fix CI Without Breaking Legacy Targets",
-      "url": "https://dev.to/ssukhpinder/net-10-nu1510-package-pruning-fix-ci-without-breaking-legacy-targets-5ggd",
-      "source": "Dev.to",
-      "published_at": "2026-08-24T22:23:40Z",
-      "summary": ".NET 10 NU1510 package pruning can turn an SDK upgrade into a failed restore when a repository...",
-      "tags": [
-        "dotnet",
-        "csharp",
-        "devops",
-        "debugging"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ab7602c62fbea3024b134a2385e18286",
-      "title": "Why .env.example Gets Out of Sync — and What Actually Fixes It",
-      "url": "https://dev.to/rabbilyasar/why-envexample-gets-out-of-sync-and-what-actually-fixes-it-1a76",
-      "source": "Dev.to",
-      "published_at": "2026-08-24T21:59:00Z",
-      "summary": "Explains why .env.example files drift from actual env vars and presents a reliable method to keep them in sync for better development workflows.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.8
     },
     {
       "id": "7b44e4b1b747ec61b18edd8f3ad91483",
@@ -3334,6 +3296,46 @@
         "opensource",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1503fc0eed3163132bb07ed5b04983d9",
+      "title": "I really like DevOps, but sometimes it feels like there is no real entry level into this field",
+      "url": "https://www.reddit.com/r/devops/comments/1w3tuiu/i_really_like_devops_but_sometimes_it_feels_like/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-08-31T22:50:00+00:00",
+      "summary": "I genuinely think DevOps or platform engineering is the area of software I enjoy the most. I like CI/CD, Terraform, cloud infrastructure, debugging weird deployment problems, trying to understand why systems fail, automating repetitive things, and generally having ownership instead of just implement",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6c8cc8dd5f4b8f0f10cac4de793c1504",
+      "title": "SpaceX is in an “enviable position”: why Anthropic is sticking with Cursor as OpenAI cuts access",
+      "url": "https://thenewstack.io/anthropic-spacex-cursor-compute-openai/",
+      "source": "The New Stack",
+      "published_at": "2026-08-31T21:47:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b6b2a647d33d26421e722ee350af3796",
+      "title": "MCP was supposed to solve the agent tooling problem. It missed a step.",
+      "url": "https://thenewstack.io/ard-agent-discovery-specification/",
+      "source": "The New Stack",
+      "published_at": "2026-08-31T20:04:20+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e447f5fac3fa6d809c200c30ee56ddc6",
+      "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
+      "url": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
+      "source": "Kubernetes Blog",
+      "published_at": "2026-08-31T18:30:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
