@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T16:33:19Z",
+  "generated_at": "2026-09-01T20:59:52Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1127,56 +1127,6 @@
       "url": "https://tuananh.net/2020/02/20/the-story-behind-my-talk-cloud-cost-optimization-at-scale/",
       "source": "Hacker News",
       "published_at": "2020-02-25T02:25:27Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fd8efb16c615faa4e29c4634f3e87897",
-      "title": "Anthropic gives chat and Cowork one memory",
-      "url": "https://thenewstack.io/claude-memory-chat-cowork/",
-      "source": "The New Stack",
-      "published_at": "2026-08-25T17:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "017c1724c534d693899d15614fbb4793",
-      "title": "istio/istio: Istio 1.31.0-rc.2",
-      "url": "https://github.com/istio/istio/releases/tag/1.31.0-rc.2",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-08-25T16:57:21+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2ec378e84a207347d0326f667531e840",
-      "title": "CI/CD for AI-Enabled Applications: Why Traditional Deployment Pipelines Need to Evolve",
-      "url": "https://devops.com/ci-cd-for-ai-enabled-applications-why-traditional-deployment-pipelines-need-to-evolve/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-25T19:42:58+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c3152919d29732be31a696b6c5ec9018",
-      "title": "Shopify’s CEO threatened to ban Claude Code. Anthropic had already closed the feature request.",
-      "url": "https://thenewstack.io/shopify-claude-code-agentsmd/",
-      "source": "The New Stack",
-      "published_at": "2026-08-25T19:39:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e7037c1fd5a1a0274eef6bb9d0729886",
-      "title": "How telemetry pipelines keep AI agent costs under control",
-      "url": "https://thenewstack.io/agentic-ai-telemetry-costs/",
-      "source": "The New Stack",
-      "published_at": "2026-08-25T19:01:28+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3298,6 +3248,81 @@
       "published_at": "2026-08-31T11:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3fb4a2bb53f6f203329c8243fd4e085b",
+      "title": "Anthropic’s Fable 5.1 is a bit cheaper, a bit smarter, and refuses a lot less",
+      "url": "https://thenewstack.io/anthropic-fable-5-1-launch/",
+      "source": "The New Stack",
+      "published_at": "2026-09-01T19:38:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2804c7f7230708fda0c326166d3f69b1",
+      "title": "Built this tool to simulate real world scenarios and incidents in local kubernetes",
+      "url": "https://www.reddit.com/r/devops/comments/1w4ll7u/built_this_tool_to_simulate_real_world_scenarios/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-01T19:04:34+00:00",
+      "summary": "      Hey everyone,  When I learnt kubernetes and completed CKA, I didn't instantly get a chance to work on a real project. Later, i got a job and learnt a lot, but I felt that there was a need for a tool where we can simulate real world scenarios, we can learn what kind of scenarios and incidents c",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4b23ff75efdbbf1c893724c58dba713a",
+      "title": "langchain-ai/langchain: langchain==1.4.0a3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a3",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-01T17:22:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e1b47501ae5c9c8f12bd688fde9cc4ba",
+      "title": "Meta just beat OpenAI and Google at real-time transcription",
+      "url": "https://thenewstack.io/meta-muse-voice-transcribe/",
+      "source": "The New Stack",
+      "published_at": "2026-09-01T17:06:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "535ea56ae21a3d3de21c18257754a394",
+      "title": "Built a small 3-node Kubernetes homelab",
+      "url": "https://www.reddit.com/r/devops/comments/1w4hanq/built_a_small_3node_kubernetes_homelab/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-01T16:39:02+00:00",
+      "summary": "      I recently set up a small 3-node Kubernetes homelab using Dell OptiPlex Micro PCs running Talos Linux. The main goal was to have a local cluster where I can learn, experiment, break things, and test tools without relying on cloud infrastructure every time. I’m planning to use it for Kubernetes",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "beb06389f369151004d370bac489ad84",
+      "title": "How do you handle CI/CD credentials? Using GitHub Actions made me realize static encrypted secrets aren’t very safe.",
+      "url": "https://www.reddit.com/r/devops/comments/1w4h8lc/how_do_you_handle_cicd_credentials_using_github/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-01T16:37:11+00:00",
+      "summary": "After I first set up a deployment pipeline, I would simply drop DB passwords and API keys into GitHub Secrets and feel completely safe because they are encrypted. I recently went through a security breakdown on GitHub Actions that showed me that it could be a mistake to think that way. The main issu",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c23b74488af8ba9791fbf8d99ddaf291",
+      "title": "Migrating Legacy LLM Infrastructure to an AI Gateway",
+      "url": "https://dev.to/copyleftdev/migrating-legacy-llm-infrastructure-to-an-ai-gateway-27hl",
+      "source": "Dev.to",
+      "published_at": "2026-09-01T13:33:51Z",
+      "summary": "A hands-on migration off direct provider calls onto an AI gateway — configs, screenshots, and measured cost results.",
+      "tags": [
+        "ai",
+        "llm",
+        "devops",
+        "tutorial"
+      ],
       "relevance_score": 0.0
     }
   ]
