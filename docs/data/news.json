@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T16:31:41Z",
+  "generated_at": "2026-09-02T20:59:27Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -27,16 +27,6 @@
       "url": "https://aws.amazon.com/blogs/devops/supercharge-your-cloud-operations-with-the-kiro-power-for-aws-devops-agent/",
       "source": "AWS Blog",
       "published_at": "2026-06-19T20:51:36+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "417ea16dd046a5fdba8f1dea939326e3",
-      "title": "Accelerate Incident Resolution with PagerDuty and AWS DevOps Agent",
-      "url": "https://aws.amazon.com/blogs/devops/accelerate-incident-resolution-with-pagerduty-and-aws-devops-agent/",
-      "source": "AWS Blog",
-      "published_at": "2026-06-19T19:21:30+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1102,124 +1092,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1df321173642e5f96571805231a9beb6",
-      "title": "apache/airflow: providers-amazon/9.35.1rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-amazon%2F9.35.1rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-26T19:27:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "267acf0f718cbc5c2286ef3dc412158b",
-      "title": "apache/airflow: providers-fab/3.8.1rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-fab%2F3.8.1rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-26T19:27:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9ddcc93be802222cdda40968c4647ada",
-      "title": "apache/airflow: providers-microsoft-azure/15.0.1rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-microsoft-azure%2F15.0.1rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-26T19:27:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "49d5aa0597ebe26749dda8a93c70ccfc",
-      "title": "ollama/ollama: v0.33.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-26T18:09:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b4ebd1f553bb48fefbb188891586f015",
-      "title": "Installing OpenLiteSpeed on Ubuntu 22.04",
-      "url": "https://dev.to/vultr/installing-openlitespeed-on-ubuntu-2204-1pn8",
-      "source": "Dev.to",
-      "published_at": "2026-08-26T17:47:13Z",
-      "summary": "OpenLiteSpeed is a free, open-source, high-performance web server with HTTP/2 and HTTP/3 support,...",
-      "tags": [
-        "linux",
-        "webdev",
-        "devops",
-        "php"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dde1dc957d3356a97fc50165d2c18da8",
-      "title": "Installing Nagios on Ubuntu 24.04",
-      "url": "https://dev.to/vultr/installing-nagios-on-ubuntu-2404-327g",
-      "source": "Dev.to",
-      "published_at": "2026-08-26T17:33:30Z",
-      "summary": "Nagios Core is an open-source monitoring tool for networks, services, and applications, using the...",
-      "tags": [
-        "monitoring",
-        "linux",
-        "devops",
-        "networking"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d081c771416340065257a9e9e6224264",
-      "title": "How would you recommend learning Kubernetes and Helm effectively?",
-      "url": "https://www.reddit.com/r/devops/comments/1vz3dvi/how_would_you_recommend_learning_kubernetes_and/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-26T17:18:07+00:00",
-      "summary": "Hi everyone, I recently started working in a DevOps-related role, and I’ve been asked to learn Kubernetes, Helm, and the concepts around them. I’m currently trying to understand the best way to approach it. There are so many resources and topics that I’m not sure what I should prioritize first. For ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d1eb897c9fb2d7cd08c4d1bfcc9bd14a",
-      "title": "Centrally Managing OTel Collectors with Elastic Agent and Fleet",
-      "url": "https://www.reddit.com/r/devops/comments/1vz38io/centrally_managing_otel_collectors_with_elastic/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-26T17:12:55+00:00",
-      "summary": "Shows how to centrally manage OpenTelemetry collectors using Elastic Agent and Fleet for unified observability.",
-      "tags": [
-        "Observability",
-        "SRE",
-        "Cloud"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "0df79488fb04be93dda5ef522dc8079b",
-      "title": "Intrusion Detection on K8s on prem",
-      "url": "https://www.reddit.com/r/devops/comments/1vz34yv/intrusion_detection_on_k8s_on_prem/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-26T17:09:27+00:00",
-      "summary": "Detects intrusions in on‑prem Kubernetes clusters, outlining practical security monitoring strategies.",
-      "tags": [
-        "Security",
-        "Kubernetes",
-        "SRE"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "ef609fdab18497a7f154beaed733d6e9",
-      "title": "Claude Desktop can now easily run Qwen, DeepSeek and Kimi models — after Ollama’s first effort stalled",
-      "url": "https://thenewstack.io/ollama-claude-desktop-integration/",
-      "source": "The New Stack",
-      "published_at": "2026-08-26T16:59:39+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2bc41b572e444126c900574e33640800",
       "title": "Kubernetes v1.37: Garhwal",
       "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
@@ -1273,54 +1145,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "855562ca7c1b34544d781929b251ffd6",
-      "title": "Please Help. How do we continue do dev?",
-      "url": "https://www.reddit.com/r/devops/comments/1vz8w6x/please_help_how_do_we_continue_do_dev/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-26T20:31:37+00:00",
-      "summary": "Seeks advice on continuing development work under challenging circumstances, likely remote or resource constraints.",
-      "tags": [
-        "DevOps",
-        "SRE"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "26e6974c27f42d832e5b171938fe049d",
-      "title": "OpenAI’s Astra can do a researcher’s week of work. That’s the problem.",
-      "url": "https://thenewstack.io/openai-astra-persistent-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-08-26T20:24:20+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e9f2f457084ceb82914758fbe646cf5b",
-      "title": "Observability has a data problem. AI is about to make it worse.",
-      "url": "https://thenewstack.io/opentelemetry-observability-telemetry-storage/",
-      "source": "The New Stack",
-      "published_at": "2026-08-26T20:08:10+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2959150b04bb53e5074b3bbeda651ec2",
-      "title": "50 minutes from issue to merged fix: when the readers find the boundary you shipped past",
-      "url": "https://dev.to/pm25coder/50-minutes-from-issue-to-merged-fix-when-the-readers-find-the-boundary-you-shipped-past-20g5",
-      "source": "Dev.to",
-      "published_at": "2026-08-26T16:46:45Z",
-      "summary": "We published a postmortem about a token counter that drifted 50% and a safety net that never fired....",
-      "tags": [
-        "ai",
-        "llm",
-        "programming",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2d8a1e7ded5084388079e6a07a2cbd53",
       "title": "n8n-io/n8n: n8n@2.37.3",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.3",
@@ -1368,16 +1192,6 @@
         "github",
         "opensource"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bbf79db5d68b9ca2101a4fe6dabba966",
-      "title": "ollama/ollama: v0.33.1-rc1: linux: fix llama.cpp docker build (#18040)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.1-rc1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-26T17:21:21+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -1601,21 +1415,6 @@
       "published_at": "2026-08-27T10:30:11+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "77bc12d1d9161d1c9188d73e5b1ebdf8",
-      "title": "Your Cron Job Is Lying to You: A Dependency-Free Watchdog for Silent Failures",
-      "url": "https://dev.to/syed_anzar/your-cron-job-is-lying-to-you-a-dependency-free-watchdog-for-silent-failures-4e40",
-      "source": "Dev.to",
-      "published_at": "2026-08-26T19:22:50Z",
-      "summary": "Three dependency-free guards that stop cron jobs from silently failing: pipefail, unbuffered output, and a progress watermark + heartbeat.",
-      "tags": [
-        "devops",
-        "bash",
-        "python",
-        "automation"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3000,12 +2799,9 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-09-01T23:24:15+00:00",
-      "summary": "Ollama releases rc version with llama.cpp update, advancing local LLM deployment.",
-      "tags": [
-        "AI",
-        "LLMOps"
-      ],
-      "relevance_score": 0.85
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "9f952823b234594807629fa8131c46f5",
@@ -3264,6 +3060,166 @@
         "ai",
         "devops",
         "observability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "08ba57ada0e9ee75a4e40c1fa859f289",
+      "title": "GitOps in 2026: Why Pull Requests Are Taking Over Cloud Operations",
+      "url": "https://devops.com/gitops-in-2026-why-pull-requests-are-taking-over-cloud-operations/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-02T20:22:45+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0878f4840cd4325fbcbf504a5c375791",
+      "title": "Multiverse says its 438B model is fast enough for AI agents. The benchmarks tell a more complicated story.",
+      "url": "https://thenewstack.io/quasar-438b-agent-compression/",
+      "source": "The New Stack",
+      "published_at": "2026-09-02T20:14:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "be3fb991b9894b6abd4f885c53389144",
+      "title": "Your next OpenAI API timeout might not be a timeout at all",
+      "url": "https://thenewstack.io/astra-api-safety-stops/",
+      "source": "The New Stack",
+      "published_at": "2026-09-02T20:13:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3d6e60b3438e068d898fd9e10e6ff4b6",
+      "title": "Anthropic’s Claude failures have made agent observability a security priority",
+      "url": "https://thenewstack.io/anthropic-claude-agent-security/",
+      "source": "The New Stack",
+      "published_at": "2026-09-02T20:12:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b14180dd3d6432ba5a1ee5ff4a8722ef",
+      "title": "Need Help , please some one give KT",
+      "url": "https://www.reddit.com/r/devops/comments/1w5kd34/need_help_please_some_one_give_kt/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-02T19:25:50+00:00",
+      "summary": "Need help? Anyone with experience in Devops, CI CD, pipelines, docker , kubernetes , Linux, Terraform, AI infra or any relevant Devops skill . Can you guys please give me KT in your Free time over weekend or weekdays at your comfortable time... I am having experience in IT , learning devops but lack",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b4f7d1abb558ad4e948b3d54275dda5b",
+      "title": "honest worry or impostor syndrome",
+      "url": "https://www.reddit.com/r/devops/comments/1w5jucj/honest_worry_or_impostor_syndrome/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-02T19:07:45+00:00",
+      "summary": "This is officially my first post on a reddit sub, i tend to just be reading a lot from here, but getting to the issue, recently i got a new role as DevOps Engineer mid level, chill job, making a new architecture to migrate one heavy ETL app, just one month in, not much meetings, no manager pursuing ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8485f2acfe8dc7db9257601b8f8888d4",
+      "title": "Automate planned lifecycle upgrades with AWS DevOps Agent and Kiro",
+      "url": "https://aws.amazon.com/blogs/devops/automate-planned-lifecycle-upgrades-with-aws-devops-agent-and-kiro/",
+      "source": "AWS Blog",
+      "published_at": "2026-09-02T18:55:52+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c823e8e1947b1e23737b4609aff270df",
+      "title": "ollama/ollama: v0.33.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-02T17:27:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "49a2da6b53b055fcf2d85969ff1b57d7",
+      "title": "🌟 The CI Gate Rejected the Terraform Change—but the LLM Still Ran",
+      "url": "https://dev.to/pravesh_sudha_3c2b0c2b5e0/the-ci-gate-rejected-the-terraform-change-but-the-llm-still-ran-3hfg",
+      "source": "Dev.to",
+      "published_at": "2026-09-02T16:57:13Z",
+      "summary": "How I added a deterministic trace contract to an AI Terraform reviewer so rejected infrastructure...",
+      "tags": [
+        "devops",
+        "cicd",
+        "ai",
+        "terraform"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3e58909ecad9f4944fc0ad29368a03cb",
+      "title": "Google ships its third Gemini Flash model in six weeks",
+      "url": "https://thenewstack.io/google-ships-its-third-gemini-flash-model-in-six-weeks/",
+      "source": "The New Stack",
+      "published_at": "2026-09-02T16:56:52+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "69265b9169443ed2ff6bdfca712cd9b6",
+      "title": "My AI Gateway Added 400ms to Every Request. Here's Where It Went",
+      "url": "https://dev.to/devstackhub/my-ai-gateway-added-400ms-to-every-request-heres-where-it-went-2fkp",
+      "source": "Dev.to",
+      "published_at": "2026-09-02T16:21:42Z",
+      "summary": "If your AI application suddenly becomes 300–500ms slower after adding an AI gateway, the first...",
+      "tags": [
+        "ai",
+        "llm",
+        "devops",
+        "discuss"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "df8467424683b030986288f629043393",
+      "title": "JFrog Moves to Secure Agentic Engineering Workflows",
+      "url": "https://devops.com/jfrog-moves-to-secure-agentic-engineering-workflows/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-02T16:01:45+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bec239109411700fc956d6fd66e78b4c",
+      "title": "My CI has been red for 18 days. It never started a single job.",
+      "url": "https://dev.to/mahirhir/my-ci-has-been-red-for-18-days-it-never-started-a-single-job-2o20",
+      "source": "Dev.to",
+      "published_at": "2026-09-02T15:05:44Z",
+      "summary": "My CI went red on 2026-08-15 and it is still red today. For most of the time in between I read that...",
+      "tags": [
+        "ci",
+        "devops",
+        "testing",
+        "github"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f403312453946648d0b4642a8daad80a",
+      "title": "I built a tool to find every AWS resource you can't tag",
+      "url": "https://dev.to/olufolarin/i-built-a-tool-to-find-every-aws-resource-you-cant-tag-56o8",
+      "source": "Dev.to",
+      "published_at": "2026-09-01T17:14:46Z",
+      "summary": "AWS doesn't publish a list of untaggable resources. can-i-tag-aws scrapes the IAM docs so you can...",
+      "tags": [
+        "opensource",
+        "aws",
+        "devops",
+        "cloud"
       ],
       "relevance_score": 0.0
     }
