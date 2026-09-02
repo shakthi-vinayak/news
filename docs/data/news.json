@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T20:59:52Z",
+  "generated_at": "2026-09-02T00:05:52Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -7,9 +7,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-09-01T10:31:38+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "n8n stable release updates core nodes and fixes bugs for reliable automation.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "07b17e85807ed66d00bfa1604b9aaf6c",
@@ -47,9 +51,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-09-01T10:30:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "n8n beta introduces experimental nodes and UI enhancements for rapid workflow development.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "7856f719f5378afd2d1e5c1c512d89c8",
@@ -657,9 +665,12 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
       "source": "Google AI Blog",
       "published_at": "2026-07-07T08:54:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Gemini API expands Managed Agents with background tasks and remote MCP support, boosting AI agent capabilities.",
+      "tags": [
+        "AI",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "68873e58253cde6c7ced66b831efc216",
@@ -687,9 +698,12 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "source": "Google AI Blog",
       "published_at": "2026-07-28T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Google's Gemini API introduces Managed Agents 3.6 Flash with new hooks, enhancing AI workflow automation.",
+      "tags": [
+        "AI",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "44ce8b2480df642eacaa37dd8268c932",
@@ -807,9 +821,13 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-08-07T20:40:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "PostgreSQL checkpoint support 3.1.2 improves state persistence and reliability for LangGraph workflows.",
+      "tags": [
+        "AI",
+        "SRE",
+        "Observability"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "278b786f3d5ea8f4a78f51fd88256e9a",
@@ -817,9 +835,13 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-08-07T20:05:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangGraph checkpoint 4.2.0 introduces enhanced state management and better integration with distributed systems.",
+      "tags": [
+        "AI",
+        "SRE",
+        "Observability"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "6d5988cfc6a385cb97fcd4bbc2ae55ba",
@@ -847,9 +869,12 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.11",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-08-11T14:00:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangGraph 1.2.11 update adds new graph features and enhanced error handling for AI applications.",
+      "tags": [
+        "AI",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "00d77c9e7ac099810a6e7df31b840fc9",
@@ -942,54 +967,18 @@
       "relevance_score": 0.0
     },
     {
-      "id": "fea2bb729024a20423f77ed7f1f3b6ae",
-      "title": "open-telemetry/opentelemetry-collector: v1.65.0/v0.159.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.159.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-08-17T17:37:33+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6164be2c2889341f189b10c28cbf8d98",
-      "title": "open-telemetry/opentelemetry-collector: scraper/xscraper/v0.159.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.159.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-08-17T17:22:35+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2cdcdeb310c8be9a4864a4637b11987b",
-      "title": "open-telemetry/opentelemetry-collector: service/hostcapabilities/v0.159.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Fhostcapabilities%2Fv0.159.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-08-17T17:22:35+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "46e36420ec4cc1cedf0fc763d5e25055",
-      "title": "open-telemetry/opentelemetry-collector: service/telemetry/telemetrytest/v0.159.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Ftelemetry%2Ftelemetrytest%2Fv0.159.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-08-17T17:22:35+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e87cf2668d43d2a2043b3e2db3ea9b06",
       "title": "prometheus/prometheus: 3.14.0 / 2026-08-17",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.14.0",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-08-18T08:49:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Prometheus releases version 3.14.0, adding new functionality to the monitoring system.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "SRE"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "6cc58aea0726537bec34a1517a1f126e",
@@ -997,9 +986,13 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.314.0",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-08-17T15:42:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Prometheus releases version 0.314.0, continuing updates to the monitoring platform.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "SRE"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "f6494258b412c449fa0f0c1f1ac54c05",
@@ -1017,9 +1010,13 @@
       "url": "https://github.com/grafana/grafana/releases/tag/v13.2.0",
       "source": "GitHub Releases (grafana)",
       "published_at": "2026-08-19T12:31:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Grafana releases version 13.2.0, offering updated monitoring features and UI improvements.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "f8d3090ea5048968409da8dc26aa677f",
@@ -1132,59 +1129,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "33033fb1126843c84d2cba1ef4a78ce4",
-      "title": "Sleep/wake orchestration for self-hosted side projects: a wire-protocol proxy approach instead of a full PaaS.",
-      "url": "https://www.reddit.com/r/devops/comments/1vyep15/sleepwake_orchestration_for_selfhosted_side/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-25T22:27:59+00:00",
-      "summary": "Describes sleep/wake orchestration for self‑hosted projects using a wire‑protocol proxy, avoiding full PaaS complexity.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering",
-        "Containers"
-      ],
-      "relevance_score": 0.95
-    },
-    {
       "id": "e5004e9ecf8da633cab741884f272387",
       "title": "Moving from Minimus to Docker Hardened Images",
       "url": "https://www.docker.com/blog/moving-from-minimus-to-docker-hardened-images/",
       "source": "Docker Blog",
       "published_at": "2026-08-25T22:27:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5ca67750d1cf9ba684d1daffc8e419a8",
-      "title": "Our .NET app goes down while CPU/RAM look fine - what are we missing in monitoring?",
-      "url": "https://www.reddit.com/r/devops/comments/1vye5h9/our_net_app_goes_down_while_cpuram_look_fine_what/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-25T22:06:28+00:00",
-      "summary": "Investigates why a .NET app fails despite normal CPU/RAM, highlighting gaps in monitoring and observability.",
-      "tags": [
-        "SRE",
-        "Observability",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "91233549256f03e454992e6649d3e674",
-      "title": "ollama/ollama: v0.33.0-rc4",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.0-rc4",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-08-25T22:03:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d11da7bd4f678b5524e2e48ac9a2ff36",
-      "title": "apache/airflow: providers/2026-08-25",
-      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-08-25",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-08-25T21:01:45+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1207,34 +1156,6 @@
       "published_at": "2026-08-26T00:06:17+00:00",
       "summary": "We most often talk about packaging like that's the hard part of shipping into customers cloud, docker or helm or IAC bt thats the easy peasy 80% and even the deploy and update side is mostly solved now with tools like alien dev push the app and updates in Part that actually stings is everything your",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "597ecd0b785bb79a893febffdb8b401b",
-      "title": "DevOps vs Embedded",
-      "url": "https://www.reddit.com/r/devops/comments/1vyew8d/devops_vs_embedded/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-25T22:36:19+00:00",
-      "summary": "Explores differences between DevOps practices and embedded systems development, highlighting key contrasts.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "20b5654ede71b7927438764dc0f99956",
-      "title": "148K estimated, 222K real: when the token counter drifts, the safety net goes silent",
-      "url": "https://dev.to/pm25coder/148k-estimated-222k-real-when-the-token-counter-drifts-the-safety-net-goes-silent-46bd",
-      "source": "Dev.to",
-      "published_at": "2026-08-25T20:01:46Z",
-      "summary": "Our agent's auto-compact was supposed to protect the context window. It shipped, it ran, and it never...",
-      "tags": [
-        "ai",
-        "llm",
-        "programming",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1276,9 +1197,14 @@
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-08-26T13:05:28+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HashiCorp releases Terraform v1.16.0, delivering stable improvements for infrastructure provisioning.",
+      "tags": [
+        "Terraform",
+        "DevOps",
+        "Cloud",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "95212e6c62087b479f1537a8e0e1234e",
@@ -1369,9 +1295,12 @@
       "url": "https://github.com/istio/istio/releases/tag/1.31.0-rc.3",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-08-26T13:26:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Istio 1.31.0-rc.3 preview offers early access to upcoming service mesh enhancements.",
+      "tags": [
+        "Service Mesh",
+        "DevOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "150fc1490b807e9dda201d10bab1b3f6",
@@ -1409,9 +1338,14 @@
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.0",
       "source": "GitHub Releases (kubernetes)",
       "published_at": "2026-08-26T16:29:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes releases version 1.37.0, introducing new features and improvements for container orchestration.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Cloud",
+        "SRE"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "75687673a77698121e2eff119c86ee00",
@@ -1419,9 +1353,14 @@
       "url": "https://github.com/apache/airflow/releases/tag/ts-sdk%2F0.1.0-beta1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-08-26T16:03:03+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Apache Airflow releases a TypeScript SDK beta, enabling developers to interact with Airflow workflows using JavaScript/TypeScript. This expands Airflow's accessibility for modern DevOps and CI/CD pipelines.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Platform Engineering",
+        "MLOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "0d53a65696d4b60522e3073bfcef10b5",
@@ -1850,9 +1789,11 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.0",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-08-27T15:24:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangChain Anthropic connector updated to 1.7.0, adding support for latest Claude models.",
+      "tags": [
+        "AI"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "cac7c3448abe1f63b4bf16e5d98ef397",
@@ -1961,9 +1902,14 @@
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-08-27T10:30:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HashiCorp releases Terraform v1.17.0-alpha, adding new features for infrastructure as code.",
+      "tags": [
+        "Terraform",
+        "DevOps",
+        "Cloud",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "77bc12d1d9161d1c9188d73e5b1ebdf8",
@@ -2024,9 +1970,12 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.1",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-08-27T21:56:29+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangChain Fireworks integration updated to version 1.6.1, enhancing AI model connectivity.",
+      "tags": [
+        "AI",
+        "DevOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "b101857ce87ee211b581385ac079a904",
@@ -2034,9 +1983,12 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-08-27T21:25:36+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangGraph SDK 0.4.4 released with bug fixes and performance improvements for building AI workflows.",
+      "tags": [
+        "AI",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "273e9065d9ab46889c4735bd83af18c3",
@@ -2267,9 +2219,12 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.2",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-08-28T20:58:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Ollama v0.33.2 updates core components for improved LLM inference performance.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "41bf950e882192eef82205f74adb9bfa",
@@ -2422,9 +2377,13 @@
       "url": "https://github.com/apache/airflow/releases/tag/providers-amazon%2F9.35.1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-08-29T23:54:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "AWS provider 9.35.1 adds new AWS services and improved authentication for Airflow workflows.",
+      "tags": [
+        "Cloud",
+        "DevOps",
+        "CI/CD"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "6780df4bd46d627ad040b3dc61a4be3b",
@@ -2432,9 +2391,12 @@
       "url": "https://github.com/apache/airflow/releases/tag/providers-fab%2F3.8.1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-08-29T23:54:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "FAB provider 3.8.1 expands data source support and enhances pipeline execution on cloud platforms.",
+      "tags": [
+        "Cloud",
+        "DevOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "631da91dfa9beecd3774cf267dcb2e0d",
@@ -2442,9 +2404,13 @@
       "url": "https://github.com/apache/airflow/releases/tag/providers-microsoft-azure%2F15.0.1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-08-29T23:54:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Azure provider 15.0.1 adds new Azure services integration and improved connectivity for Airflow pipelines.",
+      "tags": [
+        "Cloud",
+        "DevOps",
+        "CI/CD"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "9298c5c5eb8d7e9914b455c2fe6911eb",
@@ -2931,9 +2897,13 @@
       "url": "https://github.com/istio/istio/releases/tag/1.31.0",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-08-31T17:10:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Istio 1.31.0 released with improved service mesh capabilities and security features.",
+      "tags": [
+        "Service Mesh",
+        "Cloud",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "9e19c5a79ed32f910e83ff5f31f4a84a",
@@ -3076,9 +3046,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.1",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-09-01T10:35:48+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "n8n 2.38.1 release adds node improvements and enhanced security for automation workflows.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "3802162a4366f75a39bef9241682940c",
@@ -3181,9 +3155,13 @@
       "url": "https://github.com/grafana/grafana/releases/tag/v13.2.1",
       "source": "GitHub Releases (grafana)",
       "published_at": "2026-09-01T15:44:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Grafana releases version 13.2.1, enhancing monitoring and visualization capabilities.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "34be95b5690d42c99a3e34df4b526607",
@@ -3276,9 +3254,12 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a3",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-09-01T17:22:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangChain alpha release 1.4.0a3 introduces new features for building AI applications.",
+      "tags": [
+        "AI",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "e1b47501ae5c9c8f12bd688fde9cc4ba",
@@ -3322,6 +3303,97 @@
         "llm",
         "devops",
         "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3965a741f4ca36454ef979bac0063832",
+      "title": "open-telemetry/opentelemetry-collector: scraper/xscraper/v0.160.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.160.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-09-01T23:39:14+00:00",
+      "summary": "OpenTelemetry scraper component updated to v0.160.0, supporting enhanced data collection.",
+      "tags": [
+        "Observability"
+      ],
+      "relevance_score": 0.7
+    },
+    {
+      "id": "a60040706be6549f75864e4fdc3efc7f",
+      "title": "open-telemetry/opentelemetry-collector: service/hostcapabilities/v0.160.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Fhostcapabilities%2Fv0.160.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-09-01T23:39:14+00:00",
+      "summary": "New host capabilities module in OpenTelemetry collector improves system monitoring and observability.",
+      "tags": [
+        "Observability",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.7
+    },
+    {
+      "id": "76adf664abaa689e13dd6ad2c73a433d",
+      "title": "open-telemetry/opentelemetry-collector: service/telemetry/telemetrytest/v0.160.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Ftelemetry%2Ftelemetrytest%2Fv0.160.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-09-01T23:39:14+00:00",
+      "summary": "OpenTelemetry collector telemetry test component released, enhancing observability and telemetry validation.",
+      "tags": [
+        "Observability",
+        "DevOps"
+      ],
+      "relevance_score": 0.8
+    },
+    {
+      "id": "7146154843fe064c5ddf0dd997b6cf65",
+      "title": "open-telemetry/opentelemetry-collector: v0.160.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.160.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-09-01T23:39:10+00:00",
+      "summary": "OpenTelemetry Collector releases v0.160.0, providing enhanced telemetry collection capabilities.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
+    },
+    {
+      "id": "ca3986a40487100d12cd7a1ead820205",
+      "title": "ollama/ollama: v0.33.3-rc0: llama.cpp: version bump b10729 (#18160)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-01T23:24:15+00:00",
+      "summary": "Ollama releases rc version with llama.cpp update, advancing local LLM deployment.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.85
+    },
+    {
+      "id": "9f952823b234594807629fa8131c46f5",
+      "title": "Claude Fable 5.1 watermark: It has a blind spot developers can’t ignore",
+      "url": "https://thenewstack.io/fable-5-1-watermark/",
+      "source": "The New Stack",
+      "published_at": "2026-09-01T20:59:09+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7f9a1cc5915cae331ab6080a9b88ccf7",
+      "title": "Who watches the watchdog? The boring work behind a monitoring SaaS",
+      "url": "https://dev.to/chriscompiles/who-watches-the-watchdog-the-boring-work-behind-a-monitoring-saas-7n8",
+      "source": "Dev.to",
+      "published_at": "2026-09-01T10:36:48Z",
+      "summary": "My last post about PulseWatch ended with a satisfying discovery: the monitoring bug I was...",
+      "tags": [
+        "buildinpublic",
+        "devops",
+        "python",
+        "showdev"
       ],
       "relevance_score": 0.0
     }
