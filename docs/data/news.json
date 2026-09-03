@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-03T12:49:36Z",
+  "generated_at": "2026-09-03T17:50:18Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-02T08:43:01+00:00",
+      "published_at": "2026-09-03T13:24:20+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -417,16 +417,6 @@
       "url": "http://rubytune.com/cheat",
       "source": "Hacker News",
       "published_at": "2013-01-11T16:06:41Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3789bb27fbf92ed4389b8a5851bb7483",
-      "title": "Discover, govern, and scale Azure infrastructure in the AI era",
-      "url": "https://www.hashicorp.com/blog/discover-govern-and-scale-azure-infrastructure-in-the-ai-era",
-      "source": "HashiCorp Blog",
-      "published_at": "2026-06-30T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1148,98 +1138,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1f9b3f3fc53787f2444bccb6723a5a22",
-      "title": "Stop over engineering AI apps, just match your problem to one of these 5 AI architectures",
-      "url": "https://www.reddit.com/r/devops/comments/1vzygt0/stop_over_engineering_ai_apps_just_match_your/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-27T16:15:11+00:00",
-      "summary": "A guide matching AI problems to five simple architectures, avoiding over‑engineering in AI apps.",
-      "tags": [
-        "AI",
-        "DevOps"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "e3973d84bf8720a5818cc30fe0b6347d",
-      "title": "“Posterity will find it ludicrous”: Sai agent hits 73% on OSWorld 2.0 performing routine (but necessary) work",
-      "url": "https://thenewstack.io/sai-agent-osworld-benchmark/",
-      "source": "The New Stack",
-      "published_at": "2026-08-27T15:34:11+00:00",
-      "summary": "Sai AI agent achieves 73% on OSWorld 2.0, handling routine tasks and hinting at future autonomous workflows.",
-      "tags": [
-        "AI",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.85
-    },
-    {
-      "id": "ba07cb9613506f73be26dac508fc6d8c",
-      "title": "langchain-ai/langchain: langchain-anthropic==1.7.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.0",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-08-27T15:24:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cac7c3448abe1f63b4bf16e5d98ef397",
-      "title": "istio/istio: Istio 1.29.7",
-      "url": "https://github.com/istio/istio/releases/tag/1.29.7",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-08-27T15:11:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c3eab65b8684860dc887329c3a7ad2d2",
-      "title": "Why basic RAG fails at multi-hop reasoning (and how GraphRAG fixes it)",
-      "url": "https://thenewstack.io/graphrag-multi-hop-reasoning-python/",
-      "source": "The New Stack",
-      "published_at": "2026-08-27T14:00:00+00:00",
-      "summary": "Basic RAG struggles with multi‑hop reasoning; GraphRAG introduces graph structures to improve answer accuracy.",
-      "tags": [
-        "AI",
-        "Observability"
-      ],
-      "relevance_score": 0.8
-    },
-    {
-      "id": "b364df4a9ec4d3c73e3dd8a45cd6dfa8",
-      "title": "Local kubernetes v/s managed kubernetes cluster",
-      "url": "https://www.reddit.com/r/devops/comments/1vzujrv/local_kubernetes_vs_managed_kubernetes_cluster/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-27T13:50:43+00:00",
-      "summary": "Hello I have been reading posts here and have noticed that people here have been recommending local kubernetes spin ups like k3s or kind and some other .. I knew only about minikube until now and have used it fairly to test some of my changes.  What's so different between these tools if anyone is aw",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cedef4672e15c0572723e08352c4d791",
-      "title": "Anthropic’s new Files API vs. pasting: It will save you time, but it won’t save you money.",
-      "url": "https://thenewstack.io/anthropic-files-api-costs/",
-      "source": "The New Stack",
-      "published_at": "2026-08-27T13:00:00+00:00",
-      "summary": "Anthropic’s Files API speeds up file handling but offers no cost savings over manual pasting, emphasizing time vs. expense trade‑offs.",
-      "tags": [
-        "AI",
-        "DevOps"
-      ],
-      "relevance_score": 0.85
-    },
-    {
-      "id": "1c3785c020cec2b8634e050dab03c4bc",
-      "title": "Beginner Friendly Suggestions needed",
-      "url": "https://www.reddit.com/r/devops/comments/1vztabh/beginner_friendly_suggestions_needed/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-27T12:59:27+00:00",
-      "summary": "Hello. I started working as a QA last month and saw that my colleagues are pretty great at devops too. All of them have 4-5 years of experience while I am fully fresh out of university.  Now I want to learn about devops just so when discussion comes up, I know what's being discussed and take part in",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e47db0150f232340ea33296731e7fdc2",
       "title": "Building an AI factory on Kubernetes",
       "url": "https://www.cncf.io/blog/2026/08/27/building-an-ai-factory-on-kubernetes/",
@@ -1351,35 +1249,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "d98facd1cb4c7fca8348fa3b1a50b914",
-      "title": "Build an MCP Server in Go (Part 3): How IRSA and EKS Pod Identity Actually Work",
-      "url": "https://dev.to/ferztyle/build-an-mcp-server-in-go-part-3-how-irsa-and-eks-pod-identity-actually-work-45gk",
-      "source": "Dev.to",
-      "published_at": "2026-08-27T16:14:57Z",
-      "summary": "Everything the MCP server could check through Part 2 lives inside the cluster. But \"my pod can't...",
-      "tags": [
-        "kubernetes",
-        "aws",
-        "go",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "02f3e965d8515b48fb2a6e745b0ab78b",
-      "title": "We shipped two context-engineering features in one afternoon. We reverted them by dinner.",
-      "url": "https://dev.to/pm25coder/we-shipped-two-context-engineering-features-in-one-afternoon-we-reverted-them-by-dinner-jdk",
-      "source": "Dev.to",
-      "published_at": "2026-08-27T16:02:21Z",
-      "summary": "Describes rapid shipping of context‑engineering features and the quick rollback, illustrating CI/CD risks and mitigation.",
-      "tags": [
-        "DevOps",
-        "CI/CD",
-        "AI"
-      ],
-      "relevance_score": 0.8
     },
     {
       "id": "4a5e561dbdbee339ecdc8b3f0b4d479e",
@@ -1611,20 +1480,6 @@
         "Cloud",
         "DevOps",
         "Platform Engineering"
-      ],
-      "relevance_score": 0.85
-    },
-    {
-      "id": "037118ed8e33519fad402e913f730115",
-      "title": "I Built a CLI to Answer One Question: What Will This Change Break?",
-      "url": "https://dev.to/albz/i-built-a-cli-to-answer-one-question-what-will-this-change-break-114o",
-      "source": "Dev.to",
-      "published_at": "2026-08-27T16:03:12Z",
-      "summary": "A CLI tool that predicts breaking changes from code modifications, aiding SREs in impact analysis and reducing deployment risks.",
-      "tags": [
-        "SRE",
-        "DevOps",
-        "Observability"
       ],
       "relevance_score": 0.85
     },
@@ -3276,6 +3131,211 @@
         "devops",
         "ai"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "151e9de4514d12c1c4e10074e8a549e0",
+      "title": "It cost $33 to build a virtual Union Square. Here’s what the agents got wrong.",
+      "url": "https://thenewstack.io/ai-agents-3d-playwright/",
+      "source": "The New Stack",
+      "published_at": "2026-09-03T17:34:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0f92d44d9901226de9a0b4fb1dc48abf",
+      "title": "ollama/ollama: v0.33.3",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-03T17:24:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "532e70b01ca4b3a585d711b406b5cfe7",
+      "title": "Installing Longhorn on Kubernetes",
+      "url": "https://dev.to/vultr/installing-longhorn-on-kubernetes-7kc",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T17:18:31Z",
+      "summary": "Longhorn is an open-source, lightweight distributed block storage system for Kubernetes that provides...",
+      "tags": [
+        "kubernetes",
+        "storage",
+        "devops",
+        "containers"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "51ccf0520b6090ed438227a80ccbf37f",
+      "title": "Installing Apache Tomcat on Ubuntu 24.04",
+      "url": "https://dev.to/vultr/installing-apache-tomcat-on-ubuntu-2404-25k3",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T17:16:35Z",
+      "summary": "Apache Tomcat is an open-source web server application that lets developers run Java applications in...",
+      "tags": [
+        "tomcat",
+        "java",
+        "devops",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ed991370950c1d4e7721543771d7d81e",
+      "title": "Installing Apache Airflow on Ubuntu 24.04",
+      "url": "https://dev.to/vultr/installing-apache-airflow-on-ubuntu-2404-46o7",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T17:09:02Z",
+      "summary": "Apache Airflow is an open-source workflow management platform that manages data pipelines and...",
+      "tags": [
+        "airflow",
+        "python",
+        "postgres",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f85d65cda0543b3b2e342d0fff1da235",
+      "title": "langchain-ai/langchain: langchain==1.4.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-03T16:59:55+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "83ebf9a456c13feab7072ddaf3f791a3",
+      "title": "Do you build your own pipelines?",
+      "url": "https://www.reddit.com/r/devops/comments/1w6cb8k/do_you_build_your_own_pipelines/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-03T16:28:44+00:00",
+      "summary": "I work in a small team that deploys some internal products. No big user pool or database for me! We build small web apps that automate inner processes, and some scripts and jobs. Most of it runs on k8s, the apps and the jobs. We mostly run everyting on Azure. And everyting is managed by code, obviou",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "08ba8451c41ac655eb54294c9653040b",
+      "title": "Nvidia PAIR lets you put your idle Macs and PCs to work for AI agents",
+      "url": "https://thenewstack.io/nvidia-pair-local-inference/",
+      "source": "The New Stack",
+      "published_at": "2026-09-03T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bfbdd78fd1c048a9ceaad26b0eb3d1ff",
+      "title": "langchain-ai/langchain: langchain-anthropic==1.7.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-03T15:42:02+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8cec53c8d8d7cd45a097d63c035fa64f",
+      "title": "Want to scale AI agents without breaking anything? Retrieval engineering is the answer.",
+      "url": "https://thenewstack.io/ai-agent-retrieval-infrastructure/",
+      "source": "The New Stack",
+      "published_at": "2026-09-03T15:38:20+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a2787491e661f62b36b6b04f8e7ad2c0",
+      "title": "“Google was ahead only a few hours”: Muse Spark 1.3 edges out Gemini as Meta claims its biggest coding leap yet",
+      "url": "https://thenewstack.io/muse-spark-1-3-gemini/",
+      "source": "The New Stack",
+      "published_at": "2026-09-03T15:37:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b5117c226554495729452654c23d9ea6",
+      "title": "Ollama vs vLLM for Concurrent Inference: How to Choose the Right Server",
+      "url": "https://dev.to/aeza__net/ollama-vs-vllm-for-concurrent-inference-how-to-choose-the-right-server-3o5p",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T14:13:06Z",
+      "summary": "Choosing between Ollama and vLLM is not simply a matter of asking:   Which inference engine is...",
+      "tags": [
+        "ai",
+        "machinelearning",
+        "devops",
+        "performance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "53367bec56b42513ce552d5e5735a2cc",
+      "title": "Do we need to sacrifice holidays?",
+      "url": "https://www.reddit.com/r/devops/comments/1w67y1a/do_we_need_to_sacrifice_holidays/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-03T13:49:12+00:00",
+      "summary": "If I move to devops should I accept that I won't get to celebrate weekends and new year's? How has been your experience?  &#32; submitted by &#32;  /u/Icy_Compote7736   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4e372695df68f38da0a7fb6e18c24570",
+      "title": "Nomad vs Kubernetes: When You Don't Need the Cluster",
+      "url": "https://dev.to/andriiboyko/nomad-vs-kubernetes-when-you-dont-need-the-cluster-410n",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T11:47:34Z",
+      "summary": "Somewhere along the way, \"we need to run some containers\" quietly became \"so we need Kubernetes,\" and...",
+      "tags": [
+        "devops",
+        "kubernetes",
+        "architecture",
+        "hashicorp"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "160141a5ebed76c74bc2d319619f3f83",
+      "title": "A red gate and a silent one turned out to mean the same thing",
+      "url": "https://dev.to/mahirhir/a-red-gate-and-a-silent-one-turned-out-to-mean-the-same-thing-2age",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T01:37:34Z",
+      "summary": "A red gate and a silent one turned out to mean the same thing   CI on a Rust project I...",
+      "tags": [
+        "testing",
+        "ci",
+        "debugging",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "466f2b9a8d6826a659221ad806cb4ee2",
+      "title": "My editor's background linter filled the one drive I had left, 341GB at a time",
+      "url": "https://dev.to/mahirhir/my-editors-background-linter-filled-the-one-drive-i-had-left-341gb-at-a-time-1cic",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T01:37:29Z",
+      "summary": "My editor's background linter filled the one drive I had left, 341GB at a time   The number...",
+      "tags": [
+        "rust",
+        "vscode",
+        "windows",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "63b2682b142f5922e5918553c79e355d",
+      "title": "ollama/ollama: v0.33.3-rc2: gemma4: image and audio input support",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-02T22:07:28+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
