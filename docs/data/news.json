@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T07:09:51Z",
+  "generated_at": "2026-09-03T12:49:36Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -26,7 +26,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-01T10:30:42+00:00",
+      "published_at": "2026-09-03T08:08:05+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -952,16 +952,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "44f7dadc33b94d2cd7b954dfe6e63471",
-      "title": "Stop trying to learn all of Kubernetes at once",
-      "url": "https://www.cncf.io/blog/2026/08/25/stop-trying-to-learn-all-of-kubernetes-at-once/",
-      "source": "CNCF Blog",
-      "published_at": "2026-08-25T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3372205c782ae049c17c41b131cb76e7",
       "title": "Nomad vs. Kubernetes",
       "url": "https://www.nomadproject.io/docs/nomad-vs-kubernetes",
@@ -1077,16 +1067,6 @@
       "url": "https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/",
       "source": "Kubernetes Blog",
       "published_at": "2026-08-26T00:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2d8a1e7ded5084388079e6a07a2cbd53",
-      "title": "n8n-io/n8n: n8n@2.37.3",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.3",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-08-27T07:38:39+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1260,16 +1240,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f4fd9f8548ddadae4258b6ce7e323362",
-      "title": "How to Build a Durable Change-Control Gate for AI Agents",
-      "url": "https://devops.com/how-to-build-a-durable-change-control-gate-for-ai-agents/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-27T11:43:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e47db0150f232340ea33296731e7fdc2",
       "title": "Building an AI factory on Kubernetes",
       "url": "https://www.cncf.io/blog/2026/08/27/building-an-ai-factory-on-kubernetes/",
@@ -1287,21 +1257,6 @@
       "published_at": "2026-08-27T11:24:17+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b5469caa422a4a47b64c7b007e2e7c48",
-      "title": "How to Make a Repository AI-Ready",
-      "url": "https://dev.to/aws-builders/how-to-make-a-repository-ai-ready-3j62",
-      "source": "Dev.to",
-      "published_at": "2026-08-27T10:31:51Z",
-      "summary": "How to Make a Repository AI-Ready   Most advice about AI-ready repositories reduces to one...",
-      "tags": [
-        "ai",
-        "agents",
-        "devops",
-        "programming"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1592,21 +1547,6 @@
         "LLMOps"
       ],
       "relevance_score": 0.8
-    },
-    {
-      "id": "41bf950e882192eef82205f74adb9bfa",
-      "title": "Flaky Tests Persist Because Everyone Is Ignoring Them Rationally",
-      "url": "https://dev.to/qapilot/flaky-tests-persist-because-everyone-is-ignoring-them-rationally-4m4h",
-      "source": "Dev.to",
-      "published_at": "2026-08-27T12:40:13Z",
-      "summary": "You have done everything right.  You made the economic case for automation and got the investment...",
-      "tags": [
-        "testing",
-        "engineering",
-        "leadership",
-        "devops"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "46c2c819ede54c57176853ca956dc6c7",
@@ -2120,13 +2060,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1w3ao86/volatile_postgres_cluster/",
       "source": "Reddit r/devops",
       "published_at": "2026-08-31T11:12:31+00:00",
-      "summary": "Discussion about maintaining a volatile PostgreSQL cluster in production.",
-      "tags": [
-        "SRE",
-        "Observability",
-        "DevOps"
-      ],
-      "relevance_score": 0.7
+      "summary": "Hi, I'm trying to setup a basic ha postgres cluster using the Spilos images in a docker swarm setup, but every few days the thing crumbles down with DNS resolution issues, timeouts, wal and etcd records corruption, I don't have the money to rely on an hosted solution rn, so has anybody run into thes",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "61d9eaf020eba5826c9ee250c35e70d9",
@@ -3239,6 +3175,106 @@
         "docker",
         "containers",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5f1f826be015d68931f564b06fdb2e34",
+      "title": "Moving to DEVOPS",
+      "url": "https://www.reddit.com/r/devops/comments/1w65k4c/moving_to_devops/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-03T12:09:02+00:00",
+      "summary": "Hey guys, I recently got the opportunity to move to a DevOps team, and I’m looking for some advice on how to prepare. I have around 5 years of experience working in infrastructure and systems. Most of my experience is with:  VMware/vSphere and virtualization Windows and Linux administration Networki",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6f5312f2f3a1469f8f25fdb19e30b6f6",
+      "title": "I build a tool that says don't trust self-report. Then I trusted mine seven times in one day",
+      "url": "https://dev.to/mahirhir/i-build-a-tool-that-says-dont-trust-self-report-then-i-trusted-mine-seven-times-in-one-day-2phh",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T12:03:26Z",
+      "summary": "I spent a day building a tool whose entire premise is that you should not trust a system's own report...",
+      "tags": [
+        "testing",
+        "devops",
+        "programming",
+        "debugging"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "65b67bb9fdd5e799b3f6f32a177b1d7c",
+      "title": "From the Horse’s Mouth: Anthropic Says AI Has Changed the SDLC",
+      "url": "https://devops.com/from-the-horses-mouth-anthropic-says-ai-has-changed-the-sdlc/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-03T11:13:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d6c1e95ca73928e63e159f4fb6dd1465",
+      "title": "Migrating a critical Kubernetes deployment from the default namespace without any downtime",
+      "url": "https://www.cncf.io/blog/2026/09/03/migrating-a-critical-kubernetes-deployment-from-the-default-namespace-without-any-downtime/",
+      "source": "CNCF Blog",
+      "published_at": "2026-09-03T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6f75d3e2ca2d285fb46dba1c241a5121",
+      "title": "n8n-io/n8n: n8n@2.38.3",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.3",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-09-03T08:13:52+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c0528315e3e9caba38b9aea3572c3f52",
+      "title": "Help on picking which one to choose between data engineering and devops to transition from QA",
+      "url": "https://www.reddit.com/r/devops/comments/1w612ly/help_on_picking_which_one_to_choose_between_data/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-03T08:06:55+00:00",
+      "summary": "Hello! As the title says, I'm a QA engineer and I'm trying to transition to a new position. Right now, I don't know whether to pick Data Engineering or DevOps. Regarding my skills, in my free time I'm learning Linux, Python (along with some MySQL), CI/CD, Docker, Kubernetes, and currently playing ar",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "38a1c2ea54218c889297ebc7d67e672e",
+      "title": "n8n-io/n8n: n8n@1.123.77",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.77",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-09-03T08:00:09+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2662671618f90a52257453ad27a83d46",
+      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.77 (#37697)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-09-03T07:34:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "44b75209f3a9b5b8d76c5815cca18a1f",
+      "title": "Three gotchas installing a plugin into someone else's agent",
+      "url": "https://dev.to/mahirhir/three-gotchas-installing-a-plugin-into-someone-elses-agent-4co7",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T01:37:39Z",
+      "summary": "Three gotchas installing a plugin into someone else's agent   This one is scoped tight:...",
+      "tags": [
+        "rust",
+        "opensource",
+        "devops",
+        "ai"
       ],
       "relevance_score": 0.0
     }
