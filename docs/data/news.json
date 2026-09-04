@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:18:08Z",
+  "generated_at": "2026-09-04T20:44:22Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1082,60 +1082,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "4a5e561dbdbee339ecdc8b3f0b4d479e",
-      "title": "How I’m approaching agentic development with Claude Code",
-      "url": "https://www.reddit.com/r/devops/comments/1w103dh/how_im_approaching_agentic_development_with/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-28T19:21:37+00:00",
-      "summary": "I’ve been experimenting with combining spec-driven development + project memory + Claude Code hooks. The goal is simple: give the agent enough project context and engineering intent without dumping the entire project history into every session. I wrote up my current workflow and would love feedback ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7afd0de460d6c09905ef9a62d0bf8f4c",
-      "title": "What would you recommend for a Kubernetes homelab that resembles a real work environment?",
-      "url": "https://www.reddit.com/r/devops/comments/1w0ylpv/what_would_you_recommend_for_a_kubernetes_homelab/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-28T18:26:58+00:00",
-      "summary": "I’ve recently learned the basics of Kubernetes and Helm, and I’d like to build a homelab at home to get more comfortable with the kind of environment I might encounter at work. I have three PCs available, but I’m also considering starting with just one machine and adding the other two later. My goal",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1a18eee43b0c232ebb7433d31a7996d2",
-      "title": "Felt cheated with AI SRE tools, they are atmost a gimmick!",
-      "url": "https://www.reddit.com/r/devops/comments/1w0x5pd/felt_cheated_with_ai_sre_tools_they_are_atmost_a/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-28T17:34:32+00:00",
-      "summary": "Anybody here who feels AI SRE is a gimmick? I mean, what are we doing with this, honestly? Not gonna name names, but our observability platform ships one, and it takes 10–12 minutes to run an incident analysis and comes back with &quot;hey, these are 2 things that are broken, and these are 5 probabl",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "87a5fc94c94afede6ff9b166f06dff1d",
-      "title": "Docker Demystified: The Ultimate Guide to Containers and Architecture",
-      "url": "https://dev.to/bibekkakati/docker-demystified-the-ultimate-guide-to-containers-and-architecture-h18",
-      "source": "Dev.to",
-      "published_at": "2026-08-28T17:08:18Z",
-      "summary": "Comprehensive guide to Docker, covering container architecture and best practices for deployment.",
-      "tags": [
-        "Containers",
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "7c742fcd7d7c98693ab5e7ef04429e53",
-      "title": "langchain-ai/langchain: langchain==1.4.0a2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-08-28T16:58:59+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "10d93b75ed7441070469a8705b3a29bb",
       "title": "Build your own continuous modernization pipeline with AWS Transform custom",
       "url": "https://aws.amazon.com/blogs/devops/build-your-own-continuous-modernization-pipeline-with-aws-transform-custom/",
@@ -1204,21 +1150,6 @@
         "Containers"
       ],
       "relevance_score": 0.85
-    },
-    {
-      "id": "c22734ac6a2c019c1f26eb8f46c4faa1",
-      "title": "Understanding Kubernetes: A Beginner's Guide to Container Orchestration",
-      "url": "https://dev.to/bibekkakati/understanding-kubernetes-a-beginners-guide-to-container-orchestration-2dgo",
-      "source": "Dev.to",
-      "published_at": "2026-08-28T19:15:50Z",
-      "summary": "If you have already explored Docker, you know how convenient containers are. You package your...",
-      "tags": [
-        "kubernetes",
-        "containers",
-        "docker",
-        "devops"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "5cef98ffa46a3971a1b15e21a887e1eb",
@@ -3398,7 +3329,7 @@
       "title": "Investigate DMS migration issues with AWS DevOps Agent",
       "url": "https://aws.amazon.com/blogs/devops/investigate-dms-migration-issues-with-aws-devops-agent/",
       "source": "AWS Blog",
-      "published_at": "2026-09-04T14:12:32+00:00",
+      "published_at": "2026-09-04T18:13:04+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3436,6 +3367,86 @@
       "published_at": "2026-09-03T17:34:31+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ce71da70b6a35f4cc0658831a39a5524",
+      "title": "Claude reset limits?",
+      "url": "https://www.reddit.com/r/devops/comments/1w7fhsi/claude_reset_limits/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-04T20:13:29+00:00",
+      "summary": "      Did your Claude limits get reset too?  &#32; submitted by &#32;  /u/Maxi-Papa   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "18470629b3f7497d94f0a751e59f05d8",
+      "title": "I trained my AI agent to burn less money. Here's what actually worked.",
+      "url": "https://dev.to/jenatechio/i-trained-my-ai-agent-to-burn-less-money-heres-what-actually-worked-cjn",
+      "source": "Dev.to",
+      "published_at": "2026-09-04T20:10:19Z",
+      "summary": "A few months ago I became convinced my AI assistant was bleeding money through incompetence. It felt...",
+      "tags": [
+        "ai",
+        "automation",
+        "productivity",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "90217b5fe926a9beb8a1e3161927c430",
+      "title": "Your DevOps Pipeline Is Already a Sustainability Program",
+      "url": "https://devops.com/your-devops-pipeline-is-already-a-sustainability-program/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-04T19:57:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1b69a30cd7b967a60283ee6e1e6c43e9",
+      "title": "How ChatGPT agents with no internet access ended up in Hugging Face",
+      "url": "https://dev.to/lovestaco/how-chatgpt-agents-with-no-internet-access-ended-up-in-hugging-face-2p89",
+      "source": "Dev.to",
+      "published_at": "2026-09-04T18:04:14Z",
+      "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
+      "tags": [
+        "ai",
+        "security",
+        "devops",
+        "architecture"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "06f6854e807418b297f2d0128eca33ef",
+      "title": "🚀 Delivery Practices a Software Team Actually Needs",
+      "url": "https://dev.to/zenika/delivery-practices-a-software-team-actually-needs-57gl",
+      "source": "Dev.to",
+      "published_at": "2026-09-04T14:55:06Z",
+      "summary": "Stop chasing elite labels. The baseline that makes deploys boring — even when you are the whole team.",
+      "tags": [
+        "devops",
+        "programming",
+        "productivity",
+        "cicd"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "78a80ad6761e5b3bd498d60621e11848",
+      "title": "Kubernetes, AI, and Security takeaways from ContainerDays Hamburg 2026",
+      "url": "https://dev.to/fortune-ndlovu/im-not-excited-by-what-ai-can-do-im-excited-by-what-i-can-do-ai-and-security-takeaways-from-5cag",
+      "source": "Dev.to",
+      "published_at": "2026-09-03T13:06:33Z",
+      "summary": "I spent three days at ContainerDays Hamburg 2026 at Schuppen 52, speaking, listening, and taking too...",
+      "tags": [
+        "kubernetes",
+        "security",
+        "ai",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
