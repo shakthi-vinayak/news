@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:09:18Z",
+  "generated_at": "2026-09-04T16:18:08Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -7,16 +7,6 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-09-04T09:14:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "07b17e85807ed66d00bfa1604b9aaf6c",
-      "title": "Feature Flag Orchestration with AWS DevOps Agent and LaunchDarkly",
-      "url": "https://aws.amazon.com/blogs/devops/feature-flag-orchestration-with-aws-devops-agent-and-launchdarkly/",
-      "source": "AWS Blog",
-      "published_at": "2026-06-19T21:08:45+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1156,36 +1146,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3f85599a74ee33824212592313aaa3cc",
-      "title": "Your .mcp.json probably has a live API key in it",
-      "url": "https://dev.to/wiktormalyska/your-mcpjson-probably-has-a-live-api-key-in-it-4ge5",
-      "source": "Dev.to",
-      "published_at": "2026-08-28T13:00:00Z",
-      "summary": "Nearly every guide to setting up an MCP server tells you to do this:    {   \"mcpServers\": {    ...",
-      "tags": [
-        "mcp",
-        "security",
-        "devops",
-        "ai"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "435a0ba81479ccb8c721b5fd5177807b",
-      "title": "Docker Says \"Healthy\" and the Pod Keeps Sending Broken Traffic",
-      "url": "https://dev.to/jtorchia/docker-says-healthy-and-the-pod-keeps-sending-broken-traffic-ghj",
-      "source": "Dev.to",
-      "published_at": "2026-08-28T12:00:19Z",
-      "summary": "Docker's HEALTHCHECK is information, not a routing guarantee. If Kubernetes or Swarm isn't reading it, your container can be \"healthy\" and still keep taking requests that are going to fail.",
-      "tags": [
-        "english",
-        "docker",
-        "devops",
-        "dockercompose"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "56e0512cd82f7271633ba6d5f662652c",
       "title": "Scale before the spike: Predictive autoscaling for GPU workloads on Kubernetes",
       "url": "https://www.cncf.io/blog/2026/08/28/scale-before-the-spike-predictive-autoscaling-for-gpu-workloads-on-kubernetes/",
@@ -1194,19 +1154,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "3e6f73410fdb4a0599388ae88055efd7",
-      "title": "5,900 Engineers Just Registered for a Hackathon Where Using AI Is the Point. Here's How It Will Actually Be Judged.",
-      "url": "https://dev.to/marvinoka4/5900-engineers-just-registered-for-a-hackathon-where-using-ai-is-the-point-heres-how-it-will-1bdd",
-      "source": "Dev.to",
-      "published_at": "2026-08-28T11:16:11Z",
-      "summary": "Large AI-focused hackathon with judging criteria for AI solutions.",
-      "tags": [
-        "AI",
-        "LLMOps"
-      ],
-      "relevance_score": 0.7
     },
     {
       "id": "1114c00b7a8e8f5252fcde962b2ad42f",
@@ -1957,11 +1904,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1w3tuiu/i_really_like_devops_but_sometimes_it_feels_like/",
       "source": "Reddit r/devops",
       "published_at": "2026-08-31T22:50:00+00:00",
-      "summary": "Discussion about perceived lack of entry-level opportunities in DevOps careers.",
-      "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.85
+      "summary": "I genuinely think DevOps or platform engineering is the area of software I enjoy the most. I like CI/CD, Terraform, cloud infrastructure, debugging weird deployment problems, trying to understand why systems fail, automating repetitive things, and generally having ownership instead of just implement",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "6c8cc8dd5f4b8f0f10cac4de793c1504",
@@ -2361,13 +2306,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1w4ulqz/github_windows_self_hosted_runners_on_k8s_is_it/",
       "source": "Reddit r/devops",
       "published_at": "2026-09-02T00:14:44+00:00",
-      "summary": "Question about running GitHub self-hosted Windows runners on Kubernetes clusters.",
-      "tags": [
-        "DevOps",
-        "Kubernetes",
-        "CI/CD"
-      ],
-      "relevance_score": 0.9
+      "summary": "trying to find a ref architecture that is widely recommended for deploying windows runners on k8s. From what I read ARC doesn't support it still? if not what are my options?  &#32; submitted by &#32;  /u/gqtrees   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "b8a742e2451a3b2ec0ad9ae3fe785ba8",
@@ -2533,11 +2474,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1w5azva/getting_started_with_devops_with_no_it_background/",
       "source": "Reddit r/devops",
       "published_at": "2026-09-02T13:52:20+00:00",
-      "summary": "Advice for beginners without IT experience looking to enter the DevOps field.",
-      "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.9
+      "summary": "Hey all, I’m looking to seriously change my career path but I am genuinely unsure where to start. I come from a Business Management background, and am looking to get into the IT field, specifically DevOps. I realize that will not be an easy transition by any stretch of the imagination, but life need",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "a374aa262d9a07ef171eb4f08737d25c",
@@ -3432,6 +3371,71 @@
         "beginners",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e5470ea3504dbe9cb2d915ceb9423db7",
+      "title": "“Sorry for the messy rollout”: OpenAI launched GPT-6 Astra, but developers are locked out",
+      "url": "https://thenewstack.io/gpt6-astra-developer-access-delayed/",
+      "source": "The New Stack",
+      "published_at": "2026-09-04T16:04:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5cb386d08524dc93a0927c4eafd6cc40",
+      "title": "OpenAI will sell you Astra, but not the system that scored 98.6% on ARC-AGI-3",
+      "url": "https://thenewstack.io/openai-astra-harness-arc-agi-3/",
+      "source": "The New Stack",
+      "published_at": "2026-09-04T15:25:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "41e4bc7190da4004ede9448852dee7ac",
+      "title": "Investigate DMS migration issues with AWS DevOps Agent",
+      "url": "https://aws.amazon.com/blogs/devops/investigate-dms-migration-issues-with-aws-devops-agent/",
+      "source": "AWS Blog",
+      "published_at": "2026-09-04T14:12:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "eee68e5110c893b9198179642af31635",
+      "title": "AI agent evaluations are part of the product",
+      "url": "https://thenewstack.io/ai-agent-evaluation-gates/",
+      "source": "The New Stack",
+      "published_at": "2026-09-04T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8d1533db52c79e75294b21cda02aec48",
+      "title": "What 1,135 agent-written pull requests taught me about reviewing AI code",
+      "url": "https://dev.to/john_problems_/what-1135-agent-written-pull-requests-taught-me-about-reviewing-ai-code-593j",
+      "source": "Dev.to",
+      "published_at": "2026-09-04T08:25:20Z",
+      "summary": "For the last five months I've run an autonomous software team inside a GitHub repo. 26 agent roles: a...",
+      "tags": [
+        "showdev",
+        "ai",
+        "opensource",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4a62c40fcb6ad7990a85f75b6dcf1aa0",
+      "title": "AI Agents built a 3D city for $33 in two hours —and exposed a major flaw",
+      "url": "https://thenewstack.io/ai-agents-3d-playwright/",
+      "source": "The New Stack",
+      "published_at": "2026-09-03T17:34:31+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
