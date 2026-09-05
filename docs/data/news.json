@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:10:19Z",
+  "generated_at": "2026-09-05T22:04:29Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1149,21 +1149,6 @@
       "published_at": "2026-08-29T23:54:32+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9298c5c5eb8d7e9914b455c2fe6911eb",
-      "title": "The Monorepo Migration: Merging Histories Without Losing Your Mind",
-      "url": "https://dev.to/freshcaffeine/the-monorepo-migration-merging-histories-without-losing-your-mind-f2p",
-      "source": "Dev.to",
-      "published_at": "2026-08-29T19:50:32Z",
-      "summary": "At FilmTailor we'd got to the point where every new service meant a new repo, a new pipeline, and a...",
-      "tags": [
-        "git",
-        "devops",
-        "monorepo",
-        "productivity"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3466,6 +3451,51 @@
         "kubernetes",
         "devops",
         "sre"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b30c6971261d99e0e961549ad7270ba9",
+      "title": "Your average latency is lying to you: p90, p95 and p99 explained",
+      "url": "https://dev.to/lovestaco/your-average-latency-is-lying-to-you-p90-p95-and-p99-explained-48b",
+      "source": "Dev.to",
+      "published_at": "2026-09-05T18:06:18Z",
+      "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
+      "tags": [
+        "performance",
+        "webdev",
+        "architecture",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9cb5dd21ec461e62efe878189fda2117",
+      "title": "git commit with a pathspec ignored my index and committed the file as it sat on disk",
+      "url": "https://dev.to/mahirhir/git-commit-with-a-pathspec-ignored-my-index-and-committed-the-file-as-it-sat-on-disk-262g",
+      "source": "Dev.to",
+      "published_at": "2026-09-05T17:23:59Z",
+      "summary": "Run this in an empty directory. It takes about fifteen seconds and it is the whole article.    $ git...",
+      "tags": [
+        "git",
+        "devops",
+        "debugging",
+        "testing"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "de1ff25ead96bc441110bc1efd16caff",
+      "title": "A red I expected hid an instrument that was reading an empty directory",
+      "url": "https://dev.to/mahirhir/a-red-i-expected-hid-an-instrument-that-was-reading-an-empty-directory-2ph8",
+      "source": "Dev.to",
+      "published_at": "2026-09-05T17:23:23Z",
+      "summary": "One row in my project's coverage table read 0/13. Later it read 0/19. It read a zero at every commit...",
+      "tags": [
+        "testing",
+        "rust",
+        "debugging",
+        "devops"
       ],
       "relevance_score": 0.0
     }
