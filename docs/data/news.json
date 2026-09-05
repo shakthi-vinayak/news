@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:05:18Z",
+  "generated_at": "2026-09-05T18:10:19Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1345,21 +1345,6 @@
         "testing",
         "devops",
         "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "76ba597b1254c57e7e852438438f7908",
-      "title": "I Built a P2P Messenger Without a Central Message Database — What I Learned About WebRTC, E2EE and Serverless Architecture",
-      "url": "https://dev.to/nates670/i-built-a-p2p-messenger-without-a-central-message-database-what-i-learned-about-webrtc-e2ee-and-4jnl",
-      "source": "Dev.to",
-      "published_at": "2026-08-29T15:27:31Z",
-      "summary": "I Built a P2P Messenger Without a Central Message Database — What I Learned About WebRTC,...",
-      "tags": [
-        "webdev",
-        "devops",
-        "showdev",
-        "architecture"
       ],
       "relevance_score": 0.0
     },
@@ -3432,6 +3417,56 @@
       "published_at": "2026-09-05T14:45:11+00:00",
       "summary": "      A few days ago, I posted my 3-node Talos Kubernetes homelab setup here, and quite a few people reached out through DMs and comments asking for a detailed installation guide. So I went through the entire setup again from scratch and documented the process properly, including the network setup, ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "619ef996c16a726d88440e6a84b63080",
+      "title": "Building trust in agentic RAG starts with evidence",
+      "url": "https://thenewstack.io/building-trust-agentic-rag/",
+      "source": "The New Stack",
+      "published_at": "2026-09-05T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6eb07c27d126a38c5ce5ef78ce261e4e",
+      "title": "Claude Fable 5.1 vs. Fable 5: On real work, I couldn’t tell them apart.",
+      "url": "https://thenewstack.io/claude-fable-upgrade-tested/",
+      "source": "The New Stack",
+      "published_at": "2026-09-05T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f7308e19b114bc6f02dc611b03f28d36",
+      "title": "Deploy to EC2 from GitHub Actions without opening port 22",
+      "url": "https://dev.to/ankurk91/deploy-to-ec2-from-github-actions-without-opening-port-22-5269",
+      "source": "Dev.to",
+      "published_at": "2026-09-05T11:02:47Z",
+      "summary": "Use AWS SSM Run Command instead of SSH in your CI/CD pipeline. No inbound port 22, no long-lived private key in your repo secrets.",
+      "tags": [
+        "aws",
+        "githubactions",
+        "devops",
+        "cicd"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8414ac8e15a9a9af5e9c1e6947078488",
+      "title": "AWS & SRE Field Manual (Part 5): Amazon EKS Architecture, Pod Networking & Next-Gen Scaling",
+      "url": "https://dev.to/enesguler/aws-sre-field-manual-part-5-amazon-eks-architecture-pod-networking-next-gen-scaling-12b5",
+      "source": "Dev.to",
+      "published_at": "2026-09-02T08:35:10Z",
+      "summary": "1. TL;DR &amp; Problem Statement     Definition: A managed Kubernetes service that offloads...",
+      "tags": [
+        "aws",
+        "kubernetes",
+        "devops",
+        "sre"
+      ],
       "relevance_score": 0.0
     }
   ]
