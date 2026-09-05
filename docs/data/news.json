@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:31:02Z",
+  "generated_at": "2026-09-05T15:05:18Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,70 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "96cfcf781b0330610dc475a92a693710",
-      "title": "Looking for a free cloud based playground",
-      "url": "https://www.reddit.com/r/devops/comments/1w1j9vt/looking_for_a_free_cloud_based_playground/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-29T10:45:13+00:00",
-      "summary": "Request for recommendations of free cloud-based environments for learning and testing DevOps practices.",
-      "tags": [
-        "Cloud",
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.85
-    },
-    {
-      "id": "01dcc08852e1dfcd6dec2db58381ea5d",
-      "title": "Observability of the dependencies in codebases still a problem",
-      "url": "https://www.reddit.com/r/devops/comments/1w1m4i3/observability_of_the_dependencies_in_codebases/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-29T13:07:48+00:00",
-      "summary": "Discussion on the ongoing challenge of achieving observability into codebase dependencies, including supply chain visibility and runtime tracking.",
-      "tags": [
-        "Observability",
-        "SRE",
-        "DevOps",
-        "Security"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "93a2a54e4439919afe647d09e69b5d3a",
-      "title": "The 3 roles AI agents play in your developer platform",
-      "url": "https://thenewstack.io/ai-agent-platform-roles/",
-      "source": "The New Stack",
-      "published_at": "2026-08-29T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "468a0ce23e814f909de4383e77d673c0",
-      "title": "Thing nobody warn you about deploying into customers cloud/env",
-      "url": "https://www.reddit.com/r/devops/comments/1w1ltbt/thing_nobody_warn_you_about_deploying_into/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-29T12:54:07+00:00",
-      "summary": "Discusses hidden challenges and best practices when deploying into a customer's cloud environment, emphasizing security, compliance, and observability.",
-      "tags": [
-        "DevOps",
-        "Cloud",
-        "SRE",
-        "Security"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "51c2e0004acf9d7c6311e0b34018f76d",
-      "title": "Sysadmin → cloud engineer. How rough is it? Give me a /10",
-      "url": "https://www.reddit.com/r/devops/comments/1w1kx8j/sysadmin_cloud_engineer_how_rough_is_it_give_me_a/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-29T12:11:25+00:00",
-      "summary": "Alright so I'm at a consulting firm and I'm getting moved off my Linux sysadmin role onto an AWS project as a &quot;cloud engineer&quot;. Starting soon. Not gonna lie, I'm sweating a bit. Everything I know about AWS is theory. Docs, videos, cert prep stuff. Never actually touched prod. Linux I'm fin",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a8780d627e2b32f79f3d4e3f7fa31538",
       "title": "apache/airflow: providers-amazon/9.35.1",
       "url": "https://github.com/apache/airflow/releases/tag/providers-amazon%2F9.35.1",
@@ -1424,21 +1360,6 @@
         "devops",
         "showdev",
         "architecture"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dc58a3b90e679cd31dfa330e472f617a",
-      "title": "A Stranger's Pull Request Almost Stole My Cloud Credentials. So Every CI Job Gets a Fresh microVM Now.",
-      "url": "https://dev.to/dhruv_malaviya_cdcc71e595/a-strangers-pull-request-almost-stole-my-cloud-credentials-so-every-ci-job-gets-a-fresh-microvm-3a2b",
-      "source": "Dev.to",
-      "published_at": "2026-08-29T08:48:58Z",
-      "summary": "My self-hosted CI runner was the least trusted machine I owned. Now every job runs in a disposable...",
-      "tags": [
-        "opensource",
-        "microvm",
-        "devops",
-        "cicd"
       ],
       "relevance_score": 0.0
     },
@@ -3500,6 +3421,16 @@
       "source": "Reddit r/devops",
       "published_at": "2026-09-05T05:24:21+00:00",
       "summary": "I came across Esc Bash, the new DevOps learning platform by Abhishek Veeramalla, and I’ve been beta testing it for about a month. I’m curious what people outside the beta group actually think about it. I initially thought the main selling point was probably the UI — it’s clean and feels quite polish",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a4e515c2dc9a56abb38b9d61e30bc427",
+      "title": "Detailed guide: Building a 3-node Kubernetes homelab with Talos Linux",
+      "url": "https://www.reddit.com/r/devops/comments/1w82naw/detailed_guide_building_a_3node_kubernetes/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-05T14:45:11+00:00",
+      "summary": "      A few days ago, I posted my 3-node Talos Kubernetes homelab setup here, and quite a few people reached out through DMs and comments asking for a detailed installation guide. So I went through the entire setup again from scratch and documented the process properly, including the network setup, ",
       "tags": [],
       "relevance_score": 0.0
     }
