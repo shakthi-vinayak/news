@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T10:49:40Z",
+  "generated_at": "2026-09-06T15:25:34Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,16 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "91646005f16be7478cd45de3c61a14d1",
-      "title": "Vercel, Netlify, Heroku alternative PaaS",
-      "url": "https://www.reddit.com/r/devops/comments/1w2eqxr/vercel_netlify_heroku_alternative_paas/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-30T11:11:12+00:00",
-      "summary": "We launched our PaaS prematurely, but it's now running around 50-60 apps from our own SaaS offering and our partners' apps, so I thought I'd share what we're building and get some opinions from people who actually work with infrastructure. The platform is Kubernetes-based and can deploy static sites",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "28d0cc787ad63a84ed69caa66081f0c3",
       "title": "OpenAI leaving Cursor: “Developers have to be prepared to adapt when it happens.”",
       "url": "https://thenewstack.io/openai-cuts-cursor-spacex/",
@@ -1187,16 +1177,6 @@
       "url": "https://thenewstack.io/ai-agents-retrieval-engineering/",
       "source": "The New Stack",
       "published_at": "2026-08-30T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3731dca0b117933418890a7bedf9cde4",
-      "title": "Your AI agent is only as good as the harness around it",
-      "url": "https://thenewstack.io/building-ai-agent-harness/",
-      "source": "The New Stack",
-      "published_at": "2026-08-30T15:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1259,24 +1239,12 @@
       "url": "https://dev.to/heymarkkop/should-i-replace-my-vps-with-a-mac-mini-3448",
       "source": "Dev.to",
       "published_at": "2026-08-30T17:10:14Z",
-      "summary": "Considering a Mac mini as a VPS replacement for development and lightweight hosting needs.",
+      "summary": "I've had a Hostinger KVM 4 for a while with 4 vCPUs, 16 GB RAM and 200 GB NVMe with the following...",
       "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.4
-    },
-    {
-      "id": "78c7d697cd9009aa62925ab82848e942",
-      "title": "The $0 Code-Review Pipeline: Free Models, Free Server, No Credit Card",
-      "url": "https://dev.to/codejs_1959/the-0-code-review-pipeline-free-models-free-server-no-credit-card-5c7n",
-      "source": "Dev.to",
-      "published_at": "2026-08-30T11:16:34Z",
-      "summary": "A code-review bot that costs zero dollars per pull request sounds like a compromise. It is not. A...",
-      "tags": [
-        "ai",
-        "opensource",
         "devops",
-        "productivity"
+        "webdev",
+        "opensource",
+        "cloud"
       ],
       "relevance_score": 0.0
     },
@@ -1909,13 +1877,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1w4h8lc/how_do_you_handle_cicd_credentials_using_github/",
       "source": "Reddit r/devops",
       "published_at": "2026-09-01T16:37:11+00:00",
-      "summary": "Discusses best practices for managing CI/CD credentials, highlighting risks of static secrets.",
-      "tags": [
-        "CI/CD",
-        "Security",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
+      "summary": "After I first set up a deployment pipeline, I would simply drop DB passwords and API keys into GitHub Secrets and feel completely safe because they are encrypted. I recently went through a security breakdown on GitHub Actions that showed me that it could be a mistake to think that way. The main issu",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "c23b74488af8ba9791fbf8d99ddaf291",
@@ -2776,11 +2740,14 @@
       "url": "https://dev.to/mahirhir/a-red-gate-and-a-silent-one-turned-out-to-mean-the-same-thing-2age",
       "source": "Dev.to",
       "published_at": "2026-09-03T01:37:34Z",
-      "summary": "A red gate and a silent one can both indicate the same underlying system state, highlighting subtle monitoring nuances.",
+      "summary": "A red gate and a silent one turned out to mean the same thing   CI on a Rust project I...",
       "tags": [
-        "Observability"
+        "testing",
+        "ci",
+        "debugging",
+        "devops"
       ],
-      "relevance_score": 0.3
+      "relevance_score": 0.0
     },
     {
       "id": "466f2b9a8d6826a659221ad806cb4ee2",
