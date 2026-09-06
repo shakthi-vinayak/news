@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:25:34Z",
+  "generated_at": "2026-09-06T18:15:50Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,36 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "28d0cc787ad63a84ed69caa66081f0c3",
-      "title": "OpenAI leaving Cursor: “Developers have to be prepared to adapt when it happens.”",
-      "url": "https://thenewstack.io/openai-cuts-cursor-spacex/",
-      "source": "The New Stack",
-      "published_at": "2026-08-30T17:03:49+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "95699ad4c43f73a08475ccac6e3f31da",
-      "title": "What are some good GitHub projects to contribute to?",
-      "url": "https://www.reddit.com/r/devops/comments/1w2m29s/what_are_some_good_github_projects_to_contribute/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-30T16:26:55+00:00",
-      "summary": "I am a contributor to both terraform-provider-aws and Ansible Core repos, as well as Ansible Community AWS repo. I am on the lookout for additional projects to contribute to, ideally ones that have plenty of issues and where reviews are done quickly. It should also be quick and easy to compile from ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e4a4c8a9ab8760b7eeeb30f941340258",
-      "title": "AI agents are making retrieval engineering a core engineering discipline",
-      "url": "https://thenewstack.io/ai-agents-retrieval-engineering/",
-      "source": "The New Stack",
-      "published_at": "2026-08-30T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ac0b9f3db89370c27d3fb00bbf88ea4f",
       "title": "me-riyadh-1: outbound HTTPS to Anthropic is 100% blackholed and Fastly is ~50% packet loss — upstream transit, not my VCN. Anyone else seeing this?",
       "url": "https://www.reddit.com/r/devops/comments/1w2u5j9/meriyadh1_outbound_https_to_anthropic_is_100/",
@@ -1230,21 +1200,6 @@
         "ai",
         "productivity",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "84a95071a87c33a6075db7ad7f96680f",
-      "title": "Should I replace my VPS with a Mac mini?",
-      "url": "https://dev.to/heymarkkop/should-i-replace-my-vps-with-a-mac-mini-3448",
-      "source": "Dev.to",
-      "published_at": "2026-08-30T17:10:14Z",
-      "summary": "I've had a Hostinger KVM 4 for a while with 4 vCPUs, 16 GB RAM and 200 GB NVMe with the following...",
-      "tags": [
-        "devops",
-        "webdev",
-        "opensource",
-        "cloud"
       ],
       "relevance_score": 0.0
     },
@@ -3441,6 +3396,16 @@
       "source": "Reddit r/devops",
       "published_at": "2026-09-06T08:46:05+00:00",
       "summary": "Azure and AWSB doesn't have qouta for models I want for freshly made accounts and it's disappointing to think you can't really do anything in their platforms. Is there a walk around for this aside from requesting qoutas which will eventually get rejected after waiting for weeks because of the lack o",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0624cc113cd896825a0f892588346d63",
+      "title": "What is the dumbest AWS security mistake you've actually found in the wild?",
+      "url": "https://www.reddit.com/r/devops/comments/1w937x1/what_is_the_dumbest_aws_security_mistake_youve/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-06T17:59:09+00:00",
+      "summary": "Not the theoretical stuff from a security checklist. I mean the kind of thing where you look at an AWS account and think: I'm building an open-source AWS security scanner and I've started realizing that the interesting part isn't just how many checks a scanner has. !!! It's whether those checks actu",
       "tags": [],
       "relevance_score": 0.0
     }
