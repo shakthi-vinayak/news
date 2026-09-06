@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T18:15:50Z",
+  "generated_at": "2026-09-06T22:08:03Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,29 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ac0b9f3db89370c27d3fb00bbf88ea4f",
-      "title": "me-riyadh-1: outbound HTTPS to Anthropic is 100% blackholed and Fastly is ~50% packet loss — upstream transit, not my VCN. Anyone else seeing this?",
-      "url": "https://www.reddit.com/r/devops/comments/1w2u5j9/meriyadh1_outbound_https_to_anthropic_is_100/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-30T21:34:56+00:00",
-      "summary": "Posting this both to ask if anyone else in **me-riyadh-1** is hitting it, and so the next person googling &quot;OCI curl timeout Riyadh&quot; finds something useful. **Setup:** Ubuntu compute instance, public subnet, default route → Internet Gateway, stateful egress allow-all, VCN resolver for DNS. ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c676a5b160f0421dcc2eee77c5342d72",
-      "title": "CI pipeline using Github actions",
-      "url": "https://www.reddit.com/r/devops/comments/1w2u0ru/ci_pipeline_using_github_actions/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-30T21:29:27+00:00",
-      "summary": "Technical question about designing and implementing CI pipelines using GitHub Actions for automated testing and deployment.",
-      "tags": [
-        "CI/CD",
-        "DevOps"
-      ],
-      "relevance_score": 0.8
-    },
-    {
       "id": "41dd38143d562783379c5e975895f466",
       "title": "DevOps/SRE engineers working abroad: What skills should I focus on?",
       "url": "https://www.reddit.com/r/devops/comments/1w2ywpz/devopssre_engineers_working_abroad_what_skills/",
@@ -1388,21 +1365,6 @@
         "programming",
         "ai",
         "testing"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "14d64a3f794927614d9a1b3a252f4c9e",
-      "title": "I Got Tired of Spam Calls, So I Built an AI Honeypot on Google Cloud",
-      "url": "https://dev.to/adamm285/i-got-tired-of-spam-calls-so-i-built-an-ai-honeypot-on-google-cloud-556i",
-      "source": "Dev.to",
-      "published_at": "2026-08-30T18:31:51Z",
-      "summary": "If you run a small service business or trade outfit, your phone is basically your cash register. The...",
-      "tags": [
-        "googlecloud",
-        "python",
-        "devops",
-        "allthingsagentichackathon"
       ],
       "relevance_score": 0.0
     },
@@ -3407,6 +3369,41 @@
       "published_at": "2026-09-06T17:59:09+00:00",
       "summary": "Not the theoretical stuff from a security checklist. I mean the kind of thing where you look at an AWS account and think: I'm building an open-source AWS security scanner and I've started realizing that the interesting part isn't just how many checks a scanner has. !!! It's whether those checks actu",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a17da6349634f72b6ca03fb2c1063335",
+      "title": "Is platform engineering a good field?",
+      "url": "https://www.reddit.com/r/devops/comments/1w95u75/is_platform_engineering_a_good_field/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-06T19:34:50+00:00",
+      "summary": "I love programming and technology. I wanted to pursue a path related to Linux and building system architectures. Is platform engineering a good and suitable field for this?  &#32; submitted by &#32;  /u/ez3uio   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a28072efa31666f7236a9c700b56aef0",
+      "title": "Anyone working DevOps as part-time or contractor ?",
+      "url": "https://www.reddit.com/r/devops/comments/1w957wl/anyone_working_devops_as_parttime_or_contractor/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-06T19:12:00+00:00",
+      "summary": "Would love to hear about your experience.  &#32; submitted by &#32;  /u/ComfyUncertainty   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dbccfe0b0d59fbefc50724c952920d2e",
+      "title": "Your zero-downtime deploy is probably fine. Check your p99 before you believe it.",
+      "url": "https://dev.to/remdore/your-zero-downtime-deploy-is-probably-fine-check-your-p99-before-you-believe-it-46g2",
+      "source": "Dev.to",
+      "published_at": "2026-09-06T19:07:07Z",
+      "summary": "I went looking for dropped requests during a rolling restart and found something more annoying than...",
+      "tags": [
+        "devops",
+        "docker",
+        "nginx",
+        "webdev"
+      ],
       "relevance_score": 0.0
     }
   ]
