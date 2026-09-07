@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:44:32Z",
+  "generated_at": "2026-09-07T22:47:59Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1142,40 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8bd2869322b673da99d965a1a46adf9a",
-      "title": "anyone actually running argocd/gitops in prod, hows it going",
-      "url": "https://www.reddit.com/r/devops/comments/1w3ot1w/anyone_actually_running_argocdgitops_in_prod_hows/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-08-31T19:50:30+00:00",
-      "summary": "Experiences and challenges of running Argo CD and GitOps in production environments.",
-      "tags": [
-        "DevOps",
-        "CI/CD",
-        "Kubernetes"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "6c8702a90604340933c7ffde343ac0c4",
-      "title": "OpenAI Cuts Off Cursor’s Model Access After SpaceX Acquisition",
-      "url": "https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/",
-      "source": "DevOps.com",
-      "published_at": "2026-08-31T19:18:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "af7e47587ca53dc6ad7a005f78638528",
-      "title": "OpenAI wants to charge only when AI gets it right — here’s the catch",
-      "url": "https://thenewstack.io/openai-outcome-based-pricing/",
-      "source": "The New Stack",
-      "published_at": "2026-08-31T18:47:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "fb493f8488d3503ce4d04ca3807df647",
       "title": "istio/istio: Istio 1.31.0",
       "url": "https://github.com/istio/istio/releases/tag/1.31.0",
@@ -1192,26 +1158,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-08-31T22:50:00+00:00",
       "summary": "I genuinely think DevOps or platform engineering is the area of software I enjoy the most. I like CI/CD, Terraform, cloud infrastructure, debugging weird deployment problems, trying to understand why systems fail, automating repetitive things, and generally having ownership instead of just implement",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6c8cc8dd5f4b8f0f10cac4de793c1504",
-      "title": "SpaceX is in an “enviable position”: why Anthropic is sticking with Cursor as OpenAI cuts access",
-      "url": "https://thenewstack.io/anthropic-spacex-cursor-compute-openai/",
-      "source": "The New Stack",
-      "published_at": "2026-08-31T21:47:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b6b2a647d33d26421e722ee350af3796",
-      "title": "MCP was supposed to solve the agent tooling problem. It missed a step.",
-      "url": "https://thenewstack.io/ard-agent-discovery-specification/",
-      "source": "The New Stack",
-      "published_at": "2026-08-31T20:04:20+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2057,21 +2003,6 @@
       "published_at": "2026-09-02T18:30:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "247e7939e89d4f5e325de1f307105a6f",
-      "title": "What a Linux container really is (it's not a VM)",
-      "url": "https://dev.to/vladut02/what-a-linux-container-really-is-its-not-a-vm-53an",
-      "source": "Dev.to",
-      "published_at": "2026-08-31T22:10:38Z",
-      "summary": "The Linux kernel has no object called a \"container.\" What you're really running is a normal process with two settings flipped — namespaces and cgroups. Here's the whole trick.",
-      "tags": [
-        "linux",
-        "docker",
-        "containers",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3255,6 +3186,16 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.14.0-rc.0",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-08-11T11:05:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ff50559026ec5e69da44133e1fac9190",
+      "title": "AI agents are creating more work, not less — and OpenAI’s own numbers back it up",
+      "url": "https://thenewstack.io/openai-agent-research-bottleneck/",
+      "source": "The New Stack",
+      "published_at": "2026-09-07T19:05:17+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
