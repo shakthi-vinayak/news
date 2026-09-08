@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T11:09:53Z",
+  "generated_at": "2026-09-08T16:35:41Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1162,71 +1162,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d538e0c041851f91b700b16dc5b9056b",
-      "title": "grafana/grafana: v13.2.1",
-      "url": "https://github.com/grafana/grafana/releases/tag/v13.2.1",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-09-01T15:44:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "34be95b5690d42c99a3e34df4b526607",
-      "title": "Meta’s Claude Code rival exits beta with three new subscription tiers — and it’s pushing hard on price",
-      "url": "https://thenewstack.io/muse-code-sdk-pricing/",
-      "source": "The New Stack",
-      "published_at": "2026-09-01T14:55:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b159aba403fad1e56f7bae6439a8be6f",
-      "title": "When agents build, deploy, and maintain, persistence becomes the hard problem",
-      "url": "https://thenewstack.io/agent-scale-database-persistence/",
-      "source": "The New Stack",
-      "published_at": "2026-09-01T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2ff2542e0d3d25e7e61a75babeed1c9d",
-      "title": "i'm struggling with the evidence side of secret detection",
-      "url": "https://www.reddit.com/r/devops/comments/1w4c1cl/im_struggling_with_the_evidence_side_of_secret/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-01T13:29:15+00:00",
-      "summary": "i'm working on a decision-making problem where an agent gets a possible leaked api key and has to decide whether it's actually a prod credential and then either ignore, verify or remove/rotate it. right now i'm using repo context (file path, variable name, surrounding code), key format, git history,",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cababb6a2c1ae2a62ec0950817ee3189",
-      "title": "# The CI/CD Pipeline That Was Lying to Us: A Deploy Debugging Story",
-      "url": "https://dev.to/highcenburg/-the-cicd-pipeline-that-was-lying-to-us-a-deploy-debugging-story-9fi",
-      "source": "Dev.to",
-      "published_at": "2026-09-01T13:10:03Z",
-      "summary": "I had a GitHub Actions workflow called Deploy to DigitalOcean. It had been sitting in the repo for...",
-      "tags": [
-        "githubactions",
-        "docker",
-        "django",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9f7bba2cf94134fad9746258e514e645",
-      "title": "Platform engineering maturity: From toolchain to self-service",
-      "url": "https://www.cncf.io/blog/2026/09/01/platform-engineering-maturity-from-toolchain-to-self-service/",
-      "source": "CNCF Blog",
-      "published_at": "2026-09-01T11:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3fb4a2bb53f6f203329c8243fd4e085b",
       "title": "Anthropic’s Fable 5.1 is a bit cheaper, a bit smarter, and refuses a lot less",
       "url": "https://thenewstack.io/anthropic-fable-5-1-launch/",
@@ -1290,21 +1225,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c23b74488af8ba9791fbf8d99ddaf291",
-      "title": "Migrating Legacy LLM Infrastructure to an AI Gateway",
-      "url": "https://dev.to/copyleftdev/migrating-legacy-llm-infrastructure-to-an-ai-gateway-27hl",
-      "source": "Dev.to",
-      "published_at": "2026-09-01T13:33:51Z",
-      "summary": "A hands-on migration off direct provider calls onto an AI gateway — configs, screenshots, and measured cost results.",
-      "tags": [
-        "ai",
-        "llm",
-        "devops",
-        "tutorial"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3965a741f4ca36454ef979bac0063832",
       "title": "open-telemetry/opentelemetry-collector: scraper/xscraper/v0.160.0",
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.160.0",
@@ -1365,21 +1285,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7f9a1cc5915cae331ab6080a9b88ccf7",
-      "title": "Who watches the watchdog? The boring work behind a monitoring SaaS",
-      "url": "https://dev.to/chriscompiles/who-watches-the-watchdog-the-boring-work-behind-a-monitoring-saas-7n8",
-      "source": "Dev.to",
-      "published_at": "2026-09-01T10:36:48Z",
-      "summary": "My last post about PulseWatch ended with a satisfying discovery: the monitoring bug I was...",
-      "tags": [
-        "buildinpublic",
-        "devops",
-        "python",
-        "showdev"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d7fbea24db65a3ba517076ce531be6ed",
       "title": "github windows self hosted runners (on k8s). Is it supported?",
       "url": "https://www.reddit.com/r/devops/comments/1w4ulqz/github_windows_self_hosted_runners_on_k8s_is_it/",
@@ -1407,21 +1312,6 @@
       "published_at": "2026-09-01T18:30:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "946f1639c708990fb8472b2f5d47375c",
-      "title": "The CI/CD Pipeline That Was Lying to Us: A Deploy Debugging Story",
-      "url": "https://dev.to/highcenburg/-the-cicd-pipeline-that-was-lying-to-us-a-deploy-debugging-story-9fi",
-      "source": "Dev.to",
-      "published_at": "2026-09-01T13:10:03Z",
-      "summary": "I had a GitHub Actions workflow called Deploy to DigitalOcean. It had been sitting in the repo for...",
-      "tags": [
-        "githubactions",
-        "docker",
-        "django",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2587,12 +2477,14 @@
       "url": "https://dev.to/fortune-ndlovu/im-not-excited-by-what-ai-can-do-im-excited-by-what-i-can-do-ai-and-security-takeaways-from-5cag",
       "source": "Dev.to",
       "published_at": "2026-09-03T13:06:33Z",
-      "summary": "Summarizes key takeaways on Kubernetes, AI integration, and security from ContainerDays Hamburg 2026.",
+      "summary": "I spent three days at ContainerDays Hamburg 2026 at Schuppen 52, speaking, listening, and taking too...",
       "tags": [
-        "Kubernetes",
-        "AI"
+        "kubernetes",
+        "security",
+        "ai",
+        "devops"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "b1fd0e051d108d6e0b756f4e9b8ce133",
@@ -3213,6 +3105,131 @@
         "devops",
         "data",
         "api"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "113170eac7d9e36eaf8fea6cd0c62e3f",
+      "title": "Ten Great DevOps Job Opportunities",
+      "url": "https://devops.com/ten-great-devops-job-opportunities-22/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-08T14:46:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "14f802666a23afc56d726b4f5a63bd64",
+      "title": "Flux boot strap and agent management",
+      "url": "https://www.reddit.com/r/devops/comments/1wapsff/flux_boot_strap_and_agent_management/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-08T14:21:47+00:00",
+      "summary": "I manage enterprise k8s clusters and use a mono repo strategy to bootstrap a cluster which results in one flux agent per cluster. Currently in the magnitude of several thousand services per cluster. It's structured like this:  Mono repo where the cluster agent is registered. Within that repo. use ki",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "283bb21b79c7cd4145e9418fe7b8cc21",
+      "title": "langchain-ai/langchain: langchain-openai==1.6.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-08T14:20:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c158b8edac07d9034bcb10d5428020d0",
+      "title": "How We Upgraded RabbitMQ to v4 Without Breaking 8M Daily Celery Tasks",
+      "url": "https://dev.to/shtlrs/how-we-upgraded-rabbitmq-to-v4-without-breaking-8m-daily-celery-tasks-3mf5",
+      "source": "Dev.to",
+      "published_at": "2026-09-08T14:00:00Z",
+      "summary": "Upgrading to RabbitMQ v4 threatened to break our entire usage of Celery, more specifically tasks with...",
+      "tags": [
+        "architecture",
+        "backend",
+        "devops",
+        "python"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "55732c2c0ed8d1aab877defe7b9feeb4",
+      "title": "Apica Adds AI Agents and MCP Server to Platform for Managing Telemetry Data",
+      "url": "https://devops.com/apica-adds-ai-agents-and-mcp-server-to-platform-for-managing-telemetry-data/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-08T13:45:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9e154dab27cc6a183424d60124486c9a",
+      "title": "After nine years as HashiCorp CEO, Dave McJannet now wants to “unblock” enterprise AI agents",
+      "url": "https://thenewstack.io/hashicorp-mcjannet-dome-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-09-08T12:59:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1b0e336857a883134b8b7ca684472e00",
+      "title": "Reflectiz Launches Agentic Pentesting for Websites: Up to 10x Coverage vs Conventional Pentests",
+      "url": "https://devops.com/reflectiz-launches-agentic-pentesting-for-websites-up-to-10x-coverage-vs-conventional-pentests/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-08T12:43:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7b2f4fd9e4bc61818320b50d48b091b8",
+      "title": "Compose has init containers now. Here's what I deleted.",
+      "url": "https://dev.to/remdore/compose-has-init-containers-now-heres-what-i-deleted-903",
+      "source": "Dev.to",
+      "published_at": "2026-09-08T11:52:11Z",
+      "summary": "Docker Compose 5.3 added pre_start steps: run migrations and seeds in throwaway containers before the service starts, with no one-off services and no depends_on chain. I tested reruns, failure, scaling, and found one thing I don't like.",
+      "tags": [
+        "docker",
+        "devops",
+        "postgres",
+        "node"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c6c8205cdd8ee616e32d1ad137271673",
+      "title": "I stress tested Cloudflare R2. 55Gbps read, 36Gbps write (simultaneous), a real contender for zero-egress object storage.",
+      "url": "https://www.reddit.com/r/devops/comments/1wam3rm/i_stress_tested_cloudflare_r2_55gbps_read_36gbps/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-08T11:45:47+00:00",
+      "summary": "      I stress tested Cloudflare R2 from a Latitude.sh bare metal box with a 100G NIC. Results were very impressive.  Btw I am not Cloudflare, nor do I work for them, nor was I paid to say this. We use Cloudflare heavily at our own company, and so I thought this sub might find this content interesti",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a6ccac96238c17dbb598ceda0f27ec2f",
+      "title": "Kubernetes access via an identity provider: Public client, not confidential",
+      "url": "https://www.cncf.io/blog/2026/09/08/kubernetes-access-via-an-identity-provider-public-client-not-confidential/",
+      "source": "CNCF Blog",
+      "published_at": "2026-09-08T11:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c49b7a27b45fd33273579527dc2bf7c8",
+      "title": "Bin packing Firecracker microVMs for GitHub Actions runners.",
+      "url": "https://dev.to/gbudjeakp/bin-packing-firecracker-microvms-for-github-actions-runners-4f74",
+      "source": "Dev.to",
+      "published_at": "2026-09-08T03:56:12Z",
+      "summary": "A while back a colleague introduced our team to terraform-aws-github-runner.   Cool project, job...",
+      "tags": [
+        "infrastructure",
+        "githubactions",
+        "aws",
+        "devops"
       ],
       "relevance_score": 0.0
     }
