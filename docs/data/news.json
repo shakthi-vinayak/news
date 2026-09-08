@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T16:35:41Z",
+  "generated_at": "2026-09-08T21:05:56Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1162,69 +1162,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3fb4a2bb53f6f203329c8243fd4e085b",
-      "title": "Anthropic’s Fable 5.1 is a bit cheaper, a bit smarter, and refuses a lot less",
-      "url": "https://thenewstack.io/anthropic-fable-5-1-launch/",
-      "source": "The New Stack",
-      "published_at": "2026-09-01T19:38:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2804c7f7230708fda0c326166d3f69b1",
-      "title": "Built this tool to simulate real world scenarios and incidents in local kubernetes",
-      "url": "https://www.reddit.com/r/devops/comments/1w4ll7u/built_this_tool_to_simulate_real_world_scenarios/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-01T19:04:34+00:00",
-      "summary": "A locally-run tool for simulating production-like incidents and scenarios in Kubernetes environments.",
-      "tags": [
-        "Kubernetes",
-        "Observability"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "4b23ff75efdbbf1c893724c58dba713a",
-      "title": "langchain-ai/langchain: langchain==1.4.0a3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a3",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-01T17:22:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e1b47501ae5c9c8f12bd688fde9cc4ba",
-      "title": "Meta just beat OpenAI and Google at real-time transcription",
-      "url": "https://thenewstack.io/meta-muse-voice-transcribe/",
-      "source": "The New Stack",
-      "published_at": "2026-09-01T17:06:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "535ea56ae21a3d3de21c18257754a394",
-      "title": "Built a small 3-node Kubernetes homelab",
-      "url": "https://www.reddit.com/r/devops/comments/1w4hanq/built_a_small_3node_kubernetes_homelab/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-01T16:39:02+00:00",
-      "summary": "      I recently set up a small 3-node Kubernetes homelab using Dell OptiPlex Micro PCs running Talos Linux. The main goal was to have a local cluster where I can learn, experiment, break things, and test tools without relying on cloud infrastructure every time. I’m planning to use it for Kubernetes",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "beb06389f369151004d370bac489ad84",
-      "title": "How do you handle CI/CD credentials? Using GitHub Actions made me realize static encrypted secrets aren’t very safe.",
-      "url": "https://www.reddit.com/r/devops/comments/1w4h8lc/how_do_you_handle_cicd_credentials_using_github/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-01T16:37:11+00:00",
-      "summary": "After I first set up a deployment pipeline, I would simply drop DB passwords and API keys into GitHub Secrets and feel completely safe because they are encrypted. I recently went through a security breakdown on GitHub Actions that showed me that it could be a mistake to think that way. The main issu",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3965a741f4ca36454ef979bac0063832",
       "title": "open-telemetry/opentelemetry-collector: scraper/xscraper/v0.160.0",
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.160.0",
@@ -1270,16 +1207,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.33.3-rc0",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-09-01T23:24:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9f952823b234594807629fa8131c46f5",
-      "title": "Claude Fable 5.1 watermark: It has a blind spot developers can’t ignore",
-      "url": "https://thenewstack.io/fable-5-1-watermark/",
-      "source": "The New Stack",
-      "published_at": "2026-09-01T20:59:09+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1639,21 +1566,6 @@
         "devops",
         "testing",
         "github"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f403312453946648d0b4642a8daad80a",
-      "title": "I built a tool to find every AWS resource you can't tag",
-      "url": "https://dev.to/olufolarin/i-built-a-tool-to-find-every-aws-resource-you-cant-tag-56o8",
-      "source": "Dev.to",
-      "published_at": "2026-09-01T17:14:46Z",
-      "summary": "AWS doesn't publish a list of untaggable resources. can-i-tag-aws scrapes the IAM docs so you can...",
-      "tags": [
-        "opensource",
-        "aws",
-        "devops",
-        "cloud"
       ],
       "relevance_score": 0.0
     },
@@ -2672,11 +2584,14 @@
       "url": "https://dev.to/mahirhir/git-commit-with-a-pathspec-ignored-my-index-and-committed-the-file-as-it-sat-on-disk-262g",
       "source": "Dev.to",
       "published_at": "2026-09-05T17:23:59Z",
-      "summary": "Shows how a pathspec mistake caused git to commit an unchanged file, revealing pipeline automation pitfalls.",
+      "summary": "Run this in an empty directory. It takes about fifteen seconds and it is the whole article.    $ git...",
       "tags": [
-        "CI/CD"
+        "git",
+        "devops",
+        "debugging",
+        "testing"
       ],
-      "relevance_score": 0.5
+      "relevance_score": 0.0
     },
     {
       "id": "de1ff25ead96bc441110bc1efd16caff",
@@ -3230,6 +3145,76 @@
         "githubactions",
         "aws",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d287bc335668d534fffc0c26ba0fb7f0",
+      "title": "DevOps in Financial Services: Moving Fast Without Losing Control",
+      "url": "https://devops.com/devops-in-financial-services-moving-fast-without-losing-control/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-08T20:09:33+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "78a3a612913bca96a85870b75f030ab2",
+      "title": "The Desktop Looked Right: 2,093 Parse Errors a Boot, and 10.9 Seconds That Weren't Doing Anything",
+      "url": "https://dev.to/gde/the-desktop-looked-right-2093-parse-errors-a-boot-and-109-seconds-that-werent-doing-anything-4bb",
+      "source": "Dev.to",
+      "published_at": "2026-09-08T18:05:25Z",
+      "summary": "A Debian desktop that looked and behaved correctly was throwing 2,093 CSS parse errors per boot and spending 10.9 seconds of a 39-second boot waiting on nothing. Neither is visible on screen. Both are in the journal, and both were introduced by the script that was supposed to set the machine up.",
+      "tags": [
+        "debian",
+        "linux",
+        "claudecode",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "119f9108c9e65abcb1067c1ac46eb794",
+      "title": "Why I started piping CLI outputs into a local SQLite memory daemon for AI agents",
+      "url": "https://www.reddit.com/r/devops/comments/1wauccw/why_i_started_piping_cli_outputs_into_a_local/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-08T17:06:52+00:00",
+      "summary": "I got tired of manually copying codebase context and raw execution logs into my AI agents. Since my entire workflow lives inside the Linux terminal, I decided to treat the memory layer as a native CLI tool that accepts standard input. Whenever I run a heavy test suite or inspect code changes, I just",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7ba305e6537c235c9495844918e0bc40",
+      "title": "OpenTofu in real-world practice?",
+      "url": "https://www.reddit.com/r/devops/comments/1watzsz/opentofu_in_realworld_practice/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-08T16:54:48+00:00",
+      "summary": "If you're actively employed in DevOps work involving IaC or are a leader or senior techie overseeing such work, do you use OpenTofu or seriously considered using it among your tools set? If no and you're not using Terraform or a cloud provider's first-class IaC tool (like AWS CloudFormation or Azure",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f90fc36e79ae35397df02455dbf119e4",
+      "title": "How are you handling API keys for MCP servers?",
+      "url": "https://www.reddit.com/r/devops/comments/1watudy/how_are_you_handling_api_keys_for_mcp_servers/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-08T16:49:26+00:00",
+      "summary": "When I first looked into wiring external tools to an LLM through an MCP server, I'd simply put the API keys in environment variables and let the agent call whatever it needed. That's what I'd normally do for a normal backend service. I read around it, and what I had not thought about is that a backe",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f7aa784241ce8ed75a4a126c809d5b38",
+      "title": "This Is How I Built a Self-Healing CI Pipeline With Agents!",
+      "url": "https://dev.to/pavanbelagatti/this-is-how-i-built-a-self-healing-ci-pipeline-with-agentic-ai-51ec",
+      "source": "Dev.to",
+      "published_at": "2026-09-08T16:35:12Z",
+      "summary": "TL;DR: A failed CI build is often not just a failed CI build. It is a developer opening logs,...",
+      "tags": [
+        "ai",
+        "tutorial",
+        "devops",
+        "software"
       ],
       "relevance_score": 0.0
     }
