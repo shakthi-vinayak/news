@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T17:48:46Z",
+  "generated_at": "2026-09-09T20:54:50Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1208,68 +1208,6 @@
       "source": "Docker Blog",
       "published_at": "2026-09-02T13:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "08ba57ada0e9ee75a4e40c1fa859f289",
-      "title": "GitOps in 2026: Why Pull Requests Are Taking Over Cloud Operations",
-      "url": "https://devops.com/gitops-in-2026-why-pull-requests-are-taking-over-cloud-operations/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-02T20:22:45+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0878f4840cd4325fbcbf504a5c375791",
-      "title": "Multiverse says its 438B model is fast enough for AI agents. The benchmarks tell a more complicated story.",
-      "url": "https://thenewstack.io/quasar-438b-agent-compression/",
-      "source": "The New Stack",
-      "published_at": "2026-09-02T20:14:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "be3fb991b9894b6abd4f885c53389144",
-      "title": "Your next OpenAI API timeout might not be a timeout at all",
-      "url": "https://thenewstack.io/astra-api-safety-stops/",
-      "source": "The New Stack",
-      "published_at": "2026-09-02T20:13:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3d6e60b3438e068d898fd9e10e6ff4b6",
-      "title": "Anthropic’s Claude failures have made agent observability a security priority",
-      "url": "https://thenewstack.io/anthropic-claude-agent-security/",
-      "source": "The New Stack",
-      "published_at": "2026-09-02T20:12:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b14180dd3d6432ba5a1ee5ff4a8722ef",
-      "title": "Need Help , please some one give KT",
-      "url": "https://www.reddit.com/r/devops/comments/1w5kd34/need_help_please_some_one_give_kt/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-02T19:25:50+00:00",
-      "summary": "A vague request for knowledge transfer (KT) help without technical context.",
-      "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.15
-    },
-    {
-      "id": "b4f7d1abb558ad4e948b3d54275dda5b",
-      "title": "honest worry or impostor syndrome",
-      "url": "https://www.reddit.com/r/devops/comments/1w5jucj/honest_worry_or_impostor_syndrome/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-02T19:07:45+00:00",
-      "summary": "This is officially my first post on a reddit sub, i tend to just be reading a lot from here, but getting to the issue, recently i got a new role as DevOps Engineer mid level, chill job, making a new architecture to migrate one heavy ETL app, just one month in, not much meetings, no manager pursuing ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3358,6 +3296,76 @@
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-09-09T13:22:31+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "117e9f72b459dc5c1f46362af1c15d5d",
+      "title": "Claude did best on a new benchmark for agents that build agents. It still passed fewer than a quarter of the tests.",
+      "url": "https://thenewstack.io/claude-build-agents-benchmark/",
+      "source": "The New Stack",
+      "published_at": "2026-09-09T20:14:09+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4ecc04f77189f0b805973ce89f277fbf",
+      "title": "OpenAI gave an AI the power to block its own engineers’ code",
+      "url": "https://thenewstack.io/openai-ai-code-review/",
+      "source": "The New Stack",
+      "published_at": "2026-09-09T19:53:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aafe8275307e43f42a07a2a174622ad4",
+      "title": "“It could kill us all”: what Anthropic’s own researchers really think about superintelligence",
+      "url": "https://thenewstack.io/anthropic-alignment-superintelligence-warnings/",
+      "source": "The New Stack",
+      "published_at": "2026-09-09T19:51:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a30635a849c2eb2c45a2428732cc1ffe",
+      "title": "Beginner DevOps question: Do experienced engineers actually write YAML like this?",
+      "url": "https://www.reddit.com/r/devops/comments/1wbu37v/beginner_devops_question_do_experienced_engineers/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-09T18:36:14+00:00",
+      "summary": "I’m still learning CI/CD and I recently tried writing a simple CI/CD pipeline using GitHub Actions. Honestly, writing the YAML felt more difficult than I expected . The indentation, nesting etc felt pretty hard/ painful. For those of you who work with DevOps professionally: is this actually how you ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "811a0c59bb9aa70be3c223a9d1f5acf8",
+      "title": "Four routes to your SSH key from an AI coding agent, and what actually stops them",
+      "url": "https://www.reddit.com/r/devops/comments/1wbtfdk/four_routes_to_your_ssh_key_from_an_ai_coding/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-09T18:13:15+00:00",
+      "summary": "Wrote this up after finding that a coding agent on a default Mac reaches ~/.ssh/id_rsa by four separate routes — its own shell, an MCP filesystem server, a subprocess, and a config-file path. Tested each, included the terminal output. The part I'd want devops opinions on: the enforcement has to sit ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "32b18b728220ae144efca74fb1abc5dc",
+      "title": "ollama/ollama: v0.34.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc4",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-09T17:57:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d7499e15f48c1317638163672bc4754a",
+      "title": "this is why you should bring your ops to slack",
+      "url": "https://www.reddit.com/r/devops/comments/1wbsty2/this_is_why_you_should_bring_your_ops_to_slack/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-09T17:52:44+00:00",
+      "summary": "      AI makes ad hoc operational work so easy that we stop building the tools around it. Why write a script when you can just ask Claude or Copilot to restart the canary? Why build a dashboard when ChatGPT can summarize today’s deploy status in 15 seconds? Because that 15-second conversation, repea",
       "tags": [],
       "relevance_score": 0.0
     }
