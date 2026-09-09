@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-09T07:22:34Z",
+  "generated_at": "2026-09-09T12:58:25Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-08T08:39:42+00:00",
+      "published_at": "2026-09-09T12:06:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -16,7 +16,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-08T08:26:55+00:00",
+      "published_at": "2026-09-09T12:26:59+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1192,26 +1192,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ecbc47b4d459a75b51fe2be26abb251b",
-      "title": "n8n-io/n8n: n8n@2.38.2",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.2",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-02T07:51:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "363b0c36738dfdbc9129813fe7acdc3c",
-      "title": "n8n-io/n8n: n8n@1.123.76",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.76",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-02T07:39:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "85369c39a434e7f21e03b80eb0d818c5",
       "title": "grafana/grafana: 13.2.1",
       "url": "https://github.com/grafana/grafana/releases/tag/v13.2.1",
@@ -1280,29 +1260,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "dd8c7446a728c670e39f2218207d62c8",
-      "title": "do I need a devops person or a sysadmin?",
-      "url": "https://www.reddit.com/r/devops/comments/1w58lld/do_i_need_a_devops_person_or_a_sysadmin/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-02T12:13:32+00:00",
-      "summary": "here is the context: Mid size (1000 users) company that has been trying to do in-house software dev (outsourced to south east Asia) with poor results. Company IT side is fairly mature, heavily virtualized, hybrid on prem/cloud, but a bit weak on the Azure side. Existing sysadmins are pretty solid.  ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1f509c9431d6865c52962a7fa0f35630",
-      "title": "Postgres Said Too Many Clients While Sitting at 40% CPU",
-      "url": "https://dev.to/rbonweb/postgres-said-too-many-clients-while-sitting-at-40-cpu-2if9",
-      "source": "Dev.to",
-      "published_at": "2026-09-02T11:46:03Z",
-      "summary": "Postgres reported 'too many clients' despite only 40% CPU usage, pointing to connection limit misconfiguration rather than resource exhaustion.",
-      "tags": [
-        "SRE",
-        "Observability"
-      ],
-      "relevance_score": 0.5
     },
     {
       "id": "08ba57ada0e9ee75a4e40c1fa859f289",
@@ -2022,21 +1979,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "76fca9cf91cdaf29b505024fd5838327",
-      "title": "How to add PII redaction and audit logs to LiteLLM without the Enterprise license",
-      "url": "https://dev.to/rishikeshglitch/how-to-add-pii-redaction-and-audit-logs-to-litellm-without-the-enterprise-license-217p",
-      "source": "Dev.to",
-      "published_at": "2026-09-02T10:56:53Z",
-      "summary": "I've been running LiteLLM as a gateway in front of a few models, and hit two things that turned out...",
-      "tags": [
-        "llm",
-        "security",
-        "python",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6909938671919ef0573740f373dc8a6d",
       "title": "Kubernetes isn’t new, but AI makes It scary again",
       "url": "https://www.cncf.io/blog/2026/09/04/kubernetes-isnt-new-but-ai-makes-it-scary-again/",
@@ -2431,21 +2373,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8414ac8e15a9a9af5e9c1e6947078488",
-      "title": "AWS & SRE Field Manual (Part 5): Amazon EKS Architecture, Pod Networking & Next-Gen Scaling",
-      "url": "https://dev.to/enesguler/aws-sre-field-manual-part-5-amazon-eks-architecture-pod-networking-next-gen-scaling-12b5",
-      "source": "Dev.to",
-      "published_at": "2026-09-02T08:35:10Z",
-      "summary": "1. TL;DR &amp; Problem Statement     Definition: A managed Kubernetes service that offloads...",
-      "tags": [
-        "aws",
-        "kubernetes",
-        "devops",
-        "sre"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b30c6971261d99e0e961549ad7270ba9",
       "title": "Your average latency is lying to you: p90, p95 and p99 explained",
       "url": "https://dev.to/lovestaco/your-average-latency-is-lying-to-you-p90-p95-and-p99-explained-48b",
@@ -2528,12 +2455,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1w8qqh4/is_there_any_way_to_obtain_claude_qoutas_in/",
       "source": "Reddit r/devops",
       "published_at": "2026-09-06T08:46:05+00:00",
-      "summary": "User asks how to get access/quota for Claude LLM services on Azure or AWS from scratch.",
-      "tags": [
-        "AI",
-        "Cloud"
-      ],
-      "relevance_score": 0.8
+      "summary": "Azure and AWSB doesn't have qouta for models I want for freshly made accounts and it's disappointing to think you can't really do anything in their platforms. Is there a walk around for this aside from requesting qoutas which will eventually get rejected after waiting for weeks because of the lack o",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "0624cc113cd896825a0f892588346d63",
@@ -3201,6 +3125,320 @@
         "postgres",
         "node"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0ce66dcdb5b42a9d84fe5674556c522c",
+      "title": "n8n-io/n8n: n8n@2.39.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-09-09T12:30:09+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3558b4e57ba57a2a8b80fd71ec0f4133",
+      "title": "What web interface for internal users?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wbk87p/what_web_interface_for_internal_users/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-09T12:29:56+00:00",
+      "summary": "Hello there! I manage a few kubernetes cluster in AWS (EKS) and I would like to give users a web interface, where they could log into and do their stuff. I am testing headlamp, in-cluster deployment with openid authentication agains keycloak (source of truth being Google Workspace) but it's a bit sl",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "580c4ef803d9ca08b96fd11bc10bd484",
+      "title": "Your prefered open source kubernetes security tools?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wbjupw/your_prefered_open_source_kubernetes_security/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-09T12:12:41+00:00",
+      "summary": "Weve been tightening up security across a few kubernetes clusters and want to stay opensource where we can. Image scanning is already in place. Now Im looking at runtime, rbac, network policy and supply chain and there are more options than we can maintain. Most of them look usefiul in a demo and i ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "be1ff321cd31e09b3cdaa78bb194d8ce",
+      "title": "AI Has Turned Verification Into the New DevOps Bottleneck",
+      "url": "https://devops.com/ai-has-turned-verification-into-the-new-devops-bottleneck/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-09T12:11:48+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1b39a89bcec52a5b48f8a55289cca718",
+      "title": "Best practices for exposing multiple websites in Docker containers on the same Ubuntu server to the web",
+      "url": "https://www.reddit.com/r/devops/comments/1wbjdto/best_practices_for_exposing_multiple_websites_in/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-09T11:51:41+00:00",
+      "summary": "I have an Ubuntu web server that I'd like to contain multiple websites on. Each website should have its own isolated environment in a Docker container (open to suggestions if Docker is not ideal). I'm thinking that the public URLs should be like * example.com/website1 * example.com/website2 * etc Wh",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c480937750f57600d5b457e2590cf5c1",
+      "title": "Whose GPUs are these, anyway? Secure, self-service metrics for multi-tenant Kubernetes",
+      "url": "https://www.cncf.io/blog/2026/09/09/whose-gpus-are-these-anyway-secure-self-service-metrics-for-multi-tenant-kubernetes/",
+      "source": "CNCF Blog",
+      "published_at": "2026-09-09T11:27:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f83df5fbd9dd43462f4edfd881368763",
+      "title": "Harness rebuilt its Git repository for nonstop AI agent traffic",
+      "url": "https://thenewstack.io/harness-ai-code-review/",
+      "source": "The New Stack",
+      "published_at": "2026-09-09T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "765adfa876b7e964388db9ad2b789fb3",
+      "title": "I built a free, open-source desktop app for Kubernetes — dashboards, logs, Argo CD, one-click EKS/AKS, and AI agents docked next to your cluster",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wbhtxn/i_built_a_free_opensource_desktop_app_for/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-09T10:31:53+00:00",
+      "summary": "I built k8sight, a native desktop app that puts the whole cluster in one window. It reads straight from your kubeconfig, no agents to install in-cluster. What it does  Live cluster dashboard - node/pod health, capacity, all workloads with real CPU/mem Pro log viewer - multi-container tabs, timestamp",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6f144ee8c6d4065e1186974b5487118d",
+      "title": "Postgres 19's REPACK rewrites a bloated table without locking out your writers",
+      "url": "https://dev.to/remdore/postgres-19s-repack-rewrites-a-bloated-table-without-locking-out-your-writers-2ep0",
+      "source": "Dev.to",
+      "published_at": "2026-09-09T10:27:00Z",
+      "summary": "PostgreSQL 19 beta replaces VACUUM FULL and CLUSTER with REPACK. Under eight concurrent writers VACUUM FULL let 33 writes through; REPACK let 3,988. But the swap still queues behind a slow query, and there are four tables it refuses outright.",
+      "tags": [
+        "postgres",
+        "database",
+        "devops",
+        "performance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a6a731c4c532ef5f4d6fc6189ac7525c",
+      "title": "Weekly: Show off your new tools and projects thread",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wbh9pi/weekly_show_off_your_new_tools_and_projects_thread/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-09T10:00:58+00:00",
+      "summary": "Share any new Kubernetes tools, UIs, or related projects!  &#32; submitted by &#32;  /u/AutoModerator   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "386dad119bb60c0c26b48e589754e5e4",
+      "title": "Your Crossplane may be sleeping",
+      "url": "https://dev.to/joojodontoh/your-crossplane-may-be-sleeping-1295",
+      "source": "Dev.to",
+      "published_at": "2026-09-09T09:42:41Z",
+      "summary": "TL;DR   I came up with a two-cluster Crossplane lab to test experiment that hopes to show...",
+      "tags": [
+        "devops",
+        "infrastructure",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "550129558032f335c70229943bdb1694",
+      "title": "How cloud native goes AI native",
+      "url": "https://www.cncf.io/blog/2026/09/09/how-cloud-native-goes-ai-native/",
+      "source": "CNCF Blog",
+      "published_at": "2026-09-09T08:13:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0915b242ebe8009456ab4a1d1286aaf9",
+      "title": "I let a model suggest Postgres indexes, then made the database mark its work",
+      "url": "https://dev.to/remdore/i-let-a-model-suggest-postgres-indexes-then-made-the-database-mark-its-work-2a4c",
+      "source": "Dev.to",
+      "published_at": "2026-09-09T07:04:10Z",
+      "summary": "An LLM will propose an index for any query you show it. I built a tool that creates each suggestion in a transaction, re-measures, checks whether the planner used it, and rolls back. Four in ten suggestions did not survive.",
+      "tags": [
+        "postgres",
+        "ai",
+        "database",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ab774c12248cdbbc1dbbbdb54ba6baaf",
+      "title": "ClickHouse OSS on Kubernetes — Has anyone successfully used HPA for scaling?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wbd68f/clickhouse_oss_on_kubernetes_has_anyone/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-09T06:03:44+00:00",
+      "summary": "&#32; submitted by &#32;  /u/Ramanamark   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3c189a1adc9bf938bd78e83a4b188f47",
+      "title": "Fleet low cost easy to manage. Ideas?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wb1dbc/fleet_low_cost_easy_to_manage_ideas/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-08T21:14:14+00:00",
+      "summary": "I have a requirement to deploy and remotely manage a large fleet of Kubernetes clusters across multiple edge sites, with minimal operational effort required at each site. All sites run the same constant workload with HA. Im currently evaluating this options:  1- AKS Edge Essentials + Arc/Flux, 2- RK",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "de37fd88b532750eed33eab0e481e3a2",
+      "title": "K8s Learning Partner",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wanlgh/k8s_learning_partner/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-08T12:53:08+00:00",
+      "summary": "I am looking for a k8s Learning buddy preferably female.  Little bit of background and context: I am a CSE grad from a reputed pribate university in Bangladesh. Currently employed in private company (ITES). I have been practicing DevOps for more than 2 years on my own. Learned Docker, Kunernetes etc",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5ec129c2056e606b52cdb10b458d0ff5",
+      "title": "Weekly: Questions and advice",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wak2lf/weekly_questions_and_advice/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-08T10:00:07+00:00",
+      "summary": "Have any questions about Kubernetes, related tooling, or how to adopt or use Kubernetes? Ask away!  &#32; submitted by &#32;  /u/AutoModerator   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fe2846b8e1e1c4aaa3205502ffa89170",
+      "title": "How do you practice GitOps/ArgoCD with a real external CI pipeline?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wafbyw/how_do_you_practice_gitopsargocd_with_a_real/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-08T05:24:07+00:00",
+      "summary": "I'm learning Kubernetes and CI/CD. Minikube and Kind work fine locally, but they're isolated I can't point GitHub Actions at them or expose a real endpoint. Killercoda gives me a terminal but no public API access. Cloud providers need a credit card and I'm nervous about surprise bills while experime",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "78e33818add105102c1af32b7f68acc9",
+      "title": "Help me shadow or co-learn with your project",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wa40pr/help_me_shadow_or_colearn_with_your_project/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-07T20:48:38+00:00",
+      "summary": "I am a new learning of kubernetes and would like to shadow or co-learn with your project.   &#32; submitted by &#32;  /u/Hari_Harish2026   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4fad78e0fd8b32c259c3d106b5ec7063",
+      "title": "A Mental Model for Distributed Compute: Kubernetes, Slurm, Ray, and Spark",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w9m7zf/a_mental_model_for_distributed_compute_kubernetes/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-07T08:20:22+00:00",
+      "summary": "I’ve been trying to build a cleaner mental model for distributed compute systems instead of learning each framework independently. Kubernetes, Slurm, Ray, and Spark all use different abstractions, but many of the underlying problems are the same: scheduling, resource management, worker execution, st",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bcea50d37cc4810077cfd6c023c90ee7",
+      "title": "Home lab setup",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w9a5wx/home_lab_setup/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-06T22:23:30+00:00",
+      "summary": "I’m building a home lab to run a 3–4 node Kubernetes cluster using logical nodes (VMs) on a single machine, with the cluster also needing to support AI workloads (local LLM inference, and ideally some room for fine-tuning/training). Looking for recommendations on: **•** A mini PC that can comfortabl",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "99cee4186cc970d1b9aa7fd548faea09",
+      "title": "Why Your AI Agent Sucks at Bash (and How We Built a CLI for LLM-Native DevOps)",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w934kh/why_your_ai_agent_sucks_at_bash_and_how_we_built/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-06T17:55:41+00:00",
+      "summary": "DevOps is currently experiencing a weird evolutionary bottleneck.  We’ve all tried it: you hook up an LLM (like Claude or GPT) to a terminal, give it raw SSH access or a directory full of Bash scripts, and say: &quot;Deploy my app and set up a Postgres database.&quot; The result is almost always a h",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "930b4af40d3b63962c1b9a75fc2ba4f0",
+      "title": "Kubernetes node-level resource balancing / workload isolation",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w92xm5/kubernetes_nodelevel_resource_balancing_workload/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-06T17:48:32+00:00",
+      "summary": "Hi Everyone. I’m looking for some advice on handling node-level resource balancing in a Rancher/RKE1 on-prem cluster. The issue I’m facing is that sometimes a pod consumes almost all CPU/RAM on a node. I understand that requests are used by the scheduler, while limits cap the container’s resource us",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "00495e624bc178e0ccbced57827ebb5d",
+      "title": "How are people managing 100s–1000s of on-prem/edge Kubernetes clusters?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w8u52h/how_are_people_managing_100s1000s_of_onpremedge/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-06T11:52:48+00:00",
+      "summary": "&#x200b; We’re at ~100 customer-site clusters today and trying to avoid painting ourselves into a corner if that grows to 1k+. Mostly small clusters, some single-node, some HA. Linux containers only. Connectivity varies a lot: fully connected, heavily whitelisted, or only online occasionally. We alr",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ed72f8b6fbd779f8c1749b95b3b9a602",
+      "title": "Spent 40 minutes last week just correlating alerts to find the actual root cause — is this normal or are we doing something wrong?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w8ty2h/spent_40_minutes_last_week_just_correlating/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-06T11:42:59+00:00",
+      "summary": "Last week our checkout service started throwing 5xx errors after a deploy. Monitoring caught it fine — Prometheus fired alerts within a minute. But then came the actual work: was it the deployment? A DB connection issue? A downstream dependency? I had four tabs open — Grafana, kubectl logs, our depl",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2b5b369fb5f18257a9bc7fb5983d11ac",
+      "title": "I’m designing an on-prem Kubernetes reference architecture — please tear it apart",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w8smho/im_designing_an_onprem_kubernetes_reference/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-06T10:32:13+00:00",
+      "summary": "      I'm a junior engineer working on a project to define a production-oriented reference architecture for on-premises Kubernetes and implement it as reproducible Ansible code. I'm not trying to build another &quot;install K8s(RKE2) with Ansible&quot; repository. The idea is to start from the failu",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "18eb2db1d124e42df9b49cec8dbfb571",
+      "title": "Is a kubernetes cluster using different VPS considered multi-zone?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w8nsfy/is_a_kubernetes_cluster_using_different_vps/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-06T05:59:12+00:00",
+      "summary": "Hi there, I want to run a kubernetes cluster using different VPS. This is for redundancy in case of failure of a VPS.. I read that a cluster composed of nodes in different regions should be avoided because of latency. Are different VPS providers within the same &quot;region&quot; (e.g. west coast) c",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "871ec331cb1af77a019bb2d8daffb6b9",
+      "title": "Seeking advice on traffic mirroring",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w8bzls/seeking_advice_on_traffic_mirroring/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-05T20:43:40+00:00",
+      "summary": "Hi everyone, I'm running kubernetes on AWS and using istio for traffic mirroring. I'm trying to figure out the best way to correlate the original request with its mirrored request. Previously I had a gateway for traffic mirroring which stamped unique header value before splitting. Which made it easy",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3b98d25382949e522a6802a3eb4dd80f",
+      "title": "Built a 3-node Kubernetes homelab with Talos Linux",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w82gl6/built_a_3node_kubernetes_homelab_with_talos_linux/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-05T14:37:47+00:00",
+      "summary": "      I recently set up a 3-node Kubernetes homelab on bare metal (on Dell OptiPlex) using Talos Linux, mainly to have a proper environment for learning, testing failures, networking, storage, GitOps, observability, and general Kubernetes experiments. The setup uses three control-plane/etcd nodes wi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "77e54a8dd16a052d9631b911c389de6d",
+      "title": "Monthly: Who is hiring?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w47fx7/monthly_who_is_hiring/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-01T10:00:13+00:00",
+      "summary": "This monthly post can be used to share Kubernetes-related job openings within your company. Please include:  Name of the company Location requirements (or lack thereof) At least one of: a link to a job posting/application page or contact details  If you are interested in a job, please contact the po",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
