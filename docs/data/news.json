@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:24:49Z",
+  "generated_at": "2026-09-11T20:55:43Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1222,16 +1222,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ce71da70b6a35f4cc0658831a39a5524",
-      "title": "Claude reset limits?",
-      "url": "https://www.reddit.com/r/devops/comments/1w7fhsi/claude_reset_limits/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-04T20:13:29+00:00",
-      "summary": "      Did your Claude limits get reset too?  &#32; submitted by &#32;  /u/Maxi-Papa   [link] &#32; [comments] ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "18470629b3f7497d94f0a751e59f05d8",
       "title": "I trained my AI agent to burn less money. Here's what actually worked.",
       "url": "https://dev.to/jenatechio/i-trained-my-ai-agent-to-burn-less-money-heres-what-actually-worked-cjn",
@@ -1243,31 +1233,6 @@
         "automation",
         "productivity",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "90217b5fe926a9beb8a1e3161927c430",
-      "title": "Your DevOps Pipeline Is Already a Sustainability Program",
-      "url": "https://devops.com/your-devops-pipeline-is-already-a-sustainability-program/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-04T19:57:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1b69a30cd7b967a60283ee6e1e6c43e9",
-      "title": "How ChatGPT agents with no internet access ended up in Hugging Face",
-      "url": "https://dev.to/lovestaco/how-chatgpt-agents-with-no-internet-access-ended-up-in-hugging-face-2p89",
-      "source": "Dev.to",
-      "published_at": "2026-09-04T18:04:14Z",
-      "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
-      "tags": [
-        "ai",
-        "security",
-        "devops",
-        "architecture"
       ],
       "relevance_score": 0.0
     },
@@ -3123,6 +3088,91 @@
       "published_at": "2026-09-11T10:05:13+00:00",
       "summary": "I'm working on the production deployment architecture for a small startup house-rental application and would appreciate some real-world feedback. The application has frontend and backend services, and one major requirement is handling a large number of property images. The stack we're currently cons",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c44bbe2b6deb3f2b37d4612dc4a85ab1",
+      "title": "Question to all DevOps engineers that came from Ops side",
+      "url": "https://www.reddit.com/r/devops/comments/1wdqcyx/question_to_all_devops_engineers_that_came_from/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-11T19:35:29+00:00",
+      "summary": "Hello everyone! I have total of 1.5 years of experience as a DevOps engineer, the first job was more Dev oriented and required deep knowledge with Python and Kafka (I don't know both), this didn't lead to a good outcome and I had to search for something different. Landed more Ops heavy DevOps role, ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4502e639941562d6686288a7de646e8b",
+      "title": "What are the weaknesses of CloudFormation?",
+      "url": "https://www.reddit.com/r/devops/comments/1wdp41o/what_are_the_weaknesses_of_cloudformation/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-11T18:51:12+00:00",
+      "summary": "I have a coworker who wants to use CloudFormation to one-shot an application and infra deployment in AWS. A contractor delivered a monolithic CloudFormation template with ECS clusters, services, RDS, S3, Lambda and API Gateway, and other resources in a single stack. I voiced my concern over the blas",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "98e51c391f1f538b6b8a992b0eb95144",
+      "title": "OpenAI’s safety system is already cutting off API responses mid-task",
+      "url": "https://thenewstack.io/openai-slowing-ai-development/",
+      "source": "The New Stack",
+      "published_at": "2026-09-11T17:52:56+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "37a527cf32df253e9f06aecdd0aac45f",
+      "title": "Kubernetes v1.37 brings 67 enhancements. Which matter for operators?",
+      "url": "https://thenewstack.io/kubecon-kubernetes-updates-security/",
+      "source": "The New Stack",
+      "published_at": "2026-09-11T17:40:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a90acda232dd32a49b37c8eeb8724d85",
+      "title": "langchain-ai/langchain: langchain-core==1.6.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.3",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-11T17:38:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "50a903ddb76cb56d421426e19b57ff16",
+      "title": "Need to know possible outcomes of CI/CD pipeline failures !",
+      "url": "https://www.reddit.com/r/devops/comments/1wdmq7h/need_to_know_possible_outcomes_of_cicd_pipeline/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-11T17:26:30+00:00",
+      "summary": "I'm currently building POMPD CI/CD failure diagnosis agent, which is a probabilistic model of sequential decisions where the true state (e.x , which code is buggy) is hidden and only observed indirectly. . I have very basic understanding of CI/CD pipe line . So i don't really know what are the hidde",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9a86ab998ed784610d8930c655fdb7a5",
+      "title": "Platform Role interview help",
+      "url": "https://www.reddit.com/r/devops/comments/1wdln5k/platform_role_interview_help/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-11T16:47:42+00:00",
+      "summary": "Hi all, I have a entry level platform engineering / SRE interview coming up. I wanted to ask what are some common tips or questions to prepare for?  The role asks for: Foundational knowledge of platform engineering, technology operations, cloud computing, microservices, and enterprise-scale distribu",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e37f90fc9e3664af36f19bf3e1d597fd",
+      "title": "Day 39: Commit Captures the Layer, Not the Recipe, and AccessDenied Is Not Always IAM",
+      "url": "https://dev.to/ndcodes/day-39-commit-captures-the-layer-not-the-recipe-and-accessdenied-is-not-always-iam-n36",
+      "source": "Dev.to",
+      "published_at": "2026-09-11T16:00:00Z",
+      "summary": "Today's two tasks are about things that get left out. docker commit captures a container's filesystem...",
+      "tags": [
+        "devops",
+        "docker",
+        "aws",
+        "s3"
+      ],
       "relevance_score": 0.0
     }
   ]
