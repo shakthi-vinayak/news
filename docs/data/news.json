@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:09:09Z",
+  "generated_at": "2026-09-11T16:24:49Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1212,41 +1212,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e5470ea3504dbe9cb2d915ceb9423db7",
-      "title": "“Sorry for the messy rollout”: OpenAI launched GPT-6 Astra, but developers are locked out",
-      "url": "https://thenewstack.io/gpt6-astra-developer-access-delayed/",
-      "source": "The New Stack",
-      "published_at": "2026-09-04T16:04:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5cb386d08524dc93a0927c4eafd6cc40",
-      "title": "OpenAI will sell you Astra, but not the system that scored 98.6% on ARC-AGI-3",
-      "url": "https://thenewstack.io/openai-astra-harness-arc-agi-3/",
-      "source": "The New Stack",
-      "published_at": "2026-09-04T15:25:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "41e4bc7190da4004ede9448852dee7ac",
       "title": "Investigate DMS migration issues with AWS DevOps Agent",
       "url": "https://aws.amazon.com/blogs/devops/investigate-dms-migration-issues-with-aws-devops-agent/",
       "source": "AWS Blog",
       "published_at": "2026-09-04T18:13:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "eee68e5110c893b9198179642af31635",
-      "title": "AI agent evaluations are part of the product",
-      "url": "https://thenewstack.io/ai-agent-evaluation-gates/",
-      "source": "The New Stack",
-      "published_at": "2026-09-04T14:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1298,21 +1268,6 @@
         "security",
         "devops",
         "architecture"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "06f6854e807418b297f2d0128eca33ef",
-      "title": "🚀 Delivery Practices a Software Team Actually Needs",
-      "url": "https://dev.to/zenika/delivery-practices-a-software-team-actually-needs-57gl",
-      "source": "Dev.to",
-      "published_at": "2026-09-04T14:55:06Z",
-      "summary": "Stop chasing elite labels. The baseline that makes deploys boring — even when you are the whole team.",
-      "tags": [
-        "devops",
-        "programming",
-        "productivity",
-        "cicd"
       ],
       "relevance_score": 0.0
     },
@@ -1487,14 +1442,14 @@
       "url": "https://dev.to/mahirhir/git-commit-with-a-pathspec-ignored-my-index-and-committed-the-file-as-it-sat-on-disk-262g",
       "source": "Dev.to",
       "published_at": "2026-09-05T17:23:59Z",
-      "summary": "Explains a gotcha where git commit with a pathspec bypasses the index, committing the working‑tree version of a file instead of the staged version.",
+      "summary": "Run this in an empty directory. It takes about fifteen seconds and it is the whole article.    $ git...",
       "tags": [
         "git",
         "devops",
         "debugging",
         "testing"
       ],
-      "relevance_score": 0.4
+      "relevance_score": 0.0
     },
     {
       "id": "de1ff25ead96bc441110bc1efd16caff",
@@ -1520,20 +1475,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "9dfcd08deb6701125ba8ae784dcabc2c",
-      "title": "Your Health Check Is Lying to You",
-      "url": "https://dev.to/mickyarun/your-health-check-is-lying-to-you-58cc",
-      "source": "Dev.to",
-      "published_at": "2026-09-04T12:30:27Z",
-      "summary": "Discusses how superficial health checks can give false confidence and suggests deeper validation techniques for services.",
-      "tags": [
-        "SRE",
-        "Observability",
-        "DevOps"
-      ],
-      "relevance_score": 0.7
     },
     {
       "id": "9ce3a8740ba7077fefc27e07a8230c2b",
@@ -1725,21 +1666,6 @@
       "published_at": "2026-09-07T10:57:05+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0aeafca9ae2a866c6ab443f57b15cff6",
-      "title": "Is Anyone Actually Reading Your Abuse Reports?",
-      "url": "https://dev.to/abdullah_afzal/is-anyone-actually-reading-your-abuse-reports-hgg",
-      "source": "Dev.to",
-      "published_at": "2026-09-04T11:18:01Z",
-      "summary": "Somewhere on a hosting provider's /24, a scanner is working through port 22. It fails on one address,...",
-      "tags": [
-        "security",
-        "networking",
-        "devops",
-        "sysadmin"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2890,21 +2816,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7adc8c890c88f8e57870a936863ec839",
-      "title": "Putting GitHub Actions runners on your private network with NetBird",
-      "url": "https://dev.to/ankurk91/putting-github-actions-runners-on-your-private-network-with-netbird-3hcg",
-      "source": "Dev.to",
-      "published_at": "2026-09-04T11:05:45Z",
-      "summary": "A GitHub Action that joins an Ubuntu runner to your NetBird network with a setup key, so CI can reach private services without opening a firewall.",
-      "tags": [
-        "githubactions",
-        "devops",
-        "networking",
-        "ci"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "cc69dffbc2398d32831192474a9b5f54",
       "title": "OpenAI split a voice model’s brain. Then one team deleted 23,000 lines of code.",
       "url": "https://thenewstack.io/gpt-live-1-voice-api/",
@@ -3060,12 +2971,14 @@
       "url": "https://dev.to/tienbku/api-security-best-practices-every-developer-should-know-29gk",
       "source": "Dev.to",
       "published_at": "2026-09-11T02:51:06Z",
-      "summary": "Outlines essential API security practices such as authentication, input validation, rate limiting, and logging to protect services in production.",
+      "summary": "APIs are the backbone of modern software. They power mobile apps, connect microservices, expose data...",
       "tags": [
-        "Security",
-        "DevOps"
+        "webdev",
+        "security",
+        "devops",
+        "systemdesign"
       ],
-      "relevance_score": 0.7
+      "relevance_score": 0.0
     },
     {
       "id": "00566703d4f0c6723f17e351aa41d95f",
@@ -3170,6 +3083,46 @@
         "aws",
         "containers"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0b12f34d621d15ea50d783d9f953eb5e",
+      "title": "Is Devops taken over by AI",
+      "url": "https://www.reddit.com/r/devops/comments/1wdhbub/is_devops_taken_over_by_ai/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-11T14:07:42+00:00",
+      "summary": "I'm a junior DevOps engineer and I work in a project where we manage their kubernetes cluster and Linux servers configuration with ansible and provisioning with terraform but the thing is they have way too many ticket and they want it all done asap, for which they demand using AI to get things done ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "33b4d11a5162132f5d6dfd876b167120",
+      "title": "How AWS Lambda logs every flow across thousands of microVMs per host with eBPF and Rust",
+      "url": "https://thenewstack.io/aws-lambda-ebpf-rust/",
+      "source": "The New Stack",
+      "published_at": "2026-09-11T12:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "27843acb05d4ee37cf4b5072a103d865",
+      "title": "What would you choose for a small startup production deployment?",
+      "url": "https://www.reddit.com/r/devops/comments/1wdcd5y/what_would_you_choose_for_a_small_startup/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-11T10:27:34+00:00",
+      "summary": "We're preparing to deploy a house-rental application to production. It has a lot of property images, and we're trying to keep the infrastructure secure, cost-effective, and easy to maintain. We're considering Docker, Kubernetes, Terraform, Prometheus/Grafana, and GitHub Actions. For those who have w",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e4120a509dc8735ea103a088799db32c",
+      "title": "Startup production architecture: managed Kubernetes vs simpler alternatives?",
+      "url": "https://www.reddit.com/r/devops/comments/1wdby8y/startup_production_architecture_managed/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-11T10:05:13+00:00",
+      "summary": "I'm working on the production deployment architecture for a small startup house-rental application and would appreciate some real-world feedback. The application has frontend and backend services, and one major requirement is handling a large number of property images. The stack we're currently cons",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
