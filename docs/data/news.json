@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T20:31:43Z",
+  "generated_at": "2026-09-12T23:57:49Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -2179,16 +2179,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "871ec331cb1af77a019bb2d8daffb6b9",
-      "title": "Seeking advice on traffic mirroring",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1w8bzls/seeking_advice_on_traffic_mirroring/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-05T20:43:40+00:00",
-      "summary": "Hi everyone, I'm running kubernetes on AWS and using istio for traffic mirroring. I'm trying to figure out the best way to correlate the original request with its mirrored request. Previously I had a gateway for traffic mirroring which stamped unique header value before splitting. Which made it easy",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c0c4ff141b30d4aa4df753ba247da83f",
       "title": "GitHub Workflows Strain Under AI Agent Development",
       "url": "https://devops.com/github-workflows-strain-under-ai-agent-development/",
@@ -3225,6 +3215,31 @@
         "docker",
         "opensource",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5e4a2858efc9d2e93dc887b6b71c9b7a",
+      "title": "Sandboxes for agent compared end-to-end",
+      "url": "https://www.reddit.com/r/devops/comments/1wer6lr/sandboxes_for_agent_compared_endtoend/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-12T23:09:51+00:00",
+      "summary": "&#x200b; If you’re building agents, you’ll probably need to give them a computer at some point. A lot of what agents do today involves CLI tools, skills, Bash, and a filesystem, especially when the work gets more complex. I wrote an article comparing sandbox options like E2B, Vercel, and cloud-nativ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2dfe0e344f64e65defb6fbd72402bb5c",
+      "title": "How Seed4J Validates Compatibility",
+      "url": "https://dev.to/renanfranca/how-seed4j-validates-compatibility-2pdo",
+      "source": "Dev.to",
+      "published_at": "2026-09-12T19:44:29Z",
+      "summary": "How Seed4J uses Renovate, GitHub Actions, and 25 generated project configurations to validate compatibility across modern technology stacks.",
+      "tags": [
+        "opensource",
+        "githubactions",
+        "devops",
+        "security"
       ],
       "relevance_score": 0.0
     }
