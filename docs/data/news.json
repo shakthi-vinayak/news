@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T07:08:53Z",
+  "generated_at": "2026-09-12T12:09:56Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,16 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1fe5a8c1e0e55b78f4a269a3a3e7c0a1",
-      "title": "AZURE KEYVAULT KEY DEPLOYMENT ERROR 400 BAD REQUEST",
-      "url": "https://www.reddit.com/r/devops/comments/1w7vw8y/azure_keyvault_key_deployment_error_400_bad/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-05T09:21:14+00:00",
-      "summary": "Azure Key Vault Key Deployment – 400 Bad Request If you’re receiving a vague 400 Bad Request while deploying a key in Azure Key Vault, check how many tags you’re passing to the key. Azure Key Vault keys support a maximum of 15 tags. I spent almost three hours on Friday evening troubleshooting permis",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a4e515c2dc9a56abb38b9d61e30bc427",
       "title": "Detailed guide: Building a 3-node Kubernetes homelab with Talos Linux",
       "url": "https://www.reddit.com/r/devops/comments/1w82naw/detailed_guide_building_a_3node_kubernetes/",
@@ -2105,7 +2095,7 @@
       "url": "https://dev.to/joojodontoh/your-crossplane-may-be-sleeping-1295",
       "source": "Dev.to",
       "published_at": "2026-09-09T09:42:41Z",
-      "summary": "TL;DR   I came up with a two-cluster Crossplane lab to test experiment that hopes to show...",
+      "summary": "TL;DR   A small lab with two Kubernetes clusters. Crossplane is installed in one (the...",
       "tags": [
         "devops",
         "infrastructure",
@@ -3205,6 +3195,31 @@
         "devops",
         "cicd",
         "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e298f9d6a53a379a107a514192cbe21a",
+      "title": "Jacob Coxon warns AI could kill us all. Anthropic’s own report exposes safety gaps.",
+      "url": "https://thenewstack.io/coxon-anthropic-ai-monitoring-failures/",
+      "source": "The New Stack",
+      "published_at": "2026-09-12T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "157134af040ba5305f08e5a234cd8191",
+      "title": "Bun 1.4's Rust rewrite cuts script startup time from 10.5ms to 4.2ms",
+      "url": "https://dev.to/alexgeorgiev17/bun-14s-rust-rewrite-cuts-script-startup-time-from-105ms-to-42ms-2je0",
+      "source": "Dev.to",
+      "published_at": "2026-09-12T08:00:00Z",
+      "summary": "I measured Bun 1.4's Rust runtime against 1.3.14: startup dropped 60%, idle memory 46%, but idle CPU only fell 2.5x against a claimed 5x, and invoking Bun as a node symlink silently stops loading .env files.",
+      "tags": [
+        "node",
+        "performance",
+        "devops",
+        "javascript"
       ],
       "relevance_score": 0.0
     }
