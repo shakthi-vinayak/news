@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:09:56Z",
+  "generated_at": "2026-09-12T16:58:34Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,51 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a4e515c2dc9a56abb38b9d61e30bc427",
-      "title": "Detailed guide: Building a 3-node Kubernetes homelab with Talos Linux",
-      "url": "https://www.reddit.com/r/devops/comments/1w82naw/detailed_guide_building_a_3node_kubernetes/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-05T14:45:11+00:00",
-      "summary": "      A few days ago, I posted my 3-node Talos Kubernetes homelab setup here, and quite a few people reached out through DMs and comments asking for a detailed installation guide. So I went through the entire setup again from scratch and documented the process properly, including the network setup, ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "619ef996c16a726d88440e6a84b63080",
-      "title": "Building trust in agentic RAG starts with evidence",
-      "url": "https://thenewstack.io/building-trust-agentic-rag/",
-      "source": "The New Stack",
-      "published_at": "2026-09-05T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6eb07c27d126a38c5ce5ef78ce261e4e",
-      "title": "Claude Fable 5.1 vs. Fable 5: On real work, I couldn’t tell them apart.",
-      "url": "https://thenewstack.io/claude-fable-upgrade-tested/",
-      "source": "The New Stack",
-      "published_at": "2026-09-05T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7308e19b114bc6f02dc611b03f28d36",
-      "title": "Deploy to EC2 from GitHub Actions without opening port 22",
-      "url": "https://dev.to/ankurk91/deploy-to-ec2-from-github-actions-without-opening-port-22-5269",
-      "source": "Dev.to",
-      "published_at": "2026-09-05T11:02:47Z",
-      "summary": "Use AWS SSM Run Command instead of SSH in your CI/CD pipeline. No inbound port 22, no long-lived private key in your repo secrets.",
-      "tags": [
-        "aws",
-        "githubactions",
-        "devops",
-        "cicd"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b30c6971261d99e0e961549ad7270ba9",
       "title": "Your average latency is lying to you: p90, p95 and p99 explained",
       "url": "https://dev.to/lovestaco/your-average-latency-is-lying-to-you-p90-p95-and-p99-explained-48b",
@@ -2279,16 +2234,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3b98d25382949e522a6802a3eb4dd80f",
-      "title": "Built a 3-node Kubernetes homelab with Talos Linux",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1w82gl6/built_a_3node_kubernetes_homelab_with_talos_linux/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-05T14:37:47+00:00",
-      "summary": "      I recently set up a 3-node Kubernetes homelab on bare metal (on Dell OptiPlex) using Talos Linux, mainly to have a proper environment for learning, testing failures, networking, storage, GitOps, observability, and general Kubernetes experiments. The setup uses three control-plane/etcd nodes wi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c0c4ff141b30d4aa4df753ba247da83f",
       "title": "GitHub Workflows Strain Under AI Agent Development",
       "url": "https://devops.com/github-workflows-strain-under-ai-agent-development/",
@@ -3220,6 +3165,91 @@
         "performance",
         "devops",
         "javascript"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3d1b2680b16777c2ac8d3ffba9d9fbff",
+      "title": "My benchmark harness was wrong fourteen ways before it measured anything",
+      "url": "https://dev.to/remdore/my-benchmark-harness-was-wrong-fourteen-ways-before-it-measured-anything-1o6h",
+      "source": "Dev.to",
+      "published_at": "2026-09-12T14:48:33Z",
+      "summary": "I built a harness to measure whether reverse proxies buffer Server-Sent Events. The results are in...",
+      "tags": [
+        "devops",
+        "python",
+        "performance",
+        "testing"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "590b58f8eaefb39c58d92a37e5e208fd",
+      "title": "“Same mission, bigger stage”: OpenAI hires Git AI founders to help Codex prove its ROI",
+      "url": "https://thenewstack.io/openai-hires-git-ai/",
+      "source": "The New Stack",
+      "published_at": "2026-09-12T14:46:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a8555b01e3f9739327686af993924f85",
+      "title": "I gave Claude Code a team. Then I caught it grading its own homework.",
+      "url": "https://dev.to/_vjk/i-gave-claude-code-a-team-then-i-caught-it-grading-its-own-homework-5f8i",
+      "source": "Dev.to",
+      "published_at": "2026-09-11T20:44:19Z",
+      "summary": "An AI team that never gets tired also never gets embarrassed. What three months of running an AI orchestra on a production codebase actually taught me.",
+      "tags": [
+        "ai",
+        "claude",
+        "devops",
+        "productivity"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fb63167ab5643b5454d7b26fdf451f93",
+      "title": "One Passing Agent Run Is Not a Release Signal",
+      "url": "https://dev.to/raju_dandigam/one-passing-agent-run-is-not-a-release-signal-ao5",
+      "source": "Dev.to",
+      "published_at": "2026-09-11T18:58:48Z",
+      "summary": "I can make almost any agent change look good with one carefully chosen prompt.  Run it once. Watch...",
+      "tags": [
+        "ai",
+        "testing",
+        "devops",
+        "typescript"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "13f0b0e5c998356323af1fce4cebe57a",
+      "title": "My end-to-end test wrote three blocks into the append-only log it was testing",
+      "url": "https://dev.to/mahirhir/my-end-to-end-test-wrote-three-blocks-into-the-append-only-log-it-was-testing-1jog",
+      "source": "Dev.to",
+      "published_at": "2026-09-05T17:22:32Z",
+      "summary": "There are three entries in my project's record of what its owner said that the owner never said.    $...",
+      "tags": [
+        "testing",
+        "wsl",
+        "devops",
+        "debugging"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b06616944f40ac9ce660e4a2878f5378",
+      "title": "A control named COVERAGE printed 4/4 at fourteen commits. The 4 was how many things it counts.",
+      "url": "https://dev.to/mahirhir/a-control-named-coverage-printed-44-at-fourteen-commits-the-4-was-how-many-things-it-counts-52bc",
+      "source": "Dev.to",
+      "published_at": "2026-09-05T17:21:20Z",
+      "summary": "On 2026-09-05 I grepped the file my own build writes its verdicts into. One line per control per...",
+      "tags": [
+        "testing",
+        "devops",
+        "rust",
+        "debugging"
       ],
       "relevance_score": 0.0
     }
