@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:58:34Z",
+  "generated_at": "2026-09-12T20:31:43Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1229,51 +1229,6 @@
       "published_at": "2026-09-04T18:30:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b30c6971261d99e0e961549ad7270ba9",
-      "title": "Your average latency is lying to you: p90, p95 and p99 explained",
-      "url": "https://dev.to/lovestaco/your-average-latency-is-lying-to-you-p90-p95-and-p99-explained-48b",
-      "source": "Dev.to",
-      "published_at": "2026-09-05T18:06:18Z",
-      "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
-      "tags": [
-        "performance",
-        "webdev",
-        "architecture",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9cb5dd21ec461e62efe878189fda2117",
-      "title": "git commit with a pathspec ignored my index and committed the file as it sat on disk",
-      "url": "https://dev.to/mahirhir/git-commit-with-a-pathspec-ignored-my-index-and-committed-the-file-as-it-sat-on-disk-262g",
-      "source": "Dev.to",
-      "published_at": "2026-09-05T17:23:59Z",
-      "summary": "Run this in an empty directory. It takes about fifteen seconds and it is the whole article.    $ git...",
-      "tags": [
-        "git",
-        "devops",
-        "debugging",
-        "testing"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "de1ff25ead96bc441110bc1efd16caff",
-      "title": "A red I expected hid an instrument that was reading an empty directory",
-      "url": "https://dev.to/mahirhir/a-red-i-expected-hid-an-instrument-that-was-reading-an-empty-directory-2ph8",
-      "source": "Dev.to",
-      "published_at": "2026-09-05T17:23:23Z",
-      "summary": "One row in my project's coverage table read 0/13. Later it read 0/19. It read a zero at every commit...",
-      "tags": [
-        "testing",
-        "rust",
-        "debugging",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3224,32 +3179,52 @@
       "relevance_score": 0.0
     },
     {
-      "id": "13f0b0e5c998356323af1fce4cebe57a",
-      "title": "My end-to-end test wrote three blocks into the append-only log it was testing",
-      "url": "https://dev.to/mahirhir/my-end-to-end-test-wrote-three-blocks-into-the-append-only-log-it-was-testing-1jog",
+      "id": "656349b568af9e373ce07ca6b354d18f",
+      "title": "I pointed a real Claude Code session at my SSH key. It tried seven routes, the kernel refused 145 times.",
+      "url": "https://www.reddit.com/r/devops/comments/1weg6ux/i_pointed_a_real_claude_code_session_at_my_ssh/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-12T15:54:52+00:00",
+      "summary": "      &#32; submitted by &#32;  /u/Adarsh1176   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "064d67d7194457123552e365a3c1a8a3",
+      "title": "I measured two GitHub Actions scanners against 80 hand-labelled workflows. Neither result is what you want.",
+      "url": "https://www.reddit.com/r/devops/comments/1wefl0e/i_measured_two_github_actions_scanners_against_80/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-12T15:29:50+00:00",
+      "summary": "If you have an AI agent step in a GitHub Actions workflow - Claude Code, Gemini CLI, an inference action - it probably reads text a stranger wrote. An issue body, a PR title, a comment. If that job also holds contents: write, that is a path from someone else's keyboard to a token that can change you",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "66a8e88c03e7f714c4fb0a2cffa64265",
+      "title": "nginx streams your tokens fine. HAProxy holds them for 206ms.",
+      "url": "https://dev.to/remdore/nginx-streams-your-tokens-fine-haproxy-holds-them-for-206ms-10p2",
       "source": "Dev.to",
-      "published_at": "2026-09-05T17:22:32Z",
-      "summary": "There are three entries in my project's record of what its owner said that the owner never said.    $...",
+      "published_at": "2026-09-12T14:40:55Z",
+      "summary": "The advice is everywhere: if you are streaming Server-Sent Events through nginx, turn off...",
       "tags": [
-        "testing",
-        "wsl",
         "devops",
-        "debugging"
+        "performance",
+        "nginx",
+        "ai"
       ],
       "relevance_score": 0.0
     },
     {
-      "id": "b06616944f40ac9ce660e4a2878f5378",
-      "title": "A control named COVERAGE printed 4/4 at fourteen commits. The 4 was how many things it counts.",
-      "url": "https://dev.to/mahirhir/a-control-named-coverage-printed-44-at-fourteen-commits-the-4-was-how-many-things-it-counts-52bc",
+      "id": "d95161d757ff895862876cd9264a969c",
+      "title": "I wanted a system-design lab that could prove me wrong",
+      "url": "https://dev.to/othmanez05/i-wanted-a-system-design-lab-that-could-prove-me-wrong-5540",
       "source": "Dev.to",
-      "published_at": "2026-09-05T17:21:20Z",
-      "summary": "On 2026-09-05 I grepped the file my own build writes its verdicts into. One line per control per...",
+      "published_at": "2026-09-12T12:57:23Z",
+      "summary": "When I practice system design, the part that has always felt a little unsatisfying is that the...",
       "tags": [
-        "testing",
-        "devops",
-        "rust",
-        "debugging"
+        "showdev",
+        "docker",
+        "opensource",
+        "devops"
       ],
       "relevance_score": 0.0
     }
