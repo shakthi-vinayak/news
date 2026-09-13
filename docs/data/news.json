@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T16:10:19Z",
+  "generated_at": "2026-09-13T20:43:22Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,53 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0624cc113cd896825a0f892588346d63",
-      "title": "What is the dumbest AWS security mistake you've actually found in the wild?",
-      "url": "https://www.reddit.com/r/devops/comments/1w937x1/what_is_the_dumbest_aws_security_mistake_youve/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-06T17:59:09+00:00",
-      "summary": "Not the theoretical stuff from a security checklist. I mean the kind of thing where you look at an AWS account and think: I'm building an open-source AWS security scanner and I've started realizing that the interesting part isn't just how many checks a scanner has. !!! It's whether those checks actu",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a17da6349634f72b6ca03fb2c1063335",
-      "title": "Is platform engineering a good field?",
-      "url": "https://www.reddit.com/r/devops/comments/1w95u75/is_platform_engineering_a_good_field/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-06T19:34:50+00:00",
-      "summary": "I love programming and technology. I wanted to pursue a path related to Linux and building system architectures. Is platform engineering a good and suitable field for this?  &#32; submitted by &#32;  /u/ez3uio   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a28072efa31666f7236a9c700b56aef0",
-      "title": "Anyone working DevOps as part-time or contractor ?",
-      "url": "https://www.reddit.com/r/devops/comments/1w957wl/anyone_working_devops_as_parttime_or_contractor/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-06T19:12:00+00:00",
-      "summary": "Query about part‑time or contract DevOps work opportunities, seeking experiences and market viability.",
-      "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.6
-    },
-    {
-      "id": "dbccfe0b0d59fbefc50724c952920d2e",
-      "title": "Your zero-downtime deploy is probably fine. Check your p99 before you believe it.",
-      "url": "https://dev.to/remdore/your-zero-downtime-deploy-is-probably-fine-check-your-p99-before-you-believe-it-46g2",
-      "source": "Dev.to",
-      "published_at": "2026-09-06T19:07:07Z",
-      "summary": "I went looking for dropped requests during a rolling restart and found something more annoying than...",
-      "tags": [
-        "devops",
-        "docker",
-        "nginx",
-        "webdev"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f170d6262e01e72cf8a06400740de057",
       "title": "“Twenty years of brand building simply froze in time”: How coding agents select their tools of choice",
       "url": "https://thenewstack.io/coding-agents-tool-choice/",
@@ -2080,26 +2033,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-09-06T22:23:30+00:00",
       "summary": "I’m building a home lab to run a 3–4 node Kubernetes cluster using logical nodes (VMs) on a single machine, with the cluster also needing to support AI workloads (local LLM inference, and ideally some room for fine-tuning/training). Looking for recommendations on: **•** A mini PC that can comfortabl",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "99cee4186cc970d1b9aa7fd548faea09",
-      "title": "Why Your AI Agent Sucks at Bash (and How We Built a CLI for LLM-Native DevOps)",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1w934kh/why_your_ai_agent_sucks_at_bash_and_how_we_built/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-06T17:55:41+00:00",
-      "summary": "DevOps is currently experiencing a weird evolutionary bottleneck.  We’ve all tried it: you hook up an LLM (like Claude or GPT) to a terminal, give it raw SSH access or a directory full of Bash scripts, and say: &quot;Deploy my app and set up a Postgres database.&quot; The result is almost always a h",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "930b4af40d3b63962c1b9a75fc2ba4f0",
-      "title": "Kubernetes node-level resource balancing / workload isolation",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1w92xm5/kubernetes_nodelevel_resource_balancing_workload/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-06T17:48:32+00:00",
-      "summary": "Hi Everyone. I’m looking for some advice on handling node-level resource balancing in a Rancher/RKE1 on-prem cluster. The issue I’m facing is that sometimes a pod consumes almost all CPU/RAM on a node. I understand that requests are used by the scheduler, while limits cap the container’s resource us",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3257,6 +3190,21 @@
       "published_at": "2026-09-13T13:36:02+00:00",
       "summary": "I’m a little confused about whether I’m actually growing in my DevOps career or just getting exposed to a lot of different things without developing deep expertise. I have around 1 year of professional DevOps experience and currently work at a mid-sized service-based company in Mumbai. I’m basically",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f12727beb5ddcb3ed3aa08c9d2100e14",
+      "title": "Day 41: EXPOSE Does Not Publish, and a KMS Key Has No Name",
+      "url": "https://dev.to/ndcodes/day-41-expose-does-not-publish-and-a-kms-key-has-no-name-426c",
+      "source": "Dev.to",
+      "published_at": "2026-09-13T07:00:00Z",
+      "summary": "Three things today looked like they did something and did not. A comment at the end of a Dockerfile...",
+      "tags": [
+        "devops",
+        "docker",
+        "aws",
+        "security"
+      ],
       "relevance_score": 0.0
     }
   ]
