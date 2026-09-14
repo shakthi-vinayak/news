@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:03:28Z",
+  "generated_at": "2026-09-14T20:19:08Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,46 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0c9d9c9ca2f949fac41a95dcf5b9dc18",
-      "title": "How many of you are just working with YAML files all day long over actual coding?",
-      "url": "https://www.reddit.com/r/devops/comments/1w9yn0l/how_many_of_you_are_just_working_with_yaml_files/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-07T17:31:57+00:00",
-      "summary": "Be honest. I am going through a Python course and can tell I am not going to use most of it on the actual job. Give me boto3, a for loop, a while loop for pagination, and functions and I am good to go. This changes if using a tool like Pulumi, but there are so few jobs requiring it that I feel it is",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "21316c7c7bafb3af0a1cbb0a294903b1",
-      "title": "OpenAI’s new model costs 2.5x more per token — and developers are saving money anyway",
-      "url": "https://thenewstack.io/astra-reasoning-effort-cost/",
-      "source": "The New Stack",
-      "published_at": "2026-09-07T16:12:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "038f8280ac433f3e6bf21c6d964e407e",
-      "title": "Advice on deploying a 5-microservice stack on a tight student budget",
-      "url": "https://www.reddit.com/r/devops/comments/1w9w9rv/advice_on_deploying_a_5microservice_stack_on_a/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-07T16:05:08+00:00",
-      "summary": "So I've been working on this microservices project ( repo ) for a few months. I have it fully running locally using kind, now I want to learn how to deploy it on AWS or GCP following best practices to get hands on experience and record demo videos for my resume. Here's the stack:   Microservices: 5 ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "77262b7a214d6fa98b487b3482454473",
-      "title": "GitHub scheduled Actions not triggering at all",
-      "url": "https://www.reddit.com/r/devops/comments/1w9v80s/github_scheduled_actions_not_triggering_at_all/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-07T15:26:30+00:00",
-      "summary": "Hello, I’m having an issue with GitHub Actions in one of my private repositories. I have a workflow configured to run daily, but it is not being triggered. I tested the same thing in another repository by configuring a workflow to run every 5 minutes, but same thing happens there as well. has anyone",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ed45172196224a3f2dcdcc95543df4c2",
       "title": "prometheus/prometheus: 3.13.3 / 2026-09-07",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.3",
@@ -1287,16 +1247,6 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.3",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-09-07T10:57:05+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ff50559026ec5e69da44133e1fac9190",
-      "title": "AI agents are creating more work, not less — and OpenAI’s own numbers back it up",
-      "url": "https://thenewstack.io/openai-agent-research-bottleneck/",
-      "source": "The New Stack",
-      "published_at": "2026-09-07T19:05:17+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3306,6 +3256,66 @@
         "docker",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "948a407f5ec4b86b340ee01366262dcf",
+      "title": "prometheus/prometheus: 3.15.0-rc.0 / 2026-09-09",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.0-rc.0",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-09-14T19:17:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "08169a52a0db6958d0492f7ba436caa0",
+      "title": "prometheus/prometheus: v0.315.0-rc.0",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.315.0-rc.0",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-09-14T18:41:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a36ceddd743bda4b9b1331bfc85ac424",
+      "title": "Perplexity’s new agent runs entirely on your GPU — with one expensive catch",
+      "url": "https://thenewstack.io/perplexity-portable-computer-windows/",
+      "source": "The New Stack",
+      "published_at": "2026-09-14T18:21:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4402257f9e947d46838c4ea97fe85390",
+      "title": "ollama/ollama: v0.34.1-rc0: MLX: version bump (#18235)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-14T16:49:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b325e74c4a6c1e7b8c8a2f3d89774bce",
+      "title": "Ten Great DevOps Job Opportunities",
+      "url": "https://devops.com/ten-great-devops-job-opportunities-23/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-14T15:39:36+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "06f1ac0f943d4c69d7ecb5a8c802d3a6",
+      "title": "AI keeps finding security flaws — here’s what to fix first",
+      "url": "https://thenewstack.io/vulnerability-prioritization-business-context/",
+      "source": "The New Stack",
+      "published_at": "2026-09-14T15:20:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
