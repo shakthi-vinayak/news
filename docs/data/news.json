@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T07:53:39Z",
+  "generated_at": "2026-09-14T15:03:28Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,56 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f170d6262e01e72cf8a06400740de057",
-      "title": "“Twenty years of brand building simply froze in time”: How coding agents select their tools of choice",
-      "url": "https://thenewstack.io/coding-agents-tool-choice/",
-      "source": "The New Stack",
-      "published_at": "2026-09-07T12:02:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "978795981da791c4fdc38c3f06a20c83",
-      "title": "prometheus/prometheus: v3.13.3",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.3",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-09-07T10:56:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4fcd7ea383109e24a0a83593a2314b5b",
-      "title": "What are the best workflow orchestration tools in 2026 for production systems?",
-      "url": "https://www.reddit.com/r/devops/comments/1w9nt2j/what_are_the_best_workflow_orchestration_tools_in/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-07T09:52:57+00:00",
-      "summary": "I've been looking at workflow orchestration tools for systems where the workflow itself is becoming a real part of the backend, rather than just scheduling a few jobs. The distinction I'm trying to understand is where people draw the line between something like Airflow/Prefect, Temporal, Step Functi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3fb177f964f5277f873d701f007a6684",
-      "title": "Getting Rejections because I don’t have experience working with Kubernetes in production.",
-      "url": "https://www.reddit.com/r/devops/comments/1w9n60m/getting_rejections_because_i_dont_have_experience/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-07T09:15:29+00:00",
-      "summary": "I’ve given multiple interviews, and almost all of them required Kubernetes experience in production. None of my previous companies used Kubernetes, so what can I do about that? I’m very familiar with Kubernetes, I understand the concepts, and I’ve even implemented them on AKS for learning purposes. ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6ec79435783b97c5902a70a255c98a77",
-      "title": "n8n-io/n8n: n8n@2.38.4",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.38.4",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-07T08:07:48+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "0c9d9c9ca2f949fac41a95dcf5b9dc18",
       "title": "How many of you are just working with YAML files all day long over actual coding?",
       "url": "https://www.reddit.com/r/devops/comments/1w9yn0l/how_many_of_you_are_just_working_with_yaml_files/",
@@ -1337,16 +1287,6 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.3",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-09-07T10:57:05+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f79e3258f2cc5c0c7bc690841f87c883",
-      "title": "prometheus/prometheus: 3.14.0-rc.0 / 2026-08-06",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.14.0-rc.0",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-08-11T11:05:32+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2003,16 +1943,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-09-07T20:48:38+00:00",
       "summary": "I am a new learning of kubernetes and would like to shadow or co-learn with your project.   &#32; submitted by &#32;  /u/Hari_Harish2026   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4fad78e0fd8b32c259c3d106b5ec7063",
-      "title": "A Mental Model for Distributed Compute: Kubernetes, Slurm, Ray, and Spark",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1w9m7zf/a_mental_model_for_distributed_compute_kubernetes/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-07T08:20:22+00:00",
-      "summary": "I’ve been trying to build a cleaner mental model for distributed compute systems instead of learning each framework independently. Kubernetes, Slurm, Ray, and Spark all use different abstractions, but many of the underlying problems are the same: scheduling, resource management, worker execution, st",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3251,6 +3181,131 @@
       "published_at": "2026-09-14T02:07:30+00:00",
       "summary": "Disclosure up top: I maintain the tool this happened in, an open-source agent harness, so this is my own bug. An agent loop with a verification step. Each changed path maps to a test command in a table. After the command runs, a hook reads the tool payload and writes PASS or FAIL to a ledger. Green ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "397c7ca985ec06800c2a6f69359a7264",
+      "title": "prometheus/prometheus: v3.15.0-rc.0",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.0-rc.0",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-09-14T14:56:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aae9abc90d3163438a4d3a03f6f87a47",
+      "title": "apache/airflow: providers-yandex/4.5.2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-yandex%2F4.5.2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-14T14:49:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "90f8128d70c88ec8b7ae1a6760b20533",
+      "title": "apache/airflow: providers-snowflake/6.17.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.17.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-14T14:49:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8da0f9e541c8c4b1649e4d57e195843b",
+      "title": "apache/airflow: providers-standard/1.19.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.19.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-14T14:49:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1a1bc9be8ba2d7539e1eb57f6f8a0895",
+      "title": "apache/airflow: providers-ydb/2.6.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-ydb%2F2.6.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-14T14:49:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "44d543e18fdd7f1ccc9c92c0462f583c",
+      "title": "apache/airflow: providers-teradata/3.6.3",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-teradata%2F3.6.3",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-14T14:49:06+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "712161d77f2a7ec0f0c30fa075ee4d8e",
+      "title": "Feedback needed on the architecture",
+      "url": "https://www.reddit.com/r/devops/comments/1wg5awt/feedback_needed_on_the_architecture/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-14T14:40:28+00:00",
+      "summary": "      https://preview.redd.it/7shglj28zhph1.png?width=1167&amp;format=png&amp;auto=webp&amp;s=a7ecf3291a7ce277c72195384b8ae9b13159c15f Context - Converting our on-prem architecture for a web app used for B2B purposes over to cloud-native azure architecture. Feedback, comments, questions on the archi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2e521eca917cd4d179156dc82d4c4217",
+      "title": "Why an old caching trick is your secret to lower LLM costs",
+      "url": "https://thenewstack.io/llm-response-caching-costs/",
+      "source": "The New Stack",
+      "published_at": "2026-09-14T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "70ad04f5d88059d26f5651e2f31d1776",
+      "title": "Preview environments: from a PR label to teardown",
+      "url": "https://dev.to/devopsdaily/preview-environments-from-a-pr-label-to-teardown-12bo",
+      "source": "Dev.to",
+      "published_at": "2026-09-14T10:24:45Z",
+      "summary": "A preview environment gives reviewers a temporary URL for one pull request. The pattern is easy to...",
+      "tags": [
+        "devops",
+        "kubernetes",
+        "gitops",
+        "github"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "abd46647f8f0aa4cd80fed6f120c37d3",
+      "title": "How to Add a Verification Loop to Your AI Agent in 30 Minutes",
+      "url": "https://dev.to/hackmamba/how-to-add-a-verification-loop-to-your-ai-agent-in-30-minutes-4530",
+      "source": "Dev.to",
+      "published_at": "2026-09-14T09:19:19Z",
+      "summary": "AI agent loops can produce an output, run some checks and move on without establishing that the...",
+      "tags": [
+        "ai",
+        "agents",
+        "agentskills",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c20d687c942e7a334fac0a3a5c3c2270",
+      "title": "A container is just a process with a few private views. I built one in thirty lines.",
+      "url": "https://dev.to/remdore/a-container-is-just-a-process-with-a-few-private-views-i-built-one-in-thirty-lines-26di",
+      "source": "Dev.to",
+      "published_at": "2026-09-14T08:50:00Z",
+      "summary": "There is no container object in the Linux kernel. I built a working container by hand with unshare, pivot_root and a cgroup: PID 1 in its own namespaces, host filesystem gone, and a 20MB memory cap the kernel enforced with a SIGKILL.",
+      "tags": [
+        "linux",
+        "containers",
+        "docker",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
