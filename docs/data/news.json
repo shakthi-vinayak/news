@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:29:28Z",
+  "generated_at": "2026-09-15T18:09:02Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -502,16 +502,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "cb17e662a33d102e60caeed24377e9fd",
-      "title": "Announcing the public beta of Vault Kubernetes key management",
-      "url": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
-      "source": "HashiCorp Blog",
-      "published_at": "2026-07-10T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a8f0d7b71ca6e336c4ebdeb642378faf",
       "title": "Operating AI/ML Workloads on Kubernetes: A Headlamp Plugin for Kubeflow",
       "url": "https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/",
@@ -577,16 +567,6 @@
       "url": "https://www.hashicorp.com/blog/terraform-stacks-explained",
       "source": "HashiCorp Blog",
       "published_at": "2026-07-23T19:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b219155dd8f391a8177f0c9581bed7e7",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI Blog",
-      "published_at": "2026-07-28T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1202,71 +1182,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "19a23d11134a8d58f37c67c30d824404",
-      "title": "China Merchants Bank Wins CNCF End User Case Study Contest for Unifying AI Training and Inference on Kubernetes",
-      "url": "https://www.cncf.io/announcements/2026/09/07/china-merchants-bank-wins-cncf-end-user-case-study-contest-for-unifying-ai-training-and-inference-on-kubernetes/",
-      "source": "CNCF Blog",
-      "published_at": "2026-09-08T01:54:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "113170eac7d9e36eaf8fea6cd0c62e3f",
-      "title": "Ten Great DevOps Job Opportunities",
-      "url": "https://devops.com/ten-great-devops-job-opportunities-22/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-08T14:46:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "14f802666a23afc56d726b4f5a63bd64",
-      "title": "Flux boot strap and agent management",
-      "url": "https://www.reddit.com/r/devops/comments/1wapsff/flux_boot_strap_and_agent_management/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-08T14:21:47+00:00",
-      "summary": "I manage enterprise k8s clusters and use a mono repo strategy to bootstrap a cluster which results in one flux agent per cluster. Currently in the magnitude of several thousand services per cluster. It's structured like this:  Mono repo where the cluster agent is registered. Within that repo. use ki",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "283bb21b79c7cd4145e9418fe7b8cc21",
-      "title": "langchain-ai/langchain: langchain-openai==1.6.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-08T14:20:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c158b8edac07d9034bcb10d5428020d0",
-      "title": "How We Upgraded RabbitMQ to v4 Without Breaking 8M Daily Celery Tasks",
-      "url": "https://dev.to/shtlrs/how-we-upgraded-rabbitmq-to-v4-without-breaking-8m-daily-celery-tasks-3mf5",
-      "source": "Dev.to",
-      "published_at": "2026-09-08T14:00:00Z",
-      "summary": "Upgrading to RabbitMQ v4 threatened to break our entire usage of Celery, more specifically tasks with...",
-      "tags": [
-        "architecture",
-        "backend",
-        "devops",
-        "python"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "55732c2c0ed8d1aab877defe7b9feeb4",
-      "title": "Apica Adds AI Agents and MCP Server to Platform for Managing Telemetry Data",
-      "url": "https://devops.com/apica-adds-ai-agents-and-mcp-server-to-platform-for-managing-telemetry-data/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-08T13:45:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a6ccac96238c17dbb598ceda0f27ec2f",
       "title": "Kubernetes access via an identity provider: Public client, not confidential",
       "url": "https://www.cncf.io/blog/2026/09/08/kubernetes-access-via-an-identity-provider-public-client-not-confidential/",
@@ -1298,51 +1213,6 @@
         "linux",
         "claudecode",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "119f9108c9e65abcb1067c1ac46eb794",
-      "title": "Why I started piping CLI outputs into a local SQLite memory daemon for AI agents",
-      "url": "https://www.reddit.com/r/devops/comments/1wauccw/why_i_started_piping_cli_outputs_into_a_local/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-08T17:06:52+00:00",
-      "summary": "I got tired of manually copying codebase context and raw execution logs into my AI agents. Since my entire workflow lives inside the Linux terminal, I decided to treat the memory layer as a native CLI tool that accepts standard input. Whenever I run a heavy test suite or inspect code changes, I just",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7ba305e6537c235c9495844918e0bc40",
-      "title": "OpenTofu in real-world practice?",
-      "url": "https://www.reddit.com/r/devops/comments/1watzsz/opentofu_in_realworld_practice/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-08T16:54:48+00:00",
-      "summary": "If you're actively employed in DevOps work involving IaC or are a leader or senior techie overseeing such work, do you use OpenTofu or seriously considered using it among your tools set? If no and you're not using Terraform or a cloud provider's first-class IaC tool (like AWS CloudFormation or Azure",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f90fc36e79ae35397df02455dbf119e4",
-      "title": "How are you handling API keys for MCP servers?",
-      "url": "https://www.reddit.com/r/devops/comments/1watudy/how_are_you_handling_api_keys_for_mcp_servers/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-08T16:49:26+00:00",
-      "summary": "When I first looked into wiring external tools to an LLM through an MCP server, I'd simply put the API keys in environment variables and let the agent call whatever it needed. That's what I'd normally do for a normal backend service. I read around it, and what I had not thought about is that a backe",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7aa784241ce8ed75a4a126c809d5b38",
-      "title": "This Is How I Built a Self-Healing CI Pipeline With Agents!",
-      "url": "https://dev.to/pavanbelagatti/this-is-how-i-built-a-self-healing-ci-pipeline-with-agentic-ai-51ec",
-      "source": "Dev.to",
-      "published_at": "2026-09-08T16:35:12Z",
-      "summary": "TL;DR: A failed CI build is often not just a failed CI build. It is a developer opening logs,...",
-      "tags": [
-        "ai",
-        "tutorial",
-        "devops",
-        "software"
       ],
       "relevance_score": 0.0
     },
@@ -1434,21 +1304,6 @@
       "published_at": "2026-09-09T00:45:53+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "15cee6ac731d463c8bd24de71fd141c2",
-      "title": "Docker Compose has init containers now. Here's what I deleted.",
-      "url": "https://dev.to/remdore/compose-has-init-containers-now-heres-what-i-deleted-903",
-      "source": "Dev.to",
-      "published_at": "2026-09-08T11:52:11Z",
-      "summary": "Docker Compose 5.3 added pre_start steps: run migrations and seeds in throwaway containers before the service starts, with no one-off services and no depends_on chain. I tested reruns, failure, scaling, and found one thing I don't like.",
-      "tags": [
-        "docker",
-        "devops",
-        "postgres",
-        "node"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2531,21 +2386,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "013fdc2e19df1f484f28ec6d34665375",
-      "title": "🔐 A WireGuard GitHub Action That Actually Tells You When the Tunnel Is Dead",
-      "url": "https://dev.to/ankurk91/a-wireguard-github-action-that-actually-tells-you-when-the-tunnel-is-dead-3edd",
-      "source": "Dev.to",
-      "published_at": "2026-09-08T15:18:39Z",
-      "summary": "Put your CI runner on your private network for the length of a job — with a real tunnel health check, automatic teardown, and zero dependencies.",
-      "tags": [
-        "github",
-        "devops",
-        "cicd",
-        "security"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e298f9d6a53a379a107a514192cbe21a",
       "title": "Jacob Coxon warns AI could kill us all. Anthropic’s own report exposes safety gaps.",
       "url": "https://thenewstack.io/coxon-anthropic-ai-monitoring-failures/",
@@ -3259,6 +3099,76 @@
         "devops",
         "node"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "44a88a3586c3803cd3ea661d83f799e6",
+      "title": "Agents operate, humans govern: Scale your operations and reduce toil with Azure SRE Agent",
+      "url": "https://thenewstack.io/azure-sre-agent-operations/",
+      "source": "The New Stack",
+      "published_at": "2026-09-15T16:21:45+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c33e18b2c9dd5b7d65dd35a069040b2b",
+      "title": "Simplifying Terraform for IBM Z with intent-driven workflows",
+      "url": "https://www.hashicorp.com/blog/simplifying-terraform-for-ibm-z-with-intent-driven-workflows",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-09-15T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c8a593ce0c569abc48fa0350c4e4f6a0",
+      "title": "Devops avant l'avènement de l'IA et maintenant",
+      "url": "https://www.reddit.com/r/devops/comments/1wh2eze/devops_avant_lavènement_de_lia_et_maintenant/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-15T14:46:04+00:00",
+      "summary": "Avant je faisais du devops, je chassais les déploiements ratés, les helm upgrade qui foirait, les ingress capricieux, les scalings infinis. Maintenant je chasse les conneries des devs qui font du devops avec l'IA et qui sont pas prêts pour ce métier 😬 Vérifiez ce que fait l'IA pitié 🙏  &#32; submitt",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8b586ada7fd09df1677c96cb735a42c5",
+      "title": "Tigris marks every read with the region and cache layer that actually served it",
+      "url": "https://dev.to/alexgeorgiev17/tigris-marks-every-read-with-the-region-and-cache-layer-that-actually-served-it-28p",
+      "source": "Dev.to",
+      "published_at": "2026-09-15T13:00:00Z",
+      "summary": "Every GET on a Tigris bucket returns X-Tigris-Served-From and X-Tigris-Read-Source headers naming the exact region and cache layer that answered it. I tested that, region pinning, and what happens when you try to enable S3 versioning.",
+      "tags": [
+        "storage",
+        "s3",
+        "cloud",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1eadfa10a674e798b80940a924097909",
+      "title": "My pipeline recorded 0 of 15 into an append-only file before anyone read why. The real answer was 9.",
+      "url": "https://dev.to/mahirhir/my-pipeline-recorded-0-of-15-into-an-append-only-file-before-anyone-read-why-the-real-answer-was-9-1f27",
+      "source": "Dev.to",
+      "published_at": "2026-09-14T14:32:30Z",
+      "summary": "The release boundary for this project is ten declared steps. Two of them are next to each other and...",
+      "tags": [
+        "devops",
+        "programming",
+        "testing",
+        "architecture"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a384990d25633cb45c8f6cb058ee6fbf",
+      "title": "Introducing HCP Terraform Metrics: operational visibility at scale",
+      "url": "https://www.hashicorp.com/blog/introducing-hcp-terraform-metrics-operational-visibility-at-scale",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-09-03T18:00:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
