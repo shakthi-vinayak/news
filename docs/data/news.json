@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-15T07:39:30Z",
+  "generated_at": "2026-09-15T13:29:28Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-11T08:07:35+00:00",
+      "published_at": "2026-09-15T10:28:19+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -16,7 +16,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-14T07:38:46+00:00",
+      "published_at": "2026-09-15T10:15:41+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1092,16 +1092,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "85369c39a434e7f21e03b80eb0d818c5",
-      "title": "grafana/grafana: 13.2.1",
-      "url": "https://github.com/grafana/grafana/releases/tag/v13.2.1",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-09-02T07:05:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a374aa262d9a07ef171eb4f08737d25c",
       "title": "Building Reproducible AI Evaluation Workflows with Docker Sandboxes",
       "url": "https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-docker-sandboxes/",
@@ -1222,56 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d293777e71cb283e8f4808de696c6281",
-      "title": "You Don't Need Kubernetes to Become a DevOps Engineer: The Learning Path I Wish I Had",
-      "url": "https://dev.to/arbythecoder/you-dont-need-kubernetes-to-become-a-devops-engineer-the-learning-path-i-wish-i-had-3gh7",
-      "source": "Dev.to",
-      "published_at": "2026-09-08T10:09:47Z",
-      "summary": "There is a specific kind of imposter syndrome that shows up early in a DevOps career. It usually...",
-      "tags": [
-        "beginners",
-        "devops",
-        "cloud",
-        "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "46eb51f1f222008c3b7cfac825b599ea",
-      "title": "Kubernetes can resize your pod without a restart. Your app might not notice.",
-      "url": "https://dev.to/remdore/kubernetes-can-resize-your-pod-without-a-restart-your-app-might-not-notice-2a7c",
-      "source": "Dev.to",
-      "published_at": "2026-09-08T09:00:10Z",
-      "summary": "In-place pod resize is GA. I resized CPU and memory on running Node and Java pods and watched what the process inside actually saw. CPU: fine. Memory: the JVM kept its old heap and died with 2 GiB spare.",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "node",
-        "java"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "889a0b73fa0373f76bb91fdb21a4315f",
-      "title": "n8n-io/n8n: n8n@2.39.0",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.0",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-08T08:29:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6d6150056ba09d50648fb7c48fa34f7e",
-      "title": "Anyone else getting AI plugin FOMO, or are they actually just overrated? (DevOps perspective)",
-      "url": "https://www.reddit.com/r/devops/comments/1wai2ve/anyone_else_getting_ai_plugin_fomo_or_are_they/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-08T08:02:01+00:00",
-      "summary": "Hey everyone, I keep seeing tons of posts endorsing all these new AI skills, extensions, and plugins like they’re absolutely mandatory if you want to keep up. It definitely gives me a bit of FOMO, but whenever I look into them, I just don't get the hype. As a DevOps engineer, it feels like 99% of th",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "113170eac7d9e36eaf8fea6cd0c62e3f",
       "title": "Ten Great DevOps Job Opportunities",
       "url": "https://devops.com/ten-great-devops-job-opportunities-22/",
@@ -1323,49 +1263,6 @@
       "source": "DevOps.com",
       "published_at": "2026-09-08T13:45:32+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9e154dab27cc6a183424d60124486c9a",
-      "title": "After nine years as HashiCorp CEO, Dave McJannet now wants to “unblock” enterprise AI agents",
-      "url": "https://thenewstack.io/hashicorp-mcjannet-dome-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-09-08T12:59:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1b0e336857a883134b8b7ca684472e00",
-      "title": "Reflectiz Launches Agentic Pentesting for Websites: Up to 10x Coverage vs Conventional Pentests",
-      "url": "https://devops.com/reflectiz-launches-agentic-pentesting-for-websites-up-to-10x-coverage-vs-conventional-pentests/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-08T12:43:23+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7b2f4fd9e4bc61818320b50d48b091b8",
-      "title": "Compose has init containers now. Here's what I deleted.",
-      "url": "https://dev.to/remdore/compose-has-init-containers-now-heres-what-i-deleted-903",
-      "source": "Dev.to",
-      "published_at": "2026-09-08T11:52:11Z",
-      "summary": "Explores Docker Compose's new init container support and how it simplifies dependency management in local development.",
-      "tags": [
-        "Containers",
-        "DevOps"
-      ],
-      "relevance_score": 0.85
-    },
-    {
-      "id": "c6c8205cdd8ee616e32d1ad137271673",
-      "title": "I stress tested Cloudflare R2. 55Gbps read, 36Gbps write (simultaneous), a real contender for zero-egress object storage.",
-      "url": "https://www.reddit.com/r/devops/comments/1wam3rm/i_stress_tested_cloudflare_r2_55gbps_read_36gbps/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-08T11:45:47+00:00",
-      "summary": "      I stress tested Cloudflare R2 from a Latitude.sh bare metal box with a 100G NIC. Results were very impressive.  Btw I am not Cloudflare, nor do I work for them, nor was I paid to say this. We use Cloudflare heavily at our own company, and so I thought this sub might find this content interesti",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1718,26 +1615,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-09-08T21:14:14+00:00",
       "summary": "I have a requirement to deploy and remotely manage a large fleet of Kubernetes clusters across multiple edge sites, with minimal operational effort required at each site. All sites run the same constant workload with HA. Im currently evaluating this options:  1- AKS Edge Essentials + Arc/Flux, 2- RK",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "de37fd88b532750eed33eab0e481e3a2",
-      "title": "K8s Learning Partner",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wanlgh/k8s_learning_partner/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-08T12:53:08+00:00",
-      "summary": "I am looking for a k8s Learning buddy preferably female.  Little bit of background and context: I am a CSE grad from a reputed pribate university in Bangladesh. Currently employed in private company (ITES). I have been practicing DevOps for more than 2 years on my own. Learned Docker, Kunernetes etc",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5ec129c2056e606b52cdb10b458d0ff5",
-      "title": "Weekly: Questions and advice",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wak2lf/weekly_questions_and_advice/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-08T10:00:07+00:00",
-      "summary": "Have any questions about Kubernetes, related tooling, or how to adopt or use Kubernetes? Ask away!  &#32; submitted by &#32;  /u/AutoModerator   [link] &#32; [comments]",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2928,7 +2805,7 @@
       "title": "n8n-io/n8n: n8n@2.39.5",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.5",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-14T07:40:53+00:00",
+      "published_at": "2026-09-15T10:28:17+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3307,6 +3184,81 @@
       "published_at": "2026-09-15T05:08:21+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e3eab2c4571dfc164d2ff2a2161dc79b",
+      "title": "Kubernetes 1.36 restores a lost guarantee for database backups",
+      "url": "https://thenewstack.io/kubernetes-volume-group-snapshots/",
+      "source": "The New Stack",
+      "published_at": "2026-09-15T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b9b7d29ec50bb919a34f17c7648c3aac",
+      "title": "grafana/grafana: 13.2.2",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.2.2",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-09-15T12:42:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "691c6ef8d05c4bf55f68637ac761ab07",
+      "title": "grafana/grafana: 12.4.11",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.11",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-09-15T12:36:36+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7b31d5c7b185183113edcf6d4e60c577",
+      "title": "Stop Chasing 100% Test Coverage: Why DevOps Teams Need to Test Smarter, Not More",
+      "url": "https://devops.com/stop-chasing-100-test-coverage-why-devops-teams-need-to-test-smarter-not-more/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-15T11:22:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "66756c5c93e8a4f91f3dc187868be644",
+      "title": "Learning DevOps as a networking guy",
+      "url": "https://www.reddit.com/r/devops/comments/1wgwz3q/learning_devops_as_a_networking_guy/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-15T10:50:53+00:00",
+      "summary": "I'm a Network Admin mostly Cisco network devices, firewalls and so on. I'm looking to learn DevOps because it seems cool with the automation and the cycle flow of it seems interesting.  I'm just looking for just 1 courrse that can teach it to me and at the end have a project? It seems like tech with",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "82da32da127bc22cc3e5374d118b2bde",
+      "title": "n8n-io/n8n: n8n@2.40.0",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.0",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-09-15T10:20:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6ec51578d3e14925d57e654ac824e1c1",
+      "title": "My guard asserted the output path was a scratch directory. The row landed in the permanent log anyway.",
+      "url": "https://dev.to/mahirhir/my-guard-asserted-the-output-path-was-a-scratch-directory-the-row-landed-in-the-permanent-log-5043",
+      "source": "Dev.to",
+      "published_at": "2026-09-14T15:58:36Z",
+      "summary": "There is a rule here that tests never write to the real record store, and unlike most of my rules it...",
+      "tags": [
+        "testing",
+        "programming",
+        "devops",
+        "node"
+      ],
       "relevance_score": 0.0
     }
   ]
