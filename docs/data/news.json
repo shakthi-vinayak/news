@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T18:11:16Z",
+  "generated_at": "2026-09-17T22:51:29Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,40 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "cc69dffbc2398d32831192474a9b5f54",
-      "title": "OpenAI split a voice model’s brain. Then one team deleted 23,000 lines of code.",
-      "url": "https://thenewstack.io/gpt-live-1-voice-api/",
-      "source": "The New Stack",
-      "published_at": "2026-09-10T20:08:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "94c96c191b940d45c9b901427d3995a2",
-      "title": "“Valuable warning shots”: How Anthropic now views Claude’s cyber incidents",
-      "url": "https://thenewstack.io/anthropic-claude-cyber-alignment/",
-      "source": "The New Stack",
-      "published_at": "2026-09-10T19:54:35+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e52556e56236d4d7792d984d48737453",
-      "title": "How do you provision RDS & DocumentDB users cleanly? Dual Terraform + Pulumi setup feels redundant.",
-      "url": "https://www.reddit.com/r/devops/comments/1wcsuqh/how_do_you_provision_rds_documentdb_users_cleanly/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-10T19:16:16+00:00",
-      "summary": "Explores clean provisioning of RDS and DocumentDB users, questioning the need for dual Terraform/Pulumi setups.",
-      "tags": [
-        "Terraform",
-        "Cloud",
-        "DevOps"
-      ],
-      "relevance_score": 0.88
-    },
-    {
       "id": "eded9a8ee07349a65cbeb34205f6be4d",
       "title": "langchain-ai/langchain: langchain-anthropic==1.7.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.2",
@@ -1291,16 +1257,6 @@
       "url": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-3/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-09-10T22:25:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "283d544d6d32c2e68a748bd6b68c6222",
-      "title": "Why AI Agents Shouldn’t Guess at Vulnerability Exploitability",
-      "url": "https://devops.com/why-ai-agents-shouldnt-guess-at-vulnerability-exploitability/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-10T22:18:33+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3107,6 +3063,66 @@
         "governance",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "77832283f5b499038caba730a2b8241b",
+      "title": "ollama/ollama: v0.34.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-17T22:31:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e35954cd2ef45471119e5851f08692cf",
+      "title": "langchain-ai/langchain: langchain-typesafe==0.0.1a2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-17T22:24:59+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c31b8a43940967af2f9e5ce114a5fcac",
+      "title": "Anthropic Brings Parallel Coding Workflows to Claude Projects",
+      "url": "https://devops.com/anthropic-brings-parallel-coding-workflows-to-claude-projects/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-17T22:15:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d9d7a61e754addf1bc567ecc6d623bf7",
+      "title": "Intel squeezed a 1.58-bit LLM down to 1.485 bits without changing a single weight",
+      "url": "https://thenewstack.io/intel-bitcos-ternary-compression/",
+      "source": "The New Stack",
+      "published_at": "2026-09-17T20:51:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b672fb84eb1b0d5b0ffbf3eed80deeab",
+      "title": "“Be transparent only if asked”: OpenAI’s models learned to leave notes for their future selves",
+      "url": "https://thenewstack.io/openai-model-misalignment-reports/",
+      "source": "The New Stack",
+      "published_at": "2026-09-17T18:27:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "972899ceee502c4bf6db15d252bde57f",
+      "title": "ollama/ollama: v0.34.2-rc2: mlxrunner: Release freed KV buffers during speculative decode",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-17T16:45:01+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
