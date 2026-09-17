@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T07:35:32Z",
+  "generated_at": "2026-09-17T13:24:52Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-16T06:53:23+00:00",
+      "published_at": "2026-09-17T07:47:22+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1152,16 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e6e9178c76cd93448eac61662a160fee",
-      "title": "Cloud Native Computing Foundation Announces Karmada Graduation",
-      "url": "https://www.cncf.io/announcements/2026/09/07/cloud-native-computing-foundation-announces-karmada-graduation/",
-      "source": "CNCF Blog",
-      "published_at": "2026-09-08T02:06:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a6ccac96238c17dbb598ceda0f27ec2f",
       "title": "Kubernetes access via an identity provider: Public client, not confidential",
       "url": "https://www.cncf.io/blog/2026/09/08/kubernetes-access-via-an-identity-provider-public-client-not-confidential/",
@@ -1202,35 +1192,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6f144ee8c6d4065e1186974b5487118d",
-      "title": "Postgres 19's REPACK rewrites a bloated table without locking out your writers",
-      "url": "https://dev.to/remdore/postgres-19s-repack-rewrites-a-bloated-table-without-locking-out-your-writers-2ep0",
-      "source": "Dev.to",
-      "published_at": "2026-09-09T10:27:00Z",
-      "summary": "PostgreSQL 19 beta replaces VACUUM FULL and CLUSTER with REPACK. Under eight concurrent writers VACUUM FULL let 33 writes through; REPACK let 3,988. But the swap still queues behind a slow query, and there are four tables it refuses outright.",
-      "tags": [
-        "postgres",
-        "database",
-        "devops",
-        "performance"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "386dad119bb60c0c26b48e589754e5e4",
-      "title": "Your Crossplane may be sleeping",
-      "url": "https://dev.to/joojodontoh/your-crossplane-may-be-sleeping-1295",
-      "source": "Dev.to",
-      "published_at": "2026-09-09T09:42:41Z",
-      "summary": "TL;DR   A small lab with two Kubernetes clusters. Crossplane is installed in one (the...",
-      "tags": [
-        "devops",
-        "infrastructure",
-        "kubernetes"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "550129558032f335c70229943bdb1694",
       "title": "How cloud native goes AI native",
       "url": "https://www.cncf.io/blog/2026/09/09/how-cloud-native-goes-ai-native/",
@@ -1238,21 +1199,6 @@
       "published_at": "2026-09-09T08:13:23+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0915b242ebe8009456ab4a1d1286aaf9",
-      "title": "I let a model suggest Postgres indexes, then made the database mark its work",
-      "url": "https://dev.to/remdore/i-let-a-model-suggest-postgres-indexes-then-made-the-database-mark-its-work-2a4c",
-      "source": "Dev.to",
-      "published_at": "2026-09-09T07:04:10Z",
-      "summary": "An LLM will propose an index for any query you show it. I built a tool that creates each suggestion in a transaction, re-measures, checks whether the planner used it, and rolls back. Four in ten suggestions did not survive.",
-      "tags": [
-        "postgres",
-        "ai",
-        "database",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1266,21 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e73250738be7f4bc3d271bcd52462164",
-      "title": "Four Debian 13 Boxes, One Brief: 1,923 Packages on Metal, 328 in the Cloud",
-      "url": "https://dev.to/gde/four-debian-13-boxes-one-brief-1923-packages-on-metal-328-in-the-cloud-and-the-backup-gpt-cc2",
-      "source": "Dev.to",
-      "published_at": "2026-09-09T20:59:07Z",
-      "summary": "The same Debian 13 on a laptop and on AWS, GCE and Azure. The cloud images ship 328-350 packages against 1,923 on metal, no firmware package at all, and no tool to read the NVMe they all boot from. Each machine was then given the same brief and asked to analyse itself. Three of them agreed. The fourth found a partition table its own resize had broken.",
-      "tags": [
-        "debian",
-        "linux",
-        "claudecode",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "62dd53fb4cd4c92f6a420cb7d10bb46a",
       "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
       "url": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
@@ -1291,51 +1222,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "95f855d236bb76709003b55e86ef0e19",
-      "title": "Should keep LLM traces in separate tool or primary APM?",
-      "url": "https://www.reddit.com/r/devops/comments/1wcic9n/should_keep_llm_traces_in_separate_tool_or/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-10T12:51:46+00:00",
-      "summary": "Working on an AI chatbot in our product. It does RAG plus tool calls, and it can spin up sub-agents that actually do stuff for the user. Right now we run DeepEval in CI and DeepTeam for red teaming, and traces + online evals go to Confident AI (the hosted platform from the same team). It's working f",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "eac769df1811274e6e8a6b02e6987375",
-      "title": "AI floods security teams with flaws — business context sets priorities",
-      "url": "https://thenewstack.io/vulnerability-prioritization-business-context/",
-      "source": "The New Stack",
-      "published_at": "2026-09-10T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "1265dce159a17b88f7d26e7bef4c55b8",
       "title": "Kubernetes disaster recovery: Guidance from three reproducible failure scenarios",
       "url": "https://www.cncf.io/blog/2026/09/10/kubernetes-disaster-recovery-guidance-from-three-reproducible-failure-scenarios/",
       "source": "CNCF Blog",
       "published_at": "2026-09-10T11:37:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "36660d601f569490db35420517cdb16f",
-      "title": "Is cloud abstraction actually reducing operational complexity?",
-      "url": "https://www.reddit.com/r/devops/comments/1wcg4a6/is_cloud_abstraction_actually_reducing/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-10T11:10:25+00:00",
-      "summary": "I have been thinking about this after going through a few infrastructure setups as we often talk about making deployments portable but theres a point where the abstraction itself becomes something the devops team has to manage. You can have Kubernetes, Terraform, multiple cloud providers, different ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "be0841093e69eeddc9e30553015b7d56",
-      "title": "n8n-io/n8n: n8n@2.39.2",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.2",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-10T07:45:04+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1372,16 +1263,6 @@
         "DevOps"
       ],
       "relevance_score": 0.7
-    },
-    {
-      "id": "a2fa858f35d60127f9d99975ece22450",
-      "title": "Real time AI use cases",
-      "url": "https://www.reddit.com/r/devops/comments/1wcidg4/real_time_ai_use_cases/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-10T12:53:08+00:00",
-      "summary": "Hello DevOps/Platform Engineers, would like to know real time use cases which are currently used in your day to day tasks like CICD, IAC or anything else.  &#32; submitted by &#32;  /u/satz_2809   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
     },
     {
       "id": "cc69dffbc2398d32831192474a9b5f54",
@@ -3051,9 +2932,184 @@
       "title": "n8n-io/n8n: n8n@2.40.2",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.2",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-17T07:30:15+00:00",
+      "published_at": "2026-09-17T07:34:19+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d670e74d32a078541611b46656b26158",
+      "title": "Migrating existing CloudFormation resources to OpenTofu -recommended approach?",
+      "url": "https://www.reddit.com/r/devops/comments/1witrgz/migrating_existing_cloudformation_resources_to/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-17T13:17:36+00:00",
+      "summary": "Hi everyone, We’re planning to migrate a large number of existing AWS resources currently managed through CloudFormation to OpenTofu. Our environments are fairly siloed per customer, and each environment can include resources such as EC2 instances, load balancers, Auto Scaling Groups, VPCs, security",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8f8ee94eaae3e3e2abf2eb2212bb0187",
+      "title": "apache/airflow: Apache Airflow 3.3.2",
+      "url": "https://github.com/apache/airflow/releases/tag/3.3.2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-17T11:10:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cdfc63a9fcbda99639f8d2e226b5dc0b",
+      "title": "OpenTelemetry everywhere: Migrating a metrics platform at scale",
+      "url": "https://www.cncf.io/blog/2026/09/17/opentelemetry-everywhere-migrating-a-metrics-platform-at-scale/",
+      "source": "CNCF Blog",
+      "published_at": "2026-09-17T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "72c08458c1f7f65f76571786493c38c7",
+      "title": "apache/airflow: task-sdk/1.3.2",
+      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.3.2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-17T09:34:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "94e2c714043ed478b54967d66ba6356d",
+      "title": "apache/airflow: constraints-latest",
+      "url": "https://github.com/apache/airflow/releases/tag/constraints-latest",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-17T09:30:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "41397145696da6db08aedf20454fb9b8",
+      "title": "apache/airflow: constraints-3.3.2",
+      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.3.2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-17T09:20:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bbb46330037a10c85793bf80915060fb",
+      "title": "Running a Terraform-managed IaaS lab on an M4 Max Mac with Parallels. I patched the provider to allow vCPU overcommit.",
+      "url": "https://www.reddit.com/r/devops/comments/1wip0hi/running_a_terraformmanaged_iaas_lab_on_an_m4_max/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-17T09:19:49+00:00",
+      "summary": "Making changes to the Parallels Terraform provider and looking to collaborate on open source fixes I have made.  &#32; submitted by &#32;  /u/Perfect-Direction607   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "455ec1c7be827dadab54dd2ae97264ef",
+      "title": "n8n-io/n8n: n8n@1.123.81",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.81",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-09-17T08:01:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6a036af16bf9b0c73c322730995449f7",
+      "title": "n8n-io/n8n: n8n@2.39.7",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.7",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-09-17T07:49:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "03691df55fa75f779928f071ef94d531",
+      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.81 (#38899)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-09-17T07:35:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "78a683157291ba61a1c416af8a2a7730",
+      "title": "Anthropic's grammar compiler counts properties, not characters",
+      "url": "https://dev.to/robswierk/anthropics-grammar-compiler-counts-properties-not-characters-5el6",
+      "source": "Dev.to",
+      "published_at": "2026-09-16T10:00:00Z",
+      "summary": "A 400 error from Anthropic's structured-output compiler taught us that the ceiling is 42 schema properties across all objects, not a character budget.",
+      "tags": [
+        "devops",
+        "programming",
+        "ai",
+        "webdev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "21416536c6bd9585a7c0dc1f6461aed1",
+      "title": "OpenAI's Software Factory Can Skip Human Review. Who Evaluates That Decision?",
+      "url": "https://dev.to/sara_mo/openais-software-factory-can-skip-human-review-who-evaluates-that-decision-21bf",
+      "source": "Dev.to",
+      "published_at": "2026-09-16T08:07:23Z",
+      "summary": "A pull request is green.  The specialist reviewers found nothing that should block it. The risk...",
+      "tags": [
+        "ai",
+        "agents",
+        "testing",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "236acd2414395355d2d22e0aea0e7702",
+      "title": "Linux, Git, Docker: Why That Order Matters",
+      "url": "https://dev.to/devopsdaily/linux-git-docker-why-that-order-matters-1go5",
+      "source": "Dev.to",
+      "published_at": "2026-09-15T16:00:00Z",
+      "summary": "Every roadmap gives you the same list. Linux, Git, Docker, then a cloud, then Kubernetes, then...",
+      "tags": [
+        "devops",
+        "linux",
+        "git",
+        "docker"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6f8f39f6089d65c7875e9f313012138a",
+      "title": "Your access log already knows whether ChatGPT is citing you",
+      "url": "https://dev.to/shanni/your-access-log-already-knows-whether-chatgpt-is-citing-you-20gp",
+      "source": "Dev.to",
+      "published_at": "2026-09-12T22:00:19Z",
+      "summary": "There's a lot of guessing about whether AI systems are citing your site. Analytics won't tell you —...",
+      "tags": [
+        "webdev",
+        "ai",
+        "seo",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5e6d502c06072490b303ae2a1a3bbd55",
+      "title": "The Serverless Supercomputer: Generating 1 Million AI Briefings for $48",
+      "url": "https://dev.to/dhananjay_lakkawar/the-serverless-supercomputer-generating-1-million-ai-briefings-for-48-4mmn",
+      "source": "Dev.to",
+      "published_at": "2026-09-12T18:57:49Z",
+      "summary": "Here is a math problem that is currently destroying the margins of B2C AI startups.  You have a...",
+      "tags": [
+        "ai",
+        "architecture",
+        "devops",
+        "aws"
+      ],
       "relevance_score": 0.0
     }
   ]
