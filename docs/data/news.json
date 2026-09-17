@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:24:52Z",
+  "generated_at": "2026-09-17T18:11:16Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1232,39 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "31d2f6b5408aadc533888db8c8f53b70",
-      "title": "apache/airflow: providers/2026-09-09",
-      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-09-09",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-10T17:21:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "29c9ca170675d78189a04f0cbdf3381a",
-      "title": "Atlassian Aims to Fill Context and Governance Gap for AI Coding Agents",
-      "url": "https://devops.com/atlassian-aims-to-fill-context-and-governance-gap-for-ai-coding-agents/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-10T16:00:39+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d051ee01fb98da5130eb7b75612abae4",
-      "title": "Frontend/GUI for Github Action ! Do you think its a big enough problem?",
-      "url": "https://www.reddit.com/r/devops/comments/1wck9zb/frontendgui_for_github_action_do_you_think_its_a/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-10T14:08:44+00:00",
-      "summary": "Considers the need for a GUI front‑end for GitHub Actions and whether it's a significant issue.",
-      "tags": [
-        "CI/CD",
-        "DevOps"
-      ],
-      "relevance_score": 0.7
-    },
-    {
       "id": "cc69dffbc2398d32831192474a9b5f54",
       "title": "OpenAI split a voice model’s brain. Then one team deleted 23,000 lines of code.",
       "url": "https://thenewstack.io/gpt-live-1-voice-api/",
@@ -1306,71 +1273,6 @@
       "published_at": "2026-09-10T19:13:12+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3a3bee8201684ee9d28062bf9350bc40",
-      "title": "apache/airflow: providers-snowflake/6.17.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.17.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-10T17:45:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "455a3d4a31e57419df9b2823ea2344cb",
-      "title": "apache/airflow: providers-standard/1.19.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.19.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-10T17:45:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5e4797096da379ace29150a751648df5",
-      "title": "apache/airflow: providers-yandex/4.5.2rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-yandex%2F4.5.2rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-10T17:45:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "afb970b7ecb7dec8441975c74b83b261",
-      "title": "apache/airflow: providers-teradata/3.6.3rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-teradata%2F3.6.3rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-10T17:45:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "214f91496b33da3c610546b7fe89ce7a",
-      "title": "apache/airflow: providers-ydb/2.6.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-ydb%2F2.6.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-10T17:45:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6ff0bcda4993a0391fa6eabe8de4640d",
-      "title": "22 horas de um honeypot SSH: o que a internet faz com uma porta 22 aberta",
-      "url": "https://dev.to/mensonones/22-horas-de-um-honeypot-ssh-o-que-a-internet-faz-com-uma-porta-22-aberta-555j",
-      "source": "Dev.to",
-      "published_at": "2026-09-10T11:32:42Z",
-      "summary": "Expus um honeypot de SSH escrito em Go por 22 horas e capturei a kill chain completa dos bots: brute force, fingerprint, e download de malware Mirai/Gafgyt multi-arquitetura. Com dados reais, IOCs e código.",
-      "tags": [
-        "security",
-        "go",
-        "honeypot",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3109,6 +3011,101 @@
         "architecture",
         "devops",
         "aws"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7dec9b62e8c90dd55e9cf817a816cbe5",
+      "title": "langchain-ai/langchain: langchain-typesafe==0.0.1a1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-17T18:07:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bc9586efe1684ccdf7177ae5a96be525",
+      "title": "GitHub and Anthropic used their own agents for major Rust rewrites — with very different playbooks",
+      "url": "https://thenewstack.io/github-copilot-anthropic-rust-migration/",
+      "source": "The New Stack",
+      "published_at": "2026-09-17T18:06:03+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "86f9866c2cd7eaff549340620892510e",
+      "title": "ollama/ollama: v0.34.2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-17T17:49:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2c92aa5e39c3e18832bc078e94f2a52a",
+      "title": "Harness Previews Revamped Platform for the Agentic Engineering Era",
+      "url": "https://devops.com/harness-previews-revamped-platform-for-the-agentic-engineering-era/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-17T17:49:02+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bcad643931bde2a170baa099f363ade3",
+      "title": "Anthropic’s new Claude Code feature could drain your plan before lunch",
+      "url": "https://thenewstack.io/claude-code-parallel-projects/",
+      "source": "The New Stack",
+      "published_at": "2026-09-17T17:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fa4fa7af3a132921d2d2503395eed667",
+      "title": "The best path for Devops engineer",
+      "url": "https://www.reddit.com/r/devops/comments/1wiwqmb/the_best_path_for_devops_engineer/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-17T15:12:52+00:00",
+      "summary": "Hi ,I am 4th year engineering student and I am interested in devops engineering and I want the best path for Devops and what's the best ways to learn it and what the best YouTubers to learn from them  &#32; submitted by &#32;  /u/Intelligent_East_759   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6465814b1e47b6532656d6ba8369697b",
+      "title": "Best Devops Certification for Beginners",
+      "url": "https://www.reddit.com/r/devops/comments/1wiwa14/best_devops_certification_for_beginners/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-17T14:55:44+00:00",
+      "summary": "Hi All, While I do not have a technical background, my new role as a Project Manager in a DevSecOps organization necessitates that I acquire certifications in both DevOps and cloud computing. Could you please recommend suitable certification programs for me to pursue?  &#32; submitted by &#32;  /u/T",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "666db612848b76fe7656fe5ce6881213",
+      "title": "Looking for a docker registery",
+      "url": "https://www.reddit.com/r/devops/comments/1wivbio/looking_for_a_docker_registery/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-17T14:19:08+00:00",
+      "summary": "My company serving 5 apps to the many customers. Managing deployment and new releases are the biggest problem. Because all the time we are copying the build files and pasting to the target server by connecting with rdp. I Want to use dockerfiles for serving and want to keep these images on our serve",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2f03d7f7207edd488ab3b19fb8195c5c",
+      "title": "AI adoption now measured by what you can audit",
+      "url": "https://dev.to/analista_83/ai-adoption-now-measured-by-what-you-can-audit-40gi",
+      "source": "Dev.to",
+      "published_at": "2026-09-16T10:28:24Z",
+      "summary": "Cloudera and Mistral push sovereign AI while NeuroWatt ships an agentic workforce. The pattern: the model is no longer sold, the auditable wrapper is. Plus MCP exposure data and the AI Act.",
+      "tags": [
+        "security",
+        "ai",
+        "governance",
+        "devops"
       ],
       "relevance_score": 0.0
     }
