@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T11:06:13Z",
+  "generated_at": "2026-09-18T16:21:13Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -517,16 +517,6 @@
       "url": "https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
       "source": "HashiCorp Blog",
       "published_at": "2026-07-21T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e52ce4741083de0c960929480ee7ca0d",
-      "title": "Introducing tfpolicy: A declarative policy workflow built for Terraform",
-      "url": "https://www.hashicorp.com/blog/introducing-tfpolicy-a-declarative-policy-workflow-built-for-terraform",
-      "source": "HashiCorp Blog",
-      "published_at": "2026-07-16T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1284,29 +1274,6 @@
         "webdev",
         "buildinpublic"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0b12f34d621d15ea50d783d9f953eb5e",
-      "title": "Is Devops taken over by AI",
-      "url": "https://www.reddit.com/r/devops/comments/1wdhbub/is_devops_taken_over_by_ai/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-11T14:07:42+00:00",
-      "summary": "Examines claims that AI is taking over DevOps tasks, discussing what aspects are automated and where human expertise remains essential.",
-      "tags": [
-        "AI",
-        "DevOps"
-      ],
-      "relevance_score": 0.86
-    },
-    {
-      "id": "33b4d11a5162132f5d6dfd876b167120",
-      "title": "How AWS Lambda logs every flow across thousands of microVMs per host with eBPF and Rust",
-      "url": "https://thenewstack.io/aws-lambda-ebpf-rust/",
-      "source": "The New Stack",
-      "published_at": "2026-09-11T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3138,6 +3105,56 @@
         "devops",
         "security"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "91434dec5560c83d7b452845ce2cd278",
+      "title": "Kubernetes can run AI inference. But can it count the real cost?",
+      "url": "https://thenewstack.io/kubernetes-ai-inference-costs/",
+      "source": "The New Stack",
+      "published_at": "2026-09-18T15:53:21+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b66c3f30443cca0ac87ea5f632db7485",
+      "title": "Your agent is only as good as your infrastructure",
+      "url": "https://thenewstack.io/ai-agent-infrastructure-performance/",
+      "source": "The New Stack",
+      "published_at": "2026-09-18T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2e2d004dc96ebfcfa2a96e6e06944ca2",
+      "title": "Open-weight models now handle a majority of tokens on Vercel’s AI Gateway. But Anthropic still takes 64% of the spend.",
+      "url": "https://thenewstack.io/open-weight-anthropic-spend/",
+      "source": "The New Stack",
+      "published_at": "2026-09-18T12:42:58+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0cf489ef1341d39b5c72167320c37806",
+      "title": "GitHub and Anthropic used their own agents for major Rust rewrites — but with very different playbooks",
+      "url": "https://thenewstack.io/github-copilot-anthropic-rust-migration/",
+      "source": "The New Stack",
+      "published_at": "2026-09-17T18:06:03+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d1467d5f0443a8daea46de65a55b1cfb",
+      "title": "Simplify compliance with the native pre-written policy experience in HCP Terraform",
+      "url": "https://www.hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-09-17T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
