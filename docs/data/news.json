@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:12:42Z",
+  "generated_at": "2026-09-19T20:33:07Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1262,36 +1262,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3d1b2680b16777c2ac8d3ffba9d9fbff",
-      "title": "My benchmark harness was wrong fourteen ways before it measured anything",
-      "url": "https://dev.to/remdore/my-benchmark-harness-was-wrong-fourteen-ways-before-it-measured-anything-1o6h",
-      "source": "Dev.to",
-      "published_at": "2026-09-12T14:48:33Z",
-      "summary": "I built a harness to measure whether reverse proxies buffer Server-Sent Events. The results are in...",
-      "tags": [
-        "devops",
-        "python",
-        "performance",
-        "testing"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "66a8e88c03e7f714c4fb0a2cffa64265",
-      "title": "nginx streams your tokens fine. HAProxy holds them for 206ms.",
-      "url": "https://dev.to/remdore/nginx-streams-your-tokens-fine-haproxy-holds-them-for-206ms-10p2",
-      "source": "Dev.to",
-      "published_at": "2026-09-12T14:40:55Z",
-      "summary": "The advice is everywhere: if you are streaming Server-Sent Events through nginx, turn off...",
-      "tags": [
-        "devops",
-        "performance",
-        "nginx",
-        "ai"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "5e4a2858efc9d2e93dc887b6b71c9b7a",
       "title": "Sandboxes for agent compared end-to-end",
       "url": "https://www.reddit.com/r/devops/comments/1wer6lr/sandboxes_for_agent_compared_endtoend/",
@@ -1303,21 +1273,6 @@
         "Containers"
       ],
       "relevance_score": 0.9
-    },
-    {
-      "id": "2dfe0e344f64e65defb6fbd72402bb5c",
-      "title": "How Seed4J Validates Compatibility",
-      "url": "https://dev.to/renanfranca/how-seed4j-validates-compatibility-2pdo",
-      "source": "Dev.to",
-      "published_at": "2026-09-12T19:44:29Z",
-      "summary": "How Seed4J uses Renovate, GitHub Actions, and 25 generated project configurations to validate compatibility across modern technology stacks.",
-      "tags": [
-        "opensource",
-        "githubactions",
-        "devops",
-        "security"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "66c02a01920457efd605dab06946534d",
@@ -2496,21 +2451,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5e6d502c06072490b303ae2a1a3bbd55",
-      "title": "The Serverless Supercomputer: Generating 1 Million AI Briefings for $48",
-      "url": "https://dev.to/dhananjay_lakkawar/the-serverless-supercomputer-generating-1-million-ai-briefings-for-48-4mmn",
-      "source": "Dev.to",
-      "published_at": "2026-09-12T18:57:49Z",
-      "summary": "Here is a math problem that is currently destroying the margins of B2C AI startups.  You have a...",
-      "tags": [
-        "ai",
-        "architecture",
-        "devops",
-        "aws"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7dec9b62e8c90dd55e9cf817a816cbe5",
       "title": "langchain-ai/langchain: langchain-typesafe==0.0.1a1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a1",
@@ -3000,21 +2940,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0d4bc363b089e7d40b7b8996ae54eb8e",
-      "title": "A Screenshot Is Not an Agent Failure Artifact",
-      "url": "https://dev.to/raju_dandigam/a-screenshot-is-not-an-agent-failure-artifact-4phi",
-      "source": "Dev.to",
-      "published_at": "2026-09-12T19:13:05Z",
-      "summary": "A screenshot of an execution tree looks useful in a pull request.  It is also missing almost...",
-      "tags": [
-        "ai",
-        "devops",
-        "security",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "271f02b298673f13fa82b7f6a82079fb",
       "title": "This week’s news from Zed, Anthropic, and OpenRouter shows why better harnesses matter more than better models",
       "url": "https://thenewstack.io/ai-agent-harness-economics/",
@@ -3086,6 +3011,60 @@
         "performance",
         "devops",
         "architecture"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4643bba1e491e2464ca7ba3e1c532f6b",
+      "title": "How are people currently managing AWS access for AI agents? I'm looking into different approaches for securely handling permissions and credentials when agents need to interact with AWS services.",
+      "url": "https://www.reddit.com/r/devops/comments/1wkvk6c/how_are_people_currently_managing_aws_access_for/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-19T19:43:20+00:00",
+      "summary": "I'm currently looking into how to securely manage AWS access for AI agents like Claude Code within our organization.  Right now, our developers have a role that grants them some write access to specific services in our dev and nonprod environments. However, I really don't want them using this same r",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7f33081a8a11ee420baade1c00a629bb",
+      "title": "Kubernetes Scheduling 101: What Really Happens Before Your Pod Runs",
+      "url": "https://dev.to/siddharthajmore/kubernetes-scheduling-101-what-really-happens-before-your-pod-runs-3khk",
+      "source": "Dev.to",
+      "published_at": "2026-09-15T05:59:06Z",
+      "summary": "TL;DR   Scheduling means binding a pod to a node by setting spec.nodeName. You can set this yourself...",
+      "tags": [
+        "kubernetes",
+        "beginners",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d95065183b548fb8a2a5d10bfc1e5d0b",
+      "title": "Ollama's Responses API accepts previous_response_id, returns 200, and forgets the whole conversation",
+      "url": "https://dev.to/homelabpm/ollamas-responses-api-accepts-previousresponseid-returns-200-and-forgets-the-whole-conversation-1kp8",
+      "source": "Dev.to",
+      "published_at": "2026-09-14T02:10:04Z",
+      "summary": "TL;DR: send previous_response_id to Ollama's /v1/responses and it is accepted, the reply is HTTP 200...",
+      "tags": [
+        "ollama",
+        "llm",
+        "ai",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "743f3211a4ed89bcd4b99e908be8201a",
+      "title": "A Measurement That Never Ran Became a Verdict: A Second Automated Chrome Answered for the First",
+      "url": "https://dev.to/hexisteme/a-measurement-that-never-ran-became-a-verdict-a-second-automated-chrome-answered-for-the-first-ebb",
+      "source": "Dev.to",
+      "published_at": "2026-09-14T00:00:06Z",
+      "summary": "A biweekly monitoring script kept completing and printing a confident verdict even though every browser read had failed, because a second automated Chrome instance silently answered in place of the first.",
+      "tags": [
+        "monitoring",
+        "automation",
+        "python",
+        "devops"
       ],
       "relevance_score": 0.0
     }
