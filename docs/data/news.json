@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:19:34Z",
+  "generated_at": "2026-09-19T12:29:56Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1259,31 +1259,6 @@
       "published_at": "2026-09-11T18:30:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e298f9d6a53a379a107a514192cbe21a",
-      "title": "Jacob Coxon warns AI could kill us all. Anthropic’s own report exposes safety gaps.",
-      "url": "https://thenewstack.io/coxon-anthropic-ai-monitoring-failures/",
-      "source": "The New Stack",
-      "published_at": "2026-09-12T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "157134af040ba5305f08e5a234cd8191",
-      "title": "Bun 1.4's Rust rewrite cuts script startup time from 10.5ms to 4.2ms",
-      "url": "https://dev.to/alexgeorgiev17/bun-14s-rust-rewrite-cuts-script-startup-time-from-105ms-to-42ms-2je0",
-      "source": "Dev.to",
-      "published_at": "2026-09-12T08:00:00Z",
-      "summary": "I measured Bun 1.4's Rust runtime against 1.3.14: startup dropped 60%, idle memory 46%, but idle CPU only fell 2.5x against a claimed 5x, and invoking Bun as a node symlink silently stops loading .env files.",
-      "tags": [
-        "node",
-        "performance",
-        "devops",
-        "javascript"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3049,7 +3024,7 @@
       "title": "ollama/ollama: v0.34.3",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
       "source": "GitHub Releases (ollama)",
-      "published_at": "2026-09-19T01:25:50+00:00",
+      "published_at": "2026-09-19T08:10:11+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3081,6 +3056,46 @@
         "devops",
         "security",
         "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "271f02b298673f13fa82b7f6a82079fb",
+      "title": "This week’s news from Zed, Anthropic, and OpenRouter shows why better harnesses matter more than better models",
+      "url": "https://thenewstack.io/ai-agent-harness-economics/",
+      "source": "The New Stack",
+      "published_at": "2026-09-19T10:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3e90c2ac210d1d16b677a1ef5d2663e5",
+      "title": "Caddy 2.11's default post-quantum key exchange sends six times more handshake bytes",
+      "url": "https://dev.to/alexgeorgiev17/caddy-211s-default-post-quantum-key-exchange-sends-six-times-more-handshake-bytes-38g3",
+      "source": "Dev.to",
+      "published_at": "2026-09-19T08:00:00Z",
+      "summary": "I measured Caddy's new default X25519MLKEM768 key exchange against classical X25519: ClientHello grows from 318 to 1494 bytes, ServerHello from 122 to 1210, but the raw crypto costs under 65 microseconds and old clients still connect fine.",
+      "tags": [
+        "caddy",
+        "security",
+        "performance",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e50fcd39b62d1fb4408faab39ab35f58",
+      "title": "How we tuned TypeSafe Jev for log triage without alert storms",
+      "url": "https://dev.to/reachjalil/how-we-tuned-typesafe-jev-for-log-triage-without-alert-storms-1ei0",
+      "source": "Dev.to",
+      "published_at": "2026-09-18T22:57:27Z",
+      "summary": "Lessons and code patterns from running Jev on 8,000 logs. Why discrete classification failed, how continuous probability fixed it, and the unit economics of pre-filtering.",
+      "tags": [
+        "devops",
+        "observability",
+        "typescript",
+        "ai"
       ],
       "relevance_score": 0.0
     }
