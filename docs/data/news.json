@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T12:29:56Z",
+  "generated_at": "2026-09-19T17:12:42Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1277,36 +1277,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "590b58f8eaefb39c58d92a37e5e208fd",
-      "title": "“Same mission, bigger stage”: OpenAI hires Git AI founders to help Codex prove its ROI",
-      "url": "https://thenewstack.io/openai-hires-git-ai/",
-      "source": "The New Stack",
-      "published_at": "2026-09-12T14:46:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "656349b568af9e373ce07ca6b354d18f",
-      "title": "I pointed a real Claude Code session at my SSH key. It tried seven routes, the kernel refused 145 times.",
-      "url": "https://www.reddit.com/r/devops/comments/1weg6ux/i_pointed_a_real_claude_code_session_at_my_ssh/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-12T15:54:52+00:00",
-      "summary": "      &#32; submitted by &#32;  /u/Adarsh1176   [link] &#32; [comments] ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "064d67d7194457123552e365a3c1a8a3",
-      "title": "I measured two GitHub Actions scanners against 80 hand-labelled workflows. Neither result is what you want.",
-      "url": "https://www.reddit.com/r/devops/comments/1wefl0e/i_measured_two_github_actions_scanners_against_80/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-12T15:29:50+00:00",
-      "summary": "If you have an AI agent step in a GitHub Actions workflow - Claude Code, Gemini CLI, an inference action - it probably reads text a stranger wrote. An issue body, a PR title, a comment. If that job also holds contents: write, that is a path from someone else's keyboard to a token that can change you",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "66a8e88c03e7f714c4fb0a2cffa64265",
       "title": "nginx streams your tokens fine. HAProxy holds them for 206ms.",
       "url": "https://dev.to/remdore/nginx-streams-your-tokens-fine-haproxy-holds-them-for-206ms-10p2",
@@ -1318,21 +1288,6 @@
         "performance",
         "nginx",
         "ai"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d95161d757ff895862876cd9264a969c",
-      "title": "I wanted a system-design lab that could prove me wrong",
-      "url": "https://dev.to/othmanez05/i-wanted-a-system-design-lab-that-could-prove-me-wrong-5540",
-      "source": "Dev.to",
-      "published_at": "2026-09-12T12:57:23Z",
-      "summary": "When I practice system design, the part that has always felt a little unsatisfying is that the...",
-      "tags": [
-        "showdev",
-        "docker",
-        "opensource",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -3096,6 +3051,41 @@
         "observability",
         "typescript",
         "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e30c8bd2448152c996cc5f6c663ade91",
+      "title": "Devops learning path suggestion with AWS",
+      "url": "https://www.reddit.com/r/devops/comments/1wkq74m/devops_learning_path_suggestion_with_aws/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-19T16:11:22+00:00",
+      "summary": "Hu everyone, i am in 7th semester of college and i have a course about devops. I want to rely on uni course but go deep into devops and maybe look for career into devops. Any courses that you would suggest?  In college we are using aws for all the major things. I have done a course on linux, and com",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2771620060a6318b88913660bd59aa5b",
+      "title": "“Dormant deployments were quietly consuming storage”: Why Vercel tightened its free-tier rules",
+      "url": "https://thenewstack.io/vercel-hobby-deployment-retention/",
+      "source": "The New Stack",
+      "published_at": "2026-09-19T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0a4faf4a4e1db47f9df3ddbca584eb7b",
+      "title": "Why I Built VortexMQ: A 167M ops/sec Message Broker in 100% Pure Go",
+      "url": "https://dev.to/anshugarg/why-i-built-vortexmq-a-167m-opssec-message-broker-in-100-pure-go-2577",
+      "source": "Dev.to",
+      "published_at": "2026-09-19T09:33:56Z",
+      "summary": "Every engineering team eventually runs into the \"message broker tax.\"  You start building a clean,...",
+      "tags": [
+        "go",
+        "performance",
+        "devops",
+        "architecture"
       ],
       "relevance_score": 0.0
     }
