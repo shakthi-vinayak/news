@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:44:30Z",
+  "generated_at": "2026-09-20T13:03:44Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1258,16 +1258,6 @@
       "source": "Kubernetes Blog",
       "published_at": "2026-09-11T18:30:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8c3e39114f2c7ee4bb8d76b9eda65240",
-      "title": "Designing a local AI harness against the \"echo-chamber\" loop: deterministic arbiters, tight token caps, and skeptical devs",
-      "url": "https://www.reddit.com/r/devops/comments/1wf436w/designing_a_local_ai_harness_against_the/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-13T10:30:04+00:00",
-      "summary": "I am designing a CLI harness for our team to integrate agentic coding using opencode on top of an existing stack with distributed repositories, Java backend services, and shared Ansible deployment code across on-premise infrastructure. My objective is to design a local, deterministic cleanroom that ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3065,6 +3055,16 @@
         "cloud",
         "monitoring"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d78128952fedfbd52e5a92a7a7f6e71f",
+      "title": "Using VMs instead of thin clients to learn Linux things",
+      "url": "https://www.reddit.com/r/devops/comments/1wlgc2b/using_vms_instead_of_thin_clients_to_learn_linux/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-20T12:53:32+00:00",
+      "summary": "There’s a general advice that if you want to learn Linux, become a devops/sre you should build a homelab at home, the more nodes the better.  However, considering the current hardware prices I was thinking why not just run VMs on my PC to thinker around with Linux nodes ? This seems more flexible an",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
