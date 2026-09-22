@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:25:06Z",
+  "generated_at": "2026-09-22T18:05:53Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -742,16 +742,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f8d3090ea5048968409da8dc26aa677f",
-      "title": "17,600 Actions: Agent Security Is a Systems Problem",
-      "url": "https://www.docker.com/blog/ai-agent-security-systems-problem/",
-      "source": "Docker Blog",
-      "published_at": "2026-08-18T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "486ccca8c4468d428b7a894b475369f3",
       "title": "Docker Verified Publisher Applications Are Now Self-Serve",
       "url": "https://www.docker.com/blog/docker-verified-publisher-applications-are-now-self-serve/",
@@ -1072,16 +1062,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a6ccac96238c17dbb598ceda0f27ec2f",
-      "title": "Kubernetes access via an identity provider: Public client, not confidential",
-      "url": "https://www.cncf.io/blog/2026/09/08/kubernetes-access-via-an-identity-provider-public-client-not-confidential/",
-      "source": "CNCF Blog",
-      "published_at": "2026-09-08T11:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "239dcfe2ff657f4b5b114f5bb43446be",
       "title": "6 Benefits of Sandbox Environments (and How Docker Sandboxes Delivers Them)",
       "url": "https://www.docker.com/blog/benefits-of-sandbox-environments/",
@@ -1272,32 +1252,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "44a88a3586c3803cd3ea661d83f799e6",
-      "title": "Agents operate, humans govern: Scale your operations and reduce toil with Azure SRE Agent",
-      "url": "https://thenewstack.io/azure-sre-agent-operations/",
-      "source": "The New Stack",
-      "published_at": "2026-09-15T16:21:45+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c33e18b2c9dd5b7d65dd35a069040b2b",
       "title": "Simplifying Terraform for IBM Z with intent-driven workflows",
       "url": "https://www.hashicorp.com/blog/simplifying-terraform-for-ibm-z-with-intent-driven-workflows",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-15T16:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c8a593ce0c569abc48fa0350c4e4f6a0",
-      "title": "Devops avant l'avènement de l'IA et maintenant",
-      "url": "https://www.reddit.com/r/devops/comments/1wh2eze/devops_avant_lavènement_de_lia_et_maintenant/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-15T14:46:04+00:00",
-      "summary": "Avant je faisais du devops, je chassais les déploiements ratés, les helm upgrade qui foirait, les ingress capricieux, les scalings infinis. Maintenant je chasse les conneries des devs qui font du devops avec l'IA et qui sont pas prêts pour ce métier 😬 Vérifiez ce que fait l'IA pitié 🙏  &#32; submitt",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1373,21 +1333,6 @@
       "published_at": "2026-09-15T21:21:07+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "74353f71ff63c8c65fe0e76cec02dd77",
-      "title": "\"Too many levels of symbolic links\" with no symlink in sight: autofs, a bind mount and a cron container",
-      "url": "https://dev.to/goodbarber/too-many-levels-of-symbolic-links-with-no-symlink-in-sight-autofs-a-bind-mount-and-a-cron-20nf",
-      "source": "Dev.to",
-      "published_at": "2026-09-15T11:54:39Z",
-      "summary": "Our PHP crons hit ELOOP on local code. The path went through autofs. We removed that dependency with two Docker binds and a smaller map.",
-      "tags": [
-        "linux",
-        "docker",
-        "devops",
-        "debugging"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1807,21 +1752,6 @@
         "agents",
         "testing",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "236acd2414395355d2d22e0aea0e7702",
-      "title": "Linux, Git, Docker: Why That Order Matters",
-      "url": "https://dev.to/devopsdaily/linux-git-docker-why-that-order-matters-1go5",
-      "source": "Dev.to",
-      "published_at": "2026-09-15T16:00:00Z",
-      "summary": "Every roadmap gives you the same list. Linux, Git, Docker, then a cloud, then Kubernetes, then...",
-      "tags": [
-        "devops",
-        "linux",
-        "git",
-        "docker"
       ],
       "relevance_score": 0.0
     },
@@ -2618,21 +2548,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ac7e1b07e7b1d71088d7bc38079dfb19",
-      "title": "Kubernetes readiness and liveness probes: what they actually protect you from",
-      "url": "https://dev.to/amitshuklabag/kubernetes-readiness-and-liveness-probes-what-they-actually-protect-you-from-197a",
-      "source": "Dev.to",
-      "published_at": "2026-09-15T13:15:41Z",
-      "summary": "Two checks that look almost identical in the YAML and do completely different jobs.",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "cloudnative",
-        "containers"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "777b8f45d66df1e45b7fa65a7d33b862",
       "title": "istio/istio: Istio 1.31.0-rc.4",
       "url": "https://github.com/istio/istio/releases/tag/1.31.0-rc.4",
@@ -3009,6 +2924,141 @@
         "debugging",
         "api",
         "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0c0c27044d4aab8f10cfda93839ecc2e",
+      "title": "Secure AI agents with HashiCorp Boundary",
+      "url": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-09-29T07:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "93f52337f104f410d7fc50911f8ca690",
+      "title": "Claude’s merged chat and Cowork vs. ChatGPT’s Work mode: ChatGPT is faster, Claude is more thorough",
+      "url": "https://thenewstack.io/claude-cowork-vs-chatgpt-work-benchmark/",
+      "source": "The New Stack",
+      "published_at": "2026-09-22T17:45:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4759313af32d6667363589b272749e55",
+      "title": "Anthropic releases Opus 5.5 and cuts pricing by 20%. Your agent calls might secretly get routed to an older model.",
+      "url": "https://thenewstack.io/claude-opus-5-5-release/",
+      "source": "The New Stack",
+      "published_at": "2026-09-22T16:30:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4cd6ba00686a829cbe2bdf553395a490",
+      "title": "What Nobody Is Using in Your Google Cloud Projects, and What It Costs",
+      "url": "https://dev.to/gde/what-nobody-is-using-in-your-google-cloud-projects-and-what-it-costs-1k0",
+      "source": "Dev.to",
+      "published_at": "2026-09-22T15:14:36Z",
+      "summary": "A local-first CLI that scans Google Cloud projects for unused resources, prices each one from the Cloud Billing Catalog API, and drafts the cleanup. One call per project instead of one per region, read-only by default, and a Claude Code plugin over the same engine.",
+      "tags": [
+        "googlecloud",
+        "python",
+        "devops",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d3be2bc1629e4d2aad0cb359bd0f8225",
+      "title": "Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker",
+      "url": "https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026/",
+      "source": "Docker Blog",
+      "published_at": "2026-09-22T15:06:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4c52d8d36af09256801b1a0f8fe95ce4",
+      "title": "Configuration management",
+      "url": "https://www.reddit.com/r/devops/comments/1wnb752/configuration_management/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-22T14:34:27+00:00",
+      "summary": "Hello all, though I have quite a long experience, I never had to set up a configuration management system for a fleet of applications. Let me explain better: we deploy our microservices to kubernetes, each with its own configuration. We currently have a jenkins job that creates an application.json (",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e2d3b0f17f25d6ded7e217af3f65dcf1",
+      "title": "Ten Great DevOps Job Opportunities",
+      "url": "https://devops.com/ten-great-devops-job-opportunities-24/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-22T14:14:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "53d4a118f23f7937b56f387b6df42b76",
+      "title": "PostgreSQL 19's data checksums can now be switched on without stopping the server",
+      "url": "https://dev.to/alexgeorgiev17/postgresql-19s-data-checksums-can-now-be-switched-on-without-stopping-the-server-fn",
+      "source": "Dev.to",
+      "published_at": "2026-09-22T10:00:00Z",
+      "summary": "I measured PostgreSQL 19 beta's online checksum conversion against the old offline tool: roughly 1.3s of hard downtime the old way versus 2.8s of background work and 799MB of extra WAL the new way, with zero drop in concurrent write throughput.",
+      "tags": [
+        "postgres",
+        "database",
+        "devops",
+        "performance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "10167433e6efde6d3d09dd2a13fdc07c",
+      "title": "The Junior Ops Pipeline Did Not Collapse. It Never Existed.",
+      "url": "https://dev.to/devopsdaily/the-junior-ops-pipeline-did-not-collapse-it-never-existed-1ke3",
+      "source": "Dev.to",
+      "published_at": "2026-09-22T09:00:00Z",
+      "summary": "The story going round is about developers. Junior job postings down 60 to 70 percent since 2022....",
+      "tags": [
+        "devops",
+        "career",
+        "sre",
+        "hiring"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5e0c1d097fe80f593694f6d735ff8f9e",
+      "title": "Why GPU Availability Is Still the Biggest Bottleneck in ML Infra",
+      "url": "https://dev.to/sumukh_dev/why-gpu-availability-is-still-the-biggest-bottleneck-in-ml-infra-2bf0",
+      "source": "Dev.to",
+      "published_at": "2026-09-22T08:52:52Z",
+      "summary": "If you've ever had a training job ready to go and then sat there refreshing your cloud console...",
+      "tags": [
+        "machinelearning",
+        "infrastructure",
+        "gpu",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "907a1ae81959cbe49dc5fc1da2a6f78a",
+      "title": "I let a local 27B LLM audit and fix my Splunk + Sysmon stack",
+      "url": "https://dev.to/analista_83/i-let-a-local-27b-llm-audit-and-fix-my-splunk-sysmon-stack-c47",
+      "source": "Dev.to",
+      "published_at": "2026-09-17T20:15:24Z",
+      "summary": "A 27B model on my own GPU audited my Splunk and Sysmon install with zero cloud: 10 real findings, and it fixed some of them itself, including two false positives from its own earlier audits.",
+      "tags": [
+        "ai",
+        "security",
+        "llm",
+        "devops"
       ],
       "relevance_score": 0.0
     }
