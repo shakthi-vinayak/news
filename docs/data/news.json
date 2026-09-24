@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:26:02Z",
+  "generated_at": "2026-09-24T23:12:47Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1142,56 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "77832283f5b499038caba730a2b8241b",
-      "title": "ollama/ollama: v0.34.2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-09-17T23:04:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e35954cd2ef45471119e5851f08692cf",
-      "title": "langchain-ai/langchain: langchain-typesafe==0.0.1a2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-17T22:24:59+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c31b8a43940967af2f9e5ce114a5fcac",
-      "title": "Anthropic Brings Parallel Coding Workflows to Claude Projects",
-      "url": "https://devops.com/anthropic-brings-parallel-coding-workflows-to-claude-projects/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-17T22:15:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d9d7a61e754addf1bc567ecc6d623bf7",
-      "title": "Intel squeezed a 1.58-bit LLM down to 1.485 bits without changing a single weight",
-      "url": "https://thenewstack.io/intel-bitcos-ternary-compression/",
-      "source": "The New Stack",
-      "published_at": "2026-09-17T20:51:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b672fb84eb1b0d5b0ffbf3eed80deeab",
-      "title": "“Be transparent only if asked”: OpenAI’s models learned to leave notes for their future selves",
-      "url": "https://thenewstack.io/openai-model-misalignment-reports/",
-      "source": "The New Stack",
-      "published_at": "2026-09-17T18:27:44+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "93ee0e2762f9ad3f1718a695ab4c741d",
       "title": "What’s the worst in-house DevOps tool you built that you wish a SaaS company would replace?",
       "url": "https://www.reddit.com/r/devops/comments/1wje1wz/whats_the_worst_inhouse_devops_tool_you_built/",
@@ -1204,16 +1154,6 @@
         "Platform Engineering"
       ],
       "relevance_score": 0.8
-    },
-    {
-      "id": "1e1621bde6e85d3e5d870d350db699cf",
-      "title": "Do you decouple Terraform state within each environment?",
-      "url": "https://www.reddit.com/r/devops/comments/1wj76xq/do_you_decouple_terraform_state_within_each/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-17T21:39:29+00:00",
-      "summary": "For those managing Terraform in production, how do you structure state within each environment? Do you keep networking, DNS, EKS, database, etc. together, or separate them into independent layers like: dev/01-networking/ dev/02-dns/ dev/03-eks/ dev/04-database/ with each layer having its own Terrafo",
-      "tags": [],
-      "relevance_score": 0.0
     },
     {
       "id": "383b7b6e57d6b3db98c2bdb01ac5a962",
@@ -2201,21 +2141,6 @@
         "DevOps"
       ],
       "relevance_score": 0.95
-    },
-    {
-      "id": "907a1ae81959cbe49dc5fc1da2a6f78a",
-      "title": "I let a local 27B LLM audit and fix my Splunk + Sysmon stack",
-      "url": "https://dev.to/analista_83/i-let-a-local-27b-llm-audit-and-fix-my-splunk-sysmon-stack-c47",
-      "source": "Dev.to",
-      "published_at": "2026-09-17T20:15:24Z",
-      "summary": "A 27B model on my own GPU audited my Splunk and Sysmon install with zero cloud: 10 real findings, and it fixed some of them itself, including two false positives from its own earlier audits.",
-      "tags": [
-        "ai",
-        "security",
-        "llm",
-        "devops"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "65b0fe655ec5b671170bd1a0580fb51b",
@@ -3212,6 +3137,36 @@
       "source": "The New Stack",
       "published_at": "2026-09-24T14:27:27+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1ef48ba227eb92b24236521b9e933cdd",
+      "title": "Beste Embedded-Messe mit DevOps-Fokus im DACH-Raum?",
+      "url": "https://www.reddit.com/r/devops/comments/1wpbkcl/beste_embeddedmesse_mit_devopsfokus_im_dachraum/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-24T19:45:05+00:00",
+      "summary": "Ich bin DevOps Engineer und betreue vorrangig ein Embedded-Entwicklerteam. Ich suche eine Messe oder Konferenz, bevorzugt im DACH-Raum, gerne aber auch anderswo in Europa, die sich klar auf Embedded-Software konzentriert und DevOps-Themen wie CI/CD für Firmware, HIL-Tests und OTA-Updates fundiert be",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "93ce6bf5c9b5dee43a68d82d8afea057",
+      "title": "OpenAI’s agent had a routine task. It breached a government portal.",
+      "url": "https://thenewstack.io/ai-agents-probe-vulnerabilities/",
+      "source": "The New Stack",
+      "published_at": "2026-09-24T19:16:28+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "182cedc52286ae65f604e26f3e1c6f31",
+      "title": "[OC] gha-oidc-claimsim (RC): offline CLI — GHA OIDC claims vs IAM trust JSON",
+      "url": "https://www.reddit.com/r/devops/comments/1wp7aex/oc_ghaoidcclaimsim_rc_offline_cli_gha_oidc_claims/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-24T17:04:13+00:00",
+      "summary": "Built a small Apache-2.0 CLI for platform/security/CI folks wiring GitHub Actions → AWS OIDC. It takes workflow event context JSON + IAM trust policy JSON, predicts default OIDC sub/aud, and prints ALLOW or DENY with reasons — no STS, no AWS credentials, no network. Main wedge: branch-pinned trust (",
       "tags": [],
       "relevance_score": 0.0
     }
