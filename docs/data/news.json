@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T07:35:36Z",
+  "generated_at": "2026-09-24T13:32:58Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -982,16 +982,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c480937750f57600d5b457e2590cf5c1",
-      "title": "Whose GPUs are these, anyway? Secure, self-service metrics for multi-tenant Kubernetes",
-      "url": "https://www.cncf.io/blog/2026/09/09/whose-gpus-are-these-anyway-secure-self-service-metrics-for-multi-tenant-kubernetes/",
-      "source": "CNCF Blog",
-      "published_at": "2026-09-09T11:27:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "62dd53fb4cd4c92f6a420cb7d10bb46a",
       "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
       "url": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
@@ -1182,106 +1172,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d670e74d32a078541611b46656b26158",
-      "title": "Migrating existing CloudFormation resources to OpenTofu -recommended approach?",
-      "url": "https://www.reddit.com/r/devops/comments/1witrgz/migrating_existing_cloudformation_resources_to/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-17T13:17:36+00:00",
-      "summary": "Hi everyone, We’re planning to migrate a large number of existing AWS resources currently managed through CloudFormation to OpenTofu. Our environments are fairly siloed per customer, and each environment can include resources such as EC2 instances, load balancers, Auto Scaling Groups, VPCs, security",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8f8ee94eaae3e3e2abf2eb2212bb0187",
-      "title": "apache/airflow: Apache Airflow 3.3.2",
-      "url": "https://github.com/apache/airflow/releases/tag/3.3.2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-17T11:10:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "cdfc63a9fcbda99639f8d2e226b5dc0b",
       "title": "OpenTelemetry everywhere: Migrating a metrics platform at scale",
       "url": "https://www.cncf.io/blog/2026/09/17/opentelemetry-everywhere-migrating-a-metrics-platform-at-scale/",
       "source": "CNCF Blog",
       "published_at": "2026-09-17T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "72c08458c1f7f65f76571786493c38c7",
-      "title": "apache/airflow: task-sdk/1.3.2",
-      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.3.2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-17T09:34:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "94e2c714043ed478b54967d66ba6356d",
-      "title": "apache/airflow: constraints-latest",
-      "url": "https://github.com/apache/airflow/releases/tag/constraints-latest",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-17T09:30:49+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "41397145696da6db08aedf20454fb9b8",
-      "title": "apache/airflow: constraints-3.3.2",
-      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.3.2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-17T09:20:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bbb46330037a10c85793bf80915060fb",
-      "title": "Running a Terraform-managed IaaS lab on an M4 Max Mac with Parallels. I patched the provider to allow vCPU overcommit.",
-      "url": "https://www.reddit.com/r/devops/comments/1wip0hi/running_a_terraformmanaged_iaas_lab_on_an_m4_max/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-17T09:19:49+00:00",
-      "summary": "How to run a Terraform-managed IaaS lab on an M4 Max Mac using Parallels, including a provider patch for vCPU overcommit.",
-      "tags": [
-        "Terraform",
-        "DevOps",
-        "Cloud",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "455ec1c7be827dadab54dd2ae97264ef",
-      "title": "n8n-io/n8n: n8n@1.123.81",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.81",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-17T08:01:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6a036af16bf9b0c73c322730995449f7",
-      "title": "n8n-io/n8n: n8n@2.39.7",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.7",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-17T07:49:13+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "03691df55fa75f779928f071ef94d531",
-      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.81 (#38899)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-17T07:35:42+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1450,36 +1345,6 @@
       "published_at": "2026-09-17T21:39:29+00:00",
       "summary": "For those managing Terraform in production, how do you structure state within each environment? Do you keep networking, DNS, EKS, database, etc. together, or separate them into independent layers like: dev/01-networking/ dev/02-dns/ dev/03-eks/ dev/04-database/ with each layer having its own Terrafo",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c65844252ad3b1841f777d52d7623aec",
-      "title": "Twelve Checks That Could Not Fail",
-      "url": "https://dev.to/efe_genc/twelve-checks-that-could-not-fail-4lea",
-      "source": "Dev.to",
-      "published_at": "2026-09-17T10:55:05Z",
-      "summary": "A reader pointed out that three characters in my release script were what made a broken check pass. He was right, and I measured it. Then I counted how many other checks in my own repositories had the same shape.",
-      "tags": [
-        "testing",
-        "devops",
-        "bash",
-        "codequality"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d0aea6954ba66da8362c4eaa960c775d",
-      "title": "Boris Cherny's Steps of AI Adoption, Through the Eyes of Our Pipeline",
-      "url": "https://dev.to/jula-markova/boris-chernys-steps-of-ai-adoption-through-the-eyes-of-our-pipeline-4nef",
-      "source": "Dev.to",
-      "published_at": "2026-09-17T08:23:57Z",
-      "summary": "You run Claude Code, or something like it, on a real codebase. Your CLAUDE.md grew one line at a...",
-      "tags": [
-        "ai",
-        "llm",
-        "programming",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1796,14 +1661,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1wkvk6c/how_are_people_currently_managing_aws_access_for/",
       "source": "Reddit r/devops",
       "published_at": "2026-09-19T19:43:20+00:00",
-      "summary": "Examines how teams secure AWS access for AI agents, discussing credential management, least‑privilege policies, and tools for safe agent‑to‑cloud interactions.",
-      "tags": [
-        "AI",
-        "Cloud",
-        "Security",
-        "DevOps"
-      ],
-      "relevance_score": 0.85
+      "summary": "I'm currently looking into how to securely manage AWS access for AI agents like Claude Code within our organization.  Right now, our developers have a role that grants them some write access to specific services in our dev and nonprod environments. However, I really don't want them using this same r",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "1020bf50e4ee8049980856e9e8dca24a",
@@ -3249,13 +3109,138 @@
       "relevance_score": 0.0
     },
     {
-      "id": "77e54a8dd16a052d9631b911c389de6d",
-      "title": "Monthly: Who is hiring?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1w47fx7/monthly_who_is_hiring/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-01T10:00:13+00:00",
-      "summary": "This monthly post can be used to share Kubernetes-related job openings within your company. Please include:  Name of the company Location requirements (or lack thereof) At least one of: a link to a job posting/application page or contact details  If you are interested in a job, please contact the po",
+      "id": "522983d9061ee217dfb1b4f2135239b4",
+      "title": "OpenAI makes you call sales for a custom voice. Google just made it self-serve.",
+      "url": "https://thenewstack.io/gemini-tts-voice-replication-api/",
+      "source": "The New Stack",
+      "published_at": "2026-09-24T13:20:11+00:00",
+      "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a180a0361754d8ca62e6a56019948058",
+      "title": "What managing 150,000 AI agents could look like for database teams",
+      "url": "https://thenewstack.io/ai-agents-database-administrators/",
+      "source": "The New Stack",
+      "published_at": "2026-09-24T13:11:55+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3888b286c82e06c9ace5177d01206dc7",
+      "title": "Observability Day: Where the community comes together at KubeCon + CloudNativeCon North America 2026",
+      "url": "https://www.cncf.io/blog/2026/09/24/observability-day-where-the-community-comes-together-at-kubecon-cloudnativecon-north-america-2026/",
+      "source": "CNCF Blog",
+      "published_at": "2026-09-24T12:22:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "59a6431e5ad88ac5d7a489b38a4419de",
+      "title": "The Observability Tax: When Monitoring Costs Exceed Downtime Costs",
+      "url": "https://devops.com/the-observability-tax-when-monitoring-costs-exceed-downtime-costs/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-24T11:41:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3a4d4d1cdf9d11420991e4b63eeacba4",
+      "title": "langchain-ai/langchain: langchain-openai==1.6.6",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-24T11:31:33+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5b6e612c47d49a2b97102e906006ba6c",
+      "title": "Git 2.55's reftable backend creates 10,000 refs in 40ms instead of 650ms",
+      "url": "https://dev.to/alexgeorgiev17/git-255s-reftable-backend-creates-10000-refs-in-40ms-instead-of-650ms-inn",
+      "source": "Dev.to",
+      "published_at": "2026-09-24T10:00:00Z",
+      "summary": "Git's reftable ref backend cut a 10,000-branch bulk write from up to 650ms to about 40ms and shrank the ref store from 40MB to 272KB. Push 150 concurrent writers at it and roughly 40% failed outright with the default lock timeout.",
+      "tags": [
+        "git",
+        "devops",
+        "performance",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d7c634354465789c8fd512ff789e0a36",
+      "title": "Your Semantic Cache Answers the Question Next Door",
+      "url": "https://dev.to/devopsdaily/your-semantic-cache-answers-the-question-next-door-3d55",
+      "source": "Dev.to",
+      "published_at": "2026-09-24T09:00:00Z",
+      "summary": "We replayed 288 questions to an ops assistant through a semantic cache. At a similarity threshold of...",
+      "tags": [
+        "devops",
+        "ai",
+        "caching",
+        "embeddings"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cce35f3668b32f0580f5bae410b2a7c4",
+      "title": "apache/airflow: providers-telegram/4.10.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-telegram%2F4.10.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-24T07:57:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9beee9967473c937598fea9216b266f3",
+      "title": "apache/airflow: providers-trino/6.7.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-trino%2F6.7.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-24T07:57:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c6ddd3a7998a8e1ca22b41aeb50ec0ee",
+      "title": "apache/airflow: providers-weaviate/3.5.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-weaviate%2F3.5.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-24T07:57:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "359811ed5a3f7be51938aa0468330972",
+      "title": "apache/airflow: providers-yandex/4.6.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-yandex%2F4.6.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-09-24T07:57:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "79c71bad6cca8cd8aac338131e51d764",
+      "title": "Privilege Grants Do Not Belong on Free Inference",
+      "url": "https://dev.to/aiio_6471/privilege-grants-do-not-belong-on-free-inference-6dd",
+      "source": "Dev.to",
+      "published_at": "2026-09-18T08:19:12Z",
+      "summary": "A privilege grant is a production write. Free inference is a best-effort drafting surface. Piping a...",
+      "tags": [
+        "ai",
+        "security",
+        "devops",
+        "aws"
+      ],
       "relevance_score": 0.0
     }
   ]
