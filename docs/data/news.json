@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:43:50Z",
+  "generated_at": "2026-09-25T17:06:40Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -652,16 +652,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "dd171b62379e1aa53b44b30757ac6a86",
-      "title": "Forensic container checkpointing on Amazon Elastic Kubernetes Service (Amazon EKS)",
-      "url": "https://aws.amazon.com/blogs/containers/forensic-container-checkpointing-on-amazon-eks/",
-      "source": "AWS Blog (Containers)",
-      "published_at": "2026-08-12T17:38:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7d73dfeee830719c108b69ff1019b05f",
       "title": "Get closer to the game with Gemini and Pixel",
       "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
@@ -1122,36 +1112,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "91434dec5560c83d7b452845ce2cd278",
-      "title": "Kubernetes can run AI inference. But can it count the real cost?",
-      "url": "https://thenewstack.io/kubernetes-ai-inference-costs/",
-      "source": "The New Stack",
-      "published_at": "2026-09-18T15:53:21+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b66c3f30443cca0ac87ea5f632db7485",
-      "title": "Your agent is only as good as your infrastructure",
-      "url": "https://thenewstack.io/ai-agent-infrastructure-performance/",
-      "source": "The New Stack",
-      "published_at": "2026-09-18T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2e2d004dc96ebfcfa2a96e6e06944ca2",
-      "title": "Open-weight models now handle a majority of tokens on Vercel’s AI Gateway. But Anthropic still takes 64% of the spend.",
-      "url": "https://thenewstack.io/open-weight-anthropic-spend/",
-      "source": "The New Stack",
-      "published_at": "2026-09-18T12:42:58+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d1467d5f0443a8daea46de65a55b1cfb",
       "title": "Simplify compliance with the native pre-written policy experience in HCP Terraform",
       "url": "https://www.hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform",
@@ -1203,37 +1163,6 @@
       "published_at": "2026-09-18T17:31:27+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "507a4d13cdb00842d3a36cfe948dfab7",
-      "title": "I Built an AI Agent That Audits AWS (And It Can't Touch Anything)",
-      "url": "https://dev.to/aws-builders/i-built-an-ai-agent-that-audits-aws-and-it-cant-touch-anything-4nip",
-      "source": "Dev.to",
-      "published_at": "2026-09-18T15:12:34Z",
-      "summary": "Demonstrates an AI agent that audits AWS configurations with read-only permissions, ensuring security compliance without mutation risk.",
-      "tags": [
-        "AI",
-        "Cloud",
-        "Security",
-        "DevOps",
-        "LLMOps"
-      ],
-      "relevance_score": 0.85
-    },
-    {
-      "id": "33a39a4d276560f599698ebbcd738e9c",
-      "title": "I almost replaced Lovable with a $5 VPS, Dokploy and one MCP gateway",
-      "url": "https://dev.to/k2sodev/i-almost-replaced-lovable-with-a-5-vps-dokploy-and-one-mcp-gateway-3mn9",
-      "source": "Dev.to",
-      "published_at": "2026-09-18T13:07:06Z",
-      "summary": "Lovable is nice. You describe a site, an agent writes it, you click publish. It also costs $25–50 a...",
-      "tags": [
-        "ai",
-        "devops",
-        "opensource",
-        "mcp"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1959,13 +1888,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1wnb752/configuration_management/",
       "source": "Reddit r/devops",
       "published_at": "2026-09-22T14:34:27+00:00",
-      "summary": "Reddit discussion on configuration management strategies, tools, and best practices for infrastructure and applications.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering",
-        "Cloud"
-      ],
-      "relevance_score": 0.85
+      "summary": "Hello all, though I have quite a long experience, I never had to set up a configuration management system for a fleet of applications. Let me explain better: we deploy our microservices to kubernetes, each with its own configuration. We currently have a jenkins job that creates an application.json (",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "e2d3b0f17f25d6ded7e217af3f65dcf1",
@@ -3000,22 +2925,10 @@
       "title": "ollama/ollama: v0.40.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
       "source": "GitHub Releases (ollama)",
-      "published_at": "2026-09-25T03:31:52+00:00",
+      "published_at": "2026-09-25T15:22:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "70c592dbffaa7fb4f16671fa0227e5ed",
-      "title": "The Interface Module Pattern",
-      "url": "https://dev.to/tonedefdev/the-interface-module-pattern-58a2",
-      "source": "Dev.to",
-      "published_at": "2026-09-18T15:25:00Z",
-      "summary": "The Interface Module Pattern provides a structured way to define service interfaces and decouple components in platform code.",
-      "tags": [
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.7
     },
     {
       "id": "e65cb9d8ef61a6c602d5b5ae12ab1eb2",
@@ -3134,6 +3047,106 @@
         "agents",
         "seo",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0ca7e39f33fefc5e28fcb3e5f502512f",
+      "title": "OpenTelemetry and Prometheus are getting along. What’s still missing?",
+      "url": "https://thenewstack.io/opentelemetry-prometheus-observability-interoperability/",
+      "source": "The New Stack",
+      "published_at": "2026-09-25T16:56:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "590c5f12d12516f5d12514456636b17f",
+      "title": "One Amazon EKS, many edges: How to choose your edge container strategy on AWS",
+      "url": "https://aws.amazon.com/blogs/containers/one-amazon-eks-many-edges-how-to-choose-your-edge-container-strategy-on-aws/",
+      "source": "AWS Blog (Containers)",
+      "published_at": "2026-09-25T15:52:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3a471740b490c2a771b07ede6f17f22b",
+      "title": "GRO Hid My TLS Handshake's Real Packet Split, Even Over a Real Network",
+      "url": "https://dev.to/alexgeorgiev17/gro-hid-my-tls-handshakes-real-packet-split-even-over-a-real-network-2eec",
+      "source": "Dev.to",
+      "published_at": "2026-09-25T15:00:00Z",
+      "summary": "Docker couldn't show me whether a post-quantum TLS handshake really splits across two TCP segments, same-host GSO hides it. Testing over a real external network wasn't enough either, until I found and disabled GRO, a default on basically any Linux cloud VM.",
+      "tags": [
+        "networking",
+        "tls",
+        "linux",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "675d7104bb122bfeb2e02655f3eda15b",
+      "title": "I Followed the n8n AWS Docs and It Broke at the First Command",
+      "url": "https://dev.to/aws-builders/i-followed-the-n8n-aws-docs-and-it-broke-at-the-first-command-4e1k",
+      "source": "Dev.to",
+      "published_at": "2026-09-25T14:09:50Z",
+      "summary": "The one command that breaks n8n self-hosting on Amazon Linux 2023, why it happens, and the full paste-ready Docker Compose setup that gets you from a bare EC2 box to your first login.",
+      "tags": [
+        "aws",
+        "n8n",
+        "docker",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "37df8ed2ca53dd0f2643dee8aea78014",
+      "title": "langchain-ai/langchain: langchain-fireworks==1.6.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-25T12:57:40+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "615e528b021276d48b61901a41f7eefb",
+      "title": "OpenAI and Cursor agree on agent coordinators. They disagree on who runs them.",
+      "url": "https://thenewstack.io/openai-cursor-coordinator-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-09-25T12:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ade4cfbfc40029a78699438dc1e04fe6",
+      "title": "Kubernetes 1.37's kyaml output closes a YAML bug that still deletes data on apply",
+      "url": "https://dev.to/alexgeorgiev17/kubernetes-137s-kyaml-output-closes-a-yaml-bug-that-still-deletes-data-on-apply-527a",
+      "source": "Dev.to",
+      "published_at": "2026-09-25T10:00:00Z",
+      "summary": "I fed Kubernetes 1.37 a batch of Norway-bug values by hand: 8 got rejected outright, 2 got rejected as numbers, and 2 vanished from the object with no error at all. kyaml output survives all of them.",
+      "tags": [
+        "kubernetes",
+        "yaml",
+        "devops",
+        "kubectl"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e72b2e6e2d86e4bd6e619919ef9e8742",
+      "title": "Deploy a Complete AI Incident Backend on One Neon Branch",
+      "url": "https://dev.to/devopsdaily/deploy-a-complete-ai-incident-backend-on-one-neon-branch-1873",
+      "source": "Dev.to",
+      "published_at": "2026-09-24T09:00:00Z",
+      "summary": "A preview environment is only isolated if all of its state follows the preview. Giving a pull request...",
+      "tags": [
+        "neon",
+        "devops",
+        "serverless",
+        "postgres"
       ],
       "relevance_score": 0.0
     }
