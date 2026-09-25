@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:06:40Z",
+  "generated_at": "2026-09-25T21:30:21Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1117,50 +1117,6 @@
       "url": "https://www.hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-17T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fe9e50df2b0f2dfdf598cc3bdbc60a3d",
-      "title": "Claude couldn’t hack OpenAI. Then Anthropic shipped Opus 5.",
-      "url": "https://thenewstack.io/claude-exploits-openai-forum/",
-      "source": "The New Stack",
-      "published_at": "2026-09-18T18:57:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4f63d164268e498f103f3dba642deb23",
-      "title": "Building a Production-Grade End-to-End MLOps Pipeline from Scratch",
-      "url": "https://dev.to/naman_2004/building-a-production-grade-end-to-end-mlops-pipeline-from-scratch-l9h",
-      "source": "Dev.to",
-      "published_at": "2026-09-18T18:21:06Z",
-      "summary": "A step‑by‑step guide to building a production‑ready MLOps pipeline from scratch, covering data, training, deployment, and monitoring.",
-      "tags": [
-        "MLOps",
-        "CI/CD",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "a46ceecc15a17cd6433bf330754579a3",
-      "title": "Suggestions / Support Needed",
-      "url": "https://www.reddit.com/r/devops/comments/1wjxduk/suggestions_support_needed/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-18T17:56:51+00:00",
-      "summary": "Hi Champions, I’m having 5yoe as a DevOps engineer and in my early career I was working mostly with service based companies. It gave me pretty much experience and foundational understanding of each stack deployments, pipelines, clouds and more. From last 2 years I am working with on prem enterprise ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9982dd0d865723305aeb5e7fd5397a9b",
-      "title": "langchain-ai/langchain: langchain==1.4.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.2",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-18T17:31:27+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3147,6 +3103,76 @@
         "devops",
         "serverless",
         "postgres"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "207acc416c8c12f8c0a1f9bf2892d677",
+      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Container Management",
+      "url": "https://aws.amazon.com/blogs/containers/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
+      "source": "AWS Blog (Containers)",
+      "published_at": "2026-09-25T21:18:33+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "80adc444fc056d28d03b0b27bcb35a3b",
+      "title": "How do you know which engineering issues need attention before they become expensive?",
+      "url": "https://www.reddit.com/r/devops/comments/1wq6da2/how_do_you_know_which_engineering_issues_need/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-25T20:03:09+00:00",
+      "summary": "I'm doing a bit research on how DevOps/SRE teams handle this. Let's suppose you have  a Datadog alert a Sentry issue a Jira/Linear ticket  It gets noticed, but doesn’t get resolved for hours or days. Eventually it affects customers, causes downtime, delays something important, or starts costing the ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "377eaa55562a0a8c63b0621cb5cb2e9c",
+      "title": "How do DevOps team notice issues before they become a big problem?",
+      "url": "https://www.reddit.com/r/devops/comments/1wq53pm/how_do_devops_team_notice_issues_before_they/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-25T19:13:14+00:00",
+      "summary": "Last week I’ve spent it researching about this specific problem before I go deeper and build something for this so PLEASE reply if you suffer from it. So issues talking about Jira or Linear tickets, Sentry issues, Datadog alerts or whatever that sit for a LOTTT of time before getting resolved which ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5c8f36bb7cb8e9ba4a22d937aa08b84a",
+      "title": "My Agent Shipped a Post I Gated. It Stayed Live for a Day.",
+      "url": "https://dev.to/mrsaynothing/my-agent-shipped-a-post-i-gated-it-stayed-live-for-a-day-4fcd",
+      "source": "Dev.to",
+      "published_at": "2026-09-25T17:57:29Z",
+      "summary": "Three batch commits swept a gated post onto this live site. What broke, why globs did it, and the two checks that now run after every deploy. Readers debate where pipeline gates belong: prose or code.",
+      "tags": [
+        "discuss",
+        "ai",
+        "automation",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c3405445d88baae4e496e0593b9b9bda",
+      "title": "Microsoft’s new Copilot agents get their own email, calendar — and a place in the org chart",
+      "url": "https://thenewstack.io/copilot-agents-identity-runtime/",
+      "source": "The New Stack",
+      "published_at": "2026-09-25T17:16:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7d3cab850b707fbed3808c87fcd84e20",
+      "title": "The 1.4 milliseconds that separate managed Postgres from a local one",
+      "url": "https://dev.to/remdore/the-14-milliseconds-that-separate-managed-postgres-from-a-local-one-26de",
+      "source": "Dev.to",
+      "published_at": "2026-09-25T17:10:58Z",
+      "summary": "One app, two identical Postgres 17 databases, same region. Local was 4 to 7 times faster on reads because of network latency paid per query. Managed capped at 25 connections with 11 already used, and failed outright past 20 clients until I added the pooler.",
+      "tags": [
+        "postgres",
+        "database",
+        "devops",
+        "performance"
       ],
       "relevance_score": 0.0
     }
