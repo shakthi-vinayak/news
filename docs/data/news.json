@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T13:01:48Z",
+  "generated_at": "2026-09-26T17:46:38Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,16 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e30c8bd2448152c996cc5f6c663ade91",
-      "title": "Devops learning path suggestion with AWS",
-      "url": "https://www.reddit.com/r/devops/comments/1wkq74m/devops_learning_path_suggestion_with_aws/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-19T16:11:22+00:00",
-      "summary": "Hu everyone, i am in 7th semester of college and i have a course about devops. I want to rely on uni course but go deep into devops and maybe look for career into devops. Any courses that you would suggest?  In college we are using aws for all the major things. I have done a course on linux, and com",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4643bba1e491e2464ca7ba3e1c532f6b",
       "title": "How are people currently managing AWS access for AI agents? I'm looking into different approaches for securely handling permissions and credentials when agents need to interact with AWS services.",
       "url": "https://www.reddit.com/r/devops/comments/1wkvk6c/how_are_people_currently_managing_aws_access_for/",
@@ -1149,21 +1139,6 @@
       "published_at": "2026-09-19T23:32:36+00:00",
       "summary": "hey all, trying to place my backend as close to vercel’s iad1 &amp; seems like it’s at AWS us-east-1. Iirc there’s like, 6 AZ’s for us-east-1 (use1-az1 through use1-az6) any idea on which would be the best place to drop an instance? was thinking az1 as default but would appreciate any experienced in",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "47e97be0e6714f1fdedc374c25e88781",
-      "title": "Your LLM Pipeline Never Throws: Three Guardrails for Silent AI Failure",
-      "url": "https://dev.to/robat_das_3c6e956212f6408/your-llm-pipeline-never-throws-three-guardrails-for-silent-ai-failure-5b6m",
-      "source": "Dev.to",
-      "published_at": "2026-09-19T13:42:27Z",
-      "summary": "42% of companies scrapped most of their AI projects in 2025. Bad models weren't the cause — a degrading one still returns 200 OK. Here's how to catch it.",
-      "tags": [
-        "ai",
-        "python",
-        "devops",
-        "machinelearning"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1328,21 +1303,6 @@
         "terraform",
         "devops",
         "architecture"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a89a22e56206af3da748a039d580c32a",
-      "title": "Your Cypress Retry Passed - But the Test Is Still Telling You Something",
-      "url": "https://dev.to/raju_dandigam/your-cypress-retry-passed-but-the-test-is-still-telling-you-something-37hf",
-      "source": "Dev.to",
-      "published_at": "2026-09-19T17:36:31Z",
-      "summary": "Attempt one fails. Attempt two passes. CI turns green.  Did the system recover from harmless noise,...",
-      "tags": [
-        "cypress",
-        "testing",
-        "devops",
-        "sre"
       ],
       "relevance_score": 0.0
     },
@@ -2480,16 +2440,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d16aa50d42cb42bfd9c40ac0084e0be5",
-      "title": "Has anyone here been running a Voice AI / Agent Builder platform on Kubernetes in production?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wknuk5/has_anyone_here_been_running_a_voice_ai_agent/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-19T14:34:57+00:00",
-      "summary": "I’m especially interested in platforms where you’re dealing with things like: Real-time voice agents SIP / PSTN traffic WebRTC STT → LLM → TTS pipelines WebSocket-based streaming Agent/workflow builders Multiple concurrent calls GPU workloads for speech models We’re currently exploring this architec",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "522983d9061ee217dfb1b4f2135239b4",
       "title": "OpenAI makes you call sales for a custom voice. Google just made it self-serve.",
       "url": "https://thenewstack.io/gemini-tts-voice-replication-api/",
@@ -3132,6 +3082,41 @@
         "ai",
         "devops",
         "automation"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5023dddbc7db207c0af9f13765cafef1",
+      "title": "The agent didn’t break your controls. It went around them.",
+      "url": "https://thenewstack.io/inside-out-agent-security/",
+      "source": "The New Stack",
+      "published_at": "2026-09-26T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b7ecd0763f29fd8393e8abee29f277ed",
+      "title": "Claude Opus 5.5 vs. Opus 5 on reasoning tasks: Cheaper, faster, but not better",
+      "url": "https://thenewstack.io/claude-opus-5-5-vs-opus-5/",
+      "source": "The New Stack",
+      "published_at": "2026-09-26T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "87626cfcbfbeb5e3ed1a8fef0d1e74c1",
+      "title": "systemd's mstack tool mounts a single-layer directory writable by default",
+      "url": "https://dev.to/alexgeorgiev17/systemds-mstack-tool-mounts-a-single-layer-directory-writable-by-default-48p",
+      "source": "Dev.to",
+      "published_at": "2026-09-26T10:00:00Z",
+      "summary": "I tested systemd 261's mstack overlay tool: a one-layer stack with no rw/ folder mounts read-write and writes land straight in your source files, no warning given.",
+      "tags": [
+        "systemd",
+        "linux",
+        "docker",
+        "devops"
       ],
       "relevance_score": 0.0
     }
