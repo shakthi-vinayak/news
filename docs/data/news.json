@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:32:52Z",
+  "generated_at": "2026-09-26T13:01:48Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,41 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a3a5510b078de9f2d6ee1e258928a8ba",
-      "title": "ollama/ollama: v0.34.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-09-19T08:10:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "271f02b298673f13fa82b7f6a82079fb",
-      "title": "This week’s news from Zed, Anthropic, and OpenRouter shows why better harnesses matter more than better models",
-      "url": "https://thenewstack.io/ai-agent-harness-economics/",
-      "source": "The New Stack",
-      "published_at": "2026-09-19T10:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3e90c2ac210d1d16b677a1ef5d2663e5",
-      "title": "Caddy 2.11's default post-quantum key exchange sends six times more handshake bytes",
-      "url": "https://dev.to/alexgeorgiev17/caddy-211s-default-post-quantum-key-exchange-sends-six-times-more-handshake-bytes-38g3",
-      "source": "Dev.to",
-      "published_at": "2026-09-19T08:00:00Z",
-      "summary": "I measured Caddy's new default X25519MLKEM768 key exchange against classical X25519: ClientHello grows from 318 to 1494 bytes, ServerHello from 122 to 1210, but the raw crypto costs under 65 microseconds and old clients still connect fine.",
-      "tags": [
-        "caddy",
-        "security",
-        "performance",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e30c8bd2448152c996cc5f6c663ade91",
       "title": "Devops learning path suggestion with AWS",
       "url": "https://www.reddit.com/r/devops/comments/1wkq74m/devops_learning_path_suggestion_with_aws/",
@@ -1165,29 +1130,6 @@
       "summary": "Hu everyone, i am in 7th semester of college and i have a course about devops. I want to rely on uni course but go deep into devops and maybe look for career into devops. Any courses that you would suggest?  In college we are using aws for all the major things. I have done a course on linux, and com",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "2771620060a6318b88913660bd59aa5b",
-      "title": "“Dormant deployments were quietly consuming storage”: Why Vercel tightened its free-tier rules",
-      "url": "https://thenewstack.io/vercel-hobby-deployment-retention/",
-      "source": "The New Stack",
-      "published_at": "2026-09-19T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0a4faf4a4e1db47f9df3ddbca584eb7b",
-      "title": "Why I Built VortexMQ: A 167M ops/sec Message Broker in 100% Pure Go",
-      "url": "https://dev.to/anshugarg/why-i-built-vortexmq-a-167m-opssec-message-broker-in-100-pure-go-2577",
-      "source": "Dev.to",
-      "published_at": "2026-09-19T09:33:56Z",
-      "summary": "Describes building VortexMQ, a high‑throughput Go‑based message broker achieving 167 million operations per second, aimed at scalable infrastructure for DevOps and platform teams.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.85
     },
     {
       "id": "4643bba1e491e2464ca7ba3e1c532f6b",
@@ -2115,21 +2057,6 @@
         "node",
         "performance",
         "showdev"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0f54c7d45c1decedd2b1ba81ecd04365",
-      "title": "My Paper Trading Bot Went Live This Week — Here's the Guardrail Stack I Built First",
-      "url": "https://dev.to/samhartley_dev/my-paper-trading-bot-went-live-this-week-heres-the-guardrail-stack-i-built-first-e48",
-      "source": "Dev.to",
-      "published_at": "2026-09-19T08:36:16Z",
-      "summary": "My Paper Trading Bot Went Live This Week — Here's the Guardrail Stack I Built...",
-      "tags": [
-        "ai",
-        "python",
-        "devops",
-        "automation"
       ],
       "relevance_score": 0.0
     },
@@ -3171,6 +3098,41 @@
       "published_at": "2026-09-26T03:08:36+00:00",
       "summary": "Edit: Tl;Dr at bottom. I write too much. Bit of an odd thought I had after reading another thread here about gaining confidence during high-severity incidents. Thank you to that poster, BTW, for inspiring my brain. I have a weird fascination with ER and critical-care videos. Not really because of th",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a0383a7aa80eb79c03e16ab07f8a13ee",
+      "title": "Anyone else had a 340% AI cost spike overnight? Here's what caused ours",
+      "url": "https://www.reddit.com/r/devops/comments/1wqm1lt/anyone_else_had_a_340_ai_cost_spike_overnight/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-26T09:18:43+00:00",
+      "summary": "At 02:17 UTC, a finance dashboard flashed red: LLM budget jumped from an expected $1,200 to $4,080 in a single day. A 340% spike, no warning. Nobody on the team caused it on purpose. That's the annoying part about AI spend, it doesn't announce itself until the invoice does. Walked through it step by",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1ca62125907cfb29620a721f07af0a44",
+      "title": "DevOps embedded in a non-technical process team, no technical sparring partner",
+      "url": "https://www.reddit.com/r/devops/comments/1wqke4a/devops_embedded_in_a_nontechnical_process_team_no/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-26T07:33:31+00:00",
+      "summary": "Looking for some outside perspective on how DevOps fits into org structures at your companies. This is my third or fourth DevOps job, this time in embedded. In previous companies there were always some organizational or cultural hiccups, but stuff got worked out as a team, including on the DevOps si",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "85f76c0af7660d32b519feb227b5d87e",
+      "title": "Field Notes from an Agent-Run Site #1: The Machine Ships. I Approve.",
+      "url": "https://dev.to/mrsaynothing/field-notes-from-an-agent-run-site-1-the-machine-ships-i-approve-46ng",
+      "source": "Dev.to",
+      "published_at": "2026-09-20T16:55:08Z",
+      "summary": "Nineteen posts in nineteen days, deploys that never miss, and a human who only approves. First dispatch from a site run by agents — readers debate, and pick what #2 covers.",
+      "tags": [
+        "discuss",
+        "ai",
+        "devops",
+        "automation"
+      ],
       "relevance_score": 0.0
     }
   ]
