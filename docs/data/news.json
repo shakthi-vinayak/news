@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:46:38Z",
+  "generated_at": "2026-09-26T21:02:48Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1118,16 +1118,6 @@
       "source": "HashiCorp Blog",
       "published_at": "2026-09-17T16:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4643bba1e491e2464ca7ba3e1c532f6b",
-      "title": "How are people currently managing AWS access for AI agents? I'm looking into different approaches for securely handling permissions and credentials when agents need to interact with AWS services.",
-      "url": "https://www.reddit.com/r/devops/comments/1wkvk6c/how_are_people_currently_managing_aws_access_for/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-19T19:43:20+00:00",
-      "summary": "I'm currently looking into how to securely manage AWS access for AI agents like Claude Code within our organization.  Right now, our developers have a role that grants them some write access to specific services in our dev and nonprod environments. However, I really don't want them using this same r",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2426,16 +2416,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-09-21T07:03:19+00:00",
       "summary": "DevOps engineer in an air-gapped private datacenter, stuck between two constraints. Setup: 10 servers with ~100GB SSD each running a self-managed K8s cluster, plus one NFS server configured as my only StorageClass. No cloud, so no EBS/Azure Disk. Running Camunda 8 (Zeebe) and Elasticsearch/ELK. Prob",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c64c86c6897cacd971ba476f19acc414",
-      "title": "My Idea :- WhatBreaks",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wkw6ty/my_idea_whatbreaks/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-19T20:08:05+00:00",
-      "summary": "I’m exploring a DevOps/security tool called WhatBreaks. The problem: when engineers change or delete something like a Kubernetes ServiceAccount, IAM role, credential, or infrastructure resource, it can be hard to know what depends on it and what will break. They often have to manually investigate ac",
       "tags": [],
       "relevance_score": 0.0
     },
