@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T18:18:19Z",
+  "generated_at": "2026-09-27T23:00:48Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1119,31 +1119,6 @@
       "published_at": "2026-09-17T16:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f77f0285a85e21cce30bfdf571ec284a",
-      "title": "langchain-ai/langchain: langchain-typesafe==0.0.1a3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-20T18:54:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e8cc8c536992d04921ac1f993cade6c0",
-      "title": "Stop Whitelisting Port 22: SSH into Private EC2 from GitHub Actions via AWS SSM 🔐",
-      "url": "https://dev.to/ankurk91/stop-whitelisting-port-22-ssh-into-private-ec2-from-github-actions-via-aws-ssm-cj4",
-      "source": "Dev.to",
-      "published_at": "2026-09-20T17:24:14Z",
-      "summary": "Deploy to a private EC2 instance from CI with plain ssh, rsync and scp — no inbound port 22, no public IP, no long-lived key in secrets.",
-      "tags": [
-        "aws",
-        "githubactions",
-        "devops",
-        "security"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2988,21 +2963,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "85f76c0af7660d32b519feb227b5d87e",
-      "title": "Field Notes from an Agent-Run Site #1: The Machine Ships. I Approve.",
-      "url": "https://dev.to/mrsaynothing/field-notes-from-an-agent-run-site-1-the-machine-ships-i-approve-46ng",
-      "source": "Dev.to",
-      "published_at": "2026-09-20T16:55:08Z",
-      "summary": "Nineteen posts in nineteen days, deploys that never miss, and a human who only approves. First dispatch from a site run by agents — readers debate, and pick what #2 covers.",
-      "tags": [
-        "discuss",
-        "ai",
-        "devops",
-        "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "5023dddbc7db207c0af9f13765cafef1",
       "title": "The agent didn’t break your controls. It went around them.",
       "url": "https://thenewstack.io/inside-out-agent-security/",
@@ -3263,13 +3223,18 @@
       "relevance_score": 0.0
     },
     {
-      "id": "77e54a8dd16a052d9631b911c389de6d",
-      "title": "Monthly: Who is hiring?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1w47fx7/monthly_who_is_hiring/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-01T10:00:13+00:00",
-      "summary": "This monthly post can be used to share Kubernetes-related job openings within your company. Please include:  Name of the company Location requirements (or lack thereof) At least one of: a link to a job posting/application page or contact details  If you are interested in a job, please contact the po",
-      "tags": [],
+      "id": "57c92b6e80c4f03b38ac713e7eefd606",
+      "title": "A new server gets its first unsolicited packet in 3.77 seconds",
+      "url": "https://dev.to/remdore/a-new-server-gets-its-first-unsolicited-packet-in-377-seconds-4cco",
+      "source": "Dev.to",
+      "published_at": "2026-09-27T19:49:20Z",
+      "summary": "I rented a $6 server, gave it a fresh IPv4 address nobody had used before, and started a...",
+      "tags": [
+        "security",
+        "networking",
+        "devops",
+        "linux"
+      ],
       "relevance_score": 0.0
     }
   ]
