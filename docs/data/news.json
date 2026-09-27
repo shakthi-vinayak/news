@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T13:55:16Z",
+  "generated_at": "2026-09-27T18:18:19Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,32 +1122,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d38cc98aef1e8b53ae9da1dc1990660c",
-      "title": "Your AI agent failed. The model might not be the problem.",
-      "url": "https://thenewstack.io/nvidia-agent-debugging-safe/",
-      "source": "The New Stack",
-      "published_at": "2026-09-20T14:04:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f77f0285a85e21cce30bfdf571ec284a",
       "title": "langchain-ai/langchain: langchain-typesafe==0.0.1a3",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-09-20T18:54:55+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3e07965bfe93ad2f7ce466aec86702d2",
-      "title": "How are you handling \"lightweight\" deployments for smaller projects where full CI/CD is overkill?",
-      "url": "https://www.reddit.com/r/devops/comments/1wlnnu0/how_are_you_handling_lightweight_deployments_for/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-20T17:47:39+00:00",
-      "summary": "Hey everyone, In smaller teams or client agencies, setting up full CI/CD pipelines (GitHub Actions, Jenkins, etc.) can sometimes feel like overkill for simple staging servers. In my experience, devs often resort to manually SSHing into servers, running git pull, and triggering builds manually—which ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1163,21 +1143,6 @@
         "githubactions",
         "devops",
         "security"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e311f604da0ce3fba054f74a4b1259f8",
-      "title": "Blacksmith's GitHub Actions runners finished the same job 3 to 4 times faster than GitHub hosted Actions, across 10 trials",
-      "url": "https://dev.to/alexgeorgiev17/blacksmiths-github-actions-runners-finished-the-same-job-3-to-4-times-faster-than-github-hosted-59oj",
-      "source": "Dev.to",
-      "published_at": "2026-09-20T13:00:00Z",
-      "summary": "I benchmarked Blacksmith against github-hosted ubuntu-latest with 10 repeated trials each on an identical GitHub Actions job. Blacksmith ran 3.17x to 3.77x faster with noticeably tighter variance, but it wouldn't even queue until I moved the repo into an organization.",
-      "tags": [
-        "githubactions",
-        "devops",
-        "ci",
-        "productivity"
       ],
       "relevance_score": 0.0
     },
@@ -3135,6 +3100,176 @@
         "devops",
         "go"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b32ba439cae47779b944049b734047db",
+      "title": "The rise of agentic AI on Kubernetes: unleashing the new infrastructure layer",
+      "url": "https://thenewstack.io/agentic-ai-kubernetes-management/",
+      "source": "The New Stack",
+      "published_at": "2026-09-27T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a399907bd69fb1087c98da2c4e738692",
+      "title": "Can Claude Code and Cursor actually enforce your org rules and coding standards?",
+      "url": "https://dev.to/dev_kiran/can-claude-code-and-cursor-actually-enforce-your-org-rules-and-coding-standards-1e44",
+      "source": "Dev.to",
+      "published_at": "2026-09-27T13:44:59Z",
+      "summary": "Hello Devs 👋  One of the first things many teams do after adopting an AI coding agent is create a...",
+      "tags": [
+        "ai",
+        "devops",
+        "productivity",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f5dd89d43597e08926890d93dc5a4090",
+      "title": "Kubernetes Home Lab Setup on a Local Windows Laptop",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wriu8v/kubernetes_home_lab_setup_on_a_local_windows/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-27T12:20:43+00:00",
+      "summary": "I am currently learning Kubernetes and want to build a Kubernetes home lab on my local Windows laptop. At the moment, I am using WSL with Ubuntu. Instead of learning Kubernetes only through theory, I want to build a practical lab where I can set up and manage the infrastructure myself and learn by a",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fd2df0af03e75b14eef10cecdb6b46c4",
+      "title": "We ran 15 popular AI Helm charts on Kubernetes with default settings. Here is what we found (Ray, LiteLLM, vLLM, Qdrant, MCP)",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wr6vrt/we_ran_15_popular_ai_helm_charts_on_kubernetes/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-27T01:09:35+00:00",
+      "summary": "We wanted to see what platform teams actually inherit when they helm install popular AI workloads into a cluster with default values. We rendered 15 official charts (vLLM production-stack, KubeRay, KServe, AIBrix, Ollama, Open WebUI, LocalAI, LiteLLM, Langfuse, n8n, Qdrant, Weaviate, Milvus, and two",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "67743a206f58c2725eec00d9c51917a8",
+      "title": "Cilium Network Policy level of use?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wqpiew/cilium_network_policy_level_of_use/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-26T12:38:45+00:00",
+      "summary": "Hello, I'm building a new cluster, I want to make it more secure but should I write a policy for each flow and pod or just keep it at the namespace level with maybe some port restrictions? In my design, each application is in its own namespace managed by FluxCD. Should I also restrict system namespa",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a9bb0514f8e621949c6ec65459382167",
+      "title": "Six System Design Problems, and the New Problem Each Fix Creates",
+      "url": "https://dev.to/devopsdaily/six-system-design-problems-and-the-new-problem-each-fix-creates-27b6",
+      "source": "Dev.to",
+      "published_at": "2026-09-26T09:00:00Z",
+      "summary": "Every system starts the same way: a client talks to a server, and the server talks to a database....",
+      "tags": [
+        "devops",
+        "systemdesign",
+        "scalability",
+        "reliability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "661f865abffc85b1b77a93c15ae4acc0",
+      "title": "Cloud Native Heidelberg · Ask not what you can do for your platform - ask what your platform can do for you!",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wq7usy/cloud_native_heidelberg_ask_not_what_you_can_do/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-25T21:02:41+00:00",
+      "summary": "      &#32; submitted by &#32;  /u/No-Income-2235   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7c5dd96e49b4735bd1c3ce091818ef85",
+      "title": "I finally signed a job offer",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wpv4fb/i_finally_signed_a_job_offer/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-25T12:32:31+00:00",
+      "summary": "Hi people of reddit, I would like to have some insights from your own personal experience and point of view.  After 10 months looking for a DevOps Engineer role and every position related to it (SRE, Cloud, Platform, etc) I finally managed to sign a job offer, it is not the best contract but the jou",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "25cf7a8fd45c09652f1e36877aeafe8c",
+      "title": "Migrated manually created resources to terraform",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wpbjll/migrated_manually_created_resources_to_terraform/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-24T19:44:17+00:00",
+      "summary": "Hello all, in my project I have to migrate the resources which are already created manually and now i have to manage those resources using terraform and also main concern is without effecting production  So major resources we have VPC with around 30 subnets then 4 eks clusters and multiples route 53",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d0d09f9f3ab3fd3037a60d819b15dacb",
+      "title": "[Self-promotion] Free OSS for security engineering agents",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wp956x/selfpromotion_free_oss_for_security_engineering/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-24T18:12:52+00:00",
+      "summary": "Disclosure: I maintain this (free, open source, self-hosted). Cynative is a framework for building security engineering agents. Your agents can connect to AWS (EKS), GCP (GKS), Azure (AKS), self-managed K8s and also GitHub and GitLab to run deep research tasks. Repo: https://github.com/cynative/cyna",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d3f0cd393c823be2f919de32dbd5279f",
+      "title": "When it comes to backups, how are you utilizing infrastructure as code?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wp7rgo/when_it_comes_to_backups_how_are_you_utilizing/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-24T17:21:52+00:00",
+      "summary": "Compute resources, networking, secrets, policies and all of that are usually version controlled and reconciled by tools like ArgoCD and more. It feels like backup never got that treatment. It's always click these things, run those commands or maybe a script + cron job and none of these solutions are",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1b4592044f1ed2b056242e2730443fe9",
+      "title": "AKS desktop(feature/fix): Add better AI assistant and support for giant clusters",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wp6vgq/aks_desktopfeaturefix_add_better_ai_assistant_and/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-24T16:48:39+00:00",
+      "summary": "      Highlights  Extend AKS desktop with plugins for GitOps, certificate management, autoscaling, and more. Diagnose AKS issues with automatic model discovery, proactive diagnosis, and organization-specific AI Skills. Investigate GPU, DNS, networking, and process activity with real-time eBPF insigh",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7f7c3fe0ca4e2b1b9659ef67c0c8b8ed",
+      "title": "How do you promote env var changes across dev → SIT → UAT with ArgoCD + Helm without manual copying in GitOps?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1woztlz/how_do_you_promote_env_var_changes_across_dev_sit/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-24T12:04:56+00:00",
+      "summary": "Looking for insights from experienced DevOps/platform engineers on how you've tackled this in real-world setups. Current setup:  EKS, ArgoCD, Helm charts, GitLab Gitops repo with a folder per environment (dev / SIT / UAT), each with its own values file Credentials are already in AWS Secrets Manager;",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "35c0df0f48a92032e21e0bcc838127a9",
+      "title": "How to make kubernetes infrastructure recovery ready with infrastructure as code... and how I kinda destroyed ours",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1woumkv/how_to_make_kubernetes_infrastructure_recovery/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-24T06:57:59+00:00",
+      "summary": "Ok so im a platform engineer at a cloud resilience company, we sell kubernetes recovery as a big value prop, and last night during a production incident I realised our own infra as code is basically lying to us. I was trying to speed things up and &quot;cleanup&quot; some old terraform modules so th",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e9c6b047198516047cde28ba75ea1cdc",
+      "title": "Five key autoscaling metrics for Kubernetes",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1wnizqq/five_key_autoscaling_metrics_for_kubernetes/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-22T19:16:31+00:00",
+      "summary": "      In the lead-up to KubeCon NA, I'm publishing a blog series on Autoscaling in Kubernetes called &quot;The Five Key Autoscaling Metrics&quot;.  I've heard from a lot of different folks that &quot;autoscaling isn't sexy&quot; and &quot;it's not that hard to do&quot;, which -- speaking as someone ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "77e54a8dd16a052d9631b911c389de6d",
+      "title": "Monthly: Who is hiring?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1w47fx7/monthly_who_is_hiring/",
+      "source": "Reddit r/kubernetes",
+      "published_at": "2026-09-01T10:00:13+00:00",
+      "summary": "This monthly post can be used to share Kubernetes-related job openings within your company. Please include:  Name of the company Location requirements (or lack thereof) At least one of: a link to a job posting/application page or contact details  If you are interested in a job, please contact the po",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
