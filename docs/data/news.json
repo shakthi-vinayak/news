@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:02:29Z",
+  "generated_at": "2026-09-27T13:55:16Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1122,16 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d78128952fedfbd52e5a92a7a7f6e71f",
-      "title": "Using VMs instead of thin clients to learn Linux things",
-      "url": "https://www.reddit.com/r/devops/comments/1wlgc2b/using_vms_instead_of_thin_clients_to_learn_linux/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-20T12:53:32+00:00",
-      "summary": "There’s a general advice that if you want to learn Linux, become a devops/sre you should build a homelab at home, the more nodes the better.  However, considering the current hardware prices I was thinking why not just run VMs on my PC to thinker around with Linux nodes ? This seems more flexible an",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d38cc98aef1e8b53ae9da1dc1990660c",
       "title": "Your AI agent failed. The model might not be the problem.",
       "url": "https://thenewstack.io/nvidia-agent-debugging-safe/",
@@ -1188,21 +1178,6 @@
         "devops",
         "ci",
         "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4af6b9d7bae48d149151a646d7b241ca",
-      "title": "The secret was correct. The first byte wasn't.",
-      "url": "https://dev.to/redcapra/the-secret-was-correct-the-first-byte-wasnt-6p9",
-      "source": "Dev.to",
-      "published_at": "2026-09-20T09:53:07Z",
-      "summary": "Our deploy tool pushed a fresh API token to production. It reported success. The token was correct....",
-      "tags": [
-        "devops",
-        "powershell",
-        "security",
-        "debugging"
       ],
       "relevance_score": 0.0
     },
@@ -3125,6 +3100,41 @@
       "published_at": "2026-09-27T01:46:56+00:00",
       "summary": "hey everyone, how do you guys manage helm charts for multiple micro services. we have multiple microservices and our CI-CD flow is when the docker image is built and pushed to a registry then the values file will be updated for the image tag and this change is detected by the gitops tools like argo ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "50bfee099d7163ee3ff1462513b20fa9",
+      "title": "We audited the default Helm charts and Docker configs of popular AI stack tools (Ray, Weaviate, MCP servers, LangChain). The out-of-the-box security defaults are surprisingly bad.",
+      "url": "https://www.reddit.com/r/devops/comments/1wrkllb/we_audited_the_default_helm_charts_and_docker/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-27T13:44:24+00:00",
+      "summary": "Over the past few weeks, we set up a fresh cluster to test what actually gets deployed when an engineer runs helm install with zero extra configuration on popular AI, vector DB, and MCP charts (Ray, vLLM, LiteLLM, Qdrant, Weaviate, KubeRay, etc.). Everyone focuses on prompt injection and model jailb",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6e5a1f6f3378b4cd31517ccf3200d53b",
+      "title": "Unorganized Knowledge = Noise",
+      "url": "https://www.reddit.com/r/devops/comments/1wrh025/unorganized_knowledge_noise/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-27T10:39:27+00:00",
+      "summary": "Whenever I try learning new technology or troubleshooting without a clear plan, I get overwhelmed. Hopping between random videos, articles, and quick AI summaries leaves me feeling lost and stressed about where to begin or end. I've realized that having a structured roadmap with clear, step-by-step ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "17fd6decbc9519df6e43ae981f100cfe",
+      "title": "containerd 2.2's mount manager panics on a one-mount mkfs chain",
+      "url": "https://dev.to/alexgeorgiev17/containerd-22s-mount-manager-panics-on-a-one-mount-mkfs-chain-545n",
+      "source": "Dev.to",
+      "published_at": "2026-09-27T10:00:00Z",
+      "summary": "I measured containerd 2.2's new mount manager against doing the same loopback ext4 setup by hand: 24ms manual versus 30-47ms through the API, then found a reproducible index-out-of-range panic and a raw BoltDB error leaking through it.",
+      "tags": [
+        "containerd",
+        "docker",
+        "devops",
+        "go"
+      ],
       "relevance_score": 0.0
     }
   ]
