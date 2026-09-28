@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:44:20Z",
+  "generated_at": "2026-09-28T20:33:40Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -652,16 +652,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7d73dfeee830719c108b69ff1019b05f",
-      "title": "Get closer to the game with Gemini and Pixel",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "source": "Google AI Blog",
-      "published_at": "2026-08-17T08:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "75e871f43a0c4eb85bc5188e607ce8d9",
       "title": "Streamline your GitHub journey with AWS CodePipeline and AWS DevOps Agent",
       "url": "https://aws.amazon.com/blogs/devops/streamline-your-github-journey-with-aws-codepipeline-and-aws-devops-agent/",
@@ -952,46 +942,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5d1a9fbd426425d7c1cf1693829d7fa9",
-      "title": "open-telemetry/opentelemetry-collector: v1.67.0/v0.161.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.161.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-09-16T16:39:10+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "090cfa32023435a73516911cd2b78682",
-      "title": "open-telemetry/opentelemetry-collector: service/telemetry/telemetrytest/v0.161.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Ftelemetry%2Ftelemetrytest%2Fv0.161.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-09-14T21:27:02+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ddc61c9c6e0fd046e4522b54656b07a0",
-      "title": "open-telemetry/opentelemetry-collector: scraper/xscraper/v0.161.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.161.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-09-14T21:27:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "37be888a8ca35d96c097853c658894ab",
-      "title": "open-telemetry/opentelemetry-collector: service/hostcapabilities/v0.161.0",
-      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Fhostcapabilities%2Fv0.161.0",
-      "source": "GitHub Releases (open-telemetry)",
-      "published_at": "2026-09-14T21:27:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9953a0636092a294d432449d2cf43822",
       "title": "Kubernetes v1.37: Memory QoS Graduates to Beta",
       "url": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
@@ -1122,146 +1072,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7776a60f31493284e99ba42525ba5e91",
-      "title": "Traefik 3.6's multi-layer routing held up against 500 concurrent header-spoofing attempts",
-      "url": "https://dev.to/alexgeorgiev17/traefik-36s-multi-layer-routing-held-up-against-500-concurrent-header-spoofing-attempts-2ck2",
-      "source": "Dev.to",
-      "published_at": "2026-09-21T10:00:00Z",
-      "summary": "I tested Traefik 3.6's new parentRefs routing: 0 of 500 concurrent requests bypassed a parent router by spoofing its child's header condition, and three-level nesting cost no measurable throughput against an equivalent flat router (5,475 vs 5,503 req/s).",
-      "tags": [
-        "traefik",
-        "docker",
-        "security",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "777b8f45d66df1e45b7fa65a7d33b862",
       "title": "istio/istio: Istio 1.31.0-rc.4",
       "url": "https://github.com/istio/istio/releases/tag/1.31.0-rc.4",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-08-27T19:10:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c3c38d5eab63ba1ba10aecfb1eb793cd",
-      "title": "Grok Build vs. Claude Code: I tested which one has the better memory",
-      "url": "https://thenewstack.io/grok-build-vs-claude-code-memory/",
-      "source": "The New Stack",
-      "published_at": "2026-09-21T20:04:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "95c202fbc839506a8bae45cc5253c681",
-      "title": "TypeSafe launched Jev because sequential LLMs are “totally useless for computers”",
-      "url": "https://thenewstack.io/typesafe-jev-system-one/",
-      "source": "The New Stack",
-      "published_at": "2026-09-21T19:36:29+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8bba8216e36ae204ca4a9f3917dcdb81",
-      "title": "Your AI agent is burning tokens on choices that don’t need words",
-      "url": "https://thenewstack.io/kev-skips-text-generation/",
-      "source": "The New Stack",
-      "published_at": "2026-09-21T19:13:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f35962f0189d21db846e297fd16f5b1a",
-      "title": "langchain-ai/langchain: langchain-openai==1.6.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-21T18:32:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cd8119e60d6d679a8f518bb8f907896d",
-      "title": "AWS open-sources an AI agent it says is 45% cheaper than Claude Code and Codex",
-      "url": "https://thenewstack.io/aws-strands-harness-agent/",
-      "source": "The New Stack",
-      "published_at": "2026-09-21T18:30:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4df0fa0bd1b1c12dfd39f24c5fcda6d8",
-      "title": "Codex Sandbox Escapes Show Why Agent Guardrails Can’t Live Inside the Agent",
-      "url": "https://devops.com/codex-sandbox-escapes-show-why-agent-guardrails-cant-live-inside-the-agent/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-21T15:29:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a174df9bc109ca6693877afa5466bbdf",
-      "title": "Claude Code Adds AGENTS.md Fallback, Cutting Instruction File Sprawl",
-      "url": "https://devops.com/claude-code-adds-agents-md-fallback-cutting-instruction-file-sprawl/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-21T15:20:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "230e1c0bb09d74356e23c1b6caeb305e",
-      "title": "langchain-ai/langgraph: langgraph==1.2.12",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.12",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-21T14:43:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9fd0ada8d4a2cfa91f2c346889c23963",
-      "title": "langchain-ai/langgraph: langgraph-sdk==0.4.5",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.5",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-21T14:43:09+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d6e2ada5ec04396a5509c153e999f4c2",
-      "title": "apache/airflow: python-client/3.3.2",
-      "url": "https://github.com/apache/airflow/releases/tag/python-client%2F3.3.2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-09-21T14:29:39+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "26a7f13a064861b63d25ca066689df7a",
-      "title": "n8n-io/n8n: n8n@2.40.5",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.5",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-21T14:12:45+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f3a6d3a83c553a552bf673a25a92a6f5",
-      "title": "n8n-io/n8n: n8n@2.39.10",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.10",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-09-21T14:12:03+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1288,66 +1103,6 @@
       "published_at": "2026-09-21T18:30:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7d38876ee945c043dab92f57c5a5a75",
-      "title": "Find the AWS Resources Nobody Is Using, and What They Cost You",
-      "url": "https://dev.to/aws-builders/find-the-aws-resources-nobody-is-using-and-what-they-cost-you-35bj",
-      "source": "Dev.to",
-      "published_at": "2026-09-21T17:50:07Z",
-      "summary": "A local-first CLI that scans an AWS account for unused resources, prices each one from the AWS Price List API, and generates or performs the cleanup. Read-only by default, with every price fetched from the live API and dated in each report.",
-      "tags": [
-        "aws",
-        "python",
-        "devops",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e230756846d6e7bec259cdcf9c707b49",
-      "title": "Build a Reproducible AI Agent Evaluation Lab with Docker Compose",
-      "url": "https://dev.to/raju_dandigam/build-a-reproducible-ai-agent-evaluation-lab-with-docker-compose-2ejm",
-      "source": "Dev.to",
-      "published_at": "2026-09-21T16:51:33Z",
-      "summary": "An agent evaluation fails in CI but passes locally. Before blaming the model, ask whether both runs...",
-      "tags": [
-        "docker",
-        "ai",
-        "testing",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e93be3537ce7a58081b62b8caaffddd0",
-      "title": "Put the Arithmetic in the Tool: an MCP Server for an AWS Waste Scanner",
-      "url": "https://dev.to/aws-builders/put-the-arithmetic-in-the-tool-an-mcp-server-for-an-aws-waste-scanner-3n79",
-      "source": "Dev.to",
-      "published_at": "2026-09-21T16:34:32Z",
-      "summary": "A cost report gets read twice: once by a person in a terminal, once by an agent through an MCP server. Making the server compute every total instead of handing back rows keeps the two answers the same, and measures the report's own arithmetic against the AWS bill.",
-      "tags": [
-        "aws",
-        "mcp",
-        "python",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0f26398bc5c9d089fdfc449e08a371d2",
-      "title": "How much traffic can a $6 server handle? I measured it: 9,737 requests a second",
-      "url": "https://dev.to/remdore/how-much-traffic-can-a-6-server-handle-i-measured-it-9737-requests-a-second-24il",
-      "source": "Dev.to",
-      "published_at": "2026-09-21T12:42:21Z",
-      "summary": "A real app on the cheapest droplet money buys: 1,117,976 requests with zero errors, 9,737/s static and 18,557/s once nginx cached the dynamic route. The limits I hit were a config default and my own arithmetic, not the hardware.",
-      "tags": [
-        "performance",
-        "devops",
-        "webdev",
-        "nginx"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1408,21 +1163,6 @@
       "published_at": "2026-09-22T04:16:13+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0cd6152cb8e536aa927d320f46825dbf",
-      "title": "The CoreDNS Black Hole: how one dead DNS pod broke our API gateway",
-      "url": "https://dev.to/akarshan/the-coredns-black-hole-how-one-dead-dns-pod-broke-our-api-gateway-4hh3",
-      "source": "Dev.to",
-      "published_at": "2026-09-21T11:53:12Z",
-      "summary": "Our gateway 503'd a third of all requests, at random, until we restarted it. The cause was a single open socket pointing at a pod that no longer existed.",
-      "tags": [
-        "kubernetes",
-        "nginx",
-        "devops",
-        "networking"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2081,20 +1821,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e88fc4de9f670ce4bfd39bdb5dfc9a3c",
-      "title": "The same drift bug that breaks your Terraform state also breaks your login form",
-      "url": "https://dev.to/webruster/the-same-drift-bug-that-breaks-your-terraform-state-also-breaks-your-login-form-43fh",
-      "source": "Dev.to",
-      "published_at": "2026-09-21T14:41:16Z",
-      "summary": "Terraform state drift can also compromise login forms, underscoring the need for consistent infrastructure and security.",
-      "tags": [
-        "Terraform",
-        "Security",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
-    },
-    {
       "id": "94cb3909522b0ff5cfe69634937daee4",
       "title": "n8n-io/n8n: n8n@2.41.2",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.41.2",
@@ -2196,36 +1922,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-09-22T07:29:37+00:00",
       "summary": "Hello! My employer wants to pay me some training. I can pick, essentially, between an Udemy subscription or a Linux Foundation subscription. I'm mainly interested in getting certified for Kubernetes. I had the Udemy subscription from other employers in the past, you have to hunt for the good course ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "02a85ae7e3569b19df08ddb3ce682c36",
-      "title": "I ran into a limitation in Istio’s Prometheus metrics merging a while ago",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wmmfd8/i_ran_into_a_limitation_in_istios_prometheus/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-21T19:16:11+00:00",
-      "summary": "      &#32; submitted by &#32;  /u/kaioHenriSilva   [link] &#32; [comments] ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a9929347af8a60951820d1842b8c6022",
-      "title": "EKS: 15–18s delay after readiness probe succeeds with ALB readiness gate",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wmfw9h/eks_1518s_delay_after_readiness_probe_succeeds/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-21T15:24:17+00:00",
-      "summary": "Hi everyone, Running workloads on EKS with Kubernetes readiness probes and the ALB readiness gate enabled. I'm seeing around 15–18 seconds of delay after the readiness probe succeeds before the pod becomes fully Ready and starts receiving traffic. Is this delay expected with the ALB readiness gate? ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "956f1d26a0ad8f7df7d13afc342f94fb",
-      "title": "From SQLite to Kubernetes: Building and Deploying an Agent Relay Service",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wmdeob/from_sqlite_to_kubernetes_building_and_deploying/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-21T13:51:34+00:00",
-      "summary": "      &#32; submitted by &#32;  /u/esadata   [link] &#32; [comments] ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2623,13 +2319,14 @@
       "url": "https://dev.to/humanbound_ai/how-to-red-team-your-ai-agents-pull-requests-in-github-actions-one-prompt-change-26-cents-and-a-1ho2",
       "source": "Dev.to",
       "published_at": "2026-09-24T11:49:26Z",
-      "summary": "Red‑team AI agents in GitHub Actions with a cheap prompt test to catch security flaws early in the CI pipeline.",
+      "summary": "A one-sentence prompt change passed every normal check. A red-team gate in GitHub Actions caught it for 26 cents. The full workflow, real numbers from three runs, how to cap spend, and what to do when the build goes red.",
       "tags": [
-        "AI",
-        "Security",
-        "CI/CD"
+        "ai",
+        "security",
+        "githubactions",
+        "devops"
       ],
-      "relevance_score": 0.9
+      "relevance_score": 0.0
     },
     {
       "id": "9ef67d0dd8c7e3345b5425fa007b2d1d",
@@ -3230,6 +2927,271 @@
         "agents",
         "productivity",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e090ce2d500d18b40060817aef38d571",
+      "title": "ollama/ollama: v0.35.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-28T20:21:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7dda29b09ca02539e0693fc670749e7a",
+      "title": "langchain-ai/langchain: langchain==1.4.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-28T20:17:45+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "28a5f3428d560ef679e45d5241027b7c",
+      "title": "Keeping Humans Accountable as AI Agents Take On the SDLC",
+      "url": "https://devops.com/keeping-humans-accountable-as-ai-agents-take-on-the-sdlc/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-28T19:52:30+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a7f1beea63f7eca63e968337a99ebbfe",
+      "title": "Headless DevOps Gives AI Agents Access to Delivery Workflows",
+      "url": "https://devops.com/headless-devops-gives-ai-agents-access-to-delivery-workflows/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-28T19:46:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0d7612d90afe9c51d22ea58b2ce8b89e",
+      "title": "Docker Introduces Open Sandbox Kit Spec for AI Agent Permissions",
+      "url": "https://devops.com/docker-introduces-open-sandbox-kit-spec-for-ai-agent-permissions/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-28T19:43:21+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "df6749a99b7487638aed005b11fb7d17",
+      "title": "How Property Finder automated incident management with AWS DevOps Agent",
+      "url": "https://aws.amazon.com/blogs/devops/how-property-finder-automated-incident-management-with-aws-devops-agent/",
+      "source": "AWS Blog",
+      "published_at": "2026-09-28T19:03:40+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ec33cf459517137110c10ea2f938fb89",
+      "title": "Anthropic launches Claude Sonnet 5.5 with near-Opus performance at half the price",
+      "url": "https://thenewstack.io/claude-sonnet-55-launch/",
+      "source": "The New Stack",
+      "published_at": "2026-09-28T18:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d484fcff83d1694029f452d3bf302c0b",
+      "title": "OpenAI blocked its agent’s web access. Then it tunneled out through DNS.",
+      "url": "https://thenewstack.io/openai-agents-security-bypasses/",
+      "source": "The New Stack",
+      "published_at": "2026-09-28T17:15:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "828f484c1f158f2bc89b8bd93477f180",
+      "title": "How I cut non-prod cluster costs by scheduling Kubernetes/OpenShift scale-down (with the approach)",
+      "url": "https://www.reddit.com/r/devops/comments/1wsiuzq/how_i_cut_nonprod_cluster_costs_by_scheduling/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-28T16:11:13+00:00",
+      "summary": "Dev and test environments sit idle nights and weekends but still burn compute. Here's how I automated scaling them down and back up on OpenShift/Kubernetes. The problem: Manual shutdowns were forgotten, and teams complained when environments weren't ready in the morning. The approach: Tag namespaces",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "61ad63ee401f221aa3c6ac7661d98eda",
+      "title": "Audit trails for autonomous agents with AWS DevOps Agent",
+      "url": "https://aws.amazon.com/blogs/devops/audit-trails-for-autonomous-agents-with-aws-devops-agent/",
+      "source": "AWS Blog",
+      "published_at": "2026-09-28T16:07:26+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d108e6cbff09b1431047f8f3dc6653b3",
+      "title": "GPT-6 Sol vs. Claude Opus 5.5: Is cheaper important when results aren’t consistent?",
+      "url": "https://thenewstack.io/gpt-6-sol-vs-opus-5-5/",
+      "source": "The New Stack",
+      "published_at": "2026-09-28T16:04:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ec9c091c8866c82dc6b7c8e73bd66304",
+      "title": "Fix pod distribution drift in Amazon EKS with the Kubernetes descheduler",
+      "url": "https://aws.amazon.com/blogs/containers/fix-pod-distribution-drift-in-amazon-eks-with-the-kubernetes-descheduler/",
+      "source": "AWS Blog (Containers)",
+      "published_at": "2026-09-28T16:01:43+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c21bc0c43426e9b7c6b42a6ccce7bc23",
+      "title": "Docker Image Works on Your Mac but Fails on the Server: Fixing exec format error for Good",
+      "url": "https://dev.to/libme/docker-image-works-on-your-mac-but-fails-on-the-server-fixing-exec-format-error-for-good-dag",
+      "source": "Dev.to",
+      "published_at": "2026-09-28T15:30:22Z",
+      "summary": "Why an image built on an Apple Silicon Mac dies with exec format error on an amd64 server, and the three ways to fix it for good.",
+      "tags": [
+        "docker",
+        "devops",
+        "cicd",
+        "tooling"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "be95681e5f5be543d5ede3fff4deb4f5",
+      "title": "open-telemetry/opentelemetry-collector: v1.68.0/v0.162.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.162.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-09-28T14:09:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d20dd456cab5b5144f4357c8b1a4c41f",
+      "title": "pgEdge’s agent database branches end without a merge, and that’s by design",
+      "url": "https://thenewstack.io/pgedge-starfleet-postgres-branching/",
+      "source": "The New Stack",
+      "published_at": "2026-09-28T14:07:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "da30c7d900c58aa095dbd7d43a2b41e2",
+      "title": "open-telemetry/opentelemetry-collector: scraper/xscraper/v0.162.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.162.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-09-28T14:03:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e0dd199c2462ff13f0ee185dfc57a144",
+      "title": "open-telemetry/opentelemetry-collector: service/hostcapabilities/v0.162.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Fhostcapabilities%2Fv0.162.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-09-28T14:03:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ffb54d9ac2160c29b1fc53d796959240",
+      "title": "open-telemetry/opentelemetry-collector: service/telemetry/telemetrytest/v0.162.0",
+      "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Ftelemetry%2Ftelemetrytest%2Fv0.162.0",
+      "source": "GitHub Releases (open-telemetry)",
+      "published_at": "2026-09-28T14:03:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1512caf4edd0e3f9324b1bc649065070",
+      "title": "Ten Great DevOps Job Opportunities",
+      "url": "https://devops.com/ten-great-devops-job-opportunities-25/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-28T14:03:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0a173bed215a94c22762cedb706e38b8",
+      "title": "Anthropic bought Stainless and shuttered its SDK generator. Cloudflare open-sourced Forge instead.",
+      "url": "https://thenewstack.io/cloudflare-forge-anthropic-stainless/",
+      "source": "The New Stack",
+      "published_at": "2026-09-28T13:39:58+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7a2c0d1fd5a9e049894659a87d002370",
+      "title": "When AI Reviewers Become a CI Problem",
+      "url": "https://dev.to/qnbs/when-ai-reviewers-become-a-ci-problem-1a00",
+      "source": "Dev.to",
+      "published_at": "2026-09-28T09:44:11Z",
+      "summary": "Fifteen AI review bots on one repository is not fifteen times the insight — it is a governance problem. How one open-source project keeps machine reviewers advisory, deterministic gates blocking, and PR code out of the trust boundary.",
+      "tags": [
+        "devops",
+        "cicd",
+        "ai",
+        "governance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "942489910beb70621a6ac7c0e91ed750",
+      "title": "Your AI Agent Changed One Repo. Did It Check What Breaks Outside It?",
+      "url": "https://dev.to/dev_kiran/your-ai-agent-changed-one-repo-did-it-check-what-breaks-outside-it-2llo",
+      "source": "Dev.to",
+      "published_at": "2026-09-28T09:30:00Z",
+      "summary": "Hello Devs 👋  One thing I have noticed with AI coding agents is that they are very good at working...",
+      "tags": [
+        "ai",
+        "opensource",
+        "productivity",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "803e72525705ce0205850243fde96b1e",
+      "title": "Too fast is wrong",
+      "url": "https://dev.to/arcker/too-fast-is-wrong-kn5",
+      "source": "Dev.to",
+      "published_at": "2026-09-27T07:49:42Z",
+      "summary": "probatum is a test-oriented check runner I build in Rust. One issue waited forty-two days: there was no way to fail a response that came back too fast. For a login endpoint verifying an Argon2 hash, that is the only assertion that matters — swap the hash for a string compare and every test stays green while the endpoint gets a hundred times faster. Four releases in three days closed it, and along ",
+      "tags": [
+        "testing",
+        "security",
+        "devops",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a31168cd5458c7e1c004f7f7cf28eef1",
+      "title": "My sudo Logs Hit 10 GB. Session Count Told Me Nothing.",
+      "url": "https://dev.to/achiya-automation/my-sudo-logs-hit-10-gb-session-count-told-me-nothing-1bn5",
+      "source": "Dev.to",
+      "published_at": "2026-09-24T07:41:26Z",
+      "summary": "I measured every sudo I/O log across my production fleet. The server with 3.5x more sudo sessions had less than half the log volume. Here is the metric that actually finds the leak.",
+      "tags": [
+        "linux",
+        "devops",
+        "sysadmin",
+        "discuss"
       ],
       "relevance_score": 0.0
     }
