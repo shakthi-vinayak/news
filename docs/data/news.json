@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:31:08Z",
+  "generated_at": "2026-09-29T22:12:51Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1072,31 +1072,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "93f52337f104f410d7fc50911f8ca690",
-      "title": "Claude’s merged chat and Cowork vs. ChatGPT’s Work mode: ChatGPT is faster, Claude is more thorough",
-      "url": "https://thenewstack.io/claude-cowork-vs-chatgpt-work-benchmark/",
-      "source": "The New Stack",
-      "published_at": "2026-09-22T17:45:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4cd6ba00686a829cbe2bdf553395a490",
-      "title": "What Nobody Is Using in Your Google Cloud Projects, and What It Costs",
-      "url": "https://dev.to/gde/what-nobody-is-using-in-your-google-cloud-projects-and-what-it-costs-1k0",
-      "source": "Dev.to",
-      "published_at": "2026-09-22T15:14:36Z",
-      "summary": "A local-first CLI that scans Google Cloud projects for unused resources, prices each one from the Cloud Billing Catalog API, and drafts the cleanup. One call per project instead of one per region, read-only by default, and a Claude Code plugin over the same engine.",
-      "tags": [
-        "googlecloud",
-        "python",
-        "devops",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d3be2bc1629e4d2aad0cb359bd0f8225",
       "title": "Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker",
       "url": "https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026/",
@@ -1112,56 +1087,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.4",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-09-22T22:37:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "50d2c358bb2b01f2bf47e2e17d4959c8",
-      "title": "langchain-ai/langchain: langchain-anthropic==1.7.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.3",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-22T22:08:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "629bcf990a066e06124f9a53857317cf",
-      "title": "ollama/ollama: v0.34.3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-09-22T20:42:48+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ac4c742a0e9a17c99265a89ef0cf4c08",
-      "title": "Claude Opus 5.5 wants to finish your coding tasks, not just start them",
-      "url": "https://thenewstack.io/claude-opus-5-5-lifecycle/",
-      "source": "The New Stack",
-      "published_at": "2026-09-22T19:49:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f365e2cf1287f72c2ae70777dd6e4ed0",
-      "title": "“One of the most significant steps in our 26-year history”: JetBrains goes big on agentic development — and bets the IDE still matters",
-      "url": "https://thenewstack.io/jetbrains-air-agents-ide/",
-      "source": "The New Stack",
-      "published_at": "2026-09-22T18:27:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4c5013fa608ebfd8bfc63547baaf490b",
-      "title": "OpenAI releases GPT-6 Sol and Luna — and cuts token prices in half",
-      "url": "https://thenewstack.io/openai-gpt-6-sol-luna-release/",
-      "source": "The New Stack",
-      "published_at": "2026-09-22T18:00:02+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2527,16 +2452,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e9c6b047198516047cde28ba75ea1cdc",
-      "title": "Five key autoscaling metrics for Kubernetes",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wnizqq/five_key_autoscaling_metrics_for_kubernetes/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-22T19:16:31+00:00",
-      "summary": "      In the lead-up to KubeCon NA, I'm publishing a blog series on Autoscaling in Kubernetes called &quot;The Five Key Autoscaling Metrics&quot;.  I've heard from a lot of different folks that &quot;autoscaling isn't sexy&quot; and &quot;it's not that hard to do&quot;, which -- speaking as someone ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "57c92b6e80c4f03b38ac713e7eefd606",
       "title": "A new server gets its first unsolicited packet in 3.77 seconds",
       "url": "https://dev.to/remdore/a-new-server-gets-its-first-unsolicited-packet-in-377-seconds-4cco",
@@ -3282,6 +3197,161 @@
         "digitalocean",
         "aiagents",
         "github"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ffc8ccce825fe1b9f8be09f1280b8f40",
+      "title": "Is it just me or Github actions is overrated?",
+      "url": "https://www.reddit.com/r/devops/comments/1wtnlus/is_it_just_me_or_github_actions_is_overrated/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-29T22:03:50+00:00",
+      "summary": "We're adopting github actions at work and... they look clunky, bloated and overcomplicated? I've used both Jenkins in the past and Gitlab CI/CD (and bare shell scripts in a past life). It seems to me that gitlab-ci was the pinnacle of code-driven ci/cd (despite having some sharp edges). Also, runnin",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3148dd0dddb987b57277384a35122066",
+      "title": "🔍 Human Code Review Will Not Die Anytime Soon",
+      "url": "https://dev.to/zenika/human-code-review-will-not-die-anytime-soon-9h2",
+      "source": "Dev.to",
+      "published_at": "2026-09-29T20:49:00Z",
+      "summary": "Agents iterate in a sandbox. CI briefs the PR. A named human still owns merge.",
+      "tags": [
+        "career",
+        "programming",
+        "productivity",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "20f498aea19b536acf185d3222ddd5d9",
+      "title": "ollama/ollama: v0.35.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-09-29T20:14:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bdb2674b4be0a61cc8b43bbe27645bb5",
+      "title": "Kubiverse: Explore Your Kubernetes Cluster as a Voxel World",
+      "url": "https://dev.to/jairofernandez/kubiverse-explore-your-kubernetes-cluster-as-a-voxel-world-me5",
+      "source": "Dev.to",
+      "published_at": "2026-09-29T19:21:34Z",
+      "summary": "What would a Kubernetes cluster look like if you could walk through it?  Kubiverse turns namespaces,...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "showdev",
+        "gamedev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c839f045fe65c4af1c798d83db6af709",
+      "title": "OpenAI makes ‘Sign in with ChatGPT’ a way to use your subscription in third-party developer tools",
+      "url": "https://thenewstack.io/sign-in-with-chatgpt/",
+      "source": "The New Stack",
+      "published_at": "2026-09-29T17:31:05+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "42c1384801eeb94ba77101d49c86aab2",
+      "title": "OpenAI just launched Dots. Here’s why they matter for developers.",
+      "url": "https://thenewstack.io/openai-dots-gpt6-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-09-29T17:15:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9d97bbc3f606ea82748d6d675e8b24c0",
+      "title": "OpenAI answers TypeSafe’s Jev with a Decision API built on Luna",
+      "url": "https://thenewstack.io/openai-decision-api-luna/",
+      "source": "The New Stack",
+      "published_at": "2026-09-29T17:15:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bf1109a55b574ad3a9a2c451b84ef5de",
+      "title": "OpenAI’s new GPT-6.1 Sol undercuts its own Astra flagship",
+      "url": "https://thenewstack.io/openai-gpt-6-1-sol/",
+      "source": "The New Stack",
+      "published_at": "2026-09-29T17:15:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "98b1c09aec0ee075a87d3b6262060001",
+      "title": "OpenAI halves $200 plan allowance, launches $500 plan",
+      "url": "https://thenewstack.io/openai-halves-200-plan/",
+      "source": "The New Stack",
+      "published_at": "2026-09-29T17:15:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "17bc74c2dcf7015b97301019b5342105",
+      "title": "Your Metric Is Not Your State",
+      "url": "https://dev.to/kenwalger/your-metric-is-not-your-state-2lfl",
+      "source": "Dev.to",
+      "published_at": "2026-09-29T16:13:00Z",
+      "summary": "What a refractometer taught me about observability  In July, I wrote about a farmer walking a...",
+      "tags": [
+        "observability",
+        "programming",
+        "ai",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b100b47f488ed79337d1a1cf101a3e03",
+      "title": "Stop Waiting for GitHub Actions: Make Your CI Faster Today",
+      "url": "https://dev.to/johnnylemonny/stop-waiting-for-github-actions-make-your-ci-faster-today-a2l",
+      "source": "Dev.to",
+      "published_at": "2026-09-29T15:30:00Z",
+      "summary": "A practical guide to canceling outdated runs, caching dependencies, reducing duplicate work, and getting faster feedback from GitHub Actions.",
+      "tags": [
+        "github",
+        "devops",
+        "productivity",
+        "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b055b426fdddf5e1fe709470cd66666b",
+      "title": "kubernetes/kubernetes: v1.38.0-alpha.1",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-alpha.1",
+      "source": "GitHub Releases (kubernetes)",
+      "published_at": "2026-09-29T08:46:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "91499f3032e97ecb31ee2e07b33b69fb",
+      "title": "Karpenter Troubleshooting: Pending Pods, Failed Launches, and Nodes That Never Join",
+      "url": "https://dev.to/skyhook-radar/karpenter-troubleshooting-pending-pods-failed-launches-and-nodes-that-never-join-467h",
+      "source": "Dev.to",
+      "published_at": "2026-09-28T17:53:11Z",
+      "summary": "Karpenter changes how you debug a Pending pod.  A Karpenter NodePool can report Ready=True while the...",
+      "tags": [
+        "kubernetes",
+        "karpenter",
+        "devops",
+        "sre"
       ],
       "relevance_score": 0.0
     }
