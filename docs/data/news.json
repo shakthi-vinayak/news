@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:28:07Z",
+  "generated_at": "2026-09-30T19:07:50Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -502,16 +502,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "38c20b8c0057a63374612cec8f33ae2e",
-      "title": "Autonomous infrastructure: Managing complexity in agentic workflows",
-      "url": "https://www.hashicorp.com/blog/autonomous-infrastructure-managing-complexity-in-agentic-workflows",
-      "source": "HashiCorp Blog",
-      "published_at": "2026-07-21T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "68873e58253cde6c7ced66b831efc216",
       "title": "Terraform introduces workspaces and Stacks restore, and more",
       "url": "https://www.hashicorp.com/blog/terraform-introduces-workspaces-and-stacks-restore-and-more",
@@ -547,16 +537,6 @@
       "url": "https://aws.amazon.com/blogs/devops/how-company-3-streamlines-studio-image-management-with-ec2-image-builder-and-aws-cdk/",
       "source": "AWS Blog",
       "published_at": "2026-07-29T12:34:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0c8b83b6c031c52a2d7044f0d7bd48a5",
-      "title": "Add security context to operational investigations with AWS DevOps Agent and Wiz",
-      "url": "https://aws.amazon.com/blogs/devops/add-security-context-to-operational-investigations-with-aws-devops-agent-and-wiz/",
-      "source": "AWS Blog",
-      "published_at": "2026-07-29T12:33:53+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1066,7 +1046,7 @@
       "title": "Secure AI agents with HashiCorp Boundary",
       "url": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
       "source": "HashiCorp Blog",
-      "published_at": "2026-09-29T07:00:00+00:00",
+      "published_at": "2026-09-22T07:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1152,140 +1132,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "44ce8b2480df642eacaa37dd8268c932",
-      "title": "Find any commit in seconds: Commit Search comes to Azure DevOps",
-      "url": "https://devblogs.microsoft.com/devops/find-any-commit-in-seconds-commit-search-comes-to-azure-devops/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-07-28T15:24:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "15b520dd6888fbb20fdc905446ae4d93",
-      "title": "My CI hadn't run a single one of those tests in two months and stayed green the whole time",
-      "url": "https://dev.to/juanauriti/my-ci-hadnt-run-a-single-one-of-those-tests-in-two-months-and-stayed-green-the-whole-time-n15",
-      "source": "Dev.to",
-      "published_at": "2026-09-23T11:00:00Z",
-      "summary": "I added a dependency to a test helper and forgot to declare it in the dev extra. Locally it was...",
-      "tags": [
-        "testing",
-        "python",
-        "devops",
-        "webdev"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "835e89e54abc4ff849be1779f476711c",
-      "title": "Docker Engine 29.8's --umask flag fixes permissions docker exec used to reset",
-      "url": "https://dev.to/alexgeorgiev17/docker-engine-298s-umask-flag-fixes-permissions-docker-exec-used-to-reset-edj",
-      "source": "Dev.to",
-      "published_at": "2026-09-23T10:00:00Z",
-      "summary": "Docker Engine 29.8 added a native --umask flag. I measured the entrypoint-script workaround it replaces: correct on the main process (640) but silently wrong under docker exec and healthchecks (644), a gap the new flag closes across both.",
-      "tags": [
-        "docker",
-        "devops",
-        "security",
-        "containers"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "023a90e6f1c43b86b1886dcfc9c8a352",
-      "title": "Should Devops debug business logic problems ?",
-      "url": "https://www.reddit.com/r/devops/comments/1wob57u/should_devops_debug_business_logic_problems/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-23T16:40:58+00:00",
-      "summary": "I work at a company where my manager decided to remove all the dev access from the production, because they suggest random solution to problems we encounter on production (For e.g they saw that the servers CPU usage is high so they point this as the source of a problem and suggest to restart the ser",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2e93288cc6451b2c410466079af20f8b",
-      "title": "Contractually obligates to update within 3 weeks",
-      "url": "https://www.reddit.com/r/devops/comments/1wob1os/contractually_obligates_to_update_within_3_weeks/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-23T16:37:16+00:00",
-      "summary": "So I'm working as main IT guy for a startup, but now we got a contract from the lawyers stating that everytime there is an update we need to have it applied within 3 week. And with everything they mean EVERYTHING, bios updates, kubernetes versions,... Is this possible, how do you guys handle this or",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7cc58bc2d7da267279d230214bb4bdd8",
       "title": "hashicorp/terraform: v1.17.0-beta2",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-09-23T15:48:24+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d0a2c7af4c0bf67cb80b08a4550166d3",
-      "title": "langchain-ai/langchain: langchain-openai==1.6.5",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-23T15:31:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4ea38a775388272c150e6e6446f1aa98",
-      "title": "The web cares much less about where you are than what you are",
-      "url": "https://dev.to/remdore/the-web-cares-much-less-about-where-you-are-than-what-you-are-58i8",
-      "source": "Dev.to",
-      "published_at": "2026-09-23T14:06:00Z",
-      "summary": "I rented eight servers on five continents to map geo-blocking and found almost none. Only 8.4% of the top 500 sites answered differently by country. A fifth refused a scripted request from everywhere, and fourteen served my home broadband while refusing every datacentre.",
-      "tags": [
-        "networking",
-        "webdev",
-        "security",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d33705d082ace25fb8827d3f0a3f16af",
-      "title": "Avalara Ushers in New Era of Agentic Tax and Compliance with Avalara Aviator",
-      "url": "https://devops.com/avalara-ushers-in-new-era-of-agentic-tax-and-compliance-with-avalara-aviator/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-23T13:45:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ec4c5754e8c5bebcd647aa901f258168",
-      "title": "I got asked this In a new grad role interview",
-      "url": "https://www.reddit.com/r/devops/comments/1wo6dzk/i_got_asked_this_in_a_new_grad_role_interview/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-23T13:43:06+00:00",
-      "summary": "In an interview for a new grad devops role got asked this. “Who typically owns access to corporate applications: IAM engineers, IT staff, application administrators, or Platform/DevOps engineers?” How would yall answer  &#32; submitted by &#32;  /u/Obvious-Difficulty32   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8223e504fdd5da967749c510714ebed5",
-      "title": "What did you actually do the last time you changed a shared module and didn't know who used it?",
-      "url": "https://www.reddit.com/r/devops/comments/1wo5fyv/what_did_you_actually_do_the_last_time_you/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-23T13:04:22+00:00",
-      "summary": "Real‑world steps taken when a shared module change impacted unknown consumers.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "2127df0bc58496213d64699f73a5c473",
-      "title": "CI/CD gets your code deployed. But who decides when it’s ready for production? [Giveaway]",
-      "url": "https://www.reddit.com/r/devops/comments/1wo5err/cicd_gets_your_code_deployed_but_who_decides_when/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-23T13:03:02+00:00",
-      "summary": "      Hi r/devops, Stjepan from Manning here. The mods kindly gave me permission to share this. We’ve just released Kargo in Action in Manning’s Early Access Program. It’s written by Ken Cochrane, Jesse Suen, and Kent Rancourt, the people actually building Kargo. The book starts with a familiar DevO",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1310,64 +1162,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "050ae5d6a591801d13e4bb9ebdb98867",
-      "title": "How did u find ur first job as a DevOps engineer?",
-      "url": "https://www.reddit.com/r/devops/comments/1wodqzw/how_did_u_find_ur_first_job_as_a_devops_engineer/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-23T18:16:48+00:00",
-      "summary": "Reddit thread where DevOps engineers share how they landed their first role in the field.",
-      "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.15
-    },
-    {
-      "id": "e941d45c232e14c8360ab187db2557f0",
-      "title": "AWS Adds Harness to Open Source SDK for Building AI Agents",
-      "url": "https://devops.com/aws-adds-harness-to-open-source-sdk-for-building-ai-agents/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-23T18:11:05+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "087063a6e17bcb4fb3b2e6da25256674",
       "title": "langchain-ai/langgraph: langgraph-cli==0.4.32",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-09-23T18:02:46+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7cb254dea484e85cb33451c044e9e240",
-      "title": "langchain-ai/langchain: langchain-anthropic==1.7.4",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.4",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-23T17:56:05+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0ad78e89c27aff49015e9d0fbbd38676",
-      "title": "What belongs in an incident handoff besides the logs?",
-      "url": "https://www.reddit.com/r/devops/comments/1woct7x/what_belongs_in_an_incident_handoff_besides_the/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-23T17:42:02+00:00",
-      "summary": "      I'm on the Skyportal team. A saved agent chat is useful during a handoff, especially when it shows what was checked and what was only suggested. I'd keep its ID beside the original logs and one line about what's still unconfirmed. The picture shows the notes I'd want. What do your incident han",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "29eb00c17f0ce674227a82390bfd6e46",
-      "title": "remote devops market",
-      "url": "https://www.reddit.com/r/devops/comments/1woc53s/remote_devops_market/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-23T17:17:10+00:00",
-      "summary": "can devops job be fully remote? I dont think there is good market in my country.  &#32; submitted by &#32;  /u/Low_Soup2377   [link] &#32; [comments]",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1438,16 +1238,6 @@
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-09-24T04:45:43+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "57ae5c953fdbdee255a367fc9ab2dcb4",
-      "title": "Webinar on Podman Desktop as Docker alternative - covering daemonless containers + Kubernetes pods",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wo60yq/webinar_on_podman_desktop_as_docker_alternative/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-23T13:28:26+00:00",
-      "summary": "      &#32; submitted by &#32;  /u/product-marketer2017   [link] &#32; [comments] ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2436,21 +2226,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "91ba809e3fdcbc1372f74749456bc43e",
-      "title": "Vibe engineering with Opus 5.5? route by the feedback",
-      "url": "https://dev.to/azankhyder/vibe-engineering-with-opus-55-route-by-the-feedback-3i77",
-      "source": "Dev.to",
-      "published_at": "2026-09-23T18:23:41Z",
-      "summary": "There are two camps right now. One uses \"serious\" AI for real work and treats everything else as a...",
-      "tags": [
-        "ai",
-        "agents",
-        "productivity",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e090ce2d500d18b40060817aef38d571",
       "title": "ollama/ollama: v0.35.0-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc0",
@@ -2989,13 +2764,14 @@
       "url": "https://dev.to/xavidop/introducing-mamori-typed-watchable-config-secrets-for-go-gnp",
       "source": "Dev.to",
       "published_at": "2026-09-29T13:36:08Z",
-      "summary": "Mamori offers typed, watchable config and secrets management for Go applications, enhancing security.",
+      "summary": "mamori is an open-source Go library that loads config and secrets from 30+ sources into typed, validated structs and keeps them reconciled at runtime.",
       "tags": [
-        "DevOps",
-        "Security",
-        "Platform Engineering"
+        "go",
+        "security",
+        "devops",
+        "opensource"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "5b05349464e9e00ae74d2487f93a3cc3",
@@ -3323,6 +3099,126 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-09-30T05:51:35+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "88a0068dddaf0870ba1d9bc495df1752",
+      "title": "How to set a \"env\" var on github actions using shell script?",
+      "url": "https://www.reddit.com/r/devops/comments/1wudb1o/how_to_set_a_env_var_on_github_actions_using/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-30T18:49:48+00:00",
+      "summary": "i need to get the app version and i have this awk command for that: ` awk -F'&quot;' '/^version[[:space:]]*=/ {print $2; exit}' pyproject.toml` but how do i set the variable to the output of this command?  &#32; submitted by &#32;  /u/ty_namo   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "38a9b58cd8f036038b2d4acca52f6dfb",
+      "title": "CloudBees just committed to an AI-first pivot. Here’s why it matters for enterprise DevOps teams",
+      "url": "https://thenewstack.io/cloudbees-ceo-ai-transformation/",
+      "source": "The New Stack",
+      "published_at": "2026-09-30T18:08:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "63b5e9b84d3824e9728a37d190e6d44a",
+      "title": "AWS Benchmark Aims to Reduce Number of False Positives Found by AI Vulnerability Scanners",
+      "url": "https://devops.com/aws-benchmark-aims-to-reduce-number-of-false-positives-found-by-ai-vulnerability-scanners/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-30T17:43:41+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a8ea324f6029bfb51fac1e6141233807",
+      "title": "Updates to Copilot Code Reviews for Azure Repos",
+      "url": "https://devblogs.microsoft.com/devops/updates-to-copilot-code-reviews-for-azure-repos/",
+      "source": "Azure DevOps Blog",
+      "published_at": "2026-09-30T17:05:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7745733e00fb631adc051efc4ef0f370",
+      "title": "AI-powered EKS migration assessment with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/containers/ai-powered-eks-migration-assessment-with-amazon-bedrock-agentcore/",
+      "source": "AWS Blog (Containers)",
+      "published_at": "2026-09-30T15:34:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "03c6b79935bdce93e00598d2e4f40ca5",
+      "title": "OpenAI’s Dots boundary problem rate doubled in longer tests",
+      "url": "https://thenewstack.io/openai-dots-agent-permissions/",
+      "source": "The New Stack",
+      "published_at": "2026-09-30T15:26:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8f8d174359f83a5bc404bbcab10fb897",
+      "title": "langchain-ai/langchain: langchain-openai==1.6.7",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-09-30T15:12:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "63956b9677d5630a2198e6f22e045910",
+      "title": "Your AI agent aced the demo. Your data may still derail it.",
+      "url": "https://thenewstack.io/ai-agents-production-data/",
+      "source": "The New Stack",
+      "published_at": "2026-09-30T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d9e98f686cc991725361b1759df7e656",
+      "title": "Microsoft Fabric is where AI agents learn how the business works",
+      "url": "https://thenewstack.io/microsoft-fabric-agent-context/",
+      "source": "The New Stack",
+      "published_at": "2026-09-30T14:46:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f9458a791938097796d7287bde35a141",
+      "title": "Legit Security launches agentic remediation for open-source dependency vulnerabilities",
+      "url": "https://devops.com/legit-security-launches-agentic-remediation-for-open-source-dependency-vulnerabilities/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-30T14:44:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a6f2d3f713220f69290b477ddf89c1ee",
+      "title": "“Think of it as Kubernetes for agents”: OpenClaw lands in the enterprise with OpenAI, Nvidia and Red Hat on board",
+      "url": "https://thenewstack.io/openclaw-enterprise-kubernetes-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-09-30T10:36:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1406e9bc7b8dbc81fed93993e8cd6ad1",
+      "title": "Terraform 1.16 completes Actions lifecycles and brings imports into child modules",
+      "url": "https://www.hashicorp.com/blog/terraform-116-completes-actions-lifecycles-and-brings-imports-into-child-modules",
+      "source": "HashiCorp Blog",
+      "published_at": "2026-09-28T07:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
