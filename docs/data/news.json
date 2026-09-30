@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T19:07:50Z",
+  "generated_at": "2026-09-30T23:42:16Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -527,16 +527,6 @@
       "url": "https://www.hashicorp.com/blog/terraform-azurerm-provider-50-now-generally-available",
       "source": "HashiCorp Blog",
       "published_at": "2026-07-28T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3beb84b2524398b5d7c1cb08cb0caac7",
-      "title": "How Company 3 Streamlines Studio Image Management with EC2 Image Builder and AWS CDK",
-      "url": "https://aws.amazon.com/blogs/devops/how-company-3-streamlines-studio-image-management-with-ec2-image-builder-and-aws-cdk/",
-      "source": "AWS Blog",
-      "published_at": "2026-07-29T12:34:47+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1169,46 +1159,6 @@
       "published_at": "2026-09-23T18:02:46+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "769e78ff24ca4f3035fbaa4eb583a4c5",
-      "title": "ollama/ollama: v0.34.4-rc1: mlxrunner: Update XGrammar to 0.2.7 for structured outputs",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-09-23T23:36:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "76334aa47abfb19a38ea58bcf0b7b109",
-      "title": "Uptime Is Not an Agent SLO",
-      "url": "https://dev.to/raju_dandigam/uptime-is-not-an-agent-slo-f34",
-      "source": "Dev.to",
-      "published_at": "2026-09-23T21:53:18Z",
-      "summary": "An agent endpoint returns HTTP 200 in 99.95% of requests. The service is “up.”  Meanwhile, some...",
-      "tags": [
-        "ai",
-        "sre",
-        "observability",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d7b5f83cd1845ac23a15ef0add917819",
-      "title": "I Compared 5 LLM Gateway Tools for Real-World Production Use",
-      "url": "https://dev.to/devstackcommunity/i-compared-5-llm-gateway-tools-for-real-world-production-use-4n5p",
-      "source": "Dev.to",
-      "published_at": "2026-09-23T18:37:50Z",
-      "summary": "When an LLM application starts handling real users, calling a model API is usually easy. The problems...",
-      "tags": [
-        "ai",
-        "llm",
-        "devops",
-        "discuss"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3220,6 +3170,101 @@
       "source": "HashiCorp Blog",
       "published_at": "2026-09-28T07:00:00+00:00",
       "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "24f36bfaa464a5ec10b2c00af203539b",
+      "title": "Gemini 4 Argon is here: It’s great, and you can’t have it yet",
+      "url": "https://thenewstack.io/google-gemini-4-argon/",
+      "source": "The New Stack",
+      "published_at": "2026-09-30T20:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0b7cdaf38e9692a9fcab82c0fa4cff54",
+      "title": "Deploying Penpot - Open-Source Design and Prototyping Platform",
+      "url": "https://dev.to/vultr/deploying-penpot-open-source-design-and-prototyping-platform-3igd",
+      "source": "Dev.to",
+      "published_at": "2026-09-30T19:53:50Z",
+      "summary": "Penpot is an open-source design and prototyping platform for designers, developers, and product...",
+      "tags": [
+        "design",
+        "docker",
+        "devops",
+        "selfhosted"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ba678621a5711d51e593bf217d5890a0",
+      "title": "Deploying Kubeflow as a Google Vertex AI Alternative",
+      "url": "https://dev.to/vultr/deploying-kubeflow-as-a-google-vertex-ai-alternative-7lc",
+      "source": "Dev.to",
+      "published_at": "2026-09-30T19:53:25Z",
+      "summary": "Google Vertex AI is Google Cloud's managed machine learning platform that provides experiment...",
+      "tags": [
+        "mlops",
+        "kubernetes",
+        "ai",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5e9be6114011836b704d7da0ec788684",
+      "title": "Deploying Ory Keto - Open-Source Permission and Access Control Server",
+      "url": "https://dev.to/vultr/deploying-ory-keto-open-source-permission-and-access-control-server-m0j",
+      "source": "Dev.to",
+      "published_at": "2026-09-30T19:52:28Z",
+      "summary": "Ory Keto is an open-source permission and access control server that implements Relationship-Based...",
+      "tags": [
+        "security",
+        "docker",
+        "devops",
+        "authorization"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "761a2d26534c64dd3fd5c2bb0ad628ab",
+      "title": "Running production experiments with AWS AppConfig experimentation",
+      "url": "https://aws.amazon.com/blogs/devops/running-production-experiments-with-aws-appconfig-experimentation/",
+      "source": "AWS Blog",
+      "published_at": "2026-09-30T19:45:35+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1fe6109da1fe64e17070f1457961c44f",
+      "title": "A Semicolon in a Branch Name Was All It Took to Steal an AI Agent’s GitHub Token",
+      "url": "https://devops.com/a-semicolon-in-a-branch-name-was-all-it-took-to-steal-an-ai-agents-github-token/",
+      "source": "DevOps.com",
+      "published_at": "2026-09-30T19:35:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b7516951f443f8f64dbb6bb72b83ac2b",
+      "title": "Need easy to follow education(al materials)",
+      "url": "https://www.reddit.com/r/devops/comments/1wuegr7/need_easy_to_follow_educational_materials/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-30T19:33:08+00:00",
+      "summary": "Devops people of Reddit, I could use some pointers towards some good quality learning materials that cover the basics of devops. I'm not trying to become a devops, I'm one of those pesky PM types and am supposed to lead some devops/infra projects soon which - from a PM perspective is fine but I hate",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cca004f7ad401c729ff99c56d16bbfa1",
+      "title": "Do your clients or employer require AI use disclosures?",
+      "url": "https://www.reddit.com/r/devops/comments/1wudqg0/do_your_clients_or_employer_require_ai_use/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-09-30T19:05:43+00:00",
+      "summary": "I work in a position where what and how I use AI for coding/devops is heavily constrained by regulations and policies, and where AI use disclosures may soon be required. I'm curious how common it is in the industry now for AI use disclosures to be required vs voluntary vs not discussed. Does your wo",
       "tags": [],
       "relevance_score": 0.0
     }
