@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:28:35Z",
+  "generated_at": "2026-10-01T23:54:06Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -942,16 +942,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "9a7370a90431e0b1044bcb16076afd94",
-      "title": "Running OpenBao on Kubernetes with a CloudNativePG PostgreSQL backend",
-      "url": "https://www.cncf.io/blog/2026/09/16/running-openbao-on-kubernetes-with-a-cloudnativepg-postgresql-backend/",
-      "source": "CNCF Blog",
-      "published_at": "2026-09-16T11:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2167fc2a2982cbeb4912b08165ef425a",
       "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
       "url": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
@@ -1168,16 +1158,6 @@
       "source": "Docker Blog",
       "published_at": "2026-09-24T16:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1ef48ba227eb92b24236521b9e933cdd",
-      "title": "Beste Embedded-Messe mit DevOps-Fokus im DACH-Raum?",
-      "url": "https://www.reddit.com/r/devops/comments/1wpbkcl/beste_embeddedmesse_mit_devopsfokus_im_dachraum/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-24T19:45:05+00:00",
-      "summary": "Ich bin DevOps Engineer und betreue vorrangig ein Embedded-Entwicklerteam. Ich suche eine Messe oder Konferenz, bevorzugt im DACH-Raum, gerne aber auch anderswo in Europa, die sich klar auf Embedded-Software konzentriert und DevOps-Themen wie CI/CD für Firmware, HIL-Tests und OTA-Updates fundiert be",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1694,16 +1674,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-09-25T12:32:31+00:00",
       "summary": "Hi people of reddit, I would like to have some insights from your own personal experience and point of view.  After 10 months looking for a DevOps Engineer role and every position related to it (SRE, Cloud, Platform, etc) I finally managed to sign a job offer, it is not the best contract but the jou",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "25cf7a8fd45c09652f1e36877aeafe8c",
-      "title": "Migrated manually created resources to terraform",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wpbjll/migrated_manually_created_resources_to_terraform/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-24T19:44:17+00:00",
-      "summary": "Hello all, in my project I have to migrate the resources which are already created manually and now i have to manage those resources using terraform and also main concern is without effecting production  So major resources we have VPC with around 30 subnets then 4 eks clusters and multiples route 53",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2430,13 +2400,14 @@
       "url": "https://dev.to/devopsdaily/issue-to-pull-request-with-digitalocean-managed-agents-1gji",
       "source": "Dev.to",
       "published_at": "2026-09-28T09:00:00Z",
-      "summary": "Shows how DigitalOcean's managed agents can automatically convert issues into pull requests, streamlining DevOps workflows.",
+      "summary": "We gave an agent three real GitHub issues and a microVM of its own, and kept every credential that...",
       "tags": [
-        "CI/CD",
-        "Cloud",
-        "DevOps"
+        "devops",
+        "digitalocean",
+        "aiagents",
+        "github"
       ],
-      "relevance_score": 0.78
+      "relevance_score": 0.0
     },
     {
       "id": "ffc8ccce825fe1b9f8be09f1280b8f40",
@@ -3173,6 +3144,81 @@
         "sre",
         "cloud"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6beedc9758c05dd22035a53bb5ff4372",
+      "title": "OpenAI’s always-on agents are free, until one specific thing happens",
+      "url": "https://thenewstack.io/openai-dots-codex-usage/",
+      "source": "The New Stack",
+      "published_at": "2026-10-01T22:00:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0cbec36540a933d936e88a4462b6553c",
+      "title": "Cloudflare brings paid access to MCP tools — who controls the agent’s spending?",
+      "url": "https://thenewstack.io/cloudflare-x402-agent-spending/",
+      "source": "The New Stack",
+      "published_at": "2026-10-01T20:09:20+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "68f3aea81a067ae3f99d55366ab738f4",
+      "title": "IBM Moves Its Bob Coding Agent Inside the Firewall",
+      "url": "https://devops.com/ibm-moves-its-bob-coding-agent-inside-the-firewall/",
+      "source": "DevOps.com",
+      "published_at": "2026-10-01T20:05:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2450b3a00580a653f28820398e5e403a",
+      "title": "“No human wants to look at billions of traces”: Dynatrace bought Arize because agents need a new kind of observability",
+      "url": "https://thenewstack.io/dynatrace-arize-agents-observability/",
+      "source": "The New Stack",
+      "published_at": "2026-10-01T20:05:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "87c4c84d218e6592051772118b6df453",
+      "title": "AWS AI Agent Surfaces Recommendations to Optimize Cloud Computing Environments",
+      "url": "https://devops.com/aws-ai-agent-surfaces-recommendations-to-optimize-cloud-computing-environments/",
+      "source": "DevOps.com",
+      "published_at": "2026-10-01T20:00:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "43d09ffbec2bc5f39afdd8ab75553641",
+      "title": "Google outage, June 2025: how one null pointer took Cloudflare down",
+      "url": "https://dev.to/axrisi/google-outage-june-2025-how-one-null-pointer-took-cloudflare-down-2a2c",
+      "source": "Dev.to",
+      "published_at": "2026-10-01T19:46:44Z",
+      "summary": "The June 2025 Google outage explained: a blank policy field hit a null pointer in Service Control, crashed Google Cloud for 3 hours and took Cloudflare with it.",
+      "tags": [
+        "devops",
+        "cloud",
+        "google",
+        "sre"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "30fd1335496aaf82aac659614f725b6a",
+      "title": "KubeCon + CloudNativeCon North America 2026: Build your SRE journey",
+      "url": "https://www.cncf.io/blog/2026/10/01/kubecon-cloudnativecon-north-america-2026-build-your-sre-journey/",
+      "source": "CNCF Blog",
+      "published_at": "2026-10-01T19:34:20+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
