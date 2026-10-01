@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:03:07Z",
+  "generated_at": "2026-10-01T19:28:35Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -532,16 +532,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b6e56ff13909c49356e72c6982526138",
-      "title": "Analyze and remediate technical debt autonomously with AWS Transform – continuous modernization",
-      "url": "https://aws.amazon.com/blogs/devops/analyze-and-remediate-technical-debt-autonomously-with-aws-transform-continuous-modernization/",
-      "source": "AWS Blog",
-      "published_at": "2026-08-03T21:28:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c4f90b92eb620d1cfcaacd35f8b6d682",
       "title": "Consul + CyberArk WIM: External CA for the service mesh",
       "url": "https://www.hashicorp.com/blog/consul-cyberark-wim-external-ca-for-the-service-mesh",
@@ -747,16 +737,6 @@
       "url": "https://www.hashicorp.com/blog/hashicorp-vault-agentic-iam-is-now-generally-available",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-01T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4e5608ca06398d247a1b754d16e0c686",
-      "title": "Automate proxy injection for Amazon EKS on AWS Fargate using Kyverno",
-      "url": "https://aws.amazon.com/blogs/containers/automate-proxy-injection-for-amazon-eks-on-aws-fargate-using-kyverno/",
-      "source": "AWS Blog (Containers)",
-      "published_at": "2026-09-01T15:59:57+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1152,26 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "522983d9061ee217dfb1b4f2135239b4",
-      "title": "OpenAI makes you call sales for a custom voice. Google just made it self-serve.",
-      "url": "https://thenewstack.io/gemini-tts-voice-replication-api/",
-      "source": "The New Stack",
-      "published_at": "2026-09-24T13:20:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a180a0361754d8ca62e6a56019948058",
-      "title": "What managing 150,000 AI agents could look like for database teams",
-      "url": "https://thenewstack.io/ai-agents-database-administrators/",
-      "source": "The New Stack",
-      "published_at": "2026-09-24T13:11:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3888b286c82e06c9ace5177d01206dc7",
       "title": "Observability Day: Where the community comes together at KubeCon + CloudNativeCon North America 2026",
       "url": "https://www.cncf.io/blog/2026/09/24/observability-day-where-the-community-comes-together-at-kubecon-cloudnativecon-north-america-2026/",
@@ -1182,59 +1142,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ccf9307afa2c1cbf850c7af80af47802",
-      "title": "langchain-ai/langchain: langchain-core==1.6.5",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.5",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-24T18:11:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3bbb001a23a9f6a02f48532e967ccdb0",
-      "title": "Why are backups usually not treated as infrastructure as code?",
-      "url": "https://www.reddit.com/r/devops/comments/1wp7tu2/why_are_backups_usually_not_treated_as/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-24T17:24:22+00:00",
-      "summary": "Explains why backups often lack IaC treatment and the risks of managing them manually.",
-      "tags": [
-        "DevOps",
-        "SRE",
-        "Observability"
-      ],
-      "relevance_score": 0.95
-    },
-    {
       "id": "ad8b835399b3502eff661f762a0b5fc9",
       "title": "Manufacturing Trust for AI Agents | Docker’s WeAreDevelopers Keynote",
       "url": "https://www.docker.com/blog/manufacturing-trust-for-ai-agents-keynote/",
       "source": "Docker Blog",
       "published_at": "2026-09-24T17:15:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3323b6e8120ad3b0a5c330ff3b628861",
-      "title": "Stop Mocking Everything in Integration Tests: Why Testcontainers Changed My CI Strategy",
-      "url": "https://dev.to/mindinu/stop-mocking-everything-in-integration-tests-why-testcontainers-changed-my-ci-strategy-2akl",
-      "source": "Dev.to",
-      "published_at": "2026-09-24T16:13:43Z",
-      "summary": "Every backend developer knows the classic trade-off when writing tests:    Unit tests with mocks are...",
-      "tags": [
-        "cicd",
-        "programming",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d3922b134fda39c6884b2fdc78810428",
-      "title": "Developers and platform teams both want Kubernetes self-service. They disagree on who owns it.",
-      "url": "https://thenewstack.io/kubernetes-self-service-platform-teams/",
-      "source": "The New Stack",
-      "published_at": "2026-09-24T16:06:27+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1260,46 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c94cb38426c4d65507bda77d75b59075",
-      "title": "What Nobody Is Using in Your Azure Subscriptions, and What It Costs",
-      "url": "https://dev.to/xbill/what-nobody-is-using-in-your-azure-subscriptions-and-what-it-costs-205h",
-      "source": "Dev.to",
-      "published_at": "2026-09-24T15:32:30Z",
-      "summary": "A local-first CLI that scans Azure subscriptions for unused resources, prices each one from the Azure Retail Prices API, and drafts the cleanup. One call per subscription across every tenant you are signed into, read-only by default, and a Claude Code plugin over the same engine.",
-      "tags": [
-        "azure",
-        "python",
-        "devops",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7eaf55edd61f70f7107a61c41b4d36ec",
-      "title": "How I Added OpenTelemetry Tracing to 47 Services With Claude Code in 9 Days",
-      "url": "https://dev.to/yureki_lab/how-i-added-opentelemetry-tracing-to-47-services-with-claude-code-in-9-days-36ea",
-      "source": "Dev.to",
-      "published_at": "2026-09-24T14:32:24Z",
-      "summary": "TL;DR   I had 47 backend services that emitted logs but no traces, so every incident turned...",
-      "tags": [
-        "ai",
-        "claudecode",
-        "observability",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1c28715264746579877c7117c5c42fc3",
-      "title": "Google’s Gemini CLI now asks before editing your build files",
-      "url": "https://thenewstack.io/gemini-cli-prompt-injection-safeguards/",
-      "source": "The New Stack",
-      "published_at": "2026-09-24T14:27:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "1ef48ba227eb92b24236521b9e933cdd",
       "title": "Beste Embedded-Messe mit DevOps-Fokus im DACH-Raum?",
       "url": "https://www.reddit.com/r/devops/comments/1wpbkcl/beste_embeddedmesse_mit_devopsfokus_im_dachraum/",
@@ -1308,31 +1180,6 @@
       "summary": "Ich bin DevOps Engineer und betreue vorrangig ein Embedded-Entwicklerteam. Ich suche eine Messe oder Konferenz, bevorzugt im DACH-Raum, gerne aber auch anderswo in Europa, die sich klar auf Embedded-Software konzentriert und DevOps-Themen wie CI/CD für Firmware, HIL-Tests und OTA-Updates fundiert be",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "93ce6bf5c9b5dee43a68d82d8afea057",
-      "title": "OpenAI’s agent had a routine task. It breached a government portal.",
-      "url": "https://thenewstack.io/ai-agents-probe-vulnerabilities/",
-      "source": "The New Stack",
-      "published_at": "2026-09-24T19:16:28+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "182cedc52286ae65f604e26f3e1c6f31",
-      "title": "[OC] gha-oidc-claimsim (RC): offline CLI — GHA OIDC claims vs IAM trust JSON",
-      "url": "https://www.reddit.com/r/devops/comments/1wp7aex/oc_ghaoidcclaimsim_rc_offline_cli_gha_oidc_claims/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-24T17:04:13+00:00",
-      "summary": "Open-source CLI tool released to simulate and validate GitHub Actions OIDC claims against IAM trust policies offline.",
-      "tags": [
-        "CI/CD",
-        "Security",
-        "Cloud",
-        "DevOps"
-      ],
-      "relevance_score": 0.8
     },
     {
       "id": "0df9fd476af4ca709fcd23d65d589d5a",
@@ -1857,36 +1704,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-09-24T19:44:17+00:00",
       "summary": "Hello all, in my project I have to migrate the resources which are already created manually and now i have to manage those resources using terraform and also main concern is without effecting production  So major resources we have VPC with around 30 subnets then 4 eks clusters and multiples route 53",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d0d09f9f3ab3fd3037a60d819b15dacb",
-      "title": "[Self-promotion] Free OSS for security engineering agents",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wp956x/selfpromotion_free_oss_for_security_engineering/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-24T18:12:52+00:00",
-      "summary": "Disclosure: I maintain this (free, open source, self-hosted). Cynative is a framework for building security engineering agents. Your agents can connect to AWS (EKS), GCP (GKS), Azure (AKS), self-managed K8s and also GitHub and GitLab to run deep research tasks. Repo: https://github.com/cynative/cyna",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d3f0cd393c823be2f919de32dbd5279f",
-      "title": "When it comes to backups, how are you utilizing infrastructure as code?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wp7rgo/when_it_comes_to_backups_how_are_you_utilizing/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-24T17:21:52+00:00",
-      "summary": "Compute resources, networking, secrets, policies and all of that are usually version controlled and reconciled by tools like ArgoCD and more. It feels like backup never got that treatment. It's always click these things, run those commands or maybe a script + cron job and none of these solutions are",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1b4592044f1ed2b056242e2730443fe9",
-      "title": "AKS desktop(feature/fix): Add better AI assistant and support for giant clusters",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wp6vgq/aks_desktopfeaturefix_add_better_ai_assistant_and/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-24T16:48:39+00:00",
-      "summary": "      Highlights  Extend AKS desktop with plugins for GitOps, certificate management, autoscaling, and more. Diagnose AKS issues with automatic model discovery, proactive diagnosis, and organization-specific AI Skills. Investigate GPU, DNS, networking, and process activity with real-time eBPF insigh",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2509,12 +2326,14 @@
       "url": "https://dev.to/xavidop/introducing-mamori-typed-watchable-config-secrets-for-go-gnp",
       "source": "Dev.to",
       "published_at": "2026-09-29T13:36:08Z",
-      "summary": "Mamori provides a Go library for type-safe, reloadable configuration and secret management with file-watching capabilities.",
+      "summary": "mamori is an open-source Go library that loads config and secrets from 30+ sources into typed, validated structs and keeps them reconciled at runtime.",
       "tags": [
-        "Platform Engineering",
-        "Security"
+        "go",
+        "security",
+        "devops",
+        "opensource"
       ],
-      "relevance_score": 0.6
+      "relevance_score": 0.0
     },
     {
       "id": "5b05349464e9e00ae74d2487f93a3cc3",
@@ -3213,6 +3032,146 @@
         "javascript",
         "npm",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e3a4dd1b46ea81079e909495641a5fd7",
+      "title": "Trust Docker for the agents you don’t",
+      "url": "https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap/",
+      "source": "Docker Blog",
+      "published_at": "2026-10-01T18:26:12+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e6765ec534f47a701dd3d719265cecda",
+      "title": "Implementing feature flags in container environments with AWS AppConfig",
+      "url": "https://aws.amazon.com/blogs/containers/implementing-feature-flags-in-container-environments-with-aws-appconfig/",
+      "source": "AWS Blog (Containers)",
+      "published_at": "2026-10-01T16:42:33+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ca9a2e7718daecce78efec1b6dd56d7e",
+      "title": "Do you guys feel lucky to be in devops or to have switched to devops ?",
+      "url": "https://www.reddit.com/r/devops/comments/1wv48hx/do_you_guys_feel_lucky_to_be_in_devops_or_to_have/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-01T16:35:44+00:00",
+      "summary": "With uncertainty in tech , layoffs, advancement in llms . Do you feel lucky to be in devops which is somewhat AI resilient field compared to other tech jobs ?  &#32; submitted by &#32;  /u/Independent_Ask4600   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8151667a3c61e2675c4c66a3d07f702e",
+      "title": "Experience with XAML Builds in Azure DevOps 2020 on prem Upgrade to latest Azure DevOps Version",
+      "url": "https://www.reddit.com/r/devops/comments/1wv456u/experience_with_xaml_builds_in_azure_devops_2020/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-01T16:32:13+00:00",
+      "summary": "Hello everyone, I am planning to upgrade our current DevOps environment to the latest Version (Upgrade path is given by Microsoft Docs).  Unfortunately, we don't have a second environment to test the upgrade so maybe someone of you has some experience. What we do have is that the Machine where our A",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7e54468f871b1309b65c71d1d5c63aff",
+      "title": "AWS launches a local answer to TypeSafe’s Jev decision model",
+      "url": "https://thenewstack.io/aws-strands-decider-model/",
+      "source": "The New Stack",
+      "published_at": "2026-10-01T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ca0e6211ccc61daef02f2d6eda5a2584",
+      "title": "A live Kubernetes cluster can still have an ownership gap",
+      "url": "https://thenewstack.io/kubernetes-operations-ownership-governance/",
+      "source": "The New Stack",
+      "published_at": "2026-10-01T15:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bb807b9558974efef7c0ecbeb8badc8b",
+      "title": "Hacktoberfest 2026 Stopped Counting PRs. Make Your First Ones Anyway, One a Day",
+      "url": "https://dev.to/devopsdaily/hacktoberfest-2026-stopped-counting-prs-make-your-first-ones-anyway-one-a-day-377b",
+      "source": "Dev.to",
+      "published_at": "2026-10-01T15:04:37Z",
+      "summary": "Hacktoberfest started today, and if you have taken part before, the first thing to know is that the...",
+      "tags": [
+        "hacktoberfest",
+        "opensource",
+        "beginners",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e2398a57ab2acb9d71d3ef3bec654f98",
+      "title": "How I Built a Deploy Gate So My Autonomous Coding Agent Can Ship to Prod Safely",
+      "url": "https://dev.to/yureki_lab/how-i-built-a-deploy-gate-so-my-autonomous-coding-agent-can-ship-to-prod-safely-1egb",
+      "source": "Dev.to",
+      "published_at": "2026-10-01T14:32:04Z",
+      "summary": "TL;DR   I let a fully autonomous coding agent (built on Claude Code) merge and ship its own...",
+      "tags": [
+        "ai",
+        "claudecode",
+        "devops",
+        "softwareengineering"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "243a8be50c529484b46fe7e11036199a",
+      "title": "How Kubernetes Actually Schedules Your Pod (and What the Network Does After)",
+      "url": "https://dev.to/devopsdaily/how-kubernetes-actually-schedules-your-pod-and-what-the-network-does-after-jkj",
+      "source": "Dev.to",
+      "published_at": "2026-10-01T14:23:31Z",
+      "summary": "At some point kubectl apply stops being magic and becomes a question: something decided which node...",
+      "tags": [
+        "kubernetes",
+        "networking",
+        "devops",
+        "learning"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "58eb434a2d42b02365cfd915eb854e66",
+      "title": "AI Comisseration Follow up",
+      "url": "https://www.reddit.com/r/devops/comments/1wv0mpl/ai_comisseration_follow_up/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-01T14:17:27+00:00",
+      "summary": "I wanted to write a follow up on this post I made a few days ago: https://www.reddit.com/r/devops/comments/1wb3l8j/ai_comiseration_client_replacing_production/  So to summarize: I was more or less asked to review a portal implementation that was made using Claude and vibe coding by someone who doesn",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6afcdc9e53bc9c7e731f9c5de5b07328",
+      "title": "Use Graph RAG when relationships are part of the evidence",
+      "url": "https://thenewstack.io/when-to-use-graph-rag/",
+      "source": "The New Stack",
+      "published_at": "2026-10-01T13:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "071ba5c35307670d318ba91a7a80e98d",
+      "title": "A Kubernetes rolling update with maxUnavailable: 0 still drops requests",
+      "url": "https://dev.to/remdore/a-kubernetes-rolling-update-with-maxunavailable-0-still-drops-requests-17jc",
+      "source": "Dev.to",
+      "published_at": "2026-10-01T12:59:00Z",
+      "summary": "Four replicas, maxUnavailable 0, graceful shutdown and a preStop hook. Still 20 dropped connections per deploy. The timing data showed the failures were nowhere near where I assumed.",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "sre",
+        "cloud"
       ],
       "relevance_score": 0.0
     }
