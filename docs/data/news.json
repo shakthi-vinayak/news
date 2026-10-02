@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T19:12:01Z",
+  "generated_at": "2026-10-02T23:44:53Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1142,54 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "80adc444fc056d28d03b0b27bcb35a3b",
-      "title": "How do you know which engineering issues need attention before they become expensive?",
-      "url": "https://www.reddit.com/r/devops/comments/1wq6da2/how_do_you_know_which_engineering_issues_need/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-25T20:03:09+00:00",
-      "summary": "I'm doing a bit research on how DevOps/SRE teams handle this. Let's suppose you have  a Datadog alert a Sentry issue a Jira/Linear ticket  It gets noticed, but doesn’t get resolved for hours or days. Eventually it affects customers, causes downtime, delays something important, or starts costing the ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "377eaa55562a0a8c63b0621cb5cb2e9c",
-      "title": "How do DevOps team notice issues before they become a big problem?",
-      "url": "https://www.reddit.com/r/devops/comments/1wq53pm/how_do_devops_team_notice_issues_before_they/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-25T19:13:14+00:00",
-      "summary": "Last week I’ve spent it researching about this specific problem before I go deeper and build something for this so PLEASE reply if you suffer from it. So issues talking about Jira or Linear tickets, Sentry issues, Datadog alerts or whatever that sit for a LOTTT of time before getting resolved which ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "503f48f7dadb4a8eaa23746364848267",
-      "title": "Leaked GitLab Email Tokens Can Reach Code, Secrets and CI/CD Pipelines",
-      "url": "https://devops.com/leaked-gitlab-email-tokens-can-reach-code-secrets-and-ci-cd-pipelines/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-25T23:36:13+00:00",
-      "summary": "A leak of GitLab email tokens could expose source code, secrets, and CI/CD pipelines, highlighting risks in credential management for DevOps environments.",
-      "tags": [
-        "Security",
-        "DevOps",
-        "CI/CD"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "f2be075c0d8df197acaf86179b4f8072",
-      "title": "Kubernetes scaling is much more interesting when you look at what happens internally.",
-      "url": "https://www.reddit.com/r/devops/comments/1wq952x/kubernetes_scaling_is_much_more_interesting_when/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-25T21:56:49+00:00",
-      "summary": "Explains internal Kubernetes scaling mechanics beyond surface-level metrics. Insight into pod scheduling and resource management.",
-      "tags": [
-        "Kubernetes",
-        "Observability",
-        "SRE"
-      ],
-      "relevance_score": 0.95
-    },
-    {
       "id": "ee26ced459c90681ed7c092a4959db66",
       "title": "Why doesnt DevOps have an ACLS?",
       "url": "https://www.reddit.com/r/devops/comments/1wqfov2/why_doesnt_devops_have_an_acls/",
@@ -1387,16 +1339,6 @@
         "scalability",
         "reliability"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "661f865abffc85b1b77a93c15ae4acc0",
-      "title": "Cloud Native Heidelberg · Ask not what you can do for your platform - ask what your platform can do for you!",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wq7usy/cloud_native_heidelberg_ask_not_what_you_can_do/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-25T21:02:41+00:00",
-      "summary": "      &#32; submitted by &#32;  /u/No-Income-2235   [link] &#32; [comments] ",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3274,6 +3216,21 @@
       "published_at": "2026-09-22T10:07:36+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "12122183cc6443e2c338f74ce8649456",
+      "title": "My Hacktoberfest 2026 Journey: Contributing to DevOps Daily",
+      "url": "https://dev.to/bangkah/diving-into-hacktoberfest-2026-my-open-source-contribution-journey-on-devops-daily-6go",
+      "source": "Dev.to",
+      "published_at": "2026-10-01T20:03:26Z",
+      "summary": "Hacktoberfest is back, and this year I decided to join the 7-Day DevOps Contribution Challenge hosted...",
+      "tags": [
+        "hacktoberfest",
+        "devops",
+        "opensource",
+        "devopsdaily"
+      ],
       "relevance_score": 0.0
     }
   ]
