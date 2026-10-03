@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:11:02Z",
+  "generated_at": "2026-10-03T21:01:24Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1563,13 +1563,14 @@
       "url": "https://dev.to/qnbs/when-ai-reviewers-become-a-ci-problem-1a00",
       "source": "Dev.to",
       "published_at": "2026-09-28T09:44:11Z",
-      "summary": "When AI reviewers are integrated into CI pipelines, they can introduce new failure modes and complicate the continuous integration process.",
+      "summary": "Fifteen AI review bots on one repository is not fifteen times the insight — it is a governance problem. How one open-source project keeps machine reviewers advisory, deterministic gates blocking, and PR code out of the trust boundary.",
       "tags": [
-        "AI",
-        "DevOps",
-        "CI/CD"
+        "devops",
+        "cicd",
+        "ai",
+        "governance"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "942489910beb70621a6ac7c0e91ed750",
@@ -3230,6 +3231,46 @@
       "published_at": "2026-10-03T09:42:37+00:00",
       "summary": "I am seriously confused, I thought of doing some unique projects which stands out, I thought I can make an app for developer where images can be updated but then CICD is already doing that. Monitoring tools already giving enough logs , events, metrics.  Then this auto heals cluster, why would you tr",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "81bd5d617127ec1aaab43a8674579169",
+      "title": "A service mesh costs 0.16ms at one connection and 86% of your throughput at 32",
+      "url": "https://dev.to/remdore/a-service-mesh-costs-016ms-at-one-connection-and-86-of-your-throughput-at-32-4akf",
+      "source": "Dev.to",
+      "published_at": "2026-10-03T16:37:00Z",
+      "summary": "The per-hop latency figure every mesh benchmark quotes is honest and nearly useless. Measured Linkerd on identical hardware with and without, at three concurrency levels, with the nodes never above 50% CPU.",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "performance",
+        "sre"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2ec35da7b095d106886ecbed7a106956",
+      "title": "QA/Release Eng w/ 11 YoE, hard pivot to Cloud/Devops, looking for a bit of advice",
+      "url": "https://www.reddit.com/r/devops/comments/1wwr7yp/qarelease_eng_w_11_yoe_hard_pivot_to_clouddevops/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-03T16:19:38+00:00",
+      "summary": "Hey! Question in regards to pivoting towards cloud/devops. I (not sure if it matters but US citizen based here in the states) have been laid off for about 4 months now. My background is mostly in QA engineering (pre-ai test architecture and development in automation suites, including SDET roles and ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9518b70f6762596d1adc0f87652eadfa",
+      "title": "Parallel Agents Need a Work Topology, Not Just More Copies",
+      "url": "https://dev.to/qnbs/parallel-agents-need-a-work-topology-not-just-more-copies-27o6",
+      "source": "Dev.to",
+      "published_at": "2026-10-01T19:05:00Z",
+      "summary": "Launching five agents on one large issue does not create five independent units of progress. If all...",
+      "tags": [
+        "ai",
+        "programming",
+        "productivity",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
