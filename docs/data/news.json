@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:35:04Z",
+  "generated_at": "2026-10-03T16:11:02Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1142,26 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5023dddbc7db207c0af9f13765cafef1",
-      "title": "The agent didn’t break your controls. It went around them.",
-      "url": "https://thenewstack.io/inside-out-agent-security/",
-      "source": "The New Stack",
-      "published_at": "2026-09-26T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b7ecd0763f29fd8393e8abee29f277ed",
-      "title": "Claude Opus 5.5 vs. Opus 5 on reasoning tasks: Cheaper, faster, but not better",
-      "url": "https://thenewstack.io/claude-opus-5-5-vs-opus-5/",
-      "source": "The New Stack",
-      "published_at": "2026-09-26T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "de7334f60366a933c9de7b3e375f67da",
       "title": "How are people verifying unattended/CI agent runs actually did what they claimed?",
       "url": "https://www.reddit.com/r/devops/comments/1wr2lng/how_are_people_verifying_unattendedci_agent_runs/",
@@ -1268,16 +1248,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-09-27T01:09:35+00:00",
       "summary": "We wanted to see what platform teams actually inherit when they helm install popular AI workloads into a cluster with default values. We rendered 15 official charts (vLLM production-stack, KubeRay, KServe, AIBrix, Ollama, Open WebUI, LocalAI, LiteLLM, Langfuse, n8n, Qdrant, Weaviate, Milvus, and two",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "67743a206f58c2725eec00d9c51917a8",
-      "title": "Cilium Network Policy level of use?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wqpiew/cilium_network_policy_level_of_use/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-26T12:38:45+00:00",
-      "summary": "Hello, I'm building a new cluster, I want to make it more secure but should I write a policy for each flow and pod or just keep it at the namespace level with maybe some port restrictions? In my design, each application is in its own namespace managed by FluxCD. Should I also restrict system namespa",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3138,13 +3108,14 @@
       "url": "https://dev.to/rudratosh/pinned-to-a-sha-is-a-lie-your-coding-agent-told-you-heres-the-git-trick-behind-plugin4shell-je5",
       "source": "Dev.to",
       "published_at": "2026-09-28T18:23:27Z",
-      "summary": "The post explains why pinning a Git commit to a SHA can be misleading and reveals the Git trick behind the Plugin4Shell vulnerability.",
+      "summary": "Plugin4Shell let a repo owner silently swap already-approved, SHA-pinned plugin code across Claude Code, Codex, Copilot and Gemini CLI — zero clicks. The bug isn't exotic. It's that \"pinned to a commit\" was never actually verified. Here's the mechanism, who's patched, and how to check yours.",
       "tags": [
-        "DevOps",
-        "Security",
-        "CI/CD"
+        "security",
+        "ai",
+        "git",
+        "devops"
       ],
-      "relevance_score": 0.75
+      "relevance_score": 0.0
     },
     {
       "id": "7818edccf245f5b7725e3518dd764ebd",
