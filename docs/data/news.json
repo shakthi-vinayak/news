@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:19:01Z",
+  "generated_at": "2026-10-04T19:32:58Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1157,21 +1157,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ddec55e0b3b5941afb71aa5f4452b273",
-      "title": "Before you pick a hosted agent runtime, check what happens at idle",
-      "url": "https://dev.to/mishabuildingai/before-you-pick-a-hosted-agent-runtime-check-what-happens-at-idle-4lj7",
-      "source": "Dev.to",
-      "published_at": "2026-09-27T14:05:52Z",
-      "summary": "Disclosure: I work on Gobare, one of the three runtimes below. To keep that from mattering, I quote...",
-      "tags": [
-        "ai",
-        "llm",
-        "architecture",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4592c98ba681938375343435752db48a",
       "title": "The case for a cloud native agent harness",
       "url": "https://www.cncf.io/blog/2026/09/28/the-case-for-a-cloud-native-agent-harness/",
@@ -1366,13 +1351,14 @@
       "url": "https://dev.to/libme/docker-image-works-on-your-mac-but-fails-on-the-server-fixing-exec-format-error-for-good-dag",
       "source": "Dev.to",
       "published_at": "2026-09-28T15:30:22Z",
-      "summary": "Explains why a Docker image may run on macOS but fail on Linux servers due to exec format errors, and how to fix the architecture mismatch.",
+      "summary": "Why an image built on an Apple Silicon Mac dies with exec format error on an amd64 server, and the three ways to fix it for good.",
       "tags": [
-        "DevOps",
-        "Containers",
-        "Cloud"
+        "docker",
+        "devops",
+        "cicd",
+        "tooling"
       ],
-      "relevance_score": 0.7
+      "relevance_score": 0.0
     },
     {
       "id": "be95681e5f5be543d5ede3fff4deb4f5",
@@ -3263,6 +3249,51 @@
         "performance",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4c591bc90030886c4502a3319bf4e339",
+      "title": "5-Month Learning Plan: Python + MongoDB + Azure — What Should I Learn First?",
+      "url": "https://www.reddit.com/r/devops/comments/1wxmrya/5month_learning_plan_python_mongodb_azure_what/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-04T18:28:24+00:00",
+      "summary": "I’m currently working as an intern, and my company has given us a 5-month learning program where I’ve chosen Python + MongoDB + Azure. I want to use these 5 months properly and build practical skills, with the goal of moving toward Cloud/DevOps. There will also be an assessment/exam after the 5-mont",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b09ec8973e875a536f2fa2b2b13f14a1",
+      "title": "My Health Check Watched the Wrong File",
+      "url": "https://dev.to/kenielzep97/my-health-check-watched-the-wrong-file-p7h",
+      "source": "Dev.to",
+      "published_at": "2026-10-04T18:05:19Z",
+      "summary": "I wrote a rule for my own agents:  Liveness is not usefulness. Artifact age beats PID.  A job that is...",
+      "tags": [
+        "python",
+        "devops",
+        "launchd",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bb4e837ef69a320c5f0682297a566ca5",
+      "title": "Questions for upcoming Devops interview",
+      "url": "https://www.reddit.com/r/devops/comments/1wxkrpq/questions_for_upcoming_devops_interview/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-04T17:05:58+00:00",
+      "summary": "I have an upcoming devops interview for 3 years of experience , HR has told me to prepare for SQL Query Design &amp; Optimization In particular apart from usual stuff in devops , i have no idea about SQL can you guys drop questions related to SQL which are usually asked in interviews ?   &#32; submi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9027fd4ffa875a8e909fb4d1da4b3e8e",
+      "title": "ollama/ollama: v0.40.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-04T16:37:17+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
