@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:21:34Z",
+  "generated_at": "2026-10-04T15:19:01Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1138,76 +1138,6 @@
       "source": "AWS Blog (Containers)",
       "published_at": "2026-09-25T21:18:33+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "50bfee099d7163ee3ff1462513b20fa9",
-      "title": "We audited the default Helm charts and Docker configs of popular AI stack tools (Ray, Weaviate, MCP servers, LangChain). The out-of-the-box security defaults are surprisingly bad.",
-      "url": "https://www.reddit.com/r/devops/comments/1wrkllb/we_audited_the_default_helm_charts_and_docker/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-27T13:44:24+00:00",
-      "summary": "Over the past few weeks, we set up a fresh cluster to test what actually gets deployed when an engineer runs helm install with zero extra configuration on popular AI, vector DB, and MCP charts (Ray, vLLM, LiteLLM, Qdrant, Weaviate, KubeRay, etc.). Everyone focuses on prompt injection and model jailb",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6e5a1f6f3378b4cd31517ccf3200d53b",
-      "title": "Unorganized Knowledge = Noise",
-      "url": "https://www.reddit.com/r/devops/comments/1wrh025/unorganized_knowledge_noise/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-27T10:39:27+00:00",
-      "summary": "Whenever I try learning new technology or troubleshooting without a clear plan, I get overwhelmed. Hopping between random videos, articles, and quick AI summaries leaves me feeling lost and stressed about where to begin or end. I've realized that having a structured roadmap with clear, step-by-step ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "17fd6decbc9519df6e43ae981f100cfe",
-      "title": "containerd 2.2's mount manager panics on a one-mount mkfs chain",
-      "url": "https://dev.to/alexgeorgiev17/containerd-22s-mount-manager-panics-on-a-one-mount-mkfs-chain-545n",
-      "source": "Dev.to",
-      "published_at": "2026-09-27T10:00:00Z",
-      "summary": "I measured containerd 2.2's new mount manager against doing the same loopback ext4 setup by hand: 24ms manual versus 30-47ms through the API, then found a reproducible index-out-of-range panic and a raw BoltDB error leaking through it.",
-      "tags": [
-        "containerd",
-        "docker",
-        "devops",
-        "go"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b32ba439cae47779b944049b734047db",
-      "title": "The rise of agentic AI on Kubernetes: unleashing the new infrastructure layer",
-      "url": "https://thenewstack.io/agentic-ai-kubernetes-management/",
-      "source": "The New Stack",
-      "published_at": "2026-09-27T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a399907bd69fb1087c98da2c4e738692",
-      "title": "Can Claude Code and Cursor actually enforce your org rules and coding standards?",
-      "url": "https://dev.to/dev_kiran/can-claude-code-and-cursor-actually-enforce-your-org-rules-and-coding-standards-1e44",
-      "source": "Dev.to",
-      "published_at": "2026-09-27T13:44:59Z",
-      "summary": "Hello Devs 👋  One of the first things many teams do after adopting an AI coding agent is create a...",
-      "tags": [
-        "ai",
-        "devops",
-        "productivity",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f5dd89d43597e08926890d93dc5a4090",
-      "title": "Kubernetes Home Lab Setup on a Local Windows Laptop",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wriu8v/kubernetes_home_lab_setup_on_a_local_windows/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-09-27T12:20:43+00:00",
-      "summary": "I am currently learning Kubernetes and want to build a Kubernetes home lab on my local Windows laptop. At the moment, I am using WSL with Ubuntu. Instead of learning Kubernetes only through theory, I want to build a practical lab where I can set up and manage the infrastructure myself and learn by a",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3276,6 +3206,61 @@
         "security",
         "ai",
         "machinelearning",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "121fbe6d51220a157c6db2028350f59d",
+      "title": "Agents have made CI the bottleneck. Faster pipelines are the wrong fix.",
+      "url": "https://thenewstack.io/ci-bottleneck-agent-verification/",
+      "source": "The New Stack",
+      "published_at": "2026-10-04T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0012799dae5b08bf1d71819bb0a82838",
+      "title": "Looking for a mentor to guide me and hold me accountabile",
+      "url": "https://www.reddit.com/r/devops/comments/1wxhi9k/looking_for_a_mentor_to_guide_me_and_hold_me/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-04T14:49:31+00:00",
+      "summary": "I want to switch jobs and learn cloud/devops from scratch. I'll be starting from networking and Linux first and once that part is done will start with Azure. I am already familiar with cloud and quite a lot of IT Tools, but want to become a proper devops/could engineer!  &#32; submitted by &#32;  /u",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3e3bcf6e733f9a7c496440c00a11212e",
+      "title": "ollama/ollama: v0.40.0-rc1: mlx: match publisher tokenizer semantics (#18779)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-04T14:45:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6e3218fd42a268df82b4a67ed2c89345",
+      "title": "AI agents observability in backstage with langfuse and OTEL",
+      "url": "https://www.reddit.com/r/devops/comments/1wxgt8n/ai_agents_observability_in_backstage_with/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-04T14:18:24+00:00",
+      "summary": "Spotify #backstage plugin to manage and observe fleet of agents straight in backstage self hosted https://github.com/acarmisc/backstage-plugin-ai-agents/tree/main. It relay on open telemetry signals and the first available backend it’s #langfuse  &#32; submitted by &#32;  /u/acarmisc   [link] &#32; ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2dd7d44688bf91fe78c732d714c29979",
+      "title": "Valkey 9.2's forkless BGSAVE cuts my memory spike from 350MB to 10MB",
+      "url": "https://dev.to/alexgeorgiev17/valkey-92s-forkless-bgsave-cuts-my-memory-spike-from-350mb-to-10mb-23km",
+      "source": "Dev.to",
+      "published_at": "2026-10-04T10:00:00Z",
+      "summary": "Valkey 9.2.0-rc1's opt-in forkless snapshot held the memory spike during BGSAVE to about 10MB against fork()'s 350MB on a 1.1GB dataset, but took 70% longer and cost 15% of write throughput to do it.",
+      "tags": [
+        "valkey",
+        "database",
+        "performance",
         "devops"
       ],
       "relevance_score": 0.0
