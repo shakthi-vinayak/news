@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:32:58Z",
+  "generated_at": "2026-10-04T23:02:49Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1142,21 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "57c92b6e80c4f03b38ac713e7eefd606",
-      "title": "A new server gets its first unsolicited packet in 3.77 seconds",
-      "url": "https://dev.to/remdore/a-new-server-gets-its-first-unsolicited-packet-in-377-seconds-4cco",
-      "source": "Dev.to",
-      "published_at": "2026-09-27T19:49:20Z",
-      "summary": "I rented a $6 server, gave it a fresh IPv4 address nobody had used before, and started a...",
-      "tags": [
-        "security",
-        "networking",
-        "devops",
-        "linux"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4592c98ba681938375343435752db48a",
       "title": "The case for a cloud native agent harness",
       "url": "https://www.cncf.io/blog/2026/09/28/the-case-for-a-cloud-native-agent-harness/",
@@ -1438,13 +1423,14 @@
       "url": "https://dev.to/qnbs/when-ai-reviewers-become-a-ci-problem-1a00",
       "source": "Dev.to",
       "published_at": "2026-09-28T09:44:11Z",
-      "summary": "Examines how AI‑driven code reviewers can introduce new challenges in CI pipelines, such as false positives and latency issues.",
+      "summary": "Fifteen AI review bots on one repository is not fifteen times the insight — it is a governance problem. How one open-source project keeps machine reviewers advisory, deterministic gates blocking, and PR code out of the trust boundary.",
       "tags": [
-        "AI",
-        "CI/CD",
-        "DevOps"
+        "devops",
+        "cicd",
+        "ai",
+        "governance"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "942489910beb70621a6ac7c0e91ed750",
@@ -3291,7 +3277,7 @@
       "title": "ollama/ollama: v0.40.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc2",
       "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-04T16:37:17+00:00",
+      "published_at": "2026-10-04T22:11:11+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
