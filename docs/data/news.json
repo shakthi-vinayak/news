@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:03:43Z",
+  "generated_at": "2026-10-06T20:57:16Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -562,16 +562,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1b1ba1faef3a0d466fe8a45fab82f8c9",
-      "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
-      "url": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
-      "source": "Kubernetes Blog",
-      "published_at": "2026-08-11T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c1b027eb131a3ad4c26ffc5e11247c29",
       "title": "Extending AWS Transform custom with MCP Servers for End-to-End Code Modernization",
       "url": "https://aws.amazon.com/blogs/devops/extending-aws-transform-custom-with-mcp-servers-for-end-to-end-code-modernization/",
@@ -902,16 +892,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0aed1b0e938caba599b6837a4694db35",
-      "title": "argoproj/argo-cd: gitops-engine/v3.6.0-rc1: chore: bump version to 3.6.0-rc1 on release-3.6 branch (#29730)",
-      "url": "https://github.com/argoproj/argo-cd/releases/tag/gitops-engine%2Fv3.6.0-rc1",
-      "source": "GitHub Releases (argoproj)",
-      "published_at": "2026-09-15T23:18:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d7f7b3f1eb047fba99843f31e8747657",
       "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
       "url": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
@@ -1182,42 +1162,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f607e354be0afb1bd371d7e84c946b7d",
-      "title": "langchain-ai/langchain: langchain-fireworks==1.7.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-28T20:46:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bdfcbbc50bc19cde2d9e37f96d2dc319",
-      "title": "Is code review a juniors job?",
-      "url": "https://www.reddit.com/r/devops/comments/1wtekhe/is_code_review_a_juniors_job/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-29T16:20:38+00:00",
-      "summary": "Im an it exec involved in devops, still a junior (this my 1st job). Couple months ago, was tasked with updating some API, to match our code's version with our 3rd party library (licensed). Now, did some code changes, did local testing, was fine. Reported to the senior, said gonna take a look at it l",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "841ccb70e635243533ec1e68826e34b2",
       "title": "Building a Slack-powered AI development agent with Kiro CLI and headless authentication",
       "url": "https://aws.amazon.com/blogs/devops/building-a-slack-powered-ai-development-agent-with-kiro-cli-and-headless-authentication/",
       "source": "AWS Blog",
       "published_at": "2026-09-29T16:02:43+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "05083802cc5e0ff95a891af59b5ddb82",
-      "title": "Built an AI Incident Response Agent that remembers how previous incidents were solved",
-      "url": "https://www.reddit.com/r/devops/comments/1wte30a/built_an_ai_incident_response_agent_that/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-09-29T16:02:21+00:00",
-      "summary": "I built an AI-Powered Incident Response Agent with Persistent Organizational Memory using Hindsight. The main idea was simple: What if an incident-response AI could actually remember how the organization solved previous incidents and use that experience when a similar problem happens again? The prot",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1283,110 +1233,6 @@
         "programming",
         "productivity",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "20f498aea19b536acf185d3222ddd5d9",
-      "title": "ollama/ollama: v0.35.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-09-29T20:14:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bdb2674b4be0a61cc8b43bbe27645bb5",
-      "title": "Kubiverse: Explore Your Kubernetes Cluster as a Voxel World",
-      "url": "https://dev.to/jairofernandez/kubiverse-explore-your-kubernetes-cluster-as-a-voxel-world-me5",
-      "source": "Dev.to",
-      "published_at": "2026-09-29T19:21:34Z",
-      "summary": "Kubiverse visualizes your Kubernetes cluster as an interactive voxel world for easier exploration.",
-      "tags": [
-        "Kubernetes",
-        "DevOps",
-        "Observability"
-      ],
-      "relevance_score": 0.8
-    },
-    {
-      "id": "c839f045fe65c4af1c798d83db6af709",
-      "title": "OpenAI makes ‘Sign in with ChatGPT’ a way to use your subscription in third-party developer tools",
-      "url": "https://thenewstack.io/sign-in-with-chatgpt/",
-      "source": "The New Stack",
-      "published_at": "2026-09-29T17:31:05+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "42c1384801eeb94ba77101d49c86aab2",
-      "title": "OpenAI just launched Dots. Here’s why they matter for developers.",
-      "url": "https://thenewstack.io/openai-dots-gpt6-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-09-29T17:15:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9d97bbc3f606ea82748d6d675e8b24c0",
-      "title": "OpenAI answers TypeSafe’s Jev with a Decision API built on Luna",
-      "url": "https://thenewstack.io/openai-decision-api-luna/",
-      "source": "The New Stack",
-      "published_at": "2026-09-29T17:15:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bf1109a55b574ad3a9a2c451b84ef5de",
-      "title": "OpenAI’s new GPT-6.1 Sol undercuts its own Astra flagship",
-      "url": "https://thenewstack.io/openai-gpt-6-1-sol/",
-      "source": "The New Stack",
-      "published_at": "2026-09-29T17:15:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "98b1c09aec0ee075a87d3b6262060001",
-      "title": "OpenAI halves $200 plan allowance, launches $500 plan",
-      "url": "https://thenewstack.io/openai-halves-200-plan/",
-      "source": "The New Stack",
-      "published_at": "2026-09-29T17:15:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "17bc74c2dcf7015b97301019b5342105",
-      "title": "Your Metric Is Not Your State",
-      "url": "https://dev.to/kenwalger/your-metric-is-not-your-state-2lfl",
-      "source": "Dev.to",
-      "published_at": "2026-09-29T16:13:00Z",
-      "summary": "What a refractometer taught me about observability  In July, I wrote about a farmer walking a...",
-      "tags": [
-        "observability",
-        "programming",
-        "ai",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b100b47f488ed79337d1a1cf101a3e03",
-      "title": "Stop Waiting for GitHub Actions: Make Your CI Faster Today",
-      "url": "https://dev.to/johnnylemonny/stop-waiting-for-github-actions-make-your-ci-faster-today-a2l",
-      "source": "Dev.to",
-      "published_at": "2026-09-29T15:30:00Z",
-      "summary": "A practical guide to canceling outdated runs, caching dependencies, reducing duplicate work, and getting faster feedback from GitHub Actions.",
-      "tags": [
-        "github",
-        "devops",
-        "productivity",
-        "tutorial"
       ],
       "relevance_score": 0.0
     },
@@ -2089,16 +1935,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-10-02T01:25:51+00:00",
       "summary": "Curious how teams handle this in practice. When a dev or contractor leaves, there are SSH keys in authorized_keyson a dozen boxes, a DB password everyone knew, staging .env files in Slack DMs, maybe AWS keys on their laptop.  Do you rotate everything they could have touched, or just disable SSO and ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4bd50fe2606119e46eb7cd2653e1d115",
-      "title": "ollama/ollama: v0.35.1-rc0: create: support explicit model capabilities (#18708)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-09-29T18:10:25+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2992,12 +2828,14 @@
       "url": "https://dev.to/zerokdevops/mcp-at-90-tools-the-catalog-breaks-before-the-server-does-3ibo",
       "source": "Dev.to",
       "published_at": "2026-10-04T20:08:21Z",
-      "summary": "The MCP tool catalog has surpassed 90 tools, creating scalability challenges before the server itself struggles.",
+      "summary": "Exposing one internal tool over the Model Context Protocol is a weekend project. Exposing ninety of...",
       "tags": [
-        "AI",
-        "LLMOps"
+        "devops",
+        "mcp",
+        "ai",
+        "security"
       ],
-      "relevance_score": 0.7
+      "relevance_score": 0.0
     },
     {
       "id": "041d74aee5524df6c0c402ed8c23f82e",
@@ -3152,6 +2990,161 @@
         "git",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "07be296f86f23b1a1f8c4033525b05d8",
+      "title": "The CNCF is graduating projects faster than ever. AI agents are helping with the due diligence.",
+      "url": "https://thenewstack.io/open-source-ai-kubernetes/",
+      "source": "The New Stack",
+      "published_at": "2026-10-06T20:02:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "60cd7a78d09676a4dd2ab0a12e02b9fe",
+      "title": "If your coding agent is building & testing a mobile app, how are you thinking about emulators/ simulators vs real devices strategy?",
+      "url": "https://www.reddit.com/r/devops/comments/1wzcdmp/if_your_coding_agent_is_building_testing_a_mobile/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-06T19:50:27+00:00",
+      "summary": "We’re using coding agents fairly extensively across our teams (Claude Code, GitHub Copilot, etc.), and we’re getting to the point where agents aren't just writing code, they can run the app, write tests, inspect failures, make fixes and iterate. For web development, giving an agent a browser to work",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bb78278706f39f35f8d52cf0387bbc75",
+      "title": "ollama/ollama: v0.40.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-06T18:47:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a91eca1825892d99c660e8c57898ae87",
+      "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
+      "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
+      "source": "Kubernetes Blog",
+      "published_at": "2026-10-06T18:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1722bfd53d01994c6e66cfca15534a88",
+      "title": "🌟 Demystifying Kubernetes etcd: Inside the Cluster’s Brain & State Store",
+      "url": "https://dev.to/aws-builders/demystifying-kubernetes-etcd-inside-the-clusters-brain-state-store-4l6k",
+      "source": "Dev.to",
+      "published_at": "2026-10-06T17:36:18Z",
+      "summary": "A hands-on look at how etcd works, why it uses a flat key-space for hierarchies, and how MVCC...",
+      "tags": [
+        "kubernetes",
+        "cloud",
+        "devops",
+        "containers"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "11823fd779e23ab68cc4dea8ee1b8029",
+      "title": "How to split tasks between CI/CD?",
+      "url": "https://www.reddit.com/r/devops/comments/1wz7zn9/how_to_split_tasks_between_cicd/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-06T17:03:25+00:00",
+      "summary": "I am building a ci/cd pipeline. When a PR is merged, it will push a docker image to ECR, but when I am just pushing a regular commit, I don't want to run the full deployment. What task goes into ci and what goes into cd? I've seen different takes on where to run the docker-related stuff. - CI (alway",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "148f3b2680263ef335e9515423d86064",
+      "title": "SAP acquires TechWolf to feed more context into its HR agents",
+      "url": "https://thenewstack.io/sap-acquires-techwolf-skills/",
+      "source": "The New Stack",
+      "published_at": "2026-10-06T16:52:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0077085f08b94b8ddb65c499b3a2ad6e",
+      "title": "“There is just not a room for error”: SAP is putting its AI agents in the back office",
+      "url": "https://thenewstack.io/sap-connect-joule-assistants/",
+      "source": "The New Stack",
+      "published_at": "2026-10-06T16:38:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f16c13aa8fc199e4c76ee36474b946a2",
+      "title": "langchain-ai/langchain: langchain-core==1.6.7",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.7",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-06T15:47:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "10992d5878e08f1add88093cc5df0a48",
+      "title": "Database security",
+      "url": "https://www.reddit.com/r/devops/comments/1wz5sk6/database_security/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-06T15:38:16+00:00",
+      "summary": "So I work in a very small company as a dev And we have external devops company which manages local http servers and MySQL servers for our saas product. So the thing is I would like to shift some of their work to our in-house dev team. I thought about starting small and manage a separate server on th",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "75c3b301c3af3e9d39535794ded1ab86",
+      "title": "ollama/ollama: v0.40.0-rc6: model: add multimodal embeddings (#18820)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc6",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-06T15:08:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6ca953fe91a9900aae75772a6f63f1a5",
+      "title": "Behind Cloudflare and nginx, All My Users Had the Same IP",
+      "url": "https://dev.to/mrviduus/behind-cloudflare-and-nginx-all-my-users-had-the-same-ip-3hae",
+      "source": "Dev.to",
+      "published_at": "2026-10-06T12:00:00Z",
+      "summary": "My admin login page allows 5 wrong passwords per minute. After that, it should block you.  I tried 9....",
+      "tags": [
+        "security",
+        "webdev",
+        "dotnet",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "10ec32023f7274816918391ad19a9355",
+      "title": "Running Hermes Agent on Kubernetes: What Breaks, What Doesn't, and a Production-Safe Setup",
+      "url": "https://dev.to/revos/running-hermes-agent-on-kubernetes-what-breaks-what-doesnt-and-a-production-safe-setup-3bbm",
+      "source": "Dev.to",
+      "published_at": "2026-10-06T10:07:05Z",
+      "summary": "Hermes Agent is Nous Research's self-improving AI agent. It builds skills from experience, keeps...",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "ai",
+        "agents"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ee8947ced713d55a2297457d58395516",
+      "title": "Dynatrace wants its AI agents to fix problems instead of adding alerts",
+      "url": "https://thenewstack.io/dynatrace-arize-ai-observability/",
+      "source": "The New Stack",
+      "published_at": "2026-10-05T19:06:17+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
