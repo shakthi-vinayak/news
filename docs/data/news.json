@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T08:34:27Z",
+  "generated_at": "2026-10-07T17:26:21Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1222,31 +1222,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c9047dcf90c2db684c0a38ed596e8141",
-      "title": "From 40 seconds to under 10: rebuilding incident detection on OpenTelemetry, Apache Kafka, and Apache Flink on Kubernetes",
-      "url": "https://www.cncf.io/blog/2026/09/30/from-40-seconds-to-under-10-rebuilding-incident-detection-on-opentelemetry-apache-kafka-and-apache-flink-on-kubernetes/",
-      "source": "CNCF Blog",
-      "published_at": "2026-09-30T11:00:00+00:00",
-      "summary": "The article describes how a team reduced incident detection latency from 40 seconds to under 10 seconds by leveraging OpenTelemetry, Apache Kafka, and Apache Flink on a Kubernetes platform.",
-      "tags": [
-        "Observability",
-        "Kubernetes",
-        "DevOps",
-        "SRE"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "23d321bd0f1307b042d9d8b5632aa45e",
-      "title": "“Think of it as Kubernetes for agents”: OpenClaw lands in the enterprise with Nvidia and Red Hat on board",
-      "url": "https://thenewstack.io/openclaw-enterprise-kubernetes-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-09-30T10:36:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "88a0068dddaf0870ba1d9bc495df1752",
       "title": "How to set a \"env\" var on github actions using shell script?",
       "url": "https://www.reddit.com/r/devops/comments/1wudb1o/how_to_set_a_env_var_on_github_actions_using/",
@@ -1295,66 +1270,6 @@
       "url": "https://aws.amazon.com/blogs/containers/ai-powered-eks-migration-assessment-with-amazon-bedrock-agentcore/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-09-30T15:34:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "03c6b79935bdce93e00598d2e4f40ca5",
-      "title": "OpenAI’s Dots boundary problem rate doubled in longer tests",
-      "url": "https://thenewstack.io/openai-dots-agent-permissions/",
-      "source": "The New Stack",
-      "published_at": "2026-09-30T15:26:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8f8d174359f83a5bc404bbcab10fb897",
-      "title": "langchain-ai/langchain: langchain-openai==1.6.7",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.7",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-30T15:12:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "63956b9677d5630a2198e6f22e045910",
-      "title": "Your AI agent aced the demo. Your data may still derail it.",
-      "url": "https://thenewstack.io/ai-agents-production-data/",
-      "source": "The New Stack",
-      "published_at": "2026-09-30T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d9e98f686cc991725361b1759df7e656",
-      "title": "Microsoft Fabric is where AI agents learn how the business works",
-      "url": "https://thenewstack.io/microsoft-fabric-agent-context/",
-      "source": "The New Stack",
-      "published_at": "2026-09-30T14:46:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f9458a791938097796d7287bde35a141",
-      "title": "Legit Security launches agentic remediation for open-source dependency vulnerabilities",
-      "url": "https://devops.com/legit-security-launches-agentic-remediation-for-open-source-dependency-vulnerabilities/",
-      "source": "DevOps.com",
-      "published_at": "2026-09-30T14:44:23+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a6f2d3f713220f69290b477ddf89c1ee",
-      "title": "“Think of it as Kubernetes for agents”: OpenClaw lands in the enterprise with OpenAI, Nvidia and Red Hat on board",
-      "url": "https://thenewstack.io/openclaw-enterprise-kubernetes-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-09-30T10:36:01+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2746,31 +2661,6 @@
       "relevance_score": 0.6
     },
     {
-      "id": "041d74aee5524df6c0c402ed8c23f82e",
-      "title": "Stop \"Vibe Checking\" Your AI Agents: How to Build Production Evals in 60 Minutes",
-      "url": "https://dev.to/googleai/stop-vibe-checking-your-ai-agents-how-to-build-production-evals-in-60-minutes-2df4",
-      "source": "Dev.to",
-      "published_at": "2026-09-30T16:45:07Z",
-      "summary": "How do you currently test your AI agents?  If you're like most developers building agentic...",
-      "tags": [
-        "ai",
-        "python",
-        "langchain",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "48200c40df95067879ae3b758046cbde",
-      "title": "langchain-ai/langgraph: langgraph-cli==0.4.32.dev0",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-09-23T23:26:51+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "216d072fb7e90950caeec9e2dad435e8",
       "title": "ollama/ollama: v0.40.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc5",
@@ -3132,6 +3022,136 @@
         "claudecode",
         "python",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2297d5a5b5b2b1e66cd0637e67985e62",
+      "title": "Is “security by default” becoming more important now that everyone can ship software with AI?",
+      "url": "https://www.reddit.com/r/devops/comments/1x018u3/is_security_by_default_becoming_more_important/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-07T16:34:10+00:00",
+      "summary": "      Ran into this post on LinkedIn about what the author calls “Ambient Generative IT”, basically AI-assisted development becoming so common that more people across an organization can suddenly build and ship things. One part stuck with me from a DevOps/security perspective: if the barrier to buil",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "00132eb336ccba470a0ee009da1579a4",
+      "title": "“It Worked” Is Not the Same as “It Can Run in Production”",
+      "url": "https://dev.to/_797a7c3a31b7c8547037/it-worked-is-not-the-same-as-it-can-run-in-production-198j",
+      "source": "Dev.to",
+      "published_at": "2026-10-07T16:02:58Z",
+      "summary": "“It Worked” Is Not the Same as “It Can Run in Production”   You are probably the kind of...",
+      "tags": [
+        "ai",
+        "devops",
+        "architecture",
+        "automation"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a4bad9541237c6ee944c240b2c99b45c",
+      "title": "OpenSearch veterans launch Infino. Here’s why it matters for agent builders.",
+      "url": "https://thenewstack.io/infino-agent-retrieval-layer/",
+      "source": "The New Stack",
+      "published_at": "2026-10-07T14:25:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "777e0d65dd179a533da4f3be913fc7c6",
+      "title": "Bash Isn't a Programming Language. It's a Text Substitution Engine.",
+      "url": "https://dev.to/smtahosin/bash-isnt-a-programming-language-its-a-text-substitution-engine-5eml",
+      "source": "Dev.to",
+      "published_at": "2026-10-07T13:50:20Z",
+      "summary": "A visual, beginner-friendly guide to how Bash actually executes commands. Discover why spaces break your scripts, how the expansion pipeline works, the subshell amnesia trap, and how to write scripts that never silently fail.",
+      "tags": [
+        "bash",
+        "linux",
+        "devops",
+        "beginners"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "058b4afffdc1c5a2b63ac0e99f00f354",
+      "title": "langchain-ai/langgraph: langgraph-cli==0.4.33",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-07T13:38:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b5b2da831ce8ae49b808982f4ebab18d",
+      "title": "How do I attribute API costs for AI?",
+      "url": "https://www.reddit.com/r/devops/comments/1wzuq7a/how_do_i_attribute_api_costs_for_ai/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-07T12:03:35+00:00",
+      "summary": "Finance wants me to provide a breakdown for our monthly API spend across OpenAI and Anthropic. Right now our platform handles requests for dozens of internal services and agent loops but it all routes through a handful of shared API keys. All I can see is the aggregate token count along with our mon",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "18cbdf104bb362b3f963c54da132d581",
+      "title": "What’s up, Docsy? Google’s docs project joins the Linux Foundation as AI agents become readers",
+      "url": "https://thenewstack.io/docsy-linux-foundation-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-10-07T11:02:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d318a634fec522a26eb14b54137beb9b",
+      "title": "DevOps Has Always Been Hard to Define. Does a Standard Help?",
+      "url": "https://devops.com/devops-has-always-been-hard-to-define-does-a-standard-help/",
+      "source": "DevOps.com",
+      "published_at": "2026-10-07T10:54:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ad0e8cab4c62854dd1c3153c7fa99450",
+      "title": "Federated Query at Petabyte Scale: A Deployment Pattern for a Governed AI-Agent Data Layer",
+      "url": "https://devops.com/federated-query-at-petabyte-scale-a-deployment-pattern-for-a-governed-ai-agent-data-layer/",
+      "source": "DevOps.com",
+      "published_at": "2026-10-07T10:00:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f700180f9c6005b1ae2978f99d160c71",
+      "title": "Valkey 9.2's INCREX command removes the crash window between INCR and EXPIRE",
+      "url": "https://dev.to/alexgeorgiev17/valkey-92s-increx-command-removes-the-crash-window-between-incr-and-expire-1344",
+      "source": "Dev.to",
+      "published_at": "2026-10-07T10:00:00Z",
+      "summary": "Valkey 9.2.0-rc1's new INCREX command merges an atomic increment and expiry into one round trip. A simulated crash between the old INCR and EXPIRE calls left 11 of 489 keys with no TTL; INCREX left zero, and its latency edge over the old pattern shrinks from about 2x to roughly 1.1x once you pipeline it.",
+      "tags": [
+        "valkey",
+        "database",
+        "performance",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "009abfb1dd95b7771bbd25131fdcd433",
+      "title": "The internet's root key rotates in five days. Your resolver may not be ready.",
+      "url": "https://dev.to/slabb/the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready-3j8e",
+      "source": "Dev.to",
+      "published_at": "2026-10-07T09:26:02Z",
+      "summary": "On October 11 KSK-2024 replaces the key that signed the DNS root for eight years. Resolvers that missed RFC 5011's window fail validation. Three checks, five minutes.",
+      "tags": [
+        "dns",
+        "security",
+        "devops",
+        "networking"
       ],
       "relevance_score": 0.0
     }
