@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T08:54:15Z",
+  "generated_at": "2026-10-09T16:59:30Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1262,58 +1262,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "dd9616220ed1b3e0e67feca98650f505",
-      "title": "Building Sarrera: Self-Hosted Enterprise AI Inference Gateway with RBAC, Token Quotas & Telemetry",
-      "url": "https://dev.to/gde/building-sarrera-self-hosted-enterprise-ai-inference-gateway-with-rbac-token-quotas-telemetry-316o",
-      "source": "Dev.to",
-      "published_at": "2026-10-02T12:19:36Z",
-      "summary": "How to deploy a private, local AI gateway for engineering teams using LiteLLM, Caddy, Langfuse, and Open WebUI with multi-tier quotas.",
-      "tags": [
-        "ai",
-        "devops",
-        "docker",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ee752c04e59ef1029bfe9114464bcdf0",
-      "title": "Do self taught engineers still exist?",
-      "url": "https://www.reddit.com/r/devops/comments/1wvpw3s/do_self_taught_engineers_still_exist/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-02T10:03:42+00:00",
-      "summary": "Questions whether self‑taught engineers can still break into DevOps roles amid rising formal education and certifications.",
-      "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.2
-    },
-    {
-      "id": "ed91b27bbb0f061a3fde1b294dff4d9b",
-      "title": "Git 2.56's fetch.followRemoteHEAD setting fixes stale origin/HEAD for every remote",
-      "url": "https://dev.to/alexgeorgiev17/git-256s-fetchfollowremotehead-setting-fixes-stale-originhead-for-every-remote-4hc6",
-      "source": "Dev.to",
-      "published_at": "2026-10-02T10:00:00Z",
-      "summary": "Git 2.56 adds a global fetch.followRemoteHEAD default: one config line kept origin/HEAD correct across 3 separate remotes in my tests, where the identical line did nothing on Git 2.55.",
-      "tags": [
-        "git",
-        "devops",
-        "programming",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "303d3232ebe1529a756755b89c9cf241",
-      "title": "7 years of running Linux servers (from 2019 shared hosting to bare-metal microVMs today) , 3 rules I never break anymore",
-      "url": "https://www.reddit.com/r/devops/comments/1wvovrl/7_years_of_running_linux_servers_from_2019_shared/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-02T09:00:04+00:00",
-      "summary": "Started in 2019 keeping shared hosting boxes alive at 3am. Today I run bare-metal infrastructure with Firecracker microVMs. Three lessons learned the hard way: 1-&gt; Containers aren't VMs: A Docker container is just a Linux process sharing the host kernel. For untrusted code or AI agents, dedicated",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b53a07040d1974a656ee1c10762ae3aa",
       "title": "ollama/ollama: v0.35.1",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
@@ -1364,46 +1312,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1cb85a539c6d901bd392447be8c94c3f",
-      "title": "What Kubernetes’ “monolith” lesson means for AI agent harnesses",
-      "url": "https://thenewstack.io/kubecon-agent-harness-koordinator/",
-      "source": "The New Stack",
-      "published_at": "2026-10-02T16:31:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c775b58709a9a38f802eef812a57569d",
-      "title": "A dead Kubernetes node is detected in 3 seconds and keeps receiving traffic for 13",
-      "url": "https://dev.to/remdore/a-dead-kubernetes-node-is-detected-in-3-seconds-and-keeps-receiving-traffic-for-13-7fo",
-      "source": "Dev.to",
-      "published_at": "2026-10-02T16:20:41Z",
-      "summary": "The 40-second node-monitor-grace-period everyone quotes is not what happens. I hard-killed a node ten times and measured where the failures actually live, then got the fix wrong and had to say so.",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "sre",
-        "cloud"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7452326c34ebee14bdf81fe1c60118a7",
       "title": "Integrate AWS DevOps Agent with third-party tools using Amazon EventBridge",
       "url": "https://aws.amazon.com/blogs/devops/integrate-aws-devops-agent-with-third-party-tools-using-amazon-eventbridge/",
       "source": "AWS Blog",
       "published_at": "2026-10-02T15:50:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6d8823b00b4c0828219377df1fd159c9",
-      "title": "langchain-ai/langchain: langchain-text-splitters==1.1.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-02T15:46:51+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1419,16 +1332,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8e5d723bd985d7efcfbff037e66e4263",
-      "title": "KubeCon + CloudNativeCon North America 2026: Join the cloud native community at OpenTofu Day",
-      "url": "https://www.cncf.io/blog/2026/10/02/kubecon-cloudnativecon-north-america-2026-join-the-cloud-native-community-at-opentofu-day/",
-      "source": "CNCF Blog",
-      "published_at": "2026-10-02T15:22:44+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "09aeb16ffd419e9dc5e4613353ce777a",
       "title": "prometheus/prometheus: 3.13.4 / 2026-09-29",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.4",
@@ -1439,75 +1342,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "fc390da55a743994589d610adf0ac645",
-      "title": "The DevOps Standard Gives Teams a Shared Model for Software Delivery",
-      "url": "https://devops.com/the-devops-standard-gives-teams-a-shared-model-for-software-delivery/",
-      "source": "DevOps.com",
-      "published_at": "2026-10-02T14:23:59+00:00",
-      "summary": "The newly introduced DevOps Standard provides a common framework that aligns teams around consistent software delivery practices.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "b637e19c57a2f86231e4d43a4a8b71c1",
-      "title": "Cómo filtran el ruido de alertas en clusters Kubernetes?",
-      "url": "https://www.reddit.com/r/devops/comments/1wvv4cq/cómo_filtran_el_ruido_de_alertas_en_clusters/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-02T14:22:38+00:00",
-      "summary": "Tenemos un cluster con Grafana + Prometheus y las alertas críticas terminan mezcladas con advertencias menores en Slack. El canal está silenciado por fatiga y ayer ignoramos un HTTP 500 masivo. Cómo separan lo crítico de lo que puede esperar?  &#32; submitted by &#32;  /u/Tiny-Release-1925   [link] ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "365ed28b2b223241f9716ecb4ffc6f94",
-      "title": "“No reason why everyone should have an identical Claude experience”: Anthropic’s mods let you change Claude Code’s look and behavior",
-      "url": "https://thenewstack.io/anthropic-claude-code-mods-plugins/",
-      "source": "The New Stack",
-      "published_at": "2026-10-02T14:07:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fb61d7d717447e294530def0252b717f",
-      "title": "Am I cursed? Is this the end? Where did the clients go?",
-      "url": "https://www.reddit.com/r/devops/comments/1wvuprh/am_i_cursed_is_this_the_end_where_did_the_clients/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-02T14:05:53+00:00",
-      "summary": "I run small DevOps/Could Management service company with 6 engineers. The team is quite experienced and I myself have more than 14 years between enterprise and startups. We built multi-cluster multi-regional deployments, automated and gated CI/CD pipelines, helped pass compliance audits, configured ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "b106b9135be94aadae45b59430318525",
       "title": "hashicorp/terraform: v1.16.5",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.5",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-10-02T13:04:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cc7f792f481bd1ea406b7d577bb85411",
-      "title": "K3s vs. K8s: When lightweight Kubernetes distros win (and when they don’t)",
-      "url": "https://thenewstack.io/k3s-vs-k8s-comparison/",
-      "source": "The New Stack",
-      "published_at": "2026-10-02T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "77f46e92be53fe6c9a60c7ab65f96663",
-      "title": "When does self service infrastructure become too much self service?",
-      "url": "https://www.reddit.com/r/devops/comments/1wvsu17/when_does_self_service_infrastructure_become_too/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-02T12:44:12+00:00",
-      "summary": "We pushed pretty hard to let dev teams handle more of their own infrastructure changes. It worked, but now the platform team spends a lot more time reviewing Terraform, fixing edge cases, and explaining context that isn't obvious from the repo. At some point it feels like the bottleneck just moved i",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3192,6 +3032,116 @@
       "published_at": "2026-10-09T05:39:41+00:00",
       "summary": "Hi Devops! I’m putting together an automation orchestration engine and I want to mature the team by standardizing script output across bash, python, powershell, tofu, etc. So looking at a JSON output contract that anyone creating a script can adhere to. Then everyone would consume the same format. (",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "89df8cade3b2c74b549576b5e23ccd7f",
+      "title": "Amazon ECS now auto-repairs failing GPUs and instances. Here’s why it matters for SREs.",
+      "url": "https://thenewstack.io/amazon-ecs-auto-repair/",
+      "source": "The New Stack",
+      "published_at": "2026-10-09T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bee934880841a99d11085775810f22da",
+      "title": "OllyGarden Extends AI Agent to Identify Instrumentation Gaps",
+      "url": "https://devops.com/ollygarden-extends-ai-agent-to-identify-instrumentation-gaps/",
+      "source": "DevOps.com",
+      "published_at": "2026-10-09T12:53:02+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "452ed60839c12f10bb5bb2fc6ec35b07",
+      "title": "Do EKS users really deploy more than 2 Clusters?",
+      "url": "https://www.reddit.com/r/devops/comments/1x1jmyv/do_eks_users_really_deploy_more_than_2_clusters/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-09T12:07:09+00:00",
+      "summary": "I was wondering if people who are not using multi or hybrid cloud and are purely on AWS EKS, do they really deploy more than 2 or 3 EKS clusters? Is there even a need for a product like Rayfay or Rancher for aws to manage clusters? Or is it more than just managing multiple clusters and we need such ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "29d5534f9423c458c9cd80d6082ae2bf",
+      "title": "AWS, Upstage and Ollama agree on a decision-model API. OpenAI hasn’t signed on.",
+      "url": "https://thenewstack.io/decision-models-system-one/",
+      "source": "The New Stack",
+      "published_at": "2026-10-09T12:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "93546014a2ff2dd122afd447d4f1cf54",
+      "title": "Join Platform Engineering Day at KubeCon + CloudNativeCon North America 2026",
+      "url": "https://www.cncf.io/blog/2026/10/09/join-platform-engineering-day-at-kubecon-cloudnativecon-north-america-2026/",
+      "source": "CNCF Blog",
+      "published_at": "2026-10-09T12:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e35fcc70a4ce13008ec5cb4937ec6dc4",
+      "title": "The same app dropped 51 requests on Kubernetes and none on DigitalOcean's App Platform",
+      "url": "https://dev.to/remdore/the-same-app-dropped-51-requests-on-kubernetes-and-none-on-digitaloceans-app-platform-12mc",
+      "source": "Dev.to",
+      "published_at": "2026-10-09T10:17:00Z",
+      "summary": "I deployed the worst version of my app, one that exits the instant it gets SIGTERM, to App Platform and redeployed it four times under load. 278,014 requests, none lost to a deploy. Then I found the one window where requests still fail, and the setting that closes it.",
+      "tags": [
+        "devops",
+        "webdev",
+        "cloud",
+        "sre"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3a7692e4a798330e56b7ff76cf203b85",
+      "title": "The YAML Norway problem and cron's day-of-month trap: two config formats that lie to you",
+      "url": "https://dev.to/devopsdaily/the-yaml-norway-problem-and-crons-day-of-month-trap-two-config-formats-that-lie-to-you-a11",
+      "source": "Dev.to",
+      "published_at": "2026-10-09T09:54:40Z",
+      "summary": "Feed four innocent lines to PyYAML, Python's everyday YAML library:    python3 -c 'import yaml;...",
+      "tags": [
+        "yaml",
+        "linux",
+        "devops",
+        "beginners"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e51e1a1862d7c01a1c9d7fc4145325dc",
+      "title": "Docker just shipped the agent wall I wanted. It's off by default.",
+      "url": "https://dev.to/slabb/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default-f18",
+      "source": "Dev.to",
+      "published_at": "2026-10-09T09:10:51Z",
+      "summary": "docker-agent comes preinstalled with Docker Desktop 4.63 — declarative YAML agents, MCP toolsets, and a VM sandbox with default-deny egress you have to opt into. A source read.",
+      "tags": [
+        "ai",
+        "docker",
+        "security",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9860476e9b9586fe89c19cfdbfb97859",
+      "title": "Our Deploys Were Dead for Six Hours and It Wasn't Our Bug",
+      "url": "https://dev.to/rbonweb/our-deploys-were-dead-for-six-hours-and-it-wasnt-our-bug-2mog",
+      "source": "Dev.to",
+      "published_at": "2026-10-07T04:00:00Z",
+      "summary": "Wednesday, 2 PM. A hotfix for a billing bug sat in a PR, approved, green checks pending for merge....",
+      "tags": [
+        "cicd",
+        "devops",
+        "github",
+        "debugging"
+      ],
       "relevance_score": 0.0
     }
   ]
