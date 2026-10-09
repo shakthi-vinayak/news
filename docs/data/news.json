@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:59:30Z",
+  "generated_at": "2026-10-09T22:36:01Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1262,56 +1262,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b53a07040d1974a656ee1c10762ae3aa",
-      "title": "ollama/ollama: v0.35.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-02T18:28:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a8999219edbea041094713a65def18a1",
-      "title": "apache/airflow: providers-cncf-kubernetes/10.23.0rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-cncf-kubernetes%2F10.23.0rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-02T17:34:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3f499ca59a4566da4040a72bd938621b",
-      "title": "apache/airflow: providers-duckdb/0.2.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-duckdb%2F0.2.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-02T17:34:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7ccc9b7cef9afcc285db2387e0ed6b2",
-      "title": "apache/airflow: providers-edge3/5.0.0rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-edge3%2F5.0.0rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-02T17:34:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "051525985252531d6a1f570fcce5f4b3",
-      "title": "apache/airflow: providers/2026-10-02",
-      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-10-02",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-02T17:20:38+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7452326c34ebee14bdf81fe1c60118a7",
       "title": "Integrate AWS DevOps Agent with third-party tools using Amazon EventBridge",
       "url": "https://aws.amazon.com/blogs/devops/integrate-aws-devops-agent-with-third-party-tools-using-amazon-eventbridge/",
@@ -1383,46 +1333,6 @@
         "sre",
         "networking",
         "postmortem"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1c2080918a87579c3bbf2b705ad404e5",
-      "title": "26 reviewer agents out of 27 approved a test that can never fail again",
-      "url": "https://dev.to/remdore/26-reviewer-agents-out-of-27-approved-a-test-that-can-never-fail-again-2lil",
-      "source": "Dev.to",
-      "published_at": "2026-10-02T21:39:00Z",
-      "summary": "The software factory assumes agents reviewing agents catches what tests miss. I gave 77 cheating diffs to three reviewer models. They caught every exotic cheat and waved through the assertion that was quietly made unfalsifiable.",
-      "tags": [
-        "ai",
-        "testing",
-        "codequality",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c60a1377fd1de0e1852a50eab24db91e",
-      "title": "How to Move AI SRE Agents From Demo to Production",
-      "url": "https://devops.com/how-to-move-ai-sre-agents-from-demo-to-production/",
-      "source": "DevOps.com",
-      "published_at": "2026-10-02T21:38:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1ac42a1e29adb8c0f347e92d66af6b69",
-      "title": "Redis says the key is gone. The memory comes back 22 seconds later.",
-      "url": "https://dev.to/remdore/redis-says-the-key-is-gone-the-memory-comes-back-22-seconds-later-5ap5",
-      "source": "Dev.to",
-      "published_at": "2026-10-02T19:37:00Z",
-      "summary": "Five million keys expiring on the same second held 810 MB for 22.8 seconds after every client agreed they were gone. A busy Redis reclaims four times faster than an idle one, which is backwards from what I assumed.",
-      "tags": [
-        "redis",
-        "database",
-        "performance",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -3141,6 +3051,51 @@
         "devops",
         "github",
         "debugging"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "91d4fc2f1bffc98779a20b7365346a6d",
+      "title": "The Agent Failure Your Approval Gate Can’t Catch",
+      "url": "https://devops.com/the-agent-failure-your-approval-gate-cant-catch/",
+      "source": "DevOps.com",
+      "published_at": "2026-10-09T21:40:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "08151b12f3d88c06c3ea79db85082e4e",
+      "title": "Kubernetes on cgroup v1 is dead. Here’s what comes next.",
+      "url": "https://thenewstack.io/kubernetes-node-swap-ai/",
+      "source": "The New Stack",
+      "published_at": "2026-10-09T20:15:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0e9136895aa216ba7fd460754e9f7de7",
+      "title": "GitOps for infrastructure management - anyone doing this with OpenStack?",
+      "url": "https://www.reddit.com/r/devops/comments/1x1rjk9/gitops_for_infrastructure_management_anyone_doing/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-09T17:31:37+00:00",
+      "summary": "      Found a webinar on managing OpenStack infrastructure through Kubernetes-native orchestration and GitOps automation. Main focus is day 2 operations, handling mixed VM + GPU workloads, and sovereign infrastructure patterns. Curious what tools people are using for GitOps-based infrastructure? Ter",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "54a16a558ca51f2d278eec10f6571d4d",
+      "title": "My AWS Bill Tells a Story. I Built a Pipeline to Understand It.",
+      "url": "https://dev.to/aws-builders/my-aws-bill-tells-a-story-i-built-a-pipeline-to-understand-it-521l",
+      "source": "Dev.to",
+      "published_at": "2026-10-09T06:57:34Z",
+      "summary": "An AWS bill can go up for an excellent reason.  You enable audit logging. Improve threat detection....",
+      "tags": [
+        "automation",
+        "aws",
+        "devops",
+        "infrastructure"
       ],
       "relevance_score": 0.0
     }
