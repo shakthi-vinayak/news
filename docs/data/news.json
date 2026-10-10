@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:24:04Z",
+  "generated_at": "2026-10-10T18:28:39Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1318,31 +1318,6 @@
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-09-22T10:07:36+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "81bd5d617127ec1aaab43a8674579169",
-      "title": "A service mesh costs 0.16ms at one connection and 86% of your throughput at 32",
-      "url": "https://dev.to/remdore/a-service-mesh-costs-016ms-at-one-connection-and-86-of-your-throughput-at-32-4akf",
-      "source": "Dev.to",
-      "published_at": "2026-10-03T16:37:00Z",
-      "summary": "The per-hop latency figure every mesh benchmark quotes is honest and nearly useless. Measured Linkerd on identical hardware with and without, at three concurrency levels, with the nodes never above 50% CPU.",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "performance",
-        "sre"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2ec35da7b095d106886ecbed7a106956",
-      "title": "QA/Release Eng w/ 11 YoE, hard pivot to Cloud/Devops, looking for a bit of advice",
-      "url": "https://www.reddit.com/r/devops/comments/1wwr7yp/qarelease_eng_w_11_yoe_hard_pivot_to_clouddevops/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-03T16:19:38+00:00",
-      "summary": "Hey! Question in regards to pivoting towards cloud/devops. I (not sure if it matters but US citizen based here in the states) have been laid off for about 4 months now. My background is mostly in QA engineering (pre-ai test architecture and development in automation suites, including SDET roles and ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3090,6 +3065,71 @@
         "automation",
         "devops",
         "discuss"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "294e2af8515e8aad1b6c77787bc59626",
+      "title": "Git Isn't a Diff Tracker: How Blobs, Trees, DAG Commits, and the Index Actually Work Under the Hood",
+      "url": "https://dev.to/smtahosin/git-isnt-a-diff-tracker-how-blobs-trees-dag-commits-and-the-index-actually-work-under-the-hood-19eo",
+      "source": "Dev.to",
+      "published_at": "2026-10-10T17:28:52Z",
+      "summary": "A visual, 10-minute deep dive into Git internal architecture. Learn how content-addressed storage works, why Git never stores diffs, how the index prepares tree objects, and how to recover any lost commit using the reflog.",
+      "tags": [
+        "git",
+        "programming",
+        "devops",
+        "webdev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1de76ab2344a45b56abb1cdcdcec1ea1",
+      "title": "How to turn AI production feedback into better agents",
+      "url": "https://thenewstack.io/ai-agent-evaluation-loop/",
+      "source": "The New Stack",
+      "published_at": "2026-10-10T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "46603e4f6beb2da837393bff7209c13d",
+      "title": "Our AI Coding Agent Burned Real Money Fixing a Bug a Human Would Have Caught in Five Minutes",
+      "url": "https://dev.to/rbonweb/our-ai-coding-agent-burned-real-money-fixing-a-bug-a-human-would-have-caught-in-five-minutes-3bkc",
+      "source": "Dev.to",
+      "published_at": "2026-10-10T15:00:00Z",
+      "summary": "This is a cost pattern that's showing up across teams adopting autonomous coding agents in almost the...",
+      "tags": [
+        "ai",
+        "programming",
+        "productivity",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f7a4695efe2f89535d039090e4c0c709",
+      "title": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen",
+      "url": "https://thenewstack.io/microsoft-decision-model-foundry/",
+      "source": "The New Stack",
+      "published_at": "2026-10-10T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2622ac3bb9d983180c2f43cf541d5eff",
+      "title": "Temporal finished my workflow exactly once and ran its first step four times",
+      "url": "https://dev.to/remdore/temporal-finished-my-workflow-exactly-once-and-ran-its-first-step-four-times-59dh",
+      "source": "Dev.to",
+      "published_at": "2026-10-10T12:32:00Z",
+      "summary": "I killed a Temporal worker eight times during a ten-step workflow. It completed once, and one side effect ran four times. Heartbeating made the duplicates worse, an idempotency key fixed them, and the determinism check turned out to compare shape, not arguments.",
+      "tags": [
+        "python",
+        "distributedsystems",
+        "devops",
+        "backend"
       ],
       "relevance_score": 0.0
     }
