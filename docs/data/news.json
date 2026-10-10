@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T18:28:39Z",
+  "generated_at": "2026-10-10T23:28:05Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -3131,6 +3131,81 @@
         "devops",
         "backend"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d2aad495044cd9c2f390983f36f8b98f",
+      "title": "Worth switching from ChatGPT Plus to Claude Pro for an OpenShift / IBM CP4I / WSO2 stack?",
+      "url": "https://www.reddit.com/r/devops/comments/1x2pvj1/worth_switching_from_chatgpt_plus_to_claude_pro/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-10T20:57:05+00:00",
+      "summary": "Hey everyone, I recently made the jump from Linux System Administration into a DevOps role. I'm currently working with a pretty heavy enterprise stack: IBM CP4I (Cloud Pak for Integration), API Connect (APIC), Red Hat OpenShift, WSO2 APIM, heavy CI/CD pipelines, and traditional VMs. I currently have",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9ba1e9f797a6538748fc65e1659d4559",
+      "title": "Leave Vercel for Your Own Server: A Next.js Migration Runbook",
+      "url": "https://dev.to/thegdsks/leave-vercel-for-your-own-server-a-nextjs-migration-runbook-3ca9",
+      "source": "Dev.to",
+      "published_at": "2026-10-10T20:08:41Z",
+      "summary": "Leave Vercel for Your Own Server: A Next.js Migration Runbook   Moving off Vercel is hard...",
+      "tags": [
+        "nextjs",
+        "vercel",
+        "selfhosted",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dc0b3a1a8fa4293b1d305a42dca27c95",
+      "title": "Let an AI Agent Deploy Safely: A Scoped MCP Server With an Audit Trail",
+      "url": "https://dev.to/thegdsks/let-an-ai-agent-deploy-safely-a-scoped-mcp-server-with-an-audit-trail-2ofm",
+      "source": "Dev.to",
+      "published_at": "2026-10-10T19:36:37Z",
+      "summary": "Let an AI Agent Deploy Safely: A Scoped MCP Server With an Audit Trail   Handing an AI agent...",
+      "tags": [
+        "ai",
+        "mcp",
+        "devops",
+        "selfhosted"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "64ecc3928170869edbcdeaec153d8043",
+      "title": "Migrate from Coolify, Dokploy or CapRover Without Touching the Old Server",
+      "url": "https://dev.to/thegdsks/migrate-from-coolify-dokploy-or-caprover-without-touching-the-old-server-1mhb",
+      "source": "Dev.to",
+      "published_at": "2026-10-10T19:33:22Z",
+      "summary": "Migrate from Coolify, Dokploy or CapRover Without Touching the Old Server   Migrations go...",
+      "tags": [
+        "selfhosted",
+        "docker",
+        "devops",
+        "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "235f93ef27db6a8fd321352b40f1bd7c",
+      "title": "Networking a 3-Node Kubernetes Homelab with Cilium, Gateway API and Cloudflare Tunnel",
+      "url": "https://www.reddit.com/r/devops/comments/1x2mjo9/networking_a_3node_kubernetes_homelab_with_cilium/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-10T18:35:27+00:00",
+      "summary": "      Part 2 of my Talos homelab (3 OptiPlex Micros, all control planes). Part 1 got the cluster up, this one is networking. I moved the running cluster from Flannel + kube-proxy to Cilium without rebuilding it. The default-deny policy that Flannel quietly ignored is now actually enforced, and Hubbl",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9ffb8b3dc249b91bb8151eb23135c0a3",
+      "title": "ollama/ollama: v0.40.3-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.3-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-09T17:36:11+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
