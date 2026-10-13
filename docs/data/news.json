@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T15:54:49Z",
+  "generated_at": "2026-10-13T21:13:13Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1332,86 +1332,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "07be296f86f23b1a1f8c4033525b05d8",
-      "title": "The CNCF is graduating projects faster than ever. AI agents are helping with the due diligence.",
-      "url": "https://thenewstack.io/open-source-ai-kubernetes/",
-      "source": "The New Stack",
-      "published_at": "2026-10-06T20:02:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "60cd7a78d09676a4dd2ab0a12e02b9fe",
-      "title": "If your coding agent is building & testing a mobile app, how are you thinking about emulators/ simulators vs real devices strategy?",
-      "url": "https://www.reddit.com/r/devops/comments/1wzcdmp/if_your_coding_agent_is_building_testing_a_mobile/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-06T19:50:27+00:00",
-      "summary": "We’re using coding agents fairly extensively across our teams (Claude Code, GitHub Copilot, etc.), and we’re getting to the point where agents aren't just writing code, they can run the app, write tests, inspect failures, make fixes and iterate. For web development, giving an agent a browser to work",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bb78278706f39f35f8d52cf0387bbc75",
-      "title": "ollama/ollama: v0.40.0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-06T18:47:10+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a91eca1825892d99c660e8c57898ae87",
       "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
       "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
       "source": "Kubernetes Blog",
       "published_at": "2026-10-06T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1722bfd53d01994c6e66cfca15534a88",
-      "title": "🌟 Demystifying Kubernetes etcd: Inside the Cluster’s Brain & State Store",
-      "url": "https://dev.to/aws-builders/demystifying-kubernetes-etcd-inside-the-clusters-brain-state-store-4l6k",
-      "source": "Dev.to",
-      "published_at": "2026-10-06T17:36:18Z",
-      "summary": "A hands-on look at how etcd works, why it uses a flat key-space for hierarchies, and how MVCC...",
-      "tags": [
-        "kubernetes",
-        "cloud",
-        "devops",
-        "containers"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "11823fd779e23ab68cc4dea8ee1b8029",
-      "title": "How to split tasks between CI/CD?",
-      "url": "https://www.reddit.com/r/devops/comments/1wz7zn9/how_to_split_tasks_between_cicd/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-06T17:03:25+00:00",
-      "summary": "I am building a ci/cd pipeline. When a PR is merged, it will push a docker image to ECR, but when I am just pushing a regular commit, I don't want to run the full deployment. What task goes into ci and what goes into cd? I've seen different takes on where to run the docker-related stuff. - CI (alway",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "148f3b2680263ef335e9515423d86064",
-      "title": "SAP acquires TechWolf to feed more context into its HR agents",
-      "url": "https://thenewstack.io/sap-acquires-techwolf-skills/",
-      "source": "The New Stack",
-      "published_at": "2026-10-06T16:52:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0077085f08b94b8ddb65c499b3a2ad6e",
-      "title": "“There is just not a room for error”: SAP is putting its AI agents in the back office",
-      "url": "https://thenewstack.io/sap-connect-joule-assistants/",
-      "source": "The New Stack",
-      "published_at": "2026-10-06T16:38:04+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1424,21 +1349,6 @@
       "published_at": "2026-10-06T21:37:02+00:00",
       "summary": "Here's some context : We were using Sevalla for our object storage for over a year. We had more than half a terabyte of data. Their fucked up payment platform did not allow us to do the payment everytime but continued to work. But all of a sudden, our account was suspended and all our data were perm",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "95398b371fb4b7bb4ed1a94f3de1cfcb",
-      "title": "p99, Load Balancers and Autoscaling: Latency Intuition You Can Play With",
-      "url": "https://dev.to/devopsdaily/p99-load-balancers-and-autoscaling-latency-intuition-you-can-play-with-41mk",
-      "source": "Dev.to",
-      "published_at": "2026-10-06T18:43:17Z",
-      "summary": "Averages hide latency problems. Every SRE learns this, usually the hard way: the dashboard says 80ms...",
-      "tags": [
-        "sre",
-        "performance",
-        "devops",
-        "architecture"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1962,12 +1872,14 @@
       "url": "https://dev.to/ndcodes/day-57-env-vars-and-a-public-ip-3dn6",
       "source": "Dev.to",
       "published_at": "2026-10-07T17:00:00Z",
-      "summary": "Discusses configuring environment variables and assigning a public IP in a cloud environment for day 57 of a learning journal.",
+      "summary": "Day 57 of DevOps, Day 7 of Azure. Both tasks today had values in them that I did not put there...",
       "tags": [
-        "Cloud",
-        "DevOps"
+        "devops",
+        "kubernetes",
+        "azure",
+        "containers"
       ],
-      "relevance_score": 0.4
+      "relevance_score": 0.0
     },
     {
       "id": "8ea2688fbd5218538a733e32f586dcae",
@@ -2125,13 +2037,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1x14kf7/how_hard_is_it_to_switch_clouddevops_platforms_in/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-08T22:19:15+00:00",
-      "summary": "Discusses the difficulty and considerations of migrating between cloud or DevOps platforms during a tough job market.",
-      "tags": [
-        "DevOps",
-        "Cloud",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.5
+      "summary": "Hi everyone, I wanted to ask hypothetically, if someone had 4–5 years of cloud/Devops engineering experience, primarily with AWS, and the market shifted heavily toward Azure, how difficult would it be for them to find a cloud engineering job in a difficult job market like the one we’re in now? Would",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "ebdb97f33817aa0f8b2a508a2c850c4d",
@@ -2164,21 +2072,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "01fb85b0ba131ef1e408e3e14255fe97",
-      "title": "Kubernetes 1.34 End of Life: What Actually Happens on EKS, GKE, and AKS",
-      "url": "https://dev.to/skyhook-radar/kubernetes-134-end-of-life-what-actually-happens-on-eks-gke-and-aks-g8e",
-      "source": "Dev.to",
-      "published_at": "2026-10-06T17:24:19Z",
-      "summary": "Kubernetes 1.34 reaches end of life upstream on October 27, 2026. If you run it on EKS, GKE, or AKS,...",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "aws",
-        "azure"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "861f01cd7bb9bee718d1a4618b4d9184",
       "title": "Who owns NIS2 and DORA on a Kubernetes platform team",
       "url": "https://www.cncf.io/blog/2026/10/09/who-owns-nis2-and-dora-on-a-kubernetes-platform-team/",
@@ -2204,12 +2097,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1x1d85q/script_output_best_practice_contracts/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-09T05:39:41+00:00",
-      "summary": "Discusses best practices for defining contracts on script outputs to improve reliability and automation in DevOps pipelines.",
-      "tags": [
-        "DevOps",
-        "CI/CD"
-      ],
-      "relevance_score": 0.7
+      "summary": "Hi Devops! I’m putting together an automation orchestration engine and I want to mature the team by standardizing script output across bash, python, powershell, tofu, etc. So looking at a JSON output contract that anyone creating a script can adhere to. Then everyone would consume the same format. (",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "89df8cade3b2c74b549576b5e23ccd7f",
@@ -2456,13 +2346,14 @@
       "url": "https://dev.to/rbonweb/our-ai-coding-agent-burned-real-money-fixing-a-bug-a-human-would-have-caught-in-five-minutes-3bkc",
       "source": "Dev.to",
       "published_at": "2026-10-10T15:00:00Z",
-      "summary": "An AI coding agent incurred real costs fixing a trivial bug that a human could have resolved in five minutes.",
+      "summary": "This is a cost pattern that's showing up across teams adopting autonomous coding agents in almost the...",
       "tags": [
-        "AI",
-        "DevOps",
-        "LLMOps"
+        "ai",
+        "programming",
+        "productivity",
+        "devops"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "f7a4695efe2f89535d039090e4c0c709",
@@ -3339,13 +3230,108 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f662e5f761459b08a95c2ef37063a143",
-      "title": "Monthly: Who is hiring?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1wuvepj/monthly_who_is_hiring/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-10-01T10:00:07+00:00",
-      "summary": "This monthly post can be used to share Kubernetes-related job openings within your company. Please include:  Name of the company Location requirements (or lack thereof) At least one of: a link to a job posting/application page or contact details  If you are interested in a job, please contact the po",
+      "id": "121e659aadc90b37c5859145063e5f73",
+      "title": "October Patches for Azure DevOps Server",
+      "url": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
+      "source": "Azure DevOps Blog",
+      "published_at": "2026-10-13T20:20:06+00:00",
+      "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0577851be358d10e40027a4d516c459d",
+      "title": "syllabus for a undergrad devops course",
+      "url": "https://www.reddit.com/r/devops/comments/1x57ib9/syllabus_for_a_undergrad_devops_course/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-13T20:16:34+00:00",
+      "summary": "I was invited to teach MLOps and DevOps on a local university next semester and I'm trying to plan the course. Which topics would you guys like to learn if you enrolled on a DevOps/Platform Engineering course today? The university is a big deal on the regional scene but not known globally. EDIT: Thi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b3e20e0fbc02a9d2de126093cb61b94d",
+      "title": "Has anyone heard of SST?",
+      "url": "https://www.reddit.com/r/devops/comments/1x54zym/has_anyone_heard_of_sst/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-13T18:42:23+00:00",
+      "summary": "Today I learned about this thing called SST (sst.dev). Apparently it's some unholy demon spawn of pulumi and terraform. Has anyone actually used this? Is it any good or was my initial assessment correct and it's just another wannabe iac project that offers nothing new to the space?  &#32; submitted ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9065071b76e049dd4333a28f3bd08cf1",
+      "title": "GitHub Actions self-hosted runner gets stuck downloading Java 17 with setup-java — curl: (18) Transferred a partial file",
+      "url": "https://www.reddit.com/r/devops/comments/1x52qgg/github_actions_selfhosted_runner_gets_stuck/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-13T17:20:10+00:00",
+      "summary": "I'm learning GitHub Actions and have set up a self-hosted runner inside an Ubuntu Docker container on my Windows machine. My workflow uses actions/setup-java to install Java 17: - name: Set up JDK 17 uses: actions/setup-java@v4 with: java-version: '17' distribution: 'temurin' cache: maven  However, ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9022999e84fd7e1f387ac3557c089fd9",
+      "title": "Anthropic’s red team ran AI on 15 cheap TV boxes. Then the math got unsettling.",
+      "url": "https://thenewstack.io/self-replicating-ai-worms/",
+      "source": "The New Stack",
+      "published_at": "2026-10-13T16:40:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "19ec6a0e6589b2c0d702ff0921afe2ca",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI Blog",
+      "published_at": "2026-10-13T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "681ebab69ab62f1506e2773b10ebceb9",
+      "title": "Gemini 4 Argon debuts with a unified 1M input/output token limit",
+      "url": "https://thenewstack.io/gemini-4-argon-live/",
+      "source": "The New Stack",
+      "published_at": "2026-10-13T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6af37d5d90231f5ffb749881c57f91b1",
+      "title": "apache/airflow: task-sdk/1.4.0b1",
+      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.4.0b1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-13T13:39:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "80aff41f4c706a8171758c2ec3474df9",
+      "title": "apache/airflow: 3.4.0b1",
+      "url": "https://github.com/apache/airflow/releases/tag/3.4.0b1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-13T13:39:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "50673b473d5ef00bf931fb31707cb730",
+      "title": "A Weekend Project With Docker Agent: Four Agents, Two Config Files, One Permissions Trap",
+      "url": "https://dev.to/_firelinks/a-weekend-project-with-docker-agent-four-agents-two-config-files-one-permissions-trap-2a10",
+      "source": "Dev.to",
+      "published_at": "2026-10-13T12:50:45Z",
+      "summary": "I built a four-agent release gate with Docker Agent, wrote it in YAML and HCL, tested its guardrails without an API key, and found one permissions pattern worth avoiding.",
+      "tags": [
+        "docker",
+        "ai",
+        "devops",
+        "go"
+      ],
       "relevance_score": 0.0
     }
   ]
