@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:38:40Z",
+  "generated_at": "2026-10-14T18:32:16Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1282,67 +1282,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "2297d5a5b5b2b1e66cd0637e67985e62",
-      "title": "Is “security by default” becoming more important now that everyone can ship software with AI?",
-      "url": "https://www.reddit.com/r/devops/comments/1x018u3/is_security_by_default_becoming_more_important/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-07T16:34:10+00:00",
-      "summary": "Examines the growing importance of secure-by-default practices as AI enables faster software delivery.",
-      "tags": [
-        "Security",
-        "AI"
-      ],
-      "relevance_score": 0.6
-    },
-    {
-      "id": "00132eb336ccba470a0ee009da1579a4",
-      "title": "“It Worked” Is Not the Same as “It Can Run in Production”",
-      "url": "https://dev.to/_797a7c3a31b7c8547037/it-worked-is-not-the-same-as-it-can-run-in-production-198j",
-      "source": "Dev.to",
-      "published_at": "2026-10-07T16:02:58Z",
-      "summary": "\"It worked\" in a dev environment doesn't guarantee production readiness; differences in configuration, scaling, and dependencies often surface only after deployment.",
-      "tags": [
-        "DevOps",
-        "SRE"
-      ],
-      "relevance_score": 0.7
-    },
-    {
-      "id": "a4bad9541237c6ee944c240b2c99b45c",
-      "title": "OpenSearch veterans launch Infino. Here’s why it matters for agent builders.",
-      "url": "https://thenewstack.io/infino-agent-retrieval-layer/",
-      "source": "The New Stack",
-      "published_at": "2026-10-07T14:25:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "777e0d65dd179a533da4f3be913fc7c6",
-      "title": "Bash Isn't a Programming Language. It's a Text Substitution Engine.",
-      "url": "https://dev.to/smtahosin/bash-isnt-a-programming-language-its-a-text-substitution-engine-5eml",
-      "source": "Dev.to",
-      "published_at": "2026-10-07T13:50:20Z",
-      "summary": "A visual, beginner-friendly guide to how Bash actually executes commands. Discover why spaces break your scripts, how the expansion pipeline works, the subshell amnesia trap, and how to write scripts that never silently fail.",
-      "tags": [
-        "bash",
-        "linux",
-        "devops",
-        "beginners"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "058b4afffdc1c5a2b63ac0e99f00f354",
-      "title": "langchain-ai/langgraph: langgraph-cli==0.4.33",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-07T13:38:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "878c8af7e8667d1f634cec1de675f99e",
       "title": "ollama/ollama: v0.40.1-rc0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0",
@@ -1433,26 +1372,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "86d0125d0d65d7d22b6b9010203fd0fd",
-      "title": "OpenAI’s former safety lead says it’s shipping ‘new capability and risk every Tuesday’",
-      "url": "https://thenewstack.io/openai-safety-release-cycle/",
-      "source": "The New Stack",
-      "published_at": "2026-10-07T18:18:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "310fe9b61baac95eec932d2c9a3cf3f5",
-      "title": "Anthropic launches Haiku 5.5 at a much lower price",
-      "url": "https://thenewstack.io/anthropic-claude-haiku-5-5/",
-      "source": "The New Stack",
-      "published_at": "2026-10-07T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "db62510cbaba38ae3bd2f4e2454589bf",
       "title": "kubernetes/kubernetes: v1.38.0-alpha.2",
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-alpha.2",
@@ -1508,16 +1427,6 @@
         "sre",
         "cloud"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8ffc0bc8c9265c1dc31e2d79c26a1835",
-      "title": "OpenAI’s former safety lead says it’s shipping “new capability and risk every Tuesday”",
-      "url": "https://thenewstack.io/openai-safety-release-cycle/",
-      "source": "The New Stack",
-      "published_at": "2026-10-07T18:18:24+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3392,6 +3301,131 @@
       "published_at": "2026-10-14T07:42:25+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fdf95f33906a40762688b29eda9257fb",
+      "title": "ollama/ollama: v0.40.5-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-14T18:27:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a8d57902147d5e1fe72a5cb69eaae7d4",
+      "title": "Researchers left a hidden message for rogue AI agents. Then the agents wrote back.",
+      "url": "https://thenewstack.io/rogue-ai-agent-fleet-tencent/",
+      "source": "The New Stack",
+      "published_at": "2026-10-14T17:47:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b7b3dfcae0d32ce35f5e33b694537aac",
+      "title": "Where do you look when Kubernetes is healthy but requests stall?",
+      "url": "https://thenewstack.io/kubernetes-hidden-latency-telemetry/",
+      "source": "The New Stack",
+      "published_at": "2026-10-14T17:43:51+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6d5a64efaca8dbfb12e6f145390dbe78",
+      "title": "langchain-ai/langchain: langchain==1.4.6",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-14T17:28:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1cc7ee05f8e80c5486b5c305b119a0e2",
+      "title": "langchain-ai/langgraph: langgraph-cli==0.4.35",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.35",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-14T16:11:12+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f88559a2216f49de5e18215c7c6b8086",
+      "title": "apache/airflow: providers-google/22.7.0rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-google%2F22.7.0rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-14T14:25:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5b063222694424f3235455ea74c8fc52",
+      "title": "apache/airflow: providers-dbt-cloud/4.11.0rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-dbt-cloud%2F4.11.0rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-14T14:25:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9237afd79d0cb6099a068526e88be336",
+      "title": "apache/airflow: providers-common-compat/1.22.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-common-compat%2F1.22.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-14T14:25:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a874c03e11149be0ea90fa3ef3fbb67f",
+      "title": "apache/airflow: providers-amazon/9.38.0rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-amazon%2F9.38.0rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-14T14:25:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7f8a25548430c1a3b1341cfcc6197cf2",
+      "title": "langchain-ai/langchain: langchain-openai==1.7.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-14T13:51:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0a73daa2c2531292cc6d88fc30ab9b6c",
+      "title": "“Take work away from frontier LLMs”: Subquadratic’s decision model claims 12x Jev’s context window",
+      "url": "https://thenewstack.io/subquadratic-snap-jev-decision-model/",
+      "source": "The New Stack",
+      "published_at": "2026-10-14T13:35:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "26e461513119dbacb958921eff7ed30b",
+      "title": "Fail-closed or fail-open? Decide per side effect, then check what your cache already decided",
+      "url": "https://dev.to/goodbarber/fail-closed-or-fail-open-decide-per-side-effect-then-check-what-your-cache-already-decided-2pjg",
+      "source": "Dev.to",
+      "published_at": "2026-10-13T12:08:46Z",
+      "summary": "Fail-closed: when something a decision depends on is unavailable, the answer is no.  Fail-open: the...",
+      "tags": [
+        "security",
+        "architecture",
+        "backend",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
