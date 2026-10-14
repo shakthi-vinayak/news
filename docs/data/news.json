@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T18:32:16Z",
+  "generated_at": "2026-10-14T23:10:31Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -722,16 +722,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a374aa262d9a07ef171eb4f08737d25c",
-      "title": "Building Reproducible AI Evaluation Workflows with Docker Sandboxes",
-      "url": "https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-docker-sandboxes/",
-      "source": "Docker Blog",
-      "published_at": "2026-09-02T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "8485f2acfe8dc7db9257601b8f8888d4",
       "title": "Automate planned lifecycle upgrades with AWS DevOps Agent and Kiro",
       "url": "https://aws.amazon.com/blogs/devops/automate-planned-lifecycle-upgrades-with-aws-devops-agent-and-kiro/",
@@ -767,16 +757,6 @@
       "url": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-03T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1d473603b2e6e23774c84f10ceb919c7",
-      "title": "YOLO Mode: Agent Autonomy Without the Guardrails",
-      "url": "https://www.docker.com/blog/what-is-yolo-mode/",
-      "source": "Docker Blog",
-      "published_at": "2026-09-03T18:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1282,91 +1262,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "878c8af7e8667d1f634cec1de675f99e",
-      "title": "ollama/ollama: v0.40.1-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-07T22:22:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "5a483c2d742ac9e0f10ae805bc69e0d2",
       "title": "Kubernetes on Edge Day returns to KubeCon + CloudNativeCon North America 2026",
       "url": "https://www.cncf.io/blog/2026/10/07/kubernetes-on-edge-day-returns-to-kubecon-cloudnativecon-north-america-2026/",
       "source": "CNCF Blog",
       "published_at": "2026-10-07T21:33:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "07d70ae1f4d80f8a61cb813ad7bd84f8",
-      "title": "Claude’s cyber safeguards are getting more flexible — but not for everyone.",
-      "url": "https://thenewstack.io/anthropic-cyber-access-tiers/",
-      "source": "The New Stack",
-      "published_at": "2026-10-07T21:25:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e07352b84906622d5d26330a9540b7b6",
-      "title": "Decision models are suddenly everywhere. OpenAI’s is now public.",
-      "url": "https://thenewstack.io/openai-decision-models-deployment/",
-      "source": "The New Stack",
-      "published_at": "2026-10-07T21:11:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9ea0818f6c1f4e039bd3882a24a64e78",
-      "title": "langchain-ai/langchain: langchain-fireworks==1.7.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-07T20:24:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d81f42147dea0d8858e395494eebb7ae",
-      "title": "langchain-ai/langchain: langchain-huggingface==1.2.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.3",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-07T20:10:10+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2a621e6962d8a6a6829d1fe082bc24a8",
-      "title": "Kubernetes won the orchestration wars. Its teams are still fighting.",
-      "url": "https://thenewstack.io/kubernetes-teams-ai-automation/",
-      "source": "The New Stack",
-      "published_at": "2026-10-07T19:57:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3f0e04b97404853530237b0363f37ea0",
-      "title": "hashicorp/terraform: v1.17.0-rc1",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc1",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-10-07T19:46:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "da985f5179cd64025d3b7bed225d6f79",
-      "title": "Three Truths About AI SRE",
-      "url": "https://devops.com/three-truths-about-ai-sre/",
-      "source": "DevOps.com",
-      "published_at": "2026-10-07T19:12:43+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1412,21 +1312,6 @@
       "published_at": "2026-10-08T00:55:34+00:00",
       "summary": "Feels like I hear about a new AI agent tool for ops every week. Where do you all keep up with this stuff? Any newsletters, communities, or people you follow that help you figure out what's worth trying? And if something catches your eye, how do you vet it before letting it near production?  &#32; su",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9e8df675de1040d1b5dc55f5a83fff34",
-      "title": "Where the four minutes go when a cluster adds a node",
-      "url": "https://dev.to/remdore/where-the-four-minutes-go-when-a-cluster-adds-a-node-2pn9",
-      "source": "Dev.to",
-      "published_at": "2026-10-07T20:22:38Z",
-      "summary": "Autoscaling is usually described as a property a cluster either has or does not have. You add a...",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "sre",
-        "cloud"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1593,21 +1478,6 @@
       "published_at": "2026-10-08T07:25:19+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8251711a95a63811f8a664fc1f72fb19",
-      "title": "Day 57: Env Vars and a Public IP",
-      "url": "https://dev.to/ndcodes/day-57-env-vars-and-a-public-ip-3dn6",
-      "source": "Dev.to",
-      "published_at": "2026-10-07T17:00:00Z",
-      "summary": "Day 57 of DevOps, Day 7 of Azure. Both tasks today had values in them that I did not put there...",
-      "tags": [
-        "devops",
-        "kubernetes",
-        "azure",
-        "containers"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1981,13 +1851,14 @@
       "url": "https://dev.to/umangcirvix/securing-mcp-servers-a-practical-checklist-for-2026-4jci",
       "source": "Dev.to",
       "published_at": "2026-10-09T14:41:29Z",
-      "summary": "A checklist for securing Model Context Protocol servers against common threats.",
+      "summary": "MCP servers look harmless because they expose tools, not endpoints. A client calls a tool and gets a...",
       "tags": [
-        "Security",
-        "AI",
-        "LLMOps"
+        "ai",
+        "security",
+        "mcp",
+        "devops"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "04aacec0febf7c8ff6fdee4ee51b900b",
@@ -3426,6 +3297,111 @@
         "backend",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0482a86ae775e7401912b4e034460204",
+      "title": "Linus Torvalds let Claude Code fix the Linux page cache. Then reviewers found a race.",
+      "url": "https://thenewstack.io/torvalds-claude-code-kernel/",
+      "source": "The New Stack",
+      "published_at": "2026-10-14T22:59:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "063dca4bd1c9941c396c8091f034573c",
+      "title": "AI Agent Security Risks: What Can Go Wrong When Agents Act on Their Own",
+      "url": "https://www.docker.com/blog/ai-agent-security-risks/",
+      "source": "Docker Blog",
+      "published_at": "2026-10-14T22:08:33+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1d6f7da047d14d3a0667b9e0b911585e",
+      "title": "How do you test an AI agent in CI when the failure you care about is a tool timing out halfway through?",
+      "url": "https://www.reddit.com/r/devops/comments/1x642ti/how_do_you_test_an_ai_agent_in_ci_when_the/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-14T21:46:20+00:00",
+      "summary": "Normal tests check that the right answer comes back. For an agent, the failures that hurt are different: a tool call that returns a malformed payload, a timeout partway through a run, an instruction hidden inside the data the agent reads. Fault injection is the only approach I’ve seen that really te",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fb40a331b780b780339e4bb9b4f13b86",
+      "title": "Harbor + Docker Sandboxes: Run Safe, Reproducible Agent Evals",
+      "url": "https://www.docker.com/blog/harbor-docker-sandboxes-run-safe-reproducible-agent-evals/",
+      "source": "Docker Blog",
+      "published_at": "2026-10-14T21:45:27+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9c6876245d8e6f4e900d521fd6922d03",
+      "title": "Managing Node Applications with PM2",
+      "url": "https://dev.to/vultr/managing-node-applications-with-pm2-39dn",
+      "source": "Dev.to",
+      "published_at": "2026-10-14T21:05:10Z",
+      "summary": "Node.js is an open-source JavaScript runtime built on Chrome's V8 engine, known for its speed and...",
+      "tags": [
+        "node",
+        "pm2",
+        "javascript",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "aeabf5cfff11649f3eb010c47b0a0ed5",
+      "title": "Anyone noticed AI PRs that ignore infrastructure and DevOps realities?",
+      "url": "https://www.reddit.com/r/devops/comments/1x62lxf/anyone_noticed_ai_prs_that_ignore_infrastructure/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-14T20:46:00+00:00",
+      "summary": "I work with some very talented developers (I'm also a full-stack developer in addition to handling DevOps), but since the rise of AI, I've noticed more pull requests that include pipeline changes or introduce new services that require configuration outside of the codebase. I have safeguards in place",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6e273d2da4d303cdea8ea0e2f216c498",
+      "title": "langchain-ai/langgraph: langgraph-checkpoint-postgres==3.2.0",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-14T19:54:57+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6efbaad4db02927d47ebab1a453a3c4d",
+      "title": "ollama/ollama: v0.40.5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-14T19:45:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cf79a661bae00a5872fcded1f4148687",
+      "title": "am i in the right job!?",
+      "url": "https://www.reddit.com/r/devops/comments/1x5z7cg/am_i_in_the_right_job/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-14T18:34:17+00:00",
+      "summary": "its morning &amp; our Databricks jobs were all red. Everything from last night had failed. Started digging through the logs with my colleague, found a bunch of Azure WebJobs had failed too, dug further and it turned out our integrated ERP had been rate limiting us. Next thing I know I’m in one of fa",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7efeb84cef9dffd737f6587a0a74ba4b",
+      "title": "ollama/ollama: v0.40.4-rc2",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-13T21:23:05+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
