@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-14T07:30:35Z",
+  "generated_at": "2026-10-14T13:38:40Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-13T07:53:30+00:00",
+      "published_at": "2026-10-14T08:16:40+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1012,16 +1012,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7cc58bc2d7da267279d230214bb4bdd8",
-      "title": "hashicorp/terraform: v1.17.0-beta2",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-09-23T15:48:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9b2b4f6e6336f58f94d945522f8ea1b9",
       "title": "kubernetes/kubernetes: v1.37.1",
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.1",
@@ -1232,16 +1222,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b106b9135be94aadae45b59430318525",
-      "title": "hashicorp/terraform: v1.16.5",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.5",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-10-02T13:04:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "db3e2652c2eace6afe7081a3d5f0e095",
       "title": "prometheus/prometheus: v0.313.4",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.4",
@@ -1360,76 +1340,6 @@
       "published_at": "2026-10-07T13:38:46+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b5b2da831ce8ae49b808982f4ebab18d",
-      "title": "How do I attribute API costs for AI?",
-      "url": "https://www.reddit.com/r/devops/comments/1wzuq7a/how_do_i_attribute_api_costs_for_ai/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-07T12:03:35+00:00",
-      "summary": "Finance wants me to provide a breakdown for our monthly API spend across OpenAI and Anthropic. Right now our platform handles requests for dozens of internal services and agent loops but it all routes through a handful of shared API keys. All I can see is the aggregate token count along with our mon",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "18cbdf104bb362b3f963c54da132d581",
-      "title": "What’s up, Docsy? Google’s docs project joins the Linux Foundation as AI agents become readers",
-      "url": "https://thenewstack.io/docsy-linux-foundation-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-10-07T11:02:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d318a634fec522a26eb14b54137beb9b",
-      "title": "DevOps Has Always Been Hard to Define. Does a Standard Help?",
-      "url": "https://devops.com/devops-has-always-been-hard-to-define-does-a-standard-help/",
-      "source": "DevOps.com",
-      "published_at": "2026-10-07T10:54:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ad0e8cab4c62854dd1c3153c7fa99450",
-      "title": "Federated Query at Petabyte Scale: A Deployment Pattern for a Governed AI-Agent Data Layer",
-      "url": "https://devops.com/federated-query-at-petabyte-scale-a-deployment-pattern-for-a-governed-ai-agent-data-layer/",
-      "source": "DevOps.com",
-      "published_at": "2026-10-07T10:00:10+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f700180f9c6005b1ae2978f99d160c71",
-      "title": "Valkey 9.2's INCREX command removes the crash window between INCR and EXPIRE",
-      "url": "https://dev.to/alexgeorgiev17/valkey-92s-increx-command-removes-the-crash-window-between-incr-and-expire-1344",
-      "source": "Dev.to",
-      "published_at": "2026-10-07T10:00:00Z",
-      "summary": "Valkey 9.2.0-rc1's new INCREX command merges an atomic increment and expiry into one round trip. A simulated crash between the old INCR and EXPIRE calls left 11 of 489 keys with no TTL; INCREX left zero, and its latency edge over the old pattern shrinks from about 2x to roughly 1.1x once you pipeline it.",
-      "tags": [
-        "valkey",
-        "database",
-        "performance",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "009abfb1dd95b7771bbd25131fdcd433",
-      "title": "The internet's root key rotates in five days. Your resolver may not be ready.",
-      "url": "https://dev.to/slabb/the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready-3j8e",
-      "source": "Dev.to",
-      "published_at": "2026-10-07T09:26:02Z",
-      "summary": "On October 11 KSK-2024 replaces the key that signed the DNS root for eight years. Resolvers that missed RFC 5011's window fail validation. Three checks, five minutes.",
-      "tags": [
-        "dns",
-        "security",
-        "devops",
-        "networking"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1788,21 +1698,6 @@
         "kubernetes",
         "azure",
         "containers"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8ea2688fbd5218538a733e32f586dcae",
-      "title": "Build vs. Buy Your Kubernetes Development Environment",
-      "url": "https://dev.to/metalbear/build-vs-buy-your-kubernetes-development-environment-13hm",
-      "source": "Dev.to",
-      "published_at": "2026-10-07T10:43:26Z",
-      "summary": "Written by Arsh Sharma. Originally published on metalbear.com.  Every conversation about buying a dev...",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "platformengineering",
-        "productivity"
       ],
       "relevance_score": 0.0
     },
@@ -3337,6 +3232,166 @@
         "githubactions",
         "security"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1a65c3d399a0def0655ea1d5e063e677",
+      "title": "How do you know a Renovate chart bump is safe to merge in Argo CD?",
+      "url": "https://www.reddit.com/r/devops/comments/1x5rdfo/how_do_you_know_a_renovate_chart_bump_is_safe_to/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-14T13:34:18+00:00",
+      "summary": "Disclaimer: I'm the author of deadvalues, one of the two tools below. argocd-diff-preview is not mine. I run Argo CD with ~34 Applications and let Renovate open a PR for every chart and image update. The hard part is knowing which PRs are safe: Helm silently ignores values a chart no longer reads, s",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4e69b6c88c33405c71e6a11a66ebbd3b",
+      "title": "How are you giving AI agents access to AWS in production?",
+      "url": "https://www.reddit.com/r/devops/comments/1x5r9ob/how_are_you_giving_ai_agents_access_to_aws_in/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-14T13:29:47+00:00",
+      "summary": "I run multi-account AWS (Control Tower, Identity Center) and I'm trying to understand how other teams handle agents that need to do more than read. After the PocketOS and Replit incidents, our default is read-only roles plus changes through PRs. That works, but it breaks down the moment an agent nee",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0b3d26fd571367b94a35d98e42b49ee5",
+      "title": "AWS/Azure/GCP & Security Training",
+      "url": "https://www.reddit.com/r/devops/comments/1x5puyk/awsazuregcp_security_training/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-14T12:26:00+00:00",
+      "summary": "I offer affordable training for those in the cloud industry.  I worked for both Booz Allen and Deloitte as senior program manager.  Send DM if you’re interested.  Aws training - $199 Azure training - $299 Full security training including in depth instruction - $699 Resume Revamp (ATS proven solution",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "86555064bd955f552b97d7389ab62dfe",
+      "title": "Warp's Ben Holmes on Building the Software Factory",
+      "url": "https://dev.to/dailycontext/warps-ben-holmes-on-building-the-software-factory-5g0l",
+      "source": "Dev.to",
+      "published_at": "2026-10-14T12:13:55Z",
+      "summary": "Ben Holmes is the DevEx Engineering Lead at Warp. The company has spent the year shifting from the...",
+      "tags": [
+        "ai",
+        "agents",
+        "devops",
+        "warp"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c79744759ddc49fc621605c3f52719fb",
+      "title": "Give me an Advice!?",
+      "url": "https://www.reddit.com/r/devops/comments/1x5p0ta/give_me_an_advice/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-14T11:43:57+00:00",
+      "summary": "Heyy, I am 25 Computer Science Grad from India, have been studying devops for the past 6 months, I have learnt Linux, AWS, Docker, Kubernetes, Jenkins and Terraform and monitoring using Grafana and Prometheus I have also built some projects such as:  Setup an 3-Tier Web Application Architecture depl",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "81bc004abde38b6cc0228d04e8168444",
+      "title": "We Rendered a HQ Demo Video on a Free Farm Run by Strangers",
+      "url": "https://dev.to/lovestaco/we-rendered-a-hq-demo-video-on-a-free-farm-run-by-strangers-1440",
+      "source": "Dev.to",
+      "published_at": "2026-10-14T11:08:09Z",
+      "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
+      "tags": [
+        "blender",
+        "python",
+        "devops",
+        "productivity"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4996448793b84e0a594d6a5c667d5dc6",
+      "title": "Kubernetes RBAC Explained by Breaking It: Practice Roles and Bindings in Your Browser",
+      "url": "https://dev.to/devopsdaily/kubernetes-rbac-explained-by-breaking-it-practice-roles-and-bindings-in-your-browser-308a",
+      "source": "Dev.to",
+      "published_at": "2026-10-14T10:42:14Z",
+      "summary": "Your CI service account needs to read pods. Someone writes a ClusterRole called pod-reader, binds it...",
+      "tags": [
+        "kubernetes",
+        "security",
+        "devops",
+        "tutorial"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "de01b15cd155bdc283f2ad5a40e2a237",
+      "title": "hashicorp/terraform: v1.17.0-rc2",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-10-14T10:37:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0f3bfa2855b7c3a7f5a903431de78cb4",
+      "title": "Do you use AWS Systems Manager?",
+      "url": "https://www.reddit.com/r/devops/comments/1x5n8dd/do_you_use_aws_systems_manager/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-14T10:00:21+00:00",
+      "summary": "And how do you utilize it?  &#32; submitted by &#32;  /u/Helloutsider   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6dceffab8cda9fd8ba353ce3b8a4d455",
+      "title": "PostgreSQL 19's REPACK CONCURRENTLY swaps a five-second table lock for one under a second",
+      "url": "https://dev.to/alexgeorgiev17/postgresql-19s-repack-concurrently-swaps-a-five-second-table-lock-for-one-under-a-second-34kp",
+      "source": "Dev.to",
+      "published_at": "2026-10-14T10:00:00Z",
+      "summary": "I bloated a Postgres 19 beta table, then rewrote it with VACUUM FULL and with the new REPACK CONCURRENTLY: 4.3-5.9s of blocked client time against 0.3-0.9s, and a documented replication-slot limit I managed to actually hit.",
+      "tags": [
+        "postgres",
+        "database",
+        "performance",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "16d9c9270e80c6a3dc0c795ec00590a9",
+      "title": "hashicorp/terraform: v1.16.6",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-10-14T09:31:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f0e77ed811bdede61fb838d7351102c8",
+      "title": "n8n-io/n8n: n8n@1.123.85",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.85",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-10-14T08:40:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "993d985766ee5b39baf54f264df18663",
+      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.85 (#41045)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-10-14T08:14:56+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "58d82258491adacfb5c9d3c0f916ad2c",
+      "title": "n8n-io/n8n: n8n@2.44.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-10-14T07:42:25+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
