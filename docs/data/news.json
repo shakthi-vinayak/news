@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:52:23Z",
+  "generated_at": "2026-10-15T21:18:07Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1272,31 +1272,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5b27a7c585f0ae8450a914763be5e8a8",
-      "title": "Claude can now build your dashboards",
-      "url": "https://thenewstack.io/claude-dashboards-data-motion/",
-      "source": "The New Stack",
-      "published_at": "2026-10-08T19:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "bb35ccba638aa7ee6b1c93b2f0fba8bb",
       "title": "ollama/ollama: v0.40.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.2",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-10-09T03:37:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "60b7902f75c9e475a8631e83b41652db",
-      "title": "New Relic Debuts Command-Line Observability Tool for Developers and AI Agents",
-      "url": "https://devops.com/new-relic-debuts-command-line-observability-tool-for-developers-and-ai-agents/",
-      "source": "DevOps.com",
-      "published_at": "2026-10-08T17:06:30+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2476,16 +2456,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "5a2895b1ccd64bc51d46245dee436da4",
-      "title": "anyone actually using AI SREs / agents to debug k8s incidents in prod?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1x0wbf3/anyone_actually_using_ai_sres_agents_to_debug_k8s/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-10-08T16:59:32+00:00",
-      "summary": "curious what people are running when stuff breaks. is it  an AI SRE that picks up the alert (holmesgpt, aws devops agent etc) claude code / codex with plain kubectl same thing but hooked up to an mcp server that gives it cluster context (k8sgpt's mcp, radar, ...)  full disclosure I work on radar (it",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "121e659aadc90b37c5859145063e5f73",
       "title": "October Patches for Azure DevOps Server",
       "url": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
@@ -3313,6 +3283,61 @@
       "published_at": "2026-10-15T12:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ab9cf5b9583006ae943e079eb9f57243",
+      "title": "ollama/ollama: v0.40.5",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-15T19:18:39+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f6f185f89818c23ba1c2c74796b6d4b6",
+      "title": "langchain-ai/langchain: langchain-core==1.6.11",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-15T18:32:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b85d722fcf67227e6c2bf4cc840054bf",
+      "title": "OpenAI promised developers six months’ notice. GPT-4o users got three.",
+      "url": "https://thenewstack.io/openai-gpt4o-api-shutdown/",
+      "source": "The New Stack",
+      "published_at": "2026-10-15T17:52:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9718a6a3dec1bb74253c07168cf73420",
+      "title": "ollama/ollama: v0.40.5-rc1: New model... (#19030)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-15T14:28:26+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "72ffbefab738a86082623c0f6b2ded78",
+      "title": "Race Conditions in n8n AI Agent Workflows (and the Fix)",
+      "url": "https://dev.to/entechsolutions/race-conditions-in-n8n-ai-agent-workflows-and-the-fix-549d",
+      "source": "Dev.to",
+      "published_at": "2026-10-13T16:22:39Z",
+      "summary": "Why n8n agent workflows double-book under load, and the claim-first, idempotency-key fix that stops it.",
+      "tags": [
+        "n8n",
+        "automation",
+        "ai",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
