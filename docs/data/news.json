@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-16T07:04:36Z",
+  "generated_at": "2026-10-16T13:14:15Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-15T07:26:52+00:00",
+      "published_at": "2026-10-16T07:25:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -16,7 +16,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-15T07:24:26+00:00",
+      "published_at": "2026-10-16T07:23:27+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1282,56 +1282,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b0e3f79e2c8de3066896007f76a0bd65",
-      "title": "n8n-io/n8n: n8n@2.43.3",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.3",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-09T07:29:45+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "89df8cade3b2c74b549576b5e23ccd7f",
-      "title": "Amazon ECS now auto-repairs failing GPUs and instances. Here’s why it matters for SREs.",
-      "url": "https://thenewstack.io/amazon-ecs-auto-repair/",
-      "source": "The New Stack",
-      "published_at": "2026-10-09T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bee934880841a99d11085775810f22da",
-      "title": "OllyGarden Extends AI Agent to Identify Instrumentation Gaps",
-      "url": "https://devops.com/ollygarden-extends-ai-agent-to-identify-instrumentation-gaps/",
-      "source": "DevOps.com",
-      "published_at": "2026-10-09T12:53:02+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "452ed60839c12f10bb5bb2fc6ec35b07",
-      "title": "Do EKS users really deploy more than 2 Clusters?",
-      "url": "https://www.reddit.com/r/devops/comments/1x1jmyv/do_eks_users_really_deploy_more_than_2_clusters/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-09T12:07:09+00:00",
-      "summary": "I was wondering if people who are not using multi or hybrid cloud and are purely on AWS EKS, do they really deploy more than 2 or 3 EKS clusters? Is there even a need for a product like Rayfay or Rancher for aws to manage clusters? Or is it more than just managing multiple clusters and we need such ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "29d5534f9423c458c9cd80d6082ae2bf",
-      "title": "AWS, Upstage and Ollama agree on a decision-model API. OpenAI hasn’t signed on.",
-      "url": "https://thenewstack.io/decision-models-system-one/",
-      "source": "The New Stack",
-      "published_at": "2026-10-09T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "93546014a2ff2dd122afd447d4f1cf54",
       "title": "Join Platform Engineering Day at KubeCon + CloudNativeCon North America 2026",
       "url": "https://www.cncf.io/blog/2026/10/09/join-platform-engineering-day-at-kubecon-cloudnativecon-north-america-2026/",
@@ -1339,51 +1289,6 @@
       "published_at": "2026-10-09T12:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e35fcc70a4ce13008ec5cb4937ec6dc4",
-      "title": "The same app dropped 51 requests on Kubernetes and none on DigitalOcean's App Platform",
-      "url": "https://dev.to/remdore/the-same-app-dropped-51-requests-on-kubernetes-and-none-on-digitaloceans-app-platform-12mc",
-      "source": "Dev.to",
-      "published_at": "2026-10-09T10:17:00Z",
-      "summary": "I deployed the worst version of my app, one that exits the instant it gets SIGTERM, to App Platform and redeployed it four times under load. 278,014 requests, none lost to a deploy. Then I found the one window where requests still fail, and the setting that closes it.",
-      "tags": [
-        "devops",
-        "webdev",
-        "cloud",
-        "sre"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3a7692e4a798330e56b7ff76cf203b85",
-      "title": "The YAML Norway problem and cron's day-of-month trap: two config formats that lie to you",
-      "url": "https://dev.to/devopsdaily/the-yaml-norway-problem-and-crons-day-of-month-trap-two-config-formats-that-lie-to-you-a11",
-      "source": "Dev.to",
-      "published_at": "2026-10-09T09:54:40Z",
-      "summary": "Feed four innocent lines to PyYAML, Python's everyday YAML library:    python3 -c 'import yaml;...",
-      "tags": [
-        "yaml",
-        "linux",
-        "devops",
-        "beginners"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e51e1a1862d7c01a1c9d7fc4145325dc",
-      "title": "Docker just shipped the agent wall I wanted. It's off by default.",
-      "url": "https://dev.to/slabb/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default-f18",
-      "source": "Dev.to",
-      "published_at": "2026-10-09T09:10:51Z",
-      "summary": "docker-agent comes preinstalled with Docker Desktop 4.63 — declarative YAML agents, MCP toolsets, and a VM sandbox with default-deny egress you have to opt into. A source read.",
-      "tags": [
-        "ai",
-        "docker",
-        "security",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1414,21 +1319,6 @@
       "published_at": "2026-10-09T17:31:37+00:00",
       "summary": "      Found a webinar on managing OpenStack infrastructure through Kubernetes-native orchestration and GitOps automation. Main focus is day 2 operations, handling mixed VM + GPU workloads, and sovereign infrastructure patterns. Curious what tools people are using for GitOps-based infrastructure? Ter",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "54a16a558ca51f2d278eec10f6571d4d",
-      "title": "My AWS Bill Tells a Story. I Built a Pipeline to Understand It.",
-      "url": "https://dev.to/aws-builders/my-aws-bill-tells-a-story-i-built-a-pipeline-to-understand-it-521l",
-      "source": "Dev.to",
-      "published_at": "2026-10-09T06:57:34Z",
-      "summary": "An AWS bill can go up for an excellent reason.  You enable audit logging. Improve threat detection....",
-      "tags": [
-        "automation",
-        "aws",
-        "devops",
-        "infrastructure"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2356,26 +2246,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d981c5fca4b25a79ee2fe209eae5b09a",
-      "title": "Any way to speed up helm dependency builds?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1x1k1y8/any_way_to_speed_up_helm_dependency_builds/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-10-09T12:27:51+00:00",
-      "summary": "I have learned the helm dependency builds are linear in time. The more you have the longer it can take to build them all. This makes our workflow pipelines take forever (We have to download each helm dependency and build each time, so we are up to date.) Is there a way to parallel build out helm dep",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9374ad51b9bd13cd2111fd8fa515cfcb",
-      "title": "Cluster de nó unico",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1x1iemw/cluster_de_nó_unico/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-10-09T11:01:41+00:00",
-      "summary": "&#32; submitted by &#32;  /u/agentelinux   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "121e659aadc90b37c5859145063e5f73",
       "title": "October Patches for Azure DevOps Server",
       "url": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
@@ -3263,7 +3133,7 @@
       "title": "istio/istio: Istio 1.31.2",
       "url": "https://github.com/istio/istio/releases/tag/1.31.2",
       "source": "GitHub Releases (istio)",
-      "published_at": "2026-10-16T00:13:18+00:00",
+      "published_at": "2026-10-16T07:40:08+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3324,6 +3194,96 @@
         "ai",
         "devops",
         "aws",
+        "productivity"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0cfe9ae3cb5412c3ad82dce137be1a11",
+      "title": "Muse Wonder vs. Claude Fable 5.1: Meta’s new model came closer than I expected",
+      "url": "https://thenewstack.io/muse-wonder-claude-fable/",
+      "source": "The New Stack",
+      "published_at": "2026-10-16T12:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bf00a2622f1516bbf5545822fd8a03be",
+      "title": "“Developers are paying frontier prices for amnesia”: Uvi wants to stop the agent relearning brain drain",
+      "url": "https://thenewstack.io/uvi-ai-agent-context/",
+      "source": "The New Stack",
+      "published_at": "2026-10-16T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5cdcc159deaf142774e4642edf1939a8",
+      "title": "The Claude Code Desktop Vulnerability That Beat Three Layers of Sandboxing",
+      "url": "https://dev.to/rbonweb/the-claude-code-desktop-vulnerability-that-beat-three-layers-of-sandboxing-296n",
+      "source": "Dev.to",
+      "published_at": "2026-10-16T10:00:00Z",
+      "summary": "A Claude Code Desktop vulnerability called SneakPeek let a poisoned HTML file steal AWS, GitHub, and SSH credentials with no click. Here is what we checked.",
+      "tags": [
+        "security",
+        "ai",
+        "anthropic",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "52bfc01badfe6b9a312eada68285b316",
+      "title": "PostgreSQL 19 beta's parallel autovacuum launches workers but leaves vacuum time unchanged",
+      "url": "https://dev.to/alexgeorgiev17/postgresql-19-betas-parallel-autovacuum-launches-workers-but-leaves-vacuum-time-unchanged-3g4j",
+      "source": "Dev.to",
+      "published_at": "2026-10-16T10:00:00Z",
+      "summary": "I measured PostgreSQL 19 beta4's new parallel autovacuum on a six-index, 400,000-row table: 4 workers launched every time, but wall-clock vacuum time stayed within 4% of the serial run, while dead-tuple memory doubled.",
+      "tags": [
+        "postgres",
+        "database",
+        "performance",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "be3c8ff7acf98544e1ea02d3f3716a11",
+      "title": "n8n-io/n8n: n8n@2.44.3",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.3",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-10-16T07:26:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f11cc8d0c459f37325f6b20e3d9a0162",
+      "title": "SAATHI AI: What If We Could Recognize the Warning Signs Before It's Too Late?",
+      "url": "https://dev.to/shraddhakolate30/saathi-ai-what-if-we-could-recognize-the-warning-signs-before-its-too-late-4mf7",
+      "source": "Dev.to",
+      "published_at": "2026-10-16T07:13:32Z",
+      "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle  SAATHI AI:...",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "ai",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "daf5cfb2cd14f26afd8f65e5d66998bb",
+      "title": "Our AI coding agents ignored their instructions for a month. Nothing errored.",
+      "url": "https://dev.to/mael_bourdin_146413ed19bb/our-ai-coding-agents-ignored-their-instructions-for-a-month-nothing-errored-3li2",
+      "source": "Dev.to",
+      "published_at": "2026-10-16T07:00:01Z",
+      "summary": "In August we wrote a careful instructions file for the coding agents that work in our repository. How...",
+      "tags": [
+        "ai",
+        "devops",
+        "testing",
         "productivity"
       ],
       "relevance_score": 0.0
