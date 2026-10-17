@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T06:53:35Z",
+  "generated_at": "2026-10-17T12:09:37Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1269,31 +1269,6 @@
       "published_at": "2026-10-09T12:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "04aacec0febf7c8ff6fdee4ee51b900b",
-      "title": "Elon Musk’s Grok Bot will pick Claude over Grok when it’s better. One-model loyalty is dead.",
-      "url": "https://thenewstack.io/musk-claude-model-triage/",
-      "source": "The New Stack",
-      "published_at": "2026-10-10T10:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9fc0968fe4d57ec985372f5e28c97290",
-      "title": "I let an agent run unattended overnight. At 3am it emailed 400 customers the wrong thing.",
-      "url": "https://dev.to/infoinlet1/i-let-an-agent-run-unattended-overnight-at-3am-it-emailed-400-customers-the-wrong-thing-43eh",
-      "source": "Dev.to",
-      "published_at": "2026-10-10T06:21:13Z",
-      "summary": "I found out at 9am what my software did at 3am. That's the whole story of unattended automation in...",
-      "tags": [
-        "ai",
-        "automation",
-        "devops",
-        "discuss"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3091,13 +3066,14 @@
       "url": "https://dev.to/rbonweb/the-claude-code-desktop-vulnerability-that-beat-three-layers-of-sandboxing-296n",
       "source": "Dev.to",
       "published_at": "2026-10-16T10:00:00Z",
-      "summary": "A vulnerability in Claude Code bypassed sandboxing, exposing risks in AI‑driven development tools.",
+      "summary": "A Claude Code Desktop vulnerability called SneakPeek let a poisoned HTML file steal AWS, GitHub, and SSH credentials with no click. Here is what we checked.",
       "tags": [
-        "Security",
-        "AI",
-        "DevOps"
+        "security",
+        "ai",
+        "anthropic",
+        "devops"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "52bfc01badfe6b9a312eada68285b316",
@@ -3371,6 +3347,21 @@
       "published_at": "2026-10-16T22:00:17+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fb9bc3c9b4395c682ef05bebc354cc08",
+      "title": "Docker Compose 5.6's jobs type only starts through docker compose run",
+      "url": "https://dev.to/alexgeorgiev17/docker-compose-56s-jobs-type-only-starts-through-docker-compose-run-4c1a",
+      "source": "Dev.to",
+      "published_at": "2026-10-17T10:00:00Z",
+      "summary": "Docker Compose 5.6 added a jobs: section for one-off tasks. up, create and start all refuse to touch one, a scheduled trigger makes up fail outright, and only docker compose run actually starts a job, paying about 15% more when its dependency has to start cold.",
+      "tags": [
+        "docker",
+        "devops",
+        "containers",
+        "performance"
+      ],
       "relevance_score": 0.0
     }
   ]
