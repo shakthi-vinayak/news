@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:09:37Z",
+  "generated_at": "2026-10-17T17:02:14Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1287,56 +1287,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1de76ab2344a45b56abb1cdcdcec1ea1",
-      "title": "How to turn AI production feedback into better agents",
-      "url": "https://thenewstack.io/ai-agent-evaluation-loop/",
-      "source": "The New Stack",
-      "published_at": "2026-10-10T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "46603e4f6beb2da837393bff7209c13d",
-      "title": "Our AI Coding Agent Burned Real Money Fixing a Bug a Human Would Have Caught in Five Minutes",
-      "url": "https://dev.to/rbonweb/our-ai-coding-agent-burned-real-money-fixing-a-bug-a-human-would-have-caught-in-five-minutes-3bkc",
-      "source": "Dev.to",
-      "published_at": "2026-10-10T15:00:00Z",
-      "summary": "This is a cost pattern that's showing up across teams adopting autonomous coding agents in almost the...",
-      "tags": [
-        "ai",
-        "programming",
-        "productivity",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7a4695efe2f89535d039090e4c0c709",
-      "title": "Microsoft skipped OpenAI’s decision model and built its own on Alibaba’s Qwen",
-      "url": "https://thenewstack.io/microsoft-decision-model-foundry/",
-      "source": "The New Stack",
-      "published_at": "2026-10-10T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2622ac3bb9d983180c2f43cf541d5eff",
-      "title": "Temporal finished my workflow exactly once and ran its first step four times",
-      "url": "https://dev.to/remdore/temporal-finished-my-workflow-exactly-once-and-ran-its-first-step-four-times-59dh",
-      "source": "Dev.to",
-      "published_at": "2026-10-10T12:32:00Z",
-      "summary": "I killed a Temporal worker eight times during a ten-step workflow. It completed once, and one side effect ran four times. Heartbeating made the duplicates worse, an idempotency key fixed them, and the determinism check turned out to compare shape, not arguments.",
-      "tags": [
-        "python",
-        "distributedsystems",
-        "devops",
-        "backend"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "d2aad495044cd9c2f390983f36f8b98f",
       "title": "Worth switching from ChatGPT Plus to Claude Pro for an OpenShift / IBM CP4I / WSO2 stack?",
       "url": "https://www.reddit.com/r/devops/comments/1x2pvj1/worth_switching_from_chatgpt_plus_to_claude_pro/",
@@ -2067,16 +2017,6 @@
       "source": "Reddit r/kubernetes",
       "published_at": "2026-10-10T18:33:20+00:00",
       "summary": "      Part 2 of my Talos homelab (3 OptiPlex Micros, all control planes). Part 1 got the cluster up, this one is networking. I moved the running cluster from Flannel + kube-proxy to Cilium without rebuilding it. The default-deny policy that Flannel quietly ignored is now actually enforced, and Hubbl",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7fa6126a11cb1aab75b56207ad6bd539",
-      "title": "What are the Kubernetes security gaps people keep missing in production?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1x2fb25/what_are_the_kubernetes_security_gaps_people_keep/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-10-10T13:27:28+00:00",
-      "summary": "I’ve been looking into Kubernetes hardening, and a lot of the advice out there focuses on checklists and compliance. But existing clusters don’t always follow those recommendations, and security gaps can stick around for years. Things like overly permissive RBAC, privileged workloads, missing networ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3334,7 +3274,7 @@
       "title": "ollama/ollama: v0.40.6",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
       "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-17T00:58:39+00:00",
+      "published_at": "2026-10-17T15:29:04+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3362,6 +3302,36 @@
         "containers",
         "performance"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "81d275a94e08cda9bd984306fce87e1d",
+      "title": "How does your organisation handle CI/CD and image tagging for microservices?",
+      "url": "https://www.reddit.com/r/devops/comments/1x8d4ea/how_does_your_organisation_handle_cicd_and_image/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-17T15:32:03+00:00",
+      "summary": "Hi everyone, I’m trying to understand how different organisations design their CI/CD workflows for microservices, particularly the deployment process after a Docker image is pushed to a container registry like JFrog Artifactory/ECR I have a few questions: Image tagging strategy: Do you use Git commi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4d2f35ae685c7a8bdf04193d59d306f4",
+      "title": "His scanner wouldn’t work on Linux — so he let Claude study the Windows driver",
+      "url": "https://thenewstack.io/claude-code-linux-driver/",
+      "source": "The New Stack",
+      "published_at": "2026-10-17T14:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "038c132708f4bc2f2e5819f5346d20d4",
+      "title": "AI agents vs. Kubernetes: where each belongs in the control loop",
+      "url": "https://thenewstack.io/ai-agents-kubernetes-control/",
+      "source": "The New Stack",
+      "published_at": "2026-10-17T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
