@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:57:13Z",
+  "generated_at": "2026-10-19T19:50:34Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -547,26 +547,6 @@
       "url": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
       "source": "HashiCorp Blog",
       "published_at": "2026-08-05T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6d5988cfc6a385cb97fcd4bbc2ae55ba",
-      "title": "Automate SageMaker HyperPod incident triage and root-cause-analysis with AWS DevOps Agent",
-      "url": "https://aws.amazon.com/blogs/devops/automate-sagemaker-hyperpod-incident-triage-and-root-cause-analysis-with-aws-devops-agent/",
-      "source": "AWS Blog",
-      "published_at": "2026-08-10T11:29:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c1b027eb131a3ad4c26ffc5e11247c29",
-      "title": "Extending AWS Transform custom with MCP Servers for End-to-End Code Modernization",
-      "url": "https://aws.amazon.com/blogs/devops/extending-aws-transform-custom-with-mcp-servers-for-end-to-end-code-modernization/",
-      "source": "AWS Blog",
-      "published_at": "2026-08-12T12:55:14+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1272,16 +1252,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6db285bdcf58c9d3bae31120922089d8",
-      "title": "langchain-ai/langchain: langchain-openai==1.7.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-12T14:33:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c7927c407e36028e23d3f1ac6ef29f39",
       "title": "From zero to agent builder: Running kagent on your laptop",
       "url": "https://www.cncf.io/blog/2026/10/12/from-zero-to-agent-builder-running-kagent-on-your-laptop/",
@@ -1344,86 +1314,6 @@
       "published_at": "2026-10-12T20:48:01+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e972a22029dfa5a5025272f1e5b54b67",
-      "title": "Meme from Russian DevOps channel (autrotranslated to English) AKA \"List of DevOps interview questions for October 2026\"",
-      "url": "https://www.reddit.com/r/devops/comments/1x4bpht/meme_from_russian_devops_channel_autrotranslated/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-12T19:39:44+00:00",
-      "summary": " Do you have experience literally extinguishing a production environment? What is the difference between Disaster Recovery and Damage Assessment? What is the RTO for a data center after a direct drone hit? Can you debug infrastructure using satellite imagery? What would you do if your Kubernetes clu",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8b9512e4cb5a3ba877ea5aac58315283",
-      "title": "langchain-ai/langchain: langchain==1.4.5",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-12T19:28:43+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4fa04e3161e8c4617e2714749e00f554",
-      "title": "Coding agents made building easy. Platform teams that build from scratch are 3.5x more likely to lack a strategy.",
-      "url": "https://thenewstack.io/coding-agents-platform-teams/",
-      "source": "The New Stack",
-      "published_at": "2026-10-12T19:28:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1ab50423363de7a3d4f28f53cba0f894",
-      "title": "ollama/ollama: v0.40.4",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-12T19:00:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a032696dd16c3695fe6529246ed08d7d",
-      "title": "How do you combine semantic-release with “build once, deploy many” for containers",
-      "url": "https://www.reddit.com/r/devops/comments/1x48bjr/how_do_you_combine_semanticrelease_with_build/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-12T17:35:29+00:00",
-      "summary": "I’m building our IaC repo and GitLab CI/CD pipelines. I’m quite happy with the setup so far and have tested it across multiple projects. However, when I try to apply the same release model to container images, it starts to feel less suitable. We have three environments: dev, uat, and prd. Our curren",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3dea8d3a0fd20e3384cbbe155cb6927d",
-      "title": "Docker Security Dispatch — Issue 7: Authority as Code and Zombie Actions 🧟",
-      "url": "https://dev.to/docker/docker-security-dispatch-issue-7-authority-as-code-and-zombie-actions-3fgi",
-      "source": "Dev.to",
-      "published_at": "2026-10-12T17:34:48Z",
-      "summary": "The worm was dead. Or so we thought.  In May, GitHub disabled two malicious Actions compromised by...",
-      "tags": [
-        "docker",
-        "security",
-        "devops",
-        "github"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "47b781e780e17af221fcf993cc60ee0f",
-      "title": "We Built a Blender Render Farm Out of Four Laptops",
-      "url": "https://dev.to/lovestaco/we-built-a-blender-render-farm-out-of-four-laptops-1h32",
-      "source": "Dev.to",
-      "published_at": "2026-10-12T17:06:37Z",
-      "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
-      "tags": [
-        "blender",
-        "networking",
-        "tailscale",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1703,16 +1593,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-10-13T07:11:53+00:00",
       "summary": "I'm a Cybersecurity undergrad with a strong interest in Cloud and DevOps. Honestly, it's hard to find likeminded people around me who are equally passionate about tech. I'm looking for people who want to learn together, build projects, participate in online hackathons, and explore new technologies. ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d4fa5f8f77488a3323cd2b9a5912ac67",
-      "title": "Tailscale on Talos Linux: Secure Remote Access to a Kubernetes Homelab",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1x41hk0/tailscale_on_talos_linux_secure_remote_access_to/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-10-12T13:11:46+00:00",
-      "summary": "      I run a 3-node Talos Kubernetes cluster at home, and until recently it only worked when I was at home too. So I added Tailscale to reach it from anywhere. Tailscale runs on the nodes themselves, and the tailnet can only reach the cluster, not the rest of my home network. kubectl and the lab ap",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3282,6 +3162,81 @@
       "published_at": "2026-10-19T06:30:17+00:00",
       "summary": "Hey r/devops, welcome to our weekly self-promotion thread! Feel free to use this thread to promote any projects, ideas, or any repos you're wanting to share. Please keep in mind that we ask you to stay friendly, civil, and adhere to the subreddit rules!  &#32; submitted by &#32;  /u/AutoModerator   ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ddae24e2327e75b5feadfe481213cad8",
+      "title": "One sentence changed Claude Code’s overreach rate from 0% to 17.1%",
+      "url": "https://thenewstack.io/coding-agents-overstep-scope/",
+      "source": "The New Stack",
+      "published_at": "2026-10-19T18:36:02+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "eebb8d1dd58a159521ef7ee7bdbb1d57",
+      "title": "Namecheap account locked after an ID check: why every domain went down",
+      "url": "https://dev.to/axrisi/namecheap-account-locked-after-an-id-check-why-every-domain-went-down-1cg0",
+      "source": "Dev.to",
+      "published_at": "2026-10-19T16:30:00Z",
+      "summary": "A Namecheap account lock after a 72-hour ID check took a 12-year customer's domains and inbox offline. What the notice, the contract and ICANN rules say.",
+      "tags": [
+        "devops",
+        "dns",
+        "sysadmin",
+        "programming"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "059bf6e830ae44d6f49ea3e269bdeeae",
+      "title": "AI Made Coding Faster. Now Teams Are Cutting the Process That Catches Risky Changes",
+      "url": "https://dev.to/pixel-wraith/ai-made-coding-faster-now-teams-are-cutting-the-process-that-catches-risky-changes-4b14",
+      "source": "Dev.to",
+      "published_at": "2026-10-19T16:02:31Z",
+      "summary": "There's a piece of advice I've been seeing a lot lately...reduce friction, protect your engineers'...",
+      "tags": [
+        "ai",
+        "engineeringmanagement",
+        "codereview",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3a648f88ee5e1b3644d3e069049110e6",
+      "title": "HERE Technologies and AWS: Accelerating NDS.Live with agentic AI",
+      "url": "https://aws.amazon.com/blogs/devops/here-technologies-and-aws-accelerating-nds-live-with-agentic-ai/",
+      "source": "AWS Blog",
+      "published_at": "2026-10-19T16:00:46+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a37d3757f1dc82287c3771d428ae6517",
+      "title": "langchain-ai/langgraph: langgraph-cli==0.4.37",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-19T14:06:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "95a2c4a2f111ca0679cdf3fbe9bdb7f1",
+      "title": "ChokePoint: Why We Replaced 50 Dependabot Alerts With FalkorDB GraphBLAS Min-Cut Remediation",
+      "url": "https://dev.to/rajan_mishra_a9f78ad216b4/chokepoint-why-we-replaced-50-dependabot-alerts-with-falkordb-graphblas-min-cut-remediation-29k1",
+      "source": "Dev.to",
+      "published_at": "2026-10-17T19:29:09Z",
+      "summary": "The 3:00 AM Alert Fatigue Nightmare   Every software engineer knows this feeling: you push...",
+      "tags": [
+        "falkordb",
+        "ai",
+        "cybersecurity",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
