@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:50:49Z",
+  "generated_at": "2026-10-20T21:33:21Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -552,16 +552,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "75e871f43a0c4eb85bc5188e607ce8d9",
-      "title": "Streamline your GitHub journey with AWS CodePipeline and AWS DevOps Agent",
-      "url": "https://aws.amazon.com/blogs/devops/streamline-your-github-journey-with-aws-codepipeline-and-aws-devops-agent/",
-      "source": "AWS Blog",
-      "published_at": "2026-08-17T13:25:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "3372205c782ae049c17c41b131cb76e7",
       "title": "Nomad vs. Kubernetes",
       "url": "https://www.nomadproject.io/docs/nomad-vs-kubernetes",
@@ -932,16 +922,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "00d77c9e7ac099810a6e7df31b840fc9",
-      "title": "August Patches for Azure DevOps Server",
-      "url": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-4/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-08-11T20:44:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9b2b4f6e6336f58f94d945522f8ea1b9",
       "title": "kubernetes/kubernetes: v1.37.1",
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.1",
@@ -1292,36 +1272,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0577851be358d10e40027a4d516c459d",
-      "title": "syllabus for a undergrad devops course",
-      "url": "https://www.reddit.com/r/devops/comments/1x57ib9/syllabus_for_a_undergrad_devops_course/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-13T20:16:34+00:00",
-      "summary": "I was invited to teach MLOps and DevOps on a local university next semester and I'm trying to plan the course. Which topics would you guys like to learn if you enrolled on a DevOps/Platform Engineering course today? The university is a big deal on the regional scene but not known globally. EDIT: Thi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b3e20e0fbc02a9d2de126093cb61b94d",
-      "title": "Has anyone heard of SST?",
-      "url": "https://www.reddit.com/r/devops/comments/1x54zym/has_anyone_heard_of_sst/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-13T18:42:23+00:00",
-      "summary": "Today I learned about this thing called SST (sst.dev). Apparently it's some unholy demon spawn of pulumi and terraform. Has anyone actually used this? Is it any good or was my initial assessment correct and it's just another wannabe iac project that offers nothing new to the space?  &#32; submitted ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9065071b76e049dd4333a28f3bd08cf1",
-      "title": "GitHub Actions self-hosted runner gets stuck downloading Java 17 with setup-java — curl: (18) Transferred a partial file",
-      "url": "https://www.reddit.com/r/devops/comments/1x52qgg/github_actions_selfhosted_runner_gets_stuck/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-13T17:20:10+00:00",
-      "summary": "I'm learning GitHub Actions and have set up a self-hosted runner inside an Ubuntu Docker container on my Windows machine. My workflow uses actions/setup-java to install Java 17: - name: Set up JDK 17 uses: actions/setup-java@v4 with: java-version: '17' distribution: 'temurin' cache: maven  However, ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "19ec6a0e6589b2c0d702ff0921afe2ca",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
@@ -1368,16 +1318,6 @@
         "devops",
         "java"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a531ca88161bd985c98caeff3c625b0b",
-      "title": "langchain-ai/langgraph: langgraph-cli==0.4.34",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.34",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-13T21:18:10+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -1788,16 +1728,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-10-14T18:34:17+00:00",
       "summary": "its morning &amp; our Databricks jobs were all red. Everything from last night had failed. Started digging through the logs with my colleague, found a bunch of Azure WebJobs had failed too, dug further and it turned out our integrated ERP had been rate limiting us. Next thing I know I’m in one of fa",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7efeb84cef9dffd737f6587a0a74ba4b",
-      "title": "ollama/ollama: v0.40.4-rc2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc2",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-13T21:23:05+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2557,12 +2487,14 @@
       "url": "https://dev.to/ndcodes/day-64-a-bad-image-and-a-small-disk-1m4",
       "source": "Dev.to",
       "published_at": "2026-10-16T17:00:00Z",
-      "summary": "Describes troubleshooting a corrupted container image on a low‑disk system, highlighting cleanup and recovery steps.",
+      "summary": "Day 64 of DevOps, Day 14 of Azure. Today I had to withdraw an explanation. The Kubernetes half went...",
       "tags": [
-        "Containers",
-        "DevOps"
+        "devops",
+        "kubernetes",
+        "azure",
+        "containers"
       ],
-      "relevance_score": 0.5
+      "relevance_score": 0.0
     },
     {
       "id": "20cf49cd886983f03a286f674bc3b84f",
@@ -2981,6 +2913,111 @@
         "programming",
         "architecture",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "200d9a444d9ba90b7e214ca1d5753c54",
+      "title": "ollama/ollama: v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-20T21:15:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1834c20940dcb36a7188a966c07449c7",
+      "title": "apache/airflow: constraints-3.4.0b2",
+      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.4.0b2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-20T20:07:41+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e13c5614d88e892302eab21ac806c0db",
+      "title": "apache/airflow: task-sdk/1.4.0b2",
+      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.4.0b2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-20T19:34:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7aff82b4efdd32480cfb1a4690a4ec02",
+      "title": "apache/airflow: 3.4.0b2",
+      "url": "https://github.com/apache/airflow/releases/tag/3.4.0b2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-20T19:34:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "839d63c18fa57517d60d102d99b6326f",
+      "title": "Limit agent permissions and spend in AWS Transform custom",
+      "url": "https://aws.amazon.com/blogs/devops/limit-agent-permissions-and-spend-in-aws-transform-custom/",
+      "source": "AWS Blog",
+      "published_at": "2026-10-20T19:04:02+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3d127791d0fde71420bc8b79289ac6a1",
+      "title": "Your Kubernetes dashboard is green. Your users are seeing red.",
+      "url": "https://thenewstack.io/kubernetes-hidden-latency-telemetry/",
+      "source": "The New Stack",
+      "published_at": "2026-10-20T19:02:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a5998e0fe1c5f3e30559762c70d8bef8",
+      "title": "ElevenLabs wants to run your voice agent. Here’s what developers give up.",
+      "url": "https://thenewstack.io/elevenlabs-voice-agent-tradeoffs/",
+      "source": "The New Stack",
+      "published_at": "2026-10-20T18:43:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "46393a66eaccb49588ddeb65c8a91198",
+      "title": "Scripted tests can’t keep up with AI-written code. Datadog is betting agents can.",
+      "url": "https://thenewstack.io/datadog-propolis-agentic-testing/",
+      "source": "The New Stack",
+      "published_at": "2026-10-20T16:49:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3ca027ef2603f5cfa7e0ae92bb920391",
+      "title": "Azure DevOps available in Microsoft Copilot",
+      "url": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
+      "source": "Azure DevOps Blog",
+      "published_at": "2026-10-20T16:48:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "00bf9570bf1787054382135e84904a5a",
+      "title": "What happens to your Redis data in Docker",
+      "url": "https://dev.to/remdore/what-happens-to-your-redis-data-in-docker-5079",
+      "source": "Dev.to",
+      "published_at": "2026-10-20T16:46:47Z",
+      "summary": "I wrote 10,000 keys into Redis running in Docker, then ran one ordinary Docker command and counted...",
+      "tags": [
+        "redis",
+        "docker",
+        "devops",
+        "database"
       ],
       "relevance_score": 0.0
     }
