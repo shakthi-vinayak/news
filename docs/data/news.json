@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:26:01Z",
+  "generated_at": "2026-10-20T16:50:49Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1272,116 +1272,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c9fd7c0a117caf5fb36e8779311407d0",
-      "title": "The agent did the work. The audit log couldn’t say who asked.",
-      "url": "https://thenewstack.io/ai-agent-credentials-identity-provider/",
-      "source": "The New Stack",
-      "published_at": "2026-10-13T15:00:48+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9cbc65d0d370eb45aa57fd0471748bed",
-      "title": "Your Metrics Are Lying After They Hit the Cardinality Limit",
-      "url": "https://dev.to/johnnylemonny/your-metrics-are-lying-after-they-hit-the-cardinality-limit-47mf",
-      "source": "Dev.to",
-      "published_at": "2026-10-13T14:30:00Z",
-      "summary": "Your request totals may remain correct while error alerts, SLOs, and dashboards silently undercount. Learn how to detect and prevent OpenTelemetry metric overflow.",
-      "tags": [
-        "opentelemetry",
-        "observability",
-        "devops",
-        "performance"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b96ba3940ef8048898002402d8b7fe86",
-      "title": "Anyone attending KubeCon + CloudNativeCon North America 2026 in Salt Lake City?",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1x4xjn7/anyone_attending_kubecon_cloudnativecon_north/",
-      "source": "Reddit r/kubernetes",
-      "published_at": "2026-10-13T14:04:38+00:00",
-      "summary": "Hey everyone! I’m planning to attend KubeCon + CloudNativeCon North America 2026 in Salt Lake City, and it’ll be my first KubeCon! I’ll be traveling from Buffalo, NY, and I’m really excited to meet people from the Kubernetes and cloud-native community, learn new things, and make some connections. I ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0a6a8fe60ada70f5ebf879b3aa1fb284",
-      "title": "Workday goes headless, opening its HR and finance data to outside AI agents",
-      "url": "https://thenewstack.io/workday-headless-mcp-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-10-13T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "87c56289d1d2f0a7d2ac9f83f83a45da",
-      "title": "DevOps Eng - Raspberry PI homelab - want to move to infra/homelab role with 16LPA offer",
-      "url": "https://www.reddit.com/r/devops/comments/1x4v9cr/devops_eng_raspberry_pi_homelab_want_to_move_to/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-13T12:26:34+00:00",
-      "summary": "Hello everyone! Context: I’m a DevOps Engineer and a maintainer at two open-source organizations. I manage Kubernetes workloads running on Raspberry Pis, and I also lead infrastructure efforts for another organization. Now I want to switch into the job with homelabs, self-hosted infrastructure, and ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "86f4a908b1070699a82434f8729da225",
-      "title": "The X Subscription bundles Cursor with Grok and X Premium. But Claude now costs extra.",
-      "url": "https://thenewstack.io/x-subscription-cursor-pricing/",
-      "source": "The New Stack",
-      "published_at": "2026-10-13T12:25:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "70f8b558b81f0beafa78203dbf07f1bc",
       "title": "grafana/grafana: 13.2.4",
       "url": "https://github.com/grafana/grafana/releases/tag/v13.2.4",
       "source": "GitHub Releases (grafana)",
       "published_at": "2026-10-13T11:47:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b1fdfcb2d2b5f123bbbf2e95d9b85a89",
-      "title": "apache/airflow: providers-zendesk/4.12.1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-zendesk%2F4.12.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-13T11:26:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "332591abe7b31faef3c1a3784dfa07fc",
-      "title": "apache/airflow: providers-ydb/2.6.1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-ydb%2F2.6.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-13T11:26:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0c0c2b42e43600d89027b48097391e04",
-      "title": "apache/airflow: providers-weaviate/3.5.1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-weaviate%2F3.5.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-13T11:26:21+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "97e5779daf29916a6826e515b16185e0",
-      "title": "apache/airflow: providers-vespa/0.1.2",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-vespa%2F0.1.2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-13T11:26:20+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1427,16 +1322,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "9022999e84fd7e1f387ac3557c089fd9",
-      "title": "Anthropic’s red team ran AI on 15 cheap TV boxes. Then the math got unsettling.",
-      "url": "https://thenewstack.io/self-replicating-ai-worms/",
-      "source": "The New Stack",
-      "published_at": "2026-10-13T16:40:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "19ec6a0e6589b2c0d702ff0921afe2ca",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
@@ -1444,51 +1329,6 @@
       "published_at": "2026-10-13T16:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "681ebab69ab62f1506e2773b10ebceb9",
-      "title": "Gemini 4 Argon debuts with a unified 1M input/output token limit",
-      "url": "https://thenewstack.io/gemini-4-argon-live/",
-      "source": "The New Stack",
-      "published_at": "2026-10-13T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6af37d5d90231f5ffb749881c57f91b1",
-      "title": "apache/airflow: task-sdk/1.4.0b1",
-      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.4.0b1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-13T13:39:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "80aff41f4c706a8171758c2ec3474df9",
-      "title": "apache/airflow: 3.4.0b1",
-      "url": "https://github.com/apache/airflow/releases/tag/3.4.0b1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-13T13:39:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "50673b473d5ef00bf931fb31707cb730",
-      "title": "A Weekend Project With Docker Agent: Four Agents, Two Config Files, One Permissions Trap",
-      "url": "https://dev.to/_firelinks/a-weekend-project-with-docker-agent-four-agents-two-config-files-one-permissions-trap-2a10",
-      "source": "Dev.to",
-      "published_at": "2026-10-13T12:50:45Z",
-      "summary": "I built a four-agent release gate with Docker Agent, wrote it in YAML and HCL, tested its guardrails without an API key, and found one permissions pattern worth avoiding.",
-      "tags": [
-        "docker",
-        "ai",
-        "devops",
-        "go"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1855,21 +1695,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "26e461513119dbacb958921eff7ed30b",
-      "title": "Fail-closed or fail-open? Decide per side effect, then check what your cache already decided",
-      "url": "https://dev.to/goodbarber/fail-closed-or-fail-open-decide-per-side-effect-then-check-what-your-cache-already-decided-2pjg",
-      "source": "Dev.to",
-      "published_at": "2026-10-13T12:08:46Z",
-      "summary": "Fail-closed: when something a decision depends on is unavailable, the answer is no.  Fail-open: the...",
-      "tags": [
-        "security",
-        "architecture",
-        "backend",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "0482a86ae775e7401912b4e034460204",
       "title": "Linus Torvalds let Claude Code fix the Linux page cache. Then reviewers found a race.",
       "url": "https://thenewstack.io/torvalds-claude-code-kernel/",
@@ -2231,21 +2056,6 @@
         "LLMOps"
       ],
       "relevance_score": 0.85
-    },
-    {
-      "id": "72ffbefab738a86082623c0f6b2ded78",
-      "title": "Race Conditions in n8n AI Agent Workflows (and the Fix)",
-      "url": "https://dev.to/entechsolutions/race-conditions-in-n8n-ai-agent-workflows-and-the-fix-549d",
-      "source": "Dev.to",
-      "published_at": "2026-10-13T16:22:39Z",
-      "summary": "Why n8n agent workflows double-book under load, and the claim-first, idempotency-key fix that stops it.",
-      "tags": [
-        "n8n",
-        "automation",
-        "ai",
-        "devops"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "d9a57b8f6f52519d278457b658479520",
@@ -3111,6 +2921,66 @@
         "docker",
         "devops",
         "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c5d9bb5382589ff4d09630ded8be320c",
+      "title": "Google Cloud outage in London: what one zone's power event broke",
+      "url": "https://dev.to/axrisi/google-cloud-outage-in-london-what-one-zones-power-event-broke-4map",
+      "source": "Dev.to",
+      "published_at": "2026-10-20T15:30:00Z",
+      "summary": "The Google Cloud outage in London started with a power event in zone europe-west2-b. What Google said, who was hit, and how zones should contain it.",
+      "tags": [
+        "cloud",
+        "devops",
+        "google",
+        "sre"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6a5decf8e9e4d0f4e9e42ee2734558bb",
+      "title": "Kubernetes probes keep restarting services that just need more time",
+      "url": "https://www.reddit.com/r/devops/comments/1xatqcs/kubernetes_probes_keep_restarting_services_that/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-20T14:32:26+00:00",
+      "summary": "Hey folks, I've noticed readiness and liveness probes often end up with pretty similar settings, even tho they do different jobs. With tight timeouts and failure thresholds, a service that's slow to start or recovering from a dependency issue can get pulled out of rotation or repeatedly restarted. I",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7ba4d0eab58cc18657075f7f608aff4a",
+      "title": "Homelab runner for Gitea",
+      "url": "https://www.reddit.com/r/devops/comments/1xatqay/homelab_runner_for_gitea/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-20T14:32:22+00:00",
+      "summary": "Hello guys, I'm new to the devops world and I'm working on some projects to learn. I'm currently trying to automate the creation of VMs with Terraform with my local Proxmox. As CI/CD and Git server I have everything on a Gitea local. I remember doing some CI/CD once on Github and it worked fine but ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "55894fc4f1c1fc28da58bf876e56228a",
+      "title": "Beam pulls single app windows off the Mac Mini running your agents",
+      "url": "https://thenewstack.io/beam-mac-mini-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-10-20T14:07:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0d1e708ce1376125256b12f54c9f6526",
+      "title": "Tuesday Isn't a Valid State Transition",
+      "url": "https://dev.to/kenwalger/tuesday-isnt-a-valid-state-transition-16ln",
+      "source": "Dev.to",
+      "published_at": "2026-10-20T13:46:00Z",
+      "summary": "Calendars, evidence, and the difference between done and stuck  I expected my pear wine to spend two...",
+      "tags": [
+        "observability",
+        "programming",
+        "architecture",
+        "devops"
       ],
       "relevance_score": 0.0
     }
