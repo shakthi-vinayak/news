@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:35:14Z",
+  "generated_at": "2026-10-21T23:13:29Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1272,16 +1272,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0482a86ae775e7401912b4e034460204",
-      "title": "Linus Torvalds let Claude Code fix the Linux page cache. Then reviewers found a race.",
-      "url": "https://thenewstack.io/torvalds-claude-code-kernel/",
-      "source": "The New Stack",
-      "published_at": "2026-10-14T22:59:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "063dca4bd1c9941c396c8091f034573c",
       "title": "AI Agent Security Risks: What Can Go Wrong When Agents Act on Their Own",
       "url": "https://www.docker.com/blog/ai-agent-security-risks/",
@@ -1292,71 +1282,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1d6f7da047d14d3a0667b9e0b911585e",
-      "title": "How do you test an AI agent in CI when the failure you care about is a tool timing out halfway through?",
-      "url": "https://www.reddit.com/r/devops/comments/1x642ti/how_do_you_test_an_ai_agent_in_ci_when_the/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-14T21:46:20+00:00",
-      "summary": "Discussion on testing AI agents in CI pipelines, focusing on tool timeout failures.",
-      "tags": [
-        "AI",
-        "CI/CD",
-        "DevOps"
-      ],
-      "relevance_score": 0.95
-    },
-    {
       "id": "fb40a331b780b780339e4bb9b4f13b86",
       "title": "Harbor + Docker Sandboxes: Run Safe, Reproducible Agent Evals",
       "url": "https://www.docker.com/blog/harbor-docker-sandboxes-run-safe-reproducible-agent-evals/",
       "source": "Docker Blog",
       "published_at": "2026-10-14T21:45:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9c6876245d8e6f4e900d521fd6922d03",
-      "title": "Managing Node Applications with PM2",
-      "url": "https://dev.to/vultr/managing-node-applications-with-pm2-39dn",
-      "source": "Dev.to",
-      "published_at": "2026-10-14T21:05:10Z",
-      "summary": "Guide to managing Node.js applications with PM2 process manager for production deployments.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.7
-    },
-    {
-      "id": "aeabf5cfff11649f3eb010c47b0a0ed5",
-      "title": "Anyone noticed AI PRs that ignore infrastructure and DevOps realities?",
-      "url": "https://www.reddit.com/r/devops/comments/1x62lxf/anyone_noticed_ai_prs_that_ignore_infrastructure/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-14T20:46:00+00:00",
-      "summary": "Discussion on AI-generated pull requests that overlook infrastructure and DevOps constraints.",
-      "tags": [
-        "AI",
-        "DevOps"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "6e273d2da4d303cdea8ea0e2f216c498",
-      "title": "langchain-ai/langgraph: langgraph-checkpoint-postgres==3.2.0",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.0",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-14T19:54:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6efbaad4db02927d47ebab1a453a3c4d",
-      "title": "ollama/ollama: v0.40.5",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-14T19:45:22+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1434,20 +1364,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "f84737fdeb7a8fc5c76b738779a2e6ee",
-      "title": "Your AI Coding Agent Is Your New Attack Surface",
-      "url": "https://dev.to/am_issath/your-ai-coding-agent-is-your-new-attack-surface-43bb",
-      "source": "Dev.to",
-      "published_at": "2026-10-14T19:08:01Z",
-      "summary": "Argues that AI coding assistants expand the attack surface, detailing security risks and mitigation strategies for development teams.",
-      "tags": [
-        "AI",
-        "Security",
-        "DevOps"
-      ],
-      "relevance_score": 0.8
     },
     {
       "id": "d950c6efe595a0b676912338e0a65f0d",
@@ -3066,6 +2982,81 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.315.1",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-10-21T13:25:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e6173d20e9128e762153bf427ffa3b7a",
+      "title": "AI found flaws in the code behind 70% of the web. The fix took two months.",
+      "url": "https://thenewstack.io/ai-php2shell-disclosure-framework/",
+      "source": "The New Stack",
+      "published_at": "2026-10-21T22:17:07+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7f42a89ab58414cc256eaa1d85e358b7",
+      "title": "ollama/ollama: v0.40.8",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-21T21:46:35+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ba3626e9e8cfd78b53c449ddc4ae1c03",
+      "title": "Amodei says Anthropic’s safety delay may have cost it an AI lead",
+      "url": "https://thenewstack.io/anthropic-mythos-safety-pace/",
+      "source": "The New Stack",
+      "published_at": "2026-10-21T21:22:53+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "218751af7435e35b6080bfd640770a65",
+      "title": "langchain-ai/langchain: langchain-core==1.6.13",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-21T20:43:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dbdb21b4b8dc0c98ead37ab5604ce5a3",
+      "title": "ollama/ollama: v0.40.9-rc0: ci: switch to released WoA CTK (#19185)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-21T20:12:06+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "114c413c573dbe799cea0011db95ccef",
+      "title": "How to Fix PHP2Shell (CVE-2026-109618 and CVE-2026-109619)",
+      "url": "https://dev.to/docker/how-to-fix-php2shell-cve-2026-109618-and-cve-2026-109619-3df3",
+      "source": "Dev.to",
+      "published_at": "2026-10-21T16:03:09Z",
+      "summary": "Two critical vulnerabilities in PHP, two potential remote shells, and one very simple solution:...",
+      "tags": [
+        "docker",
+        "security",
+        "devops",
+        "php"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bab63320a4606625c24e8ecbdceabbeb",
+      "title": "ollama/ollama: v0.40.8-rc0: mlx: add Flint model support (#19181)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-21T14:45:50+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
