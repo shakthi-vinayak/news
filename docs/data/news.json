@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-21T07:30:31Z",
+  "generated_at": "2026-10-21T13:44:08Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-21T07:26:48+00:00",
+      "published_at": "2026-10-21T07:27:36+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -16,7 +16,7 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-20T09:11:10+00:00",
+      "published_at": "2026-10-21T12:57:34+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1122,36 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "09aeb16ffd419e9dc5e4613353ce777a",
-      "title": "prometheus/prometheus: 3.13.4 / 2026-09-29",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.4",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-10-02T14:46:21+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "db3e2652c2eace6afe7081a3d5f0e095",
-      "title": "prometheus/prometheus: v0.313.4",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.313.4",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-09-29T13:20:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7818edccf245f5b7725e3518dd764ebd",
-      "title": "prometheus/prometheus: 3.15.0-rc.1 / 2026-09-21",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.0-rc.1",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-09-22T10:07:36+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7f4d09dadb6c1c2e1cb4d6fdcc330255",
       "title": "istio/istio: Istio 1.32.0-alpha.0",
       "url": "https://github.com/istio/istio/releases/tag/1.32.0-alpha.0",
@@ -1197,16 +1167,6 @@
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-alpha.2",
       "source": "GitHub Releases (kubernetes)",
       "published_at": "2026-10-07T17:54:03+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8429edbdba5b520a278c37ab1207f7cb",
-      "title": "Don’t give AI agents root. Make them propose the next system state.",
-      "url": "https://www.cncf.io/blog/2026/10/08/dont-give-ai-agents-root-make-them-propose-the-next-system-state/",
-      "source": "CNCF Blog",
-      "published_at": "2026-10-08T22:21:41+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1322,91 +1282,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1a65c3d399a0def0655ea1d5e063e677",
-      "title": "How do you know a Renovate chart bump is safe to merge in Argo CD?",
-      "url": "https://www.reddit.com/r/devops/comments/1x5rdfo/how_do_you_know_a_renovate_chart_bump_is_safe_to/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-14T13:34:18+00:00",
-      "summary": "Disclaimer: I'm the author of deadvalues, one of the two tools below. argocd-diff-preview is not mine. I run Argo CD with ~34 Applications and let Renovate open a PR for every chart and image update. The hard part is knowing which PRs are safe: Helm silently ignores values a chart no longer reads, s",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4e69b6c88c33405c71e6a11a66ebbd3b",
-      "title": "How are you giving AI agents access to AWS in production?",
-      "url": "https://www.reddit.com/r/devops/comments/1x5r9ob/how_are_you_giving_ai_agents_access_to_aws_in/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-14T13:29:47+00:00",
-      "summary": "I run multi-account AWS (Control Tower, Identity Center) and I'm trying to understand how other teams handle agents that need to do more than read. After the PocketOS and Replit incidents, our default is read-only roles plus changes through PRs. That works, but it breaks down the moment an agent nee",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0b3d26fd571367b94a35d98e42b49ee5",
-      "title": "AWS/Azure/GCP & Security Training",
-      "url": "https://www.reddit.com/r/devops/comments/1x5puyk/awsazuregcp_security_training/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-14T12:26:00+00:00",
-      "summary": "I offer affordable training for those in the cloud industry.  I worked for both Booz Allen and Deloitte as senior program manager.  Send DM if you’re interested.  Aws training - $199 Azure training - $299 Full security training including in depth instruction - $699 Resume Revamp (ATS proven solution",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "86555064bd955f552b97d7389ab62dfe",
-      "title": "Warp's Ben Holmes on Building the Software Factory",
-      "url": "https://dev.to/dailycontext/warps-ben-holmes-on-building-the-software-factory-5g0l",
-      "source": "Dev.to",
-      "published_at": "2026-10-14T12:13:55Z",
-      "summary": "Ben Holmes is the DevEx Engineering Lead at Warp. The company has spent the year shifting from the...",
-      "tags": [
-        "ai",
-        "agents",
-        "devops",
-        "warp"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c79744759ddc49fc621605c3f52719fb",
-      "title": "Give me an Advice!?",
-      "url": "https://www.reddit.com/r/devops/comments/1x5p0ta/give_me_an_advice/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-14T11:43:57+00:00",
-      "summary": "Heyy, I am 25 Computer Science Grad from India, have been studying devops for the past 6 months, I have learnt Linux, AWS, Docker, Kubernetes, Jenkins and Terraform and monitoring using Grafana and Prometheus I have also built some projects such as:  Setup an 3-Tier Web Application Architecture depl",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "81bc004abde38b6cc0228d04e8168444",
-      "title": "We Rendered a HQ Demo Video on a Free Farm Run by Strangers",
-      "url": "https://dev.to/lovestaco/we-rendered-a-hq-demo-video-on-a-free-farm-run-by-strangers-1440",
-      "source": "Dev.to",
-      "published_at": "2026-10-14T11:08:09Z",
-      "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
-      "tags": [
-        "blender",
-        "python",
-        "devops",
-        "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4996448793b84e0a594d6a5c667d5dc6",
-      "title": "Kubernetes RBAC Explained by Breaking It: Practice Roles and Bindings in Your Browser",
-      "url": "https://dev.to/devopsdaily/kubernetes-rbac-explained-by-breaking-it-practice-roles-and-bindings-in-your-browser-308a",
-      "source": "Dev.to",
-      "published_at": "2026-10-14T10:42:14Z",
-      "summary": "Your CI service account needs to read pods. Someone writes a ClusterRole called pod-reader, binds it...",
-      "tags": [
-        "kubernetes",
-        "security",
-        "devops",
-        "tutorial"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "de01b15cd155bdc283f2ad5a40e2a237",
       "title": "hashicorp/terraform: v1.17.0-rc2",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
@@ -1417,70 +1292,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0f3bfa2855b7c3a7f5a903431de78cb4",
-      "title": "Do you use AWS Systems Manager?",
-      "url": "https://www.reddit.com/r/devops/comments/1x5n8dd/do_you_use_aws_systems_manager/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-14T10:00:21+00:00",
-      "summary": "Community poll about AWS Systems Manager adoption and use cases.",
-      "tags": [
-        "Cloud",
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.7
-    },
-    {
-      "id": "6dceffab8cda9fd8ba353ce3b8a4d455",
-      "title": "PostgreSQL 19's REPACK CONCURRENTLY swaps a five-second table lock for one under a second",
-      "url": "https://dev.to/alexgeorgiev17/postgresql-19s-repack-concurrently-swaps-a-five-second-table-lock-for-one-under-a-second-34kp",
-      "source": "Dev.to",
-      "published_at": "2026-10-14T10:00:00Z",
-      "summary": "I bloated a Postgres 19 beta table, then rewrote it with VACUUM FULL and with the new REPACK CONCURRENTLY: 4.3-5.9s of blocked client time against 0.3-0.9s, and a documented replication-slot limit I managed to actually hit.",
-      "tags": [
-        "postgres",
-        "database",
-        "performance",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "16d9c9270e80c6a3dc0c795ec00590a9",
       "title": "hashicorp/terraform: v1.16.6",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-10-14T09:31:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f0e77ed811bdede61fb838d7351102c8",
-      "title": "n8n-io/n8n: n8n@1.123.85",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.85",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-14T08:40:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "993d985766ee5b39baf54f264df18663",
-      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.85 (#41045)",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-14T08:14:56+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "58d82258491adacfb5c9d3c0f916ad2c",
-      "title": "n8n-io/n8n: n8n@2.44.1",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-14T07:42:25+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1581,16 +1397,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-14T13:51:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0a73daa2c2531292cc6d88fc30ab9b6c",
-      "title": "“Take work away from frontier LLMs”: Subquadratic’s decision model claims 12x Jev’s context window",
-      "url": "https://thenewstack.io/subquadratic-snap-jev-decision-model/",
-      "source": "The New Stack",
-      "published_at": "2026-10-14T13:35:15+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1782,21 +1588,6 @@
         "DevOps"
       ],
       "relevance_score": 0.8
-    },
-    {
-      "id": "9e60002086101d81561b21e87b75eb2a",
-      "title": "Page, Ticket or Ignore: Is the Cheap Model Good Enough for Alert Triage?",
-      "url": "https://dev.to/devopsdaily/page-ticket-or-ignore-is-the-cheap-model-good-enough-for-alert-triage-4iak",
-      "source": "Dev.to",
-      "published_at": "2026-10-14T09:00:00Z",
-      "summary": "We gave six models and two model routers on DigitalOcean Serverless Inference the same written...",
-      "tags": [
-        "devops",
-        "ai",
-        "llm",
-        "alerting"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "d950c6efe595a0b676912338e0a65f0d",
@@ -2462,12 +2253,14 @@
       "url": "https://dev.to/ndcodes/day-64-a-bad-image-and-a-small-disk-1m4",
       "source": "Dev.to",
       "published_at": "2026-10-16T17:00:00Z",
-      "summary": "Chronicles troubleshooting a faulty Docker image and insufficient disk space on a homelab node.",
+      "summary": "Day 64 of DevOps, Day 14 of Azure. Today I had to withdraw an explanation. The Kubernetes half went...",
       "tags": [
-        "DevOps",
-        "Containers"
+        "devops",
+        "kubernetes",
+        "azure",
+        "containers"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "20cf49cd886983f03a286f674bc3b84f",
@@ -3023,13 +2816,14 @@
       "url": "https://dev.to/isaque_silvachaves/monitoring-ai-quality-evaluation-pipelines-for-non-deterministic-products-355j",
       "source": "Dev.to",
       "published_at": "2026-10-20T19:12:21Z",
-      "summary": "Discusses evaluation pipelines to monitor AI output quality for non‑deterministic AI products.",
+      "summary": "Shipping an AI feature is the easy part. Knowing that it still works next month is the hard one.  In...",
       "tags": [
-        "AI",
-        "Observability",
-        "MLOps"
+        "ai",
+        "llm",
+        "testing",
+        "devops"
       ],
-      "relevance_score": 0.9
+      "relevance_score": 0.0
     },
     {
       "id": "9e70aa3cea9cc5f9acf369e82ee4300d",
@@ -3087,6 +2881,116 @@
         "ai",
         "security",
         "python",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a821c4cd6f84d967dd8e6774f4a4907a",
+      "title": "prometheus/prometheus: v3.15.1",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.1",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-10-21T13:24:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7e65bce939120c1b0fa7f94130e7d64f",
+      "title": "n8n-io/n8n: n8n@2.45.1",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-10-21T13:00:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2781fc23e7ae7c9cd67a9988d3ef026e",
+      "title": "prometheus/prometheus: 3.13.5 / 2026-10-21",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.5",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-10-21T12:06:36+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fca50435bdf335a1c7ca63df519d14e1",
+      "title": "Nvidia bets open models can give enterprise AI agents the context they’re missing",
+      "url": "https://thenewstack.io/nvidia-agent-knowledge-foundation/",
+      "source": "The New Stack",
+      "published_at": "2026-10-21T11:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c2ccb42e4d37f607477c0e16b4cee6e9",
+      "title": "Before you evaluate an AI SRE, give your existing agent context",
+      "url": "https://www.cncf.io/blog/2026/10/21/before-you-evaluate-an-ai-sre-give-your-existing-agent-context/",
+      "source": "CNCF Blog",
+      "published_at": "2026-10-21T11:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "014c4c6537bc490b246946ca51858059",
+      "title": "Kubernetes 1.35's kubelet refuses to start on a cgroup v1 host by default",
+      "url": "https://dev.to/alexgeorgiev17/kubernetes-135s-kubelet-refuses-to-start-on-a-cgroup-v1-host-by-default-4o3h",
+      "source": "Dev.to",
+      "published_at": "2026-10-21T10:00:00Z",
+      "summary": "On a cgroup v1 host, Kubernetes 1.35 and 1.37's kubelet crash-looped 82 times in 90 seconds instead of booting; the documented fix stops the crash but needs an undocumented second flag for kubeadm, and quietly breaks Memory QoS.",
+      "tags": [
+        "kubernetes",
+        "devops",
+        "containers",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "533db5fff9a0fe6e5542fffe0c2cc3a0",
+      "title": "Who watches the watcher when the watcher is a file in the repo?",
+      "url": "https://dev.to/slabb/who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8",
+      "source": "Dev.to",
+      "published_at": "2026-10-21T08:47:40Z",
+      "summary": "OpenAI disclosed that two of its own coding agents weakened the monitoring built to catch their misbehavior — one suppressed security alerts, one deleted a safety monitor and then denied it. The three failure modes map one-to-one onto the custody rules this series has been building.",
+      "tags": [
+        "security",
+        "ai",
+        "agents",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e7c0aa3a8a2aaf77bea2f33c4f2cb2fa",
+      "title": "A Gemini 500 on a resume upload turned into a .docx bug, a frozen DigitalOcean droplet, a timed-out deploy, and a corrupted zip file. Here's every fix.",
+      "url": "https://dev.to/highcenburg/a-gemini-500-on-a-resume-upload-turned-into-a-docx-bug-a-frozen-digitalocean-droplet-a-timed-out-3icc",
+      "source": "Dev.to",
+      "published_at": "2026-10-21T08:25:54Z",
+      "summary": "It started with one Sentry alert on a Tuesday night:    ServerError: An internal error has occurred....",
+      "tags": [
+        "django",
+        "python",
+        "devops",
+        "debugging"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b28e1780b5987583341f9a028ad24615",
+      "title": "A 9.2 unauthenticated RCE in PHP: the audit, the patch window, and the offline switch",
+      "url": "https://dev.to/slabb/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7",
+      "source": "Dev.to",
+      "published_at": "2026-10-21T07:59:29Z",
+      "summary": "CERT-EU says sites that can't patch should go offline: two 9.2 flaws in PHP itself, unauthenticated RCE, every version since PHP 5 possibly affected. The audit, the watch, and the offline switch — runnable receipts for the emergency window.",
+      "tags": [
+        "security",
+        "php",
+        "webdev",
         "devops"
       ],
       "relevance_score": 0.0
