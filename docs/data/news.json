@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:06:00Z",
+  "generated_at": "2026-10-22T21:30:36Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1281,36 +1281,6 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-15T04:32:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ab9cf5b9583006ae943e079eb9f57243",
-      "title": "ollama/ollama: v0.40.5",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-15T19:18:39+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f6f185f89818c23ba1c2c74796b6d4b6",
-      "title": "langchain-ai/langchain: langchain-core==1.6.11",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.11",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-15T18:32:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b85d722fcf67227e6c2bf4cc840054bf",
-      "title": "OpenAI promised developers six months’ notice. GPT-4o users got three.",
-      "url": "https://thenewstack.io/openai-gpt4o-api-shutdown/",
-      "source": "The New Stack",
-      "published_at": "2026-10-15T17:52:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3234,13 +3204,113 @@
       "relevance_score": 0.0
     },
     {
-      "id": "04539ae137945004289b4f3be908560a",
-      "title": "Docker and CNCF partner on an open spec for agent permissions",
-      "url": "https://www.docker.com/blog/docker-sandbox-kit-spec-cncf/",
-      "source": "Docker Blog",
-      "published_at": "2026-09-24T16:00:00+00:00",
+      "id": "65b26c0f776b8787b4423ddb3eb66450",
+      "title": "Has anyone found a way to automate SOC2 audits using AI?",
+      "url": "https://www.reddit.com/r/devops/comments/1xctzwl/has_anyone_found_a_way_to_automate_soc2_audits/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-22T20:33:19+00:00",
+      "summary": "This shit is the bane of my existence. We use Secureframe so it does automate a lot, but I am still spending more time taking screenshots than any human should be. I feel like with all the AI stuff these days there should be a way to automate this. I've had Claude generate a few scripts, which has b",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5a79981c0640ee3bddc932a62d2c1bbb",
+      "title": "PHP2Shell: Your Code Was Fine, The Engine Was Not",
+      "url": "https://dev.to/lovestaco/php2shell-your-code-was-fine-the-engine-was-not-gc2",
+      "source": "Dev.to",
+      "published_at": "2026-10-22T20:20:24Z",
+      "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
+      "tags": [
+        "php",
+        "security",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "243c48ea4f93810aa00c28a2cb88b697",
+      "title": "ollama/ollama: v0.40.9",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-22T19:39:48+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9ea5ab8345cab07480610ac74b8e3548",
+      "title": "how are you confirming the fix actually reached your running containers?",
+      "url": "https://www.reddit.com/r/devops/comments/1xcrscq/how_are_you_confirming_the_fix_actually_reached/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-22T19:11:33+00:00",
+      "summary": "disclosure: i work on radar, an open source k8s ui. we just added a php version check for this to its mcp server and want to know what it's missing. php2shell (CVE-2026-109618 / 109619) is all over the news: php core bugs that can allow unauthenticated rce, aws reports broad exploitation, fixed in 8",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9b4fa469ffbddd17d14a8626955f893a",
+      "title": "istio/istio: Istio 1.32.0-beta.0",
+      "url": "https://github.com/istio/istio/releases/tag/1.32.0-beta.0",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-10-22T18:41:12+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bd808e39418bd213eb544156134e99d6",
+      "title": "Five AI agent harnesses took the same memory test. The results weren’t even close.",
+      "url": "https://thenewstack.io/letta-frontiermemory-agent-harness-benchmark/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T18:34:32+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ccbf8df2c55d9336db81755a6161abcf",
+      "title": "I'm a one man DevOps team and my production runs for $0.64 a day. Here's the real story.",
+      "url": "https://www.reddit.com/r/devops/comments/1xcpuj4/im_a_one_man_devops_team_and_my_production_runs/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-22T18:00:08+00:00",
+      "summary": "Most people writing cost posts here are spending their company's money. Mine comes out of my own pocket. I'm a solo DevOps engineer, I run the backend for a mobile app with real users, and the AWS bill is mine. That changes how you build things. Real setup, no dressing up. Two K3s nodes on t4g.small",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "74c1d55aa0d43bb3e444fb5e97453f0c",
+      "title": "langchain-ai/langchain: langchain-core==1.7.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-22T17:48:17+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "65e2ab1f6b4dd6666401c071ef2c446b",
+      "title": "Security Update on PHP2Shell: Impact for Docker Customers",
+      "url": "https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers/",
+      "source": "Docker Blog",
+      "published_at": "2026-10-22T17:22:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2c31fee6f49ca04b6673d68c9a9aa557",
+      "title": "7 Silent Failures in n8n AI Workflows (and the Error Trigger Setup That Catches Them)",
+      "url": "https://dev.to/crzy_undefinedundefined/7-silent-failures-in-n8n-ai-workflows-and-the-error-trigger-setup-that-catches-them-44hp",
+      "source": "Dev.to",
+      "published_at": "2026-10-22T06:12:26Z",
+      "summary": "I forced 7 LLM failure modes through a real n8n invoice workflow. Six came back as HTTP 200 and green executions. Here's the Validate node and Error Trigger setup that makes them fail loudly.",
+      "tags": [
+        "n8n",
+        "automation",
+        "devops",
+        "ai"
+      ],
       "relevance_score": 0.0
     }
   ]
