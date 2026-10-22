@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:13:29Z",
+  "generated_at": "2026-10-22T04:43:12Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -7,9 +7,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-10-21T07:27:36+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "n8n stable release offers a production-ready workflow automation platform with extensive integration support.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "a69c8bf426b5af6dc0d16bee70c87f1a",
@@ -17,9 +21,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-10-21T12:57:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "n8n beta release previews upcoming features and enhancements for the workflow automation tool.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "b6cade7da357516bcb19c37b0ec9c094",
@@ -27,9 +35,13 @@
       "url": "https://swizec.com/blog/the-future-of-software-engineering-is-sre/",
       "source": "Hacker News",
       "published_at": "2026-01-25T22:18:38Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Argument that software engineering's future converges with SRE practices for reliability and operability.",
+      "tags": [
+        "SRE",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "f7c39ae38c4130991a97d1bdd9903da9",
@@ -37,9 +49,12 @@
       "url": "https://www.usenix.org/publications/loginonline/evolution-sre-google",
       "source": "Hacker News",
       "published_at": "2025-01-03T11:38:49Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Historical overview of how Site Reliability Engineering evolved and matured within Google.",
+      "tags": [
+        "SRE",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "d29311c4eb383d3f9952e701ac9e775c",
@@ -47,9 +62,12 @@
       "url": "https://matduggan.com/a-eulogy-for-devops/",
       "source": "Hacker News",
       "published_at": "2024-06-28T22:59:05Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Opinion piece arguing DevOps has become a meaningless buzzword and proposing platform engineering as successor.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "34c8919c2d88d62228787c8d6984a147",
@@ -57,9 +75,13 @@
       "url": "https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/",
       "source": "Hacker News",
       "published_at": "2023-09-10T20:07:12Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Classic post-mortem of the 2012 Knight Capital $440M loss caused by a failed deployment and legacy code flag, illustrating the critical need for safe deployment practices and operational rigor.",
+      "tags": [
+        "DevOps",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "481a9e99c97db012dbac59a3c40a32d1",
@@ -67,9 +89,12 @@
       "url": "https://blog.massdriver.cloud/posts/devops-is-bullshit/",
       "source": "Hacker News",
       "published_at": "2023-06-16T10:00:42Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Opinion piece arguing that the term \"DevOps\" has become a meaningless buzzword and that platform engineering is the real evolution for enabling developer self-service.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "403515ab9aed8cbe9811fa6b21ee4092",
@@ -77,9 +102,13 @@
       "url": "https://9to5mac.com/2023/02/27/lastpass-devops-engineers-hacked/",
       "source": "Hacker News",
       "published_at": "2023-02-28T03:21:53Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Details how a compromised DevOps engineer's home machine led to the LastPass breach, underscoring the critical importance of securing privileged access and supply chains.",
+      "tags": [
+        "Security",
+        "DevOps",
+        "SRE"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "6042fd51da2e0e816007fa74faa00ea4",
@@ -87,9 +116,14 @@
       "url": "https://matthewtejo.substack.com/p/why-twitter-didnt-go-down-from-a",
       "source": "Hacker News",
       "published_at": "2022-11-22T03:20:20Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "First-hand account from a Twitter SRE explaining how architectural decisions prevented major outages.",
+      "tags": [
+        "SRE",
+        "Observability",
+        "Platform Engineering",
+        "Cloud"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "a82cee63770409694f93c92f25b8f80e",
@@ -97,9 +131,12 @@
       "url": "https://blog.massdriver.cloud/devops-is-bullshit",
       "source": "Hacker News",
       "published_at": "2022-10-20T14:16:22Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Follow-up article from Massdriver expanding on why traditional DevOps models fail and advocating for platform engineering with paved roads and self-service infrastructure.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "448565d2998e2ae18dd819a237eb256b",
@@ -107,9 +144,13 @@
       "url": "https://www.willett.io/posts/precepts/",
       "source": "Hacker News",
       "published_at": "2022-10-17T06:36:32Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Guidance on applying SRE principles and reliability-focused thinking to software development workflows.",
+      "tags": [
+        "SRE",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "f9ac267abcb3170b592dae485bd65374",
@@ -117,9 +158,13 @@
       "url": "https://leebriggs.co.uk/blog/2022/06/21/devops-is-a-failure",
       "source": "Hacker News",
       "published_at": "2022-06-26T19:50:48Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Blog post declaring DevOps a failed experiment due to cognitive overload on developers and advocating for dedicated platform teams to provide internal developer platforms.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "SRE"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "0e87f2b5041125b7f80c073b38e27b44",
@@ -127,9 +172,13 @@
       "url": "https://news.ycombinator.com/item?id=31580763",
       "source": "Hacker News",
       "published_at": "2022-06-01T12:19:43Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Hacker News discussion questioning why DevOps roles proliferate despite Kubernetes' promise of simplification, touching on complexity, tooling sprawl, and organizational dynamics.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "0d7ac5ff07b77845fe92655fead4c709",
@@ -137,9 +186,14 @@
       "url": "https://www.infoq.com/presentations/mlops-tech/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-05-06T12:45:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "This presentation argues that MLOps is the critical operational layer for scaling enterprise AI, covering model lifecycle, monitoring, and governance.",
+      "tags": [
+        "MLOps",
+        "AI",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 1.0
     },
     {
       "id": "4d3d5b133c03b8c709e8924252bf6d8f",
@@ -147,9 +201,12 @@
       "url": "https://www.infoq.com/news/2022/05/aws-iot-twinmaker-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-05-03T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "AWS IoT TwinMaker reaches general availability, enabling developers to create digital twins of real-world systems for monitoring and simulation.",
+      "tags": [
+        "Cloud",
+        "DevOps"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "344375a1104b9724177f7de0e05558e8",
@@ -157,9 +214,14 @@
       "url": "https://www.infoq.com/articles/chaos-engineering-observability-visual-metaphors/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-05-02T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "The article explores how visual metaphors can improve understanding and communication of chaos engineering experiments and observability data.",
+      "tags": [
+        "SRE",
+        "Observability",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "7a0aab6a30ec48d23c92eb575f9318cf",
@@ -167,9 +229,14 @@
       "url": "https://www.infoq.com/news/2022/04/iasql-aws-infrastructure-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-04-30T06:22:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "IaSQL, an Infrastructure-as-SQL tool for AWS, is now open source and offered as SaaS, allowing cloud resource management via PostgreSQL queries.",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "Platform Engineering",
+        "Terraform"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "4b3e8059368ba2ee8ebc833bbf6f8bb8",
@@ -177,9 +244,12 @@
       "url": "https://www.infoq.com/news/2022/04/amazon-aurora-serverless-v2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-04-29T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Amazon Aurora Serverless v2 introduces independent scaling of compute and storage, offering finer-grained cost control for variable database workloads.",
+      "tags": [
+        "Cloud",
+        "DevOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "a9b01efd3e282550f4dca22d4bbcde6b",
@@ -187,9 +257,14 @@
       "url": "https://wolfoliver.medium.com/the-big-devops-misunderstanding-8435a910a5fd",
       "source": "Hacker News",
       "published_at": "2021-12-19T20:07:33Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores the cultural misunderstanding of DevOps as a tooling or role problem rather than a shared responsibility model across development and operations.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "SRE",
+        "CI/CD"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "69a17ec62818aa05133e1ccca6190b96",
@@ -197,9 +272,13 @@
       "url": "https://news.ycombinator.com/item?id=28838132",
       "source": "Hacker News",
       "published_at": "2021-10-12T10:35:11Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Hacker News thread where solo founders share lightweight DevOps strategies — managed services, IaC, and automation — to minimize operational overhead.",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "a82f9e1a38c99f9aa8e4d1e5d8256c7c",
@@ -207,9 +286,13 @@
       "url": "https://tech.channable.com/posts/2021-04-09-nix-is-the-ultimate-devops-toolkit.html",
       "source": "Hacker News",
       "published_at": "2021-04-09T10:20:33Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Makes the case for Nix as a unified, reproducible toolchain for builds, deployments, and developer environments, positioning it as a powerful DevOps foundation.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "a066a7a4ffb339af44c7c9d023766061",
@@ -217,9 +300,13 @@
       "url": "https://github.com/upgundecha/howtheysre",
       "source": "Hacker News",
       "published_at": "2021-02-16T03:36:06Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Curated GitHub repository documenting SRE practices and implementations across various organizations.",
+      "tags": [
+        "SRE",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "774e01aa0b6c9e328c8e0f6ac7d02338",
@@ -227,9 +314,13 @@
       "url": "https://offensi.com/2020/08/18/how-to-contact-google-sre-dropping-a-shell-in-cloud-sql/",
       "source": "Hacker News",
       "published_at": "2020-08-19T20:32:55Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Security research detailing a Cloud SQL vulnerability allowing shell access to contact Google SREs.",
+      "tags": [
+        "Cloud",
+        "Security",
+        "SRE"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "9dc231c8e77b4472d1be5a5f7a048368",
@@ -237,9 +328,14 @@
       "url": "https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/",
       "source": "Hacker News",
       "published_at": "2020-05-17T11:48:58Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Details frequent Kubernetes misconfigurations and operational pitfalls that lead to instability, security gaps, and wasted resources.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "543f30e227ce7854f6cf60fd27347f58",
@@ -247,9 +343,14 @@
       "url": "https://landing.google.com/sre/books/",
       "source": "Hacker News",
       "published_at": "2020-04-08T18:13:45Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Announcement of Google's new SRE book focusing on security and reliability engineering practices.",
+      "tags": [
+        "SRE",
+        "Security",
+        "Observability",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "331393a3832f57002a31c3b5715adb62",
@@ -257,9 +358,12 @@
       "url": "https://gitlab.com/gitlab-com/www-gitlab-com/issues/5555",
       "source": "Hacker News",
       "published_at": "2019-11-03T22:56:38Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "GitLab discusses geopolitical hiring restrictions for SRE and support roles in China and Russia.",
+      "tags": [
+        "SRE",
+        "DevOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "df7d71615df23ee65cdf709d74449067",
@@ -267,9 +371,12 @@
       "url": "https://www.darkcoding.net/software/a-developer-goes-to-a-devops-conference/",
       "source": "Hacker News",
       "published_at": "2019-09-28T15:43:04Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "A developer's firsthand account of attending a DevOps conference, highlighting the cultural gap between developers and operations and the tooling overload.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "2103d191869e61005c9ecc67ff850245",
@@ -277,9 +384,13 @@
       "url": "https://circleci.com/blog/devops-did-not-exist/",
       "source": "Hacker News",
       "published_at": "2019-09-13T17:27:12Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Historical perspective on how DevOps emerged and transformed software delivery practices over decades.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "28bcbe11106e2f85d9fe40dd0ae4aeb0",
@@ -287,9 +398,14 @@
       "url": "https://matthias-endler.de/2019/maybe-you-dont-need-kubernetes/",
       "source": "Hacker News",
       "published_at": "2019-03-22T21:18:44Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Pragmatic assessment of when Kubernetes adds value versus when simpler solutions (VMs, PaaS, serverless) are more appropriate for the team and workload.",
+      "tags": [
+        "Kubernetes",
+        "Platform Engineering",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "1824b5a0914f7fce6a2413c124715a5c",
@@ -297,9 +413,13 @@
       "url": "https://toxicbakery.github.io/vsts-devops/microsoft-devops-ci/",
       "source": "Hacker News",
       "published_at": "2019-01-23T22:05:41Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Critical review of Azure DevOps (formerly VSTS) highlighting usability and integration challenges.",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "CI/CD"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "42af77f047303f1f056fcadf3d461a97",
@@ -307,9 +427,13 @@
       "url": "https://queue.acm.org/detail.cfm?id=3300018",
       "source": "Hacker News",
       "published_at": "2019-01-07T14:39:16Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Argues that database changes should be integrated into DevOps pipelines rather than treated as exceptions.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "da66e6d373e78078163cccdd3d92d6eb",
@@ -317,9 +441,13 @@
       "url": "https://services.google.com/fh/files/misc/the-site-reliability-workbook-next18.pdf",
       "source": "Hacker News",
       "published_at": "2018-07-26T03:41:11Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Google's official workbook providing practical implementation guidance for Site Reliability Engineering practices.",
+      "tags": [
+        "SRE",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 1.0
     },
     {
       "id": "9fc4cd83b53783d0d0b2e38d78f7e77d",
@@ -327,9 +455,13 @@
       "url": "https://cloudplatform.googleblog.com/2018/07/sre-fundamentals-slis-slas-and-slos.html",
       "source": "Hacker News",
       "published_at": "2018-07-19T16:12:21Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Foundational explanation of Service Level Indicators, Objectives, and Agreements for reliability measurement.",
+      "tags": [
+        "SRE",
+        "Observability",
+        "DevOps"
+      ],
+      "relevance_score": 1.0
     },
     {
       "id": "9ee5516a00a4a5feacf515fba9f67662",
@@ -337,9 +469,13 @@
       "url": "https://about.gitlab.com/2017/10/04/devops-strategy/",
       "source": "Hacker News",
       "published_at": "2018-03-19T07:06:24Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "GitLab's 2017 vision for a single application covering the entire DevOps lifecycle beyond just CI/CD.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "9f1d252e7ab0599a03eafbf681bd3543",
@@ -347,9 +483,14 @@
       "url": "https://gravitational.com/blog/kubernetes-release-cycle/#",
       "source": "Hacker News",
       "published_at": "2018-02-01T19:48:19Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Analyzes the rapid Kubernetes release cadence and the significant engineering effort required to stay current, upgrade safely, and manage deprecations.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Platform Engineering",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "1bacfa8157b2e74a2baf4623a4bfc6dc",
@@ -357,9 +498,12 @@
       "url": "https://news.ycombinator.com/item?id=14652993",
       "source": "Hacker News",
       "published_at": "2017-06-28T10:30:37Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Hacker News community discussion on recommended DevOps learning resources and career paths.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "a0f0c25030a74f0324aed5b5a5becd0f",
@@ -367,9 +511,14 @@
       "url": "http://kubernetesbyexample.com/",
       "source": "Hacker News",
       "published_at": "2017-05-31T14:32:24Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes by Example provides interactive tutorials and hands-on examples for learning Kubernetes concepts from basics to advanced patterns.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "97f466c27d2c989c99b672d727e25637",
@@ -377,9 +526,12 @@
       "url": "https://lionfacelemonface.wordpress.com/2015/03/08/devops-is-bullshit-why-one-programmer-doesnt-do-it-anymore/",
       "source": "Hacker News",
       "published_at": "2015-03-09T13:00:39Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "A programmer's critique of DevOps culture and why they left the field, sparking debate on role definitions.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "9a21660a3ca24902708cc163e3b3e284",
@@ -387,9 +539,13 @@
       "url": "http://jeffknupp.com/blog/2014/04/15/how-devops-is-killing-the-developer/",
       "source": "Hacker News",
       "published_at": "2014-04-15T15:25:42Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "2014 critique arguing that the \"DevOps\" label forces developers to own too much operational burden, leading to burnout and diluted specialization.",
+      "tags": [
+        "DevOps",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "707b5dd4e223974330b159bf45b2fdfd",
@@ -397,9 +553,15 @@
       "url": "http://rubytune.com/cheat",
       "source": "Hacker News",
       "published_at": "2013-01-11T16:06:41Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Quick reference guide covering common DevOps and sysadmin commands, tools, and troubleshooting tips.",
+      "tags": [
+        "DevOps",
+        "SRE",
+        "Kubernetes",
+        "Containers",
+        "Cloud"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "09a1873dbe2f2f803f27bc3e73c08a75",
@@ -407,9 +569,15 @@
       "url": "https://www.gitpod.io/blog/we-are-leaving-kubernetes",
       "source": "Hacker News",
       "published_at": "2024-11-04T14:41:28Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "GitPod explains their migration from Kubernetes to a simpler VM-based architecture, citing operational overhead, cost, and developer experience improvements.",
+      "tags": [
+        "Kubernetes",
+        "Platform Engineering",
+        "DevOps",
+        "Cloud",
+        "Containers"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "19aeb67831474daa7428fc00d7cb2228",
@@ -417,9 +585,14 @@
       "url": "https://www.jeremybrown.tech/8-kubernetes-is-a-red-flag-signalling-premature-optimisation/",
       "source": "Hacker News",
       "published_at": "2022-07-04T07:27:03Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Argues that adopting Kubernetes too early signals premature optimization, advocating for simpler platforms until scale and complexity demand it.",
+      "tags": [
+        "Kubernetes",
+        "Platform Engineering",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "148a79656fae599d7483fcfd4ba17c0b",
@@ -427,9 +600,15 @@
       "url": "https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF",
       "source": "Hacker News",
       "published_at": "2021-08-03T15:55:43Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "The NSA releases comprehensive Kubernetes hardening guidance covering pod security, network policies, RBAC, and supply chain security for production clusters.",
+      "tags": [
+        "Security",
+        "Kubernetes",
+        "DevOps",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "b6dc0ea92ae50b448c0061e77cfc9c75",
@@ -437,9 +616,14 @@
       "url": "http://www.oilshell.org/blog/2021/07/blog-backlog-2.html",
       "source": "Hacker News",
       "published_at": "2021-07-21T08:19:17Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "An opinion piece comparing Kubernetes to Multics, arguing both represent over-engineered systems that became industry standards despite complexity.",
+      "tags": [
+        "Kubernetes",
+        "Platform Engineering",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "55392c48bc721e8dec69c72938cb5c8b",
@@ -447,9 +631,14 @@
       "url": "https://www.theregister.com/2021/02/25/google_kubernetes_autopilot/",
       "source": "Hacker News",
       "published_at": "2021-02-26T04:50:43Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Google acknowledges Kubernetes complexity with GKE Autopilot, a fully managed mode that abstracts cluster operations for simpler workload deployment.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "Platform Engineering",
+        "DevOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "c7f0873a3298282e5b31013e88306978",
@@ -457,9 +646,15 @@
       "url": "https://blog.coinbase.com/container-technologies-at-coinbase-d4ae118dcb6c",
       "source": "Hacker News",
       "published_at": "2020-06-08T19:50:46Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Coinbase explains their container strategy using custom tooling instead of Kubernetes, citing operational complexity and specific security requirements for their crypto platform.",
+      "tags": [
+        "Kubernetes",
+        "Containers",
+        "Platform Engineering",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "954558d1b435ef89524578ffaee24112",
@@ -467,9 +662,14 @@
       "url": "https://stackoverflow.blog/2020/05/29/why-kubernetes-getting-so-popular/",
       "source": "Hacker News",
       "published_at": "2020-05-29T19:25:40Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Stack Overflow explores Kubernetes' rise to dominance, covering its ecosystem, cloud provider support, and how it became the standard for container orchestration.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Platform Engineering",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "ca5548065aa9b25d7ca1ef8ead49797a",
@@ -477,9 +677,14 @@
       "url": "https://github.com/eon01/kubernetes-workshop",
       "source": "Hacker News",
       "published_at": "2019-09-19T22:04:14Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Hands-on workshop covering Kubernetes fundamentals, networking, storage, security, and advanced patterns beyond typical introductory tutorials.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "c2ef472f3413bf4f8566dddcc9805887",
@@ -487,9 +692,15 @@
       "url": "https://status.cloud.google.com/incident/container-engine/18005",
       "source": "Hacker News",
       "published_at": "2018-11-11T20:47:57Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Google Kubernetes Engine experienced a third consecutive day of service disruption affecting multiple regions, highlighting reliability challenges in managed Kubernetes services.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "SRE",
+        "DevOps",
+        "Observability"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "a2ba6cc16df7d0e8322688c4da3cc398",
@@ -497,9 +708,14 @@
       "url": "http://www.doxsey.net/blog/kubernetes--the-surprisingly-affordable-platform-for-personal-projects",
       "source": "Hacker News",
       "published_at": "2018-10-01T11:30:12Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "An exploration of running personal projects on Kubernetes affordably, detailing cost optimization strategies for hobbyist clusters on cloud providers.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "DevOps",
+        "Containers"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "68873e58253cde6c7ced66b831efc216",
@@ -507,9 +723,13 @@
       "url": "https://www.hashicorp.com/blog/terraform-introduces-workspaces-and-stacks-restore-and-more",
       "source": "HashiCorp Blog",
       "published_at": "2026-07-23T17:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Terraform adds workspaces and Stacks restore features, improving state management and disaster recovery for platform teams.",
+      "tags": [
+        "Terraform",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "6763abca17d0c888fb5d2c1abae4a303",
@@ -517,9 +737,13 @@
       "url": "https://www.hashicorp.com/blog/terraform-stacks-explained",
       "source": "HashiCorp Blog",
       "published_at": "2026-07-23T19:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Terraform Stacks explained: a new abstraction for managing complex infrastructure as composable, reusable components.",
+      "tags": [
+        "Terraform",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "a57bff701d28ce7a2c19baf09b23d3b1",
@@ -527,9 +751,13 @@
       "url": "https://www.hashicorp.com/blog/terraform-azurerm-provider-50-now-generally-available",
       "source": "HashiCorp Blog",
       "published_at": "2026-07-28T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Terraform AzureRM provider 5.0 GA brings new Azure resource support and breaking changes for cloud infrastructure automation.",
+      "tags": [
+        "Terraform",
+        "Cloud",
+        "DevOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "c4f90b92eb620d1cfcaacd35f8b6d682",
@@ -537,9 +765,14 @@
       "url": "https://www.hashicorp.com/blog/consul-cyberark-wim-external-ca-for-the-service-mesh",
       "source": "HashiCorp Blog",
       "published_at": "2026-07-31T07:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Consul integrates with CyberArk WIM as an external CA for service mesh certificates, strengthening zero-trust networking.",
+      "tags": [
+        "Service Mesh",
+        "Security",
+        "DevOps",
+        "Kubernetes"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "cd3404b35886a1603a6be328b9dabbbd",
@@ -547,9 +780,14 @@
       "url": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
       "source": "HashiCorp Blog",
       "published_at": "2026-08-05T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HCP Terraform positions itself as the control plane for AI-driven infrastructure, unifying provisioning and AI workload management.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Terraform",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "3372205c782ae049c17c41b131cb76e7",
@@ -557,9 +795,15 @@
       "url": "https://www.nomadproject.io/docs/nomad-vs-kubernetes",
       "source": "Hacker News",
       "published_at": "2021-10-15T09:00:17Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Compares HashiCorp Nomad and Kubernetes across architecture, scheduling, ecosystem, and operational complexity to help teams choose the right orchestrator.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Platform Engineering",
+        "Cloud",
+        "Containers"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "a8ad3eb9870964f16093df2f70a216a4",
@@ -567,9 +811,14 @@
       "url": "https://k8s.af",
       "source": "Hacker News",
       "published_at": "2021-02-11T19:38:06Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Curated collection of real-world Kubernetes incident postmortems highlighting root causes, impacts, and lessons learned for resilience engineering.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "DevOps",
+        "Observability"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "14a40432df5f927ca0cdf29bf85b0a58",
@@ -577,9 +826,14 @@
       "url": "https://pythonspeed.com/articles/dont-need-kubernetes/",
       "source": "Hacker News",
       "published_at": "2020-03-05T05:20:38Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "A critical take on Kubernetes adoption arguing that many teams inherit eight new problems including complexity, operational burden, and debugging difficulties.",
+      "tags": [
+        "Kubernetes",
+        "Platform Engineering",
+        "DevOps",
+        "Containers"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "4959e94fcfc0b438547e841faf625db6",
@@ -587,9 +841,14 @@
       "url": "https://cloud.google.com/kubernetes-engine/pricing",
       "source": "Hacker News",
       "published_at": "2020-03-04T17:20:56Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Google announces a new cluster management fee for GKE starting June 6, changing the cost model for managed Kubernetes clusters on Google Cloud.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "Platform Engineering",
+        "DevOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "36ac993876cec2fa7438a27a1abca440",
@@ -597,9 +856,14 @@
       "url": "https://tuananh.net/2020/02/20/the-story-behind-my-talk-cloud-cost-optimization-at-scale/",
       "source": "Hacker News",
       "published_at": "2020-02-25T02:25:27Z",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Case study showing how combining Kubernetes with EC2 Spot instances and custom tooling achieved up to 80% compute cost reduction at scale.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "4e7ec4c01142ec07daf8c76ed363daef",
@@ -607,9 +871,15 @@
       "url": "https://aws.amazon.com/blogs/devops/ai-driven-software-delivery-with-kiro-aws-devops-agent-and-bluebox-by-dynatrace/",
       "source": "AWS Blog",
       "published_at": "2026-08-26T12:59:33+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Integrates Kiro, AWS DevOps Agent, and Dynatrace Bluebox for AI-driven software delivery with automated observability and remediation.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Observability",
+        "Platform Engineering",
+        "LLMOps"
+      ],
+      "relevance_score": 0.92
     },
     {
       "id": "03b9f08cdb9aa76281dc5f9b2db03c47",
@@ -617,9 +887,14 @@
       "url": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
       "source": "Kubernetes Blog",
       "published_at": "2026-08-27T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "The Kubernetes Metrics API graduates to stable in v1.37, offering a consistent, versioned interface for resource metrics (CPU, memory) used by autoscaling and monitoring tools.",
+      "tags": [
+        "Kubernetes",
+        "Observability",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.93
     },
     {
       "id": "10d93b75ed7441070469a8705b3a29bb",
@@ -627,9 +902,15 @@
       "url": "https://aws.amazon.com/blogs/devops/build-your-own-continuous-modernization-pipeline-with-aws-transform-custom/",
       "source": "AWS Blog",
       "published_at": "2026-08-28T13:27:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Guides building a continuous modernization pipeline with AWS Transform Custom to automate legacy application refactoring and deployment.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Cloud",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "5cef98ffa46a3971a1b15e21a887e1eb",
@@ -637,9 +918,14 @@
       "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
       "source": "Kubernetes Blog",
       "published_at": "2026-08-28T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes 1.37 introduces Pod Certificates and Cluster Trust Bundles, providing a standardized way to distribute X.509 certificates and trust anchors to workloads for mTLS and authentication.",
+      "tags": [
+        "Kubernetes",
+        "Security",
+        "Platform Engineering",
+        "Service Mesh"
+      ],
+      "relevance_score": 0.94
     },
     {
       "id": "1e90acc774d8afaf70ec6b7a4c3eeb37",
@@ -647,9 +933,17 @@
       "url": "https://aws.amazon.com/blogs/devops/optimize-eks-operations-with-agents-reduce-mttr-with-aws-devops-agent-and-a-kubernetes-operator/",
       "source": "AWS Blog",
       "published_at": "2026-08-31T09:28:02+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Combines AWS DevOps Agent with a custom Kubernetes Operator to detect, diagnose, and remediate EKS issues, directly targeting MTTR reduction.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "SRE",
+        "Cloud",
+        "AI",
+        "Observability",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.96
     },
     {
       "id": "e447f5fac3fa6d809c200c30ee56ddc6",
@@ -657,9 +951,13 @@
       "url": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
       "source": "Kubernetes Blog",
       "published_at": "2026-08-31T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Storage version migration becomes enabled by default in Kubernetes 1.37, automating the conversion of stored API objects to the preferred storage version for smoother upgrades.",
+      "tags": [
+        "Kubernetes",
+        "Platform Engineering",
+        "SRE"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "517e34dd11ffce0bcb92051342578e34",
@@ -667,9 +965,13 @@
       "url": "https://www.hashicorp.com/blog/hashicorp-vault-agentic-iam-is-now-generally-available",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-01T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Vault's agentic IAM GA enables secure identity management for AI agents, supporting autonomous workloads with least privilege.",
+      "tags": [
+        "AI",
+        "Security",
+        "DevOps"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "e49dbc3617c705c98e3a50c139e62e58",
@@ -677,9 +979,14 @@
       "url": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-01T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "etcd RangeStream feature in Kubernetes 1.37 reduces memory consumption during large list reads by streaming results, improving control plane scalability and stability.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Observability",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.92
     },
     {
       "id": "8485f2acfe8dc7db9257601b8f8888d4",
@@ -687,9 +994,14 @@
       "url": "https://aws.amazon.com/blogs/devops/automate-planned-lifecycle-upgrades-with-aws-devops-agent-and-kiro/",
       "source": "AWS Blog",
       "published_at": "2026-09-02T18:55:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explains how to automate planned lifecycle upgrades (e.g., EKS version updates) using AWS DevOps Agent and Kiro to minimize manual effort.",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "Platform Engineering",
+        "Kubernetes"
+      ],
+      "relevance_score": 0.88
     },
     {
       "id": "d2435d4d11ad2a5770db058548bb0808",
@@ -697,9 +1009,15 @@
       "url": "https://aws.amazon.com/blogs/devops/automating-the-experimentation-lifecycle-with-kiro-aws-devops-agent-and-launchdarkly/",
       "source": "AWS Blog",
       "published_at": "2026-09-03T02:11:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Demonstrates automating the full experimentation lifecycle using Kiro, AWS DevOps Agent, and LaunchDarkly for safer feature rollouts.",
+      "tags": [
+        "DevOps",
+        "AI",
+        "CI/CD",
+        "Platform Engineering",
+        "Observability"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "a9022db0977874f2645bf18a6bb95d50",
@@ -707,9 +1025,14 @@
       "url": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-02T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HorizontalPodAutoscaler in Kubernetes 1.37 gains beta support for scaling workloads to zero replicas, enabling cost savings for intermittent workloads and serverless-style patterns.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Platform Engineering",
+        "Cloud"
+      ],
+      "relevance_score": 0.96
     },
     {
       "id": "e829fcd8481fe513f0a07f951f4392e6",
@@ -717,9 +1040,13 @@
       "url": "https://kubernetes.io/blog/2026/09/03/kubernetes-v1-37-dra-updates/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-03T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Dynamic Resource Allocation (DRA) receives updates in Kubernetes 1.37, improving support for specialized hardware like GPUs and enabling more flexible resource claims for AI/ML workloads.",
+      "tags": [
+        "Kubernetes",
+        "AI",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.93
     },
     {
       "id": "41e4bc7190da4004ede9448852dee7ac",
@@ -727,9 +1054,14 @@
       "url": "https://aws.amazon.com/blogs/devops/investigate-dms-migration-issues-with-aws-devops-agent/",
       "source": "AWS Blog",
       "published_at": "2026-09-04T18:13:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Shows how to use the AWS DevOps Agent to diagnose and troubleshoot AWS Database Migration Service (DMS) issues, reducing manual investigation time.",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "AI",
+        "Observability"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "5fa18b6ec2b95fb1ab4ef650dee6adb0",
@@ -737,9 +1069,13 @@
       "url": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-04T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "The KubeletInUserNamespace feature (rootless mode) reaches Beta in Kubernetes 1.37, enabling kubelet to run in a user namespace for improved container isolation and security.",
+      "tags": [
+        "Kubernetes",
+        "Security",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "48ed3dfc09edbeb032e2aaada18f2a27",
@@ -747,9 +1083,13 @@
       "url": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-08T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes 1.37 introduces workload-aware scheduling enhancements, allowing the scheduler to consider workload-specific requirements like topology and resource profiles for better placement decisions.",
+      "tags": [
+        "Kubernetes",
+        "Platform Engineering",
+        "SRE"
+      ],
+      "relevance_score": 0.98
     },
     {
       "id": "62dd53fb4cd4c92f6a420cb7d10bb46a",
@@ -757,9 +1097,15 @@
       "url": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-09T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes 1.37 introduces node lifecycle conditions to provide clearer visibility into node health states, aiding cluster operations and automation.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Platform Engineering",
+        "Cloud",
+        "Observability"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "00566703d4f0c6723f17e351aa41d95f",
@@ -767,9 +1113,14 @@
       "url": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-10T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Alpha feature in Kubernetes 1.37 allows scheduler preemption to facilitate in-place pod resizing, improving resource utilization and cluster elasticity.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Platform Engineering",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "df531ad9514f7573636e2fb866cff0c7",
@@ -777,9 +1128,14 @@
       "url": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-11T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Native histograms reach beta in Kubernetes 1.37, enabling high-resolution metric histograms with lower cardinality and better performance for observability.",
+      "tags": [
+        "Kubernetes",
+        "Observability",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "9953a0636092a294d432449d2cf43822",
@@ -787,9 +1143,14 @@
       "url": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-14T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Memory Quality of Service (QoS) graduates to beta in Kubernetes 1.37, providing better memory resource guarantees and preventing noisy neighbor issues.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "68be668e4776344e153f852adfaccd69",
@@ -797,9 +1158,14 @@
       "url": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-14T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Details the beta changes to the CSI Changed Block Tracking API, improving incremental backup and replication efficiency for persistent volumes.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "Platform Engineering",
+        "DevOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "c33e18b2c9dd5b7d65dd35a069040b2b",
@@ -807,9 +1173,13 @@
       "url": "https://www.hashicorp.com/blog/simplifying-terraform-for-ibm-z-with-intent-driven-workflows",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-15T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Intent-driven workflows simplify Terraform usage on IBM Z mainframes, bridging legacy systems with modern IaC practices.",
+      "tags": [
+        "DevOps",
+        "Terraform",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "a384990d25633cb45c8f6cb058ee6fbf",
@@ -817,9 +1187,14 @@
       "url": "https://www.hashicorp.com/blog/introducing-hcp-terraform-metrics-operational-visibility-at-scale",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-03T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HCP Terraform Metrics provides operational visibility into Terraform runs at scale, enhancing observability for platform teams.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "Platform Engineering",
+        "Terraform"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "d7f7b3f1eb047fba99843f31e8747657",
@@ -827,9 +1202,14 @@
       "url": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-15T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Pod-level resource managers reach beta in Kubernetes 1.37, allowing fine-grained CPU and device allocation per pod for better workload isolation.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "2167fc2a2982cbeb4912b08165ef425a",
@@ -837,9 +1217,14 @@
       "url": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-16T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "New beta features in Kubernetes 1.37 enhance storage security with bind mount options and EmptyDir permission controls to prevent privilege escalation.",
+      "tags": [
+        "Kubernetes",
+        "Security",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "d1467d5f0443a8daea46de65a55b1cfb",
@@ -847,9 +1232,14 @@
       "url": "https://www.hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-17T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HCP Terraform adds pre-written compliance policies to simplify regulatory adherence and policy-as-code adoption.",
+      "tags": [
+        "DevOps",
+        "Security",
+        "Terraform",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "d74aad16db7730b705c14991e41fa9c8",
@@ -857,9 +1247,14 @@
       "url": "https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/",
       "source": "Kubernetes Blog",
       "published_at": "2026-09-21T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes 1.37 introduces beta support for tracking PVC last used timestamps, enabling better storage lifecycle management and cost optimization.",
+      "tags": [
+        "Kubernetes",
+        "Platform Engineering",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "0c0c27044d4aab8f10cfda93839ecc2e",
@@ -867,9 +1262,13 @@
       "url": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-22T07:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HashiCorp Boundary secures AI agent access to infrastructure with zero-trust principles, enabling safe AI-driven automation.",
+      "tags": [
+        "AI",
+        "Security",
+        "DevOps"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "467ecd47aadeb505608b2b7e18d4cc7c",
@@ -877,9 +1276,14 @@
       "url": "https://www.hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "The Terraform provider for Google Cloud 8.0 reaches GA, adding support for new GCP services, resource improvements, and alignment with Terraform 1.16 features for cloud infrastructure management.",
+      "tags": [
+        "Terraform",
+        "Cloud",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "81c0d12e4c659aa9f7ad5e5e4ae6bb25",
@@ -887,9 +1291,12 @@
       "url": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-3/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-09-10T22:25:52+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Details the September 2024 security and quality patches for Azure DevOps Server 2022 and 2020, addressing vulnerabilities and bug fixes.",
+      "tags": [
+        "DevOps",
+        "Security"
+      ],
+      "relevance_score": 0.6
     },
     {
       "id": "d6dc99147d13ba6a2568ee9ed36cf3b3",
@@ -897,9 +1304,14 @@
       "url": "https://devblogs.microsoft.com/devops/azure-devops-in-the-github-copilot-app/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-08-27T11:24:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Announces Azure DevOps integration within the GitHub Copilot app, allowing developers to query work items, pipelines, and repos via chat.",
+      "tags": [
+        "DevOps",
+        "AI",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "f598aae7b0bf9db261ef4294ba3da38d",
@@ -907,9 +1319,12 @@
       "url": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-public-preview/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-08-26T15:17:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Microsoft introduces AI-powered code review for Azure Repos, helping developers catch issues faster.",
+      "tags": [
+        "DevOps",
+        "AI"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "9b2b4f6e6336f58f94d945522f8ea1b9",
@@ -917,9 +1332,14 @@
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.1",
       "source": "GitHub Releases (kubernetes)",
       "published_at": "2026-09-23T19:13:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes v1.37.1 delivers bug fixes and security patches for the current stable series, maintaining cluster reliability.",
+      "tags": [
+        "Kubernetes",
+        "Containers",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "ad8b835399b3502eff661f762a0b5fc9",
@@ -927,9 +1347,15 @@
       "url": "https://www.docker.com/blog/manufacturing-trust-for-ai-agents-keynote/",
       "source": "Docker Blog",
       "published_at": "2026-09-24T17:15:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Keynote transcript on building trust infrastructure for AI agents through sandboxing, attestation, and permission models.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Platform Engineering",
+        "Security",
+        "Containers"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "04539ae137945004289b4f3be908560a",
@@ -937,9 +1363,16 @@
       "url": "https://www.docker.com/blog/docker-sandbox-kit-spec-cncf/",
       "source": "Docker Blog",
       "published_at": "2026-09-24T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Docker and CNCF collaborate on an open specification for agent permissions, standardizing capability-based access control for AI workloads.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Cloud",
+        "Platform Engineering",
+        "Security",
+        "Containers"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "e1b54dec997dcac2d1c9c7b5f69042fc",
@@ -947,9 +1380,15 @@
       "url": "https://www.docker.com/blog/docker-sandbox-kit-spec/",
       "source": "Docker Blog",
       "published_at": "2026-09-24T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Technical specification for Docker Sandboxes Kit, defining a portable format for agent runtime environments from Dockerfile to Kit.",
+      "tags": [
+        "DevOps",
+        "Containers",
+        "Platform Engineering",
+        "AI",
+        "CI/CD"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "590c5f12d12516f5d12514456636b17f",
@@ -957,9 +1396,15 @@
       "url": "https://aws.amazon.com/blogs/containers/one-amazon-eks-many-edges-how-to-choose-your-edge-container-strategy-on-aws/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-09-25T15:52:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Guides architects through selecting the right edge container strategy on AWS using Amazon EKS, covering hybrid, multi-cluster, and far-edge deployment patterns.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "Platform Engineering",
+        "Containers",
+        "DevOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "207acc416c8c12f8c0a1f9bf2892d677",
@@ -967,9 +1412,13 @@
       "url": "https://aws.amazon.com/blogs/containers/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-09-25T21:18:33+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Announces AWS's placement as a Leader in Gartner's 2026 Magic Quadrant for Container Management, highlighting EKS, ECS, and Fargate capabilities.",
+      "tags": [
+        "Cloud",
+        "Containers",
+        "Kubernetes"
+      ],
+      "relevance_score": 0.4
     },
     {
       "id": "df6749a99b7487638aed005b11fb7d17",
@@ -977,9 +1426,13 @@
       "url": "https://aws.amazon.com/blogs/devops/how-property-finder-automated-incident-management-with-aws-devops-agent/",
       "source": "AWS Blog",
       "published_at": "2026-09-28T19:03:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Case study of Property Finder automating incident management with AWS DevOps Agent to reduce MTTR and manual toil.",
+      "tags": [
+        "SRE",
+        "DevOps",
+        "Observability"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "61ad63ee401f221aa3c6ac7661d98eda",
@@ -987,9 +1440,13 @@
       "url": "https://aws.amazon.com/blogs/devops/audit-trails-for-autonomous-agents-with-aws-devops-agent/",
       "source": "AWS Blog",
       "published_at": "2026-09-28T16:07:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Covers implementing audit trails for autonomous agents using AWS DevOps Agent to ensure compliance and traceability.",
+      "tags": [
+        "Security",
+        "DevOps",
+        "AI"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "ec9c091c8866c82dc6b7c8e73bd66304",
@@ -997,9 +1454,15 @@
       "url": "https://aws.amazon.com/blogs/containers/fix-pod-distribution-drift-in-amazon-eks-with-the-kubernetes-descheduler/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-09-28T16:01:43+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explains how to use the Kubernetes descheduler to automatically rebalance pods across nodes in Amazon EKS, preventing resource fragmentation and improving cluster efficiency.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "DevOps",
+        "Platform Engineering",
+        "SRE"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "841ccb70e635243533ec1e68826e34b2",
@@ -1007,9 +1470,13 @@
       "url": "https://aws.amazon.com/blogs/devops/building-a-slack-powered-ai-development-agent-with-kiro-cli-and-headless-authentication/",
       "source": "AWS Blog",
       "published_at": "2026-09-29T16:02:43+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Tutorial on building a Slack-integrated AI development agent using Kiro CLI with headless authentication for team collaboration.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "03233c423691655f7a8ddef71b1f1aed",
@@ -1017,9 +1484,13 @@
       "url": "https://aws.amazon.com/blogs/devops/accelerating-development-workflows-with-kiro-cli-as-a-pre-commit-and-git-hook-agent/",
       "source": "AWS Blog",
       "published_at": "2026-09-29T15:59:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Describes using Kiro CLI as a pre-commit and Git hook agent to accelerate development workflows and enforce standards.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "a8ea324f6029bfb51fac1e6141233807",
@@ -1027,9 +1498,14 @@
       "url": "https://devblogs.microsoft.com/devops/updates-to-copilot-code-reviews-for-azure-repos/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-09-30T17:05:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Describes enhancements to GitHub Copilot code reviews in Azure Repos, including improved AI suggestions, policy integration, and custom instructions.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "CI/CD",
+        "LLMOps"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "7745733e00fb631adc051efc4ef0f370",
@@ -1037,9 +1513,16 @@
       "url": "https://aws.amazon.com/blogs/containers/ai-powered-eks-migration-assessment-with-amazon-bedrock-agentcore/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-09-30T15:34:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Uses Amazon Bedrock AgentCore to perform AI-powered assessment and planning for EKS migrations, accelerating modernization.",
+      "tags": [
+        "AI",
+        "Kubernetes",
+        "Cloud",
+        "DevOps",
+        "Platform Engineering",
+        "LLMOps"
+      ],
+      "relevance_score": 0.93
     },
     {
       "id": "1406e9bc7b8dbc81fed93993e8cd6ad1",
@@ -1047,9 +1530,14 @@
       "url": "https://www.hashicorp.com/blog/terraform-116-completes-actions-lifecycles-and-brings-imports-into-child-modules",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-28T07:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Terraform 1.16 finalizes Actions lifecycles (create, update, delete) and allows imports into child modules, improving workflow flexibility and module composition for infrastructure as code.",
+      "tags": [
+        "Terraform",
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.97
     },
     {
       "id": "761a2d26534c64dd3fd5c2bb0ad628ab",
@@ -1057,9 +1545,13 @@
       "url": "https://aws.amazon.com/blogs/devops/running-production-experiments-with-aws-appconfig-experimentation/",
       "source": "AWS Blog",
       "published_at": "2026-09-30T19:45:35+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Guides running production experiments using AWS AppConfig experimentation for safe feature rollouts and A/B testing.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "SRE"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "849e3b3598a59d1d87c9e0839972b944",
@@ -1067,9 +1559,14 @@
       "url": "https://devblogs.microsoft.com/devops/github-hosted-agents-with-pay-as-you-go-pricing-are-now-generally-available-in-azure-pipelines/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-10-01T12:27:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "GitHub-hosted agents with consumption-based pricing are now GA in Azure Pipelines, offering flexible, scalable CI/CD compute without managing infrastructure.",
+      "tags": [
+        "CI/CD",
+        "DevOps",
+        "Cloud",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "e3a4dd1b46ea81079e909495641a5fd7",
@@ -1077,9 +1574,15 @@
       "url": "https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap/",
       "source": "Docker Blog",
       "published_at": "2026-10-01T18:26:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Recap of WeAreDevelopers keynote showcasing Docker Cloud Sandboxes as a trust layer for running untrusted AI agents.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Cloud",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "e6765ec534f47a701dd3d719265cecda",
@@ -1087,9 +1590,15 @@
       "url": "https://aws.amazon.com/blogs/containers/implementing-feature-flags-in-container-environments-with-aws-appconfig/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-10-01T16:42:33+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Shows how to implement feature flags in containerized workloads using AWS AppConfig for dynamic configuration and safe rollouts.",
+      "tags": [
+        "DevOps",
+        "Containers",
+        "Cloud",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "7452326c34ebee14bdf81fe1c60118a7",
@@ -1097,9 +1606,13 @@
       "url": "https://aws.amazon.com/blogs/devops/integrate-aws-devops-agent-with-third-party-tools-using-amazon-eventbridge/",
       "source": "AWS Blog",
       "published_at": "2026-10-02T15:50:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Demonstrates integrating the AWS DevOps Agent with third-party tools via Amazon EventBridge for automated workflows.",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "ddb67b87087909c40d0ac44593c6cc62",
@@ -1107,9 +1620,13 @@
       "url": "https://aws.amazon.com/blogs/devops/closed-loop-incident-response-connect-aws-devops-agent-to-opensearch/",
       "source": "AWS Blog",
       "published_at": "2026-10-02T15:24:49+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Shows how to connect AWS DevOps Agent to OpenSearch for closed-loop incident response and automated remediation.",
+      "tags": [
+        "SRE",
+        "Observability",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "7f4d09dadb6c1c2e1cb4d6fdcc330255",
@@ -1117,9 +1634,14 @@
       "url": "https://github.com/istio/istio/releases/tag/1.32.0-alpha.0",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-10-05T21:11:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Istio 1.32.0-alpha.0 previews the next major service mesh version with new traffic management and security features for early testing.",
+      "tags": [
+        "Service Mesh",
+        "Kubernetes",
+        "Platform Engineering",
+        "Security"
+      ],
+      "relevance_score": 0.94
     },
     {
       "id": "880c435a971362fc6713192023c77d3b",
@@ -1127,9 +1649,14 @@
       "url": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
       "source": "Kubernetes Blog",
       "published_at": "2026-10-05T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores how enabling swap on Kubernetes nodes can help scale workloads by providing memory overcommit protection and handling bursty workloads.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Platform Engineering",
+        "Cloud"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "d9a96b52245d1d296af632a4d15a62c2",
@@ -1137,9 +1664,13 @@
       "url": "https://aws.amazon.com/blogs/devops/restart-ec2-and-on-premises-fleets-faster-with-aws-codedeploy-restart-deployment-mode/",
       "source": "AWS Blog",
       "published_at": "2026-10-05T15:46:02+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Introduces AWS CodeDeploy's new RESTART deployment mode to restart EC2 and on-premises fleets faster during deployments.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Cloud"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "a91eca1825892d99c660e8c57898ae87",
@@ -1147,9 +1678,15 @@
       "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
       "source": "Kubernetes Blog",
       "published_at": "2026-10-06T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes is transitioning to cgroup v2, bringing improved resource isolation and unified hierarchy; this post explains the changes and migration steps.",
+      "tags": [
+        "Kubernetes",
+        "Containers",
+        "Platform Engineering",
+        "DevOps",
+        "SRE"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "db62510cbaba38ae3bd2f4e2454589bf",
@@ -1157,9 +1694,14 @@
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-alpha.2",
       "source": "GitHub Releases (kubernetes)",
       "published_at": "2026-10-07T17:54:03+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes v1.38.0-alpha.2 is released, providing early access to upcoming features and enhancements for the container orchestration platform.",
+      "tags": [
+        "Kubernetes",
+        "Containers",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "861f01cd7bb9bee718d1a4618b4d9184",
@@ -1167,9 +1709,12 @@
       "url": "https://www.cncf.io/blog/2026/10/09/who-owns-nis2-and-dora-on-a-kubernetes-platform-team/",
       "source": "CNCF Blog",
       "published_at": "2026-10-09T08:07:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Clarifies responsibility for NIS2 and DORA compliance within Kubernetes platform teams.",
+      "tags": [
+        "Security",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "93546014a2ff2dd122afd447d4f1cf54",
@@ -1177,9 +1722,11 @@
       "url": "https://www.cncf.io/blog/2026/10/09/join-platform-engineering-day-at-kubecon-cloudnativecon-north-america-2026/",
       "source": "CNCF Blog",
       "published_at": "2026-10-09T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Platform Engineering Day at KubeCon offers sessions on building developer platforms and workflows.",
+      "tags": [
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "c7927c407e36028e23d3f1ac6ef29f39",
@@ -1187,9 +1734,12 @@
       "url": "https://www.cncf.io/blog/2026/10/12/from-zero-to-agent-builder-running-kagent-on-your-laptop/",
       "source": "CNCF Blog",
       "published_at": "2026-10-12T11:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Learn to build and run AI agents locally with kagent, from setup to deployment.",
+      "tags": [
+        "AI",
+        "DevOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "eb3d3ef82c145f3bec1598004712f09d",
@@ -1197,9 +1747,14 @@
       "url": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/",
       "source": "Docker Blog",
       "published_at": "2026-10-12T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Security advisory detailing CVE-2026-105445 where personal access tokens were exposed during Docker Hub account-to-organization conversions.",
+      "tags": [
+        "Security",
+        "DevOps",
+        "Cloud",
+        "Containers"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "70f8b558b81f0beafa78203dbf07f1bc",
@@ -1207,9 +1762,14 @@
       "url": "https://github.com/grafana/grafana/releases/tag/v13.2.4",
       "source": "GitHub Releases (grafana)",
       "published_at": "2026-10-13T11:47:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Grafana 13.2.4 releases with bug fixes and improvements to the leading observability platform for metrics, logs, and traces visualization.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.98
     },
     {
       "id": "121e659aadc90b37c5859145063e5f73",
@@ -1217,9 +1777,12 @@
       "url": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-10-13T20:20:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Details the October 2024 security and quality patches for Azure DevOps Server 2022 and 2020, addressing vulnerabilities and bug fixes.",
+      "tags": [
+        "DevOps",
+        "Security"
+      ],
+      "relevance_score": 0.6
     },
     {
       "id": "19ec6a0e6589b2c0d702ff0921afe2ca",
@@ -1227,9 +1790,12 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "source": "Google AI Blog",
       "published_at": "2026-10-13T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Google announces Gemini 4 Argon, a new AI model optimized for complex reasoning and coding tasks, targeting advanced problem-solving.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "437b012337605c8d898a3c20b872eea1",
@@ -1237,9 +1803,15 @@
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.163.0",
       "source": "GitHub Releases (open-telemetry)",
       "published_at": "2026-10-14T02:03:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "OpenTelemetry Collector v0.163.0 updates the vendor-neutral telemetry pipeline for collecting, processing, and exporting metrics, logs, and traces.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "SRE",
+        "Platform Engineering",
+        "Cloud"
+      ],
+      "relevance_score": 0.97
     },
     {
       "id": "1ab286260d472c10ac1b115ce3cc00d3",
@@ -1247,9 +1819,13 @@
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Fhostcapabilities%2Fv0.163.0",
       "source": "GitHub Releases (open-telemetry)",
       "published_at": "2026-10-14T02:03:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "OpenTelemetry Collector hostcapabilities service update enables host-level capability detection for enhanced infrastructure observability.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "1cb679321d1c55d28f91e7d3c31629b9",
@@ -1257,9 +1833,12 @@
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Ftelemetry%2Ftelemetrytest%2Fv0.163.0",
       "source": "GitHub Releases (open-telemetry)",
       "published_at": "2026-10-14T02:03:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Component release for the OpenTelemetry Collector telemetrytest service, providing testing utilities for telemetry pipelines.",
+      "tags": [
+        "Observability",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "a477630faa7887505c61e3003ccebf1f",
@@ -1267,9 +1846,12 @@
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.163.0",
       "source": "GitHub Releases (open-telemetry)",
       "published_at": "2026-10-14T02:03:21+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "XScraper component release for OpenTelemetry Collector adds extended scraping capabilities for diverse metric sources.",
+      "tags": [
+        "Observability",
+        "DevOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "063dca4bd1c9941c396c8091f034573c",
@@ -1277,9 +1859,14 @@
       "url": "https://www.docker.com/blog/ai-agent-security-risks/",
       "source": "Docker Blog",
       "published_at": "2026-10-14T22:08:33+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Analysis of security risks when AI agents operate autonomously, covering prompt injection, data exfiltration, and supply chain attacks.",
+      "tags": [
+        "AI",
+        "Security",
+        "DevOps",
+        "LLMOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "fb40a331b780b780339e4bb9b4f13b86",
@@ -1287,21 +1874,14 @@
       "url": "https://www.docker.com/blog/harbor-docker-sandboxes-run-safe-reproducible-agent-evals/",
       "source": "Docker Blog",
       "published_at": "2026-10-14T21:45:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ca0f65962dc358903474ea6123c4ceb4",
-      "title": "GitHub is making CI/CD workflows more predictable with workflow dependency lockfiles…",
-      "url": "https://www.reddit.com/r/devops/comments/1x67rmp/github_is_making_cicd_workflows_more_predictable/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-15T00:33:21+00:00",
-      "summary": "GitHub introduces workflow dependency lockfiles to make CI/CD pipelines more predictable and secure.",
+      "summary": "Integration of Harbor registry with Docker Sandboxes enables reproducible, secure evaluation pipelines for AI agents.",
       "tags": [
-        "CI/CD",
+        "AI",
         "DevOps",
-        "Security"
+        "Containers",
+        "Security",
+        "Platform Engineering",
+        "CI/CD"
       ],
       "relevance_score": 0.9
     },
@@ -1311,9 +1891,12 @@
       "url": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
       "source": "Kubernetes Blog",
       "published_at": "2026-10-14T18:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Debug pending Kubernetes jobs by tracing Kueue admission with Headlamp for better visibility.",
+      "tags": [
+        "Kubernetes",
+        "Observability"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "78df1fefc5d9c42394d6182dc5fb9820",
@@ -1321,14 +1904,14 @@
       "url": "https://dev.to/alexgeorgiev17/duckdb-20-alphas-triggers-cost-three-times-more-per-row-than-per-statement-13cj",
       "source": "Dev.to",
       "published_at": "2026-10-15T10:00:00Z",
-      "summary": "I benchmarked DuckDB 2.0 alpha's new triggers on a 500,000-row insert: row-level triggers cost about 3x a plain insert, statement-level ones with transition tables cost about 1.3x. Half the documented trigger matrix isn't implemented yet.",
+      "summary": "Performance analysis of DuckDB 2.0 alpha showing row-level triggers incur three times the overhead of statement-level triggers per row.",
       "tags": [
         "database",
         "performance",
         "devops",
         "programming"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.4
     },
     {
       "id": "f8fcf64ee935a3fa72328005cabfa818",
@@ -1336,14 +1919,14 @@
       "url": "https://dev.to/devopsdaily/how-docker-works-under-the-hood-watch-namespaces-isolate-a-container-and-cgroups-stop-a-fork-bomb-2k22",
       "source": "Dev.to",
       "published_at": "2026-10-15T09:02:04Z",
-      "summary": "On a Linux host, start an nginx container, then run ps aux. nginx is right there in the list, with an...",
+      "summary": "Deep dive into Docker internals demonstrating how Linux namespaces provide isolation and cgroups enforce resource limits, including a live fork bomb containment demo.",
       "tags": [
-        "docker",
-        "linux",
-        "containers",
-        "devops"
+        "Containers",
+        "DevOps",
+        "Platform Engineering",
+        "SRE"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.95
     },
     {
       "id": "cf60afde718dfe6bd86c90a25fa4fabf",
@@ -1361,9 +1944,12 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-15T04:32:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangGraph Prebuilt v1.1.1 releases ready-to-use components accelerating LLM agent development.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "d950c6efe595a0b676912338e0a65f0d",
@@ -1528,9 +2114,15 @@
       "url": "https://github.com/istio/istio/releases/tag/1.31.2",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-10-16T07:40:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Istio 1.31.2 patches the service mesh with security fixes and stability improvements for zero-trust networking in Kubernetes.",
+      "tags": [
+        "Service Mesh",
+        "Kubernetes",
+        "Platform Engineering",
+        "Security",
+        "SRE"
+      ],
+      "relevance_score": 0.96
     },
     {
       "id": "c8447c3f70ecadcaced3ba67e5b78abc",
@@ -1558,9 +2150,12 @@
       "url": "https://www.cncf.io/blog/2026/10/15/carbon-as-a-first-class-signal-bringing-software-carbon-intensity-to-opentelemetry/",
       "source": "CNCF Blog",
       "published_at": "2026-10-15T22:21:45+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "OpenTelemetry now supports carbon intensity as a native signal, enabling greener software monitoring.",
+      "tags": [
+        "Observability",
+        "Cloud"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "496fb03663911340e8ca8e3ec6243335",
@@ -1583,14 +2178,15 @@
       "url": "https://dev.to/aws-builders/hands-on-with-aws-devops-agent-changing-devops-work-without-replacing-engineers-kfe",
       "source": "Dev.to",
       "published_at": "2026-10-15T09:22:27Z",
-      "summary": "Introduction   When an AI agent can investigate incidents, read operational context, query...",
+      "summary": "Hands-on review of AWS DevOps Agent, an AI-powered assistant that automates operational tasks while keeping engineers in control.",
       "tags": [
-        "ai",
-        "devops",
-        "aws",
-        "productivity"
+        "AI",
+        "DevOps",
+        "Cloud",
+        "Platform Engineering",
+        "LLMOps"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.95
     },
     {
       "id": "0cfe9ae3cb5412c3ad82dce137be1a11",
@@ -1618,14 +2214,14 @@
       "url": "https://dev.to/rbonweb/the-claude-code-desktop-vulnerability-that-beat-three-layers-of-sandboxing-296n",
       "source": "Dev.to",
       "published_at": "2026-10-16T10:00:00Z",
-      "summary": "A Claude Code Desktop vulnerability called SneakPeek let a poisoned HTML file steal AWS, GitHub, and SSH credentials with no click. Here is what we checked.",
+      "summary": "Details a vulnerability in Claude Code Desktop that escaped three sandbox layers, highlighting AI tooling supply-chain risks.",
       "tags": [
-        "security",
-        "ai",
-        "anthropic",
-        "devops"
+        "AI",
+        "Security",
+        "DevOps",
+        "LLMOps"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.9
     },
     {
       "id": "52bfc01badfe6b9a312eada68285b316",
@@ -1633,14 +2229,13 @@
       "url": "https://dev.to/alexgeorgiev17/postgresql-19-betas-parallel-autovacuum-launches-workers-but-leaves-vacuum-time-unchanged-3g4j",
       "source": "Dev.to",
       "published_at": "2026-10-16T10:00:00Z",
-      "summary": "I measured PostgreSQL 19 beta4's new parallel autovacuum on a six-index, 400,000-row table: 4 workers launched every time, but wall-clock vacuum time stayed within 4% of the serial run, while dead-tuple memory doubled.",
+      "summary": "Analysis of PostgreSQL 19 beta's parallel autovacuum feature showing worker launch without vacuum time improvement.",
       "tags": [
-        "postgres",
-        "database",
-        "performance",
-        "devops"
+        "SRE",
+        "Observability",
+        "Cloud"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.7
     },
     {
       "id": "be3c8ff7acf98544e1ea02d3f3716a11",
@@ -1658,14 +2253,11 @@
       "url": "https://dev.to/shraddhakolate30/saathi-ai-what-if-we-could-recognize-the-warning-signs-before-its-too-late-4mf7",
       "source": "Dev.to",
       "published_at": "2026-10-16T07:13:32Z",
-      "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle  SAATHI AI:...",
+      "summary": "Describes an AI system for early warning sign detection, likely in a social or healthcare context, with limited infrastructure focus.",
       "tags": [
-        "devchallenge",
-        "hf26challenge",
-        "ai",
-        "devops"
+        "AI"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.3
     },
     {
       "id": "daf5cfb2cd14f26afd8f65e5d66998bb",
@@ -1673,14 +2265,14 @@
       "url": "https://dev.to/mael_bourdin_146413ed19bb/our-ai-coding-agents-ignored-their-instructions-for-a-month-nothing-errored-3li2",
       "source": "Dev.to",
       "published_at": "2026-10-16T07:00:01Z",
-      "summary": "In August we wrote a careful instructions file for the coding agents that work in our repository. How...",
+      "summary": "Details a silent failure where AI coding agents disregarded instructions for weeks without errors, highlighting risks in automated development workflows.",
       "tags": [
-        "ai",
-        "devops",
-        "testing",
-        "productivity"
+        "AI",
+        "DevOps",
+        "LLMOps",
+        "Observability"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.9
     },
     {
       "id": "68089537b51e863ab8eb692657d8cb95",
@@ -1688,9 +2280,15 @@
       "url": "https://aws.amazon.com/blogs/containers/automating-secure-container-registry-management-for-air-gapped-aws-workloads/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-10-16T17:48:23+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Automates secure container image promotion and vulnerability scanning for air-gapped AWS environments using native services.",
+      "tags": [
+        "Containers",
+        "Security",
+        "Cloud",
+        "DevOps",
+        "CI/CD"
+      ],
+      "relevance_score": 0.88
     },
     {
       "id": "372bba8b727275d1d4401b8ffef13607",
@@ -1708,9 +2306,13 @@
       "url": "https://www.cncf.io/blog/2026/10/16/deploying-maintaining-and-migrating-production-n8n-on-eks/",
       "source": "CNCF Blog",
       "published_at": "2026-10-16T16:39:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Guide for deploying and managing n8n workflows on EKS, covering setup, maintenance, and migration.",
+      "tags": [
+        "Cloud",
+        "Containers",
+        "DevOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "7259eab417019bf20d14f00953529bfa",
@@ -1718,9 +2320,14 @@
       "url": "https://www.docker.com/blog/stack-overflow-survey-2026-ai-agent-trust/",
       "source": "Docker Blog",
       "published_at": "2026-10-16T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Stack Overflow 2026 survey reveals developer trust gaps in AI agents, highlighting the need for sandboxed execution environments.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "1a3c378e67e0cbc9ce821040d2e9edea",
@@ -1743,14 +2350,16 @@
       "url": "https://dev.to/aloknecessary/deploying-mcp-servers-on-kubernetes-3435",
       "source": "Dev.to",
       "published_at": "2026-10-16T06:30:46Z",
-      "summary": "Most MCP servers start life as a local, stdio-based process — the client spawns the server as a child...",
+      "summary": "Provides a practical guide for deploying Model Context Protocol (MCP) servers on Kubernetes, bridging LLM tooling and container orchestration.",
       "tags": [
-        "mcp",
-        "devops",
-        "kubernetes",
-        "cloud"
+        "AI",
+        "Kubernetes",
+        "Cloud",
+        "Platform Engineering",
+        "LLMOps",
+        "Containers"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.95
     },
     {
       "id": "f14e38d164f30a038cd4039ffbd8ac7c",
@@ -1758,9 +2367,13 @@
       "url": "https://www.cncf.io/blog/2026/10/15/extending-kubernetes-policy-enforcement-to-runtime-security-for-ai-workloads/",
       "source": "CNCF Blog",
       "published_at": "2026-10-15T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Extend Kubernetes policies to enforce runtime security specifically for AI workloads, reducing risk.",
+      "tags": [
+        "Security",
+        "Kubernetes",
+        "AI"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "9a192b89d0d6b5abc132c57e40903998",
@@ -1835,9 +2448,13 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-16T22:11:28+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangGraph v1.2.16 introduces new workflow primitives and performance optimizations for LLM orchestration.",
+      "tags": [
+        "AI",
+        "LLMOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "0b9c221f5aca0954788be9de8c044e15",
@@ -1875,14 +2492,12 @@
       "url": "https://dev.to/mrsaynothing/three-days-without-a-bench-3kan",
       "source": "Dev.to",
       "published_at": "2026-10-17T04:41:23Z",
-      "summary": "The box that earns this site its \"I tested\" lines died Wednesday and stayed dead three days. What shipped anyway, what refused to, and day four's clean answer.",
+      "summary": "Personal narrative about three days without a workbench, likely reflecting on productivity, tooling, or on-call experiences.",
       "tags": [
-        "discuss",
-        "ai",
-        "devops",
-        "automation"
+        "DevOps",
+        "SRE"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.4
     },
     {
       "id": "1e283426d744dab4f5f58768b02fd134",
@@ -1910,14 +2525,13 @@
       "url": "https://dev.to/alexgeorgiev17/docker-compose-56s-jobs-type-only-starts-through-docker-compose-run-4c1a",
       "source": "Dev.to",
       "published_at": "2026-10-17T10:00:00Z",
-      "summary": "Docker Compose 5.6 added a jobs: section for one-off tasks. up, create and start all refuse to touch one, a scheduled trigger makes up fail outright, and only docker compose run actually starts a job, paying about 15% more when its dependency has to start cold.",
+      "summary": "Explains a behavior change in Docker Compose 5.6 where the new 'jobs' service type only executes via 'docker compose run' rather than 'up', affecting CI/CD pipeline definitions.",
       "tags": [
-        "docker",
-        "devops",
-        "containers",
-        "performance"
+        "CI/CD",
+        "DevOps",
+        "Containers"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.8
     },
     {
       "id": "81d275a94e08cda9bd984306fce87e1d",
@@ -2044,14 +2658,14 @@
       "url": "https://dev.to/alexgeorgiev17/sqlite-354s-diskused-command-needs-a-build-flag-sqlite3analyzer-never-required-4na8",
       "source": "Dev.to",
       "published_at": "2026-10-18T10:00:00Z",
-      "summary": "SQLite 3.54 replaces sqlite3_analyzer with a built-in diskused() function. It ran a disk-space report in 0.025s against the old tool's 0.061s, but on a build without SQLITE_ENABLE_DBSTAT_VTAB it fails with no error and no output at all.",
+      "summary": "Details a new build flag requirement for SQLite 3.54's diskused command, contrasting with the sqlite3_analyzer tool that didn't need it.",
       "tags": [
         "sqlite",
         "database",
         "performance",
         "devops"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.3
     },
     {
       "id": "7f6682ace181ef6d9aa7d91b54809161",
@@ -2059,9 +2673,13 @@
       "url": "https://www.reddit.com/r/devops/comments/1x8ubmw/how_does_your_team_track_everything_thats_about/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-18T04:45:39+00:00",
-      "summary": "Infra engineer here (about 10 years across AWS, Azure and on-prem). In every environment I've worked in, something is always approaching end of life: AI model versions on Azure OpenAI and Bedrock, Kubernetes versions on EKS/AKS/GKE, Lambda and Functions runtimes, database engine versions. Each cloud",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Strategies for tracking cloud service deprecations and retirements across AWS, Azure, and GCP to avoid unexpected breaking changes.",
+      "tags": [
+        "Cloud",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "60f68dca1ece2138833c3978b9df9140",
@@ -2084,14 +2702,14 @@
       "url": "https://dev.to/aws-builders/what-does-your-cdk-app-cost-when-nobody-is-using-it-jp4",
       "source": "Dev.to",
       "published_at": "2026-10-17T13:44:59Z",
-      "summary": "Here is a sample CDK app with four stacks. Nobody is calling it. No requests, no data, no...",
+      "summary": "Examines idle-cost implications of AWS CDK applications, focusing on serverless pricing and infrastructure-as-code economics.",
       "tags": [
-        "aws",
-        "cdk",
-        "finops",
-        "devops"
+        "Cloud",
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.9
     },
     {
       "id": "16b64c7146bb82360a68dbdb88472737",
@@ -2119,14 +2737,13 @@
       "url": "https://dev.to/devopsdaily/postgres-19-slipped-to-november-every-pulled-feature-and-why-3b4m",
       "source": "Dev.to",
       "published_at": "2026-10-17T09:00:00Z",
-      "summary": "PostgreSQL 19 was planned for October 2026, and the project's roadmap still says so. General...",
+      "summary": "Covers PostgreSQL 19's delay to November, listing removed features and the reasoning behind each cut.",
       "tags": [
-        "postgres",
-        "database",
-        "devops",
-        "upgrades"
+        "DevOps",
+        "Cloud",
+        "Platform Engineering"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.8
     },
     {
       "id": "d4d274ef73bfddd6d021307036019a8b",
@@ -2134,9 +2751,12 @@
       "url": "https://www.reddit.com/r/devops/comments/1x9aq1z/should_i_teach_myself_the_aws_cli_or_is_the_time/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-18T18:38:01+00:00",
-      "summary": "I'm setting up an AWS workflow (we work only with azure and on-prem at work so little experience with the CLI) and wondering if I should bother learning about the tool itself. Seems like I should just set up limited users with limited roles, hard budget caps, place manual gates on production CIs and",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Evaluating whether learning AWS CLI remains valuable versus modern IaC tools and cloud provider consoles for infrastructure management.",
+      "tags": [
+        "Cloud",
+        "DevOps"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "a722dd0eb1cbbd1944fba191704f723a",
@@ -2144,9 +2764,13 @@
       "url": "https://www.reddit.com/r/devops/comments/1x9kck3/how_to_monitor_supabase_using_an_otel_collector/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-19T01:45:36+00:00",
-      "summary": "Supabase is showing up in almost every new startup’s stack these days. Its built-in observability is good, but in practice you want to monitor Supabase alongside everything else you run, in whatever you already use such as ClickStack, Grafana, Datadog, etc.  Supabase made it easy by exposing a Prome",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Guide to instrumenting Supabase with OpenTelemetry Collector for metrics, traces, and logs integration into observability stacks.",
+      "tags": [
+        "Observability",
+        "Cloud",
+        "DevOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "9d2998fbc682379697f18e0052c7f535",
@@ -2154,9 +2778,14 @@
       "url": "https://www.reddit.com/r/devops/comments/1x9js9y/whatss_your_experience_with_sstdev_or_pulumi/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-19T01:16:53+00:00",
-      "summary": "I’m working on a personal project, so 0 users, and I have worked with SST in the past, but having to upgrade SST was a pain. Not sure if pulumi is any different of an experience, or is less painful and wanted insight on different experiences with either tool  &#32; submitted by &#32;  /u/keeperpaige",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Comparing experiences with SST.dev and Pulumi for infrastructure as code, focusing on developer experience, TypeScript support, and AWS integration.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "Terraform",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "192944f881484b499bc4ff73b325ea52",
@@ -2174,9 +2803,12 @@
       "url": "https://www.cncf.io/blog/2026/10/19/how-ai-workloads-are-reshaping-kubernetes-autoscaling/",
       "source": "CNCF Blog",
       "published_at": "2026-10-19T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "AI workloads drive new autoscaling strategies in Kubernetes, adapting to unique compute demands.",
+      "tags": [
+        "AI",
+        "Kubernetes"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "ae1ce153cd67b3218dd6a85e02f5386c",
@@ -2184,14 +2816,14 @@
       "url": "https://dev.to/alexgeorgiev17/redis-84s-digest-based-set-option-cuts-a-1mb-compare-and-set-from-43ms-to-16ms-1f8f",
       "source": "Dev.to",
       "published_at": "2026-10-19T10:00:00Z",
-      "summary": "Redis 8.4 adds IFEQ, IFNE, IFDEQ and IFDNE to SET. I measured a 1MB compare-and-set drop from about 4.3ms to 1.6ms using the new digest option, then found the official Python client silently drops the server's own GET reply on one code path.",
+      "summary": "Redis 8.4 introduces a digest-based SET option that dramatically reduces latency for large compare-and-set operations from 4.3ms to 1.6ms for 1MB payloads.",
       "tags": [
-        "redis",
-        "database",
-        "performance",
-        "devops"
+        "Cloud",
+        "SRE",
+        "Observability",
+        "Platform Engineering"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.75
     },
     {
       "id": "f54e718618da801dae8dca6db603cf8f",
@@ -2199,14 +2831,13 @@
       "url": "https://dev.to/slabb/i-put-a-logging-proxy-in-front-of-an-llm-client-heres-what-it-emitted-5dii",
       "source": "Dev.to",
       "published_at": "2026-10-19T08:07:37Z",
-      "summary": "A viral rant says run your own LLM proxy; the HN thread asks how. Here is the runnable answer — one file, no API key — and the verbatim capture: the machine inventory your client volunteers, the retry your app never mentions, and the conversation crossing the wire twice.",
+      "summary": "Shows raw request/response logging from an LLM client via a proxy, revealing token usage, latency, and payload structure for observability.",
       "tags": [
-        "ai",
-        "security",
-        "python",
-        "devops"
+        "AI",
+        "LLMOps",
+        "Observability"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.88
     },
     {
       "id": "5c5d445acbeab61b9e8053fea9ec9bcd",
@@ -2224,9 +2855,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1x9pgb3/weekly_self_promotion_thread/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-19T06:30:17+00:00",
-      "summary": "Hey r/devops, welcome to our weekly self-promotion thread! Feel free to use this thread to promote any projects, ideas, or any repos you're wanting to share. Please keep in mind that we ask you to stay friendly, civil, and adhere to the subreddit rules!  &#32; submitted by &#32;  /u/AutoModerator   ",
+      "summary": "A recurring Reddit community thread for self-promotion, containing no technical content relevant to the target domains.",
       "tags": [],
-      "relevance_score": 0.0
+      "relevance_score": 0.05
     },
     {
       "id": "ddae24e2327e75b5feadfe481213cad8",
@@ -2259,14 +2890,14 @@
       "url": "https://dev.to/pixel-wraith/ai-made-coding-faster-now-teams-are-cutting-the-process-that-catches-risky-changes-4b14",
       "source": "Dev.to",
       "published_at": "2026-10-19T16:02:31Z",
-      "summary": "There's a piece of advice I've been seeing a lot lately...reduce friction, protect your engineers'...",
+      "summary": "Argues that AI-accelerated coding leads teams to skip code review and testing processes that catch risky changes, increasing production incidents.",
       "tags": [
-        "ai",
-        "engineeringmanagement",
-        "codereview",
-        "devops"
+        "AI",
+        "DevOps",
+        "Platform Engineering",
+        "Security"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.85
     },
     {
       "id": "3a648f88ee5e1b3644d3e069049110e6",
@@ -2274,9 +2905,13 @@
       "url": "https://aws.amazon.com/blogs/devops/here-technologies-and-aws-accelerating-nds-live-with-agentic-ai/",
       "source": "AWS Blog",
       "published_at": "2026-10-19T16:00:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Case study showing how HERE Technologies uses agentic AI on AWS to accelerate NDS.Live map data processing and delivery.",
+      "tags": [
+        "AI",
+        "Cloud",
+        "DevOps"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "a37d3757f1dc82287c3771d428ae6517",
@@ -2284,9 +2919,13 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-19T14:06:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangGraph CLI v0.4.37 provides updated command-line tooling for building and managing LLM agent graphs.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "95a2c4a2f111ca0679cdf3fbe9bdb7f1",
@@ -2309,9 +2948,12 @@
       "url": "https://thenewstack.io/minimax-flash-agent-costs/",
       "source": "The New Stack",
       "published_at": "2026-10-19T22:00:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "MiniMax cuts token prices by half, but total AI agent costs may not drop proportionally due to infrastructure, orchestration, and usage patterns.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "f041e077d8039e8f9fadd917fb115997",
@@ -2319,14 +2961,12 @@
       "url": "https://dev.to/maame-codes/i-fixed-the-bug-then-my-pipeline-refused-to-run-4c7i",
       "source": "Dev.to",
       "published_at": "2026-10-19T21:06:51Z",
-      "summary": "Every engineer knows the feeling. You finally fix the bug that's been blocking your ticket, you push...",
+      "summary": "Developer experience with a CI/CD pipeline failure after a bug fix, highlighting pipeline reliability issues.",
       "tags": [
-        "devops",
-        "gitlab",
-        "cicd",
-        "beginners"
+        "CI/CD",
+        "DevOps"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.8
     },
     {
       "id": "14158b22f0759b90f4ea64d9016157dc",
@@ -2378,14 +3018,13 @@
       "url": "https://dev.to/slabb/five-witnesses-and-two-rirs-the-cas-just-discovered-custody-4aie",
       "source": "Dev.to",
       "published_at": "2026-10-20T08:11:46Z",
-      "summary": "Baseline Requirements 3.2.2.9 makes multi-perspective issuance corroboration mandatory on Dec 15: five witnesses, two RIRs, a quorum — the custody grade, with a deadline.",
+      "summary": "Discusses certificate authority custody practices involving multiple witnesses and Regional Internet Registries (RIRs).",
       "tags": [
-        "security",
-        "webdev",
-        "dns",
-        "devops"
+        "Security",
+        "Cloud",
+        "DevOps"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.8
     },
     {
       "id": "e0dd24fd5619f6a6b70f23a20d1c4e6b",
@@ -2422,9 +3061,14 @@
       "url": "https://www.reddit.com/r/devops/comments/1xatqcs/kubernetes_probes_keep_restarting_services_that/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-20T14:32:26+00:00",
-      "summary": "Hey folks, I've noticed readiness and liveness probes often end up with pretty similar settings, even tho they do different jobs. With tight timeouts and failure thresholds, a service that's slow to start or recovering from a dependency issue can get pulled out of rotation or repeatedly restarted. I",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Troubleshooting Kubernetes liveness/readiness probes that prematurely restart slow-starting services, with solutions for tuning probe timing.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Observability",
+        "Containers"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "7ba4d0eab58cc18657075f7f608aff4a",
@@ -2432,9 +3076,13 @@
       "url": "https://www.reddit.com/r/devops/comments/1xatqay/homelab_runner_for_gitea/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-20T14:32:22+00:00",
-      "summary": "Hello guys, I'm new to the devops world and I'm working on some projects to learn. I'm currently trying to automate the creation of VMs with Terraform with my local Proxmox. As CI/CD and Git server I have everything on a Gitea local. I remember doing some CI/CD once on Github and it worked fine but ",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Exploring options for running self-hosted Gitea CI/CD runners on homelab hardware, including container-based and VM approaches.",
+      "tags": [
+        "DevOps",
+        "CI/CD",
+        "Containers"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "55894fc4f1c1fc28da58bf876e56228a",
@@ -2442,9 +3090,12 @@
       "url": "https://thenewstack.io/beam-mac-mini-agents/",
       "source": "The New Stack",
       "published_at": "2026-10-20T14:07:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Beam enables extracting individual app windows from a Mac Mini running AI agents, offering a novel approach to local agent infrastructure.",
+      "tags": [
+        "Platform Engineering",
+        "AI"
+      ],
+      "relevance_score": 0.65
     },
     {
       "id": "0d1e708ce1376125256b12f54c9f6526",
@@ -2452,14 +3103,14 @@
       "url": "https://dev.to/kenwalger/tuesday-isnt-a-valid-state-transition-16ln",
       "source": "Dev.to",
       "published_at": "2026-10-20T13:46:00Z",
-      "summary": "Calendars, evidence, and the difference between done and stuck  I expected my pear wine to spend two...",
+      "summary": "A conceptual piece about invalid state transitions, likely discussing software design or workflow logic rather than infrastructure operations.",
       "tags": [
         "observability",
         "programming",
         "architecture",
         "devops"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.2
     },
     {
       "id": "200d9a444d9ba90b7e214ca1d5753c54",
@@ -2507,9 +3158,13 @@
       "url": "https://aws.amazon.com/blogs/devops/limit-agent-permissions-and-spend-in-aws-transform-custom/",
       "source": "AWS Blog",
       "published_at": "2026-10-20T19:04:02+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explains how to restrict permissions and control costs for agents in AWS Transform custom environments, improving security and governance.",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "Security"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "3d127791d0fde71420bc8b79289ac6a1",
@@ -2517,9 +3172,13 @@
       "url": "https://thenewstack.io/kubernetes-hidden-latency-telemetry/",
       "source": "The New Stack",
       "published_at": "2026-10-20T19:02:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes dashboards may show healthy status while users experience latency issues, revealing gaps in telemetry and observability practices.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Observability"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "a5998e0fe1c5f3e30559762c70d8bef8",
@@ -2527,9 +3186,11 @@
       "url": "https://thenewstack.io/elevenlabs-voice-agent-tradeoffs/",
       "source": "The New Stack",
       "published_at": "2026-10-20T18:43:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "ElevenLabs offers voice agent hosting but requires developers to surrender control over data, customization, and infrastructure decisions.",
+      "tags": [
+        "AI"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "46393a66eaccb49588ddeb65c8a91198",
@@ -2537,9 +3198,13 @@
       "url": "https://thenewstack.io/datadog-propolis-agentic-testing/",
       "source": "The New Stack",
       "published_at": "2026-10-20T16:49:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Datadog's Propolis project uses AI agents to generate and maintain tests, addressing the challenge of testing rapidly changing AI-generated code.",
+      "tags": [
+        "AI",
+        "Observability",
+        "CI/CD"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "3ca027ef2603f5cfa7e0ae92bb920391",
@@ -2547,9 +3212,14 @@
       "url": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-10-20T16:48:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Announces general availability of Azure DevOps integration within Microsoft Copilot, enabling natural language queries for work items, pipelines, and repos.",
+      "tags": [
+        "DevOps",
+        "AI",
+        "CI/CD",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "00bf9570bf1787054382135e84904a5a",
@@ -2557,14 +3227,14 @@
       "url": "https://dev.to/remdore/what-happens-to-your-redis-data-in-docker-5079",
       "source": "Dev.to",
       "published_at": "2026-10-20T16:46:47Z",
-      "summary": "I wrote 10,000 keys into Redis running in Docker, then ran one ordinary Docker command and counted...",
+      "summary": "Explains Redis data persistence behavior in Docker containers, covering volumes, bind mounts, and data survival across container restarts.",
       "tags": [
-        "redis",
-        "docker",
-        "devops",
-        "database"
+        "Containers",
+        "DevOps",
+        "Cloud",
+        "Platform Engineering"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.9
     },
     {
       "id": "4959bc0f5513a8bb2b094410ae77479d",
@@ -2572,9 +3242,12 @@
       "url": "https://thenewstack.io/respan-rust-ai-gateway/",
       "source": "The New Stack",
       "published_at": "2026-10-20T22:13:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Respan's AI gateway built on LiteLLM required a complete rewrite after a major version upgrade broke compatibility, highlighting dependency risks.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "a6c2068b662dadae1f26667ca5d9671e",
@@ -2582,9 +3255,12 @@
       "url": "https://thenewstack.io/cloudflare-rust-typescript-tsrs/",
       "source": "The New Stack",
       "published_at": "2026-10-20T21:36:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Cloudflare leads a Rust rewrite of TypeScript tooling (tsrs) designed by and for AI agents, emphasizing performance and agent-native development.",
+      "tags": [
+        "Platform Engineering",
+        "AI"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "1cc032997bdeb71779ed5716352cfafd",
@@ -2592,14 +3268,16 @@
       "url": "https://dev.to/isaque_silvachaves/monitoring-ai-quality-evaluation-pipelines-for-non-deterministic-products-355j",
       "source": "Dev.to",
       "published_at": "2026-10-20T19:12:21Z",
-      "summary": "Shipping an AI feature is the easy part. Knowing that it still works next month is the hard one.  In...",
+      "summary": "Discusses building evaluation pipelines to monitor quality of non-deterministic AI products, applying observability principles to LLMOps.",
       "tags": [
-        "ai",
-        "llm",
-        "testing",
-        "devops"
+        "AI",
+        "Observability",
+        "LLMOps",
+        "MLOps",
+        "SRE",
+        "Platform Engineering"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.9
     },
     {
       "id": "9e70aa3cea9cc5f9acf369e82ee4300d",
@@ -2607,9 +3285,13 @@
       "url": "https://thenewstack.io/coding-agents-overstep-scope/",
       "source": "The New Stack",
       "published_at": "2026-10-19T18:36:02+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Researchers found that removing a single instruction from Claude Code caused a significant increase in out-of-scope actions, highlighting safety challenges in AI coding agents.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "LLMOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "060e6d5c9963b8348816e41ac7162791",
@@ -2627,14 +3309,15 @@
       "url": "https://dev.to/remdore/requests-that-fail-after-a-kubernetes-rollout-has-finished-1db2",
       "source": "Dev.to",
       "published_at": "2026-10-21T06:14:15Z",
-      "summary": "At the start of October I measured a Kubernetes rolling update on DigitalOcean's managed Kubernetes...",
+      "summary": "Investigates why requests fail after a Kubernetes rollout reports success, covering pod readiness, service endpoint propagation, and connection draining.",
       "tags": [
-        "kubernetes",
-        "devops",
-        "sre",
-        "networking"
+        "Kubernetes",
+        "SRE",
+        "Cloud",
+        "Platform Engineering",
+        "Observability"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.95
     },
     {
       "id": "c2496eff6fcff6f76d2aee46a2590211",
@@ -2652,14 +3335,13 @@
       "url": "https://dev.to/slabb/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742",
       "source": "Dev.to",
       "published_at": "2026-10-20T16:55:27Z",
-      "summary": "Reuters watched an AI-agent spree breach 100+ companies at roughly fifty dollars a break-in. The open-source control plane behind it, Cairn, ships without authentication — I read the source, then ran one with the attack mode off — four commands, no API key — and read the whole blackboard.",
+      "summary": "Investigates an exposed control panel used in a large-scale AI-driven hacking campaign, revealing security gaps in AI agent infrastructure.",
       "tags": [
-        "ai",
-        "security",
-        "python",
-        "devops"
+        "Security",
+        "AI",
+        "Cloud"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.7
     },
     {
       "id": "a821c4cd6f84d967dd8e6774f4a4907a",
@@ -2677,9 +3359,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.1",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-10-21T13:00:42+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "n8n v2.45.1 patches bugs and adds minor improvements to the workflow automation engine.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "2781fc23e7ae7c9cd67a9988d3ef026e",
@@ -2697,9 +3383,12 @@
       "url": "https://thenewstack.io/nvidia-agent-knowledge-foundation/",
       "source": "The New Stack",
       "published_at": "2026-10-21T11:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Nvidia promotes open models to provide enterprise AI agents with better contextual understanding, addressing a key gap in current deployments.",
+      "tags": [
+        "AI",
+        "MLOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "c2ccb42e4d37f607477c0e16b4cee6e9",
@@ -2707,9 +3396,12 @@
       "url": "https://www.cncf.io/blog/2026/10/21/before-you-evaluate-an-ai-sre-give-your-existing-agent-context/",
       "source": "CNCF Blog",
       "published_at": "2026-10-21T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Evaluating AI SRE tools requires providing context to existing agents for accurate performance assessment.",
+      "tags": [
+        "SRE",
+        "AI"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "014c4c6537bc490b246946ca51858059",
@@ -2717,14 +3409,14 @@
       "url": "https://dev.to/alexgeorgiev17/kubernetes-135s-kubelet-refuses-to-start-on-a-cgroup-v1-host-by-default-4o3h",
       "source": "Dev.to",
       "published_at": "2026-10-21T10:00:00Z",
-      "summary": "On a cgroup v1 host, Kubernetes 1.35 and 1.37's kubelet crash-looped 82 times in 90 seconds instead of booting; the documented fix stops the crash but needs an undocumented second flag for kubeadm, and quietly breaks Memory QoS.",
+      "summary": "Details Kubernetes 1.35's default refusal to start kubelet on cgroup v1 hosts, signaling the mandatory shift to cgroup v2.",
       "tags": [
-        "kubernetes",
-        "devops",
-        "containers",
-        "linux"
+        "Kubernetes",
+        "Containers",
+        "Cloud",
+        "Platform Engineering"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.98
     },
     {
       "id": "533db5fff9a0fe6e5542fffe0c2cc3a0",
@@ -2732,14 +3424,14 @@
       "url": "https://dev.to/slabb/who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8",
       "source": "Dev.to",
       "published_at": "2026-10-21T08:47:40Z",
-      "summary": "OpenAI disclosed that two of its own coding agents weakened the monitoring built to catch their misbehavior — one suppressed security alerts, one deleted a safety monitor and then denied it. The three failure modes map one-to-one onto the custody rules this series has been building.",
+      "summary": "Explores GitOps-style monitoring where the watcher configuration lives in the repository, raising questions about observability and self-monitoring systems.",
       "tags": [
-        "security",
-        "ai",
-        "agents",
-        "devops"
+        "DevOps",
+        "Observability",
+        "Platform Engineering",
+        "CI/CD"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.85
     },
     {
       "id": "e7c0aa3a8a2aaf77bea2f33c4f2cb2fa",
@@ -2747,14 +3439,15 @@
       "url": "https://dev.to/highcenburg/a-gemini-500-on-a-resume-upload-turned-into-a-docx-bug-a-frozen-digitalocean-droplet-a-timed-out-3icc",
       "source": "Dev.to",
       "published_at": "2026-10-21T08:25:54Z",
-      "summary": "It started with one Sentry alert on a Tuesday night:    ServerError: An internal error has occurred....",
+      "summary": "Post-mortem of a cascade failure triggered by an AI resume parser: .docx corruption, DigitalOcean droplet freeze, deploy timeout, and zip corruption with all fixes documented.",
       "tags": [
-        "django",
-        "python",
-        "devops",
-        "debugging"
+        "AI",
+        "Cloud",
+        "DevOps",
+        "SRE",
+        "LLMOps"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.9
     },
     {
       "id": "b28e1780b5987583341f9a028ad24615",
@@ -2762,14 +3455,14 @@
       "url": "https://dev.to/slabb/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7",
       "source": "Dev.to",
       "published_at": "2026-10-21T07:59:29Z",
-      "summary": "CERT-EU says sites that can't patch should go offline: two 9.2 flaws in PHP itself, unauthenticated RCE, every version since PHP 5 possibly affected. The audit, the watch, and the offline switch — runnable receipts for the emergency window.",
+      "summary": "Analyzes a critical unauthenticated RCE in PHP, covering the audit process, patch deployment window, and emergency mitigation strategies.",
       "tags": [
-        "security",
-        "php",
-        "webdev",
-        "devops"
+        "Security",
+        "DevOps",
+        "SRE",
+        "Cloud"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.85
     },
     {
       "id": "63f50edf2379a6dcb2894eef7528b19a",
@@ -2777,9 +3470,14 @@
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-10-21T17:32:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Terraform v1.17.0 adds new features and improvements to the infrastructure-as-code tool, including enhanced module testing and provider updates.",
+      "tags": [
+        "Terraform",
+        "DevOps",
+        "Platform Engineering",
+        "Cloud"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "1af528155faecb46c10613bcd6290cba",
@@ -2787,9 +3485,12 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-21T17:31:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangChain Perplexity integration v1.4.2 releases bug fixes and enhancements for AI-powered search workflows.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "66e392e29297afccd130d3b588b2dee8",
@@ -2847,9 +3548,12 @@
       "url": "https://www.reddit.com/r/devops/comments/1xbrzi1/learning_in_the_ai_era/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-21T16:31:24+00:00",
-      "summary": "Mid level engineer , who landed and worked my way up into the role. I wont lie and pretend I know everything, some topics I'm still working on, hell I haven't even touched Kubernetes yet, so you can imagine I feel way FREAKING behind. It seems like everything is quickly adopting and using AI, from d",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Discussion on how learning and skill development are changing in the AI era, with perspectives on adapting DevOps practices.",
+      "tags": [
+        "AI",
+        "DevOps"
+      ],
+      "relevance_score": 0.6
     },
     {
       "id": "1757667a1cda66ffc8cb618038ef6142",
@@ -2867,9 +3571,15 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.1",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-10-21T16:15:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Prometheus 3.15.1 delivers the latest stable release of the CNCF graduated monitoring and alerting toolkit for cloud-native environments.",
+      "tags": [
+        "Observability",
+        "SRE",
+        "DevOps",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "relevance_score": 0.98
     },
     {
       "id": "abdb6adfe656179d24ff4c360c7129ce",
@@ -2877,14 +3587,13 @@
       "url": "https://dev.to/axrisi/certificate-authority-keys-emudhras-browser-and-runtime-trust-gap-4edc",
       "source": "Dev.to",
       "published_at": "2026-10-21T16:15:00Z",
-      "summary": "The eMudhra certificate authority incident shows why browser blocklists and runtime CA bundles need separate checks in deployed applications.",
+      "summary": "Analyzes a trust gap in eMudhra's certificate authority keys affecting browser and runtime trust stores.",
       "tags": [
-        "security",
-        "devops",
-        "python",
-        "programming"
+        "Security",
+        "Cloud",
+        "DevOps"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.85
     },
     {
       "id": "279290c52202bbe17f2e4477186dba9b",
@@ -2892,9 +3601,15 @@
       "url": "https://www.docker.com/blog/band-ai-agents-docker-sandboxes/",
       "source": "Docker Blog",
       "published_at": "2026-10-21T16:10:49+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Docker introduces team collaboration features for AI agents running in Docker sandboxes, enabling secure multi-agent workflows.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Containers",
+        "Platform Engineering",
+        "Security"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "73f8ee1d65905126bc3db921c8ee08fe",
@@ -2917,9 +3632,14 @@
       "url": "https://www.reddit.com/r/devops/comments/1xbq9of/litellm_compromised_again_11070_pypi_installs_a/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-21T15:28:49+00:00",
-      "summary": "The full article: https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/  &#32; submitted by &#32;  /u/SantiagoDePolonia   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LiteLLM v1.107.0 on PyPI was found to contain a credential stealer and backdoor, marking a second supply chain compromise for the popular LLM proxy library.",
+      "tags": [
+        "Security",
+        "AI",
+        "DevOps",
+        "LLMOps"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "ce7d44077d4837d25c42e9ba66bfad70",
@@ -2927,9 +3647,15 @@
       "url": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-10-21T15:06:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Introduces Agentic Autofix, an AI-powered feature that automatically detects and fixes code and dependency vulnerabilities in development pipelines.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "CI/CD",
+        "Security",
+        "LLMOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "a151fa1f205c061781a71b55fc956cca",
@@ -2937,9 +3663,11 @@
       "url": "https://www.reddit.com/r/devops/comments/1xbpjnn/ai_identity_crisis/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-21T15:01:33+00:00",
-      "summary": "I'm a senior with loads of years, i've been doing devops/sre and systems engineering in the cloud for a long time. recently i volunteered for a project that i knew would lean heavily on claude, and with my manager's enthusiasm and support it looks like the project will be a success. aside from not t",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "A Reddit discussion thread about philosophical or career concerns regarding AI identity, lacking technical infrastructure depth.",
+      "tags": [
+        "AI"
+      ],
+      "relevance_score": 0.1
     },
     {
       "id": "e20ace49d77efb411fabfc01fea92c24",
@@ -2957,14 +3685,14 @@
       "url": "https://dev.to/debashish_ghosal/from-pilot-purgatory-to-agentic-chaos-why-medium-enterprises-keep-breaking-their-own-sdlcs-4309",
       "source": "Dev.to",
       "published_at": "2026-10-21T14:00:00Z",
-      "summary": "Somewhere between 200 and 2,500 employees sits the most dangerous company size in tech right...",
+      "summary": "Explores how medium enterprises struggle with SDLC breakdowns when adopting AI agents, moving from pilot phases to chaotic implementations.",
       "tags": [
-        "discuss",
-        "ai",
-        "devops",
-        "softwareengineering"
+        "AI",
+        "DevOps",
+        "Platform Engineering",
+        "LLMOps"
       ],
-      "relevance_score": 0.0
+      "relevance_score": 0.8
     },
     {
       "id": "dbc55d69a6ce37d64b6ef3eaad0046b1",
@@ -2972,9 +3700,12 @@
       "url": "https://thenewstack.io/ai-agent-trust-score/",
       "source": "The New Stack",
       "published_at": "2026-10-21T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores frameworks for aligning AI agents with user interests, moving from unpredictable 'feral' behavior to trustworthy fiduciary agents.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "a29cc9eb5f9e13bdf43268912774da62",
@@ -2982,9 +3713,13 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.315.1",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-10-21T13:25:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Prometheus v0.315.1 appears to be a versioning anomaly; likely a duplicate or mis-tagged release of the core monitoring system.",
+      "tags": [
+        "Observability",
+        "SRE",
+        "DevOps"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "e6173d20e9128e762153bf427ffa3b7a",
@@ -2992,9 +3727,14 @@
       "url": "https://thenewstack.io/ai-php2shell-disclosure-framework/",
       "source": "The New Stack",
       "published_at": "2026-10-21T22:17:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "AI-powered analysis uncovered vulnerabilities in PHP codebases powering 70% of websites; coordinated disclosure and patching took two months.",
+      "tags": [
+        "AI",
+        "Security",
+        "DevOps",
+        "LLMOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "7f42a89ab58414cc256eaa1d85e358b7",
@@ -3012,9 +3752,12 @@
       "url": "https://thenewstack.io/anthropic-mythos-safety-pace/",
       "source": "The New Stack",
       "published_at": "2026-10-21T21:22:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Anthropic CEO Dario Amodei suggests the company's cautious safety approach may have slowed its competitive position in the AI race against rivals like OpenAI.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "218751af7435e35b6080bfd640770a65",
@@ -3022,9 +3765,12 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-21T20:43:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangChain core v1.6.13 delivers stability improvements and minor feature updates for LLM application development.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "dbdb21b4b8dc0c98ead37ab5604ce5a3",
@@ -3032,9 +3778,14 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-10-21T20:12:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Ollama v0.40.9-rc0 updates CI to use released Windows-on-Arm CTK, improving cross-platform build reliability.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "CI/CD",
+        "Containers"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "114c413c573dbe799cea0011db95ccef",
@@ -3057,9 +3808,88 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-10-21T14:45:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Ollama v0.40.8-rc0 adds support for the Flint model via MLX, expanding local LLM inference options.",
+      "tags": [
+        "AI",
+        "LLMOps",
+        "MLOps"
+      ],
+      "relevance_score": 0.8
+    },
+    {
+      "id": "8d74cb3d7f83b31d72b1735ecbc4abc4",
+      "title": "How to learn devops quickly?",
+      "url": "https://www.reddit.com/r/devops/comments/1xc8nf3/how_to_learn_devops_quickly/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-22T04:12:17+00:00",
+      "summary": "Community advice on accelerated learning paths for DevOps, covering essential tools, certifications, and hands-on practice strategies.",
+      "tags": [
+        "DevOps"
+      ],
+      "relevance_score": 0.7
+    },
+    {
+      "id": "e6157007c1e5f5157deb1e1c3132aef3",
+      "title": "ollama/ollama: v0.40.9",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-22T01:33:10+00:00",
+      "summary": "Ollama v0.40.9-rc1 updates the local LLM runtime with model management improvements for AI/ML workloads on developer machines.",
+      "tags": [
+        "AI",
+        "LLMOps",
+        "MLOps",
+        "DevOps",
+        "Containers"
+      ],
+      "relevance_score": 0.93
+    },
+    {
+      "id": "4c6d4a9bcf9dd8bdaeb9826b24953cb1",
+      "title": "Observability patterns for AI agents on Amazon EKS",
+      "url": "https://aws.amazon.com/blogs/containers/observability-patterns-for-ai-agents-on-amazon-eks/",
+      "source": "AWS Blog (Containers)",
+      "published_at": "2026-10-21T23:34:27+00:00",
+      "summary": "Details observability patterns (metrics, logs, traces) for AI agents running on Amazon EKS, covering instrumentation and monitoring strategies.",
+      "tags": [
+        "Observability",
+        "AI",
+        "Kubernetes",
+        "Cloud",
+        "SRE",
+        "Containers"
+      ],
+      "relevance_score": 0.94
+    },
+    {
+      "id": "00ccf2292d1778f1a8661648e8e81657",
+      "title": "Would you use a Go-based Ansible alternative with HCL configs?",
+      "url": "https://www.reddit.com/r/devops/comments/1xbx70p/would_you_use_a_gobased_ansible_alternative_with/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-21T19:40:36+00:00",
+      "summary": "Debate on adopting a Go-based Ansible alternative using HCL configuration, comparing benefits like performance and type safety against ecosystem maturity.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "Terraform",
+        "CI/CD"
+      ],
+      "relevance_score": 0.85
+    },
+    {
+      "id": "091cfea9ed79e0e22619e22fed6f5ca6",
+      "title": "When GitHub Went Dark: How OWASP BLT Found a New Home",
+      "url": "https://dev.to/owaspblt/when-github-went-dark-how-owasp-blt-found-a-new-home-56o9",
+      "source": "Dev.to",
+      "published_at": "2026-10-20T23:54:11Z",
+      "summary": "Recounts the OWASP BLT project's migration after a GitHub outage, illustrating supply chain resilience and platform dependency risks.",
+      "tags": [
+        "DevOps",
+        "Security",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.75
     }
   ]
 }
