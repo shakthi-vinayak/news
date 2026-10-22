@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:40:52Z",
+  "generated_at": "2026-10-22T17:06:00Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1286,120 +1286,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d950c6efe595a0b676912338e0a65f0d",
-      "title": "ollama/ollama: v0.40.5-rc2",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc2",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-15T16:11:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b814b58111bc686de9a715c75a21cb6e",
-      "title": "Nvidia squeezed a 74B agent model into 24GB so it can run on your laptop",
-      "url": "https://thenewstack.io/nvidia-nemotron-bolt-laptop/",
-      "source": "The New Stack",
-      "published_at": "2026-10-15T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cd98f16722b45e94d1e68c92e01c141a",
-      "title": "OpenAI Conference Room Bug, Anthropic's Scion vs. Meta's Mononoke, and Cloudflare's Yandex Bot Trace",
-      "url": "https://dev.to/axrisi/openai-conference-room-bug-anthropics-scion-vs-metas-mononoke-and-cloudflares-yandex-bot-trace-25h3",
-      "source": "Dev.to",
-      "published_at": "2026-10-15T15:15:00Z",
-      "summary": "Inside the $23.99 ESP32 audio recorder found in an OpenAI executive conference room, why Anthropic replaced Git with Scion at 30,000 merges a day, and Cloudflare's JA4 bo",
-      "tags": [
-        "ai",
-        "git",
-        "security",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "04b78c131662d95d9d0bb5b54057de8b",
-      "title": "Why are we still reviewing massive PRs in alphabetical file order?",
-      "url": "https://www.reddit.com/r/devops/comments/1x6nzsy/why_are_we_still_reviewing_massive_prs_in/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-15T15:01:01+00:00",
-      "summary": "I was looking into ways to improve how teams review pull requests now that engineers are using agents to generate large multi-file changes. But I noticed an issue with how fast mental models break down when reading a standard diff.  When an agent puts together a 20-file change, git diff lists those ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cda1a40572bd385c2aec5f5e1868e336",
-      "title": "Anthropic’s been eyeing confidential AI. It just made its move with another acquihire.",
-      "url": "https://thenewstack.io/anthropic-opaque-confidential-computing/",
-      "source": "The New Stack",
-      "published_at": "2026-10-15T14:43:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "95ee8ab0c8fbe01fd40951a226ab4c5e",
-      "title": "Anthropic built its own git replacement for AI-scale coding. But you can’t have it.",
-      "url": "https://thenewstack.io/anthropic-scion-git-replacement/",
-      "source": "The New Stack",
-      "published_at": "2026-10-15T14:12:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "87082740ea946a5f3737f1f784e942f1",
-      "title": "argoproj/argo-cd: gitops-engine/v3.6.0-rc3: chore: bump version to 3.6.0-rc3 on release-3.6 branch (#30219)",
-      "url": "https://github.com/argoproj/argo-cd/releases/tag/gitops-engine%2Fv3.6.0-rc3",
-      "source": "GitHub Releases (argoproj)",
-      "published_at": "2026-10-15T13:46:46+00:00",
-      "summary": "Argo CD releases version 3.6.0-rc3, enhancing GitOps workflows for continuous delivery.",
-      "tags": [
-        "DevOps",
-        "CI/CD",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.8
-    },
-    {
-      "id": "80ba8a784ff4dfcef36ee934c18c51f9",
-      "title": "964 hours of agent work in six days. Here's where my own hours went.",
-      "url": "https://dev.to/dsiacci/964-hours-of-agent-work-in-six-days-heres-where-my-own-hours-went-13oc",
-      "source": "Dev.to",
-      "published_at": "2026-10-15T13:09:45Z",
-      "summary": "On October 7 I dictated the plan to an agent: we would start an autonomous loop, I would close my...",
-      "tags": [
-        "ai",
-        "agents",
-        "devops",
-        "testing"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2cbe2ef72f0647cb420ce29f77136682",
-      "title": "How to manage access for 50 EKS cluster with AWS IAM?",
-      "url": "https://www.reddit.com/r/devops/comments/1x6kymt/how_to_manage_access_for_50_eks_cluster_with_aws/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-15T12:59:18+00:00",
-      "summary": "When you have 50 EKS clusters, how do you manage and configure which developers have access to specific clusters using RBAC and AWS IAM? Isn’t it too much to manually configure IAM with k8 mappings on every single cluster?  &#32; submitted by &#32;  /u/Zestyclose_Race_1646   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fa205cbba0e81b5994752236ce3ca262",
-      "title": "Agentic AI doesn’t have a model problem. It has a retrieval problem.",
-      "url": "https://thenewstack.io/agentic-ai-retrieval-problem/",
-      "source": "The New Stack",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ab9cf5b9583006ae943e079eb9f57243",
       "title": "ollama/ollama: v0.40.5",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5",
@@ -1428,19 +1314,6 @@
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
-    },
-    {
-      "id": "9718a6a3dec1bb74253c07168cf73420",
-      "title": "ollama/ollama: v0.40.5-rc1: New model... (#19030)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.5-rc1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-15T14:28:26+00:00",
-      "summary": "RC1 introduces new model support and enhancements in the Ollama local LLM tool.",
-      "tags": [
-        "AI",
-        "LLMOps"
-      ],
-      "relevance_score": 0.85
     },
     {
       "id": "d9a57b8f6f52519d278457b658479520",
@@ -3156,6 +3029,216 @@
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-10-14T10:37:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b62b0220afa2df8d2950248d08cb2941",
+      "title": "Career change? Need help",
+      "url": "https://www.reddit.com/r/devops/comments/1xco4n8/career_change_need_help/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-22T16:57:28+00:00",
+      "summary": "Hey guys I am currently an Intelligence Analyst in HMRC but want to change career as I have hit a dead end and there isn't much room to grow unfortunately. What would you guys advise as a good career to transition into? I have been heavily reading up on DevOps but seem to be seeing a 50/50 fight goi",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9d57a0456b9b413b3f26e26f94e87a3e",
+      "title": "Do you review agent PRs differently?",
+      "url": "https://www.reddit.com/r/devops/comments/1xcnnzl/do_you_review_agent_prs_differently/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-22T16:40:30+00:00",
+      "summary": "I was looking into how to structure our review queues better and found some stats I wasn’t expecting. Apparently only about 32% of AI-generated PRs get merged within thirty days, compared to around 84% for manually written ones. I read a breakdown on this, and the suggestion kinda makes sense, which",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b58c9aeb8f698bcdbcf6f82a08f7e8df",
+      "title": "Ramp built an AI agent harness in six weeks — and LangChain’s CEO says it’s part of a bigger shift",
+      "url": "https://thenewstack.io/ramp-laminar-agent-harness/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T16:31:15+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d0fd3565638631aa2961a600410444af",
+      "title": "OpenAI donates Open Responses, its spec for a common LLM API, to the Agentic AI Foundation",
+      "url": "https://thenewstack.io/openai-donates-open-responses/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T16:01:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e77efbe350248f1a0854daca086feb90",
+      "title": "Enterprise AI Governance in 2026",
+      "url": "https://dev.to/kenwalger/building-an-enterprise-ai-governance-stack-2985",
+      "source": "Dev.to",
+      "published_at": "2026-10-22T15:58:00Z",
+      "summary": "An enterprise AI governance stack is not a gateway feature. It is a sequence of decisions that has to...",
+      "tags": [
+        "ai",
+        "architecture",
+        "security",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8f8c2a6f6f7045456f3c4c29bf2b60fd",
+      "title": "OpenAI’s COBOL migration score has made a striking leap",
+      "url": "https://thenewstack.io/penai-cobol-migration-benchmark/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T15:34:58+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "649d775822f3752caada45223b3f925d",
+      "title": "Google and AWS open new paths for PyTorch beyond Nvidia",
+      "url": "https://thenewstack.io/pytorch-tpu-trainium-migration/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T15:23:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7dd50915fc461af57e1a930669c51fa4",
+      "title": "Who on-calls an AI? This is the unresolved crisis of agent ownership",
+      "url": "https://thenewstack.io/production-ai-agent-ownership/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e04893b05c1e5d761cf5c25182e11cf5",
+      "title": "Log Aggregation Pipeline Explained: Follow One Log Line and Run the Incident in Your Browser",
+      "url": "https://dev.to/devopsdaily/log-aggregation-pipeline-explained-follow-one-log-line-and-run-the-incident-in-your-browser-3h91",
+      "source": "Dev.to",
+      "published_at": "2026-10-22T14:50:09Z",
+      "summary": "Checkout says payments are timing out. You open the log search, filter on ERROR, type payment...",
+      "tags": [
+        "observability",
+        "devops",
+        "sre",
+        "logging"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "852fe2dda897111c6935faabe0966c00",
+      "title": "PHP’s security scramble is just a preview: AI is digging up flaws faster than maintainers can fix them",
+      "url": "https://thenewstack.io/php2shell-ai-vulnerabilities-maintainers/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T14:35:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "532f298fbdf7c7d5da982fbbf96613e7",
+      "title": "Your Retry Policy Is Making Production Outages Worse",
+      "url": "https://dev.to/johnnylemonny/your-retry-policy-is-making-production-outages-worse-31cb",
+      "source": "Dev.to",
+      "published_at": "2026-10-22T14:30:00Z",
+      "summary": "Default HTTP retries and un-jittered backoff turn brief network blips into self-inflicted DDoS attacks. Learn how to stop retry storms with full jitter and retry budgets.",
+      "tags": [
+        "discuss",
+        "backend",
+        "architecture",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f06aa9d77e1bf3301df0fc2535477e42",
+      "title": "DeepSeek V4.1-Flash-1017 vs. Claude Haiku 5.5: More accurate at a fraction of the price",
+      "url": "https://thenewstack.io/deepseek-flash-haiku-test/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T14:22:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bfd0322d2ee5db9dd5d88494e0ce6921",
+      "title": "AI agent security is a lifecycle — not a gatekeeper",
+      "url": "https://thenewstack.io/ai-agent-security-lifecycle/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4b44829644dddd8a189449f985a436d6",
+      "title": "Nothing Reported It",
+      "url": "https://dev.to/kenwalger/nothing-reported-it-9ke",
+      "source": "Dev.to",
+      "published_at": "2026-10-22T13:34:00Z",
+      "summary": "Five ways my own test harness lied to me, and the one that nearly got published   The number...",
+      "tags": [
+        "ai",
+        "testing",
+        "programming",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ddb86a0400c37d3d93ab7d249b38eb8b",
+      "title": "Google turns the infrastructure behind Gemini’s agents into a cloud service",
+      "url": "https://thenewstack.io/google-agent-compute-engine/",
+      "source": "The New Stack",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c6da15ed06abb2b08932964d162a20ac",
+      "title": "istio/istio: Istio 1.31.3",
+      "url": "https://github.com/istio/istio/releases/tag/1.31.3",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-10-22T12:46:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "72acd131407c6120b3932d464b4c8f29",
+      "title": "istio/istio: Istio 1.29.10",
+      "url": "https://github.com/istio/istio/releases/tag/1.29.10",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-10-22T12:45:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "73d29fce582249c060edf78573772f9d",
+      "title": "What does everyone use for GRC and compliance in 2026?",
+      "url": "https://www.reddit.com/r/devops/comments/1xchh4w/what_does_everyone_use_for_grc_and_compliance_in/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-22T12:40:46+00:00",
+      "summary": "We’re currently handling most of our compliance work through spreadsheets, shared docs and a few scripts, and it’s starting to show. SOC 2 is manageable, but ISO 27001 is coming next and I really don’t want to build the same controls twice. Small team, mostly AWS, GitHub, Google Workspace and Jira. ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "04539ae137945004289b4f3be908560a",
+      "title": "Docker and CNCF partner on an open spec for agent permissions",
+      "url": "https://www.docker.com/blog/docker-sandbox-kit-spec-cncf/",
+      "source": "Docker Blog",
+      "published_at": "2026-09-24T16:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
