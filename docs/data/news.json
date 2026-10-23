@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T13:21:47Z",
+  "generated_at": "2026-10-23T18:17:31Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1272,16 +1272,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "2148f2e5570cc889031a0adefaa62cb5",
-      "title": "langchain-ai/langgraph: langgraph-prebuilt==1.1.1",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-15T04:32:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6c9a098d89d04bda5eb598ae75e6332f",
       "title": "Carbon as a first-class signal: Bringing software carbon intensity to OpenTelemetry",
       "url": "https://www.cncf.io/blog/2026/10/15/carbon-as-a-first-class-signal-bringing-software-carbon-intensity-to-opentelemetry/",
@@ -1297,16 +1287,6 @@
       "url": "https://aws.amazon.com/blogs/containers/automating-secure-container-registry-management-for-air-gapped-aws-workloads/",
       "source": "AWS Blog (Containers)",
       "published_at": "2026-10-16T17:48:23+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "372bba8b727275d1d4401b8ffef13607",
-      "title": "langchain-ai/langgraph: langgraph-cli==0.4.36",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-16T16:39:14+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1329,21 +1309,6 @@
       "published_at": "2026-10-16T16:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1a3c378e67e0cbc9ce821040d2e9edea",
-      "title": "Build in Public Without Breaking Trust: Write the Migration Note First",
-      "url": "https://dev.to/urielbitton/build-in-public-without-breaking-trust-write-the-migration-note-first-420f",
-      "source": "Dev.to",
-      "published_at": "2026-10-16T15:32:13Z",
-      "summary": "Before announcing a breaking product change in public, write and rehearse the migration note. Explain...",
-      "tags": [
-        "webdev",
-        "devops",
-        "beginners",
-        "showdev"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1603,21 +1568,6 @@
         "DevOps"
       ],
       "relevance_score": 0.9
-    },
-    {
-      "id": "06c34d89507e813abce0e3756a8f922f",
-      "title": "Day 64: A Bad Image and a Small Disk",
-      "url": "https://dev.to/ndcodes/day-64-a-bad-image-and-a-small-disk-1m4",
-      "source": "Dev.to",
-      "published_at": "2026-10-16T17:00:00Z",
-      "summary": "Day 64 of DevOps, Day 14 of Azure. Today I had to withdraw an explanation. The Kubernetes half went...",
-      "tags": [
-        "devops",
-        "kubernetes",
-        "azure",
-        "containers"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "20cf49cd886983f03a286f674bc3b84f",
@@ -3353,6 +3303,91 @@
       "published_at": "2026-10-20T16:48:07+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b387e40deb01ec59c2d14847e9abc4dd",
+      "title": "ollama/ollama: v0.40.10",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-23T17:17:19+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7ce1d010605498b7814fad8ca4091b77",
+      "title": "I built and deployed a full platform in 7 hours without touching my keyboard once",
+      "url": "https://www.reddit.com/r/devops/comments/1xdik4p/i_built_and_deployed_a_full_platform_in_7_hours/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-23T16:19:02+00:00",
+      "summary": "Last week I gave myself a stupid challenge. It changed how I think about AI ruining the DevOps job market. The rules were simple. No keyboard, only mouse and voice. No paid tools, only free AI tools. 8 hours to build and deploy a real project, not a demo. I picked LearnStack, a full learning platfor",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "84ef9b0786035ec67524280a7b0f06f3",
+      "title": "Terraform can't deploy multiple VMs",
+      "url": "https://www.reddit.com/r/devops/comments/1xdigxy/terraform_cant_deploy_multiple_vms/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-23T16:15:48+00:00",
+      "summary": "Hey guys, I'm kinda new to world of devops and automation so I thought I'll start easy by creating VMs on Proxmox with Terraform via my CI/CD Gitea. When I create 1 VM, everything works but when I create 2 or more I get this error :  Run terraform -chdir=terraform apply -input=false tfplan proxmox_v",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "02793b210eb3c242f5fa1ef5b9daef5d",
+      "title": "apache/airflow: go-sdk/v1.0.0-beta4",
+      "url": "https://github.com/apache/airflow/releases/tag/go-sdk%2Fv1.0.0-beta4",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-23T15:01:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "118c989c275ac3dfa2d5071112aca3ef",
+      "title": "Suggest me any project in AWS with Terraform!",
+      "url": "https://www.reddit.com/r/devops/comments/1xdfrgt/suggest_me_any_project_in_aws_with_terraform/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-23T14:34:27+00:00",
+      "summary": "Guys help me i have totally 2.8 years of exprience in Cloud and Devops Engineer now i am working as a SRE but still i am not full fill with my current company now i am thinking to change for that i need to take pratices. for that give me suggession and Projects that will helpfull for me to cover eve",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f7a9f85f79c290644a942172da5eeefb",
+      "title": "langchain-ai/langgraph: langgraph-sdk==0.4.9",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-23T14:19:24+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d8f85cf4a268d244f26d55ec68bba18a",
+      "title": "ollama/ollama: v0.40.10-rc0: Update gemma renderers (#19241)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-23T14:12:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "82228e83f5dbf3120acf23e922be203d",
+      "title": "PHP2Shell: Check Every Installed PHP Version on Debian 12 and 13 (UPD)",
+      "url": "https://dev.to/toxy4ny/php2shell-check-every-installed-php-version-on-debian-12-and-13-46je",
+      "source": "Dev.to",
+      "published_at": "2026-10-22T16:58:20Z",
+      "summary": "A read-only, open-source checker for PHP2Shell fixes across installed PHP packages on Debian 12 and...",
+      "tags": [
+        "webdev",
+        "php",
+        "devops",
+        "security"
+      ],
       "relevance_score": 0.0
     }
   ]
