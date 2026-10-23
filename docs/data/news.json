@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:23:46Z",
+  "generated_at": "2026-10-23T13:21:47Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -16,14 +16,10 @@
       "title": "n8n-io/n8n: beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-21T12:57:34+00:00",
-      "summary": "n8n beta release previews upcoming features and enhancements for the workflow automation tool.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering",
-        "CI/CD"
-      ],
-      "relevance_score": 0.7
+      "published_at": "2026-10-23T07:26:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "b6cade7da357516bcb19c37b0ec9c094",
@@ -1286,81 +1282,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d9a57b8f6f52519d278457b658479520",
-      "title": "istio/istio: Istio 1.31.2",
-      "url": "https://github.com/istio/istio/releases/tag/1.31.2",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-10-16T07:40:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6c9a098d89d04bda5eb598ae75e6332f",
       "title": "Carbon as a first-class signal: Bringing software carbon intensity to OpenTelemetry",
       "url": "https://www.cncf.io/blog/2026/10/15/carbon-as-a-first-class-signal-bringing-software-carbon-intensity-to-opentelemetry/",
       "source": "CNCF Blog",
       "published_at": "2026-10-15T22:21:45+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0cfe9ae3cb5412c3ad82dce137be1a11",
-      "title": "Muse Wonder vs. Claude Fable 5.1: Meta’s new model came closer than I expected",
-      "url": "https://thenewstack.io/muse-wonder-claude-fable/",
-      "source": "The New Stack",
-      "published_at": "2026-10-16T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bf00a2622f1516bbf5545822fd8a03be",
-      "title": "“Developers are paying frontier prices for amnesia”: Uvi wants to stop the agent relearning brain drain",
-      "url": "https://thenewstack.io/uvi-ai-agent-context/",
-      "source": "The New Stack",
-      "published_at": "2026-10-16T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5cdcc159deaf142774e4642edf1939a8",
-      "title": "The Claude Code Desktop Vulnerability That Beat Three Layers of Sandboxing",
-      "url": "https://dev.to/rbonweb/the-claude-code-desktop-vulnerability-that-beat-three-layers-of-sandboxing-296n",
-      "source": "Dev.to",
-      "published_at": "2026-10-16T10:00:00Z",
-      "summary": "A Claude Code Desktop vulnerability called SneakPeek let a poisoned HTML file steal AWS, GitHub, and SSH credentials with no click. Here is what we checked.",
-      "tags": [
-        "security",
-        "ai",
-        "anthropic",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "52bfc01badfe6b9a312eada68285b316",
-      "title": "PostgreSQL 19 beta's parallel autovacuum launches workers but leaves vacuum time unchanged",
-      "url": "https://dev.to/alexgeorgiev17/postgresql-19-betas-parallel-autovacuum-launches-workers-but-leaves-vacuum-time-unchanged-3g4j",
-      "source": "Dev.to",
-      "published_at": "2026-10-16T10:00:00Z",
-      "summary": "I measured PostgreSQL 19 beta4's new parallel autovacuum on a six-index, 400,000-row table: 4 workers launched every time, but wall-clock vacuum time stayed within 4% of the serial run, while dead-tuple memory doubled.",
-      "tags": [
-        "postgres",
-        "database",
-        "performance",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "be3c8ff7acf98544e1ea02d3f3716a11",
-      "title": "n8n-io/n8n: n8n@2.44.3",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.44.3",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-16T07:26:13+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3342,6 +3268,91 @@
         "backend",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "67757104ccd98d8f14c56860e3118921",
+      "title": "Multi-tenant GPU Kubernetes on simulated hardware with Kamaji and HAMi",
+      "url": "https://www.cncf.io/blog/2026/10/23/multi-tenant-gpu-kubernetes-on-simulated-hardware-with-kamaji-and-hami/",
+      "source": "CNCF Blog",
+      "published_at": "2026-10-23T11:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1960ed2c5b138a8395bde915925bbb97",
+      "title": "nginx 1.31.5's control API turns a failed reload into an HTTP 422 instead of a log line",
+      "url": "https://dev.to/alexgeorgiev17/nginx-1315s-control-api-turns-a-failed-reload-into-an-http-422-instead-of-a-log-line-48bc",
+      "source": "Dev.to",
+      "published_at": "2026-10-23T10:00:00Z",
+      "summary": "I opened nginx's new control API over plain TCP with no credentials and used it to read live worker PIDs and swap a running config from outside the container. The unix-socket default stopped a non-owning user cold, reload itself gained no speed, and just having the listener open cost about 300KB of resident memory.",
+      "tags": [
+        "nginx",
+        "devops",
+        "security",
+        "networking"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b2719ddfabb785190a33fc87d8f44ca0",
+      "title": "Test automation after deployment",
+      "url": "https://www.reddit.com/r/devops/comments/1xd92zw/test_automation_after_deployment/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-23T09:13:11+00:00",
+      "summary": "How do you all perform full automated tests after deployment? Using postsync hooks in argocd or use Argo events? Do you use ephemeral or static environments?  &#32; submitted by &#32;  /u/learnamap   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c7e40f2fe1299113bd400745695b2693",
+      "title": "n8n-io/n8n: n8n@1.123.87",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.87",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-10-23T07:54:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "20e301a30dc6148caf8bf63fa1d9c212",
+      "title": "n8n-io/n8n: v1: :rocket: Release 1.123.87 (#41902)",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-10-23T07:29:49+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "625845d902915a7deb8a8ab76ddcdd47",
+      "title": "n8n-io/n8n: n8n@2.45.3",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.3",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-10-23T07:29:29+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2b86d3e4119442696e8fc22486dbc82e",
+      "title": "How should we evaluate AI Agent observability platforms in 2026?",
+      "url": "https://www.reddit.com/r/devops/comments/1xd6dxa/how_should_we_evaluate_ai_agent_observability/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-23T06:27:11+00:00",
+      "summary": "Disclosure: I work at Bonree, the company behind Bonree ONE, an AI observability platform. I’m asking about the general problem of choosing a platform, and I’m not trying to pitch ours. AI agents are moving from chat interfaces into production workflows, and teams are now picking tools to observe th",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b0877f008d8bc9c2637db599824f86dd",
+      "title": "Azure DevOps available in Microsoft Copilot Cowork",
+      "url": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
+      "source": "Azure DevOps Blog",
+      "published_at": "2026-10-20T16:48:07+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
