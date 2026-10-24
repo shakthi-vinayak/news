@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:49:07Z",
+  "generated_at": "2026-10-24T15:51:31Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1322,61 +1322,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1e283426d744dab4f5f58768b02fd134",
-      "title": "ollama/ollama: v0.40.6",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.6",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-17T15:29:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fb9bc3c9b4395c682ef05bebc354cc08",
-      "title": "Docker Compose 5.6's jobs type only starts through docker compose run",
-      "url": "https://dev.to/alexgeorgiev17/docker-compose-56s-jobs-type-only-starts-through-docker-compose-run-4c1a",
-      "source": "Dev.to",
-      "published_at": "2026-10-17T10:00:00Z",
-      "summary": "Docker Compose 5.6 added a jobs: section for one-off tasks. up, create and start all refuse to touch one, a scheduled trigger makes up fail outright, and only docker compose run actually starts a job, paying about 15% more when its dependency has to start cold.",
-      "tags": [
-        "docker",
-        "devops",
-        "containers",
-        "performance"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "81d275a94e08cda9bd984306fce87e1d",
-      "title": "How does your organisation handle CI/CD and image tagging for microservices?",
-      "url": "https://www.reddit.com/r/devops/comments/1x8d4ea/how_does_your_organisation_handle_cicd_and_image/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-17T15:32:03+00:00",
-      "summary": "Hi everyone, I’m trying to understand how different organisations design their CI/CD workflows for microservices, particularly the deployment process after a Docker image is pushed to a container registry like JFrog Artifactory/ECR I have a few questions: Image tagging strategy: Do you use Git commi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4d2f35ae685c7a8bdf04193d59d306f4",
-      "title": "His scanner wouldn’t work on Linux — so he let Claude study the Windows driver",
-      "url": "https://thenewstack.io/claude-code-linux-driver/",
-      "source": "The New Stack",
-      "published_at": "2026-10-17T14:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "038c132708f4bc2f2e5819f5346d20d4",
-      "title": "AI agents vs. Kubernetes: where each belongs in the control loop",
-      "url": "https://thenewstack.io/ai-agents-kubernetes-control/",
-      "source": "The New Stack",
-      "published_at": "2026-10-17T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f9f6affcdc1e887aad2f1afa3fbb66ad",
       "title": "apache/airflow: providers-google/22.7.0",
       "url": "https://github.com/apache/airflow/releases/tag/providers-google%2F22.7.0",
@@ -1473,36 +1418,6 @@
       "published_at": "2026-10-18T04:45:39+00:00",
       "summary": "Infra engineer here (about 10 years across AWS, Azure and on-prem). In every environment I've worked in, something is always approaching end of life: AI model versions on Azure OpenAI and Bedrock, Kubernetes versions on EKS/AKS/GKE, Lambda and Functions runtimes, database engine versions. Each cloud",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "60f68dca1ece2138833c3978b9df9140",
-      "title": "A Management Interface Vulnerability in PAN-OS Needed Credentials. Attackers Used It Anyway",
-      "url": "https://dev.to/rbonweb/a-management-interface-vulnerability-in-pan-os-needed-credentials-attackers-used-it-anyway-nb1",
-      "source": "Dev.to",
-      "published_at": "2026-10-17T14:00:00Z",
-      "summary": "A management interface vulnerability in PAN-OS, CVE-2026-0322, needs admin credentials. CISA added it to its exploited list anyway. Here is what we checked.",
-      "tags": [
-        "security",
-        "networking",
-        "devops",
-        "infosec"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4a445cc3a233ce254cce2d71c5efa294",
-      "title": "What does your CDK app cost when nobody is using it?",
-      "url": "https://dev.to/aws-builders/what-does-your-cdk-app-cost-when-nobody-is-using-it-jp4",
-      "source": "Dev.to",
-      "published_at": "2026-10-17T13:44:59Z",
-      "summary": "Here is a sample CDK app with four stacks. Nobody is calling it. No requests, no data, no...",
-      "tags": [
-        "aws",
-        "cdk",
-        "finops",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2477,15 +2392,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1xc8nf3/how_to_learn_devops_quickly/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-22T04:12:17+00:00",
-      "summary": "Community thread offering curated resources, roadmaps, and practical advice for accelerating a DevOps career transition.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering",
-        "CI/CD",
-        "Kubernetes",
-        "Cloud"
-      ],
-      "relevance_score": 0.8
+      "summary": "I've been teaching myself DevOps for the past few months and I've hit a wall where I'm not sure if I'm actually making progress or just hoarding tutorials. I'd really appreciate some honest input from people who do this for a living. A bit about my background:  I come from a non-traditional backgrou",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "e6157007c1e5f5157deb1e1c3132aef3",
@@ -3347,6 +3256,116 @@
         "python",
         "llm",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0b7e23242cab071036b8d5eee0d511fe",
+      "title": "AWS says its AI security agent fixes 89% of bugs — but there’s a catch",
+      "url": "https://thenewstack.io/aws-says-its-ai-security-agent-fixes-89-of-bugs-but-theres-a-catch/",
+      "source": "The New Stack",
+      "published_at": "2026-10-24T14:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f00fd9c6c65e3b9c2eba2692425c3ea3",
+      "title": "Building an agentic software factory? Start with the sensor.",
+      "url": "https://thenewstack.io/agentic-software-factory-sensor/",
+      "source": "The New Stack",
+      "published_at": "2026-10-24T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "95d2b6050ff611d4d73e0752f22c4b44",
+      "title": "Why Kubernetes autoscalers keep fighting each other (and why the solution must be autonomous)",
+      "url": "https://thenewstack.io/why-kubernetes-autoscalers-fight/",
+      "source": "The New Stack",
+      "published_at": "2026-10-24T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5fd0ea47eb48603f5769fffe5c6c199d",
+      "title": "CKA exam stress",
+      "url": "https://www.reddit.com/r/devops/comments/1xe7yad/cka_exam_stress/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-24T12:56:03+00:00",
+      "summary": "Hello community, I am really stressed about my cka exam. I have bought it but have not prepared yet. My goal is to give exam in december. I have udemy monthly subscription and thrive subscription for this year. I am watching mumshad course on udemy.  I have 4 years of experience as a devops engineer",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8ee329c3f5e0672f3a82f0b19bc49840",
+      "title": "Seems someone is interested in AWS Golden Jacket 🧥",
+      "url": "https://www.reddit.com/r/devops/comments/1xe5mbl/seems_someone_is_interested_in_aws_golden_jacket/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-24T10:53:41+00:00",
+      "summary": "      &#32; submitted by &#32;  /u/suman087   [link] &#32; [comments] ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "41ed9c490a9adaf9b749369b7a159fbb",
+      "title": "Caddy 2.11.6 turns a silent config failure on /load into an HTTP 400",
+      "url": "https://dev.to/alexgeorgiev17/caddy-2116-turns-a-silent-config-failure-on-load-into-an-http-400-4656",
+      "source": "Dev.to",
+      "published_at": "2026-10-24T10:00:00Z",
+      "summary": "A Caddy reload that broke my running server used to come back HTTP 200. On 2.11.6 and 2.11.7 it's a 400 with a real error, and a related fix cuts a stuck Unix socket from about two minutes to instant.",
+      "tags": [
+        "caddy",
+        "devops",
+        "networking",
+        "performance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "16ac739f8cf1cfcc273c82fe478056f2",
+      "title": "An MCP security checklist for developers wiring agents to real tools",
+      "url": "https://dev.to/bloqarl/an-mcp-security-checklist-for-developers-wiring-agents-to-real-tools-l71",
+      "source": "Dev.to",
+      "published_at": "2026-10-22T13:12:40Z",
+      "summary": "Connecting an agent to a tool through MCP takes about ten minutes. You add a server to a config file,...",
+      "tags": [
+        "security",
+        "ai",
+        "mcp",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fdfe8c71087a462abbedc6d84b76134b",
+      "title": "Ubuntu 26.10 Finishes the Rust Coreutils Switch. What Should Developers Test?",
+      "url": "https://dev.to/bargan/ubuntu-2610-finishes-the-rust-coreutils-switch-what-should-developers-test-3d4b",
+      "source": "Dev.to",
+      "published_at": "2026-10-21T13:08:28Z",
+      "summary": "Rust-based cp, mv and rm are only part of Ubuntu 26.10's compatibility story. A practical guide to testing OpenSSL 4, toolchains, CI and upgrade risks.",
+      "tags": [
+        "ubuntu",
+        "linux",
+        "devops",
+        "rust"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4d2d5781d5424b788728429ebd52790c",
+      "title": "Every test was green. Then I deployed it.",
+      "url": "https://dev.to/rakno/every-test-was-green-then-i-deployed-it-33ea",
+      "source": "Dev.to",
+      "published_at": "2026-10-21T04:30:00Z",
+      "summary": "For five weeks, ParkEase lived on my laptop. Thousands of unit tests. More than a thousand...",
+      "tags": [
+        "devops",
+        "typescript",
+        "testing",
+        "showdev"
       ],
       "relevance_score": 0.0
     }
