@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:02:16Z",
+  "generated_at": "2026-10-25T19:00:28Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1218,16 +1218,6 @@
       "source": "CNCF Blog",
       "published_at": "2026-10-15T11:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d4d274ef73bfddd6d021307036019a8b",
-      "title": "Should I teach myself the AWS CLI or is the time for that is gone?",
-      "url": "https://www.reddit.com/r/devops/comments/1x9aq1z/should_i_teach_myself_the_aws_cli_or_is_the_time/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-18T18:38:01+00:00",
-      "summary": "I'm setting up an AWS workflow (we work only with azure and on-prem at work so little experience with the CLI) and wondering if I should bother learning about the tool itself. Seems like I should just set up limited users with limited roles, hard budget caps, place manual gates on production CIs and",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3016,13 +3006,14 @@
       "url": "https://dev.to/raihan-js/one-knob-19x-latency-what-i-learned-benchmarking-vllm-on-a-single-gpu-14bh",
       "source": "Dev.to",
       "published_at": "2026-10-23T14:31:14Z",
-      "summary": "Benchmarks vLLM on a single GPU, showing how one configuration knob can reduce latency by 19x for LLM inference.",
+      "summary": "Single-GPU vLLM serving benchmark with quality probes: a 19x TTFT cliff on one knob (visible only under stress), and temp-0 determinism failing on a reasoning model.",
       "tags": [
-        "AI",
-        "LLMOps",
-        "MLOps"
+        "machinelearning",
+        "python",
+        "llm",
+        "devops"
       ],
-      "relevance_score": 0.95
+      "relevance_score": 0.0
     },
     {
       "id": "0b7e23242cab071036b8d5eee0d511fe",
@@ -3138,7 +3129,7 @@
       "title": "ollama/ollama: v0.40.11",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
       "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-24T17:50:51+00:00",
+      "published_at": "2026-10-25T18:06:57+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
