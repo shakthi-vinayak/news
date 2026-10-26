@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:53:45Z",
+  "generated_at": "2026-10-26T23:47:06Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1162,31 +1162,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "8f1c6a8b9f30e98acfdf26a7a4e81927",
-      "title": "MiniMax just halved its token prices. Your AI agent bill may not follow.",
-      "url": "https://thenewstack.io/minimax-flash-agent-costs/",
-      "source": "The New Stack",
-      "published_at": "2026-10-19T22:00:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f041e077d8039e8f9fadd917fb115997",
-      "title": "I Fixed The Bug. Then My Pipeline Refused to Run.",
-      "url": "https://dev.to/maame-codes/i-fixed-the-bug-then-my-pipeline-refused-to-run-4c7i",
-      "source": "Dev.to",
-      "published_at": "2026-10-19T21:06:51Z",
-      "summary": "Every engineer knows the feeling. You finally fix the bug that's been blocking your ticket, you push...",
-      "tags": [
-        "devops",
-        "gitlab",
-        "cicd",
-        "beginners"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c2237153f6b6faaefcf952b9b1d425c6",
       "title": "Docker Engine 29.9.1 fixes a docker save bug that left deleted layers on disk",
       "url": "https://dev.to/alexgeorgiev17/docker-engine-2991-fixes-a-docker-save-bug-that-left-deleted-layers-on-disk-516a",
@@ -1435,14 +1410,14 @@
       "url": "https://dev.to/isaque_silvachaves/monitoring-ai-quality-evaluation-pipelines-for-non-deterministic-products-355j",
       "source": "Dev.to",
       "published_at": "2026-10-20T19:12:21Z",
-      "summary": "Describes evaluation pipelines for monitoring non-deterministic AI outputs, covering metrics, human-in-the-loop, and automated regression detection.",
+      "summary": "Shipping an AI feature is the easy part. Knowing that it still works next month is the hard one.  In...",
       "tags": [
-        "AI",
-        "LLMOps",
-        "MLOps",
-        "Observability"
+        "ai",
+        "llm",
+        "testing",
+        "devops"
       ],
-      "relevance_score": 0.95
+      "relevance_score": 0.0
     },
     {
       "id": "060e6d5c9963b8348816e41ac7162791",
@@ -3422,6 +3397,76 @@
         "devops",
         "ai"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9713d5fa2bcd7971df4f1dd400db0bab",
+      "title": "ollama/ollama: v0.40.12-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-26T23:10:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bac2900632fd40e3e99c5e25d1dd239b",
+      "title": "langchain-ai/langchain: langchain-openai==1.7.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-26T23:08:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3e061b45d99296579cedd7f84d422c6a",
+      "title": "OpenAI halved its agent’s price. Its own safety report flagged a catch.",
+      "url": "https://thenewstack.io/openai-terra-bypassed-restrictions/",
+      "source": "The New Stack",
+      "published_at": "2026-10-26T22:14:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1411a2eca5bbd0407bc0d0d3813beffe",
+      "title": "langchain-ai/langgraph: langgraph==1.2.18",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-26T20:05:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8038a5da513da2dcdf8c71531c297864",
+      "title": "langchain-ai/langgraph: langgraph-checkpoint==4.3.1",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-26T19:57:41+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7c3bf5b0624dc4794f0feb36589cbd30",
+      "title": "AI is changing Kubernetes; is your platform ready for 2027?",
+      "url": "https://thenewstack.io/kubernetes-agentic-ai-platforms/",
+      "source": "The New Stack",
+      "published_at": "2026-10-26T19:51:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "38eef07e90971d05858c609c0e4f683d",
+      "title": "langchain-ai/langchain: langchain==1.4.7",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-21T21:39:18+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
