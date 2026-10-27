@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:03:11Z",
+  "generated_at": "2026-10-27T17:58:39Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -507,16 +507,6 @@
       "url": "https://aws.amazon.com/blogs/devops/ai-driven-software-delivery-with-kiro-aws-devops-agent-and-bluebox-by-dynatrace/",
       "source": "AWS Blog",
       "published_at": "2026-08-26T12:59:33+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "03b9f08cdb9aa76281dc5f9b2db03c47",
-      "title": "Kubernetes v1.37: Metrics API graduates to stable",
-      "url": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
-      "source": "Kubernetes Blog",
-      "published_at": "2026-08-27T18:30:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1142,65 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c5d9bb5382589ff4d09630ded8be320c",
-      "title": "Google Cloud outage in London: what one zone's power event broke",
-      "url": "https://dev.to/axrisi/google-cloud-outage-in-london-what-one-zones-power-event-broke-4map",
-      "source": "Dev.to",
-      "published_at": "2026-10-20T15:30:00Z",
-      "summary": "Analyzes Google Cloud London zone outage caused by a power event and its cascading infrastructure impacts.",
-      "tags": [
-        "SRE",
-        "Cloud",
-        "Observability"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "6a5decf8e9e4d0f4e9e42ee2734558bb",
-      "title": "Kubernetes probes keep restarting services that just need more time",
-      "url": "https://www.reddit.com/r/devops/comments/1xatqcs/kubernetes_probes_keep_restarting_services_that/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-20T14:32:26+00:00",
-      "summary": "Hey folks, I've noticed readiness and liveness probes often end up with pretty similar settings, even tho they do different jobs. With tight timeouts and failure thresholds, a service that's slow to start or recovering from a dependency issue can get pulled out of rotation or repeatedly restarted. I",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7ba4d0eab58cc18657075f7f608aff4a",
-      "title": "Homelab runner for Gitea",
-      "url": "https://www.reddit.com/r/devops/comments/1xatqay/homelab_runner_for_gitea/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-20T14:32:22+00:00",
-      "summary": "Hello guys, I'm new to the devops world and I'm working on some projects to learn. I'm currently trying to automate the creation of VMs with Terraform with my local Proxmox. As CI/CD and Git server I have everything on a Gitea local. I remember doing some CI/CD once on Github and it worked fine but ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "55894fc4f1c1fc28da58bf876e56228a",
-      "title": "Beam pulls single app windows off the Mac Mini running your agents",
-      "url": "https://thenewstack.io/beam-mac-mini-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-10-20T14:07:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0d1e708ce1376125256b12f54c9f6526",
-      "title": "Tuesday Isn't a Valid State Transition",
-      "url": "https://dev.to/kenwalger/tuesday-isnt-a-valid-state-transition-16ln",
-      "source": "Dev.to",
-      "published_at": "2026-10-20T13:46:00Z",
-      "summary": "Calendars, evidence, and the difference between done and stuck  I expected my pear wine to spend two...",
-      "tags": [
-        "observability",
-        "programming",
-        "architecture",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "200d9a444d9ba90b7e214ca1d5753c54",
       "title": "ollama/ollama: v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
@@ -1266,26 +1197,6 @@
       "url": "https://thenewstack.io/elevenlabs-voice-agent-tradeoffs/",
       "source": "The New Stack",
       "published_at": "2026-10-20T18:43:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "46393a66eaccb49588ddeb65c8a91198",
-      "title": "Scripted tests can’t keep up with AI-written code. Datadog is betting agents can.",
-      "url": "https://thenewstack.io/datadog-propolis-agentic-testing/",
-      "source": "The New Stack",
-      "published_at": "2026-10-20T16:49:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3ca027ef2603f5cfa7e0ae92bb920391",
-      "title": "Azure DevOps available in Microsoft Copilot",
-      "url": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-10-20T16:48:07+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2836,21 +2747,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ff1f7263b5c7585b6797532bec337070",
-      "title": "Symfony AI in 2026: Did the 'School Bus' Actually Get Rocket Boosters?",
-      "url": "https://dev.to/jeandevbr/symfony-ai-in-2026-did-the-school-bus-actually-get-rocket-boosters-14ao",
-      "source": "Dev.to",
-      "published_at": "2026-10-20T15:37:33Z",
-      "summary": "Back in my last post ('Symfony AI: A Rocket, a School Bus, or Something In Between?'), we dug into...",
-      "tags": [
-        "symfony",
-        "ai",
-        "php",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "895ebe39661e0bfc180b5c1dc7558d16",
       "title": "apache/airflow: providers-snowflake/6.20.0",
       "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.20.0",
@@ -3571,6 +3467,131 @@
         "devops",
         "aws",
         "cloud"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4f4e9857ca4493fcd8006b9c9b47de22",
+      "title": "ollama/ollama: v0.40.12",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-27T17:16:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "58342b0d171f4fecc4caf30bcdae932d",
+      "title": "Any beginner-friendly DevOps Discord servers or Slack communities?",
+      "url": "https://www.reddit.com/r/devops/comments/1xgw5xd/any_beginnerfriendly_devops_discord_servers_or/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-27T15:49:12+00:00",
+      "summary": "Hey Everybody!  Does anyone know of any active Discord servers, Slack channels or study groups where beginners can connect, share resources, ask questions and support each other along the way?   &#32; submitted by &#32;  /u/Outrageous-Dot-48   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0d9e3b695a1929d1f28cc17c3400e2e3",
+      "title": "prometheus/prometheus: v3.16.0-rc.0",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.16.0-rc.0",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-10-27T15:41:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4296c3cb5d2e2774446ddfe86fed8679",
+      "title": "“I don’t use Astra every day”: OpenAI developer lead tells TNS why",
+      "url": "https://thenewstack.io/openai-devday-models-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-10-27T14:23:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fe725627b883dfded90b0d08644d5e25",
+      "title": "The hidden failure paths that affect Kubernetes control plane availability",
+      "url": "https://thenewstack.io/kubernetes-control-plane-failures/",
+      "source": "The New Stack",
+      "published_at": "2026-10-27T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8b3a2e1db8a538b7f265594ec1c9d966",
+      "title": "The 12 Websites Every DevOps Engineer Should Bookmark in 2026",
+      "url": "https://dev.to/boiliev/the-12-websites-every-devops-engineer-should-bookmark-in-2026-1k0n",
+      "source": "Dev.to",
+      "published_at": "2026-10-27T13:56:45Z",
+      "summary": "Twelve useful bookmarks for DevOps engineers, from hands-on learning to checking support dates, testing TLS, inspecting webhooks, and investigating outages.",
+      "tags": [
+        "devops",
+        "sre",
+        "productivity",
+        "tools"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7e481bc13989ce93aee6898c208d0724",
+      "title": "why is everyone still using cloud llms just to route tool calls? tested local cpu embeddings vs bm25 on 100k tools",
+      "url": "https://www.reddit.com/r/devops/comments/1xgsv6a/why_is_everyone_still_using_cloud_llms_just_to/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-27T13:41:52+00:00",
+      "summary": "honestly i dont get why current multi-agent setups are built like this. if you connect 4 or 5 mcp servers (github, postgres, filesystem, slack etc) you easily end up with 40-50+ tool schemas. right now the standard pattern in langchain or claude code is dumping all 4,000+ tokens of json schemas into",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6487b74924d6585c6c1ac8d22f28e763",
+      "title": "When “isolated” doesn’t mean isolated: How to sandbox AI agents",
+      "url": "https://thenewstack.io/how-to-sandbox-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-10-27T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "69901c13335af6b033da44bcabfc53a8",
+      "title": "Email Bounce Types Explained: Practice Sorting Hard, Soft and Blocked Bounces in Your Browser",
+      "url": "https://dev.to/devopsdaily/email-bounce-types-explained-practice-sorting-hard-soft-and-blocked-bounces-in-your-browser-1i74",
+      "source": "Dev.to",
+      "published_at": "2026-10-27T12:03:39Z",
+      "summary": "550 5.7.1 Message rejected due to content restrictions  Hard bounce? The 5 says permanent, so a...",
+      "tags": [
+        "email",
+        "smtp",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f3f7cc58d67fc7404154f20c8da05771",
+      "title": "One pod, one node: The architecture behind serverless Kubernetes on AWS",
+      "url": "https://thenewstack.io/serverless-kubernetes-aws-fargate/",
+      "source": "The New Stack",
+      "published_at": "2026-10-27T12:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b26a365b2a75764ee774e272f35b735d",
+      "title": "Your CI Is Green. Can a Pull Request Steal Your Secrets?",
+      "url": "https://dev.to/robertadam987_/your-ci-is-green-can-a-pull-request-steal-your-secrets-31b0",
+      "source": "Dev.to",
+      "published_at": "2026-10-27T03:51:25Z",
+      "summary": "A new pull request arrives.  GitHub Actions starts a workflow. The tests pass. Everything looks...",
+      "tags": [
+        "security",
+        "devops",
+        "programming",
+        "github"
       ],
       "relevance_score": 0.0
     }
