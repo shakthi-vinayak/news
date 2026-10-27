@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:58:39Z",
+  "generated_at": "2026-10-27T22:08:51Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -782,16 +782,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "d6dc99147d13ba6a2568ee9ed36cf3b3",
-      "title": "Azure DevOps in the GitHub Copilot App",
-      "url": "https://devblogs.microsoft.com/devops/azure-devops-in-the-github-copilot-app/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-08-27T11:24:17+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "9b2b4f6e6336f58f94d945522f8ea1b9",
       "title": "kubernetes/kubernetes: v1.37.1",
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.1",
@@ -1132,46 +1122,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "200d9a444d9ba90b7e214ca1d5753c54",
-      "title": "ollama/ollama: v0.40.7-rc1: mlx: deduplicate CUDA runtime payloads (#17956)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc1",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-20T21:15:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1834c20940dcb36a7188a966c07449c7",
-      "title": "apache/airflow: constraints-3.4.0b2",
-      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.4.0b2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-20T20:07:41+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e13c5614d88e892302eab21ac806c0db",
-      "title": "apache/airflow: task-sdk/1.4.0b2",
-      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.4.0b2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-20T19:34:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7aff82b4efdd32480cfb1a4690a4ec02",
-      "title": "apache/airflow: 3.4.0b2",
-      "url": "https://github.com/apache/airflow/releases/tag/3.4.0b2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-20T19:34:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "839d63c18fa57517d60d102d99b6326f",
       "title": "Limit agent permissions and spend in AWS Transform custom",
       "url": "https://aws.amazon.com/blogs/devops/limit-agent-permissions-and-spend-in-aws-transform-custom/",
@@ -1182,41 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3d127791d0fde71420bc8b79289ac6a1",
-      "title": "Your Kubernetes dashboard is green. Your users are seeing red.",
-      "url": "https://thenewstack.io/kubernetes-hidden-latency-telemetry/",
-      "source": "The New Stack",
-      "published_at": "2026-10-20T19:02:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a5998e0fe1c5f3e30559762c70d8bef8",
-      "title": "ElevenLabs wants to run your voice agent. Here’s what developers give up.",
-      "url": "https://thenewstack.io/elevenlabs-voice-agent-tradeoffs/",
-      "source": "The New Stack",
-      "published_at": "2026-10-20T18:43:47+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "00bf9570bf1787054382135e84904a5a",
-      "title": "What happens to your Redis data in Docker",
-      "url": "https://dev.to/remdore/what-happens-to-your-redis-data-in-docker-5079",
-      "source": "Dev.to",
-      "published_at": "2026-10-20T16:46:47Z",
-      "summary": "I wrote 10,000 keys into Redis running in Docker, then ran one ordinary Docker command and counted...",
-      "tags": [
-        "redis",
-        "docker",
-        "devops",
-        "database"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4959bc0f5513a8bb2b094410ae77479d",
       "title": "Respan spent two years building on LiteLLM. One upgrade made it start over.",
       "url": "https://thenewstack.io/respan-rust-ai-gateway/",
@@ -1224,31 +1139,6 @@
       "published_at": "2026-10-20T22:13:08+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a6c2068b662dadae1f26667ca5d9671e",
-      "title": "“We are not forking TypeScript”: Cloudflare spearheads Rust port written by agents, for agents",
-      "url": "https://thenewstack.io/cloudflare-rust-typescript-tsrs/",
-      "source": "The New Stack",
-      "published_at": "2026-10-20T21:36:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1cc032997bdeb71779ed5716352cfafd",
-      "title": "Monitoring AI Quality: Evaluation Pipelines for Non-Deterministic Products",
-      "url": "https://dev.to/isaque_silvachaves/monitoring-ai-quality-evaluation-pipelines-for-non-deterministic-products-355j",
-      "source": "Dev.to",
-      "published_at": "2026-10-20T19:12:21Z",
-      "summary": "Shipping an AI feature is the easy part. Knowing that it still works next month is the hard one.  In...",
-      "tags": [
-        "ai",
-        "llm",
-        "testing",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1284,21 +1174,6 @@
       "published_at": "2026-10-21T04:01:19+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e941fa35e9eaa8ddcc9ececa609d1e9a",
-      "title": "The control panel behind a 100-site AI hacking spree has no login. I ran one.",
-      "url": "https://dev.to/slabb/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742",
-      "source": "Dev.to",
-      "published_at": "2026-10-20T16:55:27Z",
-      "summary": "Reuters watched an AI-agent spree breach 100+ companies at roughly fifty dollars a break-in. The open-source control plane behind it, Cairn, ships without authentication — I read the source, then ran one with the attack mode off — four commands, no API key — and read the whole blackboard.",
-      "tags": [
-        "ai",
-        "security",
-        "python",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2979,11 +2854,14 @@
       "url": "https://dev.to/nabeelbaghoor/my-hvac-voice-agent-was-listening-for-the-word-invisalign-273g",
       "source": "Dev.to",
       "published_at": "2026-10-25T21:35:59Z",
-      "summary": "A personal HVAC voice assistant inadvertently activated on a specific keyword, raising privacy concerns.",
+      "summary": "Last week I wrote about a bug I found by diffing two exports of the same Retell voice agent: Airheads...",
       "tags": [
-        "AI"
+        "ai",
+        "llm",
+        "testing",
+        "devops"
       ],
-      "relevance_score": 0.4
+      "relevance_score": 0.0
     },
     {
       "id": "9e103392dd863acda2062401c0c6cc60",
@@ -3220,13 +3098,14 @@
       "url": "https://dev.to/dhruv1206/how-a-key-leaked-in-may-shipped-malware-in-october-1nkl",
       "source": "Dev.to",
       "published_at": "2026-10-26T09:44:07Z",
-      "summary": "A leaked signing key led to malware distribution months later, illustrating the long-term risks of credential exposure.",
+      "summary": "The LiteLLM attack had no clever trick in it. Every step was a key or token that still worked long after anyone needed it. And the malware ran before Python imported anything.",
       "tags": [
-        "Security",
-        "DevOps",
-        "CI/CD"
+        "security",
+        "python",
+        "devops",
+        "ai"
       ],
-      "relevance_score": 0.95
+      "relevance_score": 0.0
     },
     {
       "id": "9713d5fa2bcd7971df4f1dd400db0bab",
@@ -3593,6 +3472,51 @@
         "programming",
         "github"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "70e7d3789811aa0a63a6e157629ac465",
+      "title": "ollama/ollama: v0.40.12",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.12",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-27T21:41:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "66361e6bfba754744c2891deb08ba52a",
+      "title": "Azure DevOps Server RC (26H2) Is Now Available",
+      "url": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
+      "source": "Azure DevOps Blog",
+      "published_at": "2026-10-27T20:31:59+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b9a53de889052c259b97cf4727d2ae73",
+      "title": "The cheapest GitHub Actions runners in 2026: what 100,000 minutes cost",
+      "url": "https://dev.to/nedomas/the-cheapest-github-actions-runners-in-2026-what-100000-minutes-cost-2mlc",
+      "source": "Dev.to",
+      "published_at": "2026-10-27T19:15:00Z",
+      "summary": "I build open source developer tools, mostly supergateway and Supercov. This month I looked at what...",
+      "tags": [
+        "githubactions",
+        "devops",
+        "aws",
+        "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e54a56b878245b804be0532bdaf024ff",
+      "title": "prometheus/prometheus: v3.16.0-rc.1",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.16.0-rc.1",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-10-27T18:25:52+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
