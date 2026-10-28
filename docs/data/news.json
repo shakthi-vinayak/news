@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:41:32Z",
+  "generated_at": "2026-10-28T19:29:30Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -902,16 +902,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e3a4dd1b46ea81079e909495641a5fd7",
-      "title": "Trust Docker for the agents you don’t",
-      "url": "https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap/",
-      "source": "Docker Blog",
-      "published_at": "2026-10-01T18:26:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e6765ec534f47a701dd3d719265cecda",
       "title": "Implementing feature flags in container environments with AWS AppConfig",
       "url": "https://aws.amazon.com/blogs/containers/implementing-feature-flags-in-container-environments-with-aws-appconfig/",
@@ -1112,30 +1102,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a821c4cd6f84d967dd8e6774f4a4907a",
-      "title": "prometheus/prometheus: v3.15.1",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.1",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-10-21T13:24:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7e65bce939120c1b0fa7f94130e7d64f",
-      "title": "n8n-io/n8n: n8n@2.45.1",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.1",
-      "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-10-21T13:00:42+00:00",
-      "summary": "n8n v2.45.1 patches bugs and adds minor improvements to the workflow automation engine.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering",
-        "CI/CD"
-      ],
-      "relevance_score": 0.75
-    },
-    {
       "id": "c2ccb42e4d37f607477c0e16b4cee6e9",
       "title": "Before you evaluate an AI SRE, give your existing agent context",
       "url": "https://www.cncf.io/blog/2026/10/21/before-you-evaluate-an-ai-sre-give-your-existing-agent-context/",
@@ -1146,100 +1112,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "63f50edf2379a6dcb2894eef7528b19a",
-      "title": "hashicorp/terraform: v1.17.0",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-10-21T17:32:54+00:00",
-      "summary": "Terraform v1.17.0 adds new features and improvements to the infrastructure-as-code tool, including enhanced module testing and provider updates.",
-      "tags": [
-        "Terraform",
-        "DevOps",
-        "Platform Engineering",
-        "Cloud"
-      ],
-      "relevance_score": 0.95
-    },
-    {
       "id": "1af528155faecb46c10613bcd6290cba",
       "title": "langchain-ai/langchain: langchain-perplexity==1.4.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-21T17:31:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "66e392e29297afccd130d3b588b2dee8",
-      "title": "apache/airflow: providers-ssh/7.0.1rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F7.0.1rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-21T16:49:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e9242a9280dde3499eb8043dae5077a7",
-      "title": "apache/airflow: providers-standard/1.21.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.21.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-21T16:49:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c7d4d081a66f32266c226ffe3d3784f2",
-      "title": "apache/airflow: providers-vespa/0.1.3rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-vespa%2F0.1.3rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-21T16:49:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ee7b8932e66269d743ea8c90b50c9e88",
-      "title": "apache/airflow: providers-smtp/3.2.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-smtp%2F3.2.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-21T16:48:59+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "116abef30fc0ce2c974c9e0d0ca14c10",
-      "title": "apache/airflow: providers-snowflake/6.20.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.20.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-21T16:48:59+00:00",
-      "summary": "Airflow Snowflake provider 6.20.0rc1 adds new connectors and performance improvements for data loading workflows.",
-      "tags": [
-        "Platform Engineering",
-        "DevOps",
-        "MLOps"
-      ],
-      "relevance_score": 0.85
-    },
-    {
-      "id": "4ea06fb5863544f8277d9119cece9494",
-      "title": "Learning in the AI era...",
-      "url": "https://www.reddit.com/r/devops/comments/1xbrzi1/learning_in_the_ai_era/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-21T16:31:24+00:00",
-      "summary": "Mid level engineer , who landed and worked my way up into the role. I wont lie and pretend I know everything, some topics I'm still working on, hell I haven't even touched Kubernetes yet, so you can imagine I feel way FREAKING behind. It seems like everything is quickly adopting and using AI, from d",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1757667a1cda66ffc8cb618038ef6142",
-      "title": "ollama/ollama: v0.40.8",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-21T16:20:30+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1255,21 +1132,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "abdb6adfe656179d24ff4c360c7129ce",
-      "title": "Certificate authority keys: eMudhra's browser and runtime trust gap",
-      "url": "https://dev.to/axrisi/certificate-authority-keys-emudhras-browser-and-runtime-trust-gap-4edc",
-      "source": "Dev.to",
-      "published_at": "2026-10-21T16:15:00Z",
-      "summary": "The eMudhra certificate authority incident shows why browser blocklists and runtime CA bundles need separate checks in deployed applications.",
-      "tags": [
-        "security",
-        "devops",
-        "python",
-        "programming"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "279290c52202bbe17f2e4477186dba9b",
       "title": "Your Agent Runs in a Docker Sandbox. Now It Can Join a Team.",
       "url": "https://www.docker.com/blog/band-ai-agents-docker-sandboxes/",
@@ -1280,99 +1142,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "73f8ee1d65905126bc3db921c8ee08fe",
-      "title": "How to Fix PHP2Shell (CVE-2026-109618 and CVE-2026-109619)",
-      "url": "https://dev.to/aerabi/how-to-fix-php2shell-cve-2026-109618-and-cve-2026-109619-3df3",
-      "source": "Dev.to",
-      "published_at": "2026-10-21T16:03:09Z",
-      "summary": "Fix PHP2Shell (CVE-2026-109618 and CVE-2026-109619): patch PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12, rebuild Docker images, and verify the runtime.",
-      "tags": [
-        "docker",
-        "security",
-        "devops",
-        "php"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f2c32f10cda4e2165c6767a2a03f7bc8",
-      "title": "LiteLLM Compromised again - 1.107.0. PyPI Installs a Credential Stealer and Backdoor",
-      "url": "https://www.reddit.com/r/devops/comments/1xbq9of/litellm_compromised_again_11070_pypi_installs_a/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-21T15:28:49+00:00",
-      "summary": "LiteLLM version 1.107.0 on PyPI found to contain a credential stealer and backdoor, raising serious supply chain security concerns for AI tooling.",
-      "tags": [
-        "Security",
-        "AI",
-        "DevOps",
-        "LLMOps"
-      ],
-      "relevance_score": 0.95
-    },
-    {
       "id": "ce7d44077d4837d25c42e9ba66bfad70",
       "title": "Introducing Agentic Autofix for code and dependencies",
       "url": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-10-21T15:06:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a151fa1f205c061781a71b55fc956cca",
-      "title": "AI Identity Crisis",
-      "url": "https://www.reddit.com/r/devops/comments/1xbpjnn/ai_identity_crisis/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-21T15:01:33+00:00",
-      "summary": "Reddit discussion exploring the evolving identity and role of AI in DevOps workflows, touching on cultural and technical shifts.",
-      "tags": [
-        "AI",
-        "DevOps"
-      ],
-      "relevance_score": 0.7
-    },
-    {
-      "id": "e20ace49d77efb411fabfc01fea92c24",
-      "title": "ollama/ollama: v0.40.8: mlx: add Flint model support (#19181)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-21T14:45:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5c0542712252ab5797a529d844c106f5",
-      "title": "From Pilot Purgatory to Agentic Chaos: Why Medium Enterprises Keep Breaking Their Own SDLCs",
-      "url": "https://dev.to/debashish_ghosal/from-pilot-purgatory-to-agentic-chaos-why-medium-enterprises-keep-breaking-their-own-sdlcs-4309",
-      "source": "Dev.to",
-      "published_at": "2026-10-21T14:00:00Z",
-      "summary": "Explores how medium enterprises struggle with SDLC breakdowns when adopting AI agents, moving from pilot phases to chaotic implementations.",
-      "tags": [
-        "AI",
-        "DevOps",
-        "Platform Engineering",
-        "LLMOps"
-      ],
-      "relevance_score": 0.8
-    },
-    {
-      "id": "dbc55d69a6ce37d64b6ef3eaad0046b1",
-      "title": "From feral to fiduciary: making AI agents serve your interests",
-      "url": "https://thenewstack.io/ai-agent-trust-score/",
-      "source": "The New Stack",
-      "published_at": "2026-10-21T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a29cc9eb5f9e13bdf43268912774da62",
-      "title": "prometheus/prometheus: v0.315.1",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.315.1",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-10-21T13:25:04+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1423,31 +1197,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-10-21T20:12:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "114c413c573dbe799cea0011db95ccef",
-      "title": "How to Fix PHP2Shell (CVE-2026-109618 and CVE-2026-109619)",
-      "url": "https://dev.to/docker/how-to-fix-php2shell-cve-2026-109618-and-cve-2026-109619-3df3",
-      "source": "Dev.to",
-      "published_at": "2026-10-21T16:03:09Z",
-      "summary": "Two critical vulnerabilities in PHP, two potential remote shells, and one very simple solution:...",
-      "tags": [
-        "docker",
-        "security",
-        "devops",
-        "php"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bab63320a4606625c24e8ecbdceabbeb",
-      "title": "ollama/ollama: v0.40.8-rc0: mlx: add Flint model support (#19181)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-21T14:45:50+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1610,16 +1359,6 @@
         "linux",
         "architecture"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "de01b15cd155bdc283f2ad5a40e2a237",
-      "title": "hashicorp/terraform: v1.17.0-rc2",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
-      "source": "GitHub Releases (hashicorp)",
-      "published_at": "2026-10-14T10:37:18+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -2385,21 +2124,6 @@
         "ai",
         "mcp",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fdfe8c71087a462abbedc6d84b76134b",
-      "title": "Ubuntu 26.10 Finishes the Rust Coreutils Switch. What Should Developers Test?",
-      "url": "https://dev.to/bargan/ubuntu-2610-finishes-the-rust-coreutils-switch-what-should-developers-test-3d4b",
-      "source": "Dev.to",
-      "published_at": "2026-10-21T13:08:28Z",
-      "summary": "Rust-based cp, mv and rm are only part of Ubuntu 26.10's compatibility story. A practical guide to testing OpenSSL 4, toolchains, CI and upgrade risks.",
-      "tags": [
-        "ubuntu",
-        "linux",
-        "devops",
-        "rust"
       ],
       "relevance_score": 0.0
     },
@@ -3509,6 +3233,196 @@
         "security",
         "devops",
         "webdev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e132bcdb97d91a038c33c57b87fd18d1",
+      "title": "hashicorp/terraform: v1.17.1",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
+      "source": "GitHub Releases (hashicorp)",
+      "published_at": "2026-10-28T18:02:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0e27060f533bf12827a7ed8c143db533",
+      "title": "ollama/ollama: v0.40.13-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-28T17:37:56+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a78353ce1c58aa26e5094b1588d0e092",
+      "title": "prometheus/prometheus: v0.316.0-rc.2",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v0.316.0-rc.2",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-10-28T16:47:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7c40c2e6555e0d8164324d128297e75d",
+      "title": "prometheus/prometheus: 3.16.0-rc.2 / 2026-10-27",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.16.0-rc.2",
+      "source": "GitHub Releases (prometheus)",
+      "published_at": "2026-10-28T16:47:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "30182f122a398deb14722c260c40514e",
+      "title": "Tailscale SSH Tailworm: what the fix in 1.104.4 closes",
+      "url": "https://dev.to/axrisi/tailscale-ssh-tailworm-what-the-fix-in-11044-closes-in0",
+      "source": "Dev.to",
+      "published_at": "2026-10-28T16:30:00Z",
+      "summary": "Tailscale SSH Tailworm explained: root-only sockets, version 1.104.4, plus Apple's git gap, Discord web search and the authors' suits against Anthropic.",
+      "tags": [
+        "security",
+        "devops",
+        "news",
+        "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "709a83a4c9334cb07a1c7b450047d4cd",
+      "title": "GitHub debuts Copilot Fusion, a new model selection & orchestration system that beats Claude Code for half the API cost",
+      "url": "https://thenewstack.io/github-copilot-fusion/",
+      "source": "The New Stack",
+      "published_at": "2026-10-28T16:19:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "12c94cb3abd161bea3329d99f37f302f",
+      "title": "GitHub saw 7.4B commits in September, adding 4M CPU cores and 160 PB of storage to keep up",
+      "url": "https://thenewstack.io/github-7-4b-commits-september/",
+      "source": "The New Stack",
+      "published_at": "2026-10-28T16:10:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0c362ed8adf81ad008e083e0a192b4d3",
+      "title": "building is so easy and verification becomes bottleneck now !!",
+      "url": "https://www.reddit.com/r/devops/comments/1xhs0o2/building_is_so_easy_and_verification_becomes/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-28T15:58:03+00:00",
+      "summary": "now we all know .. building/coding is easy with lot of ai tools/coding agents.. and pressure we are seeing during the deployment cycles verification and human in the loop cycle.. and wondering how are you guys handling it? we have team of 15+ and multiple teams and using Asana agents they have long ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9dcf0f83f2b96cdfbb54b76d5aee9ec9",
+      "title": "istio/istio: Istio 1.32.0-rc.0",
+      "url": "https://github.com/istio/istio/releases/tag/1.32.0-rc.0",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-10-28T15:46:38+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "381d3fb3942d69eece9f2f209c6d1268",
+      "title": "langchain-ai/langchain: langchain-core==1.7.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-28T15:00:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b182200f79d68df731c1ea05b35f974b",
+      "title": "Interview tomorrow (5+ YOE DevOps), CV deep-dive, but I’ve been caught in reorg purgatory doing nothing for months. How do I spin this?",
+      "url": "https://www.reddit.com/r/devops/comments/1xhpyph/interview_tomorrow_5_yoe_devops_cv_deepdive_but/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-28T14:42:29+00:00",
+      "summary": "I have an interview tomorrow for a DevOps Engineer position (I have 5+ YOE). The recruiter explicitly told me the interview will be a deep-dive through my CV. I’m in a massive bind regarding my current/most recent role and need some urgent advice on how to frame it. The Situation:  Early this year: ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e17ef805ddb34575cb1aa47172e2d4b7",
+      "title": "What happens when the agent is long gone, but its access key lives on?",
+      "url": "https://thenewstack.io/governing-ai-agent-credentials/",
+      "source": "The New Stack",
+      "published_at": "2026-10-28T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8060d66d6f45a5877d21a10d1e079b80",
+      "title": "The $87K API key leak had nothing to do with .env",
+      "url": "https://www.reddit.com/r/devops/comments/1xhoqdk/the_87k_api_key_leak_had_nothing_to_do_with_env/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-28T13:55:04+00:00",
+      "summary": "Every time someone posts about a leaked API key, the top advice is the same. Put it in .env, add .env to .gitignore, done. After the OpenCode breach and the LiteLLM mess this month I went back through the leaked key stories people posted this year. Found 10, with bills from $2 to about $87K. Not one",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d8bab95072e41da0d2b80a19d81c587b",
+      "title": "CloudFlare Tunnel with pre-auth (and multiple IdPs)",
+      "url": "https://www.reddit.com/r/devops/comments/1xhnx2t/cloudflare_tunnel_with_preauth_and_multiple_idps/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-28T13:21:50+00:00",
+      "summary": "I am working on setting up CloudFlare tunneling for a SaaS product in order to get WAF in front of the application and potentially use the CDN for faster distribution. In the process there was also a requirement to move over to using pre-authentication in front of our SaaS solution, so that all requ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "783d30c23a5979d680b8cf3e2b05191e",
+      "title": "AI agents need to be replaceable – without losing your work",
+      "url": "https://thenewstack.io/durable-ai-agent-operations/",
+      "source": "The New Stack",
+      "published_at": "2026-10-28T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fc4686aad020c13b679b1e69678af54b",
+      "title": "Win the Agentic Era, Together: Introducing the Docker Navigator Partner Program",
+      "url": "https://www.docker.com/blog/docker-navigator-partner-program/",
+      "source": "Docker Blog",
+      "published_at": "2026-10-28T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3cac882e8b514881fe17137ca6f86ed3",
+      "title": "Suggest a good laptop for DevOps under ₹90,000 in India",
+      "url": "https://www.reddit.com/r/devops/comments/1xhn43x/suggest_a_good_laptop_for_devops_under_90000_in/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-28T12:47:22+00:00",
+      "summary": "Hi everyone! I'm looking to buy a new laptop with a budget of ₹90,000 for learning and working with DevOps. My primary use cases will be: Docker and Docker Compose Kubernetes and Minikube/kind AWS (EKS, EC2, CI/CD, etc.) Jenkins, Terraform, Ansible and Linux Running multiple containers and virtual m",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "35ca27be4d905328eca6fb36f6558c10",
+      "title": "Why Static System Design Diagrams Lie (And How I Built a 60 FPS Distributed Systems Simulator in the Browser)",
+      "url": "https://dev.to/hanubaki/why-static-system-design-diagrams-lie-and-how-i-built-a-60-fps-distributed-systems-simulator-in-3h2k",
+      "source": "Dev.to",
+      "published_at": "2026-10-28T05:45:25Z",
+      "summary": "Every architecture review I've ever sat in goes roughly the same way. Someone opens Excalidraw or...",
+      "tags": [
+        "architecture",
+        "devops",
+        "webdev",
+        "opensource"
       ],
       "relevance_score": 0.0
     }
