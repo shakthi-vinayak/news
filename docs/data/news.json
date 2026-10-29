@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:51:19Z",
+  "generated_at": "2026-10-29T19:33:52Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -952,16 +952,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "eb3d3ef82c145f3bec1598004712f09d",
-      "title": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
-      "url": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/",
-      "source": "Docker Blog",
-      "published_at": "2026-10-12T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "121e659aadc90b37c5859145063e5f73",
       "title": "October Patches for Azure DevOps Server",
       "url": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
@@ -1007,16 +997,6 @@
       "url": "https://kubernetes.io/blog/2026/10/14/tracing-kueue-admission-with-headlamp/",
       "source": "Kubernetes Blog",
       "published_at": "2026-10-14T18:35:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6c9a098d89d04bda5eb598ae75e6332f",
-      "title": "Carbon as a first-class signal: Bringing software carbon intensity to OpenTelemetry",
-      "url": "https://www.cncf.io/blog/2026/10/15/carbon-as-a-first-class-signal-bringing-software-carbon-intensity-to-opentelemetry/",
-      "source": "CNCF Blog",
-      "published_at": "2026-10-15T22:21:45+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1092,16 +1072,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "1af528155faecb46c10613bcd6290cba",
-      "title": "langchain-ai/langchain: langchain-perplexity==1.4.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-21T17:31:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ff0f64fe87c4bb8ccf93eaa4c0e1026c",
       "title": "prometheus/prometheus: 3.15.1 / 2026-10-21",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.1",
@@ -1172,180 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b62b0220afa2df8d2950248d08cb2941",
-      "title": "Career change? Need help",
-      "url": "https://www.reddit.com/r/devops/comments/1xco4n8/career_change_need_help/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-22T16:57:28+00:00",
-      "summary": "Hey guys I am currently an Intelligence Analyst in HMRC but want to change career as I have hit a dead end and there isn't much room to grow unfortunately. What would you guys advise as a good career to transition into? I have been heavily reading up on DevOps but seem to be seeing a 50/50 fight goi",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9d57a0456b9b413b3f26e26f94e87a3e",
-      "title": "Do you review agent PRs differently?",
-      "url": "https://www.reddit.com/r/devops/comments/1xcnnzl/do_you_review_agent_prs_differently/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-22T16:40:30+00:00",
-      "summary": "I was looking into how to structure our review queues better and found some stats I wasn’t expecting. Apparently only about 32% of AI-generated PRs get merged within thirty days, compared to around 84% for manually written ones. I read a breakdown on this, and the suggestion kinda makes sense, which",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b58c9aeb8f698bcdbcf6f82a08f7e8df",
-      "title": "Ramp built an AI agent harness in six weeks — and LangChain’s CEO says it’s part of a bigger shift",
-      "url": "https://thenewstack.io/ramp-laminar-agent-harness/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T16:31:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d0fd3565638631aa2961a600410444af",
-      "title": "OpenAI donates Open Responses, its spec for a common LLM API, to the Agentic AI Foundation",
-      "url": "https://thenewstack.io/openai-donates-open-responses/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T16:01:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e77efbe350248f1a0854daca086feb90",
-      "title": "Enterprise AI Governance in 2026",
-      "url": "https://dev.to/kenwalger/building-an-enterprise-ai-governance-stack-2985",
-      "source": "Dev.to",
-      "published_at": "2026-10-22T15:58:00Z",
-      "summary": "An enterprise AI governance stack is not a gateway feature. It is a sequence of decisions that has to...",
-      "tags": [
-        "ai",
-        "architecture",
-        "security",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "8f8c2a6f6f7045456f3c4c29bf2b60fd",
-      "title": "OpenAI’s COBOL migration score has made a striking leap",
-      "url": "https://thenewstack.io/penai-cobol-migration-benchmark/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T15:34:58+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "649d775822f3752caada45223b3f925d",
-      "title": "Google and AWS open new paths for PyTorch beyond Nvidia",
-      "url": "https://thenewstack.io/pytorch-tpu-trainium-migration/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T15:23:23+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7dd50915fc461af57e1a930669c51fa4",
-      "title": "Who on-calls an AI? This is the unresolved crisis of agent ownership",
-      "url": "https://thenewstack.io/production-ai-agent-ownership/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e04893b05c1e5d761cf5c25182e11cf5",
-      "title": "Log Aggregation Pipeline Explained: Follow One Log Line and Run the Incident in Your Browser",
-      "url": "https://dev.to/devopsdaily/log-aggregation-pipeline-explained-follow-one-log-line-and-run-the-incident-in-your-browser-3h91",
-      "source": "Dev.to",
-      "published_at": "2026-10-22T14:50:09Z",
-      "summary": "Checkout says payments are timing out. You open the log search, filter on ERROR, type payment...",
-      "tags": [
-        "observability",
-        "devops",
-        "sre",
-        "logging"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "852fe2dda897111c6935faabe0966c00",
-      "title": "PHP’s security scramble is just a preview: AI is digging up flaws faster than maintainers can fix them",
-      "url": "https://thenewstack.io/php2shell-ai-vulnerabilities-maintainers/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T14:35:13+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "532f298fbdf7c7d5da982fbbf96613e7",
-      "title": "Your Retry Policy Is Making Production Outages Worse",
-      "url": "https://dev.to/johnnylemonny/your-retry-policy-is-making-production-outages-worse-31cb",
-      "source": "Dev.to",
-      "published_at": "2026-10-22T14:30:00Z",
-      "summary": "Default HTTP retries and un-jittered backoff turn brief network blips into self-inflicted DDoS attacks. Learn how to stop retry storms with full jitter and retry budgets.",
-      "tags": [
-        "discuss",
-        "backend",
-        "architecture",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f06aa9d77e1bf3301df0fc2535477e42",
-      "title": "DeepSeek V4.1-Flash-1017 vs. Claude Haiku 5.5: More accurate at a fraction of the price",
-      "url": "https://thenewstack.io/deepseek-flash-haiku-test/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T14:22:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bfd0322d2ee5db9dd5d88494e0ce6921",
-      "title": "AI agent security is a lifecycle — not a gatekeeper",
-      "url": "https://thenewstack.io/ai-agent-security-lifecycle/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T14:00:00+00:00",
-      "summary": "Presentation emphasizes MLOps as the critical enabler for scaling enterprise AI, covering pipelines, monitoring, and governance.",
-      "tags": [
-        "MLOps",
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 1.0
-    },
-    {
-      "id": "4b44829644dddd8a189449f985a436d6",
-      "title": "Nothing Reported It",
-      "url": "https://dev.to/kenwalger/nothing-reported-it-9ke",
-      "source": "Dev.to",
-      "published_at": "2026-10-22T13:34:00Z",
-      "summary": "Five ways my own test harness lied to me, and the one that nearly got published   The number...",
-      "tags": [
-        "ai",
-        "testing",
-        "programming",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ddb86a0400c37d3d93ab7d249b38eb8b",
-      "title": "Google turns the infrastructure behind Gemini’s agents into a cloud service",
-      "url": "https://thenewstack.io/google-agent-compute-engine/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "c6da15ed06abb2b08932964d162a20ac",
       "title": "istio/istio: Istio 1.31.3",
       "url": "https://github.com/istio/istio/releases/tag/1.31.3",
@@ -1401,56 +1197,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-10-22T19:39:48+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9ea5ab8345cab07480610ac74b8e3548",
-      "title": "how are you confirming the fix actually reached your running containers?",
-      "url": "https://www.reddit.com/r/devops/comments/1xcrscq/how_are_you_confirming_the_fix_actually_reached/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-22T19:11:33+00:00",
-      "summary": "disclosure: i work on radar, an open source k8s ui. we just added a php version check for this to its mcp server and want to know what it's missing. php2shell (CVE-2026-109618 / 109619) is all over the news: php core bugs that can allow unauthenticated rce, aws reports broad exploitation, fixed in 8",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9b4fa469ffbddd17d14a8626955f893a",
-      "title": "istio/istio: Istio 1.32.0-beta.0",
-      "url": "https://github.com/istio/istio/releases/tag/1.32.0-beta.0",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-10-22T18:41:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "bd808e39418bd213eb544156134e99d6",
-      "title": "Five AI agent harnesses took the same memory test. The results weren’t even close.",
-      "url": "https://thenewstack.io/letta-frontiermemory-agent-harness-benchmark/",
-      "source": "The New Stack",
-      "published_at": "2026-10-22T18:34:32+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ccbf8df2c55d9336db81755a6161abcf",
-      "title": "I'm a one man DevOps team and my production runs for $0.64 a day. Here's the real story.",
-      "url": "https://www.reddit.com/r/devops/comments/1xcpuj4/im_a_one_man_devops_team_and_my_production_runs/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-22T18:00:08+00:00",
-      "summary": "Most people writing cost posts here are spending their company's money. Mine comes out of my own pocket. I'm a solo DevOps engineer, I run the backend for a mobile app with real users, and the AWS bill is mine. That changes how you build things. Real setup, no dressing up. Two K3s nodes on t4g.small",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "74c1d55aa0d43bb3e444fb5e97453f0c",
-      "title": "langchain-ai/langchain: langchain-core==1.7.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-22T17:48:17+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1515,16 +1261,6 @@
       "relevance_score": 0.9
     },
     {
-      "id": "39f33a086fcbf44e08a6cb1dc0027c79",
-      "title": "ollama/ollama: v0.40.9-rc2: flint: fix replies with thinking disabled (#19216)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc2",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-22T18:38:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a22b8259b0db84647ca1e94ddbd12881",
       "title": "ollama/ollama: v0.40.9",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
@@ -1556,21 +1292,6 @@
         "docker",
         "node",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dd6dd98a3c4799c058866fc584442bb0",
-      "title": "PHP2Shell: Check Every Installed PHP Version on Debian 12 and 13",
-      "url": "https://dev.to/toxy4ny/php2shell-check-every-installed-php-version-on-debian-12-and-13-46je",
-      "source": "Dev.to",
-      "published_at": "2026-10-22T16:58:20Z",
-      "summary": "A read-only, open-source checker for PHP2Shell fixes across installed PHP packages on Debian 12 and...",
-      "tags": [
-        "webdev",
-        "php",
-        "devops",
-        "security"
       ],
       "relevance_score": 0.0
     },
@@ -1734,21 +1455,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "82228e83f5dbf3120acf23e922be203d",
-      "title": "PHP2Shell: Check Every Installed PHP Version on Debian 12 and 13 (UPD)",
-      "url": "https://dev.to/toxy4ny/php2shell-check-every-installed-php-version-on-debian-12-and-13-46je",
-      "source": "Dev.to",
-      "published_at": "2026-10-22T16:58:20Z",
-      "summary": "A read-only, open-source checker for PHP2Shell fixes across installed PHP packages on Debian 12 and...",
-      "tags": [
-        "webdev",
-        "php",
-        "devops",
-        "security"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "96a4dc2f5fd81eb00f6fd52aebf51dd0",
       "title": "AI jobs are waiting while GPUs sit idle. Kubernetes has a new plan.",
       "url": "https://thenewstack.io/kubernetes-agentic-ai-inference/",
@@ -1890,21 +1596,6 @@
         "devops",
         "networking",
         "performance"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "16ac739f8cf1cfcc273c82fe478056f2",
-      "title": "An MCP security checklist for developers wiring agents to real tools",
-      "url": "https://dev.to/bloqarl/an-mcp-security-checklist-for-developers-wiring-agents-to-real-tools-l71",
-      "source": "Dev.to",
-      "published_at": "2026-10-22T13:12:40Z",
-      "summary": "Connecting an agent to a tool through MCP takes about ten minutes. You add a server to a config file,...",
-      "tags": [
-        "security",
-        "ai",
-        "mcp",
-        "devops"
       ],
       "relevance_score": 0.0
     },
@@ -3222,13 +2913,14 @@
       "url": "https://dev.to/windowsmode/before-you-pipe-microsofts-one-line-dev-box-setup-into-iex-read-what-it-changes-27km",
       "source": "Dev.to",
       "published_at": "2026-10-28T08:06:20Z",
-      "summary": "Examines the system changes made by Microsoft's one-line Dev Box installation script, warning against blindly piping to `iex` without auditing.",
+      "summary": "At Build 2026 Microsoft announced two things that matter if you set up Windows machines for coding:...",
       "tags": [
-        "DevOps",
-        "Security",
-        "Cloud"
+        "windows",
+        "powershell",
+        "devops",
+        "productivity"
       ],
-      "relevance_score": 0.75
+      "relevance_score": 0.0
     },
     {
       "id": "7b4c7d854d1216040e3d8df8d5c08cdb",
@@ -3236,12 +2928,14 @@
       "url": "https://dev.to/jrpasolini/building-a-0-vps-on-google-cloud-dietpi-tailscale-ipv6-and-the-traps-i-hit-3aeb",
       "source": "Dev.to",
       "published_at": "2026-10-25T02:24:24Z",
-      "summary": "Step-by-step guide to building a free VPS on Google Cloud using DietPi, Tailscale, and IPv6, detailing the configuration traps encountered.",
+      "summary": "I wanted a small always-on Linux box: private SSH access, no public IPv4, and a bill of exactly zero....",
       "tags": [
-        "Cloud",
-        "DevOps"
+        "gcp",
+        "linux",
+        "devops",
+        "selfhosted"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "f8bc199c5f2a057eb1218ecc04e7c5d5",
@@ -3435,6 +3129,121 @@
         "sre",
         "cloud",
         "observability"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4fa40e1b4a25667c07dcb871cb8b71b9",
+      "title": "langchain-ai/langchain: langchain-core==1.7.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-29T19:04:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "829c3b1b0b286406bf6f497d3eb3cc05",
+      "title": "The boundary problem in agentic AI is a platform problem",
+      "url": "https://www.cncf.io/blog/2026/10/29/the-boundary-problem-in-agentic-ai-is-a-platform-problem/",
+      "source": "CNCF Blog",
+      "published_at": "2026-10-29T18:11:50+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8f57c7429e905198bda367f5308fa6d5",
+      "title": "Using Volumes in Docker",
+      "url": "https://dev.to/vultr/using-volumes-in-docker-454o",
+      "source": "Dev.to",
+      "published_at": "2026-10-29T17:08:50Z",
+      "summary": "Docker volumes are a persistent storage mechanism that decouples your data from the container...",
+      "tags": [
+        "docker",
+        "containers",
+        "devops",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d4ae765fbc169c1f4ba32868d8c1f853",
+      "title": "Why MCP servers should tell agents what to do next",
+      "url": "https://thenewstack.io/aws-mcp-agent-observability/",
+      "source": "The New Stack",
+      "published_at": "2026-10-29T15:55:39+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1e87460a55cbd1903dcc2663b33a6aa3",
+      "title": "AWS Elastic Beanstalk for regulated workloads: Built for the next decade, not just the first deploy",
+      "url": "https://thenewstack.io/elastic-beanstalk-regulated-workloads/",
+      "source": "The New Stack",
+      "published_at": "2026-10-29T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "56b475666ca229e8261abcce06463b3f",
+      "title": "DevOps conferences in Europe 2027",
+      "url": "https://www.reddit.com/r/devops/comments/1xijx97/devops_conferences_in_europe_2027/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-29T13:26:02+00:00",
+      "summary": "Hi everyone, What are some quality conferences in Europe worth visiting in 2027?  &#32; submitted by &#32;  /u/pancake_m4n   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2cc0c138d29feb5b375913511b2d9d7b",
+      "title": "Why Kubernetes platforms keep rebuilding a layer they could share",
+      "url": "https://thenewstack.io/kubernetes-resource-composition-layer/",
+      "source": "The New Stack",
+      "published_at": "2026-10-29T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dab33fadfc673512edf16a708231060d",
+      "title": "Coding Agent Horror Stories: The CVE That Did Not Exist",
+      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/",
+      "source": "Docker Blog",
+      "published_at": "2026-10-29T13:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "566db2001d60c281892147227804b769",
+      "title": "OpenAI Built an Offline Internet for Agents, and the Canary String Explains Why",
+      "url": "https://dev.to/reidmarlow/openai-built-an-offline-internet-for-agents-and-the-canary-string-explains-why-18p3",
+      "source": "Dev.to",
+      "published_at": "2026-10-25T16:21:35Z",
+      "summary": "OpenAI disclosed an isolated sandbox built on cached web snapshots to stop models from probing live infrastructure during reinforcement learning.",
+      "tags": [
+        "ai",
+        "security",
+        "machinelearning",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3e97cde40f4c9488db9b5bc59ce619f0",
+      "title": "PHP2Shell, Node.js, GitLab & LiteLLM Vulnerabilities: October 2026 Patch Guide",
+      "url": "https://dev.to/asyncinnovator/php2shell-nodejs-gitlab-litellm-vulnerabilities-october-2026-patch-guide-25le",
+      "source": "Dev.to",
+      "published_at": "2026-10-24T13:42:33Z",
+      "summary": "Four of the most-used stacks on the internet got hit in the same week. PHP, Node.js, GitLab and...",
+      "tags": [
+        "security",
+        "php",
+        "node",
+        "devops"
       ],
       "relevance_score": 0.0
     }
