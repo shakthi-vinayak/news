@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T19:29:30Z",
+  "generated_at": "2026-10-29T00:14:27Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -7,9 +7,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-10-28T07:18:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Stable release tag updated for n8n workflow automation platform.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "a69c8bf426b5af6dc0d16bee70c87f1a",
@@ -137,9 +141,15 @@
       "url": "https://www.infoq.com/presentations/mlops-tech/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-05-06T12:45:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Presentation on MLOps as a critical component for enterprise AI success, covering practices, tooling, and organizational alignment.",
+      "tags": [
+        "MLOps",
+        "DevOps",
+        "AI",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "4d3d5b133c03b8c709e8924252bf6d8f",
@@ -147,9 +157,13 @@
       "url": "https://www.infoq.com/news/2022/05/aws-iot-twinmaker-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-05-03T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Announces general availability of AWS IoT TwinMaker, a digital twin service for industrial IoT applications on the cloud.",
+      "tags": [
+        "Cloud",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "344375a1104b9724177f7de0e05558e8",
@@ -157,9 +171,15 @@
       "url": "https://www.infoq.com/articles/chaos-engineering-observability-visual-metaphors/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-05-02T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores chaos engineering and observability concepts using visual metaphors to improve system resilience understanding.",
+      "tags": [
+        "SRE",
+        "Observability",
+        "Chaos Engineering",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "7a0aab6a30ec48d23c92eb575f9318cf",
@@ -167,9 +187,15 @@
       "url": "https://www.infoq.com/news/2022/04/iasql-aws-infrastructure-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-04-30T06:22:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Introduces IaSQL, an open-source Infrastructure-as-SQL tool for managing AWS resources via PostgreSQL, offering an alternative to Terraform.",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "Terraform",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "4b3e8059368ba2ee8ebc833bbf6f8bb8",
@@ -177,9 +203,13 @@
       "url": "https://www.infoq.com/news/2022/04/amazon-aurora-serverless-v2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
       "source": "InfoQ DevOps",
       "published_at": "2022-04-29T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "AWS announces Aurora Serverless v2 with independent compute and storage scaling for better cost efficiency and performance.",
+      "tags": [
+        "Cloud",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "a9b01efd3e282550f4dca22d4bbcde6b",
@@ -447,9 +477,15 @@
       "url": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
       "source": "HashiCorp Blog",
       "published_at": "2026-08-05T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HCP Terraform positioned as the control plane for AI-driven infrastructure with new automation capabilities.",
+      "tags": [
+        "AI",
+        "Terraform",
+        "Platform Engineering",
+        "DevOps",
+        "LLMOps"
+      ],
+      "relevance_score": 0.92
     },
     {
       "id": "3372205c782ae049c17c41b131cb76e7",
@@ -527,9 +563,13 @@
       "url": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
       "source": "Kubernetes Blog",
       "published_at": "2026-08-28T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes 1.37 introduces pod certificates and cluster trust bundles for improved workload identity and mTLS.",
+      "tags": [
+        "Kubernetes",
+        "Security",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "1e90acc774d8afaf70ec6b7a4c3eeb37",
@@ -547,9 +587,13 @@
       "url": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
       "source": "Kubernetes Blog",
       "published_at": "2026-08-31T18:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes 1.37 enables storage version migration by default, simplifying API version upgrades for persistent data.",
+      "tags": [
+        "Kubernetes",
+        "Platform Engineering",
+        "DevOps"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "517e34dd11ffce0bcb92051342578e34",
@@ -557,9 +601,14 @@
       "url": "https://www.hashicorp.com/blog/hashicorp-vault-agentic-iam-is-now-generally-available",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-01T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HashiCorp Vault's agentic IAM reaches GA, enabling dynamic identity management for AI agents.",
+      "tags": [
+        "AI",
+        "Security",
+        "Platform Engineering",
+        "DevOps"
+      ],
+      "relevance_score": 0.88
     },
     {
       "id": "e49dbc3617c705c98e3a50c139e62e58",
@@ -697,9 +746,13 @@
       "url": "https://www.hashicorp.com/blog/simplifying-terraform-for-ibm-z-with-intent-driven-workflows",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-15T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "New intent-driven workflows simplify Terraform adoption on IBM Z mainframe environments.",
+      "tags": [
+        "Terraform",
+        "Platform Engineering",
+        "DevOps"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "a384990d25633cb45c8f6cb058ee6fbf",
@@ -707,9 +760,14 @@
       "url": "https://www.hashicorp.com/blog/introducing-hcp-terraform-metrics-operational-visibility-at-scale",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-03T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HCP Terraform Metrics provides operational visibility into runs, resources, and usage at scale.",
+      "tags": [
+        "Terraform",
+        "Observability",
+        "Platform Engineering",
+        "DevOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "d7f7b3f1eb047fba99843f31e8747657",
@@ -737,9 +795,14 @@
       "url": "https://www.hashicorp.com/blog/simplify-compliance-with-a-native-pre-written-policy-experience-in-terraform",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-17T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HCP Terraform adds pre-written policy packs to streamline compliance enforcement across workspaces.",
+      "tags": [
+        "Terraform",
+        "Security",
+        "Platform Engineering",
+        "DevOps"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "d74aad16db7730b705c14991e41fa9c8",
@@ -757,9 +820,13 @@
       "url": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-22T07:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HashiCorp Boundary now secures AI agent access with zero-trust networking and session controls.",
+      "tags": [
+        "AI",
+        "Security",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.82
     },
     {
       "id": "467ecd47aadeb505608b2b7e18d4cc7c",
@@ -767,9 +834,13 @@
       "url": "https://www.hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-23T04:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Google Cloud Terraform provider 8.0 reaches GA with new resources and improvements for GCP infrastructure.",
+      "tags": [
+        "Terraform",
+        "Cloud",
+        "DevOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "81c0d12e4c659aa9f7ad5e5e4ae6bb25",
@@ -877,9 +948,14 @@
       "url": "https://www.hashicorp.com/blog/terraform-116-completes-actions-lifecycles-and-brings-imports-into-child-modules",
       "source": "HashiCorp Blog",
       "published_at": "2026-09-28T07:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Terraform 1.16 adds action lifecycle hooks and allows imports into child modules, enhancing workflow control.",
+      "tags": [
+        "Terraform",
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.88
     },
     {
       "id": "761a2d26534c64dd3fd5c2bb0ad628ab",
@@ -967,9 +1043,14 @@
       "url": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/",
       "source": "Docker Blog",
       "published_at": "2026-10-12T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Docker Hub security advisory reveals personal access tokens were improperly transferred during account-to-organization conversions.",
+      "tags": [
+        "Security",
+        "DevOps",
+        "Containers",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "121e659aadc90b37c5859145063e5f73",
@@ -987,9 +1068,12 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
       "source": "Google AI Blog",
       "published_at": "2026-10-13T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Google introduces Gemini 4 Argon, a new AI model designed for complex reasoning and problem-solving tasks.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "063dca4bd1c9941c396c8091f034573c",
@@ -1007,9 +1091,15 @@
       "url": "https://www.docker.com/blog/harbor-docker-sandboxes-run-safe-reproducible-agent-evals/",
       "source": "Docker Blog",
       "published_at": "2026-10-14T21:45:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Docker and Harbor enable safe, reproducible evaluation environments for AI agents using sandboxed containers.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Containers",
+        "Platform Engineering",
+        "Security"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "cabdd52422db184bf595134ea4753dbd",
@@ -1062,16 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f14e38d164f30a038cd4039ffbd8ac7c",
-      "title": "Extending Kubernetes policy enforcement to runtime security for AI workloads",
-      "url": "https://www.cncf.io/blog/2026/10/15/extending-kubernetes-policy-enforcement-to-runtime-security-for-ai-workloads/",
-      "source": "CNCF Blog",
-      "published_at": "2026-10-15T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e745ca7e711a117e5b14e154f01d9200",
       "title": "How AI workloads are reshaping Kubernetes autoscaling",
       "url": "https://www.cncf.io/blog/2026/10/19/how-ai-workloads-are-reshaping-kubernetes-autoscaling/",
@@ -1117,9 +1197,12 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.2",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-21T17:31:06+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangChain integration for Perplexity API released at version 1.4.2.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "ff0f64fe87c4bb8ccf93eaa4c0e1026c",
@@ -1127,9 +1210,14 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.1",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-10-21T16:15:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Prometheus 3.15.1 release, a popular open-source monitoring and alerting system for cloud-native environments.",
+      "tags": [
+        "DevOps",
+        "Observability",
+        "SRE",
+        "Cloud"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "279290c52202bbe17f2e4477186dba9b",
@@ -1147,56 +1235,6 @@
       "url": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/",
       "source": "Azure DevOps Blog",
       "published_at": "2026-10-21T15:06:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e6173d20e9128e762153bf427ffa3b7a",
-      "title": "AI found flaws in the code behind 70% of the web. The fix took two months.",
-      "url": "https://thenewstack.io/ai-php2shell-disclosure-framework/",
-      "source": "The New Stack",
-      "published_at": "2026-10-21T22:17:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7f42a89ab58414cc256eaa1d85e358b7",
-      "title": "ollama/ollama: v0.40.8",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.8",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-21T21:46:35+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ba3626e9e8cfd78b53c449ddc4ae1c03",
-      "title": "Amodei says Anthropic’s safety delay may have cost it an AI lead",
-      "url": "https://thenewstack.io/anthropic-mythos-safety-pace/",
-      "source": "The New Stack",
-      "published_at": "2026-10-21T21:22:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "218751af7435e35b6080bfd640770a65",
-      "title": "langchain-ai/langchain: langchain-core==1.6.13",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-21T20:43:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dbdb21b4b8dc0c98ead37ab5604ce5a3",
-      "title": "ollama/ollama: v0.40.9-rc0: ci: switch to released WoA CTK (#19185)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-21T20:12:06+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1228,16 +1266,6 @@
       "source": "AWS Blog (Containers)",
       "published_at": "2026-10-21T23:34:27+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "00ccf2292d1778f1a8661648e8e81657",
-      "title": "Would you use a Go-based Ansible alternative with HCL configs?",
-      "url": "https://www.reddit.com/r/devops/comments/1xbx70p/would_you_use_a_gobased_ansible_alternative_with/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-21T19:40:36+00:00",
-      "summary": "I'm considering building an open-source server configuration tool in Go, in the space of Ansible. Nothing is built yet, I'm checking whether the idea makes sense. The idea: - one binary, no Python, connects to servers over SSH - configs in HCL (like Terraform) instead of YAML + Jinja - `plan` shows ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1292,9 +1320,14 @@
       "url": "https://github.com/argoproj/argo-cd/releases/tag/gitops-engine%2Fv3.6.0-rc4",
       "source": "GitHub Releases (argoproj)",
       "published_at": "2026-10-22T09:53:28+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Argo CD gitops-engine v3.6.0-rc4 released, advancing GitOps continuous delivery capabilities for Kubernetes.",
+      "tags": [
+        "CI/CD",
+        "DevOps",
+        "Platform Engineering",
+        "Kubernetes"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "4430fec32d6c02dbf74f63d8d2f8299f",
@@ -1541,9 +1574,13 @@
       "url": "https://github.com/istio/istio/releases/tag/1.31.3",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-10-22T12:46:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Istio 1.31.3 release, a stable version of the service mesh for Kubernetes environments.",
+      "tags": [
+        "Service Mesh",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "72acd131407c6120b3932d464b4c8f29",
@@ -1551,9 +1588,13 @@
       "url": "https://github.com/istio/istio/releases/tag/1.29.10",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-10-22T12:45:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Istio 1.29.10 release, an earlier stable version of the Kubernetes service mesh.",
+      "tags": [
+        "Service Mesh",
+        "DevOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "73d29fce582249c060edf78573772f9d",
@@ -2018,9 +2059,13 @@
       "url": "https://github.com/apache/airflow/releases/tag/ts-sdk%2F1.0.0-beta1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-10-24T09:51:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "TypeScript SDK beta 1 enables programmatic workflow definitions using TS for Airflow.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "587977eafc413ced8ea7f10e04c40b8e",
@@ -2183,9 +2228,13 @@
       "url": "https://github.com/apache/airflow/releases/tag/providers-vespa%2F0.1.3",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-10-24T19:09:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Vespa provider 0.1.3 adds integration for running Airflow tasks against Vespa search engine.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "44e004c6d1c5e221a18ac71499c472e3",
@@ -2534,9 +2583,11 @@
       "url": "https://thenewstack.io/anthropic-s1-models-revenue/",
       "source": "The New Stack",
       "published_at": "2026-10-26T18:29:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Covers Anthropic's revenue growth driven by recently launched models, focusing on business metrics rather than technical infrastructure.",
+      "tags": [
+        "AI"
+      ],
+      "relevance_score": 0.3
     },
     {
       "id": "6c68e01cfb8ea593905dd7165625be21",
@@ -2554,9 +2605,13 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.40",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-26T16:45:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Command-line interface for LangGraph updated to version 0.4.40.",
+      "tags": [
+        "AI",
+        "LLMOps",
+        "CI/CD"
+      ],
+      "relevance_score": 0.6
     },
     {
       "id": "9822f0b916f5fc219a7ee75961037ae5",
@@ -2564,9 +2619,13 @@
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/v0.164.0",
       "source": "GitHub Releases (open-telemetry)",
       "published_at": "2026-10-26T14:54:44+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "OpenTelemetry Collector v1.70.0 release, providing unified telemetry collection for observability pipelines.",
+      "tags": [
+        "DevOps",
+        "Observability",
+        "SRE"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "786c326b70a002b269a58ef6e30b4d67",
@@ -2574,9 +2633,12 @@
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/scraper%2Fxscraper%2Fv0.164.0",
       "source": "GitHub Releases (open-telemetry)",
       "published_at": "2026-10-26T14:54:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "OpenTelemetry Collector XScraper release, a scraping integration for telemetry data.",
+      "tags": [
+        "DevOps",
+        "Observability"
+      ],
+      "relevance_score": 0.5
     },
     {
       "id": "3c669106e9c69f06f189c560f83cea33",
@@ -2584,9 +2646,12 @@
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Fhostcapabilities%2Fv0.164.0",
       "source": "GitHub Releases (open-telemetry)",
       "published_at": "2026-10-26T14:54:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "OpenTelemetry Collector host capabilities release, enabling host-level telemetry collection.",
+      "tags": [
+        "DevOps",
+        "Observability"
+      ],
+      "relevance_score": 0.5
     },
     {
       "id": "ad087c3256bc94bf5e174ffcae9cc219",
@@ -2594,9 +2659,12 @@
       "url": "https://github.com/open-telemetry/opentelemetry-collector/releases/tag/service%2Ftelemetry%2Ftelemetrytest%2Fv0.164.0",
       "source": "GitHub Releases (open-telemetry)",
       "published_at": "2026-10-26T14:54:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "OpenTelemetry Collector service telemetry test release, part of the telemetry testing infrastructure.",
+      "tags": [
+        "DevOps",
+        "Observability"
+      ],
+      "relevance_score": 0.6
     },
     {
       "id": "8a3e347ca97febdf8757a16b16d235cf",
@@ -2604,9 +2672,11 @@
       "url": "https://thenewstack.io/claude-codes-enterprise-20-to-1/",
       "source": "The New Stack",
       "published_at": "2026-10-26T14:32:03+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Highlights enterprise spending disparity on Claude Code from Anthropic's IPO filing, emphasizing adoption trends.",
+      "tags": [
+        "AI"
+      ],
+      "relevance_score": 0.3
     },
     {
       "id": "aca6117122ddba439215cf8648d135fe",
@@ -2669,9 +2739,12 @@
       "url": "https://thenewstack.io/openai-terra-bypassed-restrictions/",
       "source": "The New Stack",
       "published_at": "2026-10-26T22:14:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Reports on OpenAI's price reduction for agents and safety report findings, highlighting business and safety implications.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.6
     },
     {
       "id": "1411a2eca5bbd0407bc0d0d3813beffe",
@@ -2679,9 +2752,13 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-26T20:05:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangGraph framework for building stateful LLM applications reaches version 1.2.18.",
+      "tags": [
+        "AI",
+        "LLMOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "8038a5da513da2dcdf8c71531c297864",
@@ -2689,9 +2766,12 @@
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.1",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-26T19:57:41+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangGraph checkpointing library released at version 4.3.1 for state persistence.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "7c3bf5b0624dc4794f0feb36589cbd30",
@@ -2699,19 +2779,15 @@
       "url": "https://thenewstack.io/kubernetes-agentic-ai-platforms/",
       "source": "The New Stack",
       "published_at": "2026-10-26T19:51:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "38eef07e90971d05858c609c0e4f683d",
-      "title": "langchain-ai/langchain: langchain==1.4.7",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-21T21:39:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Discusses how AI workloads are reshaping Kubernetes platform requirements and what teams must prepare for by 2027.",
+      "tags": [
+        "AI",
+        "Kubernetes",
+        "Platform Engineering",
+        "MLOps",
+        "Cloud"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "859ff314ba175d393cd7f0ab07e5fe19",
@@ -2768,9 +2844,14 @@
       "url": "https://github.com/grafana/grafana/releases/tag/v12.4.14",
       "source": "GitHub Releases (grafana)",
       "published_at": "2026-10-27T11:22:02+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Grafana 12.4.14 maintenance release with bug fixes and stability improvements for the 12.x series.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "401e5a19d282673089357a97a0cf8b5f",
@@ -2778,9 +2859,14 @@
       "url": "https://github.com/grafana/grafana/releases/tag/v13.3.0",
       "source": "GitHub Releases (grafana)",
       "published_at": "2026-10-27T11:14:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Grafana 13.3.0 introduces new observability features, dashboard improvements, and data source enhancements.",
+      "tags": [
+        "Observability",
+        "DevOps",
+        "SRE",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "fece79b9b0c5ecf4c38f261f81214e58",
@@ -2922,9 +3008,12 @@
       "url": "https://thenewstack.io/openai-devday-models-agents/",
       "source": "The New Stack",
       "published_at": "2026-10-27T14:23:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "OpenAI developer lead explains why they don't use Astra DB daily, offering insight into AI development tool preferences.",
+      "tags": [
+        "AI",
+        "DevOps"
+      ],
+      "relevance_score": 0.65
     },
     {
       "id": "fe725627b883dfded90b0d08644d5e25",
@@ -2932,9 +3021,15 @@
       "url": "https://thenewstack.io/kubernetes-control-plane-failures/",
       "source": "The New Stack",
       "published_at": "2026-10-27T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Deep dive into obscure Kubernetes control plane failure modes that impact cluster availability and how to detect them.",
+      "tags": [
+        "Kubernetes",
+        "SRE",
+        "Platform Engineering",
+        "Observability",
+        "Cloud"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "8b3a2e1db8a538b7f265594ec1c9d966",
@@ -2967,9 +3062,14 @@
       "url": "https://thenewstack.io/how-to-sandbox-agents/",
       "source": "The New Stack",
       "published_at": "2026-10-27T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores sandboxing techniques for AI agents to ensure true isolation, addressing security concerns in agentic AI deployments.",
+      "tags": [
+        "AI",
+        "Security",
+        "LLMOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "69901c13335af6b033da44bcabfc53a8",
@@ -2992,9 +3092,15 @@
       "url": "https://thenewstack.io/serverless-kubernetes-aws-fargate/",
       "source": "The New Stack",
       "published_at": "2026-10-27T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Details the architecture of serverless Kubernetes on AWS Fargate, explaining the one-pod-per-node model for scalable, managed clusters.",
+      "tags": [
+        "Kubernetes",
+        "Cloud",
+        "Platform Engineering",
+        "Containers",
+        "DevOps"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "b26a365b2a75764ee774e272f35b735d",
@@ -3062,9 +3168,15 @@
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.2",
       "source": "GitHub Releases (kubernetes)",
       "published_at": "2026-10-28T04:37:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes v1.37.2 patch release includes bug fixes and security updates for the 1.37 series.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Platform Engineering",
+        "Containers",
+        "Security"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "1382511ee28134bfc962df2e4adc1755",
@@ -3082,9 +3194,12 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.7",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-27T23:48:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "LangChain integration package for Anthropic models updated to version 1.7.7.",
+      "tags": [
+        "AI",
+        "LLMOps"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "564f6aabdf8ddb04c2987e61ae92a9dc",
@@ -3092,9 +3207,12 @@
       "url": "https://thenewstack.io/genie-4-world-model/",
       "source": "The New Stack",
       "published_at": "2026-10-27T22:33:51+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Google's Genie 4 world model provides a physics simulation environment for AI agents to practice, though physics fidelity remains limited.",
+      "tags": [
+        "AI",
+        "MLOps"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "5ce4372f3295b403d862997cbf05c7ad",
@@ -3122,9 +3240,15 @@
       "url": "https://thenewstack.io/openai-agentic-identity-scale/",
       "source": "The New Stack",
       "published_at": "2026-10-28T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Analyzes how OpenAI's 1.2B user scale transforms authentication requirements for agentic workflows and identity management.",
+      "tags": [
+        "AI",
+        "Security",
+        "DevOps",
+        "Platform Engineering",
+        "LLMOps"
+      ],
+      "relevance_score": 0.85
     },
     {
       "id": "5b98c7e821c12f5b339ad3c057c2194b",
@@ -3132,9 +3256,13 @@
       "url": "https://github.com/apache/airflow/releases/tag/constraints-3.4.0rc1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-10-28T11:16:49+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Constraints release 3.4.0rc1 pins dependency versions to ensure stable Airflow deployments.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "SRE"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "110c4f1dd91105b9543b9f0569d5b1df",
@@ -3152,9 +3280,13 @@
       "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.4.0rc1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-10-28T10:22:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Airflow task-sdk 1.4.0rc1 introduces new task execution APIs for building modular workflows.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "291bdfadf8a8fb2b68eb2805874fb1bc",
@@ -3162,9 +3294,15 @@
       "url": "https://github.com/apache/airflow/releases/tag/3.4.0rc1",
       "source": "GitHub Releases (apache)",
       "published_at": "2026-10-28T10:22:12+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Apache Airflow 3.4.0 release candidate 1 introduces new features for workflow orchestration.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD",
+        "Kubernetes",
+        "Cloud"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "1ba11da003d4ab2757cc681319f4a467",
@@ -3172,9 +3310,14 @@
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-alpha.3",
       "source": "GitHub Releases (kubernetes)",
       "published_at": "2026-10-28T09:02:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Kubernetes v1.38.0-alpha.3 released with new features and enhancements for container orchestration.",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Platform Engineering",
+        "Containers"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "b25c38477aac7167637734c03cb7a989",
@@ -3182,9 +3325,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.0.1",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-10-28T08:11:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Major version 3.0.1 of n8n released with new features and breaking changes.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "5c8fcd723efabe387f05e1a065ad8343",
@@ -3192,9 +3339,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.45.5",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-10-28T07:19:58+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Patch release 2.45.5 for n8n addressing bug fixes and minor enhancements.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.7
     },
     {
       "id": "416c4838e8bf94e295a6c6b9f566b650",
@@ -3202,9 +3353,13 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/v1",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-10-28T07:07:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "n8n workflow automation platform releases version 1.123.89 with bug fixes and improvements.",
+      "tags": [
+        "DevOps",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.8
     },
     {
       "id": "fa34b5c25e9c82cd470b65873d7eeefb",
@@ -3242,9 +3397,15 @@
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
       "source": "GitHub Releases (hashicorp)",
       "published_at": "2026-10-28T18:02:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "HashiCorp releases Terraform v1.17.1 with improvements to infrastructure as code workflows.",
+      "tags": [
+        "Terraform",
+        "DevOps",
+        "Platform Engineering",
+        "Cloud",
+        "CI/CD"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "0e27060f533bf12827a7ed8c143db533",
@@ -3262,9 +3423,14 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v0.316.0-rc.2",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-10-28T16:47:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Prometheus v0.316.0-rc.2 appears to be an alternative versioning scheme release candidate for the monitoring system.",
+      "tags": [
+        "Observability",
+        "SRE",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "7c40c2e6555e0d8164324d128297e75d",
@@ -3272,9 +3438,14 @@
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.16.0-rc.2",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-10-28T16:47:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Prometheus 3.16.0-rc.2 release candidate brings new metrics, scraping, and storage improvements.",
+      "tags": [
+        "Observability",
+        "SRE",
+        "DevOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.95
     },
     {
       "id": "30182f122a398deb14722c260c40514e",
@@ -3297,9 +3468,14 @@
       "url": "https://thenewstack.io/github-copilot-fusion/",
       "source": "The New Stack",
       "published_at": "2026-10-28T16:19:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "GitHub launches Copilot Fusion, a model orchestration system for AI coding that reduces API costs by half compared to Claude Code.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "LLMOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.88
     },
     {
       "id": "12c94cb3abd161bea3329d99f37f302f",
@@ -3307,9 +3483,14 @@
       "url": "https://thenewstack.io/github-7-4b-commits-september/",
       "source": "The New Stack",
       "published_at": "2026-10-28T16:10:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "GitHub reports massive scale with 7.4 billion commits in September, adding 4M CPU cores and 160 PB storage to handle growth.",
+      "tags": [
+        "DevOps",
+        "Cloud",
+        "Platform Engineering",
+        "CI/CD"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "0c362ed8adf81ad008e083e0a192b4d3",
@@ -3327,9 +3508,14 @@
       "url": "https://github.com/istio/istio/releases/tag/1.32.0-rc.0",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-10-28T15:46:38+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Istio 1.32.0-rc.0 release, a cloud-native service mesh for managing service-to-service traffic.",
+      "tags": [
+        "Service Mesh",
+        "DevOps",
+        "Cloud",
+        "SRE"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "381d3fb3942d69eece9f2f209c6d1268",
@@ -3337,9 +3523,13 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.1",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-10-28T15:00:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Langchain core 1.7.1 release, an open-source framework for building AI applications with LLMs.",
+      "tags": [
+        "AI",
+        "LLMOps",
+        "DevOps"
+      ],
+      "relevance_score": 0.75
     },
     {
       "id": "b182200f79d68df731c1ea05b35f974b",
@@ -3357,9 +3547,15 @@
       "url": "https://thenewstack.io/governing-ai-agent-credentials/",
       "source": "The New Stack",
       "published_at": "2026-10-28T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Explores the security risks of orphaned AI agent credentials and the need for governance over machine identities.",
+      "tags": [
+        "Security",
+        "AI",
+        "DevOps",
+        "LLMOps",
+        "Platform Engineering"
+      ],
+      "relevance_score": 0.9
     },
     {
       "id": "8060d66d6f45a5877d21a10d1e079b80",
@@ -3387,9 +3583,14 @@
       "url": "https://thenewstack.io/durable-ai-agent-operations/",
       "source": "The New Stack",
       "published_at": "2026-10-28T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
+      "summary": "Argues AI agents must be designed as replaceable components with durable execution state to avoid vendor lock-in and data loss.",
+      "tags": [
+        "AI",
+        "DevOps",
+        "Platform Engineering",
+        "LLMOps"
+      ],
+      "relevance_score": 0.88
     },
     {
       "id": "fc4686aad020c13b679b1e69678af54b",
@@ -3423,6 +3624,35 @@
         "devops",
         "webdev",
         "opensource"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ce16cc3fdaf2c3a331b7005775accc45",
+      "title": "ollama/ollama: v0.40.13",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-10-28T23:48:33+00:00",
+      "summary": "Ollama v0.40.13-rc1 release, a lightweight runtime for running local large language models.",
+      "tags": [
+        "AI",
+        "LLMOps",
+        "DevOps"
+      ],
+      "relevance_score": 0.7
+    },
+    {
+      "id": "c0ec235df2f049abd55b254a01c45642",
+      "title": "A Service Catalog Nobody Updates Can Be Worse Than None: We Checked 217 Entries Against GitHub",
+      "url": "https://dev.to/devopsdaily/a-service-catalog-nobody-updates-can-be-worse-than-none-we-checked-217-entries-against-github-1do7",
+      "source": "Dev.to",
+      "published_at": "2026-10-22T09:00:00Z",
+      "summary": "We took 217 service catalog entries that 30 organizations publish on GitHub, in the Backstage...",
+      "tags": [
+        "devops",
+        "backstage",
+        "servicecatalog",
+        "platformengineering"
       ],
       "relevance_score": 0.0
     }
