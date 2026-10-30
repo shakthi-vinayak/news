@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:11:20Z",
+  "generated_at": "2026-10-30T23:40:05Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1142,16 +1142,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "72acd131407c6120b3932d464b4c8f29",
-      "title": "istio/istio: Istio 1.29.10",
-      "url": "https://github.com/istio/istio/releases/tag/1.29.10",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-10-22T12:45:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "65e2ab1f6b4dd6666401c071ef2c446b",
       "title": "Security Update on PHP2Shell: Impact for Docker Customers",
       "url": "https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers/",
@@ -1179,21 +1169,6 @@
       "published_at": "2026-10-20T16:48:07+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7eedfb4dcc76e14f568ea7f96be17114",
-      "title": "Most Package Managers Won't Stop a Tampered Download by Default",
-      "url": "https://dev.to/dhruv1206/most-package-managers-wont-stop-a-tampered-download-by-default-1a67",
-      "source": "Dev.to",
-      "published_at": "2026-10-23T17:22:37Z",
-      "summary": "Trail of Bits tested 25 package managers against a compromised server. Only Go and vcpkg verified every download. Here's what to change in your CI.",
-      "tags": [
-        "security",
-        "devops",
-        "opensource",
-        "programming"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1318,16 +1293,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-10-24T17:34:38+00:00",
       "summary": "      &#32; submitted by &#32;  /u/astropoolIO   [link] &#32; [comments] ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f626d8ffd968f7cb7b447b6d4eb6ff8d",
-      "title": "ollama/ollama: v0.40.11-rc0: voice: add voice catalog for Phonon (#19242)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-23T23:15:08+00:00",
-      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -3195,6 +3160,135 @@
         "devops",
         "performance"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f8352bb21e06d727675078808727fde3",
+      "title": "istio/istio: Istio 1.32.0-rc.1",
+      "url": "https://github.com/istio/istio/releases/tag/1.32.0-rc.1",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-10-30T23:23:03+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9ecf94ad1c1443f680461f776a2e1d66",
+      "title": "langchain-ai/langgraph: langgraph==1.2.19",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-30T22:23:43+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3416d0476980dfe65846c2f1d7ef5b53",
+      "title": "langchain-ai/langgraph: langgraph-checkpoint-sqlite==3.1.3",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.3",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-10-30T22:18:54+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1a733943c5c54b4eea7c4b5d8954a37f",
+      "title": "Inquest — Autonomous AI Infrastructure Investigation | Nebius AI Hackathon Demo",
+      "url": "https://www.reddit.com/r/devops/comments/1xjrekr/inquest_autonomous_ai_infrastructure/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-30T21:06:13+00:00",
+      "summary": "      Hey everyone! I've been experimenting with AI-powered troubleshooting in my homelab and wanted to share what I've built. The project is called Inquest. My setup uses an Ubuntu VM, OpenTelemetry Collector, SigNoz, and a Node.js application generating telemetry. Instead of manually inspecting me",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0e56722b2b0b7f4a06b2bf12717f2c0d",
+      "title": "How to test an automation before production: A practical checklist",
+      "url": "https://dev.to/abmlib/how-to-test-an-automation-before-production-a-practical-checklist-35p6",
+      "source": "Dev.to",
+      "published_at": "2026-10-30T20:54:44Z",
+      "summary": "Building an automation that works is one thing, but knowing whether it's ready for production...",
+      "tags": [
+        "automation",
+        "devops",
+        "testing"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f0ec82e790466209d1175dd59773e937",
+      "title": "Anthropic just removed one of Claude’s biggest usage limits — but not for everyone",
+      "url": "https://thenewstack.io/claude-ultra-session-limit/",
+      "source": "The New Stack",
+      "published_at": "2026-10-30T20:14:04+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ae6e794287d96bf76378fe744de80f23",
+      "title": "Busy GPUs can hide slow AI inference on Kubernetes",
+      "url": "https://thenewstack.io/ai-inference-kubernetes-observability/",
+      "source": "The New Stack",
+      "published_at": "2026-10-30T19:56:41+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d7dd37b1b2761b03315840379545faa4",
+      "title": "S3 Glacier Restore Is Not a Storage-Class Migration",
+      "url": "https://dev.to/nishikantaray/s3-glacier-restore-is-not-a-storage-class-migration-3ffo",
+      "source": "Dev.to",
+      "published_at": "2026-10-30T19:42:58Z",
+      "summary": "Amazon S3 offers different storage classes to help reduce storage costs. One of them is S3 Glacier,...",
+      "tags": [
+        "aws",
+        "cloud",
+        "infrastructure",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a094c6e591a1cced2c42c2e56826eb7f",
+      "title": "I got tired of production incidents caused by bad config, so I built a scanner",
+      "url": "https://dev.to/vishnusatheesh/i-got-tired-of-production-incidents-caused-by-bad-config-so-i-built-a-scanner-ohd",
+      "source": "Dev.to",
+      "published_at": "2026-10-30T16:26:43Z",
+      "summary": "How a 3 AM Kubernetes incident led me to build StackGuard, an open-source tool that scans your infra...",
+      "tags": [
+        "devops",
+        "opensource",
+        "go",
+        "kubernetes"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6b9acf1d60c435ab4ded43cd0a3bb732",
+      "title": "Deploy complete isn't code live",
+      "url": "https://dev.to/alexiskroberson/deploy-complete-isnt-code-live-3kg1",
+      "source": "Dev.to",
+      "published_at": "2026-10-28T20:03:47Z",
+      "summary": "The deploy job turns green at 2:14 p.m. Someone drops the link in the team channel, and the on-call...",
+      "tags": [
+        "devops",
+        "sre",
+        "featureflags",
+        "launchdarkly"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9b4fa469ffbddd17d14a8626955f893a",
+      "title": "istio/istio: Istio 1.32.0-beta.0",
+      "url": "https://github.com/istio/istio/releases/tag/1.32.0-beta.0",
+      "source": "GitHub Releases (istio)",
+      "published_at": "2026-10-22T18:41:12+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
