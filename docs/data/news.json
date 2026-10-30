@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T12:43:40Z",
+  "generated_at": "2026-10-30T19:11:20Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -17,16 +17,6 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-10-27T08:40:55+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b6cade7da357516bcb19c37b0ec9c094",
-      "title": "The future of software engineering is SRE",
-      "url": "https://swizec.com/blog/the-future-of-software-engineering-is-sre/",
-      "source": "Hacker News",
-      "published_at": "2026-01-25T22:18:38Z",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1192,90 +1182,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b387e40deb01ec59c2d14847e9abc4dd",
-      "title": "ollama/ollama: v0.40.10",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-23T17:17:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7ce1d010605498b7814fad8ca4091b77",
-      "title": "I built and deployed a full platform in 7 hours without touching my keyboard once",
-      "url": "https://www.reddit.com/r/devops/comments/1xdik4p/i_built_and_deployed_a_full_platform_in_7_hours/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-23T16:19:02+00:00",
-      "summary": "Last week I gave myself a stupid challenge. It changed how I think about AI ruining the DevOps job market. The rules were simple. No keyboard, only mouse and voice. No paid tools, only free AI tools. 8 hours to build and deploy a real project, not a demo. I picked LearnStack, a full learning platfor",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "84ef9b0786035ec67524280a7b0f06f3",
-      "title": "Terraform can't deploy multiple VMs",
-      "url": "https://www.reddit.com/r/devops/comments/1xdigxy/terraform_cant_deploy_multiple_vms/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-23T16:15:48+00:00",
-      "summary": "Hey guys, I'm kinda new to world of devops and automation so I thought I'll start easy by creating VMs on Proxmox with Terraform via my CI/CD Gitea. When I create 1 VM, everything works but when I create 2 or more I get this error :  Run terraform -chdir=terraform apply -input=false tfplan proxmox_v",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "02793b210eb3c242f5fa1ef5b9daef5d",
-      "title": "apache/airflow: go-sdk/v1.0.0-beta4",
-      "url": "https://github.com/apache/airflow/releases/tag/go-sdk%2Fv1.0.0-beta4",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-23T15:01:47+00:00",
-      "summary": "Airflow introduces Go SDK beta 1.0.0, enabling Go-based operators and improved integration for workflow orchestration.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering",
-        "MLOps"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "118c989c275ac3dfa2d5071112aca3ef",
-      "title": "Suggest me any project in AWS with Terraform!",
-      "url": "https://www.reddit.com/r/devops/comments/1xdfrgt/suggest_me_any_project_in_aws_with_terraform/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-23T14:34:27+00:00",
-      "summary": "Guys help me i have totally 2.8 years of exprience in Cloud and Devops Engineer now i am working as a SRE but still i am not full fill with my current company now i am thinking to change for that i need to take pratices. for that give me suggession and Projects that will helpfull for me to cover eve",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7a9f85f79c290644a942172da5eeefb",
-      "title": "langchain-ai/langgraph: langgraph-sdk==0.4.9",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-10-23T14:19:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d8f85cf4a268d244f26d55ec68bba18a",
-      "title": "ollama/ollama: v0.40.10-rc0: Update gemma renderers (#19241)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.10-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-23T14:12:11+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "96a4dc2f5fd81eb00f6fd52aebf51dd0",
-      "title": "AI jobs are waiting while GPUs sit idle. Kubernetes has a new plan.",
-      "url": "https://thenewstack.io/kubernetes-agentic-ai-inference/",
-      "source": "The New Stack",
-      "published_at": "2026-10-23T19:08:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7eedfb4dcc76e14f568ea7f96be17114",
       "title": "Most Package Managers Won't Stop a Tampered Download by Default",
       "url": "https://dev.to/dhruv1206/most-package-managers-wont-stop-a-tampered-download-by-default-1a67",
@@ -1328,21 +1234,6 @@
       "published_at": "2026-10-24T04:46:48+00:00",
       "summary": "With Black October happening and all.  &#32; submitted by &#32;  /u/Playful_Aioli_5104   [link] &#32; [comments]",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "572f8f7448728054cb225ef437e93816",
-      "title": "One Knob, 19x Latency: What I Learned Benchmarking vLLM on a Single GPU",
-      "url": "https://dev.to/raihan-js/one-knob-19x-latency-what-i-learned-benchmarking-vllm-on-a-single-gpu-14bh",
-      "source": "Dev.to",
-      "published_at": "2026-10-23T14:31:14Z",
-      "summary": "Single-GPU vLLM serving benchmark with quality probes: a 19x TTFT cliff on one knob (visible only under stress), and temp-0 determinism failing on a reasoning model.",
-      "tags": [
-        "machinelearning",
-        "python",
-        "llm",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3243,6 +3134,66 @@
         "jenkins",
         "azure",
         "cicd"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "de7962489f584565e29cf0c42e8e39cd",
+      "title": "Kubernetes just formed a workload conformance group. Here’s why it matters for AI teams.",
+      "url": "https://thenewstack.io/kubernetes-workload-conformance-ai/",
+      "source": "The New Stack",
+      "published_at": "2026-10-30T17:29:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f359bb1aa91ef4415dad51da645502f1",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "source": "Hacker News",
+      "published_at": "2026-10-30T15:52:18Z",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2cbdfae11882ad8963773614bb76b82d",
+      "title": "Who is leading the pack in AI workloads AWS or Azure?",
+      "url": "https://www.reddit.com/r/devops/comments/1xjemaz/who_is_leading_the_pack_in_ai_workloads_aws_or/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-30T12:55:38+00:00",
+      "summary": "I am curious to know who is leading the pack in terms of market share on AI workloads AWS or Azure or GCP?  Yesterday couple people contacted me I ironically both asking for &quot;Experience delivering ML workloads on Microsoft Azure, including Azure Machine Learning or Azure Databricks&quot;  &#32;",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fbaf2c921aaa4f6773e478c8808a77d5",
+      "title": "How to check your servers, Docker images and logs for PHP2Shell",
+      "url": "https://dev.to/noanya/how-to-check-your-servers-docker-images-and-logs-for-php2shell-2c5d",
+      "source": "Dev.to",
+      "published_at": "2026-10-25T22:14:27Z",
+      "summary": "PHP shipped emergency fixes for PHP2Shell (CVE-2026-109618 and CVE-2026-109619) on October 21. Both...",
+      "tags": [
+        "php",
+        "security",
+        "python",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c58a9bf88b468a6311ecc0774133dc0c",
+      "title": "Day 5 of Building HYNA-Stage: Multi-Language Support, Zero Cold Starts (Warm Pools), and a Verified 5.1s Benchmark 🐯☁️",
+      "url": "https://dev.to/koda2026/day-5-of-building-hyna-stage-multi-language-support-zero-cold-starts-warm-pools-and-a-verified-455k",
+      "source": "Dev.to",
+      "published_at": "2026-10-24T05:27:49Z",
+      "summary": "Welcome to Day 5 of Building HYNA-Stage.   Yesterday, we teased a massive architectural upgrade....",
+      "tags": [
+        "buildinpublic",
+        "hackerstage",
+        "devops",
+        "performance"
       ],
       "relevance_score": 0.0
     }
