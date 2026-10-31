@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:11:56Z",
+  "generated_at": "2026-10-31T18:28:40Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,77 +1152,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0b7e23242cab071036b8d5eee0d511fe",
-      "title": "AWS says its AI security agent fixes 89% of bugs — but there’s a catch",
-      "url": "https://thenewstack.io/aws-says-its-ai-security-agent-fixes-89-of-bugs-but-theres-a-catch/",
-      "source": "The New Stack",
-      "published_at": "2026-10-24T14:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f00fd9c6c65e3b9c2eba2692425c3ea3",
-      "title": "Building an agentic software factory? Start with the sensor.",
-      "url": "https://thenewstack.io/agentic-software-factory-sensor/",
-      "source": "The New Stack",
-      "published_at": "2026-10-24T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "95d2b6050ff611d4d73e0752f22c4b44",
-      "title": "Why Kubernetes autoscalers keep fighting each other (and why the solution must be autonomous)",
-      "url": "https://thenewstack.io/why-kubernetes-autoscalers-fight/",
-      "source": "The New Stack",
-      "published_at": "2026-10-24T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5fd0ea47eb48603f5769fffe5c6c199d",
-      "title": "CKA exam stress",
-      "url": "https://www.reddit.com/r/devops/comments/1xe7yad/cka_exam_stress/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-24T12:56:03+00:00",
-      "summary": "Hello community, I am really stressed about my cka exam. I have bought it but have not prepared yet. My goal is to give exam in december. I have udemy monthly subscription and thrive subscription for this year. I am watching mumshad course on udemy.  I have 4 years of experience as a devops engineer",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "41ed9c490a9adaf9b749369b7a159fbb",
-      "title": "Caddy 2.11.6 turns a silent config failure on /load into an HTTP 400",
-      "url": "https://dev.to/alexgeorgiev17/caddy-2116-turns-a-silent-config-failure-on-load-into-an-http-400-4656",
-      "source": "Dev.to",
-      "published_at": "2026-10-24T10:00:00Z",
-      "summary": "A Caddy reload that broke my running server used to come back HTTP 200. On 2.11.6 and 2.11.7 it's a 400 with a real error, and a related fix cuts a stuck Unix socket from about two minutes to instant.",
-      "tags": [
-        "caddy",
-        "devops",
-        "networking",
-        "performance"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "12285092db595a09896471e2b8dcc675",
       "title": "ollama/ollama: v0.40.11",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-10-25T18:06:57+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ea89745932cfff729a059ef58ab23e99",
-      "title": "Hegel, GitOps and an agent in production",
-      "url": "https://www.reddit.com/r/devops/comments/1xeeoy2/hegel_gitops_and_an_agent_in_production/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-24T17:34:38+00:00",
-      "summary": "      &#32; submitted by &#32;  /u/astropoolIO   [link] &#32; [comments] ",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2828,21 +2763,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "3e97cde40f4c9488db9b5bc59ce619f0",
-      "title": "PHP2Shell, Node.js, GitLab & LiteLLM Vulnerabilities: October 2026 Patch Guide",
-      "url": "https://dev.to/asyncinnovator/php2shell-nodejs-gitlab-litellm-vulnerabilities-october-2026-patch-guide-25le",
-      "source": "Dev.to",
-      "published_at": "2026-10-24T13:42:33Z",
-      "summary": "Four of the most-used stacks on the internet got hit in the same week. PHP, Node.js, GitLab and...",
-      "tags": [
-        "security",
-        "php",
-        "node",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "606ca4e28dd7b5f82f96501490864d14",
       "title": "AWS’s Hydro team wants the compiler to catch coding agents’ mistakes",
       "url": "https://thenewstack.io/ai-agents-compiler-guardrails/",
@@ -3228,6 +3148,121 @@
       "published_at": "2026-10-27T11:00:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "43ca1c42d73be03df7412dbe812866d9",
+      "title": "apache/airflow: constraints-3.4.0rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.4.0rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-31T17:34:10+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "db9757662f182819f08bc2630f028cfd",
+      "title": "apache/airflow: task-sdk/1.4.0rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.4.0rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-31T17:11:31+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "34237d12d8c6c8c2050b52242ee5af8f",
+      "title": "apache/airflow: 3.4.0rc2",
+      "url": "https://github.com/apache/airflow/releases/tag/3.4.0rc2",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-31T17:11:29+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "41880eefef5b8bbe9023926d423843d8",
+      "title": "Anyone rethinking IDE extensions after the Cursor marketplace incident?",
+      "url": "https://www.reddit.com/r/devops/comments/1xkexud/anyone_rethinking_ide_extensions_after_the_cursor/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-10-31T16:42:14+00:00",
+      "summary": "Was reading about the malicious Claude code extension that show up in Cusor marketplace. The pary that got me was it trying to add an SSH key and open a reverse tunnel l, from something that just look like another editor extension We talk a lot abt checking npm package and dependencies, but IDE exte",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fbde8215c3a1038ec8bdbc7a75d7a3d5",
+      "title": "The context problem: How Docusign built agents that understand the business behind contracts",
+      "url": "https://thenewstack.io/docusign-contract-ai-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-10-31T16:13:35+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7329cd32c2c7f79104c2a45efd14b74e",
+      "title": "Five years after the fork, OpenSearch is slowly stepping out of AWS’s shadow",
+      "url": "https://thenewstack.io/opensearch-foundation-aws-elasticsearch/",
+      "source": "The New Stack",
+      "published_at": "2026-10-31T16:02:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3b2aa6b4168c3145f39f55c871fe7c0e",
+      "title": "6 Best API Gateways for Developers Breaking Their Routing Logic",
+      "url": "https://dev.to/devstackhub/6-best-api-gateways-for-developers-breaking-their-routing-logic-4a99",
+      "source": "Dev.to",
+      "published_at": "2026-10-31T14:43:59Z",
+      "summary": "Six API gateways compared through the lens of routing: path matching, rewrites, header-based rules,...",
+      "tags": [
+        "api",
+        "devops",
+        "backend",
+        "discuss"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4c9cd76bbbb247d880ab76c2a1968f32",
+      "title": "GPT-6.1 Terra vs. Claude Opus 5.5: Cheaper and faster in three tests at max effort",
+      "url": "https://thenewstack.io/gpt-6-1-terra-vs-claude-opus-5-5/",
+      "source": "The New Stack",
+      "published_at": "2026-10-31T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d2cd6436da959f09269fc9b0c5d46c97",
+      "title": "TypeScript 7.1 beta's native compiler checks a 353,000-line project in 2.8 seconds instead of 12.4",
+      "url": "https://dev.to/alexgeorgiev17/typescript-71-betas-native-compiler-checks-a-353000-line-project-in-28-seconds-instead-of-124-3h91",
+      "source": "Dev.to",
+      "published_at": "2026-10-31T11:00:00Z",
+      "summary": "I benchmarked TypeScript 7's Go-based compiler against 6.0.3 on a real NestJS checkout: 2.5x to 4.5x faster, not Microsoft's claimed 8-12x, and 7.0's stable release used more memory than the old compiler while dropping the API ts-node needs.",
+      "tags": [
+        "typescript",
+        "javascript",
+        "performance",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1ddbe8d36f6f79dd1bb638649ce2d451",
+      "title": "Railway October 2026 Incident: Treat Every Environment Variable as Exposed",
+      "url": "https://dev.to/gitguardian/railway-october-2026-incident-treat-every-environment-variable-as-exposed-24oa",
+      "source": "Dev.to",
+      "published_at": "2026-10-26T12:28:41Z",
+      "summary": "What happened in the Railway security incident   On Oct. 21, 2026, Railway disclosed...",
+      "tags": [
+        "security",
+        "devsecops",
+        "appsec",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
