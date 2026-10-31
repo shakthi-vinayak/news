@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T18:28:40Z",
+  "generated_at": "2026-10-31T23:19:58Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1157,46 +1157,6 @@
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
       "source": "GitHub Releases (ollama)",
       "published_at": "2026-10-25T18:06:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "895ebe39661e0bfc180b5c1dc7558d16",
-      "title": "apache/airflow: providers-snowflake/6.20.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-snowflake%2F6.20.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-24T19:09:15+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c5efa08606fc6961e7d085bf34d83dc0",
-      "title": "apache/airflow: providers-ssh/7.0.1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F7.0.1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-24T19:09:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "18131d0b26975fd34324250f5ecc1db3",
-      "title": "apache/airflow: providers-vespa/0.1.3",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-vespa%2F0.1.3",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-24T19:09:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "44e004c6d1c5e221a18ac71499c472e3",
-      "title": "apache/airflow: providers-standard/1.21.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.21.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-24T19:09:12+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3155,7 +3115,7 @@
       "title": "apache/airflow: constraints-3.4.0rc2",
       "url": "https://github.com/apache/airflow/releases/tag/constraints-3.4.0rc2",
       "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-31T17:34:10+00:00",
+      "published_at": "2026-10-31T20:24:16+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3262,6 +3222,41 @@
         "devsecops",
         "appsec",
         "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fffbda7c4aedc18ef40b2196b409ed1a",
+      "title": "apache/airflow: providers/2026-10-31",
+      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-10-31",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-31T19:59:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c20c48eb1135fe77f7231d5a57e89d6d",
+      "title": "apache/airflow: providers-common-ai/1.1.0rc3",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-common-ai%2F1.1.0rc3",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-10-31T19:59:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e2a51a1c120d818c74a771a8799d56aa",
+      "title": "The eMudhra Fallout, Part 2: I Scanned 30 Docker Images. 10 Still Trust the Root Chrome Is Dropping",
+      "url": "https://dev.to/kielltampubolon/the-emudhra-fallout-part-2-i-scanned-30-docker-images-10-still-trust-the-root-chrome-is-dropping-6lf",
+      "source": "Dev.to",
+      "published_at": "2026-10-26T13:00:00Z",
+      "summary": "Chrome drops emSign ECC Root CA - G3 on October 27. I read the CA bundles in 30 popular Docker images: a third still ship the root, some built after the fix.",
+      "tags": [
+        "security",
+        "docker",
+        "devops",
+        "tls"
       ],
       "relevance_score": 0.0
     }
