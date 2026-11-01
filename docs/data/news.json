@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:55:20Z",
+  "generated_at": "2026-11-01T23:32:30Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1252,31 +1252,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b63ebf03a83063e893b1691be37736c4",
-      "title": "Valkey 9.2's new rdbcompression lz4 setting cuts a 1M-row RDB from 178MB to 35MB",
-      "url": "https://dev.to/alexgeorgiev17/valkey-92s-new-rdbcompression-lz4-setting-cuts-a-1m-row-rdb-from-178mb-to-35mb-1cje",
-      "source": "Dev.to",
-      "published_at": "2026-10-25T11:00:00Z",
-      "summary": "Valkey 9.2.0-rc1's whole-stream LZ4 RDB compression shrank a million-row JSON dataset from about 178MB to 35MB, an 80% cut the old per-string LZF default barely touches. It does nothing for replication unless a second, undocumented-in-the-release-notes setting is also flipped.",
-      "tags": [
-        "valkey",
-        "database",
-        "performance",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5ea39c6083f373997f90b61a4fc472cc",
-      "title": "HA AI Clusters - SRE Engineer - General questions",
-      "url": "https://www.reddit.com/r/devops/comments/1xffaoh/ha_ai_clusters_sre_engineer_general_questions/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-25T22:08:52+00:00",
-      "summary": "Hey guys, quick question for anyone in the AI or infrastructure space.  I was never really interested in running AI models on my homelab cluster, but this job offer looked too good to pass up.  I have a technical interview coming up soon for an SRE role on High Availability AI clusters, and honestly",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "fead5656cae3ea74ad00d4e9d5056697",
       "title": "DevOps its a good entry job?",
       "url": "https://www.reddit.com/r/devops/comments/1xfm70g/devops_its_a_good_entry_job/",
@@ -1287,16 +1262,6 @@
         "DevOps"
       ],
       "relevance_score": 0.6
-    },
-    {
-      "id": "87382ff5848f47e73de2b20d35ae33bb",
-      "title": "Open Source Contribution Recommendations for projects related to DevOps and Platform Engineering",
-      "url": "https://www.reddit.com/r/devops/comments/1xfg9xz/open_source_contribution_recommendations_for/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-25T22:51:10+00:00",
-      "summary": "I'm interested in Open Source Contribution and looking for recommendations for projects that are related to DevOps and Platform Engineering. I'd like my contribution to be relevant to my everyday work. I'm good with python, go, nodejs and typescript. This will be my first contribution so, I'm also l",
-      "tags": [],
-      "relevance_score": 0.0
     },
     {
       "id": "3c705e956ae4569fe6f6cd15604a3853",
@@ -1310,21 +1275,6 @@
         "llm",
         "testing",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9e103392dd863acda2062401c0c6cc60",
-      "title": "Our Health Check Failed and the Deploy Went Live Anyway",
-      "url": "https://dev.to/thegdsks/our-health-check-failed-and-the-deploy-went-live-anyway-5i0",
-      "source": "Dev.to",
-      "published_at": "2026-10-25T18:38:56Z",
-      "summary": "A postmortem from our own dogfood run: a failed readiness probe still received traffic. What broke, why two correct parts added up to a bug, and the fix.",
-      "tags": [
-        "devops",
-        "docker",
-        "postmortem",
-        "selfhosting"
       ],
       "relevance_score": 0.0
     },
@@ -2658,21 +2608,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "566db2001d60c281892147227804b769",
-      "title": "OpenAI Built an Offline Internet for Agents, and the Canary String Explains Why",
-      "url": "https://dev.to/reidmarlow/openai-built-an-offline-internet-for-agents-and-the-canary-string-explains-why-18p3",
-      "source": "Dev.to",
-      "published_at": "2026-10-25T16:21:35Z",
-      "summary": "OpenAI disclosed an isolated sandbox built on cached web snapshots to stop models from probing live infrastructure during reinforcement learning.",
-      "tags": [
-        "ai",
-        "security",
-        "machinelearning",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "606ca4e28dd7b5f82f96501490864d14",
       "title": "AWS’s Hydro team wants the compiler to catch coding agents’ mistakes",
       "url": "https://thenewstack.io/ai-agents-compiler-guardrails/",
@@ -2878,21 +2813,6 @@
       "published_at": "2026-10-30T12:55:38+00:00",
       "summary": "I am curious to know who is leading the pack in terms of market share on AI workloads AWS or Azure or GCP?  Yesterday couple people contacted me I ironically both asking for &quot;Experience delivering ML workloads on Microsoft Azure, including Azure Machine Learning or Azure Databricks&quot;  &#32;",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fbaf2c921aaa4f6773e478c8808a77d5",
-      "title": "How to check your servers, Docker images and logs for PHP2Shell",
-      "url": "https://dev.to/noanya/how-to-check-your-servers-docker-images-and-logs-for-php2shell-2c5d",
-      "source": "Dev.to",
-      "published_at": "2026-10-25T22:14:27Z",
-      "summary": "PHP shipped emergency fixes for PHP2Shell (CVE-2026-109618 and CVE-2026-109619) on October 21. Both...",
-      "tags": [
-        "php",
-        "security",
-        "python",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3290,6 +3210,156 @@
       "published_at": "2026-11-01T18:30:00+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8452d08f80b7097e375bf4c32e636b25",
+      "title": "Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-11-01T21:01:42+00:00",
+      "summary": "I'm sharing this here because this is working way better than it used to a few months ago with older models. I see people here posting slower speeds with much better hardware than mine and hopefully this information helps. I used gemini-flash to help me setup everything and I asked it to write up th",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "24e78b84508ebaecfe153deec3ba0969",
+      "title": "apache/airflow: providers-common-ai/1.1.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-common-ai%2F1.1.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-01T20:42:39+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b4e91941b7256580c1e45456d4f1de21",
+      "title": "AI taking over Devops.",
+      "url": "https://www.reddit.com/r/devops/comments/1xldkq0/ai_taking_over_devops/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-01T20:30:42+00:00",
+      "summary": "Hello. i am Starting to learn IT and i still have time to choose my carreer choice. is it wise to try and learn devops or cloud engineering because of AI? im scared that by the time im done with my degree these jobs wont exist.  &#32; submitted by &#32;  /u/Glittering_Ad4197   [link] &#32; [comments",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "af8cd47a5da4f23f7eea94dad548b9c5",
+      "title": "I built Frontier UI to give local LLMs ChatGPT-style visual responses in Open WebUI (maps, photos, interactive charts, Office exports, etc.)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl7jr0/i_built_frontier_ui_to_give_local_llms/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-11-01T16:34:50+00:00",
+      "summary": "      https://i.redd.it/97has5lk21zh1.gif I've been running local LLMs through Open WebUI for a while now, and one thing I've always wished it had was something similar to ChatGPT's newer visual responses. Don't get me wrong, Markdown works fine, but sometimes I want more than just a wall of text. I",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ee19df91f062beaf1e2dccd3c3923118",
+      "title": "GitHub Actions lockfile: pin your workflows safely",
+      "url": "https://dev.to/sascha-ms/github-actions-lockfile-pin-your-workflows-safely-3j17",
+      "source": "Dev.to",
+      "published_at": "2026-11-01T16:05:54Z",
+      "summary": "The GitHub Actions lockfile is generally available: pin actions and their dependencies to commits, verify it in CI and roll it out across your team.",
+      "tags": [
+        "cicd",
+        "devops",
+        "github",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "20b93cf3e1f3efb163bb11417bf3d1fb",
+      "title": "[Release] Drex Max v1: Open-weight 27B multimodal decision model, 262K context, local inference on Apple Silicon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl5yfs/release_drex_max_v1_openweight_27b_multimodal/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-11-01T15:31:15+00:00",
+      "summary": "      hey llamas, we open-sourced Drex-Max v1 at Nace.AI. it's a dense 27B multimodal decision model, released under Open RAIL-M. the main difference from a normal LLM is that it doesn't generate anything. no tokens, no JSON to parse. you give it a context state (text, JSON, high-res images) plus on",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dad8e847bd5f1f28e03b0454529ead68",
+      "title": "DeepSeek: Exploring Super-agent Design: Towards a More Autonomous Agent System",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl1zn3/deepseek_exploring_superagent_design_towards_a/",
+      "source": "Reddit r/LocalLLaMA",
+      "published_at": "2026-11-01T12:36:14+00:00",
+      "summary": "      DeepSeek Harness article on 𝕏: Exploring Super-agent Design: Towards a More Autonomous Agent System: https://x.com/DeepSeekHarness/status/2116857257245987236 Parts of the design in this article are implemented in dsh-superagent-prototype. This plugin is only a prototype for validating the tech",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "056dfc5fa11c2308c1a475a3c752737c",
+      "title": "Your CI is testing the wrong PR first",
+      "url": "https://dev.to/udondan/your-ci-is-testing-the-wrong-pr-first-3oa5",
+      "source": "Dev.to",
+      "published_at": "2026-11-01T12:27:43Z",
+      "summary": "I maintain a handful of open source projects that deploy real infrastructure in their tests. Not...",
+      "tags": [
+        "devops",
+        "githubactions",
+        "opensource",
+        "cicd"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "213136671b11ec07a0b091e69fba7c49",
+      "title": "SQLite 3.54 stops rewriting an expression index when the indexed value hasn't changed",
+      "url": "https://dev.to/alexgeorgiev17/sqlite-354-stops-rewriting-an-expression-index-when-the-indexed-value-hasnt-changed-56bb",
+      "source": "Dev.to",
+      "published_at": "2026-11-01T11:00:00Z",
+      "summary": "SQLite 3.54.1 cut a 50,000-row no-op UPDATE from 2,143 WAL pages to 511, exactly matching a table with no expression index at all. Once the indexed value actually changes, the saving disappears entirely.",
+      "tags": [
+        "sqlite",
+        "database",
+        "performance",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "bbbf366ce40ff91ee6d6fb1688a65967",
+      "title": "The Agent Loop Is a Runtime: Budgets, Cancellation, and Idempotency",
+      "url": "https://dev.to/dima_kruglov_608741d9a416/the-agent-loop-is-a-runtime-budgets-cancellation-and-idempotency-3heo",
+      "source": "Dev.to",
+      "published_at": "2026-10-31T00:00:56Z",
+      "summary": "You have tool calling working. The demo terminates, the JSON parses, the model picks searchflights instead of bookflight. Then it goes into production and the…",
+      "tags": [
+        "ai",
+        "llm",
+        "devops",
+        "python"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a1c4152b10769f1d3b11ee22f6357eff",
+      "title": "Saya Memindai 30 Image Docker Populer. 10 Masih Percaya Root CA yang Sudah Dicabut Chrome",
+      "url": "https://dev.to/kielltampubolon/saya-memindai-30-image-docker-populer-10-masih-percaya-root-ca-yang-sudah-dicabut-chrome-49j5",
+      "source": "Dev.to",
+      "published_at": "2026-10-27T01:00:00Z",
+      "summary": "Checklist trust store container dengan data nyata: 30 image Docker dipindai 24 Oktober 2026. Sepertiga masih membawa emSign ECC Root CA - G3.",
+      "tags": [
+        "security",
+        "docker",
+        "devops",
+        "indonesia"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "eb1b9aaeb1906eba11850af7f2a72180",
+      "title": "Your CI runs other people's code. Is anyone still maintaining it?",
+      "url": "https://dev.to/kotakanbe/your-ci-runs-other-peoples-code-is-anyone-still-maintaining-it-19c5",
+      "source": "Dev.to",
+      "published_at": "2026-10-26T01:54:49Z",
+      "summary": "Workflow scanners check how you use GitHub Actions. Few people check whether each Action is still maintained. What we found in Grafana's workflows — and how they fixed it.",
+      "tags": [
+        "security",
+        "opensource",
+        "github",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
