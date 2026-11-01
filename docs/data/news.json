@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:12:10Z",
+  "generated_at": "2026-11-01T18:55:20Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1152,16 +1152,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "12285092db595a09896471e2b8dcc675",
-      "title": "ollama/ollama: v0.40.11",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-10-25T18:06:57+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "09a1873dbe2f2f803f27bc3e73c08a75",
       "title": "We're Leaving Kubernetes",
       "url": "https://www.gitpod.io/blog/we-are-leaving-kubernetes",
@@ -1273,31 +1263,6 @@
         "database",
         "performance",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "694c2728aec3256d0937793c6199d4e3",
-      "title": "Is Kubernetes ready for AI agents?",
-      "url": "https://thenewstack.io/kubernetes-ready-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-10-25T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7da9358ae8d8cedd6bc4fc9a450773fc",
-      "title": "Bubbles: a new kind of software, where one reply becomes a running stack",
-      "url": "https://dev.to/flisk/bubbles-a-new-kind-of-software-where-one-reply-becomes-a-running-stack-1b72",
-      "source": "Dev.to",
-      "published_at": "2026-10-25T13:39:12Z",
-      "summary": "Reply to a post on X with @grok bubbles and a few words about an app. Grok answers with a link. Open...",
-      "tags": [
-        "devops",
-        "grok",
-        "ai",
-        "opensource"
       ],
       "relevance_score": 0.0
     },
@@ -2239,12 +2204,9 @@
       "url": "https://www.reddit.com/r/devops/comments/1xhs0o2/building_is_so_easy_and_verification_becomes/",
       "source": "Reddit r/devops",
       "published_at": "2026-10-28T15:58:03+00:00",
-      "summary": "Rapid building pipelines make verification the new bottleneck, emphasizing need for efficient testing and validation.",
-      "tags": [
-        "CI/CD",
-        "DevOps"
-      ],
-      "relevance_score": 0.85
+      "summary": "now we all know .. building/coding is easy with lot of ai tools/coding agents.. and pressure we are seeing during the deployment cycles verification and human in the loop cycle.. and wondering how are you guys handling it? we have team of 15+ and multiple teams and using Asana agents they have long ",
+      "tags": [],
+      "relevance_score": 0.0
     },
     {
       "id": "9dcf0f83f2b96cdfbb54b76d5aee9ec9",
@@ -3308,6 +3270,26 @@
         "devops",
         "programming"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "311e6f892d03ab73559beb295f38e83f",
+      "title": "apache/airflow: providers-openlineage/2.21.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-openlineage%2F2.21.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-01T18:30:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6d4fbaf7eb362a232ef376fdc2571b4f",
+      "title": "apache/airflow: providers-microsoft-azure/15.3.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-microsoft-azure%2F15.3.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-01T18:30:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
