@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T16:19:52Z",
+  "generated_at": "2026-11-07T21:45:36Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1157,69 +1157,6 @@
       "url": "https://www.cncf.io/blog/2026/10/27/opentelemetry-powered-distributed-tracing-and-kubernetes-events-in-openchoreo/",
       "source": "CNCF Blog",
       "published_at": "2026-10-27T11:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "43ca1c42d73be03df7412dbe812866d9",
-      "title": "apache/airflow: constraints-3.4.0rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/constraints-3.4.0rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-31T20:24:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "db9757662f182819f08bc2630f028cfd",
-      "title": "apache/airflow: task-sdk/1.4.0rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.4.0rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-31T17:11:31+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "34237d12d8c6c8c2050b52242ee5af8f",
-      "title": "apache/airflow: 3.4.0rc2",
-      "url": "https://github.com/apache/airflow/releases/tag/3.4.0rc2",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-31T17:11:29+00:00",
-      "summary": "Release candidate for Airflow 3.4.0 adds new features and improvements for workflow orchestration.",
-      "tags": [
-        "DevOps",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "41880eefef5b8bbe9023926d423843d8",
-      "title": "Anyone rethinking IDE extensions after the Cursor marketplace incident?",
-      "url": "https://www.reddit.com/r/devops/comments/1xkexud/anyone_rethinking_ide_extensions_after_the_cursor/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-10-31T16:42:14+00:00",
-      "summary": "Was reading about the malicious Claude code extension that show up in Cusor marketplace. The pary that got me was it trying to add an SSH key and open a reverse tunnel l, from something that just look like another editor extension We talk a lot abt checking npm package and dependencies, but IDE exte",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fffbda7c4aedc18ef40b2196b409ed1a",
-      "title": "apache/airflow: providers/2026-10-31",
-      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-10-31",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-31T19:59:44+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c20c48eb1135fe77f7231d5a57e89d6d",
-      "title": "apache/airflow: providers-common-ai/1.1.0rc3",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-common-ai%2F1.1.0rc3",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-10-31T19:59:44+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -3304,6 +3241,31 @@
       "published_at": "2026-11-07T10:46:10+00:00",
       "summary": "With so many different syntaxes and configs in our daily stack—CI/CD pipelines (GitHub Actions, GitLab), Terraform modules, Kubernetes manifests, Dockerfiles, Ansible playbooks, and Bash scripts—nobody can memorize every block and flag from scratch. My current workflow is to use AI or existing templ",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a2388ad3f8c0861e9a0863b0e7b780e9",
+      "title": "I built pacboard, a read-only dashboard for Tekton Pipelines-as-Code runs (Go + Vue, AGPL)",
+      "url": "https://www.reddit.com/r/devops/comments/1xqhbuv/i_built_pacboard_a_readonly_dashboard_for_tekton/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-07T21:23:59+00:00",
+      "summary": "      We moved our CI from Jenkins to Tekton with Pipelines-as-Code. The Tekton Dashboard worked, but for PR-driven CI it shows a flat list of PipelineRuns and knows nothing about GitHub. So I wrote pacboard. What it does:  Repositories grouped by health: failing first, the last runs as a strip, typ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d5dfba5602d874a9a4da0d5c2e76a85e",
+      "title": "Freeing AI from the Terminal: How We Built SwitchWarRoom to Turn Coding Agents into SRE Teammates in Slack",
+      "url": "https://dev.to/vidisha_gupta_/freeing-ai-from-the-terminal-how-we-built-switchwarroom-to-turn-coding-agents-into-sre-teammates-2aom",
+      "source": "Dev.to",
+      "published_at": "2026-11-07T17:44:13Z",
+      "summary": "Submitted for the Flip the Switch Hackathon by WeMakeDevs &amp; DevTools Academy (Powered by Switch...",
+      "tags": [
+        "ai",
+        "devops",
+        "hackathon",
+        "opensource"
+      ],
       "relevance_score": 0.0
     }
   ]
