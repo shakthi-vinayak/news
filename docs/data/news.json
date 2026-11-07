@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T08:41:58Z",
+  "generated_at": "2026-11-07T16:19:52Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1202,66 +1202,6 @@
       "published_at": "2026-10-31T16:42:14+00:00",
       "summary": "Was reading about the malicious Claude code extension that show up in Cusor marketplace. The pary that got me was it trying to add an SSH key and open a reverse tunnel l, from something that just look like another editor extension We talk a lot abt checking npm package and dependencies, but IDE exte",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fbde8215c3a1038ec8bdbc7a75d7a3d5",
-      "title": "The context problem: How Docusign built agents that understand the business behind contracts",
-      "url": "https://thenewstack.io/docusign-contract-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-10-31T16:13:35+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "7329cd32c2c7f79104c2a45efd14b74e",
-      "title": "Five years after the fork, OpenSearch is slowly stepping out of AWS’s shadow",
-      "url": "https://thenewstack.io/opensearch-foundation-aws-elasticsearch/",
-      "source": "The New Stack",
-      "published_at": "2026-10-31T16:02:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3b2aa6b4168c3145f39f55c871fe7c0e",
-      "title": "6 Best API Gateways for Developers Breaking Their Routing Logic",
-      "url": "https://dev.to/devstackhub/6-best-api-gateways-for-developers-breaking-their-routing-logic-4a99",
-      "source": "Dev.to",
-      "published_at": "2026-10-31T14:43:59Z",
-      "summary": "Six API gateways compared through the lens of routing: path matching, rewrites, header-based rules,...",
-      "tags": [
-        "api",
-        "devops",
-        "backend",
-        "discuss"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4c9cd76bbbb247d880ab76c2a1968f32",
-      "title": "GPT-6.1 Terra vs. Claude Opus 5.5: Cheaper and faster in three tests at max effort",
-      "url": "https://thenewstack.io/gpt-6-1-terra-vs-claude-opus-5-5/",
-      "source": "The New Stack",
-      "published_at": "2026-10-31T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d2cd6436da959f09269fc9b0c5d46c97",
-      "title": "TypeScript 7.1 beta's native compiler checks a 353,000-line project in 2.8 seconds instead of 12.4",
-      "url": "https://dev.to/alexgeorgiev17/typescript-71-betas-native-compiler-checks-a-353000-line-project-in-28-seconds-instead-of-124-3h91",
-      "source": "Dev.to",
-      "published_at": "2026-10-31T11:00:00Z",
-      "summary": "I benchmarked TypeScript 7's Go-based compiler against 6.0.3 on a real NestJS checkout: 2.5x to 4.5x faster, not Microsoft's claimed 8-12x, and 7.0's stable release used more memory than the old compiler while dropping the API ts-node needs.",
-      "tags": [
-        "typescript",
-        "javascript",
-        "performance",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -3264,6 +3204,106 @@
         "architecture",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "203732779a97a076b4de50889595105b",
+      "title": "Why AWS wants developers to stop babysitting their AI agents",
+      "url": "https://thenewstack.io/kiro-bots-agent-memory/",
+      "source": "The New Stack",
+      "published_at": "2026-11-07T15:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3c0acbc20fcdbe35ab7d080349cb35a6",
+      "title": "An agent told me it deployed. I asked the server, and the containers were a day old",
+      "url": "https://dev.to/chet103cc/an-agent-told-me-it-deployed-i-asked-the-server-and-the-containers-were-a-day-old-2b6i",
+      "source": "Dev.to",
+      "published_at": "2026-11-07T14:18:49Z",
+      "summary": "The message said: deployed, edge clean, no 5xx.  Both of those things were true. The commit was on...",
+      "tags": [
+        "ai",
+        "devops",
+        "docker",
+        "productivity"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a9cda48e0e2a26338a36d0c9065084d9",
+      "title": "How to enable SSH clone on self hosted GitLab running in a private subnet behind an AWS ALB?",
+      "url": "https://www.reddit.com/r/devops/comments/1xq5aof/how_to_enable_ssh_clone_on_self_hosted_gitlab/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-07T12:32:32+00:00",
+      "summary": "We have self-hosted GitLab CE on an AWS EC2 instance. Current setup: The instance is in a private subnet with no public IP. Users reach GitLab through an Application Load Balancer on HTTPS, with access restricted to our office IPs. HTTPS clone with personal access tokens works fine. The problem: We'",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9dbb1bcc12db90ca23001e90ccc7d2d1",
+      "title": "Is committing config-only .env files (no secrets) to a private repo really a security sin?",
+      "url": "https://www.reddit.com/r/devops/comments/1xq4acv/is_committing_configonly_env_files_no_secrets_to/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-07T11:33:38+00:00",
+      "summary": "I'm working on a project split across several private GitHub repos. The ones that matter here are the Docker repo, the backend and an indexer. Each has its own .env files, and what's in them falls into three groups: - Secrets like DB passwords, API keys and tokens - Infra config such as private IPs ",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3c3f2365c4ba0972c54b6042ee461bca",
+      "title": "Building Warrant: Every Agent-Made Change, Traced to the Human Who Said Yes",
+      "url": "https://dev.to/shreyansh_agrahari_2009db/building-warrant-every-agent-made-change-traced-to-the-human-who-said-yes-dco",
+      "source": "Dev.to",
+      "published_at": "2026-11-07T11:11:35Z",
+      "summary": "How we built Warrant for the Flip the Switch Hackathon 2026—a deterministic scope gatekeeper and hash-linked authorization ledger for autonomous coding agents.",
+      "tags": [
+        "ai",
+        "devops",
+        "productivity",
+        "webdev"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "400ac37b2706adc23f491273ad186a53",
+      "title": "Containerd 2.4's switch to klauspost's gzip decoder speeds up real image layers by 18%",
+      "url": "https://dev.to/alexgeorgiev17/containerd-24s-switch-to-klausposts-gzip-decoder-speeds-up-real-image-layers-by-18-2jne",
+      "source": "Dev.to",
+      "published_at": "2026-11-07T11:00:00Z",
+      "summary": "I benchmarked containerd 2.4's swap from Go's stdlib gzip to klauspost/compress on real container layers: 18% faster decompression against the 40-50% the upstream PR reported, but allocations dropped by over 300x.",
+      "tags": [
+        "containerd",
+        "docker",
+        "performance",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "43a322c57bfc81c8e4be04f715c9a0d0",
+      "title": "You tried git-lrc. Meet LiveReview 👀",
+      "url": "https://dev.to/lovestaco/you-tried-git-lrc-meet-livereview-7od",
+      "source": "Dev.to",
+      "published_at": "2026-11-07T10:51:12Z",
+      "summary": "Hello, I'm Maneshwar, and I'm building LiveReview — a blast-radius aware AI code review built for...",
+      "tags": [
+        "ai",
+        "codereview",
+        "opensource",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9a2fc35d36cf903078af3993af555c7f",
+      "title": "Across the whole DevOps stack (Pipelines, Terraform, K8s, Docker, Ansible), how much do you actually write by hand vs prompting or using templates?",
+      "url": "https://www.reddit.com/r/devops/comments/1xq3jjl/across_the_whole_devops_stack_pipelines_terraform/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-07T10:46:10+00:00",
+      "summary": "With so many different syntaxes and configs in our daily stack—CI/CD pipelines (GitHub Actions, GitLab), Terraform modules, Kubernetes manifests, Dockerfiles, Ansible playbooks, and Bash scripts—nobody can memorize every block and flag from scratch. My current workflow is to use AI or existing templ",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
