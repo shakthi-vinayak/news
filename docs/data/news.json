@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:47:42Z",
+  "generated_at": "2026-11-10T21:48:43Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1052,16 +1052,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "401e5a19d282673089357a97a0cf8b5f",
-      "title": "grafana/grafana: 13.3.0",
-      "url": "https://github.com/grafana/grafana/releases/tag/v13.3.0",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-10-27T11:14:14+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "66361e6bfba754744c2891deb08ba52a",
       "title": "Azure DevOps Server RC (26H2) Is Now Available",
       "url": "https://devblogs.microsoft.com/devops/azure-devops-server-rc-26h2-is-now-available/",
@@ -1142,41 +1132,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7d65c213f999b8981e4a67d91c5f8a55",
-      "title": "The Linkerd Story: The People Behind The Service Mesh — A new documentary premieres at KubeCon + CloudNativeCon North America 2026",
-      "url": "https://www.cncf.io/blog/2026/11/02/the-linkerd-story-the-people-behind-the-service-mesh-a-new-documentary-premieres-at-kubecon-cloudnativecon-north-america-2026/",
-      "source": "CNCF Blog",
-      "published_at": "2026-11-02T12:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1b364c75644f92e55e5414ce3fa4e311",
-      "title": "Is Google Cloud Kubernetes Engine built-in Observability enough?",
-      "url": "https://www.reddit.com/r/devops/comments/1xmwkvn/is_google_cloud_kubernetes_engine_builtin/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-03T15:51:50+00:00",
-      "summary": "Hello. I just started being responsible of a Kubernetes cluster. I have 0 experience on Kubernetes, besides having deployed the GKE cluster successfully (which honestly is quite straightforward) in Google Cloud. The cluster has only one node pool, with 1 helm chart and a couple of other manifests. M",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a762aa78348b9a1147b114f761dec6ec",
       "title": "prometheus/prometheus: v3.16.0-rc.3",
       "url": "https://github.com/prometheus/prometheus/releases/tag/v3.16.0-rc.3",
       "source": "GitHub Releases (prometheus)",
       "published_at": "2026-11-03T15:23:40+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6f789b87edc213695592b6c1be9c8d7b",
-      "title": "OpenKruise Agents v0.6.0: Leaping ahead in agent Sandbox security and automation",
-      "url": "https://www.cncf.io/blog/2026/11/03/openkruise-agents-v0-6-0-leaping-ahead-in-agent-sandbox-security-and-automation/",
-      "source": "CNCF Blog",
-      "published_at": "2026-11-03T12:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1213,68 +1173,6 @@
       "published_at": "2026-11-03T21:24:39+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "63f1f6966bba4b6044210f9b6f24f323",
-      "title": "prometheus/prometheus: 3.16.0-rc.4 / 2026-11-03",
-      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.16.0-rc.4",
-      "source": "GitHub Releases (prometheus)",
-      "published_at": "2026-11-03T19:23:03+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "23ff0e2edab94a63ab2e611232949391",
-      "title": "Goldman Sachs restricted Claude Code for bankers — but made one surprising exception",
-      "url": "https://thenewstack.io/ai-coding-agents-security/",
-      "source": "The New Stack",
-      "published_at": "2026-11-03T19:18:34+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9bad64775638c0c9f4e9a2df45c92289",
-      "title": "langchain-ai/langgraph: langgraph-sdk==0.4.12",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.12",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-03T18:10:30+00:00",
-      "summary": "langgraph-sdk 0.4.12 released, enhancing SDK support for LangGraph agents.",
-      "tags": [
-        "AI",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.78
-    },
-    {
-      "id": "9c4a65dba695030a8670da7a8949e2d0",
-      "title": "Kubernetes Controller Manager Explained | K8s With Pravesh - Episode 6",
-      "url": "https://dev.to/aws-builders/kubernetes-controller-manager-explained-k8s-with-pravesh-episode-6-h70",
-      "source": "Dev.to",
-      "published_at": "2026-11-03T17:25:09Z",
-      "summary": "Hola Amigos 👋  Welcome back to K8s-With-Pravesh!  After covering the Datastore of Kubernetes: etcd,...",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "cloud"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3801e6742606189c332f959f081228a7",
-      "title": "Stop Generating Changelogs from Git Commits: How I Fixed the 'WHY' Problem in ChangelogBot",
-      "url": "https://dev.to/johnnylemonny/stop-generating-changelogs-from-git-commits-how-i-fixed-the-why-problem-in-changelogbot-11n9",
-      "source": "Dev.to",
-      "published_at": "2026-11-03T16:30:00Z",
-      "summary": "Why conventional commit changelogs fail developers, how ChangelogBot extracts business context with AI, and how I fixed secondary rate limits and silent degradation in CI.",
-      "tags": [
-        "devops",
-        "github",
-        "opensource",
-        "typescript"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2519,21 +2417,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e0a8729814499a5b388c48e7b45f5323",
-      "title": "Stop Generating Changelogs from Git Commits: How I Fixed the 'WHY' Problem in ChangelogBot",
-      "url": "https://dev.to/necoz/stop-generating-changelogs-from-git-commits-how-i-fixed-the-why-problem-in-changelogbot-11n9",
-      "source": "Dev.to",
-      "published_at": "2026-11-03T16:30:00Z",
-      "summary": "Why conventional commit changelogs fail developers, how ChangelogBot extracts business context with AI, and how I fixed secondary rate limits and silent degradation in CI.",
-      "tags": [
-        "devops",
-        "github",
-        "opensource",
-        "typescript"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6f9a3e46fa462624e8b433f46ffa9a19",
       "title": "Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework",
       "url": "https://thenewstack.io/scaling-autonomous-agents-framework/",
@@ -3011,6 +2894,146 @@
         "database",
         "devops",
         "cloud"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "76d7854ed73f590a308c157f52ab9a06",
+      "title": "Need Guidance..",
+      "url": "https://www.reddit.com/r/devops/comments/1xszn5r/need_guidance/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-10T21:43:45+00:00",
+      "summary": "I'm a Devops engineer with 1.5 yoe. Currently working in a service based company I mostly work on tools like argocd, Githubactions, AWS. kubernetes, Openshift, Nginx, HAproxy, Terraform and Linux these are my major working techs. What more I can learn in Devops or I should learn AI development and m",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0df1d255e7c30325766b1224d7d482e3",
+      "title": "ollama/ollama: v0.40.17-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-11-10T21:42:11+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fc8314196deb16902702b5230aed1f92",
+      "title": "grafana/grafana: 13.3.1",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.3.1",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-11-10T21:31:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d159b70f2e6f8baac66c63f5e280e7ab",
+      "title": "Anthropic wants Claude to be the front end for your entire enterprise app stack",
+      "url": "https://thenewstack.io/claude-enterprise-apps-connectors/",
+      "source": "The New Stack",
+      "published_at": "2026-11-10T20:00:58+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e418719ea4cc0783923b0aceb54383fe",
+      "title": "What’s the one tool in your stack you wish you could throw in the bin?",
+      "url": "https://www.reddit.com/r/devops/comments/1xsvrsd/whats_the_one_tool_in_your_stack_you_wish_you/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-10T19:12:18+00:00",
+      "summary": "Not necessarily because it's completely useless, but because of the friction, overhead, or constant maintenance it causes your team. Mine is Helm. What’s yours?  &#32; submitted by &#32;  /u/Much-Television-9449   [link] &#32; [comments]",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fb4a92c708b689054d9b9a6ef68bda99",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-10T19:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "019af15e4180f9cfd3abd227cb3b1b22",
+      "title": "Google says Gemini 4 Carbon proved Signal’s encryption in weeks",
+      "url": "https://thenewstack.io/gemini-4-carbon-swarm/",
+      "source": "The New Stack",
+      "published_at": "2026-11-10T16:17:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "021ec56989a686d9cf3ac4d3db67b140",
+      "title": "CNCF Launches Certified Kubernetes Network Engineer Certification (CKNE) to Advance Production Ready Networking Skills for AI Era",
+      "url": "https://www.cncf.io/announcements/2026/11/10/cncf-launches-certified-kubernetes-network-engineer-certification-ckne-to-advance-production-ready-networking-skills-for-ai-era/",
+      "source": "CNCF Blog",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9778e688ad701fa39b6943e6571f4253",
+      "title": "CNCF and SlashData Report Finds Platform Engineering Strategies Are Shaping AI Infrastructure Adoption",
+      "url": "https://www.cncf.io/announcements/2026/11/10/cncf-and-slashdata-report-finds-platform-engineering-strategies-are-shaping-ai-infrastructure-adoption/",
+      "source": "CNCF Blog",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1d9ca2a28eababa6308204bf6cfe617e",
+      "title": "CNCF and SlashData Report Finds Cloud Native Developers Are More AI-Ready, Global Population Surpasses 21 Million",
+      "url": "https://www.cncf.io/announcements/2026/11/10/cncf-and-slashdata-report-finds-cloud-native-developers-are-more-ai-ready-global-population-surpasses-21-million/",
+      "source": "CNCF Blog",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a3c6fc6bfbe896067dbf0ee5b348d125",
+      "title": "CNCF Welcomes Twelve New Members as Organizations Look to Run AI Agents on Open, Sovereign Infrastructure",
+      "url": "https://www.cncf.io/announcements/2026/11/10/cncf-welcomes-twelve-new-members-as-organizations-look-to-run-ai-agents-on-open-sovereign-infrastructure/",
+      "source": "CNCF Blog",
+      "published_at": "2026-11-10T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c410e47e3f854d39e78acd34eb533f99",
+      "title": "I built a log compressor you can grep without decompressing",
+      "url": "https://dev.to/zaydmulani09/i-built-a-log-compressor-you-can-grep-without-decompressing-bf2",
+      "source": "Dev.to",
+      "published_at": "2026-11-08T18:41:32Z",
+      "summary": "Logs pile up. You compress them to keep them, and then the one time you need an answer, you sit there...",
+      "tags": [
+        "rust",
+        "opensource",
+        "cli",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4ade1b840365642f01e5d937d9a2e621",
+      "title": "Day 79: Polling and a Registry",
+      "url": "https://dev.to/ndcodes/day-79-polling-and-a-registry-5b39",
+      "source": "Dev.to",
+      "published_at": "2026-11-06T18:00:00Z",
+      "summary": "Day 79 of DevOps, Day 29 of Azure. Both tasks today turned out to run somewhere other than where the...",
+      "tags": [
+        "devops",
+        "jenkins",
+        "azure",
+        "cicd"
       ],
       "relevance_score": 0.0
     }
