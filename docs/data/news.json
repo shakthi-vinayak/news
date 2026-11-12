@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T09:43:34Z",
+  "generated_at": "2026-11-12T18:10:16Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1172,56 +1172,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f82aa51ab0ba823e087e1aed17860bdc",
-      "title": "Don't Write Markdown Files for Your Coding Agent. Write Scripts.",
-      "url": "https://dev.to/dannwaneri/dont-write-markdown-files-for-your-coding-agent-write-scripts-j00",
-      "source": "Dev.to",
-      "published_at": "2026-11-05T11:29:41Z",
-      "summary": "If you want agents to do what you want, you need to learn how to box them into deterministic actions....",
-      "tags": [
-        "ai",
-        "programming",
-        "devops",
-        "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "656fc3e20d20b003e223e883b3e6fb7e",
-      "title": "PostgreSQL 19's pg_stat_lock only counts waits that cross deadlock_timeout",
-      "url": "https://dev.to/alexgeorgiev17/postgresql-19s-pgstatlock-only-counts-waits-that-cross-deadlocktimeout-15lj",
-      "source": "Dev.to",
-      "published_at": "2026-11-05T11:00:00Z",
-      "summary": "PostgreSQL 19rc1 adds a cumulative lock-wait view, pg_stat_lock. I measured it against real contention and found it records nothing below deadlock_timeout (1s by default) and nothing while a wait is still in progress.",
-      "tags": [
-        "postgres",
-        "database",
-        "performance",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "716ff015d9c6fd19226c1fc896c5ee51",
-      "title": "Has anyone created a centralised design system to visually regression test against?",
-      "url": "https://www.reddit.com/r/devops/comments/1xoeov3/has_anyone_created_a_centralised_design_system_to/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-05T09:50:00+00:00",
-      "summary": "Hello! I'm looking to expand my DevOps process, and create a suite of visual regression tests against a design system that acts as a source of truth for my site.   One location for every page, layout and component This system to be the source of truth PR checks to go through the design system to thw",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fedc496cee02ced700f6a8cd2753ae18",
-      "title": "langchain-ai/langgraph: langgraph==1.2.20",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-05T02:20:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ca5a00a5294dc30b876b607f28fbe3e9",
       "title": "apache/airflow: providers-teradata/3.7.2rc1",
       "url": "https://github.com/apache/airflow/releases/tag/providers-teradata%2F3.7.2rc1",
@@ -1282,36 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "698ef8f54d18dfe3b36f41a814b8c351",
-      "title": "Raindrop simulates your agent’s world to catch what your changes break",
-      "url": "https://thenewstack.io/raindrop-simulations-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-11-05T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cd3475e819a265ca04201432c6da99dc",
-      "title": "Books for Devops",
-      "url": "https://www.reddit.com/r/devops/comments/1xop05n/books_for_devops/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-05T17:41:05+00:00",
-      "summary": "Hi,  Im now in the beginning of devops journey and I'm not really a reader person but I want to spend my free time in something useful so any suggestions for a book would help in my career and will benift me.   &#32; submitted by &#32;  /u/Overall_Art9787   [link] &#32; [comments]",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b4b1b9064a78cc83fc50d80d4523b440",
-      "title": "Groundcover automates Kubernetes sizing. Engineers set the bounds.",
-      "url": "https://thenewstack.io/groundcover-autonomous-kubernetes-rightsizing/",
-      "source": "The New Stack",
-      "published_at": "2026-11-05T17:14:41+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f11c9b97693ce92458f6867f7cf57272",
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
@@ -1342,16 +1262,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0fbcebbcd97271f51074f4631c3f5c62",
-      "title": "Postcards from tomorrow: Powering the agentic era through open source",
-      "url": "https://thenewstack.io/kubernetes-ai-learning-loop/",
-      "source": "The New Stack",
-      "published_at": "2026-11-05T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "073fcf1231adda2f642808b72ef358cd",
       "title": "October 2026 Node.js vulnerabilities: Azure DevOps security guidance",
       "url": "https://devblogs.microsoft.com/devops/october-2026-node-js-vulnerabilities-azure-devops-security-guidance/",
@@ -1372,72 +1282,12 @@
       "relevance_score": 0.0
     },
     {
-      "id": "483bc7d6234d5910eb29fe0e4c6f6b3c",
-      "title": "I broke a working agent seven ways. The metric I was watching caught two of them.",
-      "url": "https://thenewstack.io/monitoring-production-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-11-05T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "228c21ea735f5fc8ba5addde1f53fb11",
-      "title": "From open beta to global GA: What Docusign learned by bringing contract AI workflows to agents",
-      "url": "https://thenewstack.io/docusign-mcp-server-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-11-05T14:50:21+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0584ca88bfee0f0541f12d48227c7234",
-      "title": "How the new streamhouse architecture solves agentic AI’s data problem",
-      "url": "https://thenewstack.io/streamhouse-architecture-ai-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-11-05T14:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "138c4d61a77edf86b63c6a400e7c045c",
-      "title": "Dropbox ditched AWS S3 for its own in-house system. Now it’s buying Tigris to sell S3-compatible storage to AI developers.",
-      "url": "https://thenewstack.io/dropbox-acquires-tigris-s3-alternative/",
-      "source": "The New Stack",
-      "published_at": "2026-11-05T14:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "53fc1466b0805e937e41548f68e2c086",
       "title": "CNCF Score project improved its security posture by joining the Docker-Sponsored Open Source Program",
       "url": "https://www.docker.com/blog/cncf-score-project-improved-its-security-posture-by-joining-the-docker-sponsored-open-source-program/",
       "source": "Docker Blog",
       "published_at": "2026-11-05T14:00:00+00:00",
       "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "10ee74c27a27d9cf878019809e0f2fac",
-      "title": "OpenSSH on musl has a problem",
-      "url": "https://www.reddit.com/r/devops/comments/1xoim7b/openssh_on_musl_has_a_problem/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-05T13:27:20+00:00",
-      "summary": "In case any of you use OpenSSH on musl without PAM: https://sshhole.com/ TL;DR: Accounts that should never take a password at all (root, your key-only deploy user, ldap users, the default user on alpine's aws and azure images) take any password longer than 256 characters.  &#32; submitted by &#32;  ",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ce9a4ba5f3536090e8cd1028eef4b32c",
-      "title": "How do you tell what broke when GitHub Actions goes down?",
-      "url": "https://www.reddit.com/r/devops/comments/1xohzge/how_do_you_tell_what_broke_when_github_actions/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-05T12:58:01+00:00",
-      "summary": "Been looking at GitHub’s status history and availability reports for July to October, sorting the Actions incidents by what broke. Kind of surprised how many of them would’ve taken out self-hosted runners too. The July 19 cert expiry cut self-hosted runners off for about 5 hours, and on Aug 26 job a",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -2218,21 +2068,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "791fca871d629c084a73b5cccee52b7b",
-      "title": "OpenTelemetry Collector Custom Builds: 6.5x Smaller, and What Resource Detectors Cost at Startup",
-      "url": "https://dev.to/devopsdaily/opentelemetry-collector-custom-builds-65x-smaller-and-what-resource-detectors-cost-at-startup-4fla",
-      "source": "Dev.to",
-      "published_at": "2026-11-05T15:00:00Z",
-      "summary": "The contrib release of the OpenTelemetry Collector 0.164.0 is a 420.3 MB binary on linux/amd64. We...",
-      "tags": [
-        "devops",
-        "opentelemetry",
-        "observability",
-        "go"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "194d6a11c9a3bc326d4f24e87d43cb9d",
       "title": "I built AgentStory to make Codex and Claude Code sessions easier to find, revisit, and share",
       "url": "https://www.reddit.com/r/devops/comments/1xsc4pp/i_built_agentstory_to_make_codex_and_claude_code/",
@@ -2951,6 +2786,141 @@
       "published_at": "2026-11-12T04:40:09+00:00",
       "summary": "Hi everyone, I created a Google Cloud account today to try the free trial, but I didn't use any services. I deleted all my projects and closed both billing accounts. However, when I try to close my Google Payments profile, it says Google Cloud is still an active service. I can't create a Google Clou",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b260671fac012fc2fc7c2a53b45ad7c9",
+      "title": "langchain-ai/langgraph: langgraph==1.2.21",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.21",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-11-12T18:06:43+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "6485d7838f52eb8a395aaf1baafd0fa8",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-12T18:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dcfd65ac2eb2721ed8b0be3371dc11a9",
+      "title": "Two rejected series stalled all my metrics",
+      "url": "https://dev.to/slima4/two-rejected-series-stalled-all-my-metrics-2523",
+      "source": "Dev.to",
+      "published_at": "2026-11-12T17:31:08Z",
+      "summary": "Three alerts fired while production was fine. A rate limiter put client addresses in metric labels, and a retry on 429 turned two rejected series into a stall.",
+      "tags": [
+        "devops",
+        "observability",
+        "prometheus",
+        "grafana"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "added37b15c8ee8a489d24a0e0652844",
+      "title": "apache/airflow: providers-amazon/9.40.0",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-amazon%2F9.40.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-12T17:24:26+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5d2b4c2baa48b76a240dcaff6d62a35b",
+      "title": "User Analytics on an 'open' website?",
+      "url": "https://www.reddit.com/r/devops/comments/1xuimt9/user_analytics_on_an_open_website/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-12T17:18:01+00:00",
+      "summary": "Curious what others that are tracking user analytics on their websites are using. For some context I have a website which is hosted on AWS. It is a website which has no user profiles or user authentication, it is publicly accessible and used to search industry information.  We have been recently ask",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "deeb574609ad0832aea245f9088f8def",
+      "title": "Cloud Tagging Strategy for Messy AWS and Azure Environments",
+      "url": "https://www.reddit.com/r/devops/comments/1xuhnf3/cloud_tagging_strategy_for_messy_aws_and_azure/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-12T16:42:07+00:00",
+      "summary": "      When people ask how engineers move the needle for the business, I usually say there are three answers. You ship new features, which brings in revenue. You make the team faster, which lets the same people do more. Or you cut costs, which leaves more money for the first two. Features get the dem",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "092950ea989449019e2a2ddb5727f779",
+      "title": "Nvidia Says Its Roadmap Will Continue. AI Teams Should Verify the Dependencies",
+      "url": "https://dev.to/jamilxt/nvidia-says-its-roadmap-will-continue-ai-teams-should-verify-the-dependencies-3c8d",
+      "source": "Dev.to",
+      "published_at": "2026-11-12T16:23:45Z",
+      "summary": "A company can announce that its operations and product roadmap will continue without interruption....",
+      "tags": [
+        "ai",
+        "business",
+        "infrastructure",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b0d702e4e40b01f666a832bba2ed1c80",
+      "title": "langchain-ai/langgraph: langgraph-cli==0.4.43",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.43",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-11-12T16:20:16+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "92e1df22087729399847919d0724f568",
+      "title": "CNCF Recognizes Cloud Native Champions in 2026 Community Awards",
+      "url": "https://www.cncf.io/announcements/2026/11/12/cncf-recognizes-cloud-native-champions-in-2026-community-awards/",
+      "source": "CNCF Blog",
+      "published_at": "2026-11-12T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e927b9aeba8adc8955d110fa6742e60d",
+      "title": "apache/airflow: python-client/3.4.0",
+      "url": "https://github.com/apache/airflow/releases/tag/python-client%2F3.4.0",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-12T13:22:01+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5f41e988193871bc96c320b193c4a3ea",
+      "title": "Gang scheduling and topology-aware placement for AI training in Kubernetes",
+      "url": "https://www.cncf.io/blog/2026/11/12/gang-scheduling-and-topology-aware-placement-for-ai-training-in-kubernetes/",
+      "source": "CNCF Blog",
+      "published_at": "2026-11-12T12:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f7a22d6d822509b5134823ca82c5d426",
+      "title": "ClickHouse 26.10's string filter during scan cuts a selective LIKE query's memory 25-fold",
+      "url": "https://dev.to/alexgeorgiev17/clickhouse-2610s-string-filter-during-scan-cuts-a-selective-like-querys-memory-25-fold-228j",
+      "source": "Dev.to",
+      "published_at": "2026-11-12T11:00:00Z",
+      "summary": "I benchmarked ClickHouse 26.10's new apply_string_filters_during_scan setting against 26.9: a selective LIKE query's peak memory dropped from 37.6MB to 1.5MB, but a plain WHERE equality got none of it until I rewrote it as PREWHERE.",
+      "tags": [
+        "clickhouse",
+        "database",
+        "performance",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
