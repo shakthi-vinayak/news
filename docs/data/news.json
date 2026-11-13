@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:40:56Z",
+  "generated_at": "2026-11-13T23:30:36Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1222,16 +1222,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f2944dce9cf6dcb7dbe8b36957db7bac",
-      "title": "istio/istio: Istio 1.31.4",
-      "url": "https://github.com/istio/istio/releases/tag/1.31.4",
-      "source": "GitHub Releases (istio)",
-      "published_at": "2026-11-06T19:01:19+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f81ff55266969a216167fb3ed09be578",
       "title": "Your Guide to the Developer Tools Track at AWS re:Invent 2026",
       "url": "https://aws.amazon.com/blogs/devops/your-guide-to-the-developer-tools-track-at-aws-reinvent-2026/",
@@ -1297,26 +1287,6 @@
       "url": "https://github.com/istio/istio/releases/tag/1.32.0-rc.2",
       "source": "GitHub Releases (istio)",
       "published_at": "2026-11-06T23:31:51+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "ae73211348cbfc9835529dac6436ed55",
-      "title": "grafana/grafana: pkg/storage/dbproxy/v0.1.0",
-      "url": "https://github.com/grafana/grafana/releases/tag/pkg%2Fstorage%2Fdbproxy%2Fv0.1.0",
-      "source": "GitHub Releases (grafana)",
-      "published_at": "2026-11-06T20:09:10+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "044aa7f7cf700f2b9005505f1a961683",
-      "title": "AI agents are getting more complex. Developers shouldn’t have to babysit them.",
-      "url": "https://thenewstack.io/harness-engineering-coding-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-11-06T19:35:59+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2063,21 +2033,6 @@
         "opensource",
         "cli",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4ade1b840365642f01e5d937d9a2e621",
-      "title": "Day 79: Polling and a Registry",
-      "url": "https://dev.to/ndcodes/day-79-polling-and-a-registry-5b39",
-      "source": "Dev.to",
-      "published_at": "2026-11-06T18:00:00Z",
-      "summary": "Day 79 of DevOps, Day 29 of Azure. Both tasks today turned out to run somewhere other than where the...",
-      "tags": [
-        "devops",
-        "jenkins",
-        "azure",
-        "cicd"
       ],
       "relevance_score": 0.0
     },
@@ -2863,6 +2818,76 @@
       "published_at": "2026-11-13T09:43:39+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "daee93fc1030e308a74241791551ae45",
+      "title": "Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk",
+      "url": "https://thenewstack.io/self-hosted-claude-managed-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-11-13T21:29:30+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "378d67a0268d944b7e23aa75b61c45e9",
+      "title": "Starting hands-on Linux Admin study group & Discord (No boring slides, just terminal & real-world troubleshooting)",
+      "url": "https://www.reddit.com/r/devops/comments/1xvjftu/starting_handson_linux_admin_study_group_discord/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-13T20:54:30+00:00",
+      "summary": "I’ve been working as a Senior Linux &amp; Cloud Infrastructure Administrator for the past few years (managing enterprise RHEL environments, storage, networking, and production troubleshooting). One thing I constantly notice is how big the gap is between knowing basic Linux commands (ls, cd, chmod) a",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d1db2ee6ba0f3cccd2b31944e76cd8a5",
+      "title": "The context problem: It’s what’s really breaking AI agents at scale",
+      "url": "https://thenewstack.io/elastic-ai-context-gap/",
+      "source": "The New Stack",
+      "published_at": "2026-11-13T18:15:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5423a078f7213170bf9de77d1ce0bb43",
+      "title": "DeepSeek’s coding agent is too tidy for its own good — and benchmarks are punishing it",
+      "url": "https://thenewstack.io/deepseek-harness-cleanup-benchmark/",
+      "source": "The New Stack",
+      "published_at": "2026-11-13T17:56:30+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4124711170704a18864cae960c38a9a0",
+      "title": "We tested 37,000 MCP servers. Here's how many actually work",
+      "url": "https://dev.to/nestdaddy/we-tested-37000-mcp-servers-heres-how-many-actually-work-1pne",
+      "source": "Dev.to",
+      "published_at": "2026-11-13T15:59:17Z",
+      "summary": "We connected to every remote server in the official MCP registry the way an MCP client does. 9 in 10 answered, 1 in 3 wants a key before it shows its tools, and 12% of the registry turned out to be spam. Here is the data and what it means for anyone building agents.",
+      "tags": [
+        "mcp",
+        "ai",
+        "opensource",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fd2c7c243b4461901226db741aef768e",
+      "title": "AWS Extended Support: what it costs and how to find everything you're about to pay for",
+      "url": "https://dev.to/expiryradar/aws-extended-support-what-it-costs-and-how-to-find-everything-youre-about-to-pay-for-6i",
+      "source": "Dev.to",
+      "published_at": "2026-11-12T22:39:21Z",
+      "summary": "Disclosure: I build Expiry Radar, a tool that tracks dates like these. Nothing below needs it: the...",
+      "tags": [
+        "aws",
+        "kubernetes",
+        "devops",
+        "postgres"
+      ],
       "relevance_score": 0.0
     }
   ]
