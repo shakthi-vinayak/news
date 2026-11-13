@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-13T09:27:43Z",
+  "generated_at": "2026-11-13T17:40:56Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
       "title": "n8n-io/n8n: stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
       "source": "GitHub Releases (n8n-io)",
-      "published_at": "2026-11-13T08:25:15+00:00",
+      "published_at": "2026-11-13T09:45:46+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1202,56 +1202,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "0e54efac2441a092bb3230962e1a4bf6",
-      "title": "Kubernetes, mark II? Why Google’s giving away gVisor, a code sandbox used by Anthropic and OpenAI",
-      "url": "https://thenewstack.io/gvisor-cncf-kubernetes-open-source/",
-      "source": "The New Stack",
-      "published_at": "2026-11-06T11:49:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "977a4c7498d484e18d90e5b833038633",
-      "title": "Deploy an API with preview environments and request logs",
-      "url": "https://dev.to/unkey/deploy-an-api-with-preview-environments-and-request-logs-3m5b",
-      "source": "Dev.to",
-      "published_at": "2026-11-06T11:37:43Z",
-      "summary": "A walkthrough of deploying an API on Unkey from GitHub, with preview environments and request logs.",
-      "tags": [
-        "api",
-        "deployment",
-        "devops",
-        "github"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c0321e73f4d8646657ce8e5edb57d407",
-      "title": "The \"Magic Pill\" Delusion: Why AI Licenses Won't Fix Broken Platform Engineering",
-      "url": "https://dev.to/debashish_ghosal/the-magic-pill-delusion-why-ai-licenses-wont-fix-broken-platform-engineering-43h3",
-      "source": "Dev.to",
-      "published_at": "2026-11-06T10:42:00Z",
-      "summary": "The \"Magic Pill\" Delusion: Why AI Licenses Won't Fix Broken Platform Engineering    TLDR: AI...",
-      "tags": [
-        "discuss",
-        "ai",
-        "devops",
-        "platform"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4b1c4cd91289f25ebe769599d5e433b8",
-      "title": "apache/airflow: java-sdk/1.0.0-rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/java-sdk%2F1.0.0-rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-06T10:30:24+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "4fcf883d9c90280f833ea9dfef6bacb7",
       "title": "kubernetes/kubernetes: v1.38.0-beta.0",
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.38.0-beta.0",
@@ -1297,81 +1247,6 @@
       "url": "https://aws.amazon.com/blogs/devops/run-maestro-tests-on-real-android-devices-using-aws-device-farm/",
       "source": "AWS Blog",
       "published_at": "2026-11-06T18:13:33+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "66b6ab867dd9bccdbac4fed4fa59dfea",
-      "title": "Is GHA + ArgoCD still the default CD standard or are you using something else?",
-      "url": "https://www.reddit.com/r/devops/comments/1xpf9nt/is_gha_argocd_still_the_default_cd_standard_or/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-06T15:14:49+00:00",
-      "summary": "Evaluating CD tools to automate our end to end delivery (build, test, packaging, and deployments). Curious if the standard GHA + Argo/Flux combo is still what most teams stick with, or if there are dedicated delivery/orchestration tools actually worth looking at in 2026.  &#32; submitted by &#32;  /",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1a27c169c40e0a2859b6230bc1fb1eca",
-      "title": "9 Transactional Email Mistakes That Show Up in Production",
-      "url": "https://dev.to/boiliev/9-transactional-email-mistakes-that-show-up-in-production-k6o",
-      "source": "Dev.to",
-      "published_at": "2026-11-06T14:08:59Z",
-      "summary": "Nine transactional email mistakes that cause missing receipts, duplicate sends, and expired password resets, with practical fixes for retries, DNS, suppressions, and webhooks.",
-      "tags": [
-        "devops",
-        "webdev",
-        "email",
-        "reliability"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "65340daff9dfe83e799f887195937c69",
-      "title": "Grafana: Our latest adventure with canary tokens",
-      "url": "https://www.reddit.com/r/devops/comments/1xpdbnl/grafana_our_latest_adventure_with_canary_tokens/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-06T13:52:33+00:00",
-      "summary": "      Grafana Labs shares how they scaled canary tokens across their Kubernetes workloads, with automated rotation, more precise detection and less maintenance. A practical look at the tradeoffs between coverage, granularity and management overhead. Read the blog  &#32; submitted by &#32;  /u/traceb",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "589021098e819635167e82f177224943",
-      "title": "apache/airflow: Apache Airflow 3.4.0",
-      "url": "https://github.com/apache/airflow/releases/tag/3.4.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-06T13:08:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0423de345e59299ff89c39df0c70df47",
-      "title": "apache/airflow: task-sdk/1.4.0",
-      "url": "https://github.com/apache/airflow/releases/tag/task-sdk%2F1.4.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-06T12:20:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "9f7bfd355274f9ab8a3f6644c240d775",
-      "title": "apache/airflow: ts-sdk/1.0.0-rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/ts-sdk%2F1.0.0-rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-06T12:07:04+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cbbd48bb91cf8b28e968fd84157bffa8",
-      "title": "Faster LLM inference startup: What you need to know",
-      "url": "https://www.cncf.io/blog/2026/11/06/faster-llm-inference-startup-what-you-need-to-know/",
-      "source": "CNCF Blog",
-      "published_at": "2026-11-06T12:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1444,21 +1319,6 @@
       "published_at": "2026-11-06T19:35:59+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c2fc1aba22a6bfada910488f5ecee7a8",
-      "title": "Stop Swapping Models: Optimizing the Agent Environment Cuts 70% More Cost",
-      "url": "https://dev.to/reidmarlow/stop-swapping-models-optimizing-the-agent-environment-cuts-70-more-cost-36cf",
-      "source": "Dev.to",
-      "published_at": "2026-11-06T17:28:40Z",
-      "summary": "When an agent workflow runs up an unsustainable token bill, developers usually pull two levers.  The...",
-      "tags": [
-        "ai",
-        "programming",
-        "architecture",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2856,21 +2716,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b2ecd797127fe91963d7a2a716002941",
-      "title": "The software lifecycle was built for human pace. AI broke it twice.",
-      "url": "https://dev.to/jpshettyai/the-software-lifecycle-was-built-for-human-pace-ai-broke-it-twice-2c11",
-      "source": "Dev.to",
-      "published_at": "2026-11-06T10:52:52Z",
-      "summary": "Part 1 of 3: The SDLC reimagined for the AI era  I build with Claude Code. On Signal Radar, a live...",
-      "tags": [
-        "ai",
-        "devops",
-        "softwareengineering",
-        "architecture"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "e95356cf3a3def7e2291cb5d8f4027d4",
       "title": "apache/airflow: go-sdk/v1.0.0",
       "url": "https://github.com/apache/airflow/releases/tag/go-sdk%2Fv1.0.0",
@@ -2947,6 +2792,76 @@
       "source": "Reddit r/devops",
       "published_at": "2026-11-13T02:47:59+00:00",
       "summary": "Looking forward to chat with Devops Engineers across the world to know what you guys are building and learning in 2026-2027. I would like to connect and discover your take on what do you feel is most important in next year to tap on as a devops engineer. Should it be deep dives in K8S, CICD, Observa",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5f57179413f0a829a89871610f137d92",
+      "title": "langchain-ai/langchain: langchain-openai==1.8.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-11-13T16:48:30+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c53e4b91bfd475848e809434702e416b",
+      "title": "Microsoft Outlook outage: the recovery loop and delayed mail",
+      "url": "https://dev.to/axrisi/microsoft-outlook-outage-the-recovery-loop-and-delayed-mail-58oi",
+      "source": "Dev.to",
+      "published_at": "2026-11-13T16:30:00Z",
+      "summary": "Microsoft reported returned servers failing under traffic. The developer follow-up explains Exchange dependencies and the delayed-mail timeout safeguard.",
+      "tags": [
+        "cloud",
+        "devops",
+        "programming",
+        "news"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fe68d3e3da2c90658373d482319f88df",
+      "title": "Here’s how to teach AI agents to search like human experts",
+      "url": "https://thenewstack.io/ai-agents-retrieval-agent-ready-schema/",
+      "source": "The New Stack",
+      "published_at": "2026-11-13T14:50:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0774a900f6277ad237e25ac636e4e270",
+      "title": "Git 2.56's history drop command replays commits 40 to 77 times faster than rebase",
+      "url": "https://dev.to/alexgeorgiev17/git-256s-history-drop-command-replays-commits-40-to-77-times-faster-than-rebase-45jm",
+      "source": "Dev.to",
+      "published_at": "2026-11-13T11:00:00Z",
+      "summary": "I measured git history drop against the classic worktree-and-rebase way of removing a commit: 1.4s vs 0.03s at 20 descendants, 26.5s vs 0.36s at 400.",
+      "tags": [
+        "git",
+        "devops",
+        "performance",
+        "cli"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e6a39ce1e00dc2329b968e63d75d0e3e",
+      "title": "n8n-io/n8n: n8n@2.48.4",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.4",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-11-13T09:44:56+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3372193abfd624d4e5c2def2b3ee6d44",
+      "title": "n8n-io/n8n: n8n@3.2.2",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%403.2.2",
+      "source": "GitHub Releases (n8n-io)",
+      "published_at": "2026-11-13T09:43:39+00:00",
+      "summary": "",
       "tags": [],
       "relevance_score": 0.0
     }
