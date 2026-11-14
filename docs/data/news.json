@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:59:44Z",
+  "generated_at": "2026-11-14T20:37:44Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1282,31 +1282,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "203732779a97a076b4de50889595105b",
-      "title": "Why AWS wants developers to stop babysitting their AI agents",
-      "url": "https://thenewstack.io/kiro-bots-agent-memory/",
-      "source": "The New Stack",
-      "published_at": "2026-11-07T15:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3c0acbc20fcdbe35ab7d080349cb35a6",
-      "title": "An agent told me it deployed. I asked the server, and the containers were a day old",
-      "url": "https://dev.to/chet103cc/an-agent-told-me-it-deployed-i-asked-the-server-and-the-containers-were-a-day-old-2b6i",
-      "source": "Dev.to",
-      "published_at": "2026-11-07T14:18:49Z",
-      "summary": "The message said: deployed, edge clean, no 5xx.  Both of those things were true. The commit was on...",
-      "tags": [
-        "ai",
-        "devops",
-        "docker",
-        "productivity"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a2388ad3f8c0861e9a0863b0e7b780e9",
       "title": "I built pacboard, a read-only dashboard for Tekton Pipelines-as-Code runs (Go + Vue, AGPL)",
       "url": "https://www.reddit.com/r/devops/comments/1xqhbuv/i_built_pacboard_a_readonly_dashboard_for_tekton/",
@@ -1314,21 +1289,6 @@
       "published_at": "2026-11-07T21:23:59+00:00",
       "summary": "      We moved our CI from Jenkins to Tekton with Pipelines-as-Code. The Tekton Dashboard worked, but for PR-driven CI it shows a flat list of PipelineRuns and knows nothing about GitHub. So I wrote pacboard. What it does:  Repositories grouped by health: failing first, the last runs as a strip, typ",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d5dfba5602d874a9a4da0d5c2e76a85e",
-      "title": "Freeing AI from the Terminal: How We Built SwitchWarRoom to Turn Coding Agents into SRE Teammates in Slack",
-      "url": "https://dev.to/vidisha_gupta_/freeing-ai-from-the-terminal-how-we-built-switchwarroom-to-turn-coding-agents-into-sre-teammates-2aom",
-      "source": "Dev.to",
-      "published_at": "2026-11-07T17:44:13Z",
-      "summary": "Submitted for the Flip the Switch Hackathon by WeMakeDevs &amp; DevTools Academy (Powered by Switch...",
-      "tags": [
-        "ai",
-        "devops",
-        "hackathon",
-        "opensource"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1385,21 +1345,6 @@
         "database",
         "performance",
         "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0c53029542fb3230e532672bac2aa9ff",
-      "title": "Day 80: Two Chained Jobs and One Firewall Rule",
-      "url": "https://dev.to/ndcodes/day-80-two-chained-jobs-and-one-firewall-rule-5dai",
-      "source": "Dev.to",
-      "published_at": "2026-11-07T18:00:00Z",
-      "summary": "Day 80 of DevOps, Day 30 of Azure. Both tasks today put a credential somewhere it did not belong, and...",
-      "tags": [
-        "devops",
-        "jenkins",
-        "azure",
-        "cicd"
       ],
       "relevance_score": 0.0
     },
@@ -2892,6 +2837,91 @@
         "security",
         "devops",
         "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a4a7836fcf75f951b6bfd7fe5e9f7d2a",
+      "title": "AWS Emulator proves agents need a verification loop. Realism is the hard part.",
+      "url": "https://thenewstack.io/aws-emulator-verification-loops/",
+      "source": "The New Stack",
+      "published_at": "2026-11-14T17:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f8878175b69ae78f85a346cdb55d8c78",
+      "title": "Claude Fable 5.2 vs. Fable 5.1: Fewer refusals, with small savings on the login fix",
+      "url": "https://thenewstack.io/claude-fable-5-2-vs-fable-5-1/",
+      "source": "The New Stack",
+      "published_at": "2026-11-14T17:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fc4eb1f93ecb29487f73c4fcf638093f",
+      "title": "Web search for agents is here: Why ranking still decides the answer",
+      "url": "https://thenewstack.io/ai-agent-search-ranking/",
+      "source": "The New Stack",
+      "published_at": "2026-11-14T16:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fc0325d415a2b459d9a46398feece415",
+      "title": "Anthropic wants you to build on Claude. There’s a catch.",
+      "url": "https://thenewstack.io/anthropic-enterprise-developer-competition/",
+      "source": "The New Stack",
+      "published_at": "2026-11-14T15:15:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "745a4368509364afada30356e051a1ee",
+      "title": "Be Your Own Certificate Authority: Trusted HTTPS on Your Laptop (Windows + WSL2)",
+      "url": "https://dev.to/aws-builders/be-your-own-certificate-authority-trusted-https-on-your-laptop-windows-wsl2-39i9",
+      "source": "Dev.to",
+      "published_at": "2026-11-14T06:26:07Z",
+      "summary": "1. Why I built my own CA   When you open an HTTPS site, the browser shows whether the...",
+      "tags": [
+        "devops",
+        "linux",
+        "cybersecurity",
+        "tls"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ec2e49cb21bef141e62c7f3ef1e668c7",
+      "title": "PHP2Shell to Node2Shell: Five Supply Chain Security Controls",
+      "url": "https://dev.to/aerabi/php2shell-to-node2shell-five-supply-chain-security-controls-5dfa",
+      "source": "Dev.to",
+      "published_at": "2026-11-11T09:20:32Z",
+      "summary": "PHP2Shell, Node2Shell, LiteLLM, and Shai-Hulud expose gaps in software trust. Apply five SIP controls to reduce exposure and contain damage.",
+      "tags": [
+        "docker",
+        "security",
+        "devops",
+        "ai"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "753e62f319125532066af6d9b8954083",
+      "title": "A Test Run I Aborted Came Back and Corrupted My Evidence",
+      "url": "https://dev.to/debashish_ghosal/a-test-run-i-aborted-came-back-and-corrupted-my-evidence-5f1n",
+      "source": "Dev.to",
+      "published_at": "2026-11-11T07:00:00Z",
+      "summary": "From the agentdrill v0.1.0 release, part of agentic-suite: open-source, harness-agnostic security...",
+      "tags": [
+        "discuss",
+        "ai",
+        "testing",
+        "devops"
       ],
       "relevance_score": 0.0
     }
