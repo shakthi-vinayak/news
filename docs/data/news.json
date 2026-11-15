@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:59:52Z",
+  "generated_at": "2026-11-15T22:46:40Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1790,21 +1790,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "c410e47e3f854d39e78acd34eb533f99",
-      "title": "I built a log compressor you can grep without decompressing",
-      "url": "https://dev.to/zaydmulani09/i-built-a-log-compressor-you-can-grep-without-decompressing-bf2",
-      "source": "Dev.to",
-      "published_at": "2026-11-08T18:41:32Z",
-      "summary": "Logs pile up. You compress them to keep them, and then the one time you need an answer, you sit there...",
-      "tags": [
-        "rust",
-        "opensource",
-        "cli",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "0e53b8fb8460e679e14c0151bc55ad31",
       "title": "ollama/ollama: v0.40.17",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
@@ -2963,6 +2948,56 @@
         "devops",
         "security"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5c94922d7950dae493b0441b0684fa0d",
+      "title": "langchain-ai/langchain: langchain-xai==1.4.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-11-15T21:35:22+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0db6a3602cfd5d3f6b6ff1bb261eb70a",
+      "title": "langchain-ai/langchain: langchain-deepseek==1.2.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-11-15T21:34:42+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4a89cf80438b5104be8279c3730056de",
+      "title": "Platform engineering, DevEx, SRE, how freely can you move between them?",
+      "url": "https://www.reddit.com/r/devops/comments/1xx7dlu/platform_engineering_devex_sre_how_freely_can_you/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-15T21:32:02+00:00",
+      "summary": "DevOps seems to cover very different jobs. Some teams build the delivery side: CI/CD templates, policy gates, supply-chain security, artifact management. Others run the runtime side: Kubernetes clusters, nodes, networking, scaling, incident response. Many do a mix. My questions: Can you move between",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "668eece8e0b6b558c3d63cbdce4a306d",
+      "title": "I built an open-source tool to solve polyrepo config drift without clobbering local overrides",
+      "url": "https://www.reddit.com/r/devops/comments/1xx53i1/i_built_an_opensource_tool_to_solve_polyrepo/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-15T19:58:18+00:00",
+      "summary": "Hey r/devops! If you maintain multiple repositories (microservices, polyrepos, or SDKs), you probably know the pain of keeping shared configuration files in sync:  .github/workflows/*.yml .editorconfig Cargo.toml / package.json  Existing file-copying bots usually clobber legitimate repo-specific ove",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a035d3cefa73cc99f1caa931beb9f3ad",
+      "title": "My zero-trust Ubuntu dev environment on Windows",
+      "url": "https://www.reddit.com/r/devops/comments/1xx0mu0/my_zerotrust_ubuntu_dev_environment_on_windows/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-15T17:02:43+00:00",
+      "summary": "As DevOps engineers, our laptops have access to Prod. Many of us have to maintain a dev environment also in our laptop for coding. With the increase in supply chain attacks, how do you secure your local dev environments? Do you think what I did below is good enough? ------------------ I built an Ubu",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
