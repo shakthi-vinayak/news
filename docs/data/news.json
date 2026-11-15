@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T09:12:18Z",
+  "generated_at": "2026-11-15T16:59:52Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1279,53 +1279,6 @@
       "published_at": "2026-11-06T23:42:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6f9a3e46fa462624e8b433f46ffa9a19",
-      "title": "Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework",
-      "url": "https://thenewstack.io/scaling-autonomous-agents-framework/",
-      "source": "The New Stack",
-      "published_at": "2026-11-08T16:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "046e0cc736fcbd769bea8b82d5bb3dee",
-      "title": "DB based app for pics",
-      "url": "https://www.reddit.com/r/devops/comments/1xr1vh7/db_based_app_for_pics/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-08T16:06:30+00:00",
-      "summary": "Describes a database‑driven picture application, likely covering architecture and deployment considerations.",
-      "tags": [
-        "DevOps"
-      ],
-      "relevance_score": 0.5
-    },
-    {
-      "id": "1e30acd8da3c1d170f38f4e5449e4e07",
-      "title": "Perplexity’s AI agents keep working after you close the tab",
-      "url": "https://thenewstack.io/perplexity-teammates-agent-orchestration/",
-      "source": "The New Stack",
-      "published_at": "2026-11-08T15:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b6e2ad1befc478a126d8843398213c5c",
-      "title": "Redis 8.12-rc1's roaring bitmap type shrinks a sparse bitmap from 24MB to 239KB",
-      "url": "https://dev.to/alexgeorgiev17/redis-812-rc1s-roaring-bitmap-type-shrinks-a-sparse-bitmap-from-24mb-to-239kb-5bll",
-      "source": "Dev.to",
-      "published_at": "2026-11-08T11:00:00Z",
-      "summary": "I measured Redis 8.12-rc1's new roaring bitmap type: a 200-million-bit sparse bitmap dropped from 24MB to 239KB and BITCOUNT got about 14 times faster, but a dense bitmap came out slightly bigger than before.",
-      "tags": [
-        "redis",
-        "database",
-        "performance",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2950,6 +2903,66 @@
       "published_at": "2026-11-15T07:49:27+00:00",
       "summary": "Anyone from Chandigarh or mohali here ?  &#32; submitted by &#32;  /u/tata_Safari12   [link] &#32; [comments]",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "add0865b03f527ac4204679817023697",
+      "title": "Claude Fable 5.2 vs. Opus 5.5: Same scores at almost 4x the cost",
+      "url": "https://thenewstack.io/claude-fable-5-2-vs-opus-5-5/",
+      "source": "The New Stack",
+      "published_at": "2026-11-15T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4e91afeb4e8dd3353f6451ea7ed6ac01",
+      "title": "langchain-ai/langchain: langchain-core==1.8.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-11-15T14:57:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5dd9fe21a3eef638250b03a263a0a04e",
+      "title": "Day 83: Two Files and Four Parts",
+      "url": "https://dev.to/ndcodes/day-83-two-files-and-four-parts-40hc",
+      "source": "Dev.to",
+      "published_at": "2026-11-15T13:47:01Z",
+      "summary": "Day 83 of DevOps, Day 33 of Azure. Both tasks today were made of parts that are each correct on their...",
+      "tags": [
+        "devops",
+        "ansible",
+        "azure",
+        "automation"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "791c770091005a86f39b64b63fd029f8",
+      "title": "Metrics, logs and alerts for my 3-node Talos homelab",
+      "url": "https://www.reddit.com/r/devops/comments/1xwtif2/metrics_logs_and_alerts_for_my_3node_talos_homelab/",
+      "source": "Reddit r/devops",
+      "published_at": "2026-11-15T11:45:39+00:00",
+      "summary": "      My 3-node Talos homelab had no monitoring, so I only found out something was wrong when an app stopped working. So I added VictoriaMetrics for metrics and VictoriaLogs for logs from every node and pod. Both show up in Grafana, and alerts go to my phone on Telegram. Healthchecks[.]io also watch",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1be4ca1c5613c19e227fc31076de1a3c",
+      "title": "uv 0.13's tar-codec backend installs a 6,000-file sdist in 2.5 seconds instead of 3.8",
+      "url": "https://dev.to/alexgeorgiev17/uv-013s-tar-codec-backend-installs-a-6000-file-sdist-in-25-seconds-instead-of-38-2ijc",
+      "source": "Dev.to",
+      "published_at": "2026-11-15T11:00:00Z",
+      "summary": "I measured uv 0.13's new tar-codec extraction backend against the old one: a 6,000-file source distribution installed in a 2.5-second median instead of 3.8, and a device-file entry the old backend silently dropped now fails with a clear error.",
+      "tags": [
+        "python",
+        "performance",
+        "devops",
+        "security"
+      ],
       "relevance_score": 0.0
     }
   ]
