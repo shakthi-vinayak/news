@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T10:12:02Z",
+  "generated_at": "2026-11-19T20:29:31Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -572,16 +572,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a8ea324f6029bfb51fac1e6141233807",
-      "title": "Updates to Copilot Code Reviews for Azure Repos",
-      "url": "https://devblogs.microsoft.com/devops/updates-to-copilot-code-reviews-for-azure-repos/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-09-30T17:05:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "849e3b3598a59d1d87c9e0839972b944",
       "title": "GitHub-hosted agents with Pay-as-you-Go pricing are now generally available in Azure Pipelines",
       "url": "https://devblogs.microsoft.com/devops/github-hosted-agents-with-pay-as-you-go-pricing-are-now-generally-available-in-azure-pipelines/",
@@ -867,16 +857,6 @@
       "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.2",
       "source": "GitHub Releases (kubernetes)",
       "published_at": "2026-10-28T04:37:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fc4686aad020c13b679b1e69678af54b",
-      "title": "Win the Agentic Era, Together: Introducing the Docker Navigator Partner Program",
-      "url": "https://www.docker.com/blog/docker-navigator-partner-program/",
-      "source": "Docker Blog",
-      "published_at": "2026-10-28T13:00:00+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1262,93 +1242,11 @@
       "relevance_score": 0.0
     },
     {
-      "id": "b260671fac012fc2fc7c2a53b45ad7c9",
-      "title": "langchain-ai/langgraph: langgraph==1.2.21",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.21",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-12T18:06:43+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "6485d7838f52eb8a395aaf1baafd0fa8",
       "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "source": "Google AI Blog",
       "published_at": "2026-11-12T18:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dcfd65ac2eb2721ed8b0be3371dc11a9",
-      "title": "Two rejected series stalled all my metrics",
-      "url": "https://dev.to/slima4/two-rejected-series-stalled-all-my-metrics-2523",
-      "source": "Dev.to",
-      "published_at": "2026-11-12T17:31:08Z",
-      "summary": "Three alerts fired while production was fine. A rate limiter put client addresses in metric labels, and a retry on 429 turned two rejected series into a stall.",
-      "tags": [
-        "devops",
-        "observability",
-        "prometheus",
-        "grafana"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "added37b15c8ee8a489d24a0e0652844",
-      "title": "apache/airflow: providers-amazon/9.40.0",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-amazon%2F9.40.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-12T17:24:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5d2b4c2baa48b76a240dcaff6d62a35b",
-      "title": "User Analytics on an 'open' website?",
-      "url": "https://www.reddit.com/r/devops/comments/1xuimt9/user_analytics_on_an_open_website/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-12T17:18:01+00:00",
-      "summary": "Curious what others that are tracking user analytics on their websites are using. For some context I have a website which is hosted on AWS. It is a website which has no user profiles or user authentication, it is publicly accessible and used to search industry information.  We have been recently ask",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "deeb574609ad0832aea245f9088f8def",
-      "title": "Cloud Tagging Strategy for Messy AWS and Azure Environments",
-      "url": "https://www.reddit.com/r/devops/comments/1xuhnf3/cloud_tagging_strategy_for_messy_aws_and_azure/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-12T16:42:07+00:00",
-      "summary": "Guidance for tagging AWS and Azure resources to improve cost management and compliance.",
-      "tags": [
-        "Cloud",
-        "SRE"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "092950ea989449019e2a2ddb5727f779",
-      "title": "Nvidia Says Its Roadmap Will Continue. AI Teams Should Verify the Dependencies",
-      "url": "https://dev.to/jamilxt/nvidia-says-its-roadmap-will-continue-ai-teams-should-verify-the-dependencies-3c8d",
-      "source": "Dev.to",
-      "published_at": "2026-11-12T16:23:45Z",
-      "summary": "Nvidia advises AI teams to verify dependencies as its roadmap continues, ensuring security and stability. The article outlines best practices for dependency management.",
-      "tags": [
-        "AI",
-        "DevOps",
-        "Security"
-      ],
-      "relevance_score": 0.95
-    },
-    {
-      "id": "b0d702e4e40b01f666a832bba2ed1c80",
-      "title": "langchain-ai/langgraph: langgraph-cli==0.4.43",
-      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.43",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-12T16:20:16+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -1364,16 +1262,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "e927b9aeba8adc8955d110fa6742e60d",
-      "title": "apache/airflow: python-client/3.4.0",
-      "url": "https://github.com/apache/airflow/releases/tag/python-client%2F3.4.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-12T13:22:01+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "5f41e988193871bc96c320b193c4a3ea",
       "title": "Gang scheduling and topology-aware placement for AI training in Kubernetes",
       "url": "https://www.cncf.io/blog/2026/11/12/gang-scheduling-and-topology-aware-placement-for-ai-training-in-kubernetes/",
@@ -1381,21 +1269,6 @@
       "published_at": "2026-11-12T12:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f7a22d6d822509b5134823ca82c5d426",
-      "title": "ClickHouse 26.10's string filter during scan cuts a selective LIKE query's memory 25-fold",
-      "url": "https://dev.to/alexgeorgiev17/clickhouse-2610s-string-filter-during-scan-cuts-a-selective-like-querys-memory-25-fold-228j",
-      "source": "Dev.to",
-      "published_at": "2026-11-12T11:00:00Z",
-      "summary": "I benchmarked ClickHouse 26.10's new apply_string_filters_during_scan setting against 26.9: a selective LIKE query's peak memory dropped from 37.6MB to 1.5MB, but a plain WHERE equality got none of it until I rewrote it as PREWHERE.",
-      "tags": [
-        "clickhouse",
-        "database",
-        "performance",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1471,26 +1344,6 @@
         "rust",
         "devops"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "81b5b449c43f59fba13494e9255cfd8c",
-      "title": "Trying to understand how security tooling fits into CI/CD, for a uni case study. Would love your take!",
-      "url": "https://www.reddit.com/r/devops/comments/1xumia4/trying_to_understand_how_security_tooling_fits/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-12T19:40:26+00:00",
-      "summary": "Disclosure: grad student at NYU, 8 years in frontend dev before that, now doing a class case study with a software supply-chain startup (which is way outside my frontend comfort zone 😅). Not selling anything, just trying to understand the space and hopefully get an A :) I’ve been chatting with platf",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4c781c70ae2e6314f5e3ec049e424048",
-      "title": "How do you stay informed of DevOps and AI current events?",
-      "url": "https://www.reddit.com/r/devops/comments/1xuk8hz/how_do_you_stay_informed_of_devops_and_ai_current/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-12T18:16:51+00:00",
-      "summary": "I've just realised I'm somewhat reactive when it comes to keeping abreast of what's going on in our industry, and I want to change that. I'll periodically check sites like HackerNews, vendor news and announcements on work's tech stack, Rundown AI and this subreddit, of course, but looking for other ",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -2929,7 +2782,7 @@
     },
     {
       "id": "21db8071c4b631d7afcd6db6c9639be4",
-      "title": "Why Groundcover’s CEO says agents are the power users of observability",
+      "title": "Why groundcover’s CEO says agents are the power users of observability",
       "url": "https://thenewstack.io/groundcover-coding-agents-observability/",
       "source": "The New Stack",
       "published_at": "2026-11-19T03:15:24+00:00",
@@ -2979,6 +2832,241 @@
       "published_at": "2026-11-18T17:27:24+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7f4e2569d99ca1960a925916c768fca9",
+      "title": "Use Amazon ECR global authentication token across AWS Regions",
+      "url": "https://aws.amazon.com/blogs/containers/use-amazon-ecr-global-authentication-token-across-aws-regions/",
+      "source": "AWS Blog (Containers)",
+      "published_at": "2026-11-19T20:09:23+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1c16cf495f9766995645f6b8c4b459f6",
+      "title": "“Be ready for change”: AAIF’s CTO on why the agent stack won’t settle",
+      "url": "https://thenewstack.io/agentic-ai-foundation-projects/",
+      "source": "The New Stack",
+      "published_at": "2026-11-19T18:24:12+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "805ed0635e19056dcec21784cbd060e1",
+      "title": "Day 87: A Redirected Module and a Renamed Publisher",
+      "url": "https://dev.to/ndcodes/day-87-a-redirected-module-and-a-renamed-publisher-1280",
+      "source": "Dev.to",
+      "published_at": "2026-11-19T18:00:00Z",
+      "summary": "Day 87 of DevOps, Day 37 of Azure. Both tasks today turned on a name that is not the name the system...",
+      "tags": [
+        "devops",
+        "ansible",
+        "azure",
+        "automation"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "236bfbd6287f6f96dc4ea195de404843",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI Blog",
+      "published_at": "2026-11-19T18:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "33485dc830c5072cfb7340d07052704e",
+      "title": "Azure DevOps integration with the GitHub Copilot app (public preview)",
+      "url": "https://devblogs.microsoft.com/devops/azure-devops-integration-with-the-github-copilot-app-public-preview/",
+      "source": "Azure DevOps Blog",
+      "published_at": "2026-11-19T17:39:09+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "44cb540628eeed1e418a282857039d61",
+      "title": "Docker patches Java4Shell and the NGINX HTTP/2 with Docker Hardened Images",
+      "url": "https://www.docker.com/blog/docker-patches-java4shell-and-the-nginx-http-2-with-docker-hardened-images/",
+      "source": "Docker Blog",
+      "published_at": "2026-11-19T17:38:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "dd6e1c2542fdef52d1dcf927008b2245",
+      "title": "IDrive wants to back up your coding agents, too",
+      "url": "https://thenewstack.io/idrive-ai-agents-backup/",
+      "source": "The New Stack",
+      "published_at": "2026-11-19T17:31:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f0a2609d9b70f886ec68f3ddf3157b65",
+      "title": "Meet the New Docker: Built to Run on Trust",
+      "url": "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",
+      "source": "Docker Blog",
+      "published_at": "2026-11-19T17:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "9f0e02ff9d828418fcb16b8c2fdda764",
+      "title": "A “headless Slack”: Vercel’s new message board lets Claude Code and Codex agents work together",
+      "url": "https://thenewstack.io/vercel-board-agent-swarms/",
+      "source": "The New Stack",
+      "published_at": "2026-11-19T16:58:48+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fbe3c683e00aa5820c0d403a43ef1bb5",
+      "title": "langchain-ai/langchain: langchain-openrouter==0.3.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-11-19T15:03:21+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "7d456621c5b13962c8e3473794b7ecef",
+      "title": "apache/airflow: providers/2026-11-18",
+      "url": "https://github.com/apache/airflow/releases/tag/providers%2F2026-11-18",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-19T15:02:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "711a4255b81febf9fc2288c1df1369eb",
+      "title": "Amazon EKS Network Policies in Practice: Real-World Usage and CI/CD",
+      "url": "https://dev.to/aws-builders/amazon-eks-network-policies-in-practice-real-world-usage-and-cicd-27na",
+      "source": "Dev.to",
+      "published_at": "2026-11-19T14:53:12Z",
+      "summary": "NetworkPolicy on EKS is written the same way as in Kubernetes. What changes is the VPC CNI setup and how you ship and run policies. A visual guide based on my talk.",
+      "tags": [
+        "aws",
+        "kubernetes",
+        "eks",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8c2cccc05cd16b9659de02b80007ce9f",
+      "title": "CVE-2026-123007: the NGINX HTTP/2 bug, who is affected and the fix",
+      "url": "https://dev.to/axrisi/cve-2026-123007-the-nginx-http2-bug-who-is-affected-and-the-fix-14g6",
+      "source": "Dev.to",
+      "published_at": "2026-11-19T14:45:00Z",
+      "summary": "CVE-2026-123007 is an NGINX HTTP/2 flow-control bug fixed in 1.30.7 and 1.31.9. Turning HTTP/2 off blocks it and one more; here is how to check.",
+      "tags": [
+        "nginx",
+        "security",
+        "webdev",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "351fc16ceaece6ed1232c9c5e72b1307",
+      "title": "Agent security is product security, and your marketing site counts",
+      "url": "https://thenewstack.io/marketing-site-agent-security/",
+      "source": "The New Stack",
+      "published_at": "2026-11-19T14:30:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "99c32f16db7a297a89b48273393dfe82",
+      "title": "How long a DigitalOcean Cloud Firewall change takes to apply",
+      "url": "https://dev.to/remdore/how-long-a-digitalocean-cloud-firewall-change-takes-to-apply-kkb",
+      "source": "Dev.to",
+      "published_at": "2026-11-19T14:29:03Z",
+      "summary": "DigitalOcean's Cloud Firewalls sit outside the Droplet, so there's nothing to install and nothing on...",
+      "tags": [
+        "digitalocean",
+        "networking",
+        "security",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a7584a55de9264cd4a3fe5906ff1fe2c",
+      "title": "Groundcover Investigations lets engineers steer AI SRE agents",
+      "url": "https://thenewstack.io/groundcover-ai-incident-investigations/",
+      "source": "The New Stack",
+      "published_at": "2026-11-19T14:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "58e7c62f0d45f50004c2395137d84e53",
+      "title": "apache/airflow: airflow-ctl/0.1.6rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/airflow-ctl%2F0.1.6rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-19T13:48:14+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1a294915b1097d6b0c7f08b51790f624",
+      "title": "Adopt Pre-Existing Docker Containers with Zero Downtime: Reverse-Engineering docker-compose.yml in Gubernator v4.0",
+      "url": "https://dev.to/gde/adopt-pre-existing-docker-containers-with-zero-downtime-reverse-engineering-docker-composeyml-in-3cic",
+      "source": "Dev.to",
+      "published_at": "2026-11-19T11:44:51Z",
+      "summary": "How Gubernator v4.0 discovers pre-existing Docker containers on production hosts, reverse-engineers clean docker-compose.yml files via docker inspect, and adopts them as managed Stacks with zero downtime.",
+      "tags": [
+        "devops",
+        "docker",
+        "opensource",
+        "infrastructure"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1e1d0bc7ae7fcf28f4d5341340190ca3",
+      "title": "What this week's nginx HTTP/2 CVEs mean for the server I actually run",
+      "url": "https://dev.to/alexgeorgiev17/what-this-weeks-nginx-http2-cves-mean-for-the-server-i-actually-run-3nbf",
+      "source": "Dev.to",
+      "published_at": "2026-11-19T11:00:00Z",
+      "summary": "I checked Ubuntu 24.04's own nginx package against this week's HTTP/2 RCE advisories: still listed vulnerable with no fix, and the documented mitigation doesn't even parse on it. Disabling HTTP/2 as a stopgap cost 45-70% more time in my own benchmark, up to 4x on a single connection.",
+      "tags": [
+        "nginx",
+        "security",
+        "devops",
+        "linux"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "93b4097db39f1c73b2c179ab153359f3",
+      "title": "I Don't Like Kubernetes. Portability and Being the Industry Standard Aren't Enough",
+      "url": "https://dev.to/aws-builders/i-dont-like-kubernetes-portability-and-being-the-industry-standard-arent-enough-293e",
+      "source": "Dev.to",
+      "published_at": "2026-11-19T10:00:00Z",
+      "summary": "Kubernetes is powerful, well designed and the industry standard for running containers. I still don't...",
+      "tags": [
+        "kubernetes",
+        "architecture",
+        "eks",
+        "devops"
+      ],
       "relevance_score": 0.0
     }
   ]
