@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:45:38Z",
+  "generated_at": "2026-11-20T21:48:05Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -572,16 +572,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "849e3b3598a59d1d87c9e0839972b944",
-      "title": "GitHub-hosted agents with Pay-as-you-Go pricing are now generally available in Azure Pipelines",
-      "url": "https://devblogs.microsoft.com/devops/github-hosted-agents-with-pay-as-you-go-pricing-are-now-generally-available-in-azure-pipelines/",
-      "source": "Azure DevOps Blog",
-      "published_at": "2026-10-01T12:27:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "880c435a971362fc6713192023c77d3b",
       "title": "Scaling Kubernetes Workloads with Node Swap",
       "url": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
@@ -1092,16 +1082,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7bc7097eb48426f87a2b90f18c9455bd",
-      "title": "ollama/ollama: v0.40.16-rc0: Add ripple preview support to the MLX runner (#19592)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-11-08T00:36:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ba020d4c50d2419f88c045da24907aa8",
       "title": "Google Cloud launches Gemini for healthcare.",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
@@ -1242,136 +1222,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "56e6ef6b59dc159e455e9d3869773108",
-      "title": "apache/airflow: Apache Airflow TypeScript SDK 1.0.0",
-      "url": "https://github.com/apache/airflow/releases/tag/ts-sdk%2F1.0.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-13T09:01:10+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "918f31c4e37ec01358246c10d71aeb85",
-      "title": "apache/airflow: Apache Airflow Java SDK 1.0.0",
-      "url": "https://github.com/apache/airflow/releases/tag/java-sdk%2F1.0.0",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-13T08:35:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5f57179413f0a829a89871610f137d92",
-      "title": "langchain-ai/langchain: langchain-openai==1.8.0",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-13T16:48:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c53e4b91bfd475848e809434702e416b",
-      "title": "Microsoft Outlook outage: the recovery loop and delayed mail",
-      "url": "https://dev.to/axrisi/microsoft-outlook-outage-the-recovery-loop-and-delayed-mail-58oi",
-      "source": "Dev.to",
-      "published_at": "2026-11-13T16:30:00Z",
-      "summary": "Microsoft reported returned servers failing under traffic. The developer follow-up explains Exchange dependencies and the delayed-mail timeout safeguard.",
-      "tags": [
-        "cloud",
-        "devops",
-        "programming",
-        "news"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fe68d3e3da2c90658373d482319f88df",
-      "title": "Here’s how to teach AI agents to search like human experts",
-      "url": "https://thenewstack.io/ai-agents-retrieval-agent-ready-schema/",
-      "source": "The New Stack",
-      "published_at": "2026-11-13T14:50:37+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "0774a900f6277ad237e25ac636e4e270",
-      "title": "Git 2.56's history drop command replays commits 40 to 77 times faster than rebase",
-      "url": "https://dev.to/alexgeorgiev17/git-256s-history-drop-command-replays-commits-40-to-77-times-faster-than-rebase-45jm",
-      "source": "Dev.to",
-      "published_at": "2026-11-13T11:00:00Z",
-      "summary": "I measured git history drop against the classic worktree-and-rebase way of removing a commit: 1.4s vs 0.03s at 20 descendants, 26.5s vs 0.36s at 400.",
-      "tags": [
-        "git",
-        "devops",
-        "performance",
-        "cli"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "daee93fc1030e308a74241791551ae45",
-      "title": "Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk",
-      "url": "https://thenewstack.io/self-hosted-claude-managed-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-11-13T21:29:30+00:00",
-      "summary": "Anthropic enables self-hosted Claude Managed Agents with a strict 8-hour remediation window for safety violations, targeting enterprise control.",
-      "tags": [
-        "AI",
-        "LLMOps",
-        "Cloud",
-        "Security"
-      ],
-      "relevance_score": 0.9
-    },
-    {
-      "id": "378d67a0268d944b7e23aa75b61c45e9",
-      "title": "Starting hands-on Linux Admin study group & Discord (No boring slides, just terminal & real-world troubleshooting)",
-      "url": "https://www.reddit.com/r/devops/comments/1xvjftu/starting_handson_linux_admin_study_group_discord/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-13T20:54:30+00:00",
-      "summary": "I’ve been working as a Senior Linux &amp; Cloud Infrastructure Administrator for the past few years (managing enterprise RHEL environments, storage, networking, and production troubleshooting). One thing I constantly notice is how big the gap is between knowing basic Linux commands (ls, cd, chmod) a",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d1db2ee6ba0f3cccd2b31944e76cd8a5",
-      "title": "The context problem: It’s what’s really breaking AI agents at scale",
-      "url": "https://thenewstack.io/elastic-ai-context-gap/",
-      "source": "The New Stack",
-      "published_at": "2026-11-13T18:15:22+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5423a078f7213170bf9de77d1ce0bb43",
-      "title": "DeepSeek’s coding agent is too tidy for its own good — and benchmarks are punishing it",
-      "url": "https://thenewstack.io/deepseek-harness-cleanup-benchmark/",
-      "source": "The New Stack",
-      "published_at": "2026-11-13T17:56:30+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4124711170704a18864cae960c38a9a0",
-      "title": "We tested 37,000 MCP servers. Here's how many actually work",
-      "url": "https://dev.to/nestdaddy/we-tested-37000-mcp-servers-heres-how-many-actually-work-1pne",
-      "source": "Dev.to",
-      "published_at": "2026-11-13T15:59:17Z",
-      "summary": "We connected to every remote server in the official MCP registry the way an MCP client does. 9 in 10 answered, 1 in 3 wants a key before it shows its tools, and 12% of the registry turned out to be spam. Here is the data and what it means for anyone building agents.",
-      "tags": [
-        "mcp",
-        "ai",
-        "opensource",
-        "devops"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "a258ebcfece5f2804626b551a9ae4fea",
       "title": "langchain-ai/langgraph: langgraph==1.2.22",
       "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.22",
@@ -1399,21 +1249,6 @@
       "published_at": "2026-11-14T01:33:52+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6ef105d1c14ff002d599139e5b42f1c9",
-      "title": "AI Didn't Invent Cybercrime. It Made It Faster, Cheaper, and Harder to Defend.",
-      "url": "https://dev.to/rudratosh/ai-didnt-invent-cybercrime-it-made-it-faster-cheaper-and-harder-to-defend-220f",
-      "source": "Dev.to",
-      "published_at": "2026-11-13T15:44:42Z",
-      "summary": "A source-led investigation of the major AI-enabled cyber incidents of 2024–25 — autonomous espionage, deepfake fraud, operational malware. What the evidence proves, what's hype, and which defenses still work.",
-      "tags": [
-        "security",
-        "ai",
-        "cybersecurity",
-        "devops"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1456,16 +1291,6 @@
         "linux",
         "devops"
       ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "02428159b2d44e1e9ab4c45b941d678f",
-      "title": "Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk in the software",
-      "url": "https://thenewstack.io/self-hosted-claude-managed-agents/",
-      "source": "The New Stack",
-      "published_at": "2026-11-13T21:29:30+00:00",
-      "summary": "",
-      "tags": [],
       "relevance_score": 0.0
     },
     {
@@ -3002,6 +2827,146 @@
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.49.3",
       "source": "GitHub Releases (n8n-io)",
       "published_at": "2026-11-20T08:20:37+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ce72189cd64ee07da984fc8d57210ec9",
+      "title": "ollama/ollama: v0.40.17",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-11-20T20:46:13+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c30a54764539bc4839389763dcba45ed",
+      "title": "“We are not querying like humans anymore”: OpenSearch’s Bianca Lewis on why AI agent mistakes look like successes",
+      "url": "https://thenewstack.io/opensearch-ai-agent-observability/",
+      "source": "The New Stack",
+      "published_at": "2026-11-20T19:37:08+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "2f848ac7b8c127cfa9d0e6dbc825b7e9",
+      "title": "Copilot Code Reviews for Azure Repos is generally available",
+      "url": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available/",
+      "source": "Azure DevOps Blog",
+      "published_at": "2026-11-20T18:41:47+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1fa449ee597f496594280e48950c54c9",
+      "title": "Day 88: A Marker in the File and a Disputed Status Code",
+      "url": "https://dev.to/ndcodes/day-88-a-dead-service-and-a-disputed-status-code-48j5",
+      "source": "Dev.to",
+      "published_at": "2026-11-20T18:00:00Z",
+      "summary": "Day 88 of DevOps, Day 38 of Azure. Both tasks today put the thing that matters somewhere other than...",
+      "tags": [
+        "devops",
+        "ansible",
+        "azure",
+        "automation"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "f72508a708849b9230f902e5fd739683",
+      "title": "Your AI agent’s “memory problem” may be something else",
+      "url": "https://thenewstack.io/ai-agent-memory-boundaries/",
+      "source": "The New Stack",
+      "published_at": "2026-11-20T17:00:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "fa4cb5eda3aced7f37156fbab1403e4e",
+      "title": "Anthropic says Claude writes and reviews 90% of its team’s code. The catch is how it checks the work.",
+      "url": "https://thenewstack.io/anthropic-claude-code-verification/",
+      "source": "The New Stack",
+      "published_at": "2026-11-20T16:41:28+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "317a9ec23b167b9b7e5e33fda8542e81",
+      "title": "apache/airflow: providers-ssh/7.0.3rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F7.0.3rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-20T16:16:27+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a593164cd0fbb4efd34ce746f472e668",
+      "title": "apache/airflow: providers-standard/1.22.0rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.22.0rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-20T16:16:26+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "a50f51b038157c9241f9005d104af479",
+      "title": "apache/airflow: providers-vertica/4.4.2rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-vertica%2F4.4.2rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-20T16:16:26+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c2dd0403ca71c6b3a4b5533e75606e38",
+      "title": "apache/airflow: providers-openlineage/2.21.1rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-openlineage%2F2.21.1rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-20T16:16:25+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "1cef5d3345168ce772d44e31ff7a2d87",
+      "title": "apache/airflow: providers-smtp/3.2.2rc1",
+      "url": "https://github.com/apache/airflow/releases/tag/providers-smtp%2F3.2.2rc1",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-20T16:16:25+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "b9f338a3e6ddd6e84e403996e46c7090",
+      "title": "Marking a container unhealthy didn't stop it from taking traffic",
+      "url": "https://dev.to/alexgeorgiev17/marking-a-container-unhealthy-didnt-stop-it-from-taking-traffic-54lf",
+      "source": "Dev.to",
+      "published_at": "2026-11-20T11:00:00Z",
+      "summary": "I broke a container on purpose and watched Docker mark it unhealthy for 35 seconds while nginx kept sending it a third of all traffic. The actual cause: a missing http_500 in proxy_next_upstream.",
+      "tags": [
+        "docker",
+        "nginx",
+        "devops",
+        "performance"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "04abdddbc9e3354b60630d09e5316aab",
+      "title": "ollama/ollama: v0.40.17-rc2: mlxrunner: adapt saved history to memory pressure (#19678)",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-11-19T23:41:42+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
