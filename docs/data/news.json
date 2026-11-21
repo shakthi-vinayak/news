@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:27:34Z",
+  "generated_at": "2026-11-21T20:29:32Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1202,78 +1202,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "4a4c78e2de5986566021f45c51d52aae",
-      "title": "Claude Fable 5.2 vs. GPT-6 Astra: A lower list price didn’t mean a lower bill",
-      "url": "https://thenewstack.io/claude-fable-5-2-vs-gpt-6-astra/",
-      "source": "The New Stack",
-      "published_at": "2026-11-14T14:00:00+00:00",
-      "summary": "Claude Fable 5.2’s lower price doesn’t guarantee lower costs versus GPT‑6 Astra.",
-      "tags": [
-        "AI"
-      ],
-      "relevance_score": 0.45
-    },
-    {
-      "id": "fa55e4ebb491edcc6b9953c8a8974082",
-      "title": "nginx 1.31's json_set directive rejects a bad webhook payload about 13 times faster than forwarding it",
-      "url": "https://dev.to/alexgeorgiev17/nginx-131s-jsonset-directive-rejects-a-bad-webhook-payload-about-13-times-faster-than-forwarding-3b00",
-      "source": "Dev.to",
-      "published_at": "2026-11-14T12:48:45Z",
-      "summary": "I measured nginx 1.31's new native JSON parser against a Python backend doing the same validation: roughly 13x faster per-request rejection at low concurrency, half a backend's request count removed outright in a 50/50 mix, and no measurable overhead when nothing gets rejected at all.",
-      "tags": [
-        "nginx",
-        "devops",
-        "performance",
-        "webdev"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a4a7836fcf75f951b6bfd7fe5e9f7d2a",
-      "title": "AWS Emulator proves agents need a verification loop. Realism is the hard part.",
-      "url": "https://thenewstack.io/aws-emulator-verification-loops/",
-      "source": "The New Stack",
-      "published_at": "2026-11-14T17:30:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f8878175b69ae78f85a346cdb55d8c78",
-      "title": "Claude Fable 5.2 vs. Fable 5.1: Fewer refusals, with small savings on the login fix",
-      "url": "https://thenewstack.io/claude-fable-5-2-vs-fable-5-1/",
-      "source": "The New Stack",
-      "published_at": "2026-11-14T17:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fc4eb1f93ecb29487f73c4fcf638093f",
-      "title": "Web search for agents is here: Why ranking still decides the answer",
-      "url": "https://thenewstack.io/ai-agent-search-ranking/",
-      "source": "The New Stack",
-      "published_at": "2026-11-14T16:00:00+00:00",
-      "summary": "Web search ranking still determines the answer quality for AI agents.",
-      "tags": [
-        "AI"
-      ],
-      "relevance_score": 0.45
-    },
-    {
-      "id": "fc0325d415a2b459d9a46398feece415",
-      "title": "Anthropic wants you to build on Claude. There’s a catch.",
-      "url": "https://thenewstack.io/anthropic-enterprise-developer-competition/",
-      "source": "The New Stack",
-      "published_at": "2026-11-14T15:15:00+00:00",
-      "summary": "Anthropic invites developers to build on Claude, but a catch may limit adoption.",
-      "tags": [
-        "AI",
-        "Platform Engineering"
-      ],
-      "relevance_score": 0.55
-    },
-    {
       "id": "9b3147dc7dc6ade81fc64bc63da9973f",
       "title": "Help me wrap my head around AI (agent?) hosting",
       "url": "https://www.reddit.com/r/devops/comments/1xwfeof/help_me_wrap_my_head_around_ai_agent_hosting/",
@@ -1281,20 +1209,6 @@
       "published_at": "2026-11-14T22:40:34+00:00",
       "summary": "I'll admit that I've been ignoring the AI hype for the last two years, and my usual interface with it is through chat and code autocomplete, nothing more. Until recently where I saw that a demo of someone who could tag stories on their kanban tool and an &quot;AI agent&quot; would pick the story, pr",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "e6c7ceab7560346ef2b83c189a327510",
-      "title": "Logtide 1.7.0: Your Disks Warn You Before They Die (If Something Is Listening)",
-      "url": "https://dev.to/polliog/logtide-170-your-disks-warn-you-before-they-die-if-something-is-listening-2imp",
-      "source": "Dev.to",
-      "published_at": "2026-11-14T16:40:41Z",
-      "summary": "Logtide 1.7.0 is out today, and it is the first release that looks below the application layer. Until...",
-      "tags": [
-        "opensource",
-        "devops",
-        "monitoring"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2093,21 +2007,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "f202168b7b4d5a35faac369d2e721b85",
-      "title": "I Posted a v0.2.0 CLI Roaster on Monday. The Comments Challenged My Architecture, So I Built v1.0.5.",
-      "url": "https://dev.to/hao610/i-posted-a-v020-cli-roaster-on-monday-the-comments-challenged-my-architecture-so-i-built-v105-1jle",
-      "source": "Dev.to",
-      "published_at": "2026-11-14T12:45:00Z",
-      "summary": "I Posted a v0.2.0 CLI Roaster on Monday. The Comments Challenged My Architecture, So I Built...",
-      "tags": [
-        "python",
-        "ai",
-        "devops",
-        "opensource"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "7530ddc5f92e371ba2e4b3003ac8db69",
       "title": "“The best escape room players that you’ve ever met”: What Red Hat’s AI architect really thinks about agents.",
       "url": "https://thenewstack.io/openshell-ai-agent-security/",
@@ -2348,7 +2247,7 @@
       "url": "https://dev.to/himanshu_748/a-job-retry-should-not-hide-the-next-job-in-gitlab-ci-3kfd",
       "source": "Dev.to",
       "published_at": "2026-11-18T19:58:14Z",
-      "summary": "A pipeline view should help answer one question quickly: what is still running, waiting, or blocked?...",
+      "summary": "A deduplication test can pass while the view quietly drops a row. Check only whether the retry won...",
       "tags": [
         "cli",
         "devops",
@@ -2979,6 +2878,41 @@
       "published_at": "2026-11-21T04:05:14+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e787d7ab0c1f6cf700a12d52029a1251",
+      "title": "GPT-6.2 Sol vs. Claude Opus 5.5: Not as accurate, but still might be the better buy",
+      "url": "https://thenewstack.io/gpt-6-2-sol-vs-claude-opus-5-5/",
+      "source": "The New Stack",
+      "published_at": "2026-11-21T17:08:44+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8023fccd640fb3f8f48370367eed31e9",
+      "title": "Dynatrace just laid out its AI observability playbook at KubeCon. Here’s why it matters for developers.",
+      "url": "https://thenewstack.io/ai-feature-flags-observability/",
+      "source": "The New Stack",
+      "published_at": "2026-11-21T16:08:55+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "e4676e65ac47d3e8062830bbe75c677e",
+      "title": "Our rollout switch was the one step of release day that had never run anywhere",
+      "url": "https://dev.to/pierrelaurentmedori/our-rollout-switch-was-the-one-step-of-release-day-that-had-never-run-anywhere-3lic",
+      "source": "Dev.to",
+      "published_at": "2026-11-19T13:49:41Z",
+      "summary": "On the morning of November 4, I pasted the output of the command that sets our rollout percentages...",
+      "tags": [
+        "ai",
+        "agents",
+        "devops",
+        "testing"
+      ],
       "relevance_score": 0.0
     }
   ]
