@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T12:30:13Z",
+  "generated_at": "2026-11-22T20:42:17Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1202,41 +1202,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "add0865b03f527ac4204679817023697",
-      "title": "Claude Fable 5.2 vs. Opus 5.5: Same scores at almost 4x the cost",
-      "url": "https://thenewstack.io/claude-fable-5-2-vs-opus-5-5/",
-      "source": "The New Stack",
-      "published_at": "2026-11-15T15:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "4e91afeb4e8dd3353f6451ea7ed6ac01",
-      "title": "langchain-ai/langchain: langchain-core==1.8.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-15T14:57:13+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5dd9fe21a3eef638250b03a263a0a04e",
-      "title": "Day 83: Two Files and Four Parts",
-      "url": "https://dev.to/ndcodes/day-83-two-files-and-four-parts-40hc",
-      "source": "Dev.to",
-      "published_at": "2026-11-15T13:47:01Z",
-      "summary": "Day 83 of DevOps, Day 33 of Azure. Both tasks today were made of parts that are each correct on their...",
-      "tags": [
-        "devops",
-        "ansible",
-        "azure",
-        "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "5c94922d7950dae493b0441b0684fa0d",
       "title": "langchain-ai/langchain: langchain-xai==1.4.0",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0",
@@ -1263,26 +1228,6 @@
       "source": "Reddit r/devops",
       "published_at": "2026-11-15T21:32:02+00:00",
       "summary": "DevOps seems to cover very different jobs. Some teams build the delivery side: CI/CD templates, policy gates, supply-chain security, artifact management. Others run the runtime side: Kubernetes clusters, nodes, networking, scaling, incident response. Many do a mix. My questions: Can you move between",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "668eece8e0b6b558c3d63cbdce4a306d",
-      "title": "I built an open-source tool to solve polyrepo config drift without clobbering local overrides",
-      "url": "https://www.reddit.com/r/devops/comments/1xx53i1/i_built_an_opensource_tool_to_solve_polyrepo/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-15T19:58:18+00:00",
-      "summary": "Hey r/devops! If you maintain multiple repositories (microservices, polyrepos, or SDKs), you probably know the pain of keeping shared configuration files in sync:  .github/workflows/*.yml .editorconfig Cargo.toml / package.json  Existing file-copying bots usually clobber legitimate repo-specific ove",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a035d3cefa73cc99f1caa931beb9f3ad",
-      "title": "My zero-trust Ubuntu dev environment on Windows",
-      "url": "https://www.reddit.com/r/devops/comments/1xx0mu0/my_zerotrust_ubuntu_dev_environment_on_windows/",
-      "source": "Reddit r/devops",
-      "published_at": "2026-11-15T17:02:43+00:00",
-      "summary": "As DevOps engineers, our laptops have access to Prod. Many of us have to maintain a dev environment also in our laptop for coding. With the increase in supply chain attacks, how do you secure your local dev environments? Do you think what I did below is good enough? ------------------ I built an Ubu",
       "tags": [],
       "relevance_score": 0.0
     },
@@ -1551,21 +1496,6 @@
         "Kubernetes"
       ],
       "relevance_score": 0.88
-    },
-    {
-      "id": "d945a3e2539d4035af273315234669b7",
-      "title": "From Vanilla Kubernetes to OpenShift: What Actually Breaks",
-      "url": "https://dev.to/juan_barraza_dde18726622b/from-vanilla-kubernetes-to-openshift-what-actually-breaks-3ofe",
-      "source": "Dev.to",
-      "published_at": "2026-11-15T12:37:29Z",
-      "summary": "OpenShift is Kubernetes with opinions. Those opinions will reject your workloads. Here is what breaks in the migration and how to fix it before it does.",
-      "tags": [
-        "openshift",
-        "kubernetes",
-        "devops",
-        "containers"
-      ],
-      "relevance_score": 0.0
     },
     {
       "id": "33de4cf2903d2754061fd902138765ce",
@@ -2172,12 +2102,13 @@
       "url": "https://dev.to/himanshu_748/a-job-retry-should-not-hide-the-next-job-in-gitlab-ci-3kfd",
       "source": "Dev.to",
       "published_at": "2026-11-18T19:58:14Z",
-      "summary": "Notes that job retries in GitLab CI should not conceal the next scheduled job.",
+      "summary": "A deduplication test can pass while the view quietly drops a row. Check only whether the retry won...",
       "tags": [
-        "CI/CD",
-        "DevOps"
+        "cli",
+        "devops",
+        "testing"
       ],
-      "relevance_score": 0.9
+      "relevance_score": 0.0
     },
     {
       "id": "5dfa39bdf293887673ed7339c0e6accf",
@@ -2892,6 +2823,26 @@
         "azure",
         "automation"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "af7ed5f098ba535acc37f0eb706e1f79",
+      "title": "apache/airflow: airflow-ctl/0.1.6",
+      "url": "https://github.com/apache/airflow/releases/tag/airflow-ctl%2F0.1.6",
+      "source": "GitHub Releases (apache)",
+      "published_at": "2026-11-22T18:25:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "8ad128458a10256264ffb7799f980a78",
+      "title": "GPT-6.2 Astra vs. Claude Fable 5.2: Astra’s launch got mixed reviews, but it tested well here",
+      "url": "https://thenewstack.io/gpt-6-2-astra-vs-claude-fable-5-2/",
+      "source": "The New Stack",
+      "published_at": "2026-11-22T15:00:00+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
