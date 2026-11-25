@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T11:09:37Z",
+  "generated_at": "2026-11-25T21:37:24Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -782,26 +782,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "a1c2b3c16e67215c7c06a38336086267",
-      "title": "kubernetes/kubernetes: v1.37.2",
-      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.2",
-      "source": "GitHub Releases (kubernetes)",
-      "published_at": "2026-10-28T04:37:53+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "dab33fadfc673512edf16a708231060d",
-      "title": "Coding Agent Horror Stories: The CVE That Did Not Exist",
-      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/",
-      "source": "Docker Blog",
-      "published_at": "2026-10-29T13:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f359bb1aa91ef4415dad51da645502f1",
       "title": "AI isn't replacing SREs, it's deskilling them",
       "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
@@ -1232,46 +1212,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "6b3c23950f17064a120a44d4172b90bd",
-      "title": "langchain-ai/langchain: langchain-openai==1.8.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.2",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-18T16:53:07+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "25eb0974b2324814096b608efd8b3a4c",
-      "title": "200 OK is dead as an AI agent health signal. Here’s what comes next.",
-      "url": "https://thenewstack.io/silent-ai-agent-failures/",
-      "source": "The New Stack",
-      "published_at": "2026-11-18T16:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "950fa18b851d62a4d5b18fd2b5a9daed",
-      "title": "langchain-ai/langchain: langchain==1.5.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-18T15:45:16+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "102b71c41d1ba99674b2749c0c9d54f7",
-      "title": "langchain-ai/langchain: langchain-anthropic==1.7.11",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-18T15:20:21+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "ca8a5834067c304844c0f253c06ada29",
       "title": "The Trust Layer: Securing Agentic AI with Docker AI Governance",
       "url": "https://www.docker.com/blog/agentic-ai-security-docker-governance/",
@@ -1279,21 +1219,6 @@
       "published_at": "2026-11-18T14:00:00+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "da6b579c690a99dc722f6262be782ae5",
-      "title": "Kubernetes Under the Hood: What Actually Happens When You Run kubectl apply",
-      "url": "https://dev.to/smtahosin/kubernetes-under-the-hood-what-actually-happens-when-you-run-kubectl-apply-5cog",
-      "source": "Dev.to",
-      "published_at": "2026-11-18T13:09:55Z",
-      "summary": "A visual, 10-minute deep dive into Kubernetes control plane internals. Learn how kube-apiserver processes admission webhooks, how etcd maintains Raft quorum, how controllers reconcile state with Informers, how kube-scheduler scores nodes, and what the Kubelet pause container actually does.",
-      "tags": [
-        "kubernetes",
-        "devops",
-        "cloud",
-        "architecture"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1307,61 +1232,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "7530ddc5f92e371ba2e4b3003ac8db69",
-      "title": "“The best escape room players that you’ve ever met”: What Red Hat’s AI architect really thinks about agents.",
-      "url": "https://thenewstack.io/openshell-ai-agent-security/",
-      "source": "The New Stack",
-      "published_at": "2026-11-18T20:25:18+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "3ea8fc15406d36e39e9e1dbe4cc85492",
-      "title": "Qwen4-Max vs. Claude Opus 5.5: The cheaper model costs you somewhere else.",
-      "url": "https://thenewstack.io/qwen4-max-vs-claude-opus-5-5/",
-      "source": "The New Stack",
-      "published_at": "2026-11-18T19:10:39+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "da63191efe00238685483c6f92c2c6d5",
-      "title": "argoproj/argo-cd: gitops-engine/v3.6.2: chore: bump version to 3.6.2 on release-3.6 branch (#31056)",
-      "url": "https://github.com/argoproj/argo-cd/releases/tag/gitops-engine%2Fv3.6.2",
-      "source": "GitHub Releases (argoproj)",
-      "published_at": "2026-11-18T18:55:45+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2cc5b862bf5c2ad928084d705f652cb4",
-      "title": "OpenAI spent $1.2 million finding nearly 1,000 Linux security flaws. Sam Altman says this is just the beginning.",
-      "url": "https://thenewstack.io/openai-entire-ai-stack/",
-      "source": "The New Stack",
-      "published_at": "2026-11-18T18:17:50+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "2a7979ff384b6f0837d27613dcb2f384",
-      "title": "Day 86: A Per-Host Variable and an Account-Wide Rule",
-      "url": "https://dev.to/ndcodes/day-86-a-per-host-variable-and-an-account-wide-rule-538c",
-      "source": "Dev.to",
-      "published_at": "2026-11-18T18:00:00Z",
-      "summary": "Day 86 of DevOps, Day 36 of Azure. Both tasks today were about a setting whose scope is not where you...",
-      "tags": [
-        "devops",
-        "ansible",
-        "azure",
-        "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
       "id": "f965a64e8be174f86991b89e0aaaeb6b",
       "title": "Running GitHub Actions runners with Amazon EKS Auto Mode",
       "url": "https://aws.amazon.com/blogs/containers/running-github-actions-runners-with-amazon-eks-auto-mode/",
@@ -1369,81 +1239,6 @@
       "published_at": "2026-11-18T17:54:16+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "6eb8adf786229c05e48c51c69edf0a73",
-      "title": "langchain-ai/langchain: langchain-xai==1.4.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-18T17:29:54+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "43861e17704e49b30fca796c48ea4ab1",
-      "title": "langchain-ai/langchain: langchain-deepseek==1.2.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-18T17:27:46+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "25b7263dcbe2f6c55bbb397a72773eec",
-      "title": "Java4Shell (CVE-2026-114938): is your Java server affected?",
-      "url": "https://dev.to/axrisi/java4shell-cve-2026-114938-is-your-java-server-affected-1a4d",
-      "source": "Dev.to",
-      "published_at": "2026-11-18T17:00:00Z",
-      "summary": "Java4Shell (CVE-2026-114938) in OpenJDK's Base64 decoder: who is affected, what is confirmed, how to check your CPU flags, and the one-flag mitigation.",
-      "tags": [
-        "java",
-        "security",
-        "devops",
-        "news"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "d0783062b5bb27146c09a8c50f8b56b1",
-      "title": "AWS DevOps Agent: dejar que una IA investigue el incidente por ti",
-      "url": "https://dev.to/aws-builders/aws-devops-agent-dejar-que-una-ia-investigue-el-incidente-por-ti-46ep",
-      "source": "Dev.to",
-      "published_at": "2026-11-18T15:47:44Z",
-      "summary": "AWS DevOps Agent: dejar que una IA investigue el incidente por ti   Si alguna vez estuviste...",
-      "tags": [
-        "agents",
-        "devops",
-        "sre",
-        "ai"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "cb2b98f356701e0aa586fb419ae9a819",
-      "title": "langchain-ai/langchain: langchain-core==1.8.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.3",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-18T15:38:38+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f245f2f93e964e9e174c789e411929cb",
-      "title": "I Autoscaled My LLM on Queue Depth. It Scaled Down Under Full Load.",
-      "url": "https://dev.to/ozy31/i-autoscaled-my-llm-on-queue-depth-it-scaled-down-under-full-load-5do5",
-      "source": "Dev.to",
-      "published_at": "2026-11-18T14:21:57Z",
-      "summary": "KEDA scaled my LLM server on waiting requests and removed a replica in the middle of a load test. A local kind lab, three measured runs, and the one-line metric fix.",
-      "tags": [
-        "kubernetes",
-        "llm",
-        "devops",
-        "ai"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -1537,30 +1332,6 @@
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3",
       "source": "GitHub Releases (langchain-ai)",
       "published_at": "2026-11-19T00:38:59+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "51cef5ea1781f2b40e6009446615d5d4",
-      "title": "A job retry should not hide the next job in GitLab CI",
-      "url": "https://dev.to/himanshu_748/a-job-retry-should-not-hide-the-next-job-in-gitlab-ci-3kfd",
-      "source": "Dev.to",
-      "published_at": "2026-11-18T19:58:14Z",
-      "summary": "A deduplication test can pass while the view quietly drops a row. Check only whether the retry won...",
-      "tags": [
-        "cli",
-        "devops",
-        "testing"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "5dfa39bdf293887673ed7339c0e6accf",
-      "title": "langchain-ai/langchain: langchain-groq==1.2.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.1",
-      "source": "GitHub Releases (langchain-ai)",
-      "published_at": "2026-11-18T17:27:24+00:00",
       "summary": "",
       "tags": [],
       "relevance_score": 0.0
@@ -2361,12 +2132,14 @@
       "url": "https://dev.to/aws-builders/building-a-coffee-opentelemetry-observability-stack-open-source-vs-dash0-f9o",
       "source": "Dev.to",
       "published_at": "2026-11-19T11:30:09Z",
-      "summary": "Creating an OpenTelemetry observability stack with coffee shows trade‑offs between open‑source and managed solutions.",
+      "summary": "Most demo applications stop at the happy path: click a button, get a response, and maybe store a row...",
       "tags": [
-        "Observability",
-        "DevOps"
+        "devops",
+        "monitoring",
+        "opensource",
+        "python"
       ],
-      "relevance_score": 0.8
+      "relevance_score": 0.0
     },
     {
       "id": "b71a4c4cd596d17870ccd0e70c058f88",
@@ -2838,6 +2611,116 @@
       "published_at": "2026-11-24T18:15:59+00:00",
       "summary": "",
       "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "06abee1ff6fa07674f04060fa9fc87fb",
+      "title": "langchain-ai/langgraph: langgraph-cli==0.4.44",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.44",
+      "source": "GitHub Releases (langchain-ai)",
+      "published_at": "2026-11-25T20:52:34+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "858642de85b24ae5dffcaf14c60a9c9c",
+      "title": "Anthropic set more than 1,700 traps for Claude — what it found is both reassuring and unsettling",
+      "url": "https://thenewstack.io/anthropic-siren-sandbox-escape/",
+      "source": "The New Stack",
+      "published_at": "2026-11-25T19:45:18+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5563d24b4edac5aaa178872bae57a754",
+      "title": "OpenAI claims to have solved a 57-year-old math problem at the heart of AI computation",
+      "url": "https://thenewstack.io/openai-matrix-multiplication-exponent/",
+      "source": "The New Stack",
+      "published_at": "2026-11-25T18:14:05+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "4c322fd7ab580ba56aacf28a88bda5f7",
+      "title": "Prove your AI agent guardrails work",
+      "url": "https://www.docker.com/blog/prove-your-ai-agent-guardrails-work/",
+      "source": "Docker Blog",
+      "published_at": "2026-11-25T16:57:00+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "5f6e865916ce904d3cfdf91fb4bc68e5",
+      "title": "kubernetes/kubernetes: v1.37.3",
+      "url": "https://github.com/kubernetes/kubernetes/releases/tag/v1.37.3",
+      "source": "GitHub Releases (kubernetes)",
+      "published_at": "2026-11-25T14:55:41+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "3605b1530bfb3bf413045c7dfff432c0",
+      "title": "2026-11-22: I deployed third-generation FSx for ONTAP in us-east-1. Deployable Regions and documented limits that disagree",
+      "url": "https://dev.to/aws-builders/2026-11-22-i-deployed-third-generation-fsx-for-ontap-in-us-east-1-deployable-regions-and-hef",
+      "source": "Dev.to",
+      "published_at": "2026-11-22T13:55:28Z",
+      "summary": "Key points (checked 2026-11-22):   I deployed third-generation file systems (SINGLE_AZ_3,...",
+      "tags": [
+        "aws",
+        "storage",
+        "cloud",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "265d7185593dc29c88906c18a7514078",
+      "title": "Notes on making an AI agent ask before it pushes",
+      "url": "https://dev.to/remdore/notes-on-making-an-ai-agent-ask-before-it-pushes-2lf7",
+      "source": "Dev.to",
+      "published_at": "2026-11-22T08:16:56Z",
+      "summary": "I wanted an AI coding agent to do the work by itself and stop only before anything left its sandbox:...",
+      "tags": [
+        "ai",
+        "git",
+        "devops",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "702d0b1744106e0c43b2651da04732f1",
+      "title": "A Missing Timeout, a Synchronised Block, and 205 Stuck Threads",
+      "url": "https://dev.to/satyaki_saha_367d015583da/a-missing-timeout-a-synchronised-block-and-205-stuck-threads-1m93",
+      "source": "Dev.to",
+      "published_at": "2026-11-22T06:45:17Z",
+      "summary": "A few days ago our highest-traffic service started returning 504s on every call. There were no...",
+      "tags": [
+        "devops",
+        "java",
+        "kubernetes",
+        "systemdesign"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "ee7a6b48e276f97fdd6de94bfe213f0a",
+      "title": "Le di ojos dentro de Kubernetes a AWS DevOps Agent, y encontró lo que mis alarmas no veían",
+      "url": "https://dev.to/aws-builders/le-di-ojos-dentro-de-kubernetes-a-aws-devops-agent-y-encontro-lo-que-mis-alarmas-no-veian-44oa",
+      "source": "Dev.to",
+      "published_at": "2026-11-20T22:16:56Z",
+      "summary": "En mi cluster EKS, los pods de una API se reiniciaban solos. Algunos clientes esperaban hasta 69...",
+      "tags": [
+        "aws",
+        "kubernetes",
+        "devops",
+        "observability"
+      ],
       "relevance_score": 0.0
     }
   ]
