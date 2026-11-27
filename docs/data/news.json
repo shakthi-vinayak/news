@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T10:47:56Z",
+  "generated_at": "2026-11-27T21:05:08Z",
   "items": [
     {
       "id": "da5f1b43cf4f3e3ee7e2c5eb41230799",
@@ -1352,26 +1352,6 @@
       "relevance_score": 0.0
     },
     {
-      "id": "ce72189cd64ee07da984fc8d57210ec9",
-      "title": "ollama/ollama: v0.40.17",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3",
-      "source": "GitHub Releases (ollama)",
-      "published_at": "2026-11-20T20:46:13+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c30a54764539bc4839389763dcba45ed",
-      "title": "“We are not querying like humans anymore”: OpenSearch’s Bianca Lewis on why AI agent mistakes look like successes",
-      "url": "https://thenewstack.io/opensearch-ai-agent-observability/",
-      "source": "The New Stack",
-      "published_at": "2026-11-20T19:37:08+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
       "id": "2f848ac7b8c127cfa9d0e6dbc825b7e9",
       "title": "Copilot Code Reviews for Azure Repos is generally available",
       "url": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available/",
@@ -1379,106 +1359,6 @@
       "published_at": "2026-11-20T18:41:47+00:00",
       "summary": "",
       "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1fa449ee597f496594280e48950c54c9",
-      "title": "Day 88: A Marker in the File and a Disputed Status Code",
-      "url": "https://dev.to/ndcodes/day-88-a-dead-service-and-a-disputed-status-code-48j5",
-      "source": "Dev.to",
-      "published_at": "2026-11-20T18:00:00Z",
-      "summary": "Day 88 of DevOps, Day 38 of Azure. Both tasks today put the thing that matters somewhere other than...",
-      "tags": [
-        "devops",
-        "ansible",
-        "azure",
-        "automation"
-      ],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "f72508a708849b9230f902e5fd739683",
-      "title": "Your AI agent’s “memory problem” may be something else",
-      "url": "https://thenewstack.io/ai-agent-memory-boundaries/",
-      "source": "The New Stack",
-      "published_at": "2026-11-20T17:00:00+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "fa4cb5eda3aced7f37156fbab1403e4e",
-      "title": "Anthropic says Claude writes and reviews 90% of its team’s code. The catch is how it checks the work.",
-      "url": "https://thenewstack.io/anthropic-claude-code-verification/",
-      "source": "The New Stack",
-      "published_at": "2026-11-20T16:41:28+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "317a9ec23b167b9b7e5e33fda8542e81",
-      "title": "apache/airflow: providers-ssh/7.0.3rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-ssh%2F7.0.3rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-20T16:16:27+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a593164cd0fbb4efd34ce746f472e668",
-      "title": "apache/airflow: providers-standard/1.22.0rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-standard%2F1.22.0rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-20T16:16:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "a50f51b038157c9241f9005d104af479",
-      "title": "apache/airflow: providers-vertica/4.4.2rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-vertica%2F4.4.2rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-20T16:16:26+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "c2dd0403ca71c6b3a4b5533e75606e38",
-      "title": "apache/airflow: providers-openlineage/2.21.1rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-openlineage%2F2.21.1rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-20T16:16:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "1cef5d3345168ce772d44e31ff7a2d87",
-      "title": "apache/airflow: providers-smtp/3.2.2rc1",
-      "url": "https://github.com/apache/airflow/releases/tag/providers-smtp%2F3.2.2rc1",
-      "source": "GitHub Releases (apache)",
-      "published_at": "2026-11-20T16:16:25+00:00",
-      "summary": "",
-      "tags": [],
-      "relevance_score": 0.0
-    },
-    {
-      "id": "b9f338a3e6ddd6e84e403996e46c7090",
-      "title": "Marking a container unhealthy didn't stop it from taking traffic",
-      "url": "https://dev.to/alexgeorgiev17/marking-a-container-unhealthy-didnt-stop-it-from-taking-traffic-54lf",
-      "source": "Dev.to",
-      "published_at": "2026-11-20T11:00:00Z",
-      "summary": "I broke a container on purpose and watched Docker mark it unhealthy for 35 seconds while nginx kept sending it a third of all traffic. The actual cause: a missing http_500 in proxy_next_upstream.",
-      "tags": [
-        "docker",
-        "nginx",
-        "devops",
-        "performance"
-      ],
       "relevance_score": 0.0
     },
     {
@@ -2615,6 +2495,66 @@
         "automation",
         "devops"
       ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "0f5f689274030ea3e96962e61cc94b01",
+      "title": "AWS Nitro Sandboxes give AI agents a place to run",
+      "url": "https://thenewstack.io/aws-nitro-sandboxes-agents/",
+      "source": "The New Stack",
+      "published_at": "2026-11-27T19:16:41+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "c209afbec8d089d15ee20a54a8ee349e",
+      "title": "Is your cheapest AI task running on your most expensive model?",
+      "url": "https://dev.to/heinrichneb/five-ai-agents-one-simple-job-400000-tokens-i-had-forgotten-one-line-47of",
+      "source": "Dev.to",
+      "published_at": "2026-11-27T15:00:00Z",
+      "summary": "Five helper agents read through my repos one day in August. They did a lovely job. They read every...",
+      "tags": [
+        "ai",
+        "programming",
+        "productivity",
+        "devops"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "cc6e97e080778e4336973b21b350f591",
+      "title": "grafana/grafana: @grafana/plugin-compat@0.13.0",
+      "url": "https://github.com/grafana/grafana/releases/tag/%40grafana%2Fplugin-compat%400.13.0",
+      "source": "GitHub Releases (grafana)",
+      "published_at": "2026-11-27T14:10:30+00:00",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "d7bde8cbe5c1cd688f348a175988613a",
+      "title": "Chasing down why Ansible stalled on a fresh Ubuntu 26.04 box",
+      "url": "https://dev.to/alexgeorgiev17/chasing-down-why-ansible-stalled-on-a-fresh-ubuntu-2604-box-5678",
+      "source": "Dev.to",
+      "published_at": "2026-11-27T11:00:00Z",
+      "summary": "Ansible's become hung for about 12-13 seconds against Ubuntu 26.04's new sudo-rs. I measured which Ansible versions actually fix it, which don't, and which workaround holds up.",
+      "tags": [
+        "devops",
+        "linux",
+        "ansible",
+        "security"
+      ],
+      "relevance_score": 0.0
+    },
+    {
+      "id": "636dcc5589fa5c457feb7fe3b8342839",
+      "title": "ollama/ollama: v0.40.19",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+      "source": "GitHub Releases (ollama)",
+      "published_at": "2026-11-26T06:20:48+00:00",
+      "summary": "",
+      "tags": [],
       "relevance_score": 0.0
     }
   ]
